@@ -1,0 +1,33 @@
+#!/usr/bin/perl -w
+
+use strict;
+
+if ($ARGV[0] eq "-list") {
+	my @list = list_names($ARGV[1]);
+	printf("@list");
+} elsif ($ARGV[0] eq "-reduced") {
+	my $destination = $ARGV[1];
+	install_reduced($destination);
+} else {
+	my $destination = $ARGV[0];
+	install_reduced($destination);
+}
+
+sub install_reduced {
+	my ($corpusdir) = @_;
+	my $src = "ganttproject-2.0.9-src.zip";
+	my $bin = "ganttproject-2.0.9.zip";
+	my @files = ("ganttproject-2.0.9/plugins/org.ganttproject.impex.htmlpdf_2.0.0/lib/fop.jar","ganttproject-2.0.9/plugins/net.sourceforge.ganttproject_2.0.0/lib/core/AppleJavaExtensions.jar","ganttproject-2.0.9/plugins/net.sourceforge.ganttproject_2.0.0/lib/core/jgoodies-looks-1.2.2.jar","ganttproject-2.0.9/plugins/org.ganttproject.impex.msproject_2.0.0/lib/mpxj/jaxb-api.jar","ganttproject-2.0.9/plugins/net.sourceforge.ganttproject_2.0.0/lib/core/xml-im-exporter1.1.jar","ganttproject-2.0.9/plugins/net.sourceforge.ganttproject_2.0.0/lib/core/commons-transaction-1.0.jar","ganttproject-2.0.9/plugins/org.ganttproject.impex.msproject_2.0.0/lib/mpxj/jaxb-libs.jar","ganttproject-2.0.9/plugins/org.ganttproject.impex.msproject_2.0.0/lib/mpxj/relaxngDatatype.jar","ganttproject-2.0.9/plugins/net.sourceforge.ganttproject_2.0.0/lib/core/jakarta-poi-2.5.jar","ganttproject-2.0.9/plugins/net.sourceforge.ganttproject_2.0.0/lib/core/commons-logging.jar","ganttproject-2.0.9/eclipsito.jar","ganttproject-2.0.9/plugins/org.ganttproject.impex.msproject_2.0.0/lib/mpxj/jaxb-impl.jar","ganttproject-2.0.9/plugins/org.ganttproject.impex.msproject_2.0.0/lib/mpxj/mpxj.jar","ganttproject-2.0.9/plugins/net.sourceforge.ganttproject_2.0.0/lib/core/jdnc-modifBen.jar","ganttproject-2.0.9/plugins/org.ganttproject.impex.htmlpdf_2.0.0/lib/ganttproject-avalon.jar","ganttproject-2.0.9/plugins/net.sourceforge.ganttproject_2.0.0/lib/core/commons-httpclient.jar","ganttproject-2.0.9/plugins/org.ganttproject.impex.htmlpdf_2.0.0/lib/fop-font-metrics.jar","ganttproject-2.0.9/plugins/org.ganttproject.impex.msproject_2.0.0/ganttproject-msproject.jar","ganttproject-2.0.9/plugins/org.ganttproject.chart.pert_2.0.0/pert.jar","ganttproject-2.0.9/plugins/org.ganttproject.impex.msproject_2.0.0/lib/mpxj/xsdlib.jar","ganttproject-2.0.9/plugins/net.sourceforge.ganttproject_2.0.0/lib/core/jakarta-slide-webdavlib-2.1.jar","ganttproject-2.0.9/plugins/org.ganttproject.impex.htmlpdf_2.0.0/lib/ganttproject-batik.jar","ganttproject-2.0.9/plugins/org.ganttproject.impex.msproject_2.0.0/lib/mpxj/namespace.jar","ganttproject-2.0.9/plugins/org.ganttproject.impex.htmlpdf_2.0.0/ganttproject-htmlpdf.jar","ganttproject-2.0.9/plugins/net.sourceforge.ganttproject_2.0.0/ganttproject.jar","ganttproject-2.0.9/plugins/net.sourceforge.ganttproject_2.0.0/lib/core/helpgui-1.1.jar","ganttproject-2.0.9/plugins/net.sourceforge.ganttproject_2.0.0/lib/core/commons-httpclient-contrib.jar","ganttproject-2.0.9/plugins/net.sourceforge.ganttproject_2.0.0/lib/core/jdom-1.0.jar","ganttproject-2.0.9/plugins/org.ganttproject.impex.msproject_2.0.0/lib/mpxj/jax-qname.jar");
+	printf("\t\t unpacking $src\n");
+	system("unzip -qo $corpusdir/compressed/$src -d $corpusdir/src\n") == 0 or die "Failed to extract $src\n";
+	printf("\t\t unpacking $bin\n");
+	system("unzip -qo $corpusdir/compressed/$bin @files -d $corpusdir/bin\n") == 0 or die "Failed to extract $bin\n";
+}
+
+sub list_names {
+	my ($appverdir) = @_;
+	opendir(COMPRESSED, "$appverdir/compressed") || die "can't open $appverdir/compressed: $!";
+	my @archives = grep {! /^\.$/ and ! /^\.\.$/ } readdir(COMPRESSED);
+	close(COMPRESSED);
+	return @archives;
+}

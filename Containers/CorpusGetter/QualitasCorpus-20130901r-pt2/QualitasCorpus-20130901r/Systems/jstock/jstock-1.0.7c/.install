@@ -1,0 +1,33 @@
+#!/usr/bin/perl -w
+
+use strict;
+
+if ($ARGV[0] eq "-list") {
+	my @list = list_names($ARGV[1]);
+	printf("@list");
+} elsif ($ARGV[0] eq "-reduced") {
+	my $destination = $ARGV[1];
+	install_reduced($destination);
+} else {
+	my $destination = $ARGV[0];
+	install_reduced($destination);
+}
+
+sub install_reduced {
+	my ($corpusdir) = @_;
+	my $src = "jstock-1.0.7c-src.zip";
+	my $bin = "jstock-1.0.7c-bin.zip";
+	my @files = ("jstock/lib/commons-httpclient-3.1-rc1.jar","jstock/lib/poi-3.2-FINAL-20081019.jar","jstock/lib/commons-net-1.4.1.jar","jstock/lib/smackx.jar","jstock/lib/gdata-core-1.0.jar","jstock/lib/commons-codec-1.3.jar","jstock/lib/dom4j-1.6.1.jar","jstock/lib/xom-1.1.jar","jstock/lib/jfreechart-1.0.13.jar","jstock/lib/xml-writer-0.2.jar","jstock/lib/smack.jar","jstock/lib/commons-logging-1.1.jar","jstock/lib/commons-lang-2.4.jar","jstock/lib/stax-1.2.0.jar","jstock/lib/swingx-0.9.6.jar","jstock/lib/jasypt-1.5.jar","jstock/lib/nachocalendar-0.23.jar","jstock/lib/opencsv-2.3.jar","jstock/lib/forms-1.1.0.jar","jstock/lib/jdom-1.1.jar","jstock/lib/AbsoluteLayout.jar","jstock/lib/jackson-mapper-asl-1.9.9.jar","jstock/lib/jackson-core-asl-1.9.9.jar","jstock/lib/gdata-calendar-2.0.jar","jstock/lib/jxlayer.jar","jstock/lib/jh.jar","jstock/lib/google-collect-1.0-rc1.jar","jstock/lib/gdata-docs-3.0.jar","jstock/lib/stax-api-1.0.1.jar","jstock/jstock.jar","jstock/lib/swing-layout-1.0.jar","jstock/lib/xstream-1.4.2.jar","jstock/lib/cglib-nodep-2.2.jar","jstock/lib/kxml2-2.3.0.jar","jstock/lib/gdata-client-1.0.jar","jstock/lib/jcommon-1.0.16.jar","jstock/lib/JHotDraw7.jar","jstock/lib/commons-validator-1.3.1.jar","jstock/lib/pinyin4j-2.5.0.jar","jstock/lib/xpp3_min-1.1.4c.jar","jstock/lib/blobsallad.jar","jstock/lib/l2fprod-common-all.jar","jstock/lib/ta-lib-0.4.0.jar","jstock/lib/joda-time-1.6.jar","jstock/lib/mail.jar","jstock/lib/jakarta-oro-2.0.8.jar","jstock/lib/gdata-media-1.0.jar");
+	printf("\t\t unpacking $src\n");
+	system("unzip -qo $corpusdir/compressed/$src -d $corpusdir/src\n") == 0 or die "Failed to extract $src\n";
+	printf("\t\t unpacking $bin\n");
+	system("unzip -qo $corpusdir/compressed/$bin @files -d $corpusdir/bin\n") == 0 or die "Failed to extract $bin\n";
+}
+
+sub list_names {
+	my ($appverdir) = @_;
+	opendir(COMPRESSED, "$appverdir/compressed") || die "can't open $appverdir/compressed: $!";
+	my @archives = grep {! /^\.$/ and ! /^\.\.$/ } readdir(COMPRESSED);
+	close(COMPRESSED);
+	return @archives;
+}

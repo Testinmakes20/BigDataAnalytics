@@ -1,0 +1,745 @@
+#2013-09-05T10:02:47NZST
+#System Version : hsqldb-2.0.0
+#Source Packages: org.hsqldb.
+#Ignore Packages: 
+#Distributed    : hsqldb-2.0.0/hsqldb/doc-src/verbatim/src,hsqldb-2.0.0/hsqldb/doc/verbatim/src,hsqldb-2.0.0/hsqldb/src
+#Source Roots   : hsqldb-2.0.0/hsqldb/doc-src/verbatim/src,hsqldb-2.0.0/hsqldb/doc/verbatim/src,hsqldb-2.0.0/hsqldb/src
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+org.hsqldb.lib.tar.DbBackup	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/tar/DbBackup.java	0	0	0	0	413	203
+org.hsqldb.lib.tar.PIFData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/tar/PIFData.java	0	0	0	0	116	57
+org.hsqldb.lib.tar.PIFGenerator	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/tar/PIFGenerator.java	0	0	0	0	181	85
+org.hsqldb.lib.tar.RB	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/tar/RB.java	0	0	0	0	179	122
+org.hsqldb.lib.tar.TarFileInputStream	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/tar/TarFileInputStream.java	0	0	0	0	307	108
+org.hsqldb.lib.tar.TarFileOutputStream	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/tar/TarFileOutputStream.java	0	0	0	0	372	163
+org.hsqldb.lib.tar.TarFileOutputStream$Compression	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/tar/TarFileOutputStream.java	0	0	0	2	0	0
+org.hsqldb.lib.tar.TarGenerator	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/tar/TarGenerator.java	0	0	0	0	691	377
+org.hsqldb.lib.tar.TarGenerator$TarEntrySupplicant	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/tar/TarGenerator.java	0	0	0	2	0	0
+org.hsqldb.lib.tar.TarHeaderField	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/tar/TarHeaderField.java	0	0	0	0	119	24
+org.hsqldb.lib.tar.TarMalformatException	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/tar/TarMalformatException.java	0	0	0	0	40	7
+org.hsqldb.lib.tar.TarReader	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/tar/TarReader.java	0	0	0	0	799	466
+org.hsqldb.lib.tar.TarReader$TarEntryHeader	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/tar/TarReader.java	0	0	0	2	0	0
+org.hsqldb.lib.tar.TarReader$TarEntryHeader$MissingField	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/tar/TarReader.java	0	0	0	2	0	0
+org.hsqldb.rights.GrantConstants	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rights/GrantConstants.java	0	0	0	0	69	12
+org.hsqldb.rights.Grantee	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rights/Grantee.java	0	0	0	0	1244	716
+org.hsqldb.rights.GranteeManager	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rights/GranteeManager.java	0	0	0	0	770	422
+org.hsqldb.rights.Right	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rights/Right.java	0	0	0	0	931	641
+org.hsqldb.rights.User	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rights/User.java	0	0	0	0	214	93
+org.hsqldb.rights.UserManager	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rights/UserManager.java	0	0	0	0	332	137
+org.hsqldb.server.HsqlServerFactory	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/HsqlServerFactory.java	0	0	0	0	91	33
+org.hsqldb.server.HsqlSocketFactory	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/HsqlSocketFactory.java	0	0	0	0	203	68
+org.hsqldb.server.HsqlSocketFactorySecure	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/HsqlSocketFactorySecure.java	0	0	0	0	387	171
+org.hsqldb.server.HsqlSocketRequestHandler	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/HsqlSocketRequestHandler.java	0	0	0	0	51	6
+org.hsqldb.server.OdbcPacketInputStream	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/OdbcPacketInputStream.java	0	0	0	4	226	131
+org.hsqldb.server.OdbcPacketOutputStream	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/OdbcPacketOutputStream.java	0	0	0	4	140	69
+org.hsqldb.server.OdbcPreparedStatement	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/OdbcPreparedStatement.java	0	0	0	4	115	54
+org.hsqldb.server.OdbcUtil	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/OdbcUtil.java	0	0	0	0	291	204
+org.hsqldb.server.PgType	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/PgType.java	0	0	0	0	544	338
+org.hsqldb.server.RecoverableOdbcFailure	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/RecoverableOdbcFailure.java	0	0	0	4	83	33
+org.hsqldb.server.Server	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/Server.java	0	0	0	0	2410	1054
+org.hsqldb.server.Server$ServerThread	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/Server.java	0	0	0	2	0	0
+org.hsqldb.server.ServerAcl	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/ServerAcl.java	0	0	0	0	525	319
+org.hsqldb.server.ServerAcl$1	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/ServerAcl.java	0	0	0	2	0	0
+org.hsqldb.server.ServerAcl$AclEntry	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/ServerAcl.java	0	0	0	2	0	0
+org.hsqldb.server.ServerAcl$AclFormatException	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/ServerAcl.java	0	0	0	2	0	0
+org.hsqldb.server.ServerAcl$InternalException	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/ServerAcl.java	0	0	0	2	0	0
+org.hsqldb.server.ServerConfiguration	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/ServerConfiguration.java	0	0	0	0	273	122
+org.hsqldb.server.ServerConnection	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/ServerConnection.java	0	0	0	4	1943	1167
+org.hsqldb.server.ServerConnection$1	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/ServerConnection.java	0	0	0	2	0	0
+org.hsqldb.server.ServerConnection$CleanExit	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/ServerConnection.java	0	0	0	2	0	0
+org.hsqldb.server.ServerConnection$ClientFailure	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/ServerConnection.java	0	0	0	2	0	0
+org.hsqldb.server.ServerConstants	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/ServerConstants.java	0	0	0	0	101	45
+org.hsqldb.server.ServerProperties	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/ServerProperties.java	0	0	0	0	316	180
+org.hsqldb.server.Servlet	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/doc-src/verbatim/src/org/hsqldb/server/Servlet.java,hsqldb-2.0.0/hsqldb/doc/verbatim/src/org/hsqldb/server/Servlet.java,hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/Servlet.java	0	0	0	0	320	143
+org.hsqldb.server.StatementPortal	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/StatementPortal.java	0	0	0	4	122	69
+org.hsqldb.server.WebServer	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/doc-src/verbatim/src/org/hsqldb/server/WebServer.java,hsqldb-2.0.0/hsqldb/doc/verbatim/src/org/hsqldb/server/WebServer.java,hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/WebServer.java	0	0	0	0	270	66
+org.hsqldb.server.WebServerConnection	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/WebServerConnection.java	0	0	0	4	553	329
+org.hsqldb.dbinfo.DITableInfo	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/dbinfo/DITableInfo.java	0	0	0	4	262	98
+org.hsqldb.dbinfo.DatabaseInformation	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/dbinfo/DatabaseInformation.java	0	0	0	0	369	242
+org.hsqldb.dbinfo.DatabaseInformationFull	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/dbinfo/DatabaseInformationFull.java	0	0	0	4	7022	4388
+org.hsqldb.dbinfo.DatabaseInformationMain	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/dbinfo/DatabaseInformationMain.java	0	0	0	4	3609	1902
+org.hsqldb.jdbc.BlobInputStream	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/BlobInputStream.java	0	0	0	0	146	76
+org.hsqldb.jdbc.ClobInputStream	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/ClobInputStream.java	0	0	0	0	158	85
+org.hsqldb.jdbc.JDBCArray	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCArray.java	0	0	0	0	559	118
+org.hsqldb.jdbc.JDBCBlob	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCBlob.java	0	0	0	0	875	240
+org.hsqldb.jdbc.JDBCBlob$1	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCBlob.java	0	0	0	2	0	0
+org.hsqldb.jdbc.JDBCBlobClient	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCBlobClient.java	0	0	0	0	339	100
+org.hsqldb.jdbc.JDBCCallableStatement	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCCallableStatement.java	0	0	0	0	4841	750
+org.hsqldb.jdbc.JDBCClob	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCClob.java	0	0	0	0	932	222
+org.hsqldb.jdbc.JDBCClob$1	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCClob.java	0	0	0	2	0	0
+org.hsqldb.jdbc.JDBCClob$2	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCClob.java	0	0	0	2	0	0
+org.hsqldb.jdbc.JDBCClobClient	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCClobClient.java	0	0	0	0	347	104
+org.hsqldb.jdbc.JDBCColumnMetaData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCColumnMetaData.java	0	0	0	0	161	51
+org.hsqldb.jdbc.JDBCConnection	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCConnection.java	0	0	0	0	3457	750
+org.hsqldb.jdbc.JDBCConnection$1	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCConnection.java	0	0	0	2	0	0
+org.hsqldb.jdbc.JDBCDataSource	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCDataSource.java	0	0	0	0	451	86
+org.hsqldb.jdbc.JDBCDataSourceFactory	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCDataSourceFactory.java	0	0	0	0	86	22
+org.hsqldb.jdbc.JDBCDatabaseMetaData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCDatabaseMetaData.java	0	0	0	0	6166	983
+org.hsqldb.jdbc.JDBCDriver	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCDriver.java	0	0	0	0	491	130
+org.hsqldb.jdbc.JDBCDriver$1	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCDriver.java	0	0	0	2	0	0
+org.hsqldb.jdbc.JDBCNClob	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCNClob.java	0	0	0	0	83	10
+org.hsqldb.jdbc.JDBCParameterMetaData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCParameterMetaData.java	0	0	0	0	479	159
+org.hsqldb.jdbc.JDBCPreparedStatement	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCPreparedStatement.java	0	0	0	0	4685	1498
+org.hsqldb.jdbc.JDBCResultSet	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCResultSet.java	0	0	0	0	7389	1472
+org.hsqldb.jdbc.JDBCResultSetMetaData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCResultSetMetaData.java	0	0	0	0	1054	234
+org.hsqldb.jdbc.JDBCRowId	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCRowId.java	0	0	0	0	223	50
+org.hsqldb.jdbc.JDBCSQLXML	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCSQLXML.java	0	0	0	0	3141	1067
+org.hsqldb.jdbc.JDBCSQLXML$Exceptions	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCSQLXML.java	0	0	0	2	0	0
+org.hsqldb.jdbc.JDBCSQLXML$SAX2DOMBuilder	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCSQLXML.java	0	0	0	2	0	0
+org.hsqldb.jdbc.JDBCSQLXML$SAX2XMLStreamWriter	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCSQLXML.java	0	0	0	2	0	0
+org.hsqldb.jdbc.JDBCSQLXML$SAX2XMLStreamWriter$QualifiedName	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCSQLXML.java	0	0	0	2	0	0
+org.hsqldb.jdbc.JDBCSavepoint	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCSavepoint.java	0	0	0	0	134	40
+org.hsqldb.jdbc.JDBCStatement	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCStatement.java	0	0	0	0	1808	314
+org.hsqldb.jdbc.JDBCStatementBase	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCStatementBase.java	0	0	0	4	301	132
+org.hsqldb.jdbc.Util	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/Util.java	0	0	0	0	906	119
+org.hsqldb.types.ArrayType	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/ArrayType.java	0	0	0	0	359	225
+org.hsqldb.types.BinaryData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/BinaryData.java	0	0	0	0	282	166
+org.hsqldb.types.BinaryType	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/BinaryType.java	0	0	0	0	706	464
+org.hsqldb.types.BitType	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/BitType.java	0	0	0	0	571	388
+org.hsqldb.types.BlobData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/BlobData.java	0	0	0	0	98	32
+org.hsqldb.types.BlobDataID	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/BlobDataID.java	0	0	0	0	206	123
+org.hsqldb.types.BlobInputStream	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/BlobInputStream.java	0	0	0	0	144	77
+org.hsqldb.types.BlobType	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/BlobType.java	0	0	0	0	212	130
+org.hsqldb.types.BooleanType	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/BooleanType.java	0	0	0	0	279	178
+org.hsqldb.types.CharacterType	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/CharacterType.java	0	0	0	0	999	689
+org.hsqldb.types.Charset	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/Charset.java	0	0	0	0	186	111
+org.hsqldb.types.ClobData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/ClobData.java	0	0	0	0	86	28
+org.hsqldb.types.ClobDataID	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/ClobDataID.java	0	0	0	0	224	133
+org.hsqldb.types.ClobInputStream	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/ClobInputStream.java	0	0	0	0	161	88
+org.hsqldb.types.ClobType	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/ClobType.java	0	0	0	0	196	116
+org.hsqldb.types.DTIType	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/DTIType.java	0	0	0	0	486	334
+org.hsqldb.types.DateTimeType	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/DateTimeType.java	0	0	0	0	1582	1153
+org.hsqldb.types.IntervalMonthData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/IntervalMonthData.java	0	0	0	0	103	47
+org.hsqldb.types.IntervalSecondData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/IntervalSecondData.java	0	0	0	0	171	95
+org.hsqldb.types.IntervalType	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/IntervalType.java	0	0	0	0	1500	1106
+org.hsqldb.types.JavaObjectData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/JavaObjectData.java	0	0	0	0	126	35
+org.hsqldb.types.LobData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/LobData.java	0	0	0	0	56	9
+org.hsqldb.types.NullType	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/NullType.java	0	0	0	0	119	61
+org.hsqldb.types.NumberType	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/NumberType.java	0	0	0	0	1843	1312
+org.hsqldb.types.OtherType	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/OtherType.java	0	0	0	0	193	108
+org.hsqldb.types.RowType	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/RowType.java	0	0	0	0	351	224
+org.hsqldb.types.TimeData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/TimeData.java	0	0	0	0	108	51
+org.hsqldb.types.TimestampData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/TimestampData.java	0	0	0	0	110	52
+org.hsqldb.types.Type	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/Type.java	0	0	0	0	1047	692
+org.hsqldb.types.Types	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/Types.java	0	0	0	0	820	347
+org.hsqldb.types.UserTypeModifier	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/types/UserTypeModifier.java	0	0	0	0	224	138
+org.hsqldb.util.CSVWriter	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/CSVWriter.java	0	0	0	0	141	55
+org.hsqldb.util.CodeSwitcher	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/CodeSwitcher.java	0	0	0	0	536	295
+org.hsqldb.util.CommonSwing	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/CommonSwing.java	0	0	0	4	240	106
+org.hsqldb.util.ConnectionDialog	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/ConnectionDialog.java	0	0	0	4	351	223
+org.hsqldb.util.ConnectionDialog$1	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/ConnectionDialog.java	0	0	0	2	0	0
+org.hsqldb.util.ConnectionDialog$2	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/ConnectionDialog.java	0	0	0	2	0	0
+org.hsqldb.util.ConnectionDialogCommon	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/ConnectionDialogCommon.java	0	0	0	4	337	191
+org.hsqldb.util.ConnectionDialogSwing	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/ConnectionDialogSwing.java	0	0	0	4	394	252
+org.hsqldb.util.ConnectionSetting	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/ConnectionSetting.java	0	0	0	0	101	46
+org.hsqldb.util.DataAccessPoint		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DataAccessPoint.java	0	2	0	4	138	71
+org.hsqldb.util.DataAccessPointException		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DataAccessPointException.java	0	2	0	4	48	9
+org.hsqldb.util.DatabaseManager	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DatabaseManager.java	0	0	0	0	1334	937
+org.hsqldb.util.DatabaseManagerCommon	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DatabaseManagerCommon.java	0	0	0	4	385	246
+org.hsqldb.util.DatabaseManagerSwing	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DatabaseManagerSwing.java	0	0	0	0	3100	2099
+org.hsqldb.util.DatabaseManagerSwing$1	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DatabaseManagerSwing.java	0	0	0	2	0	0
+org.hsqldb.util.DatabaseManagerSwing$10	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DatabaseManagerSwing.java	0	0	0	2	0	0
+org.hsqldb.util.DatabaseManagerSwing$11	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DatabaseManagerSwing.java	0	0	0	2	0	0
+org.hsqldb.util.DatabaseManagerSwing$2	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DatabaseManagerSwing.java	0	0	0	2	0	0
+org.hsqldb.util.DatabaseManagerSwing$3	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DatabaseManagerSwing.java	0	0	0	2	0	0
+org.hsqldb.util.DatabaseManagerSwing$4	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DatabaseManagerSwing.java	0	0	0	2	0	0
+org.hsqldb.util.DatabaseManagerSwing$5	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DatabaseManagerSwing.java	0	0	0	2	0	0
+org.hsqldb.util.DatabaseManagerSwing$6	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DatabaseManagerSwing.java	0	0	0	2	0	0
+org.hsqldb.util.DatabaseManagerSwing$7	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DatabaseManagerSwing.java	0	0	0	2	0	0
+org.hsqldb.util.DatabaseManagerSwing$8	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DatabaseManagerSwing.java	0	0	0	2	0	0
+org.hsqldb.util.DatabaseManagerSwing$9	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DatabaseManagerSwing.java	0	0	0	2	0	0
+org.hsqldb.util.DatabaseManagerSwing$DBMPrefs	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DatabaseManagerSwing.java	0	0	0	2	0	0
+org.hsqldb.util.DatabaseManagerSwing$PopupListener	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DatabaseManagerSwing.java	0	0	0	2	0	0
+org.hsqldb.util.DatabaseManagerSwing$StatementExecRunnable	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DatabaseManagerSwing.java	0	0	0	2	0	0
+org.hsqldb.util.FontDialogSwing	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/FontDialogSwing.java	0	0	0	0	327	195
+org.hsqldb.util.FontDialogSwing$1	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/FontDialogSwing.java	0	0	0	2	0	0
+org.hsqldb.util.FontDialogSwing$2	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/FontDialogSwing.java	0	0	0	2	0	0
+org.hsqldb.util.FontDialogSwing$3	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/FontDialogSwing.java	0	0	0	2	0	0
+org.hsqldb.util.FontDialogSwing$4	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/FontDialogSwing.java	0	0	0	2	0	0
+org.hsqldb.util.FontDialogSwing$5	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/FontDialogSwing.java	0	0	0	2	0	0
+org.hsqldb.util.FontDialogSwing$6	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/FontDialogSwing.java	0	0	0	2	0	0
+org.hsqldb.util.FontDialogSwing$7	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/FontDialogSwing.java	0	0	0	2	0	0
+org.hsqldb.util.Grid	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/Grid.java	0	0	0	4	615	278
+org.hsqldb.util.GridSwing	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/GridSwing.java	0	0	0	4	276	111
+org.hsqldb.util.HelperFactory		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/HelperFactory.java	0	2	0	4	70	25
+org.hsqldb.util.HsqldbTransferHelper		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/HsqldbTransferHelper.java	0	2	0	4	111	52
+org.hsqldb.util.InformixTransferHelper		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/InformixTransferHelper.java	0	2	0	4	95	34
+org.hsqldb.util.JDBCTypes		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/JDBCTypes.java	0	2	0	4	146	92
+org.hsqldb.util.MainInvoker	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/MainInvoker.java	0	0	0	0	148	69
+org.hsqldb.util.McKoiTransferHelper		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/McKoiTransferHelper.java	0	2	0	4	84	33
+org.hsqldb.util.OracleTransferHelper		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/OracleTransferHelper.java	0	2	0	4	183	105
+org.hsqldb.util.PostgresTransferHelper		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/PostgresTransferHelper.java	0	2	0	4	168	95
+org.hsqldb.util.SQLStatements		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/SQLStatements.java	0	2	0	4	100	19
+org.hsqldb.util.SqlServerTransferHelper		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/SqlServerTransferHelper.java	0	2	0	4	131	66
+org.hsqldb.util.TableSorter	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TableSorter.java	0	0	0	0	592	373
+org.hsqldb.util.TableSorter$1	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TableSorter.java	0	0	0	2	0	0
+org.hsqldb.util.TableSorter$2	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TableSorter.java	0	0	0	2	0	0
+org.hsqldb.util.TableSorter$Arrow	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TableSorter.java	0	0	0	2	0	0
+org.hsqldb.util.TableSorter$Directive	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TableSorter.java	0	0	0	2	0	0
+org.hsqldb.util.TableSorter$MouseHandler	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TableSorter.java	0	0	0	2	0	0
+org.hsqldb.util.TableSorter$Row	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TableSorter.java	0	0	0	2	0	0
+org.hsqldb.util.TableSorter$SortableHeaderRenderer	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TableSorter.java	0	0	0	2	0	0
+org.hsqldb.util.TableSorter$TableModelHandler	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TableSorter.java	0	0	0	2	0	0
+org.hsqldb.util.Traceable	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/Traceable.java	0	0	0	4	45	5
+org.hsqldb.util.Transfer		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/Transfer.java	0	2	0	0	1292	828
+org.hsqldb.util.TransferCommon		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TransferCommon.java	0	2	0	4	163	67
+org.hsqldb.util.TransferDb		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TransferDb.java	0	2	0	4	945	666
+org.hsqldb.util.TransferHelper		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TransferHelper.java	0	2	0	4	188	111
+org.hsqldb.util.TransferResultSet		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TransferResultSet.java	0	2	0	4	172	99
+org.hsqldb.util.TransferSQLText		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TransferSQLText.java	0	2	0	4	865	636
+org.hsqldb.util.TransferTable		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TransferTable.java	0	2	0	4	471	296
+org.hsqldb.util.Tree	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/Tree.java	0	0	0	4	536	253
+org.hsqldb.index.Index	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/index/Index.java	0	0	0	0	230	54
+org.hsqldb.index.IndexAVL	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/index/IndexAVL.java	0	0	0	0	1726	1084
+org.hsqldb.index.IndexAVL$IndexRowIterator	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/index/IndexAVL.java	0	0	0	2	0	0
+org.hsqldb.index.IndexAVLMemory	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/index/IndexAVLMemory.java	0	0	0	0	561	332
+org.hsqldb.index.NodeAVL	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/index/NodeAVL.java	0	0	0	0	289	139
+org.hsqldb.index.NodeAVLDisk	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/index/NodeAVLDisk.java	0	0	0	0	589	353
+org.hsqldb.ClientConnection	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ClientConnection.java	0	0	0	0	614	372
+org.hsqldb.ClientConnectionHTTP	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ClientConnectionHTTP.java	0	0	0	0	115	49
+org.hsqldb.Collation	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/Collation.java	0	0	0	0	300	211
+org.hsqldb.ColumnBase	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ColumnBase.java	0	0	0	0	141	79
+org.hsqldb.ColumnSchema	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ColumnSchema.java	0	0	0	0	382	224
+org.hsqldb.Constraint	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/Constraint.java	0	0	0	0	1044	621
+org.hsqldb.ConstraintCore	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ConstraintCore.java	0	0	0	4	137	37
+org.hsqldb.Database	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/Database.java	0	0	0	0	654	345
+org.hsqldb.DatabaseManager	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/DatabaseManager.java	0	0	0	0	481	239
+org.hsqldb.DatabaseURL	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/DatabaseURL.java	0	0	0	0	341	177
+org.hsqldb.Expression	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/Expression.java	0	0	0	0	1914	1265
+org.hsqldb.ExpressionAccessor	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ExpressionAccessor.java	0	0	0	0	200	111
+org.hsqldb.ExpressionAggregate	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ExpressionAggregate.java	0	0	0	0	279	173
+org.hsqldb.ExpressionArithmetic	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ExpressionArithmetic.java	0	0	0	0	474	321
+org.hsqldb.ExpressionColumn	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ExpressionColumn.java	0	0	0	0	946	649
+org.hsqldb.ExpressionColumnAccessor	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ExpressionColumnAccessor.java	0	0	0	0	171	89
+org.hsqldb.ExpressionLike	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ExpressionLike.java	0	0	0	0	378	259
+org.hsqldb.ExpressionLogical	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ExpressionLogical.java	0	0	0	0	1886	1361
+org.hsqldb.ExpressionOp	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ExpressionOp.java	0	0	0	0	577	385
+org.hsqldb.ExpressionOrderBy	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ExpressionOrderBy.java	0	0	0	0	137	59
+org.hsqldb.ExpressionTable	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ExpressionTable.java	0	0	0	0	224	136
+org.hsqldb.ExpressionValue	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ExpressionValue.java	0	0	0	0	111	47
+org.hsqldb.FunctionCustom	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/FunctionCustom.java	0	0	0	0	2157	1688
+org.hsqldb.FunctionSQL	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/FunctionSQL.java	0	0	0	0	1990	1466
+org.hsqldb.FunctionSQLInvoked	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/FunctionSQLInvoked.java	0	0	0	0	333	218
+org.hsqldb.HsqlDateTime	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/HsqlDateTime.java	0	0	0	0	556	305
+org.hsqldb.HsqlDateTime$Tokenizer	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/HsqlDateTime.java	0	0	0	2	0	0
+org.hsqldb.HsqlException	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/HsqlException.java	0	0	0	0	169	80
+org.hsqldb.HsqlException$HsqlRuntimeMemoryError	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/HsqlException.java	0	0	0	2	0	0
+org.hsqldb.HsqlNameManager	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/HsqlNameManager.java	0	0	0	0	563	330
+org.hsqldb.HsqlNameManager$1	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/HsqlNameManager.java	0	0	0	2	0	0
+org.hsqldb.HsqlNameManager$HsqlName	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/HsqlNameManager.java	0	0	0	2	0	0
+org.hsqldb.HsqlNameManager$SimpleName	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/HsqlNameManager.java	0	0	0	2	0	0
+org.hsqldb.Like	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/Like.java	0	0	0	4	424	261
+org.hsqldb.NumberSequence	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/NumberSequence.java	0	0	0	0	714	475
+org.hsqldb.OpTypes	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/OpTypes.java	0	0	0	0	108	75
+org.hsqldb.ParserBase	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ParserBase.java	0	0	0	0	825	550
+org.hsqldb.ParserCommand	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ParserCommand.java	0	0	0	0	1894	1303
+org.hsqldb.ParserDDL	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ParserDDL.java	0	0	0	0	5033	3560
+org.hsqldb.ParserDML	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ParserDML.java	0	0	0	0	1196	826
+org.hsqldb.ParserDQL	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ParserDQL.java	0	0	0	0	5493	3766
+org.hsqldb.ParserDQL$CompileContext	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ParserDQL.java	0	0	0	2	0	0
+org.hsqldb.ParserRoutine	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/ParserRoutine.java	0	0	0	0	1737	1198
+org.hsqldb.QueryExpression	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/QueryExpression.java	0	0	0	0	926	618
+org.hsqldb.QuerySpecification	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/QuerySpecification.java	0	0	0	0	2285	1593
+org.hsqldb.RangeVariable	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/RangeVariable.java	0	0	0	0	1576	1095
+org.hsqldb.RangeVariable$1	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/RangeVariable.java	0	0	0	2	0	0
+org.hsqldb.RangeVariable$RangeIteratorBase	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/RangeVariable.java	0	0	0	2	0	0
+org.hsqldb.RangeVariable$RangeIteratorJoined	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/RangeVariable.java	0	0	0	2	0	0
+org.hsqldb.RangeVariable$RangeIteratorMain	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/RangeVariable.java	0	0	0	2	0	0
+org.hsqldb.RangeVariable$RangeIteratorRight	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/RangeVariable.java	0	0	0	2	0	0
+org.hsqldb.RangeVariable$RangeVariableConditions	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/RangeVariable.java	0	0	0	2	0	0
+org.hsqldb.RangeVariableResolver	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/RangeVariableResolver.java	0	0	0	0	1058	712
+org.hsqldb.Routine	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/Routine.java	0	0	0	0	1069	758
+org.hsqldb.RoutineSchema	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/RoutineSchema.java	0	0	0	0	339	217
+org.hsqldb.Row	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/Row.java	0	0	0	0	178	86
+org.hsqldb.RowAVL	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/RowAVL.java	0	0	0	0	213	73
+org.hsqldb.RowAVLDisk	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/RowAVLDisk.java	0	0	0	0	433	176
+org.hsqldb.RowAVLDiskData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/RowAVLDiskData.java	0	0	0	0	226	105
+org.hsqldb.RowAction	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/RowAction.java	0	0	0	0	890	624
+org.hsqldb.RowActionBase	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/RowActionBase.java	0	0	0	4	95	37
+org.hsqldb.Scanner	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/Scanner.java	0	0	0	0	2522	1746
+org.hsqldb.Schema	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/Schema.java	0	0	0	0	367	237
+org.hsqldb.SchemaManager	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/SchemaManager.java	0	0	0	0	2124	1397
+org.hsqldb.SchemaObject	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/SchemaObject.java	0	0	0	0	154	80
+org.hsqldb.SchemaObject$ConstraintTypes	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/SchemaObject.java	0	0	0	2	0	0
+org.hsqldb.SchemaObject$Deferable	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/SchemaObject.java	0	0	0	2	0	0
+org.hsqldb.SchemaObject$Nullability	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/SchemaObject.java	0	0	0	2	0	0
+org.hsqldb.SchemaObject$ParameterModes	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/SchemaObject.java	0	0	0	2	0	0
+org.hsqldb.SchemaObject$ReferentialAction	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/SchemaObject.java	0	0	0	2	0	0
+org.hsqldb.SchemaObject$ViewCheckModes	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/SchemaObject.java	0	0	0	2	0	0
+org.hsqldb.SchemaObjectSet	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/SchemaObjectSet.java	0	0	0	0	546	387
+org.hsqldb.Server	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/Server.java	0	0	0	0	36	4
+org.hsqldb.Session	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/Session.java	0	0	0	0	2145	1319
+org.hsqldb.SessionContext	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/SessionContext.java	0	0	0	0	233	131
+org.hsqldb.SessionData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/SessionData.java	0	0	0	0	526	349
+org.hsqldb.SessionInterface	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/SessionInterface.java	0	0	0	0	139	58
+org.hsqldb.SessionManager	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/SessionManager.java	0	0	0	0	279	117
+org.hsqldb.SetFunction	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/SetFunction.java	0	0	0	0	583	396
+org.hsqldb.SortAndSlice	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/SortAndSlice.java	0	0	0	0	322	214
+org.hsqldb.SqlInvariants	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/SqlInvariants.java	0	0	0	0	273	163
+org.hsqldb.Statement	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/Statement.java	0	0	0	0	237	134
+org.hsqldb.StatementCommand	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/StatementCommand.java	0	0	0	0	829	626
+org.hsqldb.StatementCompound	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/StatementCompound.java	0	0	0	0	750	442
+org.hsqldb.StatementDML	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/StatementDML.java	0	0	0	0	1318	911
+org.hsqldb.StatementDMQL	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/StatementDMQL.java	0	0	0	0	818	493
+org.hsqldb.StatementExpression	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/StatementExpression.java	0	0	0	0	188	101
+org.hsqldb.StatementHandler	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/StatementHandler.java	0	0	0	0	227	133
+org.hsqldb.StatementInsert	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/StatementInsert.java	0	0	0	0	283	165
+org.hsqldb.StatementManager	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/StatementManager.java	0	0	0	0	312	120
+org.hsqldb.StatementProcedure	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/StatementProcedure.java	0	0	0	0	363	212
+org.hsqldb.StatementQuery	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/StatementQuery.java	0	0	0	0	110	51
+org.hsqldb.StatementResultUpdate	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/StatementResultUpdate.java	0	0	0	0	217	136
+org.hsqldb.StatementSchema	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/StatementSchema.java	0	0	0	0	1322	998
+org.hsqldb.StatementSchemaDefinition	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/StatementSchemaDefinition.java	0	0	0	0	241	141
+org.hsqldb.StatementSession	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/StatementSession.java	0	0	0	0	698	507
+org.hsqldb.StatementSet	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/StatementSet.java	0	0	0	0	411	262
+org.hsqldb.StatementSimple	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/StatementSimple.java	0	0	0	0	209	118
+org.hsqldb.StatementTypes	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/StatementTypes.java	0	0	0	0	273	215
+org.hsqldb.SubQuery	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/SubQuery.java	0	0	0	4	366	225
+org.hsqldb.Table	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/Table.java	0	0	0	0	2769	1756
+org.hsqldb.TableBase	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/TableBase.java	0	0	0	0	544	334
+org.hsqldb.TableDerived	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/TableDerived.java	0	0	0	0	155	87
+org.hsqldb.TableUtil	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/TableUtil.java	0	0	0	0	131	67
+org.hsqldb.TableWorks	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/TableWorks.java	0	0	0	0	1264	830
+org.hsqldb.TextTable	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/TextTable.java	0	0	0	0	408	227
+org.hsqldb.Token	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/Token.java	0	0	0	0	290	196
+org.hsqldb.Tokens	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/doc-src/verbatim/src/org/hsqldb/Tokens.java,hsqldb-2.0.0/hsqldb/doc/verbatim/src/org/hsqldb/Tokens.java,hsqldb-2.0.0/hsqldb/src/org/hsqldb/Tokens.java	0	0	0	0	2302	2190
+org.hsqldb.TransactionManager	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/TransactionManager.java	0	0	0	0	111	33
+org.hsqldb.TransactionManager2PL	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/TransactionManager2PL.java	0	0	0	0	363	209
+org.hsqldb.TransactionManagerCommon	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/TransactionManagerCommon.java	0	0	0	4	801	506
+org.hsqldb.TransactionManagerMV2PL	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/TransactionManagerMV2PL.java	0	0	0	0	514	300
+org.hsqldb.TransactionManagerMVCC	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/TransactionManagerMVCC.java	0	0	0	0	865	486
+org.hsqldb.Trigger	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/doc-src/verbatim/src/org/hsqldb/Trigger.java,hsqldb-2.0.0/hsqldb/doc/verbatim/src/org/hsqldb/Trigger.java,hsqldb-2.0.0/hsqldb/src/org/hsqldb/Trigger.java	0	0	0	0	128	14
+org.hsqldb.TriggerDef	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/TriggerDef.java	0	0	0	0	672	401
+org.hsqldb.TriggerDef$DefaultTrigger	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/TriggerDef.java	0	0	0	2	0	0
+org.hsqldb.TriggerDef$TriggerData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/TriggerDef.java	0	0	0	2	0	0
+org.hsqldb.TriggerDefSQL	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/TriggerDefSQL.java	0	0	0	0	126	63
+org.hsqldb.View	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/View.java	0	0	0	0	320	178
+org.hsqldb.jdbcDriver	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbcDriver.java	0	0	0	0	36	4
+org.hsqldb.test.AbstractTestOdbc		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/AbstractTestOdbc.java	0	2	0	0	223	128
+org.hsqldb.test.AllSimpleTests		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/AllSimpleTests.java	0	2	0	0	74	33
+org.hsqldb.test.AllTests		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/AllTests.java	0	2	0	0	80	40
+org.hsqldb.test.BlaineTrig		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/BlaineTrig.java	0	2	0	0	44	10
+org.hsqldb.test.BlankParsedSection		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestUtil.java	0	2	0	1	0	0
+org.hsqldb.test.ClearTests		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/ClearTests.java	0	2	0	4	50	16
+org.hsqldb.test.CountParsedSection		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestUtil.java	0	2	0	1	0	0
+org.hsqldb.test.DisplaySection		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestUtil.java	0	2	0	1	0	0
+org.hsqldb.test.ExceptionParsedSection		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestUtil.java	0	2	0	1	0	0
+org.hsqldb.test.HSQLBug		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/HSQLBug.java	0	2	0	0	114	58
+org.hsqldb.test.HsqldbTestCase		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/HsqldbTestCase.java	0	2	0	0	170	83
+org.hsqldb.test.IgnoreParsedSection		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestUtil.java	0	2	0	1	0	0
+org.hsqldb.test.JDBCBench		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/JDBCBench.java	0	2	0	4	1113	804
+org.hsqldb.test.ParsedSection		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestUtil.java	0	2	0	1	0	0
+org.hsqldb.test.ProceedSection		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestUtil.java	0	2	0	1	0	0
+org.hsqldb.test.ResultSetOutputParsedSection		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestUtil.java	0	2	0	1	0	0
+org.hsqldb.test.ResultSetParsedSection		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestUtil.java	0	2	0	1	0	0
+org.hsqldb.test.SilentParsedSection		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestUtil.java	0	2	0	1	0	0
+org.hsqldb.test.TestAcl		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestAcl.java	0	2	0	0	426	278
+org.hsqldb.test.TestAllTypes		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestAllTypes.java	0	2	0	0	453	301
+org.hsqldb.test.TestAnother		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestAnother.java	0	2	0	0	106	48
+org.hsqldb.test.TestBase		hsqldb-2.0.0/hsqldb/doc-src/verbatim/src/org/hsqldb/test/TestBase.java,hsqldb-2.0.0/hsqldb/doc/verbatim/src/org/hsqldb/test/TestBase.java,hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestBase.java	0	2	0	0	155	88
+org.hsqldb.test.TestBatchBug		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestBatchBug.java	0	2	0	0	232	139
+org.hsqldb.test.TestBatchExecution		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestBatchExecution.java	0	2	0	0	368	234
+org.hsqldb.test.TestBench		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestBench.java	0	2	0	4	948	643
+org.hsqldb.test.TestBug1191815		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestBug1191815.java	0	2	0	0	128	64
+org.hsqldb.test.TestBug778213		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestBug778213.java	0	2	0	0	194	105
+org.hsqldb.test.TestBug785429		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestBug785429.java	0	2	0	0	163	86
+org.hsqldb.test.TestBug808460		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestBug808460.java	0	2	0	0	92	35
+org.hsqldb.test.TestCacheSize		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestCacheSize.java	0	2	0	0	1019	666
+org.hsqldb.test.TestCascade		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestCascade.java	0	2	0	0	180	98
+org.hsqldb.test.TestCollation		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestCollation.java	0	2	0	0	250	139
+org.hsqldb.test.TestDataStructures		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestDataStructures.java	0	2	0	0	498	333
+org.hsqldb.test.TestDatabaseMetaData		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestDatabaseMetaData.java	0	2	0	0	274	177
+org.hsqldb.test.TestDateTime		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestDateTime.java	0	2	0	0	335	181
+org.hsqldb.test.TestDatetimeSimple		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestDatetimeSimple.java	0	2	0	0	250	147
+org.hsqldb.test.TestDbBackup		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestDbBackup.java	0	2	0	0	625	447
+org.hsqldb.test.TestDima		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestDima.java	0	2	0	0	219	156
+org.hsqldb.test.TestGroupByHaving		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestGroupByHaving.java	0	2	0	0	355	182
+org.hsqldb.test.TestHSQLDB		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestHSQLDB.java	0	2	0	0	97	42
+org.hsqldb.test.TestHarness		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestHarness.java	0	2	0	0	278	179
+org.hsqldb.test.TestHashStructures		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestHashStructures.java	0	2	0	0	567	394
+org.hsqldb.test.TestINPredicateParameterizationAndCorrelation		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestINPredicateParameterizationAndCorrelation.java	0	2	0	0	222	116
+org.hsqldb.test.TestInstantiation		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestInstantiation.java	0	2	0	0	79	32
+org.hsqldb.test.TestJDBCGeneratedColumns		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestJDBCGeneratedColumns.java	0	2	0	0	123	59
+org.hsqldb.test.TestJDBCSavepoints		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestJDBCSavepoints.java	0	2	0	0	510	244
+org.hsqldb.test.TestJavaFunctions		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestJavaFunctions.java	0	2	0	0	207	127
+org.hsqldb.test.TestKarl		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestKarl.java	0	2	0	0	307	179
+org.hsqldb.test.TestLibSpeed		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestLibSpeed.java	0	2	0	0	239	166
+org.hsqldb.test.TestLikePredicateOptimizations		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestLikePredicateOptimizations.java	0	2	0	0	268	141
+org.hsqldb.test.TestLobs		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestLobs.java	0	2	0	0	664	462
+org.hsqldb.test.TestMerge		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestMerge.java	0	2	0	0	436	279
+org.hsqldb.test.TestMultiInsert		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestMultiInsert.java	0	2	0	0	160	91
+org.hsqldb.test.TestMultipleConnections		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestMultipleConnections.java	0	2	0	0	101	42
+org.hsqldb.test.TestNitin		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestNitin.java	0	2	0	0	92	45
+org.hsqldb.test.TestNullInUnion		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestNullInUnion.java	0	2	0	0	84	44
+org.hsqldb.test.TestObjectSize		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestObjectSize.java	0	2	0	0	76	30
+org.hsqldb.test.TestOdbcService		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestOdbcService.java	0	2	0	0	396	290
+org.hsqldb.test.TestOdbcTypes		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestOdbcTypes.java	0	2	0	0	1721	1282
+org.hsqldb.test.TestPreparedSubQueries		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestPreparedSubQueries.java	0	2	0	0	223	151
+org.hsqldb.test.TestQuotes		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestQuotes.java	0	2	0	0	158	93
+org.hsqldb.test.TestSchemaParse		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestSchemaParse.java	0	2	0	0	1060	778
+org.hsqldb.test.TestScript		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestScript.java	0	2	0	0	105	19
+org.hsqldb.test.TestScriptRunner		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestScriptRunner.java	0	2	0	4	374	277
+org.hsqldb.test.TestScripts		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestScripts.java	0	2	0	4	222	134
+org.hsqldb.test.TestSql		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestSql.java	0	2	0	0	942	651
+org.hsqldb.test.TestSqlPersistent		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestSqlPersistent.java	0	2	0	0	603	362
+org.hsqldb.test.TestStoredProcedure		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestStoredProcedure.java	0	2	0	0	192	105
+org.hsqldb.test.TestStressInsert		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestStressInsert.java	0	2	0	0	210	124
+org.hsqldb.test.TestSubQueriesInPreparedStatements		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestSubQueriesInPreparedStatements.java	0	2	0	0	161	84
+org.hsqldb.test.TestSubselect		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestSubselect.java	0	2	0	0	447	263
+org.hsqldb.test.TestTextTable		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestTextTable.java	0	2	0	0	569	344
+org.hsqldb.test.TestTextTables		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestTextTables.java	0	2	0	0	284	161
+org.hsqldb.test.TestTriggers		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestTriggers.java	0	2	0	0	174	109
+org.hsqldb.test.TestTypeConversion		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestTypeConversion.java	0	2	0	0	178	106
+org.hsqldb.test.TestUpdatableResultSets		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestUpdatableResultSets.java	0	2	0	0	192	115
+org.hsqldb.test.TestUpdatableResults		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestUpdatableResults.java	0	2	0	0	101	48
+org.hsqldb.test.TestUtil		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestUtil.java	0	2	0	0	1314	736
+org.hsqldb.test.TestViewAsterisks		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestViewAsterisks.java	0	2	0	0	591	349
+org.hsqldb.test.TriggerClass		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TriggerClass.java	0	2	0	0	46	11
+org.hsqldb.test.UpdateParsedSection		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestUtil.java	0	2	0	1	0	0
+org.hsqldb.test.WaitSection		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestUtil.java	0	2	0	1	0	0
+org.hsqldb.test.Waiter		hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/Waiter.java	0	2	0	0	122	56
+org.hsqldb.sample.ConnectionTypesSample		hsqldb-2.0.0/hsqldb/src/org/hsqldb/sample/ConnectionTypesSample.java	0	2	0	0	54	12
+org.hsqldb.sample.DatabaseManagerSample		hsqldb-2.0.0/hsqldb/src/org/hsqldb/sample/DatabaseManagerSample.java	0	2	0	0	50	10
+org.hsqldb.sample.FindFile		hsqldb-2.0.0/hsqldb/src/org/hsqldb/sample/FindFile.java	0	2	0	4	258	80
+org.hsqldb.sample.SqlFileEmbedder		hsqldb-2.0.0/hsqldb/doc-src/verbatim/src/org/hsqldb/sample/SqlFileEmbedder.java,hsqldb-2.0.0/hsqldb/doc/verbatim/src/org/hsqldb/sample/SqlFileEmbedder.java,hsqldb-2.0.0/hsqldb/src/org/hsqldb/sample/SqlFileEmbedder.java	0	2	0	0	150	60
+org.hsqldb.sample.Testdb		hsqldb-2.0.0/hsqldb/doc-src/verbatim/src/org/hsqldb/sample/Testdb.java,hsqldb-2.0.0/hsqldb/doc/verbatim/src/org/hsqldb/sample/Testdb.java,hsqldb-2.0.0/hsqldb/src/org/hsqldb/sample/Testdb.java	0	2	0	0	203	80
+org.hsqldb.sample.TriggerSample		hsqldb-2.0.0/hsqldb/doc-src/verbatim/src/org/hsqldb/sample/TriggerSample.java,hsqldb-2.0.0/hsqldb/doc/verbatim/src/org/hsqldb/sample/TriggerSample.java,hsqldb-2.0.0/hsqldb/src/org/hsqldb/sample/TriggerSample.java	0	2	0	0	506	285
+org.hsqldb.jdbc.pool.BaseConnectionWrapper	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/pool/BaseConnectionWrapper.java	0	0	0	0	472	254
+org.hsqldb.jdbc.pool.ConnectionDefaults	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/pool/ConnectionDefaults.java	0	0	0	0	111	58
+org.hsqldb.jdbc.pool.JDBCConnectionPoolDataSource	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/pool/JDBCConnectionPoolDataSource.java	0	0	0	0	309	139
+org.hsqldb.jdbc.pool.JDBCPooledConnection	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/pool/JDBCPooledConnection.java	0	0	0	0	86	29
+org.hsqldb.jdbc.pool.JDBCXAConnection	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/pool/JDBCXAConnection.java	0	0	0	0	68	15
+org.hsqldb.jdbc.pool.JDBCXAConnectionWrapper	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/pool/JDBCXAConnectionWrapper.java	0	0	0	0	182	47
+org.hsqldb.jdbc.pool.JDBCXADataSource	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/pool/JDBCXADataSource.java	0	0	0	0	194	76
+org.hsqldb.jdbc.pool.JDBCXAResource	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/pool/JDBCXAResource.java	0	0	0	0	453	171
+org.hsqldb.jdbc.pool.LifeTimeConnectionWrapper	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/pool/LifeTimeConnectionWrapper.java	0	0	0	0	196	99
+org.hsqldb.jdbc.pool.ManagedPoolDataSource	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/pool/ManagedPoolDataSource.java	0	0	0	0	1199	519
+org.hsqldb.jdbc.pool.SessionConnectionWrapper	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/pool/SessionConnectionWrapper.java	0	0	0	0	101	26
+org.hsqldb.jdbc.pool.WrapperInvocationHandler	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/pool/WrapperInvocationHandler.java	0	0	0	0	995	417
+org.hsqldb.jdbc.pool.WrapperInvocationHandler$ConnectionPool	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/pool/WrapperInvocationHandler.java	0	0	0	2	0	0
+org.hsqldb.jdbc.pool.WrapperInvocationHandler$StatementKey	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/pool/WrapperInvocationHandler.java	0	0	0	2	0	0
+org.hsqldb.jdbc.pool.WrapperInvocationHandler$StatementPool	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/pool/WrapperInvocationHandler.java	0	0	0	2	0	0
+org.hsqldb.lib.java.JavaSystem	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/java/JavaSystem.java	0	0	0	0	257	86
+org.hsqldb.error.Error	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/error/Error.java	0	0	0	0	289	128
+org.hsqldb.error.ErrorCode	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/error/ErrorCode.java	0	0	0	0	681	449
+org.hsqldb.util.preprocessor.AntResolver		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/AntResolver.java	0	2	0	4	62	15
+org.hsqldb.util.preprocessor.BasicResolver		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/BasicResolver.java	0	2	0	4	81	33
+org.hsqldb.util.preprocessor.Defines		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/Defines.java	0	2	0	4	202	125
+org.hsqldb.util.preprocessor.Document		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/Document.java	0	2	0	4	292	200
+org.hsqldb.util.preprocessor.IResolver		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/IResolver.java	0	2	0	0	54	6
+org.hsqldb.util.preprocessor.Line		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/Line.java	0	2	0	4	163	98
+org.hsqldb.util.preprocessor.LineType		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/LineType.java	0	2	0	4	128	66
+org.hsqldb.util.preprocessor.Option		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/Option.java	0	2	0	0	101	46
+org.hsqldb.util.preprocessor.Parser		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/Parser.java	0	2	0	4	277	174
+org.hsqldb.util.preprocessor.Preprocessor		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/Preprocessor.java	0	2	0	0	738	418
+org.hsqldb.util.preprocessor.PreprocessorAntTask		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/PreprocessorAntTask.java	0	2	0	0	243	86
+org.hsqldb.util.preprocessor.PreprocessorException		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/PreprocessorException.java	0	2	0	0	47	6
+org.hsqldb.util.preprocessor.Token		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/Token.java	0	2	0	4	107	62
+org.hsqldb.util.preprocessor.Tokenizer		hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/Tokenizer.java	0	2	0	4	245	157
+org.hsqldb.cmdline.sqltool.SqlFileScanner	hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/cmdline/sqltool/SqlFileScanner.java	0	0	0	0	1100	769
+org.hsqldb.cmdline.sqltool.Token	hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/cmdline/sqltool/Token.java	0	0	0	0	147	85
+org.hsqldb.cmdline.sqltool.TokenList	hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/cmdline/sqltool/TokenList.java	0	0	0	0	60	18
+org.hsqldb.cmdline.sqltool.TokenSource	hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/cmdline/sqltool/TokenSource.java	0	0	0	0	40	5
+org.hsqldb.rowio.RowInputBase	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rowio/RowInputBase.java	0	0	0	4	317	183
+org.hsqldb.rowio.RowInputBinary	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rowio/RowInputBinary.java	0	0	0	0	294	164
+org.hsqldb.rowio.RowInputBinary180	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rowio/RowInputBinary180.java	0	0	0	0	94	41
+org.hsqldb.rowio.RowInputBinaryDecode	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rowio/RowInputBinaryDecode.java	0	0	0	0	68	20
+org.hsqldb.rowio.RowInputInterface	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rowio/RowInputInterface.java	0	0	0	0	67	15
+org.hsqldb.rowio.RowInputText	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rowio/RowInputText.java	0	0	0	0	550	353
+org.hsqldb.rowio.RowInputTextLog	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rowio/RowInputTextLog.java	0	0	0	0	547	348
+org.hsqldb.rowio.RowInputTextQuoted	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rowio/RowInputTextQuoted.java	0	0	0	0	150	81
+org.hsqldb.rowio.RowOutputBase	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rowio/RowOutputBase.java	0	0	0	4	310	175
+org.hsqldb.rowio.RowOutputBinary	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rowio/RowOutputBinary.java	0	0	0	0	468	292
+org.hsqldb.rowio.RowOutputBinary180	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rowio/RowOutputBinary180.java	0	0	0	0	95	44
+org.hsqldb.rowio.RowOutputBinaryEncode	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rowio/RowOutputBinaryEncode.java	0	0	0	0	97	37
+org.hsqldb.rowio.RowOutputInterface	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rowio/RowOutputInterface.java	0	0	0	0	90	26
+org.hsqldb.rowio.RowOutputText	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rowio/RowOutputText.java	0	0	0	0	386	241
+org.hsqldb.rowio.RowOutputTextLog	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rowio/RowOutputTextLog.java	0	0	0	0	297	192
+org.hsqldb.rowio.RowOutputTextQuoted	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/rowio/RowOutputTextQuoted.java	0	0	0	0	73	25
+org.hsqldb.resources.BundleHandler	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/resources/BundleHandler.java	0	0	0	0	246	101
+org.hsqldb.store.BaseHashMap	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/store/BaseHashMap.java	0	0	0	0	1555	1068
+org.hsqldb.store.BaseHashMap$BaseHashIterator	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/store/BaseHashMap.java	0	0	0	2	0	0
+org.hsqldb.store.BaseHashMap$MultiValueKeyIterator	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/store/BaseHashMap.java	0	0	0	2	0	0
+org.hsqldb.store.BaseHashMap$ValuesIterator	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/store/BaseHashMap.java	0	0	0	2	0	0
+org.hsqldb.store.BitMap	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/store/BitMap.java	0	0	0	0	556	346
+org.hsqldb.store.HashIndex	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/store/HashIndex.java	0	0	0	4	272	117
+org.hsqldb.store.ObjectCacheHashMap	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/store/ObjectCacheHashMap.java	0	0	0	0	108	44
+org.hsqldb.store.ObjectCacheHashMap$ObjectCacheIterator	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/store/ObjectCacheHashMap.java	0	0	0	2	0	0
+org.hsqldb.store.ReusableObjectCache	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/store/ReusableObjectCache.java	0	0	0	0	61	21
+org.hsqldb.store.ValuePool	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/store/ValuePool.java	0	0	0	0	223	131
+org.hsqldb.store.ValuePoolHashMap	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/store/ValuePoolHashMap.java	0	0	0	0	414	241
+org.hsqldb.result.Result	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/result/Result.java	0	0	0	0	1585	1054
+org.hsqldb.result.ResultConstants	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/result/ResultConstants.java	0	0	0	0	710	72
+org.hsqldb.result.ResultLob	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/result/ResultLob.java	0	0	0	0	516	353
+org.hsqldb.result.ResultLob$LobResultTypes	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/result/ResultLob.java	0	0	0	2	0	0
+org.hsqldb.result.ResultMetaData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/result/ResultMetaData.java	0	0	0	0	496	332
+org.hsqldb.result.ResultProperties	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/result/ResultProperties.java	0	0	0	0	139	78
+org.hsqldb.lib.AppendableException	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar,hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/AppendableException.java	0	0	0	0	99	42
+org.hsqldb.lib.ArrayCounter	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/ArrayCounter.java	0	0	0	0	152	58
+org.hsqldb.lib.ArrayListIdentity	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/ArrayListIdentity.java	0	0	0	0	46	11
+org.hsqldb.lib.ArraySort	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/ArraySort.java	0	0	0	0	181	97
+org.hsqldb.lib.ArrayUtil	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/ArrayUtil.java	0	0	0	0	1328	725
+org.hsqldb.lib.BaseList	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/BaseList.java	0	0	0	4	205	111
+org.hsqldb.lib.BaseList$1	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/BaseList.java	0	0	0	2	0	0
+org.hsqldb.lib.BaseList$BaseListIterator	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/BaseList.java	0	0	0	2	0	0
+org.hsqldb.lib.BasicTextJdkLogFormatter	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar,hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/BasicTextJdkLogFormatter.java	0	0	0	0	84	31
+org.hsqldb.lib.CharArrayWriter	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/CharArrayWriter.java	0	0	0	0	160	80
+org.hsqldb.lib.ClosableByteArrayOutputStream	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/ClosableByteArrayOutputStream.java	0	0	0	0	456	136
+org.hsqldb.lib.ClosableCharArrayWriter	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/ClosableCharArrayWriter.java	0	0	0	0	463	147
+org.hsqldb.lib.Collection	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/Collection.java	0	0	0	0	71	12
+org.hsqldb.lib.CountUpDownLatch	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/CountUpDownLatch.java	0	0	0	0	88	40
+org.hsqldb.lib.CountdownInputStream	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/CountdownInputStream.java	0	0	0	0	131	57
+org.hsqldb.lib.DataOutputStream	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/DataOutputStream.java	0	0	0	0	149	76
+org.hsqldb.lib.DoubleIntIndex	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/DoubleIntIndex.java	0	0	0	0	692	403
+org.hsqldb.lib.FileAccess	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar,hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/FileAccess.java	0	0	0	0	71	22
+org.hsqldb.lib.FileAccess$FileSync	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar,hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/FileAccess.java	0	0	0	2	0	0
+org.hsqldb.lib.FileArchiver	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/FileArchiver.java	0	0	0	0	242	137
+org.hsqldb.lib.FileUtil	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/FileUtil.java	0	0	0	0	358	169
+org.hsqldb.lib.FileUtil$FileAccessRes	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/FileUtil.java	0	0	0	2	0	0
+org.hsqldb.lib.FileUtil$FileSync	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/FileUtil.java	0	0	0	2	0	0
+org.hsqldb.lib.FrameworkLogger	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar,hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/FrameworkLogger.java	0	0	0	0	484	242
+org.hsqldb.lib.HashMap	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HashMap.java	0	0	0	0	211	122
+org.hsqldb.lib.HashMap$KeySet	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.HashMap$Values	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.HashMappedList	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HashMappedList.java	0	0	0	0	239	130
+org.hsqldb.lib.HashSet	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HashSet.java	0	0	0	0	204	104
+org.hsqldb.lib.HsqlArrayHeap	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HsqlArrayHeap.java	0	0	0	0	331	128
+org.hsqldb.lib.HsqlArrayList	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HsqlArrayList.java	0	0	0	0	395	208
+org.hsqldb.lib.HsqlByteArrayInputStream	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HsqlByteArrayInputStream.java	0	0	0	0	278	162
+org.hsqldb.lib.HsqlByteArrayOutputStream	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HsqlByteArrayOutputStream.java	0	0	0	0	363	211
+org.hsqldb.lib.HsqlDeque	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HsqlDeque.java	0	0	0	0	335	188
+org.hsqldb.lib.HsqlHeap	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HsqlHeap.java	0	0	0	0	103	10
+org.hsqldb.lib.HsqlLinkedList	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HsqlLinkedList.java	0	0	0	0	282	120
+org.hsqldb.lib.HsqlLinkedList$Node	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HsqlLinkedList.java	0	0	0	2	0	0
+org.hsqldb.lib.HsqlList	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HsqlList.java	0	0	0	0	60	11
+org.hsqldb.lib.HsqlTaskQueue	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HsqlTaskQueue.java	0	0	0	0	164	84
+org.hsqldb.lib.HsqlTaskQueue$1	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HsqlTaskQueue.java	0	0	0	2	0	0
+org.hsqldb.lib.HsqlTaskQueue$TaskRunner	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HsqlTaskQueue.java	0	0	0	2	0	0
+org.hsqldb.lib.HsqlThreadFactory	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HsqlThreadFactory.java	0	0	0	4	111	24
+org.hsqldb.lib.HsqlTimer	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HsqlTimer.java	0	0	0	0	959	334
+org.hsqldb.lib.HsqlTimer$Task	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HsqlTimer.java	0	0	0	2	0	0
+org.hsqldb.lib.HsqlTimer$TaskQueue	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HsqlTimer.java	0	0	0	2	0	0
+org.hsqldb.lib.HsqlTimer$TaskRunner	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HsqlTimer.java	0	0	0	2	0	0
+org.hsqldb.lib.InOutUtil	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/InOutUtil.java	0	0	0	0	111	37
+org.hsqldb.lib.IntKeyHashMap	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/IntKeyHashMap.java	0	0	0	0	186	107
+org.hsqldb.lib.IntKeyHashMap$KeySet	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/IntKeyHashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.IntKeyHashMap$Values	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/IntKeyHashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.IntKeyHashMapConcurrent	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/IntKeyHashMapConcurrent.java	0	0	0	0	239	146
+org.hsqldb.lib.IntKeyHashMapConcurrent$KeySet	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/IntKeyHashMapConcurrent.java	0	0	0	2	0	0
+org.hsqldb.lib.IntKeyHashMapConcurrent$Values	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/IntKeyHashMapConcurrent.java	0	0	0	2	0	0
+org.hsqldb.lib.IntKeyIntValueHashMap	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/IntKeyIntValueHashMap.java	0	0	0	0	202	114
+org.hsqldb.lib.IntKeyIntValueHashMap$KeySet	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/IntKeyIntValueHashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.IntKeyIntValueHashMap$Values	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/IntKeyIntValueHashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.IntKeyLongValueHashMap	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/IntKeyLongValueHashMap.java	0	0	0	0	107	45
+org.hsqldb.lib.IntLookup	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/IntLookup.java	0	0	0	0	49	7
+org.hsqldb.lib.IntValueHashMap	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/IntValueHashMap.java	0	0	0	0	269	159
+org.hsqldb.lib.IntValueHashMap$KeySet	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/IntValueHashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.IntValueHashMap$Values	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/IntValueHashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.Iterator	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/Iterator.java	0	0	0	0	55	10
+org.hsqldb.lib.LineGroupReader	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/LineGroupReader.java	0	0	0	0	223	121
+org.hsqldb.lib.LongDeque	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/LongDeque.java	0	0	0	0	311	183
+org.hsqldb.lib.LongKeyHashMap	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/LongKeyHashMap.java	0	0	0	0	188	109
+org.hsqldb.lib.LongKeyHashMap$KeySet	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/LongKeyHashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.LongKeyHashMap$Values	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/LongKeyHashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.LongKeyIntValueHashMap	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/LongKeyIntValueHashMap.java	0	0	0	0	213	121
+org.hsqldb.lib.LongKeyIntValueHashMap$KeySet	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/LongKeyIntValueHashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.LongKeyIntValueHashMap$Values	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/LongKeyIntValueHashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.LongKeyLongValueHashMap	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/LongKeyLongValueHashMap.java	0	0	0	0	209	118
+org.hsqldb.lib.LongKeyLongValueHashMap$KeySet	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/LongKeyLongValueHashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.LongKeyLongValueHashMap$Values	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/LongKeyLongValueHashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.LongValueHashMap	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/LongValueHashMap.java	0	0	0	0	220	123
+org.hsqldb.lib.LongValueHashMap$KeySet	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/LongValueHashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.MD5	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/MD5.java	0	0	0	0	166	39
+org.hsqldb.lib.MultiValueHashMap	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/MultiValueHashMap.java	0	0	0	0	197	111
+org.hsqldb.lib.MultiValueHashMap$KeySet	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/MultiValueHashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.MultiValueHashMap$Values	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/MultiValueHashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.OrderedHashSet	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/OrderedHashSet.java	0	0	0	0	191	99
+org.hsqldb.lib.OrderedIntHashSet	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/OrderedIntHashSet.java	0	0	0	0	161	82
+org.hsqldb.lib.OrderedIntKeyHashMap	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/OrderedIntKeyHashMap.java	0	0	0	0	201	115
+org.hsqldb.lib.OrderedIntKeyHashMap$KeySet	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/OrderedIntKeyHashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.OrderedIntKeyHashMap$Values	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/OrderedIntKeyHashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.OrderedLongKeyHashMap	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/OrderedLongKeyHashMap.java	0	0	0	0	233	139
+org.hsqldb.lib.OrderedLongKeyHashMap$KeySet	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/OrderedLongKeyHashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.OrderedLongKeyHashMap$Values	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/OrderedLongKeyHashMap.java	0	0	0	2	0	0
+org.hsqldb.lib.RCData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar,hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/RCData.java	0	0	0	0	494	286
+org.hsqldb.lib.ReaderInputStream	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/ReaderInputStream.java	0	0	0	0	76	27
+org.hsqldb.lib.RefCapablePropertyResourceBundle	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar,hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/RefCapablePropertyResourceBundle.java	0	0	0	0	464	251
+org.hsqldb.lib.RefCapableRBInterface	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar,hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/RefCapableRBInterface.java	0	0	0	0	50	18
+org.hsqldb.lib.Set	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/Set.java	0	0	0	0	75	13
+org.hsqldb.lib.SimpleLog	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/SimpleLog.java	0	0	0	0	196	106
+org.hsqldb.lib.StopWatch	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/StopWatch.java	0	0	0	0	187	57
+org.hsqldb.lib.Storage	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/Storage.java	0	0	0	0	72	18
+org.hsqldb.lib.StringComparator	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/StringComparator.java	0	0	0	0	60	16
+org.hsqldb.lib.StringConverter	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/StringConverter.java	0	0	0	0	734	370
+org.hsqldb.lib.StringInputStream	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/StringInputStream.java	0	0	0	0	81	31
+org.hsqldb.lib.StringUtil	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar,hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/StringUtil.java	0	0	0	0	376	162
+org.hsqldb.lib.ThreadFactory	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/ThreadFactory.java	0	0	0	0	42	4
+org.hsqldb.lib.ValidatingResourceBundle	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar,hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/ValidatingResourceBundle.java	0	0	0	0	286	189
+org.hsqldb.lib.WrapperIterator	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/WrapperIterator.java	0	0	0	0	214	95
+org.hibernate.dialect.HSQLDialect		hsqldb-2.0.0/hsqldb/src/org/hibernate/dialect/HSQLDialect.java	1	2	0	0	374	240
+org.hsqldb.persist.Cache	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/Cache.java	0	0	0	0	373	205
+org.hsqldb.persist.Cache$CachedObjectComparator	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/Cache.java	0	0	0	2	0	0
+org.hsqldb.persist.CachedObject	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/CachedObject.java	0	0	0	0	81	23
+org.hsqldb.persist.Crypto	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/Crypto.java	0	0	0	0	202	138
+org.hsqldb.persist.DataFileBlockManager	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/DataFileBlockManager.java	0	0	0	0	172	84
+org.hsqldb.persist.DataFileCache	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/DataFileCache.java	0	0	0	0	1161	764
+org.hsqldb.persist.DataFileCacheSession	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/DataFileCacheSession.java	0	0	0	0	148	67
+org.hsqldb.persist.DataFileDefrag	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/DataFileDefrag.java	0	0	0	4	321	197
+org.hsqldb.persist.HsqlDatabaseProperties	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/HsqlDatabaseProperties.java	0	0	0	0	799	541
+org.hsqldb.persist.HsqlProperties	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/HsqlProperties.java	0	0	0	0	526	319
+org.hsqldb.persist.LobManager	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LobManager.java	0	0	0	0	1326	914
+org.hsqldb.persist.LobManager$ALLOC_BLOCKS	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LobManager.java	0	0	0	2	0	0
+org.hsqldb.persist.LobManager$DELETE_BLOCKS	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LobManager.java	0	0	0	2	0	0
+org.hsqldb.persist.LobManager$DIVIDE_BLOCK	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LobManager.java	0	0	0	2	0	0
+org.hsqldb.persist.LobManager$GET_LOB_PART	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LobManager.java	0	0	0	2	0	0
+org.hsqldb.persist.LobManager$LOBS	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LobManager.java	0	0	0	2	0	0
+org.hsqldb.persist.LobManager$LOB_IDS	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LobManager.java	0	0	0	2	0	0
+org.hsqldb.persist.LobManager$UPDATE_LENGTH	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LobManager.java	0	0	0	2	0	0
+org.hsqldb.persist.LobManager$UPDATE_USAGE	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LobManager.java	0	0	0	2	0	0
+org.hsqldb.persist.LobStore	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LobStore.java	0	0	0	0	48	7
+org.hsqldb.persist.LobStoreInJar	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LobStoreInJar.java	0	0	0	0	152	84
+org.hsqldb.persist.LobStoreMem	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LobStoreMem.java	0	0	0	0	125	66
+org.hsqldb.persist.LobStoreRAFile	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LobStoreRAFile.java	0	0	0	0	138	80
+org.hsqldb.persist.LockFile	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LockFile.java	0	0	0	0	2408	638
+org.hsqldb.persist.LockFile$1	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LockFile.java	0	0	0	2	0	0
+org.hsqldb.persist.LockFile$BaseException	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LockFile.java	0	0	0	2	0	0
+org.hsqldb.persist.LockFile$FileCanonicalizationException	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LockFile.java	0	0	0	2	0	0
+org.hsqldb.persist.LockFile$FileSecurityException	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LockFile.java	0	0	0	2	0	0
+org.hsqldb.persist.LockFile$HeartbeatRunner	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LockFile.java	0	0	0	2	0	0
+org.hsqldb.persist.LockFile$LockHeldExternallyException	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LockFile.java	0	0	0	2	0	0
+org.hsqldb.persist.LockFile$UnexpectedEndOfFileException	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LockFile.java	0	0	0	2	0	0
+org.hsqldb.persist.LockFile$UnexpectedFileIOException	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LockFile.java	0	0	0	2	0	0
+org.hsqldb.persist.LockFile$UnexpectedFileNotFoundException	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LockFile.java	0	0	0	2	0	0
+org.hsqldb.persist.LockFile$WrongLengthException	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LockFile.java	0	0	0	2	0	0
+org.hsqldb.persist.LockFile$WrongMagicException	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/LockFile.java	0	0	0	2	0	0
+org.hsqldb.persist.Log	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/Log.java	0	0	0	0	914	496
+org.hsqldb.persist.Logger	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/Logger.java	0	0	0	0	1359	882
+org.hsqldb.persist.PersistentStore	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/PersistentStore.java	0	0	0	0	146	54
+org.hsqldb.persist.PersistentStoreCollection	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/PersistentStoreCollection.java	0	0	0	0	39	5
+org.hsqldb.persist.PersistentStoreCollectionDatabase	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/PersistentStoreCollectionDatabase.java	0	0	0	0	77	33
+org.hsqldb.persist.PersistentStoreCollectionSession	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/PersistentStoreCollectionSession.java	0	0	0	0	279	171
+org.hsqldb.persist.RAShadowFile	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/RAShadowFile.java	0	0	0	0	204	122
+org.hsqldb.persist.RowStoreAVL	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/RowStoreAVL.java	0	0	0	0	419	263
+org.hsqldb.persist.RowStoreAVLDisk	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/RowStoreAVLDisk.java	0	0	0	0	376	236
+org.hsqldb.persist.RowStoreAVLDiskData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/RowStoreAVLDiskData.java	0	0	0	0	267	162
+org.hsqldb.persist.RowStoreAVLHybrid	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/RowStoreAVLHybrid.java	0	0	0	0	427	279
+org.hsqldb.persist.RowStoreAVLMemory	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/RowStoreAVLMemory.java	0	0	0	0	245	149
+org.hsqldb.persist.ScaledRAFile	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/ScaledRAFile.java	0	0	0	4	519	352
+org.hsqldb.persist.ScaledRAFileHybrid	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/ScaledRAFileHybrid.java	0	0	0	0	197	107
+org.hsqldb.persist.ScaledRAFileInJar	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/ScaledRAFileInJar.java	0	0	0	4	274	157
+org.hsqldb.persist.ScaledRAFileNIO	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/ScaledRAFileNIO.java	0	0	0	4	451	291
+org.hsqldb.persist.ScaledRAFileSimple	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/ScaledRAFileSimple.java	0	0	0	4	136	69
+org.hsqldb.persist.ScaledRAInterface	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/ScaledRAInterface.java	0	0	0	0	44	8
+org.hsqldb.persist.ScriptRunner	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/ScriptRunner.java	0	0	0	0	212	125
+org.hsqldb.persist.TextCache	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/TextCache.java	0	0	0	0	833	543
+org.hsqldb.persist.TextCache$ByteArray	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/TextCache.java	0	0	0	2	0	0
+org.hsqldb.navigator.RangeIterator	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/navigator/RangeIterator.java	0	0	0	0	63	15
+org.hsqldb.navigator.RowIterator	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/navigator/RowIterator.java	0	0	0	0	57	11
+org.hsqldb.navigator.RowSetNavigator	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/navigator/RowSetNavigator.java	0	0	0	0	332	182
+org.hsqldb.navigator.RowSetNavigatorClient	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/navigator/RowSetNavigatorClient.java	0	0	0	0	279	162
+org.hsqldb.navigator.RowSetNavigatorData	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/navigator/RowSetNavigatorData.java	0	0	0	0	667	436
+org.hsqldb.navigator.RowSetNavigatorData$DataIterator	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/navigator/RowSetNavigatorData.java	0	0	0	2	0	0
+org.hsqldb.navigator.RowSetNavigatorDataChange	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/navigator/RowSetNavigatorDataChange.java	0	0	0	0	224	131
+org.hsqldb.navigator.RowSetNavigatorDataTable	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/navigator/RowSetNavigatorDataTable.java	0	0	0	0	620	417
+org.hsqldb.navigator.RowSetNavigatorLinkedList	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/navigator/RowSetNavigatorLinkedList.java	0	0	0	0	186	95
+org.hsqldb.cmdline.SqlFile	hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/cmdline/SqlFile.java	0	0	0	0	5524	3941
+org.hsqldb.cmdline.SqlFile$BadSpecial	hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/cmdline/SqlFile.java	0	0	0	2	0	0
+org.hsqldb.cmdline.SqlFile$BadSubst	hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/cmdline/SqlFile.java	0	0	0	2	0	0
+org.hsqldb.cmdline.SqlFile$BreakException	hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/cmdline/SqlFile.java	0	0	0	2	0	0
+org.hsqldb.cmdline.SqlFile$ContinueException	hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/cmdline/SqlFile.java	0	0	0	2	0	0
+org.hsqldb.cmdline.SqlFile$QuitNow	hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/cmdline/SqlFile.java	0	0	0	2	0	0
+org.hsqldb.cmdline.SqlFile$RowError	hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/cmdline/SqlFile.java	0	0	0	2	0	0
+org.hsqldb.cmdline.SqlFile$SharedFields	hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/cmdline/SqlFile.java	0	0	0	2	0	0
+org.hsqldb.cmdline.SqlTool	hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/cmdline/SqlTool.java	0	0	0	0	693	453
+org.hsqldb.cmdline.SqlTool$BadCmdline	hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/cmdline/SqlTool.java	0	0	0	2	0	0
+org.hsqldb.cmdline.SqlTool$PrivateException	hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/cmdline/SqlTool.java	0	0	0	2	0	0
+org.hsqldb.cmdline.SqlTool$SqlToolException	hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/cmdline/SqlTool.java	0	0	0	2	0	0
+org.hsqldb.cmdline.SqlToolError	hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/cmdline/SqlToolError.java	0	0	0	0	65	16
+org.hsqldb.cmdline.SqlToolSprayer	hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/cmdline/SqlToolSprayer.java	0	0	0	0	179	100
+org.hsqldb.cmdline.SqltoolRB	hsqldb-2.0.0/hsqldb/lib/sqltool.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/cmdline/SqltoolRB.java	0	0	0	0	315	255
+org.hsqldb.scriptio.ScriptReaderBase	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/scriptio/ScriptReaderBase.java	0	0	0	0	125	67
+org.hsqldb.scriptio.ScriptReaderDecode	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/scriptio/ScriptReaderDecode.java	0	0	0	0	138	71
+org.hsqldb.scriptio.ScriptReaderText	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/scriptio/ScriptReaderText.java	0	0	0	0	287	185
+org.hsqldb.scriptio.ScriptWriterBase	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/scriptio/ScriptWriterBase.java	0	0	0	0	429	250
+org.hsqldb.scriptio.ScriptWriterEncode	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/scriptio/ScriptWriterEncode.java	0	0	0	0	106	51
+org.hsqldb.scriptio.ScriptWriterText	hsqldb-2.0.0/hsqldb/lib/hsqldb.jar	hsqldb-2.0.0/hsqldb/src/org/hsqldb/scriptio/ScriptWriterText.java	0	0	0	0	306	197
+#Issues
+#======
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/hsqldb/hsqldb-2.0.0/src/hsqldb-2.0.0/hsqldb/lib/hsqldb.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/hsqldb/hsqldb-2.0.0/src/hsqldb-2.0.0/hsqldb/lib/servlet-2_3-fcs-classfiles.zip in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/hsqldb/hsqldb-2.0.0/src/hsqldb-2.0.0/hsqldb/lib/sqltool.jar in <src> ignored.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/ConstraintCore.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/Like.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/RowActionBase.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/SubQuery.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/TransactionManagerCommon.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/dbinfo/DITableInfo.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/dbinfo/DatabaseInformationFull.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/dbinfo/DatabaseInformationMain.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/jdbc/JDBCStatementBase.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/BaseList.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/lib/HsqlThreadFactory.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/DataFileDefrag.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/ScaledRAFile.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/ScaledRAFileInJar.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/ScaledRAFileNIO.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/persist/ScaledRAFileSimple.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/rowio/RowInputBase.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/rowio/RowOutputBase.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/sample/FindFile.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/OdbcPacketInputStream.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/OdbcPacketOutputStream.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/OdbcPreparedStatement.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/RecoverableOdbcFailure.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/ServerConnection.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/StatementPortal.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/server/WebServerConnection.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/store/HashIndex.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/ClearTests.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/JDBCBench.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestBench.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestScriptRunner.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/test/TestScripts.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/CommonSwing.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/ConnectionDialog.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/ConnectionDialogCommon.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/ConnectionDialogSwing.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DataAccessPoint.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DataAccessPointException.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/DatabaseManagerCommon.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/Grid.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/GridSwing.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/HelperFactory.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/HsqldbTransferHelper.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/InformixTransferHelper.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/JDBCTypes.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/McKoiTransferHelper.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/OracleTransferHelper.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/PostgresTransferHelper.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/SQLStatements.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/SqlServerTransferHelper.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/Traceable.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TransferCommon.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TransferDb.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TransferHelper.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TransferResultSet.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TransferSQLText.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/TransferTable.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/Tree.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/AntResolver.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/BasicResolver.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/Defines.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/Document.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/Line.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/LineType.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/Parser.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/Token.java.
+#SRC NO PUBLIC TYPE for hsqldb-2.0.0/hsqldb/src/org/hsqldb/util/preprocessor/Tokenizer.java.

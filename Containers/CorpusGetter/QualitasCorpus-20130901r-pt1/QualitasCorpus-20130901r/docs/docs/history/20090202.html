@@ -1,0 +1,316 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../src/styles.css" />
+
+<title>20090202 Release Notes</title>
+
+</head>
+
+<body>
+<h1>20090202 Release Notes</h1>
+
+<p>
+The goal for this release was to increase the number of versions available
+of existing systems in anticipation of studies about software
+evolution. There are no new systems, but there are 141 new versions of
+11 systems, giving a total of 400 versions overall of 100 systems, with
+23 systems having more than one version. While some of the added versions
+were newer than what was already in the corpus, most were older.
+
+<p>
+There were also some efforts made to improve quality, especially for the
+metadata.
+
+<dl>
+<dt>Terminology change: "Application" --> "System"</dt>
+<dd>
+After continuing to encounter (quite understandable) confusion as to what we
+mean by application (of the form "So you don't include libraries like jgraph
+in your corpus?") we have decided to change our terminology.  All the
+documentation has (or should have) been changed to reflect this, but the
+corpus will keep the "Applications" directory (as a symbolic link) for the
+time being.
+
+
+<dt>Change versions</dt>
+<dd>
+itext-1.4 changed name to itext-1.4.5. In the previous releases, 
+the itext-1.4 bin was actually for 1.4.5, but the source was for
+1.4. Since most previous analysis was done on the bin, it was decided
+to change the name of this release and include the correct version of
+the source.
+
+<dt>Added versions</dt>
+<dd>
+ant-1.6.1
+ant-1.6.3
+ant-1.6.4
+ant-1.7.1
+antlr-2.7.7
+azureus-2.5.0.4
+azureus-3.0.0.8
+azureus-3.0.1.0
+azureus-3.0.1.2
+azureus-3.0.1.4
+azureus-3.0.1.6
+azureus-3.0.2.0
+azureus-3.0.2.2
+azureus-3.0.3.0
+azureus-3.0.4.0
+azureus-3.0.4.2
+azureus-3.0.5.0
+azureus-3.0.5.2
+azureus-3.1.0.0
+azureus-3.1.1.0
+eclipse_SDK-3.1.1-win32
+eclipse_SDK-3.2-win32
+eclipse_SDK-3.2.1-win32
+eclipse_SDK-3.2.2-win32
+eclipse_SDK-3.3-win32
+eclipse_SDK-3.3.1-win32
+eclipse_SDK-3.3.1.1-win32
+eclipse_SDK-3.3.2-win32
+freecol-0.7.4
+
+hibernate-2.0-beta-1
+hibernate-2.0-beta-2
+hibernate-2.0-beta-3
+hibernate-2.0-beta-4
+hibernate-2.0-final
+hibernate-2.0-rc2
+hibernate-2.0.1
+hibernate-2.0.2
+hibernate-2.0.3
+hibernate-2.1-beta-1
+
+hibernate-2.1-beta-2
+hibernate-2.1-beta-3
+hibernate-2.1-beta-3b
+hibernate-2.1-beta-4
+hibernate-2.1-beta-5
+hibernate-2.1-beta-6
+hibernate-2.1-final
+hibernate-2.1-rc1
+hibernate-2.1.1
+hibernate-2.1.2
+
+hibernate-2.1.3
+hibernate-2.1.4
+hibernate-2.1.5
+hibernate-2.1.6
+hibernate-2.1.7
+hibernate-3.0-alpha
+hibernate-3.0-beta1
+hibernate-3.0-beta2
+hibernate-3.0-beta3
+hibernate-3.0-beta4
+
+hibernate-3.0-rc1
+hibernate-3.0.1
+hibernate-3.0.2
+hibernate-3.0.3
+hibernate-3.0.4
+hibernate-3.0.5
+hibernate-3.1-alpha1
+hibernate-3.1-beta1
+hibernate-3.1-beta2
+hibernate-3.1-beta3
+
+hibernate-3.1-rc1
+hibernate-3.1-rc3
+hibernate-3.1.1
+hibernate-3.1.2
+hibernate-3.2-alpha1
+hibernate-3.2-alpha2
+hibernate-3.2-cr1
+hibernate-3.2-cr2
+hibernate-3.2.0-cr3
+hibernate-3.2.0-cr4
+
+hibernate-3.2.0-cr5
+hibernate-3.2.1-ga
+hibernate-3.2.2-ga
+hibernate-3.2.3-ga
+hibernate-3.2.4-ga
+hibernate-3.2.4-sp1
+hibernate-3.2.5-ga
+hibernate-3.2.6-ga
+hibernate-3.3.0-cr2
+hibernate-3.3.0-ga
+
+hibernate-3.3.0-sp1
+hibernate-3.3.1-ga
+
+jgraph-5.11.0.0
+jgraph-5.11.0.1
+jgraph-5.12.0.0
+jgraph-5.12.0.1
+jgraph-5.12.0.4
+jgraph-5.12.1.0
+
+jmeter-2.1-rc1
+jmeter-2.2
+jmeter-2.3
+jmeter-2.3-rc3
+jmeter-2.3-rc4
+jmeter-2.3.1
+jmeter-2.3.2
+
+jung-1.7.2
+jung-1.7.4
+jung-1.7.5
+jung-1.7.6
+
+junit-4.2
+junit-4.3.1
+junit-4.5
+
+weka-3.0.2
+weka-3.0.3
+weka-3.0.4
+weka-3.0.5
+weka-3.0.6
+weka-3.1.7
+weka-3.1.8
+weka-3.1.9
+weka-3.2.1
+weka-3.2.2
+
+weka-3.2.3
+weka-3.3.1
+weka-3.3.2
+weka-3.3.3
+weka-3.3.4
+weka-3.3.5
+weka-3.3.6
+weka-3.4.1
+weka-3.4.10
+weka-3.4.11
+
+weka-3.4.13
+weka-3.4.2
+weka-3.4.3
+weka-3.4.4
+weka-3.4.5
+weka-3.4.6
+weka-3.4.7
+weka-3.4.8
+weka-3.4.9
+weka-3.5.8
+
+</dd>
+
+<dt>Changed properties</dt>
+
+
+<dd>
+Some sourcepackages changed. Mostly this was removing redundance package
+prefixes but jre (see below) added one, which will affect measurements.
+
+<p>The releasedate for a number of versions were checked and sometimes changed
+or (if missing) added. In all cases the versionnotes were changed to reflect
+where the releasedate came from.
+
+<p>A few urls were added or changed.
+
+<p>Details for jena and quilt also changed.
+
+<p>Full details are:
+<ul>
+<li> ant-1.1: releasedate checked, versionnotes reports how releasedate determined
+<li> ant-1.2: releasedate checked, versionnotes reports how releasedate determined
+<li> ant-1.3: releasedate corrected, versionnotes reports how releasedate determined
+<li> ant-1.4: releasedate checked, versionnotes reports how releasedate determined
+<li> ant-1.4.1: releasedate checked, versionnotes reports how releasedate determined
+<li> ant-1.5: releasedate corrected, versionnotes reports how releasedate determined
+<li> ant-1.5.1: releasedate corrected, versionnotes reports how releasedate determined
+<li> ant-1.5.2: releasedate corrected, versionnotes reports how releasedate determined
+<li> ant-1.5.3.1: releasedate checked, versionnotes reports how releasedate determined
+<li> ant-1.5.4: releasedate checked, versionnotes reports how releasedate determined
+<li> ant-1.6.0: releasedate checked, versionnotes reports how releasedate determined, sourcepackages changed (removed redundant prefix)
+<li> ant-1.6.2: releasedate checked, versionnotes reports how releasedate determined, sourcepackages changed (removed redundant prefix)
+<li> ant-1.6.5: releasedate checked, versionnotes reports how releasedate determined, sourcepackages changed (removed redundant prefix)
+<li> ant-1.7.0: releasedate corrected, versionnotes reports how releasedate determined
+<li> azureus-3.0.3.4: releasedate checked, versionnotes reports how releasedate determined
+<li> exoportal-v1.0.2: releasedate added, versionnotes reports how releasedate determined
+<li> hibernate-3.1-rc2: releasedate added, versionnotes reports how releasedate determined
+<li> hsqldb-1.8.0.2: releasedate added, versionnotes reports how releasedate determined
+<li> itext-1.4.5: releasedate added, versionnotes reports how releasedate determined, url changed to reflect where source actually is; system website added to notes field. (Note that this version changed from itext-1.4)
+<li> jasperreports-1.1.0: releasedate added, versionnotes reports how releasedate determined, url added
+<li>
+jena-2.5.5 - added to versionnotes regarding missing class in bin.
+<li> jrat-0.6: releasedate corrected (removed time)
+<li> jre-1.5.0_14-linux-i586 sourcepackages - com.sun added. 
+<font color=red>This will generally increase measurements for
+everything related to jre</font>
+<li> junit-3.4: releasedate added, versionnotes reports how releasedate determined
+<li> junit-3.5: releasedate added, versionnotes reports how releasedate determined
+<li> junit-3.6: releasedate added, versionnotes reports how releasedate determined
+<li> junit-3.7: releasedate added, versionnotes reports how releasedate determined
+<li> junit-3.8: releasedate added, versionnotes reports how releasedate determined
+<li> junit-3.8.1: releasedate added, versionnotes reports how releasedate determined
+<li> junit-3.8.2: releasedate added, versionnotes reports how releasedate determined
+<li> junit-4.0: releasedate added, versionnotes reports how releasedate determined
+<li> junit-4.1: releasedate added, versionnotes reports how releasedate determined
+<li> log4j-1.2.13: releasedate added, versionnotes reports how releasedate determined, url changed
+<li> megamek-2005.10.11: releasedate added, versionnotes reports how releasedate determined, url added
+<li> proguard-3.6: releasedate added, versionnotes reports how releasedate determined
+<li> quickserver-1.4.7: releasedate added, versionnotes reports how releasedate determined
+<li>
+quilt-0.6-a-5 - added versionnotes change to bin contents (see below) and regarding missing source.
+<li> sandmark-3.4: releasedate added, versionnotes reports how releasedate determined
+<li> trove-1.1b5: releasedate added, versionnotes reports how releasedate determined
+</ul>
+</dd>
+
+<dt>Changed install</dt>
+<dd>
+<ul>
+<li>
+quilt-0.6-a-5 changed to reflect change in bin (see below).
+<li>
+itext-1.4.5 change to reflect change in compressed (see below)
+</ul>
+</dd>
+
+<dt>Changed bin</dt>
+<dd>
+<ul>
+<li>
+The 
+quilt-0.6-a-5 bin distribution
+had multiple .jar files that appeared to be different
+releases rather than different parts as was first thought. 
+No explanation was found as to why they were all distributed so
+only the relevant one has been kept. The properties file contains
+a note regarding a peculiarity regarding its contents.
+</ul>
+</dd>
+
+<dt>Changed compressed</dt>
+<dd>
+For changed version of itext,
+correct compressed source included and wrong one removed.
+
+<dt>Changed docs</dt>
+<dd>
+Quite a few changes to documentation, including adding new information (such
+as adding an <a href="../overview.html">overview</a>, <a
+href="../criteria.html">criteria for inclusion</a>, <a
+href="../acquisition.html">what distributions are available</a>) changing
+what the <a href="../catalogue/index.html">catalogue</a> looks like, and dealing with the change of terminology.
+
+<p>For the web distribution of the corpus, added a file containing
+assembly instructions.
+</dd>
+
+<dt>Other</dt>
+<dd>
+Now using ISO 8601 as basis for naming releases (mainly this
+involves adding leading zeros).
+</dl>
+
+<!--#include virtual="../src/tail.html" -->
+</body>
+</html>
+

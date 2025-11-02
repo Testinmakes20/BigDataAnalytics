@@ -1,0 +1,33 @@
+#!/usr/bin/perl -w
+
+use strict;
+
+if ($ARGV[0] eq "-list") {
+	my @list = list_names($ARGV[1]);
+	printf("@list");
+} elsif ($ARGV[0] eq "-reduced") {
+	my $destination = $ARGV[1];
+	install_reduced($destination);
+} else {
+	my $destination = $ARGV[0];
+	install_reduced($destination);
+}
+
+sub install_reduced {
+	my ($corpusdir) = @_;
+	my $src = "aoisrc281.zip";
+	my $bin = "aoi281.zip";
+	my @files = ("ArtOfIllusion281/Plugins/Translators.jar","ArtOfIllusion281/Plugins/SPManager.jar","ArtOfIllusion281/Plugins/Help/jhall.jar","ArtOfIllusion281/Plugins/Help/jhelpaction.jar","ArtOfIllusion281/Plugins/OSSpecific.jar","ArtOfIllusion281/Plugins/Help/helpgui-1.1b.jar","ArtOfIllusion281/Plugins/HelpPlugin.jar","ArtOfIllusion281/Plugins/Renderers.jar","ArtOfIllusion281/Plugins/Help/pircbot.jar","ArtOfIllusion281/Plugins/PostInstall.jar","ArtOfIllusion281/Plugins/Tools.jar","ArtOfIllusion281/ArtOfIllusion.jar");
+	printf("\t\t unpacking $src\n");
+	system("unzip -qo $corpusdir/compressed/$src -d $corpusdir/src\n") == 0 or die "Failed to extract $src\n";
+	printf("\t\t unpacking $bin\n");
+	system("unzip -qo $corpusdir/compressed/$bin @files -d $corpusdir/bin\n") == 0 or die "Failed to extract $bin\n";
+}
+
+sub list_names {
+	my ($appverdir) = @_;
+	opendir(COMPRESSED, "$appverdir/compressed") || die "can't open $appverdir/compressed: $!";
+	my @archives = grep {! /^\.$/ and ! /^\.\.$/ } readdir(COMPRESSED);
+	close(COMPRESSED);
+	return @archives;
+}

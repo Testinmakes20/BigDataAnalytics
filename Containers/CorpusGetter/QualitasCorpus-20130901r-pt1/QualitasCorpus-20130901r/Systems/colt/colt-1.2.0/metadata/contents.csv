@@ -1,0 +1,668 @@
+#2013-09-05T10:00:35NZST
+#System Version : colt-1.2.0
+#Source Packages: cern.,hep.aida.,corejava.
+#Ignore Packages: 
+#Distributed    : colt/src
+#Source Roots   : colt/src
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+cern.colt.matrix.impl.AbstractFormatter	colt.jar	colt/src/cern/colt/matrix/impl/AbstractFormatter.java	0	0	0	0	503	205
+cern.colt.matrix.impl.AbstractMatrix	colt.jar	colt/src/cern/colt/matrix/impl/AbstractMatrix.java	0	0	0	0	53	12
+cern.colt.matrix.impl.AbstractMatrix1D	colt.jar	colt/src/cern/colt/matrix/impl/AbstractMatrix1D.java	0	0	0	0	197	82
+cern.colt.matrix.impl.AbstractMatrix2D	colt.jar	colt/src/cern/colt/matrix/impl/AbstractMatrix2D.java	0	0	0	0	276	126
+cern.colt.matrix.impl.AbstractMatrix3D	colt.jar	colt/src/cern/colt/matrix/impl/AbstractMatrix3D.java	0	0	0	0	366	176
+cern.colt.matrix.impl.Benchmark	colt.jar	colt/src/cern/colt/matrix/impl/Benchmark.java	0	0	0	4	198	93
+cern.colt.matrix.impl.BenchmarkMatrix2D	colt.jar	colt/src/cern/colt/matrix/impl/BenchmarkMatrix2D.java	0	0	0	4	1039	422
+cern.colt.matrix.impl.DelegateDoubleMatrix1D	colt.jar	colt/src/cern/colt/matrix/impl/DelegateDoubleMatrix1D.java	0	0	0	4	85	26
+cern.colt.matrix.impl.DenseDoubleMatrix1D	colt.jar	colt/src/cern/colt/matrix/impl/DenseDoubleMatrix1D.java	0	0	0	0	508	282
+cern.colt.matrix.impl.DenseDoubleMatrix2D	colt.jar	colt/src/cern/colt/matrix/impl/DenseDoubleMatrix2D.java	0	0	0	0	813	440
+cern.colt.matrix.impl.DenseDoubleMatrix3D	colt.jar	colt/src/cern/colt/matrix/impl/DenseDoubleMatrix3D.java	0	0	0	0	456	188
+cern.colt.matrix.impl.DenseObjectMatrix1D	colt.jar	colt/src/cern/colt/matrix/impl/DenseObjectMatrix1D.java	0	0	0	0	355	162
+cern.colt.matrix.impl.DenseObjectMatrix2D	colt.jar	colt/src/cern/colt/matrix/impl/DenseObjectMatrix2D.java	0	0	0	0	395	158
+cern.colt.matrix.impl.DenseObjectMatrix3D	colt.jar	colt/src/cern/colt/matrix/impl/DenseObjectMatrix3D.java	0	0	0	0	287	97
+cern.colt.matrix.impl.Former	colt.jar	colt/src/cern/colt/matrix/impl/Former.java	0	0	0	0	28	4
+cern.colt.matrix.impl.FormerFactory	colt.jar	colt/src/cern/colt/matrix/impl/FormerFactory.java	0	0	0	0	64	14
+cern.colt.matrix.impl.FormerFactory$1	colt.jar	colt/src/cern/colt/matrix/impl/FormerFactory.java	0	0	0	2	0	0
+cern.colt.matrix.impl.NormInfinityTest	colt.jar	colt/src/cern/colt/matrix/impl/NormInfinityTest.java	0	0	0	4	19	15
+cern.colt.matrix.impl.QRTest	colt.jar	colt/src/cern/colt/matrix/impl/QRTest.java	0	0	0	4	103	48
+cern.colt.matrix.impl.RCDoubleMatrix2D	colt.jar	colt/src/cern/colt/matrix/impl/RCDoubleMatrix2D.java	0	0	0	0	528	270
+cern.colt.matrix.impl.RCDoubleMatrix2D$1	colt.jar	colt/src/cern/colt/matrix/impl/RCDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.RCDoubleMatrix2D$2	colt.jar	colt/src/cern/colt/matrix/impl/RCDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.RCMDoubleMatrix2D	colt.jar	colt/src/cern/colt/matrix/impl/RCMDoubleMatrix2D.java	0	0	0	4	195	96
+cern.colt.matrix.impl.SelectedDenseDoubleMatrix1D	colt.jar	colt/src/cern/colt/matrix/impl/SelectedDenseDoubleMatrix1D.java	0	0	0	4	194	63
+cern.colt.matrix.impl.SelectedDenseDoubleMatrix2D	colt.jar	colt/src/cern/colt/matrix/impl/SelectedDenseDoubleMatrix2D.java	0	0	0	4	314	99
+cern.colt.matrix.impl.SelectedDenseDoubleMatrix3D	colt.jar	colt/src/cern/colt/matrix/impl/SelectedDenseDoubleMatrix3D.java	0	0	0	4	355	127
+cern.colt.matrix.impl.SelectedDenseObjectMatrix1D	colt.jar	colt/src/cern/colt/matrix/impl/SelectedDenseObjectMatrix1D.java	0	0	0	4	194	63
+cern.colt.matrix.impl.SelectedDenseObjectMatrix2D	colt.jar	colt/src/cern/colt/matrix/impl/SelectedDenseObjectMatrix2D.java	0	0	0	4	314	99
+cern.colt.matrix.impl.SelectedDenseObjectMatrix3D	colt.jar	colt/src/cern/colt/matrix/impl/SelectedDenseObjectMatrix3D.java	0	0	0	4	355	127
+cern.colt.matrix.impl.SelectedSparseDoubleMatrix1D	colt.jar	colt/src/cern/colt/matrix/impl/SelectedSparseDoubleMatrix1D.java	0	0	0	4	199	68
+cern.colt.matrix.impl.SelectedSparseDoubleMatrix2D	colt.jar	colt/src/cern/colt/matrix/impl/SelectedSparseDoubleMatrix2D.java	0	0	0	4	320	104
+cern.colt.matrix.impl.SelectedSparseDoubleMatrix3D	colt.jar	colt/src/cern/colt/matrix/impl/SelectedSparseDoubleMatrix3D.java	0	0	0	4	360	132
+cern.colt.matrix.impl.SelectedSparseObjectMatrix1D	colt.jar	colt/src/cern/colt/matrix/impl/SelectedSparseObjectMatrix1D.java	0	0	0	4	199	68
+cern.colt.matrix.impl.SelectedSparseObjectMatrix2D	colt.jar	colt/src/cern/colt/matrix/impl/SelectedSparseObjectMatrix2D.java	0	0	0	4	320	104
+cern.colt.matrix.impl.SelectedSparseObjectMatrix3D	colt.jar	colt/src/cern/colt/matrix/impl/SelectedSparseObjectMatrix3D.java	0	0	0	4	360	132
+cern.colt.matrix.impl.SparseDoubleMatrix1D	colt.jar	colt/src/cern/colt/matrix/impl/SparseDoubleMatrix1D.java	0	0	0	0	251	81
+cern.colt.matrix.impl.SparseDoubleMatrix2D	colt.jar	colt/src/cern/colt/matrix/impl/SparseDoubleMatrix2D.java	0	0	0	0	540	254
+cern.colt.matrix.impl.SparseDoubleMatrix2D$1	colt.jar	colt/src/cern/colt/matrix/impl/SparseDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.SparseDoubleMatrix2D$2	colt.jar	colt/src/cern/colt/matrix/impl/SparseDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.SparseDoubleMatrix2D$3	colt.jar	colt/src/cern/colt/matrix/impl/SparseDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.SparseDoubleMatrix2D$4	colt.jar	colt/src/cern/colt/matrix/impl/SparseDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.SparseDoubleMatrix2D$5	colt.jar	colt/src/cern/colt/matrix/impl/SparseDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.SparseDoubleMatrix2D$6	colt.jar	colt/src/cern/colt/matrix/impl/SparseDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.SparseDoubleMatrix3D	colt.jar	colt/src/cern/colt/matrix/impl/SparseDoubleMatrix3D.java	0	0	0	0	307	81
+cern.colt.matrix.impl.SparseObjectMatrix1D	colt.jar	colt/src/cern/colt/matrix/impl/SparseObjectMatrix1D.java	0	0	0	0	240	75
+cern.colt.matrix.impl.SparseObjectMatrix2D	colt.jar	colt/src/cern/colt/matrix/impl/SparseObjectMatrix2D.java	0	0	0	0	293	78
+cern.colt.matrix.impl.SparseObjectMatrix3D	colt.jar	colt/src/cern/colt/matrix/impl/SparseObjectMatrix3D.java	0	0	0	0	296	75
+cern.colt.matrix.impl.TestMatrix2D	colt.jar	colt/src/cern/colt/matrix/impl/TestMatrix2D.java	0	0	0	4	1784	1042
+cern.colt.matrix.impl.TestMatrix2D$1	colt.jar	colt/src/cern/colt/matrix/impl/TestMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.TestMatrix2D$2	colt.jar	colt/src/cern/colt/matrix/impl/TestMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.TestMatrix2D$3	colt.jar	colt/src/cern/colt/matrix/impl/TestMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.TestMatrix2D$4	colt.jar	colt/src/cern/colt/matrix/impl/TestMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.TestMatrix2D$5	colt.jar	colt/src/cern/colt/matrix/impl/TestMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.TridiagonalDoubleMatrix2D	colt.jar	colt/src/cern/colt/matrix/impl/TridiagonalDoubleMatrix2D.java	0	0	0	4	510	333
+cern.colt.matrix.impl.TridiagonalDoubleMatrix2D$1	colt.jar	colt/src/cern/colt/matrix/impl/TridiagonalDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.TridiagonalDoubleMatrix2D$2	colt.jar	colt/src/cern/colt/matrix/impl/TridiagonalDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.TridiagonalDoubleMatrix2D$3	colt.jar	colt/src/cern/colt/matrix/impl/TridiagonalDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.TridiagonalDoubleMatrix2D$4	colt.jar	colt/src/cern/colt/matrix/impl/TridiagonalDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.TridiagonalDoubleMatrix2D$5	colt.jar	colt/src/cern/colt/matrix/impl/TridiagonalDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.TridiagonalDoubleMatrix2D$6	colt.jar	colt/src/cern/colt/matrix/impl/TridiagonalDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.TridiagonalDoubleMatrix2D$7	colt.jar	colt/src/cern/colt/matrix/impl/TridiagonalDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.WrapperDoubleMatrix1D	colt.jar	colt/src/cern/colt/matrix/impl/WrapperDoubleMatrix1D.java	0	0	0	4	210	85
+cern.colt.matrix.impl.WrapperDoubleMatrix1D$1	colt.jar	colt/src/cern/colt/matrix/impl/WrapperDoubleMatrix1D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.WrapperDoubleMatrix1D$2	colt.jar	colt/src/cern/colt/matrix/impl/WrapperDoubleMatrix1D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.WrapperDoubleMatrix1D$3	colt.jar	colt/src/cern/colt/matrix/impl/WrapperDoubleMatrix1D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.WrapperDoubleMatrix1D$4	colt.jar	colt/src/cern/colt/matrix/impl/WrapperDoubleMatrix1D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.WrapperDoubleMatrix2D	colt.jar	colt/src/cern/colt/matrix/impl/WrapperDoubleMatrix2D.java	0	0	0	4	406	131
+cern.colt.matrix.impl.WrapperDoubleMatrix2D$1	colt.jar	colt/src/cern/colt/matrix/impl/WrapperDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.WrapperDoubleMatrix2D$2	colt.jar	colt/src/cern/colt/matrix/impl/WrapperDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.WrapperDoubleMatrix2D$3	colt.jar	colt/src/cern/colt/matrix/impl/WrapperDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.WrapperDoubleMatrix2D$4	colt.jar	colt/src/cern/colt/matrix/impl/WrapperDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.WrapperDoubleMatrix2D$5	colt.jar	colt/src/cern/colt/matrix/impl/WrapperDoubleMatrix2D.java	0	0	0	2	0	0
+cern.colt.matrix.impl.WrapperDoubleMatrix2D$6	colt.jar	colt/src/cern/colt/matrix/impl/WrapperDoubleMatrix2D.java	0	0	0	2	0	0
+cern.jet.random.AbstractContinousDistribution	colt.jar	colt/src/cern/jet/random/AbstractContinousDistribution.java	0	0	0	0	22	4
+cern.jet.random.AbstractDiscreteDistribution	colt.jar	colt/src/cern/jet/random/AbstractDiscreteDistribution.java	0	0	0	0	32	8
+cern.jet.random.AbstractDistribution	colt.jar	colt/src/cern/jet/random/AbstractDistribution.java	0	0	0	0	107	30
+cern.jet.random.Benchmark	colt.jar	colt/src/cern/jet/random/Benchmark.java	0	0	0	0	241	98
+cern.jet.random.Beta	colt.jar	colt/src/cern/jet/random/Beta.java	0	0	0	0	407	267
+cern.jet.random.Binomial	colt.jar	colt/src/cern/jet/random/Binomial.java	0	0	0	0	316	182
+cern.jet.random.BreitWigner	colt.jar	colt/src/cern/jet/random/BreitWigner.java	0	0	0	0	100	49
+cern.jet.random.BreitWignerMeanSquare	colt.jar	colt/src/cern/jet/random/BreitWignerMeanSquare.java	0	0	0	0	88	43
+cern.jet.random.ChiSquare	colt.jar	colt/src/cern/jet/random/ChiSquare.java	0	0	0	0	174	82
+cern.jet.random.Distributions	colt.jar	colt/src/cern/jet/random/Distributions.java	0	0	0	0	349	113
+cern.jet.random.Empirical	colt.jar	colt/src/cern/jet/random/Empirical.java	0	0	0	0	190	98
+cern.jet.random.EmpiricalWalker	colt.jar	colt/src/cern/jet/random/EmpiricalWalker.java	0	0	0	0	399	148
+cern.jet.random.Exponential	colt.jar	colt/src/cern/jet/random/Exponential.java	0	0	0	0	93	41
+cern.jet.random.ExponentialPower	colt.jar	colt/src/cern/jet/random/ExponentialPower.java	0	0	0	0	127	63
+cern.jet.random.Fun	colt.jar	colt/src/cern/jet/random/Fun.java	0	0	0	4	331	262
+cern.jet.random.Gamma	colt.jar	colt/src/cern/jet/random/Gamma.java	0	0	0	0	273	163
+cern.jet.random.HyperGeometric	colt.jar	colt/src/cern/jet/random/HyperGeometric.java	0	0	0	0	390	239
+cern.jet.random.Hyperbolic	colt.jar	colt/src/cern/jet/random/Hyperbolic.java	0	0	0	0	168	92
+cern.jet.random.Logarithmic	colt.jar	colt/src/cern/jet/random/Logarithmic.java	0	0	0	0	153	63
+cern.jet.random.NegativeBinomial	colt.jar	colt/src/cern/jet/random/NegativeBinomial.java	0	0	0	0	152	58
+cern.jet.random.Normal	colt.jar	colt/src/cern/jet/random/Normal.java	0	0	0	0	145	70
+cern.jet.random.Poisson	colt.jar	colt/src/cern/jet/random/Poisson.java	0	0	0	0	335	220
+cern.jet.random.PoissonSlow	colt.jar	colt/src/cern/jet/random/PoissonSlow.java	0	0	0	0	179	109
+cern.jet.random.Stack	colt.jar	colt/src/cern/jet/random/Stack.java	0	0	0	4	87	24
+cern.jet.random.StudentT	colt.jar	colt/src/cern/jet/random/StudentT.java	0	0	0	0	135	51
+cern.jet.random.Uniform	colt.jar	colt/src/cern/jet/random/Uniform.java	0	0	0	0	222	118
+cern.jet.random.VonMises	colt.jar	colt/src/cern/jet/random/VonMises.java	0	0	0	0	135	54
+cern.jet.random.Zeta	colt.jar	colt/src/cern/jet/random/Zeta.java	0	0	0	0	160	62
+cern.clhep.PhysicalConstants	colt.jar	colt/src/cern/clhep/PhysicalConstants.java	0	0	0	0	129	79
+cern.clhep.Units	colt.jar	colt/src/cern/clhep/Units.java	0	0	0	0	247	187
+cern.jet.random.sampling.RandomSampler	colt.jar	colt/src/cern/jet/random/sampling/RandomSampler.java	0	0	0	0	556	241
+cern.jet.random.sampling.RandomSamplingAssistant	colt.jar	colt/src/cern/jet/random/sampling/RandomSamplingAssistant.java	0	0	0	0	198	111
+cern.jet.random.sampling.WeightedRandomSampler	colt.jar	colt/src/cern/jet/random/sampling/WeightedRandomSampler.java	0	0	0	0	159	90
+cern.colt.bitvector.BitMatrix	colt.jar	colt/src/cern/colt/bitvector/BitMatrix.java	0	0	0	0	482	203
+cern.colt.bitvector.BitVector	colt.jar	colt/src/cern/colt/bitvector/BitVector.java	0	0	0	0	804	347
+cern.colt.bitvector.BitVector$1	colt.jar	colt/src/cern/colt/bitvector/BitVector.java	0	0	0	2	0	0
+cern.colt.bitvector.BitVector$IndexProcedure	colt.jar	colt/src/cern/colt/bitvector/BitVector.java	0	0	0	2	0	0
+cern.colt.bitvector.QuickBitVector	colt.jar	colt/src/cern/colt/bitvector/QuickBitVector.java	0	0	0	0	296	120
+cern.colt.matrix.bench.BenchmarkKernel	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkKernel.java	0	0	0	4	101	64
+cern.colt.matrix.bench.BenchmarkMatrix	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	0	941	752
+cern.colt.matrix.bench.BenchmarkMatrix$1	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$10	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$11	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$12	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$13	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$14	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$15	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$16	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$17	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$18	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$19	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$2	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$20	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$21	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$22	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$3	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$4	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$5	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$6	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$7	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$8	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.BenchmarkMatrix$9	colt.jar	colt/src/cern/colt/matrix/bench/BenchmarkMatrix.java	0	0	0	2	0	0
+cern.colt.matrix.bench.Double2DProcedure	colt.jar	colt/src/cern/colt/matrix/bench/Double2DProcedure.java	0	0	0	4	33	17
+cern.colt.matrix.bench.TimerProcedure	colt.jar	colt/src/cern/colt/matrix/bench/TimerProcedure.java	0	0	0	4	32	5
+hep.aida.ref.AbstractHistogram1D	colt.jar	colt/src/hep/aida/ref/AbstractHistogram1D.java	0	0	0	4	90	79
+hep.aida.ref.AbstractHistogram2D	colt.jar	colt/src/hep/aida/ref/AbstractHistogram2D.java	0	0	0	4	218	183
+hep.aida.ref.AbstractHistogram3D	colt.jar	colt/src/hep/aida/ref/AbstractHistogram3D.java	0	0	0	4	244	195
+hep.aida.ref.Converter	colt.jar	colt/src/hep/aida/ref/Converter.java	0	0	0	0	386	293
+hep.aida.ref.FixedAxis	colt.jar	colt/src/hep/aida/ref/FixedAxis.java	0	0	0	0	107	81
+hep.aida.ref.Histogram	colt.jar	colt/src/hep/aida/ref/Histogram.java	0	0	0	4	20	13
+hep.aida.ref.Histogram1D	colt.jar	colt/src/hep/aida/ref/Histogram1D.java	0	0	0	0	151	116
+hep.aida.ref.Histogram2D	colt.jar	colt/src/hep/aida/ref/Histogram2D.java	0	0	0	0	262	195
+hep.aida.ref.Histogram3D	colt.jar	colt/src/hep/aida/ref/Histogram3D.java	0	0	0	0	305	224
+hep.aida.ref.Test	colt.jar	colt/src/hep/aida/ref/Test.java	0	0	0	0	114	104
+hep.aida.ref.Test2	colt.jar	colt/src/hep/aida/ref/Test2.java	0	0	0	0	101	58
+hep.aida.ref.Util	colt.jar	colt/src/hep/aida/ref/Util.java	0	0	0	4	127	101
+hep.aida.ref.VariableAxis	colt.jar	colt/src/hep/aida/ref/VariableAxis.java	0	0	0	0	102	76
+corejava.Format	colt.jar	colt/src/corejava/Format.java	0	0	0	0	643	444
+cern.colt.matrix.doublealgo.DoubleMatrix1DComparator	colt.jar	colt/src/cern/colt/matrix/doublealgo/DoubleMatrix1DComparator.java	0	0	0	0	78	6
+cern.colt.matrix.doublealgo.DoubleMatrix2DComparator	colt.jar	colt/src/cern/colt/matrix/doublealgo/DoubleMatrix2DComparator.java	0	0	0	0	78	6
+cern.colt.matrix.doublealgo.Formatter	colt.jar	colt/src/cern/colt/matrix/doublealgo/Formatter.java	0	0	0	0	806	354
+cern.colt.matrix.doublealgo.Partitioning	colt.jar	colt/src/cern/colt/matrix/doublealgo/Partitioning.java	0	0	0	0	387	67
+cern.colt.matrix.doublealgo.Partitioning$1	colt.jar	colt/src/cern/colt/matrix/doublealgo/Partitioning.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Partitioning$2	colt.jar	colt/src/cern/colt/matrix/doublealgo/Partitioning.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Partitioning$3	colt.jar	colt/src/cern/colt/matrix/doublealgo/Partitioning.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Partitioning$4	colt.jar	colt/src/cern/colt/matrix/doublealgo/Partitioning.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Sorting	colt.jar	colt/src/cern/colt/matrix/doublealgo/Sorting.java	0	0	0	0	761	328
+cern.colt.matrix.doublealgo.Sorting$1	colt.jar	colt/src/cern/colt/matrix/doublealgo/Sorting.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Sorting$10	colt.jar	colt/src/cern/colt/matrix/doublealgo/Sorting.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Sorting$11	colt.jar	colt/src/cern/colt/matrix/doublealgo/Sorting.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Sorting$12	colt.jar	colt/src/cern/colt/matrix/doublealgo/Sorting.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Sorting$13	colt.jar	colt/src/cern/colt/matrix/doublealgo/Sorting.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Sorting$2	colt.jar	colt/src/cern/colt/matrix/doublealgo/Sorting.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Sorting$3	colt.jar	colt/src/cern/colt/matrix/doublealgo/Sorting.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Sorting$4	colt.jar	colt/src/cern/colt/matrix/doublealgo/Sorting.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Sorting$5	colt.jar	colt/src/cern/colt/matrix/doublealgo/Sorting.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Sorting$6	colt.jar	colt/src/cern/colt/matrix/doublealgo/Sorting.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Sorting$7	colt.jar	colt/src/cern/colt/matrix/doublealgo/Sorting.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Sorting$8	colt.jar	colt/src/cern/colt/matrix/doublealgo/Sorting.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Sorting$9	colt.jar	colt/src/cern/colt/matrix/doublealgo/Sorting.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Statistic	colt.jar	colt/src/cern/colt/matrix/doublealgo/Statistic.java	0	0	0	0	846	350
+cern.colt.matrix.doublealgo.Statistic$1	colt.jar	colt/src/cern/colt/matrix/doublealgo/Statistic.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Statistic$2	colt.jar	colt/src/cern/colt/matrix/doublealgo/Statistic.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Statistic$3	colt.jar	colt/src/cern/colt/matrix/doublealgo/Statistic.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Statistic$4	colt.jar	colt/src/cern/colt/matrix/doublealgo/Statistic.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Statistic$5	colt.jar	colt/src/cern/colt/matrix/doublealgo/Statistic.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Statistic$6	colt.jar	colt/src/cern/colt/matrix/doublealgo/Statistic.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Statistic$VectorVectorFunction	colt.jar	colt/src/cern/colt/matrix/doublealgo/Statistic.java	0	0	0	2	0	0
+cern.colt.matrix.doublealgo.Stencil	colt.jar	colt/src/cern/colt/matrix/doublealgo/Stencil.java	0	0	0	0	89	38
+cern.colt.matrix.doublealgo.Transform	colt.jar	colt/src/cern/colt/matrix/doublealgo/Transform.java	0	0	0	0	372	110
+cern.colt.function.BooleanProcedure	colt.jar	colt/src/cern/colt/function/BooleanProcedure.java	0	0	0	0	28	4
+cern.colt.function.ByteComparator	colt.jar	colt/src/cern/colt/function/ByteComparator.java	0	0	0	0	76	5
+cern.colt.function.ByteProcedure	colt.jar	colt/src/cern/colt/function/ByteProcedure.java	0	0	0	0	28	4
+cern.colt.function.CharComparator	colt.jar	colt/src/cern/colt/function/CharComparator.java	0	0	0	0	76	5
+cern.colt.function.CharProcedure	colt.jar	colt/src/cern/colt/function/CharProcedure.java	0	0	0	0	28	4
+cern.colt.function.Double27Function	colt.jar	colt/src/cern/colt/function/Double27Function.java	0	0	0	0	34	14
+cern.colt.function.Double5Function	colt.jar	colt/src/cern/colt/function/Double5Function.java	0	0	0	0	27	4
+cern.colt.function.Double9Function	colt.jar	colt/src/cern/colt/function/Double9Function.java	0	0	0	0	26	8
+cern.colt.function.DoubleComparator	colt.jar	colt/src/cern/colt/function/DoubleComparator.java	0	0	0	0	76	5
+cern.colt.function.DoubleDoubleFunction	colt.jar	colt/src/cern/colt/function/DoubleDoubleFunction.java	0	0	0	0	24	4
+cern.colt.function.DoubleDoubleProcedure	colt.jar	colt/src/cern/colt/function/DoubleDoubleProcedure.java	0	0	0	0	29	4
+cern.colt.function.DoubleFunction	colt.jar	colt/src/cern/colt/function/DoubleFunction.java	0	0	0	0	23	4
+cern.colt.function.DoubleIntProcedure	colt.jar	colt/src/cern/colt/function/DoubleIntProcedure.java	0	0	0	0	29	4
+cern.colt.function.DoubleProcedure	colt.jar	colt/src/cern/colt/function/DoubleProcedure.java	0	0	0	0	28	4
+cern.colt.function.FloatComparator	colt.jar	colt/src/cern/colt/function/FloatComparator.java	0	0	0	0	76	5
+cern.colt.function.FloatProcedure	colt.jar	colt/src/cern/colt/function/FloatProcedure.java	0	0	0	0	28	4
+cern.colt.function.IntComparator	colt.jar	colt/src/cern/colt/function/IntComparator.java	0	0	0	0	76	5
+cern.colt.function.IntDoubleFunction	colt.jar	colt/src/cern/colt/function/IntDoubleFunction.java	0	0	0	0	23	4
+cern.colt.function.IntDoubleProcedure	colt.jar	colt/src/cern/colt/function/IntDoubleProcedure.java	0	0	0	0	29	4
+cern.colt.function.IntFunction	colt.jar	colt/src/cern/colt/function/IntFunction.java	0	0	0	0	23	4
+cern.colt.function.IntIntDoubleFunction	colt.jar	colt/src/cern/colt/function/IntIntDoubleFunction.java	0	0	0	0	24	4
+cern.colt.function.IntIntDoubleProcedure	colt.jar	colt/src/cern/colt/function/IntIntDoubleProcedure.java	0	0	0	0	30	4
+cern.colt.function.IntIntFunction	colt.jar	colt/src/cern/colt/function/IntIntFunction.java	0	0	0	0	24	4
+cern.colt.function.IntIntIntProcedure	colt.jar	colt/src/cern/colt/function/IntIntIntProcedure.java	0	0	0	0	30	4
+cern.colt.function.IntIntProcedure	colt.jar	colt/src/cern/colt/function/IntIntProcedure.java	0	0	0	0	29	4
+cern.colt.function.IntObjectProcedure	colt.jar	colt/src/cern/colt/function/IntObjectProcedure.java	0	0	0	0	29	4
+cern.colt.function.IntProcedure	colt.jar	colt/src/cern/colt/function/IntProcedure.java	0	0	0	0	28	4
+cern.colt.function.LongComparator	colt.jar	colt/src/cern/colt/function/LongComparator.java	0	0	0	0	76	5
+cern.colt.function.LongObjectProcedure	colt.jar	colt/src/cern/colt/function/LongObjectProcedure.java	0	0	0	0	29	4
+cern.colt.function.LongProcedure	colt.jar	colt/src/cern/colt/function/LongProcedure.java	0	0	0	0	28	4
+cern.colt.function.ObjectFunction	colt.jar	colt/src/cern/colt/function/ObjectFunction.java	0	0	0	0	23	4
+cern.colt.function.ObjectObjectFunction	colt.jar	colt/src/cern/colt/function/ObjectObjectFunction.java	0	0	0	0	24	4
+cern.colt.function.ObjectProcedure	colt.jar	colt/src/cern/colt/function/ObjectProcedure.java	0	0	0	0	28	4
+cern.colt.function.ShortComparator	colt.jar	colt/src/cern/colt/function/ShortComparator.java	0	0	0	0	76	5
+cern.colt.function.ShortProcedure	colt.jar	colt/src/cern/colt/function/ShortProcedure.java	0	0	0	0	28	4
+hep.aida.bin.AbstractBin	colt.jar	colt/src/hep/aida/bin/AbstractBin.java	0	0	0	0	141	45
+hep.aida.bin.AbstractBin1D	colt.jar	colt/src/hep/aida/bin/AbstractBin1D.java	0	0	0	0	171	79
+hep.aida.bin.BinBinFunction1D	colt.jar	colt/src/hep/aida/bin/BinBinFunction1D.java	0	0	0	0	16	4
+hep.aida.bin.BinFunction1D	colt.jar	colt/src/hep/aida/bin/BinFunction1D.java	0	0	0	0	21	5
+hep.aida.bin.BinFunctions1D	colt.jar	colt/src/hep/aida/bin/BinFunctions1D.java	0	0	0	0	113	51
+hep.aida.bin.BinFunctions1D$1	colt.jar	colt/src/hep/aida/bin/BinFunctions1D.java	0	0	0	2	0	0
+hep.aida.bin.BinFunctions1D$10	colt.jar	colt/src/hep/aida/bin/BinFunctions1D.java	0	0	0	2	0	0
+hep.aida.bin.BinFunctions1D$11	colt.jar	colt/src/hep/aida/bin/BinFunctions1D.java	0	0	0	2	0	0
+hep.aida.bin.BinFunctions1D$2	colt.jar	colt/src/hep/aida/bin/BinFunctions1D.java	0	0	0	2	0	0
+hep.aida.bin.BinFunctions1D$3	colt.jar	colt/src/hep/aida/bin/BinFunctions1D.java	0	0	0	2	0	0
+hep.aida.bin.BinFunctions1D$4	colt.jar	colt/src/hep/aida/bin/BinFunctions1D.java	0	0	0	2	0	0
+hep.aida.bin.BinFunctions1D$5	colt.jar	colt/src/hep/aida/bin/BinFunctions1D.java	0	0	0	2	0	0
+hep.aida.bin.BinFunctions1D$6	colt.jar	colt/src/hep/aida/bin/BinFunctions1D.java	0	0	0	2	0	0
+hep.aida.bin.BinFunctions1D$7	colt.jar	colt/src/hep/aida/bin/BinFunctions1D.java	0	0	0	2	0	0
+hep.aida.bin.BinFunctions1D$8	colt.jar	colt/src/hep/aida/bin/BinFunctions1D.java	0	0	0	2	0	0
+hep.aida.bin.BinFunctions1D$9	colt.jar	colt/src/hep/aida/bin/BinFunctions1D.java	0	0	0	2	0	0
+hep.aida.bin.DynamicBin1D	colt.jar	colt/src/hep/aida/bin/DynamicBin1D.java	0	0	0	0	859	351
+hep.aida.bin.MightyStaticBin1D	colt.jar	colt/src/hep/aida/bin/MightyStaticBin1D.java	0	0	0	0	371	183
+hep.aida.bin.QuantileBin1D	colt.jar	colt/src/hep/aida/bin/QuantileBin1D.java	0	0	0	0	960	152
+hep.aida.bin.StaticBin1D	colt.jar	colt/src/hep/aida/bin/StaticBin1D.java	0	0	0	0	171	64
+cern.jet.random.engine.Benchmark	colt.jar	colt/src/cern/jet/random/engine/Benchmark.java	0	0	0	0	249	85
+cern.jet.random.engine.DRand	colt.jar	colt/src/cern/jet/random/engine/DRand.java	0	0	0	0	87	26
+cern.jet.random.engine.MersenneTwister	colt.jar	colt/src/cern/jet/random/engine/MersenneTwister.java	0	0	0	0	263	66
+cern.jet.random.engine.MersenneTwister64	colt.jar	colt/src/cern/jet/random/engine/MersenneTwister64.java	0	0	0	0	47	16
+cern.jet.random.engine.RandomEngine	colt.jar	colt/src/cern/jet/random/engine/RandomEngine.java	0	0	0	0	142	49
+cern.jet.random.engine.RandomGenerator	colt.jar	colt/src/cern/jet/random/engine/RandomGenerator.java	0	0	0	0	40	8
+cern.jet.random.engine.RandomSeedGenerator	colt.jar	colt/src/cern/jet/random/engine/RandomSeedGenerator.java	0	0	0	0	78	30
+cern.jet.random.engine.RandomSeedTable	colt.jar	colt/src/cern/jet/random/engine/RandomSeedTable.java	0	0	0	0	283	241
+cern.colt.list.adapter.DoubleListAdapter	colt.jar	colt/src/cern/colt/list/adapter/DoubleListAdapter.java	0	0	0	0	120	35
+cern.colt.list.adapter.FloatListAdapter	colt.jar	colt/src/cern/colt/list/adapter/FloatListAdapter.java	0	0	0	0	120	35
+cern.colt.list.adapter.IntListAdapter	colt.jar	colt/src/cern/colt/list/adapter/IntListAdapter.java	0	0	0	0	120	35
+cern.colt.list.adapter.LongListAdapter	colt.jar	colt/src/cern/colt/list/adapter/LongListAdapter.java	0	0	0	0	120	35
+cern.colt.list.adapter.ObjectListAdapter	colt.jar	colt/src/cern/colt/list/adapter/ObjectListAdapter.java	0	0	0	0	104	29
+cern.colt.matrix.DoubleFactory1D	colt.jar	colt/src/cern/colt/matrix/DoubleFactory1D.java	0	0	0	0	201	90
+cern.colt.matrix.DoubleFactory2D	colt.jar	colt/src/cern/colt/matrix/DoubleFactory2D.java	0	0	0	0	841	337
+cern.colt.matrix.DoubleFactory3D	colt.jar	colt/src/cern/colt/matrix/DoubleFactory3D.java	0	0	0	0	108	38
+cern.colt.matrix.DoubleMatrix1D	colt.jar	colt/src/cern/colt/matrix/DoubleMatrix1D.java	0	0	0	0	808	300
+cern.colt.matrix.DoubleMatrix1DProcedure	colt.jar	colt/src/cern/colt/matrix/DoubleMatrix1DProcedure.java	0	0	0	0	28	4
+cern.colt.matrix.DoubleMatrix2D	colt.jar	colt/src/cern/colt/matrix/DoubleMatrix2D.java	0	0	0	0	1012	332
+cern.colt.matrix.DoubleMatrix2DProcedure	colt.jar	colt/src/cern/colt/matrix/DoubleMatrix2DProcedure.java	0	0	0	0	28	4
+cern.colt.matrix.DoubleMatrix3D	colt.jar	colt/src/cern/colt/matrix/DoubleMatrix3D.java	0	0	0	0	969	364
+cern.colt.matrix.DoubleMatrix3DProcedure	colt.jar	colt/src/cern/colt/matrix/DoubleMatrix3DProcedure.java	0	0	0	0	28	4
+cern.colt.matrix.ObjectFactory1D	colt.jar	colt/src/cern/colt/matrix/ObjectFactory1D.java	0	0	0	0	144	59
+cern.colt.matrix.ObjectFactory2D	colt.jar	colt/src/cern/colt/matrix/ObjectFactory2D.java	0	0	0	0	612	231
+cern.colt.matrix.ObjectFactory3D	colt.jar	colt/src/cern/colt/matrix/ObjectFactory3D.java	0	0	0	0	76	19
+cern.colt.matrix.ObjectMatrix1D	colt.jar	colt/src/cern/colt/matrix/ObjectMatrix1D.java	0	0	0	0	605	198
+cern.colt.matrix.ObjectMatrix1DProcedure	colt.jar	colt/src/cern/colt/matrix/ObjectMatrix1DProcedure.java	0	0	0	0	28	4
+cern.colt.matrix.ObjectMatrix2D	colt.jar	colt/src/cern/colt/matrix/ObjectMatrix2D.java	0	0	0	0	823	248
+cern.colt.matrix.ObjectMatrix2DProcedure	colt.jar	colt/src/cern/colt/matrix/ObjectMatrix2DProcedure.java	0	0	0	0	28	4
+cern.colt.matrix.ObjectMatrix3D	colt.jar	colt/src/cern/colt/matrix/ObjectMatrix3D.java	0	0	0	0	856	320
+cern.colt.matrix.ObjectMatrix3DProcedure	colt.jar	colt/src/cern/colt/matrix/ObjectMatrix3DProcedure.java	0	0	0	0	40	5
+cern.colt.map.AbstractDoubleIntMap	colt.jar	colt/src/cern/colt/map/AbstractDoubleIntMap.java	0	0	0	0	451	194
+cern.colt.map.AbstractDoubleIntMap$1	colt.jar	colt/src/cern/colt/map/AbstractDoubleIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractDoubleIntMap$10	colt.jar	colt/src/cern/colt/map/AbstractDoubleIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractDoubleIntMap$11	colt.jar	colt/src/cern/colt/map/AbstractDoubleIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractDoubleIntMap$2	colt.jar	colt/src/cern/colt/map/AbstractDoubleIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractDoubleIntMap$3	colt.jar	colt/src/cern/colt/map/AbstractDoubleIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractDoubleIntMap$4	colt.jar	colt/src/cern/colt/map/AbstractDoubleIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractDoubleIntMap$5	colt.jar	colt/src/cern/colt/map/AbstractDoubleIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractDoubleIntMap$6	colt.jar	colt/src/cern/colt/map/AbstractDoubleIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractDoubleIntMap$7	colt.jar	colt/src/cern/colt/map/AbstractDoubleIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractDoubleIntMap$8	colt.jar	colt/src/cern/colt/map/AbstractDoubleIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractDoubleIntMap$9	colt.jar	colt/src/cern/colt/map/AbstractDoubleIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntDoubleMap	colt.jar	colt/src/cern/colt/map/AbstractIntDoubleMap.java	0	0	0	0	452	211
+cern.colt.map.AbstractIntDoubleMap$1	colt.jar	colt/src/cern/colt/map/AbstractIntDoubleMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntDoubleMap$10	colt.jar	colt/src/cern/colt/map/AbstractIntDoubleMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntDoubleMap$11	colt.jar	colt/src/cern/colt/map/AbstractIntDoubleMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntDoubleMap$12	colt.jar	colt/src/cern/colt/map/AbstractIntDoubleMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntDoubleMap$13	colt.jar	colt/src/cern/colt/map/AbstractIntDoubleMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntDoubleMap$2	colt.jar	colt/src/cern/colt/map/AbstractIntDoubleMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntDoubleMap$3	colt.jar	colt/src/cern/colt/map/AbstractIntDoubleMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntDoubleMap$4	colt.jar	colt/src/cern/colt/map/AbstractIntDoubleMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntDoubleMap$5	colt.jar	colt/src/cern/colt/map/AbstractIntDoubleMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntDoubleMap$6	colt.jar	colt/src/cern/colt/map/AbstractIntDoubleMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntDoubleMap$7	colt.jar	colt/src/cern/colt/map/AbstractIntDoubleMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntDoubleMap$8	colt.jar	colt/src/cern/colt/map/AbstractIntDoubleMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntDoubleMap$9	colt.jar	colt/src/cern/colt/map/AbstractIntDoubleMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntIntMap	colt.jar	colt/src/cern/colt/map/AbstractIntIntMap.java	0	0	0	0	418	187
+cern.colt.map.AbstractIntIntMap$1	colt.jar	colt/src/cern/colt/map/AbstractIntIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntIntMap$10	colt.jar	colt/src/cern/colt/map/AbstractIntIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntIntMap$11	colt.jar	colt/src/cern/colt/map/AbstractIntIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntIntMap$2	colt.jar	colt/src/cern/colt/map/AbstractIntIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntIntMap$3	colt.jar	colt/src/cern/colt/map/AbstractIntIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntIntMap$4	colt.jar	colt/src/cern/colt/map/AbstractIntIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntIntMap$5	colt.jar	colt/src/cern/colt/map/AbstractIntIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntIntMap$6	colt.jar	colt/src/cern/colt/map/AbstractIntIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntIntMap$7	colt.jar	colt/src/cern/colt/map/AbstractIntIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntIntMap$8	colt.jar	colt/src/cern/colt/map/AbstractIntIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntIntMap$9	colt.jar	colt/src/cern/colt/map/AbstractIntIntMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntObjectMap	colt.jar	colt/src/cern/colt/map/AbstractIntObjectMap.java	0	0	0	0	422	190
+cern.colt.map.AbstractIntObjectMap$1	colt.jar	colt/src/cern/colt/map/AbstractIntObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntObjectMap$10	colt.jar	colt/src/cern/colt/map/AbstractIntObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntObjectMap$11	colt.jar	colt/src/cern/colt/map/AbstractIntObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntObjectMap$2	colt.jar	colt/src/cern/colt/map/AbstractIntObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntObjectMap$3	colt.jar	colt/src/cern/colt/map/AbstractIntObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntObjectMap$4	colt.jar	colt/src/cern/colt/map/AbstractIntObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntObjectMap$5	colt.jar	colt/src/cern/colt/map/AbstractIntObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntObjectMap$6	colt.jar	colt/src/cern/colt/map/AbstractIntObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntObjectMap$7	colt.jar	colt/src/cern/colt/map/AbstractIntObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntObjectMap$8	colt.jar	colt/src/cern/colt/map/AbstractIntObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractIntObjectMap$9	colt.jar	colt/src/cern/colt/map/AbstractIntObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractLongObjectMap	colt.jar	colt/src/cern/colt/map/AbstractLongObjectMap.java	0	0	0	0	422	190
+cern.colt.map.AbstractLongObjectMap$1	colt.jar	colt/src/cern/colt/map/AbstractLongObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractLongObjectMap$10	colt.jar	colt/src/cern/colt/map/AbstractLongObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractLongObjectMap$11	colt.jar	colt/src/cern/colt/map/AbstractLongObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractLongObjectMap$2	colt.jar	colt/src/cern/colt/map/AbstractLongObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractLongObjectMap$3	colt.jar	colt/src/cern/colt/map/AbstractLongObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractLongObjectMap$4	colt.jar	colt/src/cern/colt/map/AbstractLongObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractLongObjectMap$5	colt.jar	colt/src/cern/colt/map/AbstractLongObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractLongObjectMap$6	colt.jar	colt/src/cern/colt/map/AbstractLongObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractLongObjectMap$7	colt.jar	colt/src/cern/colt/map/AbstractLongObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractLongObjectMap$8	colt.jar	colt/src/cern/colt/map/AbstractLongObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractLongObjectMap$9	colt.jar	colt/src/cern/colt/map/AbstractLongObjectMap.java	0	0	0	2	0	0
+cern.colt.map.AbstractMap	colt.jar	colt/src/cern/colt/map/AbstractMap.java	0	0	0	0	163	50
+cern.colt.map.Benchmark	colt.jar	colt/src/cern/colt/map/Benchmark.java	0	0	0	0	147	93
+cern.colt.map.HashFunctions	colt.jar	colt/src/cern/colt/map/HashFunctions.java	0	0	0	0	110	33
+cern.colt.map.OpenDoubleIntHashMap	colt.jar	colt/src/cern/colt/map/OpenDoubleIntHashMap.java	0	0	0	0	508	256
+cern.colt.map.OpenIntDoubleHashMap	colt.jar	colt/src/cern/colt/map/OpenIntDoubleHashMap.java	0	0	0	0	579	303
+cern.colt.map.OpenIntIntHashMap	colt.jar	colt/src/cern/colt/map/OpenIntIntHashMap.java	0	0	0	0	508	258
+cern.colt.map.OpenIntObjectHashMap	colt.jar	colt/src/cern/colt/map/OpenIntObjectHashMap.java	0	0	0	0	498	256
+cern.colt.map.OpenLongObjectHashMap	colt.jar	colt/src/cern/colt/map/OpenLongObjectHashMap.java	0	0	0	0	498	256
+cern.colt.map.PrimeFinder	colt.jar	colt/src/cern/colt/map/PrimeFinder.java	0	0	0	0	194	90
+cern.colt.map.QuickOpenIntIntHashMap	colt.jar	colt/src/cern/colt/map/QuickOpenIntIntHashMap.java	0	0	0	4	210	106
+cern.colt.matrix.linalg.Algebra	colt.jar	colt/src/cern/colt/matrix/linalg/Algebra.java	0	0	0	0	952	394
+cern.colt.matrix.linalg.Algebra$1	colt.jar	colt/src/cern/colt/matrix/linalg/Algebra.java	0	0	0	2	0	0
+cern.colt.matrix.linalg.Algebra$2	colt.jar	colt/src/cern/colt/matrix/linalg/Algebra.java	0	0	0	2	0	0
+cern.colt.matrix.linalg.Algebra$3	colt.jar	colt/src/cern/colt/matrix/linalg/Algebra.java	0	0	0	2	0	0
+cern.colt.matrix.linalg.Algebra$4	colt.jar	colt/src/cern/colt/matrix/linalg/Algebra.java	0	0	0	2	0	0
+cern.colt.matrix.linalg.Blas	colt.jar	colt/src/cern/colt/matrix/linalg/Blas.java	0	0	0	0	289	26
+cern.colt.matrix.linalg.CholeskyDecomposition	colt.jar	colt/src/cern/colt/matrix/linalg/CholeskyDecomposition.java	0	0	0	0	213	123
+cern.colt.matrix.linalg.Diagonal	colt.jar	colt/src/cern/colt/matrix/linalg/Diagonal.java	0	0	0	4	42	17
+cern.colt.matrix.linalg.EigenvalueDecomposition	colt.jar	colt/src/cern/colt/matrix/linalg/EigenvalueDecomposition.java	0	0	0	0	978	761
+cern.colt.matrix.linalg.LUDecomposition	colt.jar	colt/src/cern/colt/matrix/linalg/LUDecomposition.java	0	0	0	0	105	37
+cern.colt.matrix.linalg.LUDecompositionQuick	colt.jar	colt/src/cern/colt/matrix/linalg/LUDecompositionQuick.java	0	0	0	0	671	398
+cern.colt.matrix.linalg.Matrix2DMatrix2DFunction	colt.jar	colt/src/cern/colt/matrix/linalg/Matrix2DMatrix2DFunction.java	0	0	0	0	25	5
+cern.colt.matrix.linalg.Property	colt.jar	colt/src/cern/colt/matrix/linalg/Property.java	0	0	0	0	1147	540
+cern.colt.matrix.linalg.Property$1	colt.jar	colt/src/cern/colt/matrix/linalg/Property.java	0	0	0	2	0	0
+cern.colt.matrix.linalg.Property$2	colt.jar	colt/src/cern/colt/matrix/linalg/Property.java	0	0	0	2	0	0
+cern.colt.matrix.linalg.QRDecomposition	colt.jar	colt/src/cern/colt/matrix/linalg/QRDecomposition.java	0	0	0	0	262	156
+cern.colt.matrix.linalg.SeqBlas	colt.jar	colt/src/cern/colt/matrix/linalg/SeqBlas.java	0	0	0	0	229	174
+cern.colt.matrix.linalg.SingularValueDecomposition	colt.jar	colt/src/cern/colt/matrix/linalg/SingularValueDecomposition.java	0	0	0	0	569	441
+cern.colt.matrix.linalg.Smp	colt.jar	colt/src/cern/colt/matrix/linalg/Smp.java	0	0	0	4	195	109
+cern.colt.matrix.linalg.Smp$1	colt.jar	colt/src/cern/colt/matrix/linalg/Smp.java	0	0	0	2	0	0
+cern.colt.matrix.linalg.Smp$2	colt.jar	colt/src/cern/colt/matrix/linalg/Smp.java	0	0	0	2	0	0
+cern.colt.matrix.linalg.SmpBlas	colt.jar	colt/src/cern/colt/matrix/linalg/SmpBlas.java	0	0	0	0	388	252
+cern.colt.matrix.linalg.SmpBlas$1	colt.jar	colt/src/cern/colt/matrix/linalg/SmpBlas.java	0	0	0	2	0	0
+cern.colt.matrix.linalg.SmpBlas$2	colt.jar	colt/src/cern/colt/matrix/linalg/SmpBlas.java	0	0	0	2	0	0
+cern.colt.matrix.linalg.SmpBlas$3	colt.jar	colt/src/cern/colt/matrix/linalg/SmpBlas.java	0	0	0	2	0	0
+cern.colt.matrix.linalg.SmpBlas$4	colt.jar	colt/src/cern/colt/matrix/linalg/SmpBlas.java	0	0	0	2	0	0
+cern.colt.matrix.linalg.SmpBlas$5	colt.jar	colt/src/cern/colt/matrix/linalg/SmpBlas.java	0	0	0	2	0	0
+cern.colt.matrix.linalg.SmpBlas$6	colt.jar	colt/src/cern/colt/matrix/linalg/SmpBlas.java	0	0	0	2	0	0
+cern.colt.matrix.linalg.SmpBlas$7	colt.jar	colt/src/cern/colt/matrix/linalg/SmpBlas.java	0	0	0	2	0	0
+cern.colt.Arrays	colt.jar	colt/src/cern/colt/Arrays.java	0	0	0	0	602	329
+cern.colt.GenericPermuting	colt.jar	colt/src/cern/colt/GenericPermuting.java	0	0	0	0	272	74
+cern.colt.GenericSorting	colt.jar	colt/src/cern/colt/GenericSorting.java	0	0	0	0	465	183
+cern.colt.GenericSortingTest	colt.jar	colt/src/cern/colt/GenericSortingTest.java	0	0	0	4	157	105
+cern.colt.GenericSortingTest$1	colt.jar	colt/src/cern/colt/GenericSortingTest.java	0	0	0	2	0	0
+cern.colt.GenericSortingTest$2	colt.jar	colt/src/cern/colt/GenericSortingTest.java	0	0	0	2	0	0
+cern.colt.GenericSortingTest$3	colt.jar	colt/src/cern/colt/GenericSortingTest.java	0	0	0	2	0	0
+cern.colt.GenericSortingTest$4	colt.jar	colt/src/cern/colt/GenericSortingTest.java	0	0	0	2	0	0
+cern.colt.Partitioning	colt.jar	colt/src/cern/colt/Partitioning.java	0	0	0	0	1256	670
+cern.colt.PersistentObject	colt.jar	colt/src/cern/colt/PersistentObject.java	0	0	0	0	37	13
+cern.colt.Sorting	colt.jar	colt/src/cern/colt/Sorting.java	0	0	0	0	2479	1354
+cern.colt.Swapper	colt.jar	colt/src/cern/colt/Swapper.java	0	0	0	0	24	4
+cern.colt.Timer	colt.jar	colt/src/cern/colt/Timer.java	0	0	0	0	162	89
+cern.colt.Version	colt.jar	colt/src/cern/colt/Version.java	0	0	0	0	115	50
+cern.jet.math.Algebraic	colt.jar	colt/src/cern/jet/math/Algebraic.java	0	0	0	4	19	4
+cern.jet.math.Arithmetic	colt.jar	colt/src/cern/jet/math/Arithmetic.java	0	0	0	0	501	348
+cern.jet.math.Bessel	colt.jar	colt/src/cern/jet/math/Bessel.java	0	0	0	0	843	559
+cern.jet.math.Complex	colt.jar	colt/src/cern/jet/math/Complex.java	0	0	0	4	19	4
+cern.jet.math.Constants	colt.jar	colt/src/cern/jet/math/Constants.java	0	0	0	0	60	13
+cern.jet.math.Elliptic	colt.jar	colt/src/cern/jet/math/Elliptic.java	0	0	0	4	19	4
+cern.jet.math.Exponential	colt.jar	colt/src/cern/jet/math/Exponential.java	0	0	0	4	19	4
+cern.jet.math.ExponentialIntegral	colt.jar	colt/src/cern/jet/math/ExponentialIntegral.java	0	0	0	4	19	4
+cern.jet.math.Functions	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	0	982	345
+cern.jet.math.Functions$1	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$10	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$11	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$12	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$13	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$14	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$15	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$16	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$17	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$18	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$19	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$2	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$20	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$21	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$22	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$23	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$24	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$25	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$26	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$27	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$28	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$29	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$3	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$30	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$31	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$32	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$33	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$34	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$35	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$36	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$37	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$38	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$39	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$4	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$40	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$41	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$42	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$43	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$44	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$45	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$46	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$47	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$48	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$49	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$5	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$50	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$51	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$52	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$53	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$54	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$55	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$56	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$57	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$58	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$59	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$6	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$60	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$61	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$62	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$7	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$8	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.Functions$9	colt.jar	colt/src/cern/jet/math/Functions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	0	533	236
+cern.jet.math.IntFunctions$1	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$10	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$11	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$12	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$13	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$14	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$15	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$16	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$17	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$18	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$19	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$2	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$20	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$21	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$22	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$23	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$24	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$25	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$26	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$27	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$28	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$29	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$3	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$30	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$31	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$32	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$33	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$34	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$35	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$36	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$37	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$38	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$39	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$4	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$40	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$41	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$42	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$43	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$44	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$45	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$46	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$47	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$48	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$49	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$5	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$50	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$51	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$52	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$53	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$54	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$55	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$56	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$6	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$7	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$8	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.IntFunctions$9	colt.jar	colt/src/cern/jet/math/IntFunctions.java	0	0	0	2	0	0
+cern.jet.math.Misc	colt.jar	colt/src/cern/jet/math/Misc.java	0	0	0	4	19	4
+cern.jet.math.Mult	colt.jar	colt/src/cern/jet/math/Mult.java	0	0	0	0	51	16
+cern.jet.math.NumericalIntegration	colt.jar	colt/src/cern/jet/math/NumericalIntegration.java	0	0	0	4	19	4
+cern.jet.math.PlusMult	colt.jar	colt/src/cern/jet/math/PlusMult.java	0	0	0	0	65	22
+cern.jet.math.Polynomial	colt.jar	colt/src/cern/jet/math/Polynomial.java	0	0	0	0	78	16
+cern.jet.stat.Descriptive	colt.jar	colt/src/cern/jet/stat/Descriptive.java	0	0	0	0	1164	579
+cern.jet.stat.Gamma	colt.jar	colt/src/cern/jet/stat/Gamma.java	0	0	0	0	629	478
+cern.jet.stat.Probability	colt.jar	colt/src/cern/jet/stat/Probability.java	0	0	0	0	765	311
+hep.aida.IAxis	colt.jar	colt/src/hep/aida/IAxis.java	0	0	0	0	53	12
+hep.aida.IHistogram	colt.jar	colt/src/hep/aida/IHistogram.java	0	0	0	0	62	17
+hep.aida.IHistogram1D	colt.jar	colt/src/hep/aida/IHistogram1D.java	0	0	0	0	56	13
+hep.aida.IHistogram2D	colt.jar	colt/src/hep/aida/IHistogram2D.java	0	0	0	0	119	26
+hep.aida.IHistogram3D	colt.jar	colt/src/hep/aida/IHistogram3D.java	0	0	0	0	134	28
+cern.colt.matrix.objectalgo.Formatter	colt.jar	colt/src/cern/colt/matrix/objectalgo/Formatter.java	0	0	0	0	258	154
+cern.colt.matrix.objectalgo.ObjectMatrix1DComparator	colt.jar	colt/src/cern/colt/matrix/objectalgo/ObjectMatrix1DComparator.java	0	0	0	0	78	6
+cern.colt.matrix.objectalgo.ObjectMatrix2DComparator	colt.jar	colt/src/cern/colt/matrix/objectalgo/ObjectMatrix2DComparator.java	0	0	0	0	78	6
+cern.colt.matrix.objectalgo.Partitioning	colt.jar	colt/src/cern/colt/matrix/objectalgo/Partitioning.java	0	0	0	0	390	70
+cern.colt.matrix.objectalgo.Partitioning$1	colt.jar	colt/src/cern/colt/matrix/objectalgo/Partitioning.java	0	0	0	2	0	0
+cern.colt.matrix.objectalgo.Partitioning$2	colt.jar	colt/src/cern/colt/matrix/objectalgo/Partitioning.java	0	0	0	2	0	0
+cern.colt.matrix.objectalgo.Partitioning$3	colt.jar	colt/src/cern/colt/matrix/objectalgo/Partitioning.java	0	0	0	2	0	0
+cern.colt.matrix.objectalgo.Partitioning$4	colt.jar	colt/src/cern/colt/matrix/objectalgo/Partitioning.java	0	0	0	2	0	0
+cern.colt.matrix.objectalgo.Sorting	colt.jar	colt/src/cern/colt/matrix/objectalgo/Sorting.java	0	0	0	0	332	117
+cern.colt.matrix.objectalgo.Sorting$1	colt.jar	colt/src/cern/colt/matrix/objectalgo/Sorting.java	0	0	0	2	0	0
+cern.colt.matrix.objectalgo.Sorting$2	colt.jar	colt/src/cern/colt/matrix/objectalgo/Sorting.java	0	0	0	2	0	0
+cern.colt.matrix.objectalgo.Sorting$3	colt.jar	colt/src/cern/colt/matrix/objectalgo/Sorting.java	0	0	0	2	0	0
+cern.colt.matrix.objectalgo.Sorting$4	colt.jar	colt/src/cern/colt/matrix/objectalgo/Sorting.java	0	0	0	2	0	0
+cern.colt.matrix.objectalgo.Sorting$5	colt.jar	colt/src/cern/colt/matrix/objectalgo/Sorting.java	0	0	0	2	0	0
+cern.colt.matrix.objectalgo.Sorting$6	colt.jar	colt/src/cern/colt/matrix/objectalgo/Sorting.java	0	0	0	2	0	0
+cern.colt.matrix.objectalgo.Sorting$7	colt.jar	colt/src/cern/colt/matrix/objectalgo/Sorting.java	0	0	0	2	0	0
+cern.colt.buffer.DoubleBuffer	colt.jar	colt/src/cern/colt/buffer/DoubleBuffer.java	0	0	0	0	73	36
+cern.colt.buffer.DoubleBuffer2D	colt.jar	colt/src/cern/colt/buffer/DoubleBuffer2D.java	0	0	0	0	81	42
+cern.colt.buffer.DoubleBuffer2DConsumer	colt.jar	colt/src/cern/colt/buffer/DoubleBuffer2DConsumer.java	0	0	0	0	25	5
+cern.colt.buffer.DoubleBuffer3D	colt.jar	colt/src/cern/colt/buffer/DoubleBuffer3D.java	0	0	0	0	89	48
+cern.colt.buffer.DoubleBuffer3DConsumer	colt.jar	colt/src/cern/colt/buffer/DoubleBuffer3DConsumer.java	0	0	0	0	26	5
+cern.colt.buffer.DoubleBufferConsumer	colt.jar	colt/src/cern/colt/buffer/DoubleBufferConsumer.java	0	0	0	0	24	5
+cern.colt.buffer.IntBuffer	colt.jar	colt/src/cern/colt/buffer/IntBuffer.java	0	0	0	0	73	36
+cern.colt.buffer.IntBuffer2D	colt.jar	colt/src/cern/colt/buffer/IntBuffer2D.java	0	0	0	0	81	42
+cern.colt.buffer.IntBuffer2DConsumer	colt.jar	colt/src/cern/colt/buffer/IntBuffer2DConsumer.java	0	0	0	0	25	5
+cern.colt.buffer.IntBuffer3D	colt.jar	colt/src/cern/colt/buffer/IntBuffer3D.java	0	0	0	0	89	48
+cern.colt.buffer.IntBuffer3DConsumer	colt.jar	colt/src/cern/colt/buffer/IntBuffer3DConsumer.java	0	0	0	0	26	5
+cern.colt.buffer.IntBufferConsumer	colt.jar	colt/src/cern/colt/buffer/IntBufferConsumer.java	0	0	0	0	24	5
+cern.colt.buffer.ObjectBuffer	colt.jar	colt/src/cern/colt/buffer/ObjectBuffer.java	0	0	0	0	73	36
+cern.colt.buffer.ObjectBufferConsumer	colt.jar	colt/src/cern/colt/buffer/ObjectBufferConsumer.java	0	0	0	0	24	5
+cern.colt.list.AbstractBooleanList	colt.jar	colt/src/cern/colt/list/AbstractBooleanList.java	0	0	0	0	659	257
+cern.colt.list.AbstractByteList	colt.jar	colt/src/cern/colt/list/AbstractByteList.java	0	0	0	0	777	286
+cern.colt.list.AbstractCharList	colt.jar	colt/src/cern/colt/list/AbstractCharList.java	0	0	0	0	777	286
+cern.colt.list.AbstractCollection	colt.jar	colt/src/cern/colt/list/AbstractCollection.java	0	0	0	0	60	14
+cern.colt.list.AbstractDoubleList	colt.jar	colt/src/cern/colt/list/AbstractDoubleList.java	0	0	0	0	787	290
+cern.colt.list.AbstractFloatList	colt.jar	colt/src/cern/colt/list/AbstractFloatList.java	0	0	0	0	777	286
+cern.colt.list.AbstractIntList	colt.jar	colt/src/cern/colt/list/AbstractIntList.java	0	0	0	0	785	290
+cern.colt.list.AbstractList	colt.jar	colt/src/cern/colt/list/AbstractList.java	0	0	0	0	255	58
+cern.colt.list.AbstractLongList	colt.jar	colt/src/cern/colt/list/AbstractLongList.java	0	0	0	0	777	286
+cern.colt.list.AbstractShortList	colt.jar	colt/src/cern/colt/list/AbstractShortList.java	0	0	0	0	777	286
+cern.colt.list.BooleanArrayList	colt.jar	colt/src/cern/colt/list/BooleanArrayList.java	0	0	0	0	514	236
+cern.colt.list.ByteArrayList	colt.jar	colt/src/cern/colt/list/ByteArrayList.java	0	0	0	0	577	276
+cern.colt.list.CharArrayList	colt.jar	colt/src/cern/colt/list/CharArrayList.java	0	0	0	0	570	266
+cern.colt.list.DistinctNumberList	colt.jar	colt/src/cern/colt/list/DistinctNumberList.java	0	0	0	0	160	43
+cern.colt.list.DoubleArrayList	colt.jar	colt/src/cern/colt/list/DoubleArrayList.java	0	0	0	0	483	222
+cern.colt.list.FloatArrayList	colt.jar	colt/src/cern/colt/list/FloatArrayList.java	0	0	0	0	479	218
+cern.colt.list.IntArrayList	colt.jar	colt/src/cern/colt/list/IntArrayList.java	0	0	0	0	574	270
+cern.colt.list.LongArrayList	colt.jar	colt/src/cern/colt/list/LongArrayList.java	0	0	0	0	568	264
+cern.colt.list.MinMaxNumberList	colt.jar	colt/src/cern/colt/list/MinMaxNumberList.java	0	0	0	0	292	133
+cern.colt.list.ObjectArrayList	colt.jar	colt/src/cern/colt/list/ObjectArrayList.java	0	0	0	0	985	356
+cern.colt.list.ShortArrayList	colt.jar	colt/src/cern/colt/list/ShortArrayList.java	0	0	0	0	570	266
+cern.colt.list.SimpleLongArrayList	colt.jar	colt/src/cern/colt/list/SimpleLongArrayList.java	0	0	0	0	99	30
+cern.jet.stat.quantile.Buffer	colt.jar	colt/src/cern/jet/stat/quantile/Buffer.java	0	0	0	4	85	36
+cern.jet.stat.quantile.BufferSet	colt.jar	colt/src/cern/jet/stat/quantile/BufferSet.java	0	0	0	4	15	3
+cern.jet.stat.quantile.DoubleBuffer	colt.jar	colt/src/cern/jet/stat/quantile/DoubleBuffer.java	0	0	0	4	134	69
+cern.jet.stat.quantile.DoubleBufferSet	colt.jar	colt/src/cern/jet/stat/quantile/DoubleBufferSet.java	0	0	0	4	392	257
+cern.jet.stat.quantile.DoubleQuantileEstimator	colt.jar	colt/src/cern/jet/stat/quantile/DoubleQuantileEstimator.java	0	0	0	4	260	136
+cern.jet.stat.quantile.DoubleQuantileFinder	colt.jar	colt/src/cern/jet/stat/quantile/DoubleQuantileFinder.java	0	0	0	0	85	16
+cern.jet.stat.quantile.EquiDepthHistogram	colt.jar	colt/src/cern/jet/stat/quantile/EquiDepthHistogram.java	0	0	0	0	132	61
+cern.jet.stat.quantile.ExactDoubleQuantileFinder	colt.jar	colt/src/cern/jet/stat/quantile/ExactDoubleQuantileFinder.java	0	0	0	4	164	73
+cern.jet.stat.quantile.KnownDoubleQuantileEstimator	colt.jar	colt/src/cern/jet/stat/quantile/KnownDoubleQuantileEstimator.java	0	0	0	4	261	128
+cern.jet.stat.quantile.Quantile1Test	colt.jar	colt/src/cern/jet/stat/quantile/Quantile1Test.java	0	0	0	0	102	63
+cern.jet.stat.quantile.QuantileCalc	colt.jar	colt/src/cern/jet/stat/quantile/QuantileCalc.java	0	0	0	4	449	332
+cern.jet.stat.quantile.QuantileFinderFactory	colt.jar	colt/src/cern/jet/stat/quantile/QuantileFinderFactory.java	0	0	0	0	571	344
+cern.jet.stat.quantile.QuantileFinderTest	colt.jar	colt/src/cern/jet/stat/quantile/QuantileFinderTest.java	0	0	0	4	439	261
+cern.jet.stat.quantile.UnknownDoubleQuantileEstimator	colt.jar	colt/src/cern/jet/stat/quantile/UnknownDoubleQuantileEstimator.java	0	0	0	4	174	86
+cern.jet.stat.quantile.UnknownDoubleQuantileEstimator$1	colt.jar	colt/src/cern/jet/stat/quantile/UnknownDoubleQuantileEstimator.java	0	0	0	2	0	0
+cern.jet.stat.quantile.Utils	colt.jar	colt/src/cern/jet/stat/quantile/Utils.java	0	0	0	4	28	10
+#Issues
+#======
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/colt/colt-1.2.0/src/colt/doc/api/hep/aida/ref/doc-files/aidaref.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/colt/colt-1.2.0/src/colt/lib/concurrent.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/colt/colt-1.2.0/src/colt/src/hep/aida/ref/doc-files/aidaref.jar in <src> ignored.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/GenericSortingTest.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/map/QuickOpenIntIntHashMap.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/bench/BenchmarkKernel.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/bench/Double2DProcedure.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/bench/TimerProcedure.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/Benchmark.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/BenchmarkMatrix2D.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/DelegateDoubleMatrix1D.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/NormInfinityTest.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/QRTest.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/RCMDoubleMatrix2D.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/SelectedDenseDoubleMatrix1D.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/SelectedDenseDoubleMatrix2D.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/SelectedDenseDoubleMatrix3D.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/SelectedDenseObjectMatrix1D.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/SelectedDenseObjectMatrix2D.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/SelectedDenseObjectMatrix3D.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/SelectedSparseDoubleMatrix1D.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/SelectedSparseDoubleMatrix2D.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/SelectedSparseDoubleMatrix3D.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/SelectedSparseObjectMatrix1D.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/SelectedSparseObjectMatrix2D.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/SelectedSparseObjectMatrix3D.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/TestMatrix2D.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/TridiagonalDoubleMatrix2D.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/WrapperDoubleMatrix1D.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/impl/WrapperDoubleMatrix2D.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/linalg/Diagonal.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/colt/matrix/linalg/Smp.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/math/Algebraic.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/math/Complex.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/math/Elliptic.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/math/Exponential.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/math/ExponentialIntegral.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/math/Misc.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/math/NumericalIntegration.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/random/Fun.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/random/Stack.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/stat/quantile/Buffer.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/stat/quantile/BufferSet.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/stat/quantile/DoubleBuffer.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/stat/quantile/DoubleBufferSet.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/stat/quantile/DoubleQuantileEstimator.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/stat/quantile/ExactDoubleQuantileFinder.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/stat/quantile/KnownDoubleQuantileEstimator.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/stat/quantile/QuantileCalc.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/stat/quantile/QuantileFinderTest.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/stat/quantile/UnknownDoubleQuantileEstimator.java.
+#SRC NO PUBLIC TYPE for colt/src/cern/jet/stat/quantile/Utils.java.
+#SRC NO PUBLIC TYPE for colt/src/hep/aida/ref/AbstractHistogram1D.java.
+#SRC NO PUBLIC TYPE for colt/src/hep/aida/ref/AbstractHistogram2D.java.
+#SRC NO PUBLIC TYPE for colt/src/hep/aida/ref/AbstractHistogram3D.java.
+#SRC NO PUBLIC TYPE for colt/src/hep/aida/ref/Histogram.java.
+#SRC NO PUBLIC TYPE for colt/src/hep/aida/ref/Util.java.

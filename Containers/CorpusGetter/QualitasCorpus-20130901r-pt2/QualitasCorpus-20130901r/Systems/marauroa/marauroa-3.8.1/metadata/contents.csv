@@ -1,0 +1,941 @@
+#2013-09-05T10:02:21NZST
+#System Version : marauroa-3.8.1
+#Source Packages: marauroa.
+#Ignore Packages: 
+#Distributed    : marauroa-3.8.1/src
+#Source Roots   : marauroa-3.8.1/functional_tests,marauroa-3.8.1/src,marauroa-3.8.1/tests
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+marauroa.server.game.container.CharacternameValidationTest		marauroa-3.8.1/tests/marauroa/server/game/container/CharacternameValidationTest.java	0	2	1	0	49	27
+marauroa.server.game.container.ClientState	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/container/ClientState.java	0	0	0	0	34	7
+marauroa.server.game.container.PlayerEntry	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/container/PlayerEntry.java	0	0	0	0	519	218
+marauroa.server.game.container.PlayerEntry$SecuredLoginInfo	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/container/PlayerEntry.java	0	0	0	2	0	0
+marauroa.server.game.container.PlayerEntryContainer	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/container/PlayerEntryContainer.java	0	0	0	0	320	139
+marauroa.server.game.container.PlayerEntryContainerTest		marauroa-3.8.1/tests/marauroa/server/game/container/PlayerEntryContainerTest.java	0	2	1	0	93	42
+marauroa.server.game.container.SecureLoginTest		marauroa-3.8.1/tests/marauroa/server/game/container/SecureLoginTest.java	0	2	1	0	127	67
+marauroa.server.game.container.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+marauroa.ping.server.PingRPRuleProcessor		marauroa-3.8.1/functional_tests/marauroa/ping/server/PingRPRuleProcessor.java	0	2	1	0	214	142
+marauroa.server.game.db.AccountDAO	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/db/AccountDAO.java	0	0	0	0	771	442
+marauroa.server.game.db.BanListDAO	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/db/BanListDAO.java	0	0	0	0	75	37
+marauroa.server.game.db.CharacterAccessTest		marauroa-3.8.1/tests/marauroa/server/game/db/CharacterAccessTest.java	0	2	1	0	239	141
+marauroa.server.game.db.CharacterDAO	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/db/CharacterDAO.java	0	0	0	0	748	383
+marauroa.server.game.db.DAORegister	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/db/DAORegister.java	0	0	0	0	118	45
+marauroa.server.game.db.DatabaseFactory	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/db/DatabaseFactory.java	0	0	0	0	91	52
+marauroa.server.game.db.GameEventDAO	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/db/GameEventDAO.java	0	0	0	0	92	44
+marauroa.server.game.db.LoginEventDAO	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/db/LoginEventDAO.java	0	0	0	0	523	249
+marauroa.server.game.db.LoginEventDAO$LoginEvent	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/db/LoginEventDAO.java	0	0	0	2	0	0
+marauroa.server.game.db.LoginSeedDAO	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/db/LoginSeedDAO.java	0	0	0	0	124	53
+marauroa.server.game.db.PlayerAccessTest		marauroa-3.8.1/tests/marauroa/server/game/db/PlayerAccessTest.java	0	2	1	0	255	142
+marauroa.server.game.db.RPObjectDAO	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/db/RPObjectDAO.java	0	0	0	0	332	171
+marauroa.server.game.db.RPZoneAccessTest		marauroa-3.8.1/tests/marauroa/server/game/db/RPZoneAccessTest.java	0	2	1	0	177	98
+marauroa.server.game.db.RPZoneDAO	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/db/RPZoneDAO.java	0	0	0	0	249	145
+marauroa.server.game.db.StatisticsDAO	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/db/StatisticsDAO.java	0	0	0	0	74	35
+marauroa.server.game.db.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+org.apache.log4j.or.jms.MessageRenderer	libs/log4j.jar		1	1	1	-1	0	0
+org.python.compiler.APIVersion	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.AdapterMaker	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.ArgListCompiler	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.Attribute	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.Bytes	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.ClassConstants	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.ClassFile	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.Code	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.CodeCompiler	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.CompilationContext	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.Constant	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.ConstantPool	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.ExceptionLabel	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.Future	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.JavaMaker	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.Label	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.LineNumberTable	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.Method	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.Module	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.ProxyMaker	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.PyCodeConstant	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.PyComplexConstant	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.PyFloatConstant	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.PyIntegerConstant	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.PyLongConstant	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.PyStringConstant	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.ScopeConstants	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.ScopeInfo	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.ScopesCompiler	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.SourceFile	libs/jython.jar		1	1	1	-1	0	0
+org.python.compiler.SymInfo	libs/jython.jar		1	1	1	-1	0	0
+marauroa.functional.GenerateINI		marauroa-3.8.1/functional_tests/marauroa/functional/GenerateINI.java	0	2	1	0	247	162
+marauroa.functional.IFunctionalTest		marauroa-3.8.1/functional_tests/marauroa/functional/IFunctionalTest.java	0	2	1	0	7	6
+marauroa.functional.MarauroadLauncher		marauroa-3.8.1/functional_tests/marauroa/functional/MarauroadLauncher.java	0	2	1	0	19	14
+marauroa.functional.SimpleClient		marauroa-3.8.1/functional_tests/marauroa/functional/SimpleClient.java	0	2	1	0	199	135
+org.apache.log4j.jdbc.JDBCAppender	libs/log4j.jar		1	1	1	-1	0	0
+com.mysql.jdbc.jdbc2.optional.CallableStatementWrapper	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.jdbc2.optional.ConnectionWrapper	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.jdbc2.optional.MysqlConnectionPoolDataSource	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.jdbc2.optional.MysqlDataSource	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.jdbc2.optional.MysqlDataSourceFactory	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.jdbc2.optional.MysqlPooledConnection	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.jdbc2.optional.PreparedStatementWrapper	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.jdbc2.optional.StatementWrapper	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.jdbc2.optional.WrapperBase	libs/mysql-connector.jar		1	1	1	-1	0	0
+jxxload_help.DiscardHelp	libs/jython.jar		1	1	1	-1	0	0
+jxxload_help.JavaLoaderFactory	libs/jython.jar		1	1	1	-1	0	0
+jxxload_help.PackageManager	libs/jython.jar		1	1	1	-1	0	0
+jxxload_help.PathVFS	libs/jython.jar		1	1	1	-1	0	0
+jxxload_help.PathVFS$DirVFS	libs/jython.jar		1	1	1	2	0	0
+jxxload_help.PathVFS$JarVFS	libs/jython.jar		1	1	1	2	0	0
+jxxload_help.PathVFS$VFS	libs/jython.jar		1	1	1	2	0	0
+jxxload_help.PathVFSJavaLoader	libs/jython.jar		1	1	1	-1	0	0
+marauroa.common.net.ByteCounterOutputStream	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/ByteCounterOutputStream.java	0	0	0	0	71	35
+marauroa.common.net.Decoder	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/Decoder.java	0	0	0	0	276	135
+marauroa.common.net.Decoder$MessageParts	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/Decoder.java	0	0	0	2	0	0
+marauroa.common.net.Encoder	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/Encoder.java	0	0	0	0	83	31
+marauroa.common.net.EncoderDecoderTest		marauroa-3.8.1/tests/marauroa/common/net/EncoderDecoderTest.java	0	2	1	0	173	86
+marauroa.common.net.InputSerializer	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/InputSerializer.java	0	0	0	0	369	179
+marauroa.common.net.InvalidVersionException	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/InvalidVersionException.java	0	0	0	0	52	15
+marauroa.common.net.MessageFactory	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/MessageFactory.java	0	0	0	0	226	135
+marauroa.common.net.NetConst	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/NetConst.java	0	0	0	0	95	23
+marauroa.common.net.OutputSerializer	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/OutputSerializer.java	0	0	0	0	255	91
+marauroa.common.net.Serializable	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/Serializable.java	0	0	0	0	38	6
+marauroa.common.net.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+marauroa.server.net.nio.ChangeRequest	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/net/nio/ChangeRequest.java	0	0	0	0	47	15
+marauroa.server.net.nio.DataEvent	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/net/nio/DataEvent.java	0	0	0	4	41	10
+marauroa.server.net.nio.FloodCheck	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/net/nio/FloodCheck.java	0	0	0	0	83	45
+marauroa.server.net.nio.IWorker	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/net/nio/IWorker.java	0	0	0	0	48	7
+marauroa.server.net.nio.NIONetworkServerManager	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/net/nio/NIONetworkServerManager.java	0	0	0	0	363	173
+marauroa.server.net.nio.NioServer	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/net/nio/NioServer.java	0	0	0	4	384	219
+marauroa.server.net.nio.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+com.ziclix.python.sql.pipe.Pipe	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.pipe.PipeRunner	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.pipe.Sink	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.pipe.SinkRunner	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.pipe.Source	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.pipe.SourceRunner	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.handler.InformixDataHandler	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.handler.MySQLDataHandler	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.handler.OracleDataHandler	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.handler.PostgresqlDataHandler	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.handler.SQLServerDataHandler	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.handler.UpdateCountDataHandler	libs/jython.jar		1	1	1	-1	0	0
+marauroa.client.BannedAddressException	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/client/BannedAddressException.java	0	0	0	0	28	7
+marauroa.client.ClientFramework	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/client/ClientFramework.java	0	0	0	0	739	357
+marauroa.client.ClientFramework$1	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/client/ClientFramework.java	0	0	0	2	0	0
+marauroa.client.LoginFailedException	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/client/LoginFailedException.java	0	0	0	0	55	16
+marauroa.client.TimeoutException	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/client/TimeoutException.java	0	0	0	0	29	7
+marauroa.client.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+org.apache.log4j.net.DefaultEvaluator	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.net.JMSAppender	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.net.JMSSink	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.net.SMTPAppender	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.net.SimpleSocketServer	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.net.SocketAppender	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.net.SocketAppender$Connector	libs/log4j.jar		1	1	1	2	0	0
+org.apache.log4j.net.SocketHubAppender	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.net.SocketHubAppender$ServerMonitor	libs/log4j.jar		1	1	1	2	0	0
+org.apache.log4j.net.SocketNode	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.net.SocketServer	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.net.SyslogAppender	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.net.TelnetAppender	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.net.TelnetAppender$SocketHandler	libs/log4j.jar		1	1	1	2	0	0
+marauroa.DatabaseExistsTest		marauroa-3.8.1/tests/marauroa/DatabaseExistsTest.java	0	2	1	0	43	23
+marauroa.IniFileExistsTest		marauroa-3.8.1/tests/marauroa/IniFileExistsTest.java	0	2	1	0	29	11
+marauroa.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+org.apache.log4j.jmx.AbstractDynamicMBean	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.jmx.Agent	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.jmx.AppenderDynamicMBean	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.jmx.HierarchyDynamicMBean	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.jmx.LayoutDynamicMBean	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.jmx.LoggerDynamicMBean	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.jmx.MethodUnion	libs/log4j.jar		1	1	1	-1	0	0
+com.mysql.jdbc.util.BaseBugReport	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.util.ErrorMappingsDocGenerator	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.util.LRUCache	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.util.PropertiesDocGenerator	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.util.ReadAheadInputStream	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.util.ResultSetUtil	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.util.ServerController	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.util.TimezoneDump	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.util.VersionFSHierarchyMaker	libs/mysql-connector.jar		1	1	1	-1	0	0
+marauroa.server.db.adapter.AbstractDatabaseAdapter	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/db/adapter/AbstractDatabaseAdapter.java	0	0	0	0	268	182
+marauroa.server.db.adapter.DatabaseAdapter	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/db/adapter/DatabaseAdapter.java	0	0	0	0	138	20
+marauroa.server.db.adapter.H2DatabaseAdapter	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/db/adapter/H2DatabaseAdapter.java	0	0	0	0	109	65
+marauroa.server.db.adapter.H2DatabaseAdapterTest		marauroa-3.8.1/tests/marauroa/server/db/adapter/H2DatabaseAdapterTest.java	0	2	1	0	38	13
+marauroa.server.db.adapter.MySQLDatabaseAdapter	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/db/adapter/MySQLDatabaseAdapter.java	0	0	0	0	83	41
+marauroa.server.db.adapter.MySQLDatabaseAdapterTest		marauroa-3.8.1/tests/marauroa/server/db/adapter/MySQLDatabaseAdapterTest.java	0	2	1	0	35	13
+marauroa.server.db.adapter.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+com.ziclix.python.sql.util.BCP	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.util.BCPFunc	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.util.PyArgParser	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.util.Queue	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.util.QueueClosedException	libs/jython.jar		1	1	1	-1	0	0
+com.mysql.jdbc.integration.jboss.ExtendedMysqlExceptionSorter	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.integration.jboss.MysqlValidConnectionChecker	libs/mysql-connector.jar		1	1	1	-1	0	0
+marauroa.functional.basic.BareRPRuleProcessor		marauroa-3.8.1/functional_tests/marauroa/functional/basic/BareRPRuleProcessor.java	0	2	1	0	240	160
+marauroa.functional.basic.BareRPWorld		marauroa-3.8.1/functional_tests/marauroa/functional/basic/BareRPWorld.java	0	2	1	0	55	27
+marauroa.functional.basic.FailedException		marauroa-3.8.1/functional_tests/marauroa/functional/basic/FailedException.java	0	2	1	0	25	7
+marauroa.functional.basic.SystemTest		marauroa-3.8.1/functional_tests/marauroa/functional/basic/SystemTest.java	0	2	1	0	483	311
+marauroa.functional.basic.TestHelper		marauroa-3.8.1/functional_tests/marauroa/functional/basic/TestHelper.java	0	2	1	0	33	16
+marauroa.functional.load.CrushServer		marauroa-3.8.1/functional_tests/marauroa/functional/load/CrushServer.java	0	2	1	0	180	115
+marauroa.functional.load.StressServer		marauroa-3.8.1/functional_tests/marauroa/functional/load/StressServer.java	0	2	1	0	155	104
+marauroa.server.game.ActionInvalidException	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/ActionInvalidException.java	0	0	0	0	37	7
+marauroa.server.game.GameServerManager	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/GameServerManager.java	0	0	0	0	297	83
+marauroa.server.game.Statistics	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/Statistics.java	0	0	0	0	295	136
+marauroa.server.game.Statistics$Variables	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/Statistics.java	0	0	0	2	0	0
+marauroa.server.game.StatisticsMBean	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/StatisticsMBean.java	0	0	0	0	25	4
+marauroa.server.game.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+org.python.util.BreakTraceFunction	libs/jython.jar		1	1	1	-1	0	0
+org.python.util.CacheEntry	libs/jython.jar		1	1	1	-1	0	0
+org.python.util.CommandLineOptions	libs/jython.jar		1	1	1	-1	0	0
+org.python.util.InteractiveConsole	libs/jython.jar		1	1	1	-1	0	0
+org.python.util.InteractiveInterpreter	libs/jython.jar		1	1	1	-1	0	0
+org.python.util.PyServlet	libs/jython.jar		1	1	1	-1	0	0
+org.python.util.PythonInterpreter	libs/jython.jar		1	1	1	-1	0	0
+org.python.util.PythonObjectInputStream	libs/jython.jar		1	1	1	-1	0	0
+org.python.util.ReadlineConsole	libs/jython.jar		1	1	1	-1	0	0
+org.python.util.jython	libs/jython.jar		1	1	1	-1	0	0
+marauroa.tools.protocolanalyser.FakeSocketChannel	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/tools/protocolanalyser/FakeSocketChannel.java	0	0	0	4	206	87
+marauroa.tools.protocolanalyser.ProtocolAnalyser	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/tools/protocolanalyser/ProtocolAnalyser.java	0	0	0	0	117	52
+marauroa.tools.protocolanalyser.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+marauroa.server.net.validator.ConnectionValidator	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/net/validator/ConnectionValidator.java	0	0	0	0	226	91
+marauroa.server.net.validator.ConnectionValidator$RemoveBan	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/net/validator/ConnectionValidator.java	0	0	0	2	0	0
+marauroa.server.net.validator.InetAddressMask	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/net/validator/InetAddressMask.java	0	0	0	0	132	67
+marauroa.server.net.validator.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+org.apache.log4j.nt.NTEventLogAppender	libs/log4j.jar		1	1	1	-1	0	0
+org.python.parser.CharStream	libs/jython.jar		1	1	1	-1	0	0
+org.python.parser.JJTPythonGrammarState	libs/jython.jar		1	1	1	-1	0	0
+org.python.parser.Node	libs/jython.jar		1	1	1	-1	0	0
+org.python.parser.ParseError	libs/jython.jar		1	1	1	-1	0	0
+org.python.parser.ParseException	libs/jython.jar		1	1	1	-1	0	0
+org.python.parser.PythonGrammar	libs/jython.jar		1	1	1	-1	0	0
+org.python.parser.PythonGrammar$JJCalls	libs/jython.jar		1	1	1	2	0	0
+org.python.parser.PythonGrammarConstants	libs/jython.jar		1	1	1	-1	0	0
+org.python.parser.PythonGrammarTokenManager	libs/jython.jar		1	1	1	-1	0	0
+org.python.parser.PythonGrammarTreeConstants	libs/jython.jar		1	1	1	-1	0	0
+org.python.parser.ReaderCharStream	libs/jython.jar		1	1	1	-1	0	0
+org.python.parser.SimpleNode	libs/jython.jar		1	1	1	-1	0	0
+org.python.parser.Token	libs/jython.jar		1	1	1	-1	0	0
+org.python.parser.TokenMgrError	libs/jython.jar		1	1	1	-1	0	0
+org.python.parser.Visitor	libs/jython.jar		1	1	1	-1	0	0
+marauroa.ping.Ping		marauroa-3.8.1/functional_tests/marauroa/ping/Ping.java	0	2	1	0	89	43
+marauroa.ping.PingClient		marauroa-3.8.1/functional_tests/marauroa/ping/PingClient.java	0	2	1	0	204	114
+com.ziclix.python.sql.pipe.csv.CSVSink	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.pipe.csv.CSVString	libs/jython.jar		1	1	1	-1	0	0
+marauroa.common.crypto.Hash	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/crypto/Hash.java	0	0	0	0	191	94
+marauroa.common.crypto.RSAKey	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/crypto/RSAKey.java	0	0	0	0	147	77
+marauroa.common.crypto.RSAPublicKey	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/crypto/RSAPublicKey.java	0	0	0	0	87	51
+marauroa.common.crypto.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+org.apache.log4j.config.PropertyGetter	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.config.PropertyGetter$PropertyCallback	libs/log4j.jar		1	1	1	2	0	0
+org.apache.log4j.config.PropertyPrinter	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.config.PropertySetter	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.config.PropertySetterException	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.xml.DOMConfigurator	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.xml.Log4jEntityResolver	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.xml.SAXErrorHandler	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.xml.XMLLayout	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.xml.XMLWatchdog	libs/log4j.jar		1	1	1	-1	0	0
+marauroa.server.MarauroaUncaughtExceptionHandler	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/MarauroaUncaughtExceptionHandler.java	0	0	0	0	51	21
+marauroa.server.RWLock	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/RWLock.java	0	0	0	0	105	52
+marauroa.server.marauroad	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/marauroad.java	0	0	0	0	398	193
+marauroa.server.marauroad$1	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/marauroad.java	0	0	0	2	0	0
+marauroa.server.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+org.gjt.mm.mysql.Driver	libs/mysql-connector.jar		1	1	1	-1	0	0
+org.apache.log4j.or.sax.AttributesRenderer	libs/log4j.jar		1	1	1	-1	0	0
+com.mysql.jdbc.AssertionFailedException	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.Blob	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.BlobFromLocator	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.Buffer	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.ByteArrayBuffer	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.CallableStatement	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.CallableStatement$CallableStatementParam	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.CallableStatement$CallableStatementParamInfo	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.CallableStatement$CallableStatementParamInfoJDBC3	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.ChannelBuffer	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.CharsetMapping	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.Clob	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.CommunicationsException	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.CompressedInputStream	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.Connection	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.Connection$1	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.Connection$CompoundCacheKey	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.Connection$UltraDevWorkAround	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.ConnectionFeatureNotAvailableException	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.ConnectionProperties	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.ConnectionProperties$1	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.ConnectionProperties$BooleanConnectionProperty	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.ConnectionProperties$ConnectionProperty	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.ConnectionProperties$IntegerConnectionProperty	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.ConnectionProperties$MemorySizeConnectionProperty	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.ConnectionProperties$StringConnectionProperty	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.ConnectionPropertiesTransform	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.Constants	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.DatabaseMetaData	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.DatabaseMetaData$1	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.DatabaseMetaData$2	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.DatabaseMetaData$3	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.DatabaseMetaData$4	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.DatabaseMetaData$5	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.DatabaseMetaData$6	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.DatabaseMetaData$7	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.DatabaseMetaData$8	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.DatabaseMetaData$9	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.DatabaseMetaData$IterateBlock	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.DatabaseMetaData$IteratorWithCleanup	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.DatabaseMetaData$LocalAndReferencedColumns	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.DatabaseMetaData$ResultSetIterator	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.DatabaseMetaData$SingleStringIterator	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.DatabaseMetaData$TypeDescriptor	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.DocsConnectionPropsHelper	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.Driver	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.EscapeProcessor	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.EscapeProcessorResult	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.EscapeTokenizer	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.ExportControlled	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.Field	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.LicenseConfiguration	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.Messages	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.MiniAdmin	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.MysqlDataTruncation	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.MysqlDefs	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.MysqlErrorNumbers	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.MysqlIO	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.MysqlParameterMetadata	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.MysqlSavepoint	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.NamedPipeSocketFactory	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.NamedPipeSocketFactory$NamedPipeSocket	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.NamedPipeSocketFactory$RandomAccessFileInputStream	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.NamedPipeSocketFactory$RandomAccessFileOutputStream	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.NonRegisteringDriver	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.NonRegisteringReplicationDriver	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.NotImplemented	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.NotUpdatable	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.OutputStreamWatcher	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.PacketTooBigException	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.PreparedStatement	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.PreparedStatement$BatchParams	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.PreparedStatement$EndPoint	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.PreparedStatement$ParseInfo	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.ReplicationConnection	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.ReplicationDriver	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.ResultSet	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.ResultSetMetaData	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.RowData	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.RowDataDynamic	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.RowDataDynamic$OperationNotSupportedException	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.RowDataStatic	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.SQLError	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.Security	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.ServerPreparedStatement	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.ServerPreparedStatement$BatchedBindValues	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.ServerPreparedStatement$BindValue	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.SingleByteCharsetConverter	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.SocketFactory	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.StandardSocketFactory	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.Statement	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.Statement$CachedResultSetMetaData	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.StringUtils	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.TimeUtil	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.UpdatableResultSet	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.Util	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.Util$RandStructcture	libs/mysql-connector.jar		1	1	1	2	0	0
+com.mysql.jdbc.VersionedStringProperty	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.WatchableOutputStream	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.WatchableWriter	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.WriterWatcher	libs/mysql-connector.jar		1	1	1	-1	0	0
+org.apache.log4j.Appender	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.AppenderSkeleton	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.AsyncAppender	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.BasicConfigurator	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.Category	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.CategoryKey	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.ConsoleAppender	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.DailyRollingFileAppender	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.DefaultCategoryFactory	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.Dispatcher	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.FileAppender	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.HTMLLayout	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.Hierarchy	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.Layout	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.Level	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.LogManager	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.Logger	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.MDC	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.NDC	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.NDC$DiagnosticContext	libs/log4j.jar		1	1	1	2	0	0
+org.apache.log4j.PatternLayout	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.Priority	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.PropertyConfigurator	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.PropertyWatchdog	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.ProvisionNode	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.RollingCalendar	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.RollingFileAppender	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.SimpleLayout	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.TTCCLayout	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.WriterAppender	libs/log4j.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.pipe.db.BaseDB	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.pipe.db.DBSink	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.pipe.db.DBSource	libs/jython.jar		1	1	1	-1	0	0
+com.mysql.jdbc.integration.c3p0.MysqlConnectionTester	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.log.Jdk14Logger	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.log.Log	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.log.Log4JLogger	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.log.LogFactory	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.log.LogUtils	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.log.NullLogger	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.log.StandardLogger	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.connect.Connect	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.connect.Connectx	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.connect.Lookup	libs/jython.jar		1	1	1	-1	0	0
+marauroa.server.db.AdapterFactory	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/db/AdapterFactory.java	0	0	0	4	64	31
+marauroa.server.db.DBTransaction	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/db/DBTransaction.java	0	0	0	0	274	128
+marauroa.server.db.DBTransactionTest		marauroa-3.8.1/tests/marauroa/server/db/DBTransactionTest.java	0	2	1	0	75	39
+marauroa.server.db.DatabaseConnectionException	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/db/DatabaseConnectionException.java	0	0	0	0	58	16
+marauroa.server.db.JDBCSQLHelper	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/db/JDBCSQLHelper.java	0	0	0	0	92	48
+marauroa.server.db.StringChecker	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/db/StringChecker.java	0	0	0	0	107	49
+marauroa.server.db.StringCheckerTest		marauroa-3.8.1/tests/marauroa/server/db/StringCheckerTest.java	0	2	1	0	44	19
+marauroa.server.db.TransactionPool	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/db/TransactionPool.java	0	0	0	0	229	153
+marauroa.server.db.UpdateScript	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/db/UpdateScript.java	0	0	0	0	68	46
+marauroa.server.db.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+marauroa.server.net.IDisconnectedListener	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/net/IDisconnectedListener.java	0	0	0	0	33	5
+marauroa.server.net.INetworkServerManager	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/net/INetworkServerManager.java	0	0	0	0	98	13
+marauroa.server.net.NetworkManagerTest		marauroa-3.8.1/tests/marauroa/server/net/NetworkManagerTest.java	0	2	1	0	164	93
+marauroa.server.net.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+org.apache.log4j.or.DefaultRenderer	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.or.ObjectRenderer	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.or.RendererMap	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.or.ThreadGroupRenderer	libs/log4j.jar		1	1	1	-1	0	0
+marauroa.server.db.command.AbstractDBCommand	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/db/command/AbstractDBCommand.java	0	0	0	0	74	22
+marauroa.server.db.command.DBCommand	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/db/command/DBCommand.java	0	0	0	0	64	12
+marauroa.server.db.command.DBCommandMetaData	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/db/command/DBCommandMetaData.java	0	0	0	4	105	39
+marauroa.server.db.command.DBCommandQueue	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/db/command/DBCommandQueue.java	0	0	0	0	166	77
+marauroa.server.db.command.DBCommandQueueBackgroundThread	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/db/command/DBCommandQueueBackgroundThread.java	0	0	0	4	91	58
+marauroa.server.db.command.ResultHandle	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/db/command/ResultHandle.java	0	0	0	0	35	11
+marauroa.server.db.command.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+org.apache.log4j.spi.AppenderAttachable	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.spi.Configurator	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.spi.DefaultRepositorySelector	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.spi.ErrorCode	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.spi.ErrorHandler	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.spi.Filter	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.spi.HierarchyEventListener	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.spi.LocationInfo	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.spi.LoggerFactory	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.spi.LoggerRepository	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.spi.LoggingEvent	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.spi.NullWriter	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.spi.OptionHandler	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.spi.RendererSupport	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.spi.RepositorySelector	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.spi.RootCategory	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.spi.RootLogger	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.spi.ThrowableInformation	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.spi.TriggeringEventEvaluator	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.spi.VectorWriter	libs/log4j.jar		1	1	1	-1	0	0
+marauroa.server.game.dbcommand.DBCommandWithCallback	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/dbcommand/DBCommandWithCallback.java	0	0	0	0	79	27
+marauroa.server.game.dbcommand.LoadActiveCharacterCommand	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/dbcommand/LoadActiveCharacterCommand.java	0	0	0	0	69	28
+marauroa.server.game.dbcommand.LoadAllActiveCharactersCommand	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/dbcommand/LoadAllActiveCharactersCommand.java	0	0	0	0	77	34
+marauroa.server.game.dbcommand.LoadAllCharactersCommand	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/dbcommand/LoadAllCharactersCommand.java	0	0	0	0	77	34
+marauroa.server.game.dbcommand.LoadCharacterCommand	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/dbcommand/LoadCharacterCommand.java	0	0	0	0	99	42
+marauroa.server.game.dbcommand.LogGameEventCommand	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/dbcommand/LogGameEventCommand.java	0	0	0	0	49	21
+marauroa.server.game.dbcommand.LogStatisticsCommand	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/dbcommand/LogStatisticsCommand.java	0	0	0	0	45	17
+marauroa.server.game.dbcommand.LoginCommand	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/dbcommand/LoginCommand.java	0	0	0	0	141	70
+marauroa.server.game.dbcommand.StoreCharacterCommand	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/dbcommand/StoreCharacterCommand.java	0	0	0	0	51	22
+org.apache.log4j.varia.DenyAllFilter	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.varia.ExternallyRolledFileAppender	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.varia.FallbackErrorHandler	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.varia.HUP	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.varia.HUPNode	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.varia.LevelMatchFilter	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.varia.LevelRangeFilter	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.varia.NullAppender	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.varia.ReloadingPropertyConfigurator	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.varia.Roller	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.varia.StringMatchFilter	libs/log4j.jar		1	1	1	-1	0	0
+marauroa.common.net.message.Message	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/Message.java	0	0	0	0	261	130
+marauroa.common.net.message.Message$MessageType	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/Message.java	0	0	0	2	0	0
+marauroa.common.net.message.MessageC2SAction	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageC2SAction.java	0	0	0	0	83	35
+marauroa.common.net.message.MessageC2SChooseCharacter	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageC2SChooseCharacter.java	0	0	0	0	85	34
+marauroa.common.net.message.MessageC2SCreateAccount	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageC2SCreateAccount.java	0	0	0	0	114	49
+marauroa.common.net.message.MessageC2SCreateCharacter	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageC2SCreateCharacter.java	0	0	0	0	103	42
+marauroa.common.net.message.MessageC2SKeepAlive	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageC2SKeepAlive.java	0	0	0	0	65	26
+marauroa.common.net.message.MessageC2SLoginRequestKey	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageC2SLoginRequestKey.java	0	0	0	0	95	41
+marauroa.common.net.message.MessageC2SLoginSendNonceNameAndPassword	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageC2SLoginSendNonceNameAndPassword.java	0	0	0	0	106	45
+marauroa.common.net.message.MessageC2SLoginSendNonceNamePasswordAndSeed	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageC2SLoginSendNonceNamePasswordAndSeed.java	0	0	0	0	118	52
+marauroa.common.net.message.MessageC2SLoginSendPromise	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageC2SLoginSendPromise.java	0	0	0	0	60	24
+marauroa.common.net.message.MessageC2SLogout	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageC2SLogout.java	0	0	0	0	62	26
+marauroa.common.net.message.MessageC2SOutOfSync	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageC2SOutOfSync.java	0	0	0	0	62	26
+marauroa.common.net.message.MessageC2STransferACK	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageC2STransferACK.java	0	0	0	0	94	46
+marauroa.common.net.message.MessageS2CCharacterList	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CCharacterList.java	0	0	0	0	138	70
+marauroa.common.net.message.MessageS2CChooseCharacterACK	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CChooseCharacterACK.java	0	0	0	0	64	26
+marauroa.common.net.message.MessageS2CChooseCharacterNACK	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CChooseCharacterNACK.java	0	0	0	0	64	26
+marauroa.common.net.message.MessageS2CConnectNACK	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CConnectNACK.java	0	0	0	0	67	26
+marauroa.common.net.message.MessageS2CCreateAccountACK	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CCreateAccountACK.java	0	0	0	0	81	33
+marauroa.common.net.message.MessageS2CCreateAccountNACK	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CCreateAccountNACK.java	0	0	0	0	93	38
+marauroa.common.net.message.MessageS2CCreateCharacterACK	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CCreateCharacterACK.java	0	0	0	0	102	41
+marauroa.common.net.message.MessageS2CCreateCharacterNACK	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CCreateCharacterNACK.java	0	0	0	0	94	38
+marauroa.common.net.message.MessageS2CInvalidMessage	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CInvalidMessage.java	0	0	0	0	83	35
+marauroa.common.net.message.MessageS2CLoginACK	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CLoginACK.java	0	0	0	0	90	42
+marauroa.common.net.message.MessageS2CLoginMessageNACK	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CLoginMessageNACK.java	0	0	0	0	85	36
+marauroa.common.net.message.MessageS2CLoginNACK	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CLoginNACK.java	0	0	0	0	135	70
+marauroa.common.net.message.MessageS2CLoginNACK$Reasons	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CLoginNACK.java	0	0	0	2	0	0
+marauroa.common.net.message.MessageS2CLoginSendKey	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CLoginSendKey.java	0	0	0	0	87	39
+marauroa.common.net.message.MessageS2CLoginSendNonce	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CLoginSendNonce.java	0	0	0	0	60	24
+marauroa.common.net.message.MessageS2CLogoutACK	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CLogoutACK.java	0	0	0	0	63	26
+marauroa.common.net.message.MessageS2CLogoutNACK	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CLogoutNACK.java	0	0	0	0	63	26
+marauroa.common.net.message.MessageS2CPerception	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CPerception.java	0	0	0	0	462	313
+marauroa.common.net.message.MessageS2CPerception$CachedCompressedPerception	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CPerception.java	0	0	0	2	0	0
+marauroa.common.net.message.MessageS2CPerception$CachedCompressedPerception$CacheKey	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CPerception.java	0	0	0	2	0	0
+marauroa.common.net.message.MessageS2CServerInfo	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CServerInfo.java	0	0	0	0	145	77
+marauroa.common.net.message.MessageS2CTransfer	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CTransfer.java	0	0	0	0	124	72
+marauroa.common.net.message.MessageS2CTransferREQ	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageS2CTransferREQ.java	0	0	0	0	101	55
+marauroa.common.net.message.MessageSendByteArray	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/MessageSendByteArray.java	0	0	0	0	74	27
+marauroa.common.net.message.MessageTest		marauroa-3.8.1/tests/marauroa/common/net/message/MessageTest.java	0	2	1	0	82	55
+marauroa.common.net.message.TransferContent	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/net/message/TransferContent.java	0	0	0	0	161	67
+marauroa.common.net.message.TransferContentTest		marauroa-3.8.1/tests/marauroa/common/net/message/TransferContentTest.java	0	2	1	0	121	86
+marauroa.common.net.message.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+marauroa.common.game.AccountResult	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/AccountResult.java	0	0	0	0	79	23
+marauroa.common.game.Attributes	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/Attributes.java	0	0	0	0	735	345
+marauroa.common.game.AttributesTest		marauroa-3.8.1/tests/marauroa/common/game/AttributesTest.java	0	2	1	0	307	166
+marauroa.common.game.BugAtApplyDifferencesTest		marauroa-3.8.1/tests/marauroa/common/game/BugAtApplyDifferencesTest.java	0	2	1	0	187	108
+marauroa.common.game.CharacterResult	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/CharacterResult.java	0	0	0	0	78	20
+marauroa.common.game.DefaultRPClass	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/DefaultRPClass.java	0	0	0	4	51	28
+marauroa.common.game.Definition	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/Definition.java	0	0	0	0	615	291
+marauroa.common.game.Definition$1	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/Definition.java	0	0	0	2	0	0
+marauroa.common.game.Definition$DefinitionClass	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/Definition.java	0	0	0	2	0	0
+marauroa.common.game.Definition$Type	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/Definition.java	0	0	0	2	0	0
+marauroa.common.game.DetailLevel	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/DetailLevel.java	0	0	0	0	28	6
+marauroa.common.game.GetAndApplyDifferencesTest		marauroa-3.8.1/tests/marauroa/common/game/GetAndApplyDifferencesTest.java	0	2	1	0	412	215
+marauroa.common.game.IRPZone	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/IRPZone.java	0	0	0	0	234	54
+marauroa.common.game.IRPZone$ID	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/IRPZone.java	0	0	0	2	0	0
+marauroa.common.game.LinkedRPObjectList	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/LinkedRPObjectList.java	0	0	0	4	109	55
+marauroa.common.game.Perception	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/Perception.java	0	0	0	0	240	107
+marauroa.common.game.RPAction	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/RPAction.java	0	0	0	0	38	6
+marauroa.common.game.RPClass	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/RPClass.java	0	0	0	0	819	376
+marauroa.common.game.RPClass$1	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/RPClass.java	0	0	0	2	0	0
+marauroa.common.game.RPClassTest		marauroa-3.8.1/tests/marauroa/common/game/RPClassTest.java	0	2	1	0	254	141
+marauroa.common.game.RPClassTestHelper		marauroa-3.8.1/tests/marauroa/common/game/RPClassTestHelper.java	0	2	1	0	38	18
+marauroa.common.game.RPEvent	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/RPEvent.java	0	0	0	0	230	117
+marauroa.common.game.RPEventTest		marauroa-3.8.1/tests/marauroa/common/game/RPEventTest.java	0	2	1	0	126	60
+marauroa.common.game.RPLink	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/RPLink.java	0	0	0	0	189	87
+marauroa.common.game.RPObject	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/RPObject.java	0	0	0	0	1860	921
+marauroa.common.game.RPObject$ID	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/RPObject.java	0	0	0	2	0	0
+marauroa.common.game.RPObjectDelta2Test		marauroa-3.8.1/tests/marauroa/common/game/RPObjectDelta2Test.java	0	2	1	0	808	424
+marauroa.common.game.RPObjectIDTest		marauroa-3.8.1/tests/marauroa/common/game/RPObjectIDTest.java	0	2	1	0	133	89
+marauroa.common.game.RPObjectInvalidException	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/RPObjectInvalidException.java	0	0	0	0	30	7
+marauroa.common.game.RPObjectNotFoundException	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/RPObjectNotFoundException.java	0	0	0	0	30	7
+marauroa.common.game.RPObjectTest		marauroa-3.8.1/tests/marauroa/common/game/RPObjectTest.java	0	2	1	0	327	197
+marauroa.common.game.RPSlot	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/RPSlot.java	0	0	0	0	634	292
+marauroa.common.game.RPSlotTest		marauroa-3.8.1/tests/marauroa/common/game/RPSlotTest.java	0	2	1	0	137	93
+marauroa.common.game.Result	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/Result.java	0	0	0	0	132	29
+marauroa.common.game.SlotAlreadyAddedException	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/SlotAlreadyAddedException.java	0	0	0	0	30	7
+marauroa.common.game.SlotIsFullException	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/SlotIsFullException.java	0	0	0	0	30	7
+marauroa.common.game.SlotOwner	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/SlotOwner.java	0	0	0	0	295	147
+marauroa.common.game.SyntaxException	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/SyntaxException.java	0	0	0	0	37	10
+marauroa.common.game.Validator	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/game/Validator.java	0	0	0	4	60	42
+marauroa.common.game.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+marauroa.common.CRC	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/CRC.java	0	0	0	0	71	28
+marauroa.common.Configuration	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/Configuration.java	0	0	0	0	239	109
+marauroa.common.ConfigurationParams	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/ConfigurationParams.java	0	0	0	0	74	38
+marauroa.common.Log4J	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/Log4J.java	0	0	0	0	100	42
+marauroa.common.Logger	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/Logger.java	0	0	0	0	215	119
+marauroa.common.Pair	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/Pair.java	0	0	0	0	127	66
+marauroa.common.TimeoutConf	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/TimeoutConf.java	0	0	0	0	90	16
+marauroa.common.Utility	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/Utility.java	0	0	0	0	146	60
+marauroa.common.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+marauroa.server.game.python.GameScript	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/python/GameScript.java	0	0	0	4	106	34
+marauroa.server.game.python.PythonRP	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/python/PythonRP.java	0	0	0	0	195	53
+marauroa.server.game.python.PythonRPRuleProcessor	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/python/PythonRPRuleProcessor.java	0	0	0	0	114	58
+marauroa.server.game.python.PythonRPWorld	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/python/PythonRPWorld.java	0	0	0	0	79	35
+marauroa.server.game.python.PythonWorld	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/python/PythonWorld.java	0	0	0	0	47	9
+marauroa.server.game.python.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+com.ziclix.python.sql.ConnectionFunc	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.CursorFunc	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.DBApiType	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.DataHandler	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.DynamicFetch	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.ExtendedCursorFunc	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.Fetch	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.FilterDataHandler	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.JDBC20DataHandler	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.Procedure	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.PyConnection	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.PyCursor	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.PyCursor$1	libs/jython.jar		1	1	1	2	0	0
+com.ziclix.python.sql.PyCursor$2	libs/jython.jar		1	1	1	2	0	0
+com.ziclix.python.sql.PyCursor$3	libs/jython.jar		1	1	1	2	0	0
+com.ziclix.python.sql.PyCursor$ExecuteSQL	libs/jython.jar		1	1	1	2	0	0
+com.ziclix.python.sql.PyExtendedCursor	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.StaticFetch	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.zxJDBC	libs/jython.jar		1	1	1	-1	0	0
+com.ziclix.python.sql.zxJDBCFunc	libs/jython.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.AbsoluteTimeDateFormat	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.AppenderAttachableImpl	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.BoundedFIFO	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.CountingQuietWriter	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.CyclicBuffer	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.DateLayout	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.DateTimeDateFormat	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.FileWatchdog	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.FormattingInfo	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.ISO8601DateFormat	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.Loader	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.LogLog	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.NullEnumeration	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.OnlyOnceErrorHandler	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.OptionConverter	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.PatternConverter	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.PatternParser	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.PatternParser$BasicPatternConverter	libs/log4j.jar		1	1	1	2	0	0
+org.apache.log4j.helpers.PatternParser$CategoryPatternConverter	libs/log4j.jar		1	1	1	2	0	0
+org.apache.log4j.helpers.PatternParser$ClassNamePatternConverter	libs/log4j.jar		1	1	1	2	0	0
+org.apache.log4j.helpers.PatternParser$DatePatternConverter	libs/log4j.jar		1	1	1	2	0	0
+org.apache.log4j.helpers.PatternParser$LiteralPatternConverter	libs/log4j.jar		1	1	1	2	0	0
+org.apache.log4j.helpers.PatternParser$LocationPatternConverter	libs/log4j.jar		1	1	1	2	0	0
+org.apache.log4j.helpers.PatternParser$MDCPatternConverter	libs/log4j.jar		1	1	1	2	0	0
+org.apache.log4j.helpers.PatternParser$NamedPatternConverter	libs/log4j.jar		1	1	1	2	0	0
+org.apache.log4j.helpers.QuietWriter	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.RelativeTimeDateFormat	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.SyslogQuietWriter	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.SyslogWriter	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.ThreadLocalMap	libs/log4j.jar		1	1	1	-1	0	0
+org.apache.log4j.helpers.Transform	libs/log4j.jar		1	1	1	-1	0	0
+marauroa.ping.client.Speaker		marauroa-3.8.1/functional_tests/marauroa/ping/client/Speaker.java	0	2	1	0	58	26
+marauroa.ping.client.SpeakerView		marauroa-3.8.1/functional_tests/marauroa/ping/client/SpeakerView.java	0	2	1	0	19	12
+org.python.core.ArgParser	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.AutoInternalTables	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.BuiltinFunctions	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.BytecodeLoader	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.BytecodeLoader1	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.BytecodeLoader2	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.CachedJarsPackageManager	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.CachedJarsPackageManager$JarXEntry	libs/jython.jar		1	1	1	2	0	0
+org.python.core.ClassDictInit	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.CollectionProxy	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.CollectionProxy2	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.CompilerFlags	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.DictFuncs	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.DictionaryProxy	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.EnumerationProxy	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.ExtraMath	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.FixMacReaderBug	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.FixedFileWrapper	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.ImportFunction	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.InitModule	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.InternalTables	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.InternalTables$_LazyRep	libs/jython.jar		1	1	1	2	0	0
+org.python.core.InternalTables1	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.InternalTables1$Table	libs/jython.jar		1	1	1	2	0	0
+org.python.core.InternalTables1$TableProvid1	libs/jython.jar		1	1	1	2	0	0
+org.python.core.InternalTables2	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.InternalTables2$TableProvid2	libs/jython.jar		1	1	1	2	0	0
+org.python.core.IteratorProxy	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.Java2Accessibility	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.JavaAccessibility	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.JavaCode	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.JavaFunc	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.ListFunctions	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.ListProxy	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.Loader	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.MakeProxies	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.MapProxy	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.Options	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PackageManager	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PathPackageManager	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PollingInputStream	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.Py	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyArray	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyBeanEvent	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyBeanEventProperty	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyBeanProperty	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyBuiltinFunctionSet	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyCell	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyClass	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyCode	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyComplex	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyCompoundCallable	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyDictionary	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyEllipsis	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyException	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyFile	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyFile$FileWrapper	libs/jython.jar		1	1	1	2	0	0
+org.python.core.PyFile$IOStreamWrapper	libs/jython.jar		1	1	1	2	0	0
+org.python.core.PyFile$InputStreamWrapper	libs/jython.jar		1	1	1	2	0	0
+org.python.core.PyFile$OutputStreamWrapper	libs/jython.jar		1	1	1	2	0	0
+org.python.core.PyFile$RFileWrapper	libs/jython.jar		1	1	1	2	0	0
+org.python.core.PyFile$TextWrapper	libs/jython.jar		1	1	1	2	0	0
+org.python.core.PyFile$WriterWrapper	libs/jython.jar		1	1	1	2	0	0
+org.python.core.PyFinalizableInstance	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyFloat	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyFrame	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyFunction	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyFunctionTable	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyIdentityTuple	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyIgnoreMethodTag	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyInstance	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyInteger	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyJavaClass	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyJavaInnerClass	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyJavaInstance	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyJavaPackage	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyList	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyLong	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyMetaClass	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyMethod	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyModule	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyNone	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyNotImplemented	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyObject	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyProxy	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyReflectedConstructor	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyReflectedField	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyReflectedFunction	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyRunnable	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PySequence	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PySingleton	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PySlice	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyString	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyStringMap	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PySyntaxError	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PySystemState	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PySystemStateFunctions	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyTableCode	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyTraceback	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyTuple	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PyXRange	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.PythonTraceFunction	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.ReflectedArgs	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.ReflectedCallData	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.SeqFuncs	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.SoftIInternalTables	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.SoftIInternalTables$Ref	libs/jython.jar		1	1	1	2	0	0
+org.python.core.StderrWrapper	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.StdoutWrapper	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.StringFormatter	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.StringFuncs	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.SysPackageManager	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.SyspathArchive	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.SyspathJavaLoader	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.ThreadState	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.ThreadStateMapping	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.ThreadStateMapping2	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.TraceFunction	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.TupleFunctions	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.VectorProxy	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.WeakInternalTables	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.WeakInternalTables$Ref	libs/jython.jar		1	1	1	2	0	0
+org.python.core.__builtin__	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.codecs	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.exceptions	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.imp	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.parser	libs/jython.jar		1	1	1	-1	0	0
+org.python.core.ucnhashAPI	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.FunctionThread	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.JythonInternalFunctions	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.MD5Functions	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.MD5Module	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.MD5Object	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.MatchObject	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.OperatorFunctions	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.PyLock	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.RegexObject	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.SHA1	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.Setup	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.SynchronizedCallable	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.TimeFunctions	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules._codecs	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules._jython	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules._sre	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules._weakref	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules._weakref$AbstractReference	libs/jython.jar		1	1	1	2	0	0
+org.python.modules._weakref$CallableProxyType	libs/jython.jar		1	1	1	2	0	0
+org.python.modules._weakref$GlobalRef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules._weakref$ProxyType	libs/jython.jar		1	1	1	2	0	0
+org.python.modules._weakref$RefReaperThread	libs/jython.jar		1	1	1	2	0	0
+org.python.modules._weakref$ReferenceType	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.binascii	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.cPickle	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.cPickle$FileIOFile	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.cPickle$IOFile	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.cPickle$ObjectIOFile	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.cPickle$PickleMemo	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.cPickle$Pickler	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.cPickle$Unpickler	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.cPickle$cStringIOFile	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.cStringIO	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.cStringIO$StringIO	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.codeop	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.imp	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.jarray	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.math	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.md	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.md4	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.md5	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.newmodule	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.operator	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.os	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.py_compile	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.re	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.sha	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.struct	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.struct$BEDoubleFormatDef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.struct$BEFloatFormatDef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.struct$BEIntFormatDef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.struct$BEShortFormatDef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.struct$BEUnsignedIntFormatDef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.struct$BEUnsignedShortFormatDef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.struct$ByteFormatDef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.struct$ByteStream	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.struct$CharFormatDef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.struct$FormatDef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.struct$LEDoubleFormatDef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.struct$LEFloatFormatDef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.struct$LEIntFormatDef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.struct$LEShortFormatDef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.struct$LEUnsignedIntFormatDef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.struct$LEUnsignedShortFormatDef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.struct$PadFormatDef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.struct$PascalStringFormatDef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.struct$StringFormatDef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.struct$UnsignedByteFormatDef	libs/jython.jar		1	1	1	2	0	0
+org.python.modules.synchronize	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.thread	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.time	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.types	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.ucnhash	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.xreadlines	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.xreadlines$XReadlineObj	libs/jython.jar		1	1	1	2	0	0
+com.mysql.jdbc.profiler.ProfileEventSink	libs/mysql-connector.jar		1	1	1	-1	0	0
+com.mysql.jdbc.profiler.ProfilerEvent	libs/mysql-connector.jar		1	1	1	-1	0	0
+marauroa.server.game.messagehandler.ActionHandler	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/messagehandler/ActionHandler.java	0	0	0	4	95	38
+marauroa.server.game.messagehandler.ChooseCharacterHandler	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/messagehandler/ChooseCharacterHandler.java	0	0	0	4	188	97
+marauroa.server.game.messagehandler.CreateAccountHandler	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/messagehandler/CreateAccountHandler.java	0	0	0	4	86	40
+marauroa.server.game.messagehandler.CreateCharacterHandler	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/messagehandler/CreateCharacterHandler.java	0	0	0	4	103	53
+marauroa.server.game.messagehandler.DelayedEventHandler	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/messagehandler/DelayedEventHandler.java	0	0	0	0	32	5
+marauroa.server.game.messagehandler.DelayedEventHandlerThread	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/messagehandler/DelayedEventHandlerThread.java	0	0	0	0	107	42
+marauroa.server.game.messagehandler.DisconnectHandler	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/messagehandler/DisconnectHandler.java	0	0	0	0	79	33
+marauroa.server.game.messagehandler.KeepAliveHandler	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/messagehandler/KeepAliveHandler.java	0	0	0	4	53	24
+marauroa.server.game.messagehandler.LoginRequestKeyHandler	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/messagehandler/LoginRequestKeyHandler.java	0	0	0	4	69	28
+marauroa.server.game.messagehandler.LoginSendPromiseHandler	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/messagehandler/LoginSendPromiseHandler.java	0	0	0	4	123	61
+marauroa.server.game.messagehandler.LogoutHandler	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/messagehandler/LogoutHandler.java	0	0	0	4	106	52
+marauroa.server.game.messagehandler.MessageDispatcher	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/messagehandler/MessageDispatcher.java	0	0	0	0	105	59
+marauroa.server.game.messagehandler.MessageHandler	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/messagehandler/MessageHandler.java	0	0	0	4	144	54
+marauroa.server.game.messagehandler.OutOfSyncHandler	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/messagehandler/OutOfSyncHandler.java	0	0	0	4	60	24
+marauroa.server.game.messagehandler.SecuredLoginHandler	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/messagehandler/SecuredLoginHandler.java	0	0	0	4	299	180
+marauroa.server.game.messagehandler.SecuredLoginHandler$ServerInfo	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/messagehandler/SecuredLoginHandler.java	0	0	0	2	0	0
+marauroa.server.game.messagehandler.SendCharacterListHandler	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/messagehandler/SendCharacterListHandler.java	0	0	0	0	64	26
+marauroa.server.game.messagehandler.TransferACKHandler	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/messagehandler/TransferACKHandler.java	0	0	0	4	96	47
+marauroa.server.game.messagehandler.UnkownMessageHandler	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/messagehandler/UnkownMessageHandler.java	0	0	0	4	21	11
+marauroa.common.io.FileSystemPersistence	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/io/FileSystemPersistence.java	0	0	0	0	73	33
+marauroa.common.io.Persistence	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/io/Persistence.java	0	0	0	0	100	36
+marauroa.common.io.UnicodeSupportingInputStream	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/io/UnicodeSupportingInputStream.java	0	0	0	0	152	70
+marauroa.common.io.UnicodeSupportingInputStreamReader	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/io/UnicodeSupportingInputStreamReader.java	0	0	0	0	143	68
+marauroa.common.io.UnicodeSupportingInputStreamReaderTest		marauroa-3.8.1/tests/marauroa/common/io/UnicodeSupportingInputStreamReaderTest.java	0	2	1	0	57	32
+marauroa.common.io.WebstartPersistence	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/common/io/WebstartPersistence.java	0	0	0	0	102	49
+marauroa.common.io.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+marauroa.client.net.HTTPConnectSocket	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/client/net/HTTPConnectSocket.java	0	0	0	0	143	80
+marauroa.client.net.INetworkClientManagerInterface	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/client/net/INetworkClientManagerInterface.java	0	0	0	0	64	11
+marauroa.client.net.IPerceptionListener	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/client/net/IPerceptionListener.java	0	0	0	0	129	16
+marauroa.client.net.PerceptionHandler	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/client/net/PerceptionHandler.java	0	0	0	0	304	166
+marauroa.client.net.TCPNetworkClientManager	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/client/net/TCPNetworkClientManager.java	0	0	0	0	468	233
+marauroa.client.net.TCPNetworkClientManager$NetworkClientManagerRead	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/client/net/TCPNetworkClientManager.java	0	0	0	2	0	0
+marauroa.client.net.TCPNetworkClientManager$NetworkClientManagerWrite	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/client/net/TCPNetworkClientManager.java	0	0	0	2	0	0
+marauroa.client.net.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+marauroa.server.game.rp.IRPRuleProcessor	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/rp/IRPRuleProcessor.java	0	0	0	0	161	21
+marauroa.server.game.rp.MarauroaRPZone	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/rp/MarauroaRPZone.java	0	0	0	0	407	164
+marauroa.server.game.rp.NoFactoryConfException	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/rp/NoFactoryConfException.java	0	0	0	0	40	10
+marauroa.server.game.rp.RPObjectFactory	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/rp/RPObjectFactory.java	0	0	0	0	111	41
+marauroa.server.game.rp.RPScheduler	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/rp/RPScheduler.java	0	0	0	0	138	61
+marauroa.server.game.rp.RPServerManager	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/rp/RPServerManager.java	0	0	0	0	624	350
+marauroa.server.game.rp.RPWorld	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/game/rp/RPWorld.java	0	0	0	0	368	147
+marauroa.server.game.rp.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+org.python.modules.sre.MatchObject	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.sre.PatternObject	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.sre.SRE_REPEAT	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.sre.SRE_STATE	libs/jython.jar		1	1	1	-1	0	0
+org.python.modules.sre.ScannerObject	libs/jython.jar		1	1	1	-1	0	0
+org.apache.oro.text.regex.CharStringPointer	libs/jython.jar		1	1	1	-1	0	0
+org.apache.oro.text.regex.MalformedPatternException	libs/jython.jar		1	1	1	-1	0	0
+org.apache.oro.text.regex.MatchResult	libs/jython.jar		1	1	1	-1	0	0
+org.apache.oro.text.regex.OpCode	libs/jython.jar		1	1	1	-1	0	0
+org.apache.oro.text.regex.Pattern	libs/jython.jar		1	1	1	-1	0	0
+org.apache.oro.text.regex.PatternCompiler	libs/jython.jar		1	1	1	-1	0	0
+org.apache.oro.text.regex.PatternMatcher	libs/jython.jar		1	1	1	-1	0	0
+org.apache.oro.text.regex.PatternMatcherInput	libs/jython.jar		1	1	1	-1	0	0
+org.apache.oro.text.regex.Perl5Compiler	libs/jython.jar		1	1	1	-1	0	0
+org.apache.oro.text.regex.Perl5Debug	libs/jython.jar		1	1	1	-1	0	0
+org.apache.oro.text.regex.Perl5MatchResult	libs/jython.jar		1	1	1	-1	0	0
+org.apache.oro.text.regex.Perl5Matcher	libs/jython.jar		1	1	1	-1	0	0
+org.apache.oro.text.regex.Perl5Pattern	libs/jython.jar		1	1	1	-1	0	0
+org.apache.oro.text.regex.Perl5Repetition	libs/jython.jar		1	1	1	-1	0	0
+org.apache.oro.text.regex.Perl5Substitution	libs/jython.jar		1	1	1	-1	0	0
+org.apache.oro.text.regex.StringSubstitution	libs/jython.jar		1	1	1	-1	0	0
+org.apache.oro.text.regex.Substitution	libs/jython.jar		1	1	1	-1	0	0
+org.apache.oro.text.regex.Util	libs/jython.jar		1	1	1	-1	0	0
+org.python.rmi.UnicastRemoteObject	libs/jython.jar		1	1	1	-1	0	0
+marauroa.server.net.flood.FloodMeasure	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/net/flood/FloodMeasure.java	0	0	0	0	144	55
+marauroa.server.net.flood.FloodValidator	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/net/flood/FloodValidator.java	0	0	0	0	122	47
+marauroa.server.net.flood.IFloodCheck	libs/marauroa-3.8.1.jar	marauroa-3.8.1/src/marauroa/server/net/flood/IFloodCheck.java	0	0	0	0	40	5
+marauroa.server.net.flood.package-info	libs/marauroa-3.8.1.jar		0	1	1	3	0	0
+#Issues
+#======
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/marauroa/marauroa-3.8.1/src/marauroa-3.8.1/libs/h2.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/marauroa/marauroa-3.8.1/src/marauroa-3.8.1/libs/jnlp.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/marauroa/marauroa-3.8.1/src/marauroa-3.8.1/libs/junit-4.4.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/marauroa/marauroa-3.8.1/src/marauroa-3.8.1/libs/jython.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/marauroa/marauroa-3.8.1/src/marauroa-3.8.1/libs/log4j.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/marauroa/marauroa-3.8.1/src/marauroa-3.8.1/libs/mysql-connector.jar in <src> ignored.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/functional_tests/marauroa/functional/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/functional_tests/marauroa/ping/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/client/net/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/client/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/common/crypto/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/common/game/DefaultRPClass.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/common/game/LinkedRPObjectList.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/common/game/Validator.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/common/game/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/common/io/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/common/net/message/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/common/net/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/common/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/db/AdapterFactory.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/db/adapter/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/db/command/DBCommandMetaData.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/db/command/DBCommandQueueBackgroundThread.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/db/command/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/db/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/game/container/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/game/db/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/game/messagehandler/ActionHandler.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/game/messagehandler/ChooseCharacterHandler.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/game/messagehandler/CreateAccountHandler.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/game/messagehandler/CreateCharacterHandler.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/game/messagehandler/KeepAliveHandler.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/game/messagehandler/LoginRequestKeyHandler.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/game/messagehandler/LoginSendPromiseHandler.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/game/messagehandler/LogoutHandler.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/game/messagehandler/MessageHandler.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/game/messagehandler/OutOfSyncHandler.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/game/messagehandler/SecuredLoginHandler.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/game/messagehandler/TransferACKHandler.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/game/messagehandler/UnkownMessageHandler.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/game/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/game/python/GameScript.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/game/python/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/game/rp/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/net/flood/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/net/nio/DataEvent.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/net/nio/NioServer.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/net/nio/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/net/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/net/validator/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/server/package-info.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/tools/protocolanalyser/FakeSocketChannel.java.
+#SRC NO PUBLIC TYPE for marauroa-3.8.1/src/marauroa/tools/protocolanalyser/package-info.java.

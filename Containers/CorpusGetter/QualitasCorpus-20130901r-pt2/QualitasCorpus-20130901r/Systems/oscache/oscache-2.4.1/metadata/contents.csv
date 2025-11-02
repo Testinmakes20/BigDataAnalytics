@@ -1,0 +1,982 @@
+#2013-09-05T10:02:03NZST
+#System Version : oscache-2.4.1
+#Source Packages: com.opensymphony.oscache.
+#Ignore Packages: 
+#Distributed    : .,src/java
+#Source Roots   : .,src/java,src/test/java,src/webapp/WEB-INF/classes
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+org.jgroups.debug.Debugger	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.debug.Profiler	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.debug.Profiler$Entry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.debug.ProtocolSpecificView	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.debug.ProtocolTester	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.debug.ProtocolTester$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.debug.ProtocolTester$Harness	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.debug.ProtocolView	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.debug.QUEUEView	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.debug.Simulator	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.debug.Simulator$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.debug.Simulator$2	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.debug.Simulator$ProtocolAdapter	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.debug.Simulator$Receiver	lib/jgroups-all.jar		1	1	1	2	0	0
+com.opensymphony.oscache.web.filter.CacheFilter	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/web/filter/CacheFilter.java	0	0	0	0	782	442
+com.opensymphony.oscache.web.filter.CacheHttpServletResponseWrapper	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/web/filter/CacheHttpServletResponseWrapper.java	0	0	0	0	411	212
+com.opensymphony.oscache.web.filter.ExpiresRefreshPolicy	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/web/filter/ExpiresRefreshPolicy.java	0	0	0	0	75	27
+com.opensymphony.oscache.web.filter.ICacheGroupsProvider	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/web/filter/ICacheGroupsProvider.java	0	0	0	0	33	7
+com.opensymphony.oscache.web.filter.ICacheKeyProvider	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/web/filter/ICacheKeyProvider.java	0	0	0	0	33	7
+com.opensymphony.oscache.web.filter.ResponseContent	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/web/filter/ResponseContent.java	0	0	0	0	237	132
+com.opensymphony.oscache.web.filter.SplitServletOutputStream	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/web/filter/SplitServletOutputStream.java	0	0	0	0	94	34
+org.jgroups.tests.AckMcastSenderWindowTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.AckMcastSenderWindowTest$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.AckMcastSenderWindowTest$Acker	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.AckMcastSenderWindowTest$Cmd	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.AckMcastSenderWindowTest$MyCommand	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.AckReceiverWindowTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.AckSenderWindowTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.AckSenderWindowTest$Entry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.AckSenderWindowTest$MyRetransmitCommand	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.AddDataTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.BoundedListTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.Bsh	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.ChannelTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.CloseTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.CondVarTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.CondVarTest$ResultSetter	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.ConnectStressTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.ConnectStressTest$MyThread	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.ConnectTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.ConnectTest$PromisedMessageListener	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.ConnectionTableTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.ConnectionTableTest1_4	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.ConnectionTableUnitTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.ConnectionTableUnitTest$MyReceiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.ContinousThroughputTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.ContinousThroughputTest$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.ContinousThroughputTest$2	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.ContinousThroughputTest$MessageLenghtObserver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.Deadlock2Test	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.Deadlock2Test$ServerObject	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.DeadlockTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.DeadlockTest$Handler	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.DeadlockTest$InRpc	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.DetermineFragSize	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.DigestTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.DisconnectTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.DisconnectTest$PromisedMessageListener	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.DiscoveryPacket	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.DiscoveryRequest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.DiscoveryResponse	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.DistributedHashDeadLock	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.DistributedHashtableTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.EncryptMessageOrderTestCase	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.EncryptMessageOrderTestCase$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.EncryptOrderTestHeader	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.FCTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.FCTest$Receiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.FragTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.FragTest$FragReceiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.FragTest2	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.FragTestUnicast	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.GetStateTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.GossipClientTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.GroupRequestPull	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.GroupRequestPull$MyHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.HammerListener	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.HammerSender	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.HashMapTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.HashtableTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.HashtableTest$Notifier	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.InexistentRouterTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.InterruptTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.InterruptTest$SleeperThread	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.IpAddressTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.LargeState	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.LogicalAddressTest1_4	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.McastDiscovery1_4	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.McastDiscovery1_4$McastSender	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.McastDiscovery1_4$MessageHandler	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.McastDiscovery1_4$MessageHandler$McastReceiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.McastDiscovery1_4$MessageHandler$UcastReceiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.McastLoopbackTest1_4	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.McastReceiverTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.McastReceiverTest1_4	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.McastReceiverTest1_4$Receiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.McastSenderTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.McastSenderTest$AckReceiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.McastSenderTest1_4	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.McastSenderTest1_4$AckReceiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.McastTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.MembershipTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.MessageDispatcherShunTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.MessageDispatcherTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.MessageDispatcherTest$MyThread	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.MessageDispatcherTestAsync	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.MessageDispatcherTestAsync$MyCollector	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.MessageListStreamableTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.MessageSerializationTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.MessageSerializationTest2	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.MessageTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.MethodCallTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.MethodCallTest$Target	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.MethodCallTest$TargetSubclass	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.NAKACKTest2	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.NAKACKTest2$Receiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.NakReceiverWindowStressTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.NakReceiverWindowTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.NakackTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.NakackTest$CheckNoGaps	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.NetworkUtilization	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.NetworkUtilization$MyTimer	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.PartitionerTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.PartitionerTest$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.PartitionerTest$2	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.PartitionerTest$3	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.PartitionerTest$4	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.PartitionerTest$5	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.PerfTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.PerfTest$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.PerfTest$Entry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.PerfTest$MyHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.PerfTpTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.Ping	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.Probe	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.Probe$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.PromiseTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.PromiseTest$Interrupter	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.PromiseTest$ResultSetter	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.PullPushTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.PullPushTestMux	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.PullPushTestMux$MyListener	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.QueueSpeedTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.QueueTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.QueueTest$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.QueueTest$2	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.QueueTest$AddOneItem	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.QueueTest$Reader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.QueueTest$RemoveOneItem	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.QueueTest$RemoveOneItemWithTimeout	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.QueueTest$Writer	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.QueueTest2	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.QueueTest2$Adder	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.QueueTest2$JgQueue	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.QueueTest2$JgQueue2	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.QueueTest2$MyLinkedQueue	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.QueueTest2$MyQueue	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.QueueTest2$MyWaitFreeQueue	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.QueueTest2$Queueable	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.QueueTest2$Remover	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.Result	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.ReusableThreadTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.ReusableThreadTest$LongRunningThread	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.ReusableThreadTest$MyThread	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.RpcDispatcherBlocking	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.RpcDispatcherShunTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.RpcDispatcherSpeedTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.RpcDispatcherStressTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.RpcDispatcherStressTest$Publisher	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.RpcDispatcherTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.SchedulerTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.SchedulerTest$Listener	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.SchedulerTest$MyThread	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.SendAndReceiveTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.SimplePerfTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.SpeedTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.SpeedTest$Receiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.SpeedTest1_4	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.SpeedTest1_4$Receiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.StreamableTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.StringTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.TUNNELDeadLockTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.TUNNELDeadLockTest$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.TUNNELDeadLockTest$2	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.TUNNELDeadLockTest$3	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.ThreadPoolTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.ThreadPoolTest$MyThread	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.TimeSchedulerTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.TimeSchedulerTest$Entry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.TimerTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.TimerTest$Entry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.TimerTest$MyTask	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.UcastTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.UcastTest$AckReceiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.UnicastChannelTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.UnicastLoopbackTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.UnicastTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.UnicastTest$Data	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.UnicastTest$StartData	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.UnicastTest$Value	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.UnicastTest2	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.UnicastTest2$UnicastTest2Info	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.UpHandlerTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.UtilTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.VersionTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.ViewIdTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.ViewTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.XmlConfigurationTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+com.opensymphony.oscache.base.events.CacheEntryEvent	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/events/CacheEntryEvent.java	0	0	0	0	76	27
+com.opensymphony.oscache.base.events.CacheEntryEventListener	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/events/CacheEntryEventListener.java	0	0	0	0	55	10
+com.opensymphony.oscache.base.events.CacheEntryEventType	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/events/CacheEntryEventType.java	0	0	0	0	54	11
+com.opensymphony.oscache.base.events.CacheEvent	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/events/CacheEvent.java	0	0	0	0	48	12
+com.opensymphony.oscache.base.events.CacheEventListener	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/events/CacheEventListener.java	0	0	0	0	16	4
+com.opensymphony.oscache.base.events.CacheGroupEvent	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/events/CacheGroupEvent.java	0	0	0	0	71	23
+com.opensymphony.oscache.base.events.CacheMapAccessEvent	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/events/CacheMapAccessEvent.java	0	0	0	0	71	23
+com.opensymphony.oscache.base.events.CacheMapAccessEventListener	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/events/CacheMapAccessEventListener.java	0	0	0	0	21	4
+com.opensymphony.oscache.base.events.CacheMapAccessEventType	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/events/CacheMapAccessEventType.java	0	0	0	0	37	8
+com.opensymphony.oscache.base.events.CachePatternEvent	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/events/CachePatternEvent.java	0	0	0	0	69	23
+com.opensymphony.oscache.base.events.CachewideEvent	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/events/CachewideEvent.java	0	0	0	0	59	18
+com.opensymphony.oscache.base.events.CachewideEventType	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/events/CachewideEventType.java	0	0	0	0	26	6
+com.opensymphony.oscache.base.events.ScopeEvent	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/events/ScopeEvent.java	0	0	0	0	78	25
+com.opensymphony.oscache.base.events.ScopeEventListener	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/events/ScopeEventListener.java	0	0	0	0	21	4
+com.opensymphony.oscache.base.events.ScopeEventType	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/events/ScopeEventType.java	0	0	0	0	33	7
+com.opensymphony.oscache.base.events.TestCacheEntryEvent		src/test/java/com/opensymphony/oscache/base/events/TestCacheEntryEvent.java	0	2	0	0	75	37
+com.opensymphony.oscache.base.events.TestCacheGroupEvent		src/test/java/com/opensymphony/oscache/base/events/TestCacheGroupEvent.java	0	2	0	0	71	32
+com.opensymphony.oscache.base.events.TestCacheMapAccessEvent		src/test/java/com/opensymphony/oscache/base/events/TestCacheMapAccessEvent.java	0	2	0	0	53	22
+com.opensymphony.oscache.base.events.TestCachePatternEvent		src/test/java/com/opensymphony/oscache/base/events/TestCachePatternEvent.java	0	2	0	0	71	32
+com.opensymphony.oscache.base.events.TestCachewideEvent		src/test/java/com/opensymphony/oscache/base/events/TestCachewideEvent.java	0	2	0	0	57	23
+com.opensymphony.oscache.base.events.TestCompleteEvents		src/test/java/com/opensymphony/oscache/base/events/TestCompleteEvents.java	0	2	0	0	58	27
+com.opensymphony.oscache.base.events.TestScopeEvent		src/test/java/com/opensymphony/oscache/base/events/TestScopeEvent.java	0	2	0	0	59	26
+com.opensymphony.oscache.hibernate.OSCache	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/hibernate/OSCache.java	0	0	0	0	161	80
+com.opensymphony.oscache.hibernate.OSCacheProvider	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/hibernate/OSCacheProvider.java	0	0	0	0	123	63
+com.opensymphony.oscache.util.ClassLoaderUtil	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/util/ClassLoaderUtil.java	0	0	0	0	50	20
+com.opensymphony.oscache.util.FastCronParser	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/util/FastCronParser.java	0	0	0	0	1042	666
+com.opensymphony.oscache.util.StringUtil	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/util/StringUtil.java	0	0	0	0	67	29
+com.opensymphony.oscache.util.TestFastCronParser		src/test/java/com/opensymphony/oscache/util/TestFastCronParser.java	0	2	0	0	314	212
+com.opensymphony.oscache.util.ValueSet	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/util/FastCronParser.java	0	0	0	1	0	0
+org.jgroups.demos.CausalDemo	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.CausalDemo$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.CausalMessage	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.Chat	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.DistributedHashtableDemo	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.DistributedQueueDemo	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.DistributedTreeDemo	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.DistributedTreeDemo$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.Draw	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.Draw$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.Draw$2	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.Draw$DrawPanel	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.Draw2Channels	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.Draw2Channels$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.Draw2Channels$ControlReceiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.Draw2Channels$DataReceiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.Draw2Channels$DrawPanel	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.DrawCommand	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.DrawRepl	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.Gossip	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.Gossip$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.Gossip$Command	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.Gossip$MyPanel	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.Gossip$TrafficGenerator	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.KeyStoreGenerator	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.MyCanvas	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.MyNode	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.NotificationBusDemo	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.QuoteClient	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.QuoteServer	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.ReplicatedTreeDemo	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.ReplicatedTreeDemo$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.ReplicatedTreeDemo$ReplicatedTreeView	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.ReplicatedTreeDemo$ReplicatedTreeView$AddModifyDataForNodeAction	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.ReplicatedTreeDemo$ReplicatedTreeView$AddNodeAction	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.ReplicatedTreeDemo$ReplicatedTreeView$ExitAction	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.ReplicatedTreeDemo$ReplicatedTreeView$MyNode	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.ReplicatedTreeDemo$ReplicatedTreeView$RemoveNodeAction	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.Topology	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.TotOrderRequest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.TotalOrder	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.TotalOrder$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.TotalOrder$2	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.TotalOrder$3	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.TotalOrder$4	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.TotalOrder$5	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.TotalOrder$6	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.TotalOrder$7	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.TotalOrder$EventHandler	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.TotalOrder$ReceiverThread	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.TotalOrder$SenderThread	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.TotalTokenDemo	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.TotalTokenDemo$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.TotalTokenDemo$2	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.TotalTokenDemo$3	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.TotalTokenDemo$ColorPanel	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.TotalTokenDemo$ControlPanel	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.TotalTokenDemo$ReceiverThread	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.TotalTokenDemo$StackPanel	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.TotalTokenDemo$TotalPayload	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.TotalTokenDemo$TransmitAction	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.ViewDemo	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.adaptudp.ReceiverThread	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.adaptudp.Request	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.adaptudp.SenderThread	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.adaptudp.Test	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.adaptudp.UdpTester	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.adaptudp.UdpTester$MyReceiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.perf.Data	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.perf.MemberInfo	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.perf.Receiver	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.perf.Test	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.perf.Transport	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.BoundedList	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.Buffer	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.Command	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.CondVar	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.ContextObjectInputStream	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.ExposedByteArrayOutputStream	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.GetNetworkInterfaces1_4	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.LinkedListQueue	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.List	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.List$Element	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.util.List$ListEnumerator	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.util.MagicObjectInputStream	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.MagicObjectOutputStream	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.Marshaller	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.NullReadWriteLock	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.NullSync	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.PrintXMLTree	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.Promise	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.Proxy1_4	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.Proxy1_4$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.util.Proxy1_4$Connection	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.util.Proxy1_4$MyInetSocketAddress	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.util.Proxy1_4$Relayer	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.util.Proxy1_4$Relayer$Listener	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.util.Proxy1_4$SocketAcceptor	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.util.Queue	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.Queue$Element	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.util.Queue2	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.Queue2$Element	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.util.QueueClosedException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.Range	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.ReentrantLatch	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.ReusableThread	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.Rsp	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.RspList	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.Scheduler	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.Scheduler$Task	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.util.SchedulerListener	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.Stack	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.Streamable	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.ThreadPool	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.TimeScheduler	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.TimeScheduler$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.util.TimeScheduler$IntTask	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.util.TimeScheduler$Loop	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.util.TimeScheduler$Task	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.util.TimeScheduler$TaskQueue	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.util.TimedWriter	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.TimedWriter$SocketCreator	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.util.TimedWriter$Timeout	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.util.TimedWriter$WriterThread	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.util.Util	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.util.Util1_4	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.service.AbstractService	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.service.AbstractService$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.service.ServiceRunner	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.service.ServiceRunner$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.demos.wb.ApplFrame	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.wb.GraphPanel	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.wb.MessageDialog	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.wb.Node	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.wb.SendDialog	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.wb.UserInfoDialog	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.demos.wb.Whiteboard	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.adapt.JGroupsTester	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.adapt.ReceiverThread	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.adapt.SenderThread	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.adapt.Test	lib/jgroups-all.jar		1	1	1	-1	0	0
+com.opensymphony.oscache.plugins.clustersupport.AbstractBroadcastingListener	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/plugins/clustersupport/AbstractBroadcastingListener.java	0	0	0	0	177	96
+com.opensymphony.oscache.plugins.clustersupport.BaseTestBroadcastingListener		src/test/java/com/opensymphony/oscache/plugins/clustersupport/BaseTestBroadcastingListener.java	0	2	0	0	117	51
+com.opensymphony.oscache.plugins.clustersupport.ClusterNotification	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/plugins/clustersupport/ClusterNotification.java	0	0	0	0	86	25
+com.opensymphony.oscache.plugins.clustersupport.JMS10BroadcastingListener	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/plugins/clustersupport/JMS10BroadcastingListener.java	0	0	0	0	180	101
+com.opensymphony.oscache.plugins.clustersupport.JMS10BroadcastingListener$1	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/plugins/clustersupport/JMS10BroadcastingListener.java	0	0	0	2	0	0
+com.opensymphony.oscache.plugins.clustersupport.JMSBroadcastingListener	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/plugins/clustersupport/JMSBroadcastingListener.java	0	0	0	0	191	105
+com.opensymphony.oscache.plugins.clustersupport.JMSBroadcastingListener$1	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/plugins/clustersupport/JMSBroadcastingListener.java	0	0	0	2	0	0
+com.opensymphony.oscache.plugins.clustersupport.JavaGroupsBroadcastingListener	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/plugins/clustersupport/JavaGroupsBroadcastingListener.java	0	0	0	0	204	84
+com.opensymphony.oscache.plugins.clustersupport.ListenForClusterTests		src/test/java/com/opensymphony/oscache/plugins/clustersupport/ListenForClusterTests.java	0	2	0	0	115	74
+com.opensymphony.oscache.plugins.clustersupport.TestCompleteClustering		src/test/java/com/opensymphony/oscache/plugins/clustersupport/TestCompleteClustering.java	0	2	0	0	53	24
+com.opensymphony.oscache.plugins.clustersupport.TestJMS10BroadcastingListener		src/test/java/com/opensymphony/oscache/plugins/clustersupport/TestJMS10BroadcastingListener.java	0	2	0	0	58	28
+com.opensymphony.oscache.plugins.clustersupport.TestJMSBroadcastingListener		src/test/java/com/opensymphony/oscache/plugins/clustersupport/TestJMSBroadcastingListener.java	0	2	0	0	58	28
+com.opensymphony.oscache.plugins.clustersupport.TestJavaGroupsBroadcastingListener		src/test/java/com/opensymphony/oscache/plugins/clustersupport/TestJavaGroupsBroadcastingListener.java	0	2	0	0	52	22
+org.apache.commons.logging.Log	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.LogConfigurationException	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.LogFactory	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.LogFactory$1	lib/commons-logging.jar		1	1	1	2	0	0
+org.apache.commons.logging.LogFactory$2	lib/commons-logging.jar		1	1	1	2	0	0
+org.apache.commons.logging.LogFactory$3	lib/commons-logging.jar		1	1	1	2	0	0
+org.apache.commons.logging.LogFactory$4	lib/commons-logging.jar		1	1	1	2	0	0
+org.apache.commons.logging.LogFactory$5	lib/commons-logging.jar		1	1	1	2	0	0
+org.apache.commons.logging.LogSource	lib/commons-logging.jar		1	1	1	-1	0	0
+org.jgroups.persistence.CannotConnectException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.persistence.CannotCreateSchemaException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.persistence.CannotPersistException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.persistence.CannotRemoveException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.persistence.CannotRetrieveException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.persistence.DBPersistenceManager	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.persistence.FilePersistenceManager	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.persistence.PersistenceFactory	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.persistence.PersistenceManager	lib/jgroups-all.jar		1	1	1	-1	0	0
+com.opensymphony.oscache.plugins.diskpersistence.AbstractDiskPersistenceListener	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/plugins/diskpersistence/AbstractDiskPersistenceListener.java	0	0	0	0	514	275
+com.opensymphony.oscache.plugins.diskpersistence.DiskPersistenceListener	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/plugins/diskpersistence/DiskPersistenceListener.java	0	0	0	0	53	24
+com.opensymphony.oscache.plugins.diskpersistence.HashDiskPersistenceListener	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/plugins/diskpersistence/HashDiskPersistenceListener.java	0	0	0	0	113	63
+com.opensymphony.oscache.plugins.diskpersistence.TestCompleteDiskPersistence		src/test/java/com/opensymphony/oscache/plugins/diskpersistence/TestCompleteDiskPersistence.java	0	2	0	0	55	24
+com.opensymphony.oscache.plugins.diskpersistence.TestDiskPersistenceListener		src/test/java/com/opensymphony/oscache/plugins/diskpersistence/TestDiskPersistenceListener.java	0	2	0	0	223	137
+com.opensymphony.oscache.plugins.diskpersistence.TestHashDiskPersistenceListener		src/test/java/com/opensymphony/oscache/plugins/diskpersistence/TestHashDiskPersistenceListener.java	0	2	0	0	220	137
+com.opensymphony.oscache.plugins.diskpersistence.TestUnSerializable		src/test/java/com/opensymphony/oscache/plugins/diskpersistence/TestUnSerializable.java	0	2	0	0	89	46
+org.jgroups.blocks.ConnectionTable	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.ConnectionTable$Connection	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.ConnectionTable$Connection$Sender	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.ConnectionTable$ConnectionListener	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.ConnectionTable$Reaper	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.ConnectionTable$Receiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.ConnectionTable1_4	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.ConnectionTable1_4$Connection	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.DistributedHashtable	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.DistributedHashtable$Notification	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.DistributedLockManager	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.DistributedLockManager$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.DistributedLockManager$AcquireLockDecree	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.DistributedLockManager$LockDecree	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.DistributedLockManager$ReleaseLockDecree	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.DistributedLockManagerTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.DistributedQueue	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.DistributedQueue$Notification	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.DistributedQueueTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.DistributedQueueTest$PutTask	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.DistributedTree	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.DistributedTree$DistributedTreeListener	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.DistributedTree$Node	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.DistributedTree$ViewListener	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.GroupRequest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.Link	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.Link$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.Link$Heartbeat	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.Link$MyReceiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.Link$Receiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.LockManager	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.LockNotGrantedException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.LockNotReleasedException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.LockingException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.LogicalLink	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.LogicalLink$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.LogicalLink$AllLinksDown	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.LogicalLink$MyReceiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.LogicalLink$NoLinksAvailable	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.LogicalLink$Receiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.MembershipListenerAdapter	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.MessageDispatcher	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.MessageDispatcher$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.MessageDispatcher$ProtocolAdapter	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.MessageDispatcher$PullPushHandler	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.MessageDispatcher$TransportAdapter	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.MessageListenerAdapter	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.MethodCall	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.NBMessageForm1_4	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.NotificationBus	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.NotificationBus$Consumer	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.NotificationBus$Info	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.PullPushAdapter	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.PullPushAdapter$PullHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.PullPushShunTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.ReplicatedHashtable	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.ReplicatedHashtable$Notification	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.ReplicatedHashtable$Request	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.ReplicatedHashtable$StateTransferListener	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.ReplicatedTree	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.ReplicatedTree$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.ReplicatedTree$MyListener	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.ReplicatedTree$Node	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.ReplicatedTree$ReplicatedTreeListener	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.ReplicatedTree$Request	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.ReplicatedTree$StringHolder	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.ReplicationData	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.ReplicationManager	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.ReplicationReceiver	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.RequestCorrelator	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.RequestCorrelator$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.RequestCorrelator$CallStackSetter	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.RequestCorrelator$Header	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.RequestCorrelator$Request	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.RequestCorrelator$RequestEntry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.RequestHandler	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.RpcDispatcher	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.RpcDispatcher$Marshaller	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.RpcDispatcherTotalTokenTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.RpcDispatcherTotalTokenTest$DispatcherTask	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.RspCollector	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.TotalTokenProtocolObserver	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.TwoPhaseVotingAdapter	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.TwoPhaseVotingAdapter$TwoPhaseVoteWrapper	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.TwoPhaseVotingAdapter$TwoPhaseWrapper	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.TwoPhaseVotingListener	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.UpdateException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.VoteException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.VotingAdapter	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.VotingAdapter$FailureVoteResult	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.VotingAdapter$VoteResult	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.VotingAdapterTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.VotingAdapterTest$TestVoteChannelListener	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.blocks.VotingListener	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.blocks.Xid	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.Address	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.BlockEvent	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.Channel	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.ChannelClosedException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.ChannelException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.ChannelFactory	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.ChannelListener	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.ChannelNotConnectedException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.Event	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.ExitEvent	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.GetStateEvent	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.Global	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.Header	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.JChannel	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.JChannel$CloserThread	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.JChannelFactory	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.Membership	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.MembershipListener	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.MergeView	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.Message	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.MessageListener	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.SetStateEvent	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.SuspectEvent	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.SuspectedException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.TimeoutException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.Transport	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.UpHandler	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.Version	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.View	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.ViewId	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.perf.transports.JGroupsTransport	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.perf.transports.JmsTransport	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.perf.transports.TcpTransport	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.perf.transports.TcpTransport$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.perf.transports.TcpTransport$Connection	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.perf.transports.TcpTransport$ConnectionTable	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.perf.transports.TcpTransport$ReceiverThread	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.perf.transports.UdpTransport	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.perf.transports.UdpTransport$ReceiverThread	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.adapttcp.ReceiverThread	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.adapttcp.ReceiverThread$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.adapttcp.ReceiverThread$Receiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.adapttcp.SenderThread	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.adapttcp.SenderThread$Connection	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.adapttcp.SenderThread$ConnectionTable	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.adapttcp.TcpTester	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.adapttcp.Test	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.AckMcastReceiverWindow	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.AckMcastSenderWindow	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.AckMcastSenderWindow$Entry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.AckMcastSenderWindow$RetransmitCommand	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.AckMcastSenderWindow$Task	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.AckReceiverWindow	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.AckSenderWindow	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.AckSenderWindow$Dummy	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.AckSenderWindow$Entry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.AckSenderWindow$RetransmitCommand	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.Configurator	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.Configurator$ProtocolConfiguration	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.Configurator$ProtocolReq	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.DownHandler	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.GossipClient	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.GossipClient$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.GossipClient$Refresher	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.GossipData	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.GossipRouter	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.GossipRouter$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.GossipRouter$2	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.GossipRouter$3	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.GossipRouter$AddressEntry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.GossipRouter$SocketThread	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.GossipServer	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.GossipServer$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.GossipServer$CacheCleaner	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.GossipServer$Entry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.Interval	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.IpAddress	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.IpAddress$HashKey	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.LogicalAddress1_4	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.MessageProtocol	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.NakReceiverWindow	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.Protocol	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.ProtocolObserver	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.ProtocolStack	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.Retransmitter	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.Retransmitter$Entry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.Retransmitter$MyXmitter	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.Retransmitter$RetransmitCommand	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.Retransmitter$Task	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.Router	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.Router$AddressEntry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.Router$SocketThread	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.stack.RouterStub	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.RpcProtocol	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.StateTransferInfo	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.stack.UpHandler	lib/jgroups-all.jar		1	1	1	-1	0	0
+com.opensymphony.oscache.general.GeneralCacheAdministrator	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/general/GeneralCacheAdministrator.java	0	0	0	0	307	77
+com.opensymphony.oscache.general.TestCompleteGeneral		src/test/java/com/opensymphony/oscache/general/TestCompleteGeneral.java	0	2	0	0	54	23
+com.opensymphony.oscache.general.TestConcurrent		src/test/java/com/opensymphony/oscache/general/TestConcurrent.java	0	2	0	0	126	82
+com.opensymphony.oscache.general.TestGeneralCacheAdministrator		src/test/java/com/opensymphony/oscache/general/TestGeneralCacheAdministrator.java	0	2	0	0	400	254
+org.jgroups.tests.adaptjms.JmsTester	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.adaptjms.JmsTester$MyReceiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.adaptjms.ReceiverThread	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.adaptjms.Request	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.adaptjms.SenderThread	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.adaptjms.Test	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.stack.GossipTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.stack.LazyRoutingClientTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.stack.RouterTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.stack.RouterTest$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.stack.RouterTest$2	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.stack.Utilities	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.tests.stack.Utilities$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.stack.Utilities$2	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.tests.stack.Utilities$3	lib/jgroups-all.jar		1	1	1	2	0	0
+com.opensymphony.oscache.web.CacheContextListener	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/web/CacheContextListener.java	0	0	0	0	40	14
+com.opensymphony.oscache.web.CheckDeployment		src/test/java/com/opensymphony/oscache/web/CheckDeployment.java	0	2	0	0	46	31
+com.opensymphony.oscache.web.OscacheServlet		src/webapp/WEB-INF/classes/com/opensymphony/oscache/web/OscacheServlet.java	0	2	0	0	130	82
+com.opensymphony.oscache.web.ServletCache	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/web/ServletCache.java	0	0	0	0	118	42
+com.opensymphony.oscache.web.ServletCacheAdministrator	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/web/ServletCacheAdministrator.java	0	0	0	0	806	370
+com.opensymphony.oscache.web.TestCompleteWeb		src/test/java/com/opensymphony/oscache/web/TestCompleteWeb.java	0	2	0	0	55	24
+com.opensymphony.oscache.web.TestLoadCompleteWeb		src/test/java/com/opensymphony/oscache/web/TestLoadCompleteWeb.java	0	2	0	0	79	39
+com.opensymphony.oscache.web.TestOscacheFilter		src/test/java/com/opensymphony/oscache/web/TestOscacheFilter.java	0	2	0	0	215	124
+com.opensymphony.oscache.web.TestOscacheJsp		src/test/java/com/opensymphony/oscache/web/TestOscacheJsp.java	0	2	0	0	208	117
+com.opensymphony.oscache.web.TestOscacheServlet		src/test/java/com/opensymphony/oscache/web/TestOscacheServlet.java	0	2	0	0	194	111
+com.opensymphony.oscache.web.WebEntryRefreshPolicy	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/web/WebEntryRefreshPolicy.java	0	0	0	0	35	5
+org.jgroups.protocols.pbcast.ClientGmsImpl	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.pbcast.CoordGmsImpl	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.pbcast.CoordGmsImpl$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.pbcast.CoordGmsImpl$MergeCanceller	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.pbcast.CoordGmsImpl$MergeTask	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.pbcast.Digest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.pbcast.FD	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.pbcast.FD$Entry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.pbcast.GMS	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.pbcast.GMS$GmsHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.pbcast.GmsImpl	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.pbcast.Gossip	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.pbcast.JoinRsp	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.pbcast.MergeData	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.pbcast.NAKACK	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.pbcast.NakAckHeader	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.pbcast.PBCAST	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.pbcast.PBCAST$GossipEntry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.pbcast.PBCAST$GossipHandler	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.pbcast.ParticipantGmsImpl	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.pbcast.PbcastHeader	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.pbcast.STABLE	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.pbcast.STABLE$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.pbcast.STABLE$ResumeTask	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.pbcast.STABLE$StabilitySendTask	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.pbcast.STABLE$StableHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.pbcast.STABLE$StableTask	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.pbcast.STATE_TRANSFER	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.pbcast.STATE_TRANSFER$StateHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.apache.commons.logging.impl.AvalonLogger	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.impl.Jdk13LumberjackLogger	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.impl.Jdk14Logger	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.impl.Log4JLogger	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.impl.LogFactoryImpl	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.impl.LogKitLogger	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.impl.NoOpLog	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.impl.ServletContextCleaner	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.impl.SimpleLog	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.impl.SimpleLog$1	lib/commons-logging.jar		1	1	1	2	0	0
+org.apache.commons.logging.impl.WeakHashtable	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.impl.WeakHashtable$1	lib/commons-logging.jar		1	1	1	2	0	0
+org.apache.commons.logging.impl.WeakHashtable$2	lib/commons-logging.jar		1	1	1	2	0	0
+org.apache.commons.logging.impl.WeakHashtable$Entry	lib/commons-logging.jar		1	1	1	2	0	0
+org.apache.commons.logging.impl.WeakHashtable$Referenced	lib/commons-logging.jar		1	1	1	2	0	0
+org.apache.commons.logging.impl.WeakHashtable$WeakKey	lib/commons-logging.jar		1	1	1	2	0	0
+org.jgroups.service.lease.DenyResponseHeader	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.service.lease.Lease	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.service.lease.LeaseDeniedException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.service.lease.LeaseException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.service.lease.LeaseFactory	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.service.lease.LeaseFactoryClient	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.service.lease.LeaseFactoryClient$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.service.lease.LeaseFactoryClient$ClientLeaseInfo	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.service.lease.LeaseFactoryClient$ClientMessageListener	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.service.lease.LeaseFactoryClient$LocalLease	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.service.lease.LeaseFactoryClientTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.service.lease.LeaseFactoryService	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.service.lease.LeaseFactoryService$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.service.lease.LeaseFactoryService$ClientMessageListener	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.service.lease.LeaseFactoryService$LeaseInfo	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.service.lease.LeaseFactoryService$ServiceMessageListener	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.service.lease.LeaseInfoReplicationHeader	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.service.lease.LeaseRequestHeader	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.service.lease.LeaseResponseHeader	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.service.lease.RecursiveLeaseRequestException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.service.lease.UnknownLeaseException	lib/jgroups-all.jar		1	1	1	-1	0	0
+com.opensymphony.oscache.extra.CacheEntryEventListenerImpl	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/extra/CacheEntryEventListenerImpl.java	0	0	0	0	195	58
+com.opensymphony.oscache.extra.CacheMapAccessEventListenerImpl	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/extra/CacheMapAccessEventListenerImpl.java	0	0	0	0	111	47
+com.opensymphony.oscache.extra.ScopeEventListenerImpl	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/extra/ScopeEventListenerImpl.java	0	0	0	0	147	61
+com.opensymphony.oscache.extra.StatisticListenerImpl	oscache-2.4.1.jar	docs/wiki/Statistics_attachments/StatisticListenerImpl.java,src/java/com/opensymphony/oscache/extra/StatisticListenerImpl.java	0	0	0	0	295	116
+com.opensymphony.oscache.extra.TestCacheEntryEventListenerImpl		src/test/java/com/opensymphony/oscache/extra/TestCacheEntryEventListenerImpl.java	0	2	0	0	90	52
+com.opensymphony.oscache.extra.TestCacheMapAccessEventListenerImpl		src/test/java/com/opensymphony/oscache/extra/TestCacheMapAccessEventListenerImpl.java	0	2	0	0	71	35
+com.opensymphony.oscache.extra.TestCompleteExtra		src/test/java/com/opensymphony/oscache/extra/TestCompleteExtra.java	0	2	0	0	56	25
+com.opensymphony.oscache.extra.TestScopeEventListenerImpl		src/test/java/com/opensymphony/oscache/extra/TestScopeEventListenerImpl.java	0	2	0	0	62	29
+com.opensymphony.oscache.extra.TestStatisticListenerImpl		src/test/java/com/opensymphony/oscache/extra/TestStatisticListenerImpl.java	0	2	0	0	98	58
+org.jgroups.demos.applets.DrawApplet	lib/jgroups-all.jar		1	1	1	-1	0	0
+com.opensymphony.oscache.base.persistence.CachePersistenceException	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/persistence/CachePersistenceException.java	0	0	0	0	29	8
+com.opensymphony.oscache.base.persistence.PersistenceListener	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/persistence/PersistenceListener.java	0	0	0	0	96	15
+org.jgroups.protocols.AUTOCONF	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.BSH	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.BSH$BshHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.CAUSAL	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.CAUSAL$CausalHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.COMPRESS	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.COMPRESS$CompressHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.ClientGmsImpl	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.CoordGmsImpl	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.DEADLOCK	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.DELAY	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.DISCARD	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.DUMMY	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.DUMMY_TP	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.Digest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.Discovery	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.ENCRYPT	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.ENCRYPT$EncryptHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.ENCRYPT14KeystoreTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.ENCRYPT14KeystoreTest$MockAddress	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.ENCRYPT14KeystoreTest$MockObserver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.ENCRYPT1_4	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.ENCRYPT1_4$EncryptHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.ENCRYPTAsymmetricTest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.ENCRYPTAsymmetricTest$MockAddress	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.ENCRYPTAsymmetricTest$MockObserver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.EXAMPLE	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.ExampleHeader	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.FC	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.FC$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FC$FcHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FD	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.FD$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FD$BroadcastTask	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FD$Broadcaster	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FD$FdHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FD$Monitor	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FD_PID	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.FD_PID$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FD_PID$FdHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FD_PID$Monitor	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FD_PROB	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.FD_PROB$FdEntry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FD_PROB$FdHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FD_SIMPLE	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.FD_SIMPLE$FdHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FD_SIMPLE$HeartbeatTask	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FD_SOCK	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.FD_SOCK$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FD_SOCK$BroadcastTask	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FD_SOCK$ClientConnectionHandler	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FD_SOCK$FdHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FD_SOCK$ServerSocketHandler	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FLOWCONTROL	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.FLOW_CONTROL	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.FLOW_CONTROL$FCInfo	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FLUSH	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.FRAG	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.FRAG$FragmentationList	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FRAG$FragmentationTable	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FRAG$FragmentationTable$Entry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FRAG2	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.FRAG2$FragmentationList	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FRAG2$FragmentationTable	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FRAG2$FragmentationTable$Entry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.FlushRsp	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.FragHeader	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.GMS	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.GmsImpl	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.HDRS	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.HTOTAL	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.HTOTAL$HTotalHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.JMS	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.JMS$JMSAddress	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.LOOPBACK	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.LOSS	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.MERGE	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.MERGE$MergeHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.MERGE2	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.MERGE2$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.MERGE2$FindSubgroups	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.MERGE3	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.MERGE3$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.MERGE3$CoordAnnouncement	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.MERGE3$CoordinatorAnnouncer	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.MERGEFAST	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.MERGEFAST$MergefastHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.MPING	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.MessageAcks	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.MessageAcks$Entry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.MessageProtocolEXAMPLE	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.MyFrame	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.MyFrame$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.MyFrame$2	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.NAKACK	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.NAKACK$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.NAKACK$NAKer	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.NAKACK$NAKer$LastMessageRetransmitter	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.NAKACK$OutOfBander	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.NakAckHeader	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.PARTITIONER	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.PARTITIONER$PartitionerHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.PERF	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.PERF_TP	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.PIGGYBACK	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.PIGGYBACK$Packer	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.PIGGYBACK$PiggybackHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.PING	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.PRINTMETHODS	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.PRINTOBJS	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.ParticipantGmsImpl	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.PerfEntry	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.PerfHeader	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.PerfObserver	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.PingHeader	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.PingRsp	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.PingSender	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.PingWaiter	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.QUEUE	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.QUEUE$Observer	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.Receiver	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.RpcProtocolEXAMPLE	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.SHUFFLE	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.SIZE	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.SMACK	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.SMACK$SmackHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.STABLE	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.STABLE$Task	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.STABLE$Times	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.STATE_TRANSFER	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.SavedMessages	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.SavedMessages$Entry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.StateTransferRequest	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.TCP	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.TCP1_4	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.TCPGOSSIP	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.TCPPING	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.TOTAL	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.TOTAL$Command	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.TOTAL$Header	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.TOTAL_OLD	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.TOTAL_OLD$TotalHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.TOTAL_TOKEN	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.TOTAL_TOKEN$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.TOTAL_TOKEN$RingTokenHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.TOTAL_TOKEN$TokenTransmitter	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.TOTAL_TOKEN$TotalTokenHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.TRACE	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.TUNNEL	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.TUNNEL$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.TUNNEL$Reconnector	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.TcpHeader	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.TotalRetransmissionThread	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.TransportedVectorTime	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.TunnelHeader	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.UDP	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.UDP$BundlingOutgoingPacketHandler	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.UDP$IncomingPacketHandler	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.UDP$IncomingQueueEntry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.UDP$OutgoingPacketHandler	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.UDP$UcastReceiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.UDP1_4	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.UDP1_4$Connector	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.UDP1_4$Connector$SenderThread	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.UDP1_4$ConnectorTable	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.UDP1_4$Mailman	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.UDP1_4$MulticastReceiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.UDP1_4$MyReceiver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.UDP1_4$PacketHandler	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.UDP1_4$Unmarshaller	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.UNICAST	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.UNICAST$Entry	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.UNICAST$UnicastHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.UdpHeader	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.VERIFY_SUSPECT	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.VERIFY_SUSPECT$VerifyHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.VIEW_ENFORCER	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.VectorTime	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.WANPING	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.WANPIPE	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.WANPIPE$1	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.WANPIPE$LinkInfo	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.WANPIPE$WanPipeHeader	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.protocols.WanPipeAddress	lib/jgroups-all.jar		1	1	1	-1	0	0
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/algorithm/AbstractConcurrentReadCache.java	0	0	0	0	2157	1045
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$1	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/algorithm/AbstractConcurrentReadCache.java	0	0	0	2	0	0
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$2	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/algorithm/AbstractConcurrentReadCache.java	0	0	0	2	0	0
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$3	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/algorithm/AbstractConcurrentReadCache.java	0	0	0	2	0	0
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$Entry	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/algorithm/AbstractConcurrentReadCache.java	0	0	0	2	0	0
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$HashIterator	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/algorithm/AbstractConcurrentReadCache.java	0	0	0	2	0	0
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$KeyIterator	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/algorithm/AbstractConcurrentReadCache.java	0	0	0	2	0	0
+com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$ValueIterator	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/algorithm/AbstractConcurrentReadCache.java	0	0	0	2	0	0
+com.opensymphony.oscache.base.algorithm.FIFOCache	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/algorithm/FIFOCache.java	0	0	0	0	92	29
+com.opensymphony.oscache.base.algorithm.LRUCache	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/algorithm/LRUCache.java	0	0	0	0	156	73
+com.opensymphony.oscache.base.algorithm.TestAbstractCache		src/test/java/com/opensymphony/oscache/base/algorithm/TestAbstractCache.java	0	2	0	0	251	152
+com.opensymphony.oscache.base.algorithm.TestCompleteAlgorithm		src/test/java/com/opensymphony/oscache/base/algorithm/TestCompleteAlgorithm.java	0	2	0	0	56	24
+com.opensymphony.oscache.base.algorithm.TestFIFOCache		src/test/java/com/opensymphony/oscache/base/algorithm/TestFIFOCache.java	0	2	0	0	73	29
+com.opensymphony.oscache.base.algorithm.TestLRUCache		src/test/java/com/opensymphony/oscache/base/algorithm/TestLRUCache.java	0	2	0	0	80	32
+com.opensymphony.oscache.base.algorithm.TestQueueCache		src/test/java/com/opensymphony/oscache/base/algorithm/TestQueueCache.java	0	2	0	0	229	139
+com.opensymphony.oscache.base.algorithm.TestUnlimitedCache		src/test/java/com/opensymphony/oscache/base/algorithm/TestUnlimitedCache.java	0	2	0	0	92	36
+com.opensymphony.oscache.base.algorithm.UnlimitedCache	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/algorithm/UnlimitedCache.java	0	0	0	0	71	23
+com.opensymphony.oscache.base.AbstractCacheAdministrator	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/AbstractCacheAdministrator.java	0	0	0	0	413	162
+com.opensymphony.oscache.base.Cache	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/Cache.java	0	0	0	0	1014	483
+com.opensymphony.oscache.base.CacheEntry	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/CacheEntry.java	0	0	0	0	311	119
+com.opensymphony.oscache.base.Client		src/test/java/com/opensymphony/oscache/base/GroupConcurrencyProblemTestCase.java	0	2	0	1	0	0
+com.opensymphony.oscache.base.Config	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/Config.java	0	0	0	0	189	87
+com.opensymphony.oscache.base.DummyAlwayRefreshEntryPolicy		src/test/java/com/opensymphony/oscache/base/DummyAlwayRefreshEntryPolicy.java	0	2	0	0	30	6
+com.opensymphony.oscache.base.EntryRefreshPolicy	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/EntryRefreshPolicy.java	0	0	0	0	31	5
+com.opensymphony.oscache.base.EntryUpdateState	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/EntryUpdateState.java	0	0	0	0	157	56
+com.opensymphony.oscache.base.FinalizationException	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/FinalizationException.java	0	0	0	0	23	9
+com.opensymphony.oscache.base.GroupConcurrencyProblemTestCase		src/test/java/com/opensymphony/oscache/base/GroupConcurrencyProblemTestCase.java	0	2	0	0	59	34
+com.opensymphony.oscache.base.InitializationException	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/InitializationException.java	0	0	0	0	23	9
+com.opensymphony.oscache.base.LifecycleAware	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/LifecycleAware.java	0	0	0	0	42	5
+com.opensymphony.oscache.base.NeedsRefreshException	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/base/NeedsRefreshException.java	0	0	0	0	51	15
+com.opensymphony.oscache.base.TestAbstractCacheAdministrator		src/test/java/com/opensymphony/oscache/base/TestAbstractCacheAdministrator.java	0	2	0	0	95	38
+com.opensymphony.oscache.base.TestCache		src/test/java/com/opensymphony/oscache/base/TestCache.java	0	2	0	0	275	167
+com.opensymphony.oscache.base.TestCacheEntry		src/test/java/com/opensymphony/oscache/base/TestCacheEntry.java	0	2	0	0	136	70
+com.opensymphony.oscache.base.TestCompleteBase		src/test/java/com/opensymphony/oscache/base/TestCompleteBase.java	0	2	0	0	63	31
+com.opensymphony.oscache.base.TestConcurrency		src/test/java/com/opensymphony/oscache/base/TestConcurrency.java	0	2	0	0	489	360
+com.opensymphony.oscache.base.TestConcurrency2		src/test/java/com/opensymphony/oscache/base/TestConcurrency2.java	0	2	0	0	480	350
+org.jgroups.protocols.ring.RingNode	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.ring.RingNodeFlowControl	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.ring.RingToken	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.ring.TcpRingNode	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.ring.TokenLostException	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.protocols.ring.UdpRingNode	lib/jgroups-all.jar		1	1	1	-1	0	0
+com.opensymphony.oscache.web.tag.CacheTag	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/web/tag/CacheTag.java	0	0	0	0	824	466
+com.opensymphony.oscache.web.tag.FlushTag	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/web/tag/FlushTag.java	0	0	0	0	171	76
+com.opensymphony.oscache.web.tag.GroupTag	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/web/tag/GroupTag.java	0	0	0	0	32	17
+com.opensymphony.oscache.web.tag.GroupsTag	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/web/tag/GroupsTag.java	0	0	0	0	33	17
+com.opensymphony.oscache.web.tag.UseCachedTag	oscache-2.4.1.jar	src/java/com/opensymphony/oscache/web/tag/UseCachedTag.java	0	0	0	0	60	17
+org.jgroups.conf.ClassConfigurator	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.conf.ClassMap	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.conf.ClassPathEntityResolver	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.conf.ConfiguratorFactory	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.conf.MagicNumberReader	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.conf.PlainConfigurator	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.conf.ProtocolData	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.conf.ProtocolParameter	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.conf.ProtocolStackConfigurator	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.conf.XmlConfigurator	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.conf.XmlValidator	lib/jgroups-all.jar		1	1	1	-1	0	0
+org.jgroups.conf.XmlValidator$JGEntityResolver	lib/jgroups-all.jar		1	1	1	2	0	0
+org.jgroups.conf.XmlValidator$JGErrorHandler	lib/jgroups-all.jar		1	1	1	2	0	0
+#Issues
+#======
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/oscache/oscache-2.4.1/src/docs/wiki/Chain Caching Model_attachments/oscache.fpr.gz in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/oscache/oscache-2.4.1/src/lib/commons-logging.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/oscache/oscache-2.4.1/src/lib/jgroups-all.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/oscache/oscache-2.4.1/src/oscache-2.4.1.jar in <src> ignored.
+#SRC Package (com/opensymphony/oscache/extra/) of type does not match path of docs/wiki/Statistics_attachments/StatisticListenerImpl.java

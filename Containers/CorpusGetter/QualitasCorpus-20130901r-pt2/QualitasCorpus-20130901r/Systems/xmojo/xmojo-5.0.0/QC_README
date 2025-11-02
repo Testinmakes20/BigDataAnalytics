@@ -1,0 +1,10 @@
+The source in XMOJO_5_0_0_SRC.zip is within a second jar archive. It is the 
+contents of this jar archive that have been unpacked into the src directory. 
+This source archive has been deleted after being unpacked.
+
+To retrieve the original source jar archive, unpack it from XMOJO_5_0_0_SRC.zip
+using the command:
+
+unzip XMOJO_5_0_0_SRC.zip -d [destination]
+
+

@@ -1,0 +1,537 @@
+#2013-09-05T10:02:34NZST
+#System Version : log4j-1.2.16
+#Source Packages: org.apache.log4j.
+#Ignore Packages: 
+#Distributed    : apache-log4j-1.2.16/src/main/java
+#Source Roots   : .,apache-log4j-1.2.16,apache-log4j-1.2.16/contribs/CekiGulcu,apache-log4j-1.2.16/contribs/Jamie Tsao,apache-log4j-1.2.16/contribs/JimMoore,apache-log4j-1.2.16/contribs/ThomasFenner,apache-log4j-1.2.16/src/main/java,apache-log4j-1.2.16/src/main/javadoc,apache-log4j-1.2.16/src/performance/java,apache-log4j-1.2.16/tests/src/java
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+AppenderTable		apache-log4j-1.2.16/contribs/CekiGulcu/AppenderTable.java	1	2	1	0	245	129
+AppenderTableModel		apache-log4j-1.2.16/contribs/CekiGulcu/AppenderTable.java	1	2	1	1	0	0
+JMSQueueAppender		apache-log4j-1.2.16/contribs/Jamie Tsao/JMSQueueAppender.java	1	2	1	0	241	127
+JTableAddAction		apache-log4j-1.2.16/contribs/CekiGulcu/AppenderTable.java	1	2	1	1	0	0
+Log4JTest		apache-log4j-1.2.16/contribs/ThomasFenner/Log4JTest.java,apache-log4j-1.2.16/contribs/ThomasFenner/code_example1.java,apache-log4j-1.2.16/contribs/ThomasFenner/code_example2.java	1	2	1	0	271	53
+LoggingOutputStream		apache-log4j-1.2.16/contribs/JimMoore/LoggingOutputStream.java	1	2	1	0	210	69
+MyConnectionHandler		apache-log4j-1.2.16/contribs/ThomasFenner/Log4JTest.java,apache-log4j-1.2.16/contribs/ThomasFenner/code_example2.java	1	2	1	1	0	0
+MyIDHandler		apache-log4j-1.2.16/contribs/ThomasFenner/Log4JTest.java,apache-log4j-1.2.16/contribs/ThomasFenner/code_example2.java	1	2	1	1	0	0
+examples.lf5.InitUsingLog4JProperties.InitUsingLog4JProperties		apache-log4j-1.2.16/examples/lf5/InitUsingLog4JProperties/InitUsingLog4JProperties.java	1	2	1	0	121	38
+org.apache.log4j.config.PropertyGetter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/config/PropertyGetter.java	0	0	0	0	108	68
+org.apache.log4j.config.PropertyGetter$PropertyCallback	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/config/PropertyGetter.java	0	0	0	2	0	0
+org.apache.log4j.config.PropertyPrinter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/config/PropertyPrinter.java	0	0	0	0	168	107
+org.apache.log4j.config.PropertySetter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/config/PropertySetter.java	0	0	0	0	310	182
+org.apache.log4j.config.PropertySetterException	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/config/PropertySetterException.java	0	0	0	0	54	23
+org.apache.log4j.performance.ListVsVector		apache-log4j-1.2.16/src/performance/java/org/apache/log4j/performance/ListVsVector.java	0	2	1	0	99	61
+org.apache.log4j.performance.NOPWriter		apache-log4j-1.2.16/src/performance/java/org/apache/log4j/performance/NOPWriter.java	0	2	1	0	55	15
+org.apache.log4j.performance.NewVsSetLen		apache-log4j-1.2.16/src/performance/java/org/apache/log4j/performance/NewVsSetLen.java	0	2	1	0	227	71
+org.apache.log4j.performance.NullAppender		apache-log4j-1.2.16/src/performance/java/org/apache/log4j/performance/NullAppender.java	0	2	1	0	68	30
+org.apache.log4j.performance.SystemTime		apache-log4j-1.2.16/src/performance/java/org/apache/log4j/performance/SystemTime.java	0	2	1	0	63	29
+com.systemsunion.LoggingServer.SocketNode2		apache-log4j-1.2.16/contribs/MarkDouglas/SocketNode2.java	1	2	1	0	118	67
+com.systemsunion.LoggingServer.SocketServer2		apache-log4j-1.2.16/contribs/MarkDouglas/SocketServer2.java	1	2	1	0	99	52
+org.apache.log4j.xml.CustomLevelTestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/xml/CustomLevelTestCase.java	0	2	1	0	89	57
+org.apache.log4j.xml.DC		apache-log4j-1.2.16/contribs/CekiGulcu/Transform.java	0	2	1	1	0	0
+org.apache.log4j.xml.DOMConfigurator	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/xml/DOMConfigurator.java	0	0	0	0	1123	777
+org.apache.log4j.xml.DOMConfigurator$1	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/xml/DOMConfigurator.java	0	0	0	2	0	0
+org.apache.log4j.xml.DOMConfigurator$2	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/xml/DOMConfigurator.java	0	0	0	2	0	0
+org.apache.log4j.xml.DOMConfigurator$3	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/xml/DOMConfigurator.java	0	0	0	2	0	0
+org.apache.log4j.xml.DOMConfigurator$4	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/xml/DOMConfigurator.java	0	0	0	2	0	0
+org.apache.log4j.xml.DOMConfigurator$5	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/xml/DOMConfigurator.java	0	0	0	2	0	0
+org.apache.log4j.xml.DOMConfigurator$ParseAction	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/xml/DOMConfigurator.java	0	0	0	2	0	0
+org.apache.log4j.xml.DOMTestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/xml/DOMTestCase.java	0	2	1	0	419	252
+org.apache.log4j.xml.Log4jEntityResolver	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/xml/Log4jEntityResolver.java	0	0	0	0	51	23
+org.apache.log4j.xml.SAXErrorHandler	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/xml/SAXErrorHandler.java	0	0	0	0	46	23
+org.apache.log4j.xml.Transform		apache-log4j-1.2.16/contribs/CekiGulcu/Transform.java	0	2	1	0	219	140
+org.apache.log4j.xml.UnrecognizedElementHandler	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/xml/UnrecognizedElementHandler.java	0	0	0	0	42	6
+org.apache.log4j.xml.XLevel		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/xml/XLevel.java	0	2	1	0	90	44
+org.apache.log4j.xml.XMLLayout	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/xml/XMLLayout.java	0	0	0	0	216	99
+org.apache.log4j.xml.XMLLayoutTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/xml/XMLLayoutTest.java	0	2	1	0	501	317
+org.apache.log4j.xml.XMLLayoutTestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/xml/XMLLayoutTestCase.java	0	2	1	0	248	182
+org.apache.log4j.xml.XMLWatchdog	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/xml/DOMConfigurator.java	0	0	0	1	0	0
+org.apache.log4j.gui.examples.LogFrame		apache-log4j-1.2.16/contribs/JamesHouse/LogTextPanelExample.java	0	2	1	1	0	0
+org.apache.log4j.gui.examples.LogTextPanelExample		apache-log4j-1.2.16/contribs/JamesHouse/LogTextPanelExample.java	0	2	1	0	132	94
+org.apache.log4j.gui.examples.LogTextPanelExampleGenThread		apache-log4j-1.2.16/contribs/JamesHouse/LogTextPanelExample.java	0	2	1	1	0	0
+org.apache.log4j.gui.examples.TextPaneAppenderExample		apache-log4j-1.2.16/contribs/SvenReimers/gui/examples/TextPaneAppenderExample.java	0	2	1	0	111	73
+org.apache.log4j.or.jms.MessageRenderer	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/or/jms/MessageRenderer.java	0	0	0	0	100	53
+com.klopotek.utils.log.DefaultConnectionHandler		apache-log4j-1.2.16/contribs/ThomasFenner/JDBCAppender.java	1	2	1	1	0	0
+com.klopotek.utils.log.JDBCAppender		apache-log4j-1.2.16/contribs/ThomasFenner/JDBCAppender.java	1	2	1	0	601	327
+com.klopotek.utils.log.JDBCConnectionHandler		apache-log4j-1.2.16/contribs/ThomasFenner/JDBCConnectionHandler.java	1	2	1	0	38	7
+com.klopotek.utils.log.JDBCIDHandler		apache-log4j-1.2.16/contribs/ThomasFenner/JDBCIDHandler.java	1	2	1	0	35	5
+com.klopotek.utils.log.JDBCLogger		apache-log4j-1.2.16/contribs/ThomasFenner/JDBCLogger.java	1	2	1	0	468	279
+com.klopotek.utils.log.LogColumn		apache-log4j-1.2.16/contribs/ThomasFenner/JDBCLogger.java	1	2	1	1	0	0
+com.klopotek.utils.log.LogType		apache-log4j-1.2.16/contribs/ThomasFenner/JDBCLogger.java	1	2	1	1	0	0
+org.apache.log4j.or.sax.AttributesRenderer	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/or/sax/AttributesRenderer.java	0	0	0	0	66	34
+examples.lf5.InitUsingMultipleAppenders.InitUsingMultipleAppenders		apache-log4j-1.2.16/examples/lf5/InitUsingMultipleAppenders/InitUsingMultipleAppenders.java	1	2	1	0	146	45
+org.apache.log4j.jdbc.JDBCAppender	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/jdbc/JDBCAppender.java	0	0	0	0	398	155
+org.apache.log4j.util.AbsoluteDateAndTimeFilter		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/util/AbsoluteDateAndTimeFilter.java	0	2	1	0	37	14
+org.apache.log4j.util.AbsoluteTimeFilter		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/util/AbsoluteTimeFilter.java	0	2	1	0	37	14
+org.apache.log4j.util.Compare		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/util/Compare.java	0	2	1	0	60	34
+org.apache.log4j.util.ControlFilter		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/util/ControlFilter.java	0	2	1	0	45	19
+org.apache.log4j.util.EnhancedJunitTestRunnerFilter		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/util/EnhancedJunitTestRunnerFilter.java	0	2	1	0	66	35
+org.apache.log4j.util.EnhancedLineNumberFilter		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/util/EnhancedLineNumberFilter.java	0	2	1	0	42	19
+org.apache.log4j.util.Filter		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/util/Filter.java	0	2	1	0	38	11
+org.apache.log4j.util.ISO8601Filter		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/util/ISO8601Filter.java	0	2	1	0	36	14
+org.apache.log4j.util.JunitTestRunnerFilter		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/util/JunitTestRunnerFilter.java	0	2	1	0	62	37
+org.apache.log4j.util.LineNumberFilter		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/util/LineNumberFilter.java	0	2	1	0	37	16
+org.apache.log4j.util.MDCOrderFilter		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/MDCOrderFilter.java	0	2	1	0	63	27
+org.apache.log4j.util.RelativeTimeFilter		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/util/RelativeTimeFilter.java	0	2	1	0	37	14
+org.apache.log4j.util.SerializationTestHelper		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/util/SerializationTestHelper.java	0	2	1	0	150	73
+org.apache.log4j.util.SunReflectFilter		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/util/SunReflectFilter.java	0	2	1	0	50	25
+org.apache.log4j.util.Transformer		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/util/Transformer.java	0	2	1	0	67	36
+org.apache.log4j.util.UnexpectedFormatException		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/util/UnexpectedFormatException.java	0	2	1	0	26	7
+org.apache.log4j.util.XMLLineAttributeFilter		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/util/XMLLineAttributeFilter.java	0	2	1	0	36	15
+org.apache.log4j.util.XMLTimestampFilter		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/util/XMLTimestampFilter.java	0	2	1	0	34	13
+examples.lf5.UsingLogMonitorAdapter.CustomizedLogLevels		apache-log4j-1.2.16/examples/lf5/UsingLogMonitorAdapter/CustomizedLogLevels.java	1	2	1	0	110	31
+examples.lf5.UsingLogMonitorAdapter.UsingLogMonitorAdapter		apache-log4j-1.2.16/examples/lf5/UsingLogMonitorAdapter/UsingLogMonitorAdapter.java	1	2	1	0	94	23
+org.apache.log4j.Appender	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/Appender.java	0	0	0	0	142	29
+org.apache.log4j.AppenderSkeleton	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/AppenderSkeleton.java	0	0	0	0	304	120
+org.apache.log4j.AsyncAppender	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/AsyncAppender.java	0	0	0	0	596	251
+org.apache.log4j.AsyncAppender$DiscardSummary	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/AsyncAppender.java	0	0	0	2	0	0
+org.apache.log4j.AsyncAppender$Dispatcher	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/AsyncAppender.java	0	0	0	2	0	0
+org.apache.log4j.AsyncAppenderTestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/AsyncAppenderTestCase.java	0	2	1	0	339	208
+org.apache.log4j.BasicConfigurator	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/BasicConfigurator.java	0	0	0	0	73	23
+org.apache.log4j.Category	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/Category.java	0	0	0	0	1062	410
+org.apache.log4j.CategoryKey	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/CategoryKey.java	0	0	0	4	52	24
+org.apache.log4j.CategoryTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/CategoryTest.java	0	2	1	0	111	45
+org.apache.log4j.CompositeRollingAppender		apache-log4j-1.2.16/contribs/KevinSteppe/CompositeRollingAppender.java	0	2	1	0	707	338
+org.apache.log4j.ConsoleAppender	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/ConsoleAppender.java	0	0	0	0	220	106
+org.apache.log4j.ConsoleAppender$SystemErrStream	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/ConsoleAppender.java	0	0	0	2	0	0
+org.apache.log4j.ConsoleAppender$SystemOutStream	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/ConsoleAppender.java	0	0	0	2	0	0
+org.apache.log4j.CoreTestSuite		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/CoreTestSuite.java	0	2	1	0	65	38
+org.apache.log4j.DRFATestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/DRFATestCase.java	0	2	1	0	512	314
+org.apache.log4j.DailyFileAppender		apache-log4j-1.2.16/contribs/EirikLygre/DailyFileAppender1.java	0	2	1	0	242	94
+org.apache.log4j.DailyFileAppenderCalendar		apache-log4j-1.2.16/contribs/EirikLygre/DailyFileAppender1.java	0	2	1	1	0	0
+org.apache.log4j.DailyRollingFileAppender	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/DailyRollingFileAppender.java	0	0	0	0	454	221
+org.apache.log4j.DefaultCategoryFactory	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/DefaultCategoryFactory.java	0	0	0	4	31	10
+org.apache.log4j.DefaultThrowableRenderer	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/DefaultThrowableRenderer.java	0	0	0	0	83	43
+org.apache.log4j.DefaultThrowableRendererTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/DefaultThrowableRendererTest.java	0	2	1	0	37	18
+org.apache.log4j.Dispatcher	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/Dispatcher.java	0	0	0	4	125	52
+org.apache.log4j.EnhancedMyPatternLayout		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/EnhancedMyPatternLayout.java	0	2	1	0	53	17
+org.apache.log4j.EnhancedPatternLayout	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/EnhancedPatternLayout.java	0	0	0	0	559	59
+org.apache.log4j.EnhancedPatternLayoutTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/EnhancedPatternLayoutTest.java	0	2	1	0	143	68
+org.apache.log4j.EnhancedPatternLayoutTestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/EnhancedPatternLayoutTestCase.java	0	2	1	0	589	446
+org.apache.log4j.EnhancedThrowableRenderer	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/EnhancedThrowableRenderer.java	0	0	0	0	168	102
+org.apache.log4j.EnhancedThrowableRendererTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/EnhancedThrowableRendererTest.java	0	2	1	0	48	18
+org.apache.log4j.FileAppender	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/FileAppender.java	0	0	0	0	348	147
+org.apache.log4j.FileAppenderTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/FileAppenderTest.java	0	2	1	0	86	35
+org.apache.log4j.HTMLLayout	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/HTMLLayout.java	0	0	0	0	267	152
+org.apache.log4j.HTMLLayoutTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/HTMLLayoutTest.java	0	2	1	0	242	134
+org.apache.log4j.Hierarchy	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/Hierarchy.java	0	0	0	0	577	265
+org.apache.log4j.HierarchyThresholdTestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/HierarchyThresholdTestCase.java	0	2	1	0	125	83
+org.apache.log4j.Last		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/Last.java	0	2	1	0	40	16
+org.apache.log4j.Layout	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/Layout.java	0	0	0	0	89	25
+org.apache.log4j.LayoutTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/LayoutTest.java	0	2	1	0	168	65
+org.apache.log4j.Level	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/Level.java	0	0	0	0	224	85
+org.apache.log4j.LevelTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/LevelTest.java	0	2	1	0	267	119
+org.apache.log4j.LogCapture		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/LogCapture.java	0	2	1	0	82	34
+org.apache.log4j.LogMF	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/LogMF.java	0	0	0	0	1677	833
+org.apache.log4j.LogManager	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/LogManager.java	0	0	0	0	276	143
+org.apache.log4j.LogManagerTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/LogManagerTest.java	0	2	1	0	75	22
+org.apache.log4j.LogSF	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/LogSF.java	0	0	0	0	1541	743
+org.apache.log4j.LogXF	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/LogXF.java	0	0	0	0	371	170
+org.apache.log4j.Logger	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/Logger.java	0	0	0	0	212	51
+org.apache.log4j.LoggerTestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/LoggerTestCase.java	0	2	1	0	499	351
+org.apache.log4j.MDC	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/MDC.java	0	0	0	0	187	103
+org.apache.log4j.MinimumTestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/MinimumTestCase.java	0	2	1	0	205	129
+org.apache.log4j.MyPatternLayout		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/MyPatternLayout.java	0	2	1	0	62	25
+org.apache.log4j.MyPatternParser		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/MyPatternParser.java	0	2	1	0	72	30
+org.apache.log4j.NDC	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/NDC.java	0	0	0	0	436	154
+org.apache.log4j.NDC$DiagnosticContext	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/NDC.java	0	0	0	2	0	0
+org.apache.log4j.NameValue	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/PropertyConfigurator.java	0	0	0	1	0	0
+org.apache.log4j.PatternLayout	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/PatternLayout.java	0	0	0	0	511	54
+org.apache.log4j.PatternLayoutTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/PatternLayoutTest.java	0	2	1	0	142	68
+org.apache.log4j.PatternLayoutTestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/PatternLayoutTestCase.java	0	2	1	0	340	273
+org.apache.log4j.Priority	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/Priority.java	0	0	0	0	193	83
+org.apache.log4j.PriorityTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/PriorityTest.java	0	2	1	0	212	78
+org.apache.log4j.PropertyConfigurator	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/PropertyConfigurator.java	0	0	0	0	963	479
+org.apache.log4j.PropertyConfiguratorTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/PropertyConfiguratorTest.java	0	2	1	0	344	217
+org.apache.log4j.PropertyWatchdog	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/PropertyConfigurator.java	0	0	0	1	0	0
+org.apache.log4j.ProvisionNode	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/ProvisionNode.java	0	0	0	4	29	9
+org.apache.log4j.RFATestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/RFATestCase.java	0	2	1	0	237	157
+org.apache.log4j.RollingCalendar	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/DailyRollingFileAppender.java	0	0	0	1	0	0
+org.apache.log4j.RollingFileAppender	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/RollingFileAppender.java	0	0	0	0	284	126
+org.apache.log4j.SimpleLayout	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/SimpleLayout.java	0	0	0	0	78	23
+org.apache.log4j.SortedKeyEnumeration	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/PropertyConfigurator.java	0	0	0	1	0	0
+org.apache.log4j.StressCategory		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/StressCategory.java	0	2	1	4	252	162
+org.apache.log4j.TTCCLayout	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/TTCCLayout.java	0	0	0	0	217	70
+org.apache.log4j.TTCCLayoutTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/TTCCLayoutTest.java	0	2	1	0	112	60
+org.apache.log4j.TempFileAppender		apache-log4j-1.2.16/contribs/LeosLiterak/TempFileAppender.java	0	2	1	0	198	76
+org.apache.log4j.TestLogMF		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/TestLogMF.java	0	2	1	0	1291	739
+org.apache.log4j.TestLogSF		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/TestLogSF.java	0	2	1	0	1191	673
+org.apache.log4j.TestLogXF		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/TestLogXF.java	0	2	1	0	204	103
+org.apache.log4j.VectorAppender		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/VectorAppender.java	0	2	1	0	75	32
+org.apache.log4j.VectorErrorHandler		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/VectorErrorHandler.java	0	2	1	0	182	60
+org.apache.log4j.WriterAppender	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/WriterAppender.java	0	0	0	0	387	171
+examples.lf5.InitUsingDefaultConfigurator.InitUsingDefaultConfigurator		apache-log4j-1.2.16/examples/lf5/InitUsingDefaultConfigurator/InitUsingDefaultConfigurator.java	1	2	1	0	135	44
+org.apache.log4j.varia.test.JDBCTest		apache-log4j-1.2.16/contribs/KevinSteppe/JDBCTest.java	0	2	1	0	97	64
+org.apache.log4j.gui.AddAction		apache-log4j-1.2.16/contribs/SvenReimers/gui/JListView.java	0	2	1	1	0	0
+org.apache.log4j.gui.EventBufferElement		apache-log4j-1.2.16/contribs/JamesHouse/TextPanelAppender.java	0	2	1	1	0	0
+org.apache.log4j.gui.JListView		apache-log4j-1.2.16/contribs/SvenReimers/gui/JListView.java	0	2	1	0	365	209
+org.apache.log4j.gui.JListViewModel		apache-log4j-1.2.16/contribs/SvenReimers/gui/JListView.java	0	2	1	1	0	0
+org.apache.log4j.gui.JTableAddAction		apache-log4j-1.2.16/contribs/SvenReimers/gui/JTableAppender.java	0	2	1	1	0	0
+org.apache.log4j.gui.JTableAppender		apache-log4j-1.2.16/contribs/SvenReimers/gui/JTableAppender.java	0	2	1	0	237	153
+org.apache.log4j.gui.JTableAppenderModel		apache-log4j-1.2.16/contribs/SvenReimers/gui/JTableAppender.java	0	2	1	1	0	0
+org.apache.log4j.gui.LogTextPanel		apache-log4j-1.2.16/contribs/JamesHouse/LogTextPanel.java	0	2	1	0	188	133
+org.apache.log4j.gui.TextPaneAppender		apache-log4j-1.2.16/contribs/SvenReimers/gui/TextPaneAppender.java	0	2	1	0	355	277
+org.apache.log4j.gui.TextPanelAppender		apache-log4j-1.2.16/contribs/JamesHouse/TextPanelAppender.java	0	2	1	0	217	153
+com.psibt.framework.net.HTTPRequestHandler		apache-log4j-1.2.16/contribs/VolkerMentzner/HTTPRequestHandler.java	1	2	1	0	75	12
+com.psibt.framework.net.Log4jRequestHandler		apache-log4j-1.2.16/contribs/VolkerMentzner/Log4jRequestHandler.java	1	2	1	0	177	128
+com.psibt.framework.net.PluggableHTTPServer		apache-log4j-1.2.16/contribs/VolkerMentzner/PluggableHTTPServer.java	1	2	1	0	262	160
+com.psibt.framework.net.RootRequestHandler		apache-log4j-1.2.16/contribs/VolkerMentzner/RootRequestHandler.java	1	2	1	0	159	69
+com.psibt.framework.net.UserDialogRequestHandler		apache-log4j-1.2.16/contribs/VolkerMentzner/UserDialogRequestHandler.java	1	2	1	0	135	76
+org.apache.log4j.defaultInit.TestCase1		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/defaultInit/TestCase1.java	0	2	1	0	52	26
+org.apache.log4j.defaultInit.TestCase2		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/defaultInit/TestCase2.java	0	2	1	0	57	31
+org.apache.log4j.defaultInit.TestCase3		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/defaultInit/TestCase3.java	0	2	1	0	57	31
+org.apache.log4j.defaultInit.TestCase4		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/defaultInit/TestCase4.java	0	2	1	0	58	32
+examples.lf5.UsingSocketAppenders.UsingSocketAppenders		apache-log4j-1.2.16/examples/lf5/UsingSocketAppenders/UsingSocketAppenders.java	1	2	1	0	141	53
+org.apache.log4j.net.DatagramStringAppender		apache-log4j-1.2.16/contribs/KitchingSimon/DatagramStringAppender.java	0	2	1	0	284	122
+org.apache.log4j.net.DatagramStringWriter		apache-log4j-1.2.16/contribs/KitchingSimon/DatagramStringWriter.java	0	2	1	0	173	94
+org.apache.log4j.net.DefaultEvaluator	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/net/SMTPAppender.java	0	0	0	1	0	0
+org.apache.log4j.net.JMSAppender	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/net/JMSAppender.java	0	0	0	0	444	236
+org.apache.log4j.net.JMSSink	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/net/JMSSink.java	0	0	0	0	153	104
+org.apache.log4j.net.SMTPAppender	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/net/SMTPAppender.java	0	0	0	0	787	416
+org.apache.log4j.net.SMTPAppender$1	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/net/SMTPAppender.java	0	0	0	2	0	0
+org.apache.log4j.net.SMTPAppenderTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/net/SMTPAppenderTest.java	0	2	1	0	62	26
+org.apache.log4j.net.ShortSocketServer		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/net/ShortSocketServer.java	0	2	1	0	85	44
+org.apache.log4j.net.SimpleSocketServer	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/net/SimpleSocketServer.java	0	0	0	0	97	53
+org.apache.log4j.net.SocketAppender	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/net/SocketAppender.java	0	0	0	0	474	231
+org.apache.log4j.net.SocketAppender$Connector	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/net/SocketAppender.java	0	0	0	2	0	0
+org.apache.log4j.net.SocketAppenderTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/net/SocketAppenderTest.java	0	2	1	0	93	44
+org.apache.log4j.net.SocketHubAppender	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/net/SocketHubAppender.java	0	0	0	0	507	279
+org.apache.log4j.net.SocketHubAppender$ServerMonitor	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/net/SocketHubAppender.java	0	0	0	2	0	0
+org.apache.log4j.net.SocketNode	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/net/SocketNode.java	0	0	0	0	124	74
+org.apache.log4j.net.SocketServer	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/net/SocketServer.java	0	0	0	0	212	114
+org.apache.log4j.net.SocketServerTestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/net/SocketServerTestCase.java	0	2	1	0	408	243
+org.apache.log4j.net.SyslogAppender	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/net/SyslogAppender.java	0	0	0	0	536	324
+org.apache.log4j.net.SyslogAppenderTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/net/SyslogAppenderTest.java	0	2	1	0	594	389
+org.apache.log4j.net.TelnetAppender	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/net/TelnetAppender.java	0	0	0	0	236	148
+org.apache.log4j.net.TelnetAppender$SocketHandler	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/net/TelnetAppender.java	0	0	0	2	0	0
+org.apache.log4j.net.TelnetAppenderTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/net/TelnetAppenderTest.java	0	2	1	0	77	53
+org.apache.log4j.net.ZeroConfSupport	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/net/ZeroConfSupport.java	0	0	0	0	206	173
+org.apache.log4j.xml.examples.XMLSample		apache-log4j-1.2.16/site/apidocs/org/apache/log4j/xml/examples/doc-files/XMLSample.java,apache-log4j-1.2.16/src/main/javadoc/org/apache/log4j/xml/examples/XMLSample.java,apache-log4j-1.2.16/src/main/javadoc/org/apache/log4j/xml/examples/doc-files/XMLSample.java	0	2	1	0	75	35
+org.apache.log4j.or.A		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/or/ORTestCase.java	0	2	1	1	0	0
+org.apache.log4j.or.B		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/or/ORTestCase.java	0	2	1	1	0	0
+org.apache.log4j.or.DefaultRenderer	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/or/DefaultRenderer.java	0	0	0	4	42	13
+org.apache.log4j.or.ORTestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/or/ORTestCase.java	0	2	1	0	245	148
+org.apache.log4j.or.ObjectRenderer	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/or/ObjectRenderer.java	0	0	0	0	32	5
+org.apache.log4j.or.RendererMap	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/or/RendererMap.java	0	0	0	0	198	90
+org.apache.log4j.or.ThreadGroupRenderer	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/or/ThreadGroupRenderer.java	0	0	0	0	81	38
+org.apache.log4j.or.UTObjectRenderer		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/or/ORTestCase.java	0	2	1	1	0	0
+org.apache.log4j.or.X		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/or/ORTestCase.java	0	2	1	1	0	0
+org.apache.log4j.or.Y		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/or/ORTestCase.java	0	2	1	1	0	0
+org.apache.log4j.jmx.AbstractDynamicMBean	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/jmx/AbstractDynamicMBean.java	0	0	0	0	187	115
+org.apache.log4j.jmx.Agent	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/jmx/Agent.java	0	0	0	0	131	68
+org.apache.log4j.jmx.AppenderDynamicMBean	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/jmx/AppenderDynamicMBean.java	0	0	0	0	346	259
+org.apache.log4j.jmx.HierarchyDynamicMBean	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/jmx/HierarchyDynamicMBean.java	0	0	0	0	302	226
+org.apache.log4j.jmx.LayoutDynamicMBean	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/jmx/LayoutDynamicMBean.java	0	0	0	0	274	199
+org.apache.log4j.jmx.LoggerDynamicMBean	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/jmx/LoggerDynamicMBean.java	0	0	0	0	282	206
+org.apache.log4j.jmx.MethodUnion	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/jmx/MethodUnion.java	0	0	0	4	32	10
+examples.customLevel.XLevel		apache-log4j-1.2.16/examples/customLevel/XLevel.java	1	2	1	0	90	44
+org.apache.log4j.spi.AppenderAttachable	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/AppenderAttachable.java	0	0	0	0	75	17
+org.apache.log4j.spi.Configurator	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/Configurator.java	0	0	0	0	54	7
+org.apache.log4j.spi.DefaultRepositorySelector	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/DefaultRepositorySelector.java	0	0	0	0	37	12
+org.apache.log4j.spi.ErrorCode	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/ErrorCode.java	0	0	0	0	36	10
+org.apache.log4j.spi.ErrorHandler	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/ErrorHandler.java	0	0	0	0	92	11
+org.apache.log4j.spi.Filter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/Filter.java	0	0	0	0	124	19
+org.apache.log4j.spi.HierarchyEventListener	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/HierarchyEventListener.java	0	0	0	0	45	9
+org.apache.log4j.spi.LocationInfo	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/LocationInfo.java	0	0	0	0	391	221
+org.apache.log4j.spi.LocationInfoTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/spi/LocationInfoTest.java	0	2	1	0	85	34
+org.apache.log4j.spi.LoggerFactory	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/LoggerFactory.java	0	0	0	0	38	6
+org.apache.log4j.spi.LoggerRepository	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/LoggerRepository.java	0	0	0	0	110	41
+org.apache.log4j.spi.LoggingEvent	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/LoggingEvent.java	0	0	0	0	639	299
+org.apache.log4j.spi.LoggingEventTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/spi/LoggingEventTest.java	0	2	1	0	271	142
+org.apache.log4j.spi.NOPLogger	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/NOPLogger.java	0	0	0	0	212	100
+org.apache.log4j.spi.NOPLoggerRepository	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/NOPLoggerRepository.java	0	0	0	0	131	47
+org.apache.log4j.spi.NullWriter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/NullWriter.java	0	0	0	4	39	10
+org.apache.log4j.spi.OptionHandler	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/OptionHandler.java	0	0	0	0	62	4
+org.apache.log4j.spi.RendererSupport	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/RendererSupport.java	0	0	0	0	33	9
+org.apache.log4j.spi.RepositorySelector	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/RepositorySelector.java	0	0	0	0	49	5
+org.apache.log4j.spi.RootCategory	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/RootCategory.java	0	0	0	0	76	32
+org.apache.log4j.spi.RootLogger	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/RootLogger.java	0	0	0	0	71	21
+org.apache.log4j.spi.ThrowableInformation	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/ThrowableInformation.java	0	0	0	0	96	43
+org.apache.log4j.spi.ThrowableInformationTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/spi/ThrowableInformationTest.java	0	2	1	0	343	173
+org.apache.log4j.spi.ThrowableRenderer	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/ThrowableRenderer.java	0	0	0	0	33	4
+org.apache.log4j.spi.ThrowableRendererSupport	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/ThrowableRendererSupport.java	0	0	0	0	37	5
+org.apache.log4j.spi.TriggeringEventEvaluator	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/TriggeringEventEvaluator.java	0	0	0	0	40	4
+org.apache.log4j.spi.VectorWriter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/VectorWriter.java	0	0	0	4	94	50
+org.apache.log4j.varia.DenyAllFilter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/varia/DenyAllFilter.java	0	0	0	0	72	16
+org.apache.log4j.varia.ERFATestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/varia/ERFATestCase.java	0	2	1	0	141	83
+org.apache.log4j.varia.ErrorHandlerTestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/varia/ErrorHandlerTestCase.java	0	2	1	0	132	82
+org.apache.log4j.varia.ExternallyRolledFileAppender	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/varia/ExternallyRolledFileAppender.java	0	0	0	0	189	111
+org.apache.log4j.varia.FallbackErrorHandler	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/varia/FallbackErrorHandler.java	0	0	0	0	138	64
+org.apache.log4j.varia.HUP	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/varia/ExternallyRolledFileAppender.java	0	0	0	1	0	0
+org.apache.log4j.varia.HUPNode	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/varia/ExternallyRolledFileAppender.java	0	0	0	1	0	0
+org.apache.log4j.varia.LevelMatchFilter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/varia/LevelMatchFilter.java	0	0	0	0	104	43
+org.apache.log4j.varia.LevelMatchFilterTestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/varia/LevelMatchFilterTestCase.java	0	2	1	0	147	86
+org.apache.log4j.varia.LevelRangeFilter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/varia/LevelRangeFilter.java	0	0	0	0	144	52
+org.apache.log4j.varia.NullAppender	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/varia/NullAppender.java	0	0	0	0	79	25
+org.apache.log4j.varia.ReloadingPropertyConfigurator	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/varia/ReloadingPropertyConfigurator.java	0	0	0	0	38	13
+org.apache.log4j.varia.Roller	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/varia/Roller.java	0	0	0	0	111	62
+org.apache.log4j.varia.StringMatchFilter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/varia/StringMatchFilter.java	0	0	0	0	121	53
+org.apache.log4j.lf5.util.AdapterLogRecord	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/util/AdapterLogRecord.java	0	0	0	0	114	48
+org.apache.log4j.lf5.util.DateFormatManager	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/util/DateFormatManager.java	0	0	0	0	243	132
+org.apache.log4j.lf5.util.LogFileParser	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/util/LogFileParser.java	0	0	0	0	301	182
+org.apache.log4j.lf5.util.LogFileParser$1	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/util/LogFileParser.java	0	0	0	2	0	0
+org.apache.log4j.lf5.util.LogMonitorAdapter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/util/LogMonitorAdapter.java	0	0	0	0	289	109
+org.apache.log4j.lf5.util.Resource	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/util/Resource.java	0	0	0	0	156	34
+org.apache.log4j.lf5.util.ResourceUtils	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/util/ResourceUtils.java	0	0	0	0	133	25
+org.apache.log4j.lf5.util.StreamUtils	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/util/StreamUtils.java	0	0	0	0	124	37
+examples.lf5.InitUsingPropertiesFile.InitUsingPropertiesFile		apache-log4j-1.2.16/examples/lf5/InitUsingPropertiesFile/InitUsingPropertiesFile.java	1	2	1	0	125	45
+examples.MyPatternLayout		apache-log4j-1.2.16/examples/MyPatternLayout.java	1	2	1	0	64	26
+examples.MyPatternParser		apache-log4j-1.2.16/examples/MyPatternParser.java	1	2	1	0	72	30
+examples.NumberCruncher		apache-log4j-1.2.16/examples/NumberCruncher.java	1	2	1	0	37	6
+examples.NumberCruncherClient		apache-log4j-1.2.16/examples/NumberCruncherClient.java	1	2	1	0	107	61
+examples.NumberCruncherServer		apache-log4j-1.2.16/examples/NumberCruncherServer.java	1	2	1	0	172	85
+examples.Sort		apache-log4j-1.2.16/examples/Sort.java	1	2	1	0	95	43
+examples.SortAlgo		apache-log4j-1.2.16/examples/SortAlgo.java	1	2	1	0	87	47
+examples.Trivial		apache-log4j-1.2.16/examples/Trivial.java	1	2	1	0	79	28
+org.apache.log4j.customLogger.XLogger		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/customLogger/XLogger.java	0	2	1	0	151	74
+org.apache.log4j.customLogger.XLoggerTestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/customLogger/XLoggerTestCase.java	0	2	1	0	77	42
+org.apache.log4j.chainsaw.ControlPanel	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/ControlPanel.java	0	0	0	4	222	166
+org.apache.log4j.chainsaw.ControlPanel$1	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/ControlPanel.java	0	0	0	2	0	0
+org.apache.log4j.chainsaw.ControlPanel$2	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/ControlPanel.java	0	0	0	2	0	0
+org.apache.log4j.chainsaw.ControlPanel$3	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/ControlPanel.java	0	0	0	2	0	0
+org.apache.log4j.chainsaw.ControlPanel$4	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/ControlPanel.java	0	0	0	2	0	0
+org.apache.log4j.chainsaw.ControlPanel$5	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/ControlPanel.java	0	0	0	2	0	0
+org.apache.log4j.chainsaw.ControlPanel$6	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/ControlPanel.java	0	0	0	2	0	0
+org.apache.log4j.chainsaw.ControlPanel$7	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/ControlPanel.java	0	0	0	2	0	0
+org.apache.log4j.chainsaw.DetailPanel	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/DetailPanel.java	0	0	0	4	170	107
+org.apache.log4j.chainsaw.EventDetails	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/EventDetails.java	0	0	0	4	135	66
+org.apache.log4j.chainsaw.ExitAction	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/ExitAction.java	0	0	0	4	48	15
+org.apache.log4j.chainsaw.LoadXMLAction	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/LoadXMLAction.java	0	0	0	4	139	78
+org.apache.log4j.chainsaw.LoggingReceiver	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/LoggingReceiver.java	0	0	0	4	121	65
+org.apache.log4j.chainsaw.LoggingReceiver$Slurper	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/LoggingReceiver.java	0	0	0	2	0	0
+org.apache.log4j.chainsaw.Main	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/Main.java	0	0	0	0	192	122
+org.apache.log4j.chainsaw.Main$1	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/Main.java	0	0	0	2	0	0
+org.apache.log4j.chainsaw.MyTableModel	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/MyTableModel.java	0	0	0	4	390	222
+org.apache.log4j.chainsaw.MyTableModel$1	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/MyTableModel.java	0	0	0	2	0	0
+org.apache.log4j.chainsaw.MyTableModel$Processor	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/MyTableModel.java	0	0	0	2	0	0
+org.apache.log4j.chainsaw.XMLFileHandler	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/XMLFileHandler.java	0	0	0	4	170	102
+examples.subclass.MyLogger		apache-log4j-1.2.16/examples/subclass/MyLogger.java	1	2	1	0	74	23
+examples.subclass.MyLoggerFactory		apache-log4j-1.2.16/examples/subclass/MyLoggerFactory.java	1	2	1	0	43	12
+examples.subclass.MyLoggerTest		apache-log4j-1.2.16/examples/subclass/MyLoggerTest.java	1	2	1	0	85	38
+org.apache.log4j.helpers.AbsoluteTimeDateFormat	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/AbsoluteTimeDateFormat.java	0	0	0	0	145	66
+org.apache.log4j.helpers.AppenderAttachableImpl	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/AppenderAttachableImpl.java	0	0	0	0	176	94
+org.apache.log4j.helpers.BoundedFIFO	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/BoundedFIFO.java	0	0	0	0	181	87
+org.apache.log4j.helpers.BoundedFIFOTestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/helpers/BoundedFIFOTestCase.java	0	2	1	0	250	147
+org.apache.log4j.helpers.CountingQuietWriter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/CountingQuietWriter.java	0	0	0	0	63	30
+org.apache.log4j.helpers.CyclicBuffer	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/CyclicBuffer.java	0	0	0	0	159	82
+org.apache.log4j.helpers.CyclicBufferTestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/helpers/CyclicBufferTestCase.java	0	2	1	0	167	94
+org.apache.log4j.helpers.DateLayout	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/DateLayout.java	0	0	0	0	200	94
+org.apache.log4j.helpers.DateLayoutTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/helpers/DateLayoutTest.java	0	2	1	0	285	132
+org.apache.log4j.helpers.DateTimeDateFormat	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/DateTimeDateFormat.java	0	0	0	0	85	41
+org.apache.log4j.helpers.FileWatchdog	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/FileWatchdog.java	0	0	0	0	111	61
+org.apache.log4j.helpers.FormattingInfo	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/FormattingInfo.java	0	0	0	0	45	14
+org.apache.log4j.helpers.ISO8601DateFormat	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/ISO8601DateFormat.java	0	0	0	0	155	85
+org.apache.log4j.helpers.Loader	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/Loader.java	0	0	0	0	200	98
+org.apache.log4j.helpers.LogLog	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/LogLog.java	0	0	0	0	189	79
+org.apache.log4j.helpers.LogLogTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/helpers/LogLogTest.java	0	2	1	0	51	13
+org.apache.log4j.helpers.MDCKeySetExtractor	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/MDCKeySetExtractor.java	0	0	0	0	92	50
+org.apache.log4j.helpers.NullEnumeration	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/NullEnumeration.java	0	0	0	0	50	20
+org.apache.log4j.helpers.OnlyOnceErrorHandler	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/OnlyOnceErrorHandler.java	0	0	0	0	114	44
+org.apache.log4j.helpers.OptionConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/OptionConverter.java	0	0	0	0	485	286
+org.apache.log4j.helpers.OptionConverterTestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/helpers/OptionConverterTestCase.java	0	2	1	0	171	114
+org.apache.log4j.helpers.PatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/PatternConverter.java	0	0	0	0	111	58
+org.apache.log4j.helpers.PatternParser	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/PatternParser.java	0	0	0	0	570	436
+org.apache.log4j.helpers.PatternParser$BasicPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/PatternParser.java	0	0	0	2	0	0
+org.apache.log4j.helpers.PatternParser$CategoryPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/PatternParser.java	0	0	0	2	0	0
+org.apache.log4j.helpers.PatternParser$ClassNamePatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/PatternParser.java	0	0	0	2	0	0
+org.apache.log4j.helpers.PatternParser$DatePatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/PatternParser.java	0	0	0	2	0	0
+org.apache.log4j.helpers.PatternParser$LiteralPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/PatternParser.java	0	0	0	2	0	0
+org.apache.log4j.helpers.PatternParser$LocationPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/PatternParser.java	0	0	0	2	0	0
+org.apache.log4j.helpers.PatternParser$MDCPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/PatternParser.java	0	0	0	2	0	0
+org.apache.log4j.helpers.PatternParser$NamedPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/PatternParser.java	0	0	0	2	0	0
+org.apache.log4j.helpers.PatternParserTestCase		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/helpers/PatternParserTestCase.java	0	2	1	0	136	74
+org.apache.log4j.helpers.QuietWriter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/QuietWriter.java	0	0	0	0	76	41
+org.apache.log4j.helpers.RelativeTimeDateFormat	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/RelativeTimeDateFormat.java	0	0	0	0	65	22
+org.apache.log4j.helpers.SingleLineTracerPrintWriter		apache-log4j-1.2.16/contribs/KitchingSimon/SingleLineTracerPrintWriter.java	0	2	1	0	67	15
+org.apache.log4j.helpers.SyslogQuietWriter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/SyslogQuietWriter.java	0	0	0	0	56	24
+org.apache.log4j.helpers.SyslogWriter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/SyslogWriter.java	0	0	0	0	145	83
+org.apache.log4j.helpers.ThreadLocalMap	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/ThreadLocalMap.java	0	0	0	0	42	14
+org.apache.log4j.helpers.Transform	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/helpers/Transform.java	0	0	0	0	113	60
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryAbstractCellEditor	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryAbstractCellEditor.java	0	0	0	0	172	94
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryElement	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryElement.java	0	0	0	0	84	16
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerLogRecordFilter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerLogRecordFilter.java	0	0	0	0	98	26
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerModel.java	0	0	0	0	347	191
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel$1	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerModel.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerTree.java	0	0	0	0	157	60
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree$1	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerTree.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryImmediateEditor	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryImmediateEditor.java	0	0	0	0	148	67
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNode.java	0	0	0	0	197	101
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor.java	0	0	0	0	291	192
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$1	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$2	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$3	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$4	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$5	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$6	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$7	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$8	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditorRenderer	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditorRenderer.java	0	0	0	0	84	20
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeRenderer	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeRenderer.java	0	0	0	0	151	66
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryPath.java	0	0	0	0	157	61
+org.apache.log4j.lf5.viewer.categoryexplorer.TreeModelAdapter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/TreeModelAdapter.java	0	0	0	0	75	13
+org.apache.log4j.lf5.viewer.FilteredLogTableModel	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/FilteredLogTableModel.java	0	0	0	0	263	158
+org.apache.log4j.lf5.viewer.LF5SwingUtils	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LF5SwingUtils.java	0	0	0	0	153	64
+org.apache.log4j.lf5.viewer.LF5SwingUtils$1	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LF5SwingUtils.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	0	1612	1157
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$1	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$10	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$11	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$12	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$13	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$14	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$15	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$16	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$17	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$18	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$19	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$2	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$20	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$21	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$22	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$23	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$24	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$25	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$26	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$27	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$28	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$29	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$3	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$30	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$31	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$32	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$4	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$5	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$6	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$7	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$8	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$9	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor$LogBrokerMonitorWindowAdaptor	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogFactor5Dialog	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogFactor5Dialog.java	0	0	0	0	151	77
+org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogFactor5ErrorDialog.java	0	0	0	0	92	29
+org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog$1	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogFactor5ErrorDialog.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogFactor5InputDialog	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogFactor5InputDialog.java	0	0	0	0	145	59
+org.apache.log4j.lf5.viewer.LogFactor5InputDialog$1	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogFactor5InputDialog.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogFactor5InputDialog$2	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogFactor5InputDialog.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogFactor5InputDialog$3	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogFactor5InputDialog.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogFactor5LoadingDialog	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogFactor5LoadingDialog.java	0	0	0	0	82	19
+org.apache.log4j.lf5.viewer.LogTable	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogTable.java	0	0	0	0	277	147
+org.apache.log4j.lf5.viewer.LogTable$LogTableListSelectionListener	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogTable.java	0	0	0	2	0	0
+org.apache.log4j.lf5.viewer.LogTableColumn	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogTableColumn.java	0	0	0	0	166	71
+org.apache.log4j.lf5.viewer.LogTableColumnFormatException	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogTableColumnFormatException.java	0	0	0	0	74	7
+org.apache.log4j.lf5.viewer.LogTableModel	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogTableModel.java	0	0	0	0	77	11
+org.apache.log4j.lf5.viewer.LogTableRowRenderer	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/LogTableRowRenderer.java	0	0	0	0	109	35
+org.apache.log4j.lf5.viewer.TrackingAdjustmentListener	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/TrackingAdjustmentListener.java	0	0	0	0	86	19
+org.apache.log4j.lf5.AppenderFinalizer	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/AppenderFinalizer.java	0	0	0	0	78	12
+org.apache.log4j.lf5.DefaultLF5Configurator	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/DefaultLF5Configurator.java	0	0	0	0	113	26
+org.apache.log4j.lf5.LF5Appender	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/LF5Appender.java	0	0	0	0	266	106
+org.apache.log4j.lf5.Log4JLogRecord	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/Log4JLogRecord.java	0	0	0	0	116	24
+org.apache.log4j.lf5.LogLevel	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/LogLevel.java	0	0	0	0	278	140
+org.apache.log4j.lf5.LogLevelFormatException	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/LogLevelFormatException.java	0	0	0	0	73	6
+org.apache.log4j.lf5.LogRecord	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/LogRecord.java	0	0	0	0	395	127
+org.apache.log4j.lf5.LogRecordFilter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/LogRecordFilter.java	0	0	0	0	46	4
+org.apache.log4j.lf5.PassingLogRecordFilter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/PassingLogRecordFilter.java	0	0	0	0	74	8
+org.apache.log4j.lf5.StartLogFactor5	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/StartLogFactor5.java	0	0	0	0	81	12
+org.apache.log4j.pattern.BridgePatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/BridgePatternConverter.java	0	0	0	0	132	59
+org.apache.log4j.pattern.BridgePatternParser	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/BridgePatternParser.java	0	0	0	0	48	11
+org.apache.log4j.pattern.CachedDateFormat	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/CachedDateFormat.java	0	0	0	0	372	136
+org.apache.log4j.pattern.CachedDateFormatTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/pattern/CachedDateFormatTest.java	0	2	1	0	393	232
+org.apache.log4j.pattern.ClassNamePatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/ClassNamePatternConverter.java	0	0	0	0	66	23
+org.apache.log4j.pattern.DatePatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/DatePatternConverter.java	0	0	0	0	205	92
+org.apache.log4j.pattern.DatePatternConverter$DefaultZoneDateFormat	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/DatePatternConverter.java	0	0	0	2	0	0
+org.apache.log4j.pattern.FileDatePatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/FileDatePatternConverter.java	0	0	0	0	50	15
+org.apache.log4j.pattern.FileLocationPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/FileLocationPatternConverter.java	0	0	0	0	64	21
+org.apache.log4j.pattern.FormattingInfo	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/FormattingInfo.java	0	0	0	0	134	48
+org.apache.log4j.pattern.FormattingInfoTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/pattern/FormattingInfoTest.java	0	2	1	0	93	39
+org.apache.log4j.pattern.FullLocationPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/FullLocationPatternConverter.java	0	0	0	0	64	21
+org.apache.log4j.pattern.IntegerPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/IntegerPatternConverter.java	0	0	0	0	64	21
+org.apache.log4j.pattern.LevelPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/LevelPatternConverter.java	0	0	0	0	98	40
+org.apache.log4j.pattern.LineLocationPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/LineLocationPatternConverter.java	0	0	0	0	64	21
+org.apache.log4j.pattern.LineSeparatorPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/LineSeparatorPatternConverter.java	0	0	0	0	73	23
+org.apache.log4j.pattern.LiteralPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/LiteralPatternConverter.java	0	0	0	0	57	15
+org.apache.log4j.pattern.LogEvent	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/LogEvent.java	0	0	0	0	600	277
+org.apache.log4j.pattern.LoggerPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/LoggerPatternConverter.java	0	0	0	0	66	21
+org.apache.log4j.pattern.LoggingEventPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/LoggingEventPatternConverter.java	0	0	0	0	70	18
+org.apache.log4j.pattern.MessagePatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/MessagePatternConverter.java	0	0	0	0	58	16
+org.apache.log4j.pattern.MethodLocationPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/MethodLocationPatternConverter.java	0	0	0	0	64	21
+org.apache.log4j.pattern.NDCPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/NDCPatternConverter.java	0	0	0	0	58	16
+org.apache.log4j.pattern.NameAbbreviator	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/NameAbbreviator.java	0	0	0	0	350	158
+org.apache.log4j.pattern.NameAbbreviator$DropElementAbbreviator	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/NameAbbreviator.java	0	0	0	2	0	0
+org.apache.log4j.pattern.NameAbbreviator$MaxElementAbbreviator	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/NameAbbreviator.java	0	0	0	2	0	0
+org.apache.log4j.pattern.NameAbbreviator$NOPAbbreviator	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/NameAbbreviator.java	0	0	0	2	0	0
+org.apache.log4j.pattern.NameAbbreviator$PatternAbbreviator	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/NameAbbreviator.java	0	0	0	2	0	0
+org.apache.log4j.pattern.NameAbbreviator$PatternAbbreviatorFragment	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/NameAbbreviator.java	0	0	0	2	0	0
+org.apache.log4j.pattern.NameAbbreviatorTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/pattern/NameAbbreviatorTest.java	0	2	1	0	336	224
+org.apache.log4j.pattern.NamePatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/NamePatternConverter.java	0	0	0	0	61	17
+org.apache.log4j.pattern.Num343PatternConverter		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/pattern/Num343PatternConverter.java	0	2	1	0	38	14
+org.apache.log4j.pattern.PatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/PatternConverter.java	0	0	0	0	87	16
+org.apache.log4j.pattern.PatternParser	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/PatternParser.java	0	0	0	0	683	382
+org.apache.log4j.pattern.PatternParser$ReadOnlyMap	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/PatternParser.java	0	0	0	2	0	0
+org.apache.log4j.pattern.PatternParserTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/pattern/PatternParserTest.java	0	2	1	0	171	115
+org.apache.log4j.pattern.PropertiesPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/PropertiesPatternConverter.java	0	0	0	0	104	48
+org.apache.log4j.pattern.RelativeTimePatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/RelativeTimePatternConverter.java	0	0	0	0	106	36
+org.apache.log4j.pattern.RelativeTimePatternConverter$CachedTimestamp	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/RelativeTimePatternConverter.java	0	0	0	2	0	0
+org.apache.log4j.pattern.SequenceNumberPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/SequenceNumberPatternConverter.java	0	0	0	0	59	17
+org.apache.log4j.pattern.ThreadPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/ThreadPatternConverter.java	0	0	0	0	58	16
+org.apache.log4j.pattern.ThrowableInformationPatternConverter	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/pattern/ThrowableInformationPatternConverter.java	0	0	0	0	108	48
+org.apache.log4j.nt.NTEventLogAppender	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/nt/NTEventLogAppender.java	0	0	0	0	182	112
+org.apache.log4j.nt.NTEventLogAppenderTest		apache-log4j-1.2.16/tests/src/java/org/apache/log4j/nt/NTEventLogAppenderTest.java	0	2	1	0	55	22
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/configure/ConfigurationManager.java	0	0	0	0	466	325
+org.apache.log4j.lf5.viewer.configure.MRUFileManager	apache-log4j-1.2.16/log4j-1.2.16.jar	apache-log4j-1.2.16/src/main/java/org/apache/log4j/lf5/viewer/configure/MRUFileManager.java	0	0	0	0	293	151
+examples.lf5.InitUsingXMLPropertiesFile.InitUsingXMLPropertiesFile		apache-log4j-1.2.16/examples/lf5/InitUsingXMLPropertiesFile/InitUsingXMLPropertiesFile.java	1	2	1	0	119	45
+#Issues
+#======
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/log4j/log4j-1.2.16/src/apache-log4j-1.2.16/log4j-1.2.16.jar in <src> ignored.
+#SRC NO PUBLIC TYPE for apache-log4j-1.2.16/src/main/java/org/apache/log4j/CategoryKey.java.
+#SRC NO PUBLIC TYPE for apache-log4j-1.2.16/src/main/java/org/apache/log4j/DefaultCategoryFactory.java.
+#SRC NO PUBLIC TYPE for apache-log4j-1.2.16/src/main/java/org/apache/log4j/Dispatcher.java.
+#SRC NO PUBLIC TYPE for apache-log4j-1.2.16/src/main/java/org/apache/log4j/ProvisionNode.java.
+#SRC NO PUBLIC TYPE for apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/ControlPanel.java.
+#SRC NO PUBLIC TYPE for apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/DetailPanel.java.
+#SRC NO PUBLIC TYPE for apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/EventDetails.java.
+#SRC NO PUBLIC TYPE for apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/ExitAction.java.
+#SRC NO PUBLIC TYPE for apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/LoadXMLAction.java.
+#SRC NO PUBLIC TYPE for apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/LoggingReceiver.java.
+#SRC NO PUBLIC TYPE for apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/MyTableModel.java.
+#SRC NO PUBLIC TYPE for apache-log4j-1.2.16/src/main/java/org/apache/log4j/chainsaw/XMLFileHandler.java.
+#SRC NO PUBLIC TYPE for apache-log4j-1.2.16/src/main/java/org/apache/log4j/jmx/MethodUnion.java.
+#SRC NO PUBLIC TYPE for apache-log4j-1.2.16/src/main/java/org/apache/log4j/or/DefaultRenderer.java.
+#SRC NO PUBLIC TYPE for apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/NullWriter.java.
+#SRC NO PUBLIC TYPE for apache-log4j-1.2.16/src/main/java/org/apache/log4j/spi/VectorWriter.java.
+#SRC NO PUBLIC TYPE for apache-log4j-1.2.16/tests/src/java/org/apache/log4j/StressCategory.java.
+#SRC Package (com/klopotek/utils/log/) of type does not match path of apache-log4j-1.2.16/contribs/ThomasFenner/JDBCAppender.java
+#SRC Package (com/klopotek/utils/log/) of type does not match path of apache-log4j-1.2.16/contribs/ThomasFenner/JDBCConnectionHandler.java
+#SRC Package (com/klopotek/utils/log/) of type does not match path of apache-log4j-1.2.16/contribs/ThomasFenner/JDBCIDHandler.java
+#SRC Package (com/klopotek/utils/log/) of type does not match path of apache-log4j-1.2.16/contribs/ThomasFenner/JDBCLogger.java
+#SRC Package (com/psibt/framework/net/) of type does not match path of apache-log4j-1.2.16/contribs/VolkerMentzner/HTTPRequestHandler.java
+#SRC Package (com/psibt/framework/net/) of type does not match path of apache-log4j-1.2.16/contribs/VolkerMentzner/Log4jRequestHandler.java
+#SRC Package (com/psibt/framework/net/) of type does not match path of apache-log4j-1.2.16/contribs/VolkerMentzner/PluggableHTTPServer.java
+#SRC Package (com/psibt/framework/net/) of type does not match path of apache-log4j-1.2.16/contribs/VolkerMentzner/RootRequestHandler.java
+#SRC Package (com/psibt/framework/net/) of type does not match path of apache-log4j-1.2.16/contribs/VolkerMentzner/UserDialogRequestHandler.java
+#SRC Package (com/systemsunion/LoggingServer/) of type does not match path of apache-log4j-1.2.16/contribs/MarkDouglas/SocketNode2.java
+#SRC Package (com/systemsunion/LoggingServer/) of type does not match path of apache-log4j-1.2.16/contribs/MarkDouglas/SocketServer2.java
+#SRC Package (org/apache/log4j/) of type does not match path of apache-log4j-1.2.16/contribs/EirikLygre/DailyFileAppender1.java
+#SRC Package (org/apache/log4j/) of type does not match path of apache-log4j-1.2.16/contribs/KevinSteppe/CompositeRollingAppender.java
+#SRC Package (org/apache/log4j/) of type does not match path of apache-log4j-1.2.16/contribs/LeosLiterak/TempFileAppender.java
+#SRC Package (org/apache/log4j/gui/) of type does not match path of apache-log4j-1.2.16/contribs/JamesHouse/LogTextPanel.java
+#SRC Package (org/apache/log4j/gui/) of type does not match path of apache-log4j-1.2.16/contribs/JamesHouse/TextPanelAppender.java
+#SRC Package (org/apache/log4j/gui/) of type does not match path of apache-log4j-1.2.16/contribs/SvenReimers/gui/JListView.java
+#SRC Package (org/apache/log4j/gui/) of type does not match path of apache-log4j-1.2.16/contribs/SvenReimers/gui/JTableAppender.java
+#SRC Package (org/apache/log4j/gui/) of type does not match path of apache-log4j-1.2.16/contribs/SvenReimers/gui/TextPaneAppender.java
+#SRC Package (org/apache/log4j/gui/examples/) of type does not match path of apache-log4j-1.2.16/contribs/JamesHouse/LogTextPanelExample.java
+#SRC Package (org/apache/log4j/gui/examples/) of type does not match path of apache-log4j-1.2.16/contribs/SvenReimers/gui/examples/TextPaneAppenderExample.java
+#SRC Package (org/apache/log4j/helpers/) of type does not match path of apache-log4j-1.2.16/contribs/KitchingSimon/SingleLineTracerPrintWriter.java
+#SRC Package (org/apache/log4j/net/) of type does not match path of apache-log4j-1.2.16/contribs/KitchingSimon/DatagramStringAppender.java
+#SRC Package (org/apache/log4j/net/) of type does not match path of apache-log4j-1.2.16/contribs/KitchingSimon/DatagramStringWriter.java
+#SRC Package (org/apache/log4j/util/) of type does not match path of apache-log4j-1.2.16/tests/src/java/org/apache/log4j/MDCOrderFilter.java
+#SRC Package (org/apache/log4j/varia/test/) of type does not match path of apache-log4j-1.2.16/contribs/KevinSteppe/JDBCTest.java
+#SRC Package (org/apache/log4j/xml/) of type does not match path of apache-log4j-1.2.16/contribs/CekiGulcu/Transform.java
+#SRC Package (org/apache/log4j/xml/examples/) of type does not match path of apache-log4j-1.2.16/site/apidocs/org/apache/log4j/xml/examples/doc-files/XMLSample.java
+#SRC Package (org/apache/log4j/xml/examples/) of type does not match path of apache-log4j-1.2.16/src/main/javadoc/org/apache/log4j/xml/examples/doc-files/XMLSample.java

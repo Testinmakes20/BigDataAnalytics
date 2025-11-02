@@ -1,0 +1,629 @@
+#2013-09-05T10:02:08NZST
+#System Version : itext-5.0.3
+#Source Packages: com.itextpdf.text
+#Ignore Packages: 
+#Distributed    : src/core
+#Source Roots   : src/core,src/rups
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+com.itextpdf.text.pdf.draw.DottedLineSeparator	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/draw/DottedLineSeparator.java	0	0	0	0	87	19
+com.itextpdf.text.pdf.draw.DrawInterface	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/draw/DrawInterface.java	0	0	0	0	66	5
+com.itextpdf.text.pdf.draw.LineSeparator	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/draw/LineSeparator.java	0	0	0	0	197	73
+com.itextpdf.text.pdf.draw.VerticalPositionMark	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/draw/VerticalPositionMark.java	0	0	0	0	170	55
+com.itextpdf.text.xml.xmp.DublinCoreSchema	iText-5.0.3.jar	src/core/com/itextpdf/text/xml/xmp/DublinCoreSchema.java	0	0	0	0	181	71
+com.itextpdf.text.xml.xmp.LangAlt	iText-5.0.3.jar	src/core/com/itextpdf/text/xml/xmp/LangAlt.java	0	0	0	0	100	34
+com.itextpdf.text.xml.xmp.PdfA1Schema	iText-5.0.3.jar	src/core/com/itextpdf/text/xml/xmp/PdfA1Schema.java	0	0	0	0	82	18
+com.itextpdf.text.xml.xmp.PdfSchema	iText-5.0.3.jar	src/core/com/itextpdf/text/xml/xmp/PdfSchema.java	0	0	0	0	95	23
+com.itextpdf.text.xml.xmp.XmpArray	iText-5.0.3.jar	src/core/com/itextpdf/text/xml/xmp/XmpArray.java	0	0	0	0	93	29
+com.itextpdf.text.xml.xmp.XmpBasicSchema	iText-5.0.3.jar	src/core/com/itextpdf/text/xml/xmp/XmpBasicSchema.java	0	0	0	0	131	40
+com.itextpdf.text.xml.xmp.XmpMMSchema	iText-5.0.3.jar	src/core/com/itextpdf/text/xml/xmp/XmpMMSchema.java	0	0	0	0	86	21
+com.itextpdf.text.xml.xmp.XmpReader	iText-5.0.3.jar	src/core/com/itextpdf/text/xml/xmp/XmpReader.java	0	0	0	0	205	102
+com.itextpdf.text.xml.xmp.XmpSchema	iText-5.0.3.jar	src/core/com/itextpdf/text/xml/xmp/XmpSchema.java	0	0	0	0	167	69
+com.itextpdf.text.xml.xmp.XmpWriter	iText-5.0.3.jar	src/core/com/itextpdf/text/xml/xmp/XmpWriter.java	0	0	0	0	298	166
+com.itextpdf.text.pdf.hyphenation.ByteVector	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/hyphenation/ByteVector.java	0	0	0	0	125	68
+com.itextpdf.text.pdf.hyphenation.CharVector	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/hyphenation/CharVector.java	0	0	0	0	135	76
+com.itextpdf.text.pdf.hyphenation.Hyphen	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/hyphenation/Hyphen.java	0	0	0	0	69	34
+com.itextpdf.text.pdf.hyphenation.Hyphenation	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/hyphenation/Hyphenation.java	0	0	0	0	83	33
+com.itextpdf.text.pdf.hyphenation.HyphenationException	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/hyphenation/HyphenationException.java	0	0	0	0	30	7
+com.itextpdf.text.pdf.hyphenation.HyphenationTree	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/hyphenation/HyphenationTree.java	0	0	0	0	456	250
+com.itextpdf.text.pdf.hyphenation.Hyphenator	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/hyphenation/Hyphenator.java	0	0	0	0	239	124
+com.itextpdf.text.pdf.hyphenation.PatternConsumer	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/hyphenation/PatternConsumer.java	0	0	0	0	55	7
+com.itextpdf.text.pdf.hyphenation.SimplePatternParser	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/hyphenation/SimplePatternParser.java	0	0	0	0	288	208
+com.itextpdf.text.pdf.hyphenation.TernaryTree	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/hyphenation/TernaryTree.java	0	0	0	0	671	405
+com.itextpdf.text.pdf.hyphenation.TernaryTree$Iterator	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/hyphenation/TernaryTree.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.hyphenation.TernaryTree$Iterator$Item	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/hyphenation/TernaryTree.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.collection.PdfCollection	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/collection/PdfCollection.java	0	0	0	0	117	38
+com.itextpdf.text.pdf.collection.PdfCollectionField	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/collection/PdfCollectionField.java	0	0	0	0	173	81
+com.itextpdf.text.pdf.collection.PdfCollectionItem	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/collection/PdfCollectionItem.java	0	0	0	0	162	64
+com.itextpdf.text.pdf.collection.PdfCollectionSchema	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/collection/PdfCollectionSchema.java	0	0	0	0	65	11
+com.itextpdf.text.pdf.collection.PdfCollectionSort	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/collection/PdfCollectionSort.java	0	0	0	0	113	46
+com.itextpdf.text.pdf.collection.PdfTargetDictionary	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/collection/PdfTargetDictionary.java	0	0	0	0	136	41
+com.itextpdf.rups.view.itext.FormTree		src/rups/com/itextpdf/rups/view/itext/FormTree.java	1	2	1	0	212	144
+com.itextpdf.rups.view.itext.OutlineTree		src/rups/com/itextpdf/rups/view/itext/OutlineTree.java	1	2	1	0	115	68
+com.itextpdf.rups.view.itext.PagesTable		src/rups/com/itextpdf/rups/view/itext/PagesTable.java	1	2	1	0	172	108
+com.itextpdf.rups.view.itext.PdfObjectPanel		src/rups/com/itextpdf/rups/view/itext/PdfObjectPanel.java	1	2	1	0	117	66
+com.itextpdf.rups.view.itext.PdfTree		src/rups/com/itextpdf/rups/view/itext/PdfTree.java	1	2	1	0	90	34
+com.itextpdf.rups.view.itext.StreamTextArea		src/rups/com/itextpdf/rups/view/itext/StreamTextArea.java	1	2	1	0	82	41
+com.itextpdf.rups.view.itext.XRefTable		src/rups/com/itextpdf/rups/view/itext/XRefTable.java	1	2	1	0	174	91
+com.itextpdf.rups.view.itext.XfaTextArea		src/rups/com/itextpdf/rups/view/itext/XfaTextArea.java	1	2	1	0	39	22
+com.itextpdf.rups.view.itext.XfaTree		src/rups/com/itextpdf/rups/view/itext/XfaTree.java	1	2	1	0	55	21
+com.itextpdf.text.pdf.richmedia.CuePoint	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/richmedia/CuePoint.java	0	0	0	0	111	27
+com.itextpdf.text.pdf.richmedia.RichMediaActivation	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/richmedia/RichMediaActivation.java	0	0	0	0	134	28
+com.itextpdf.text.pdf.richmedia.RichMediaAnimation	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/richmedia/RichMediaAnimation.java	0	0	0	0	100	19
+com.itextpdf.text.pdf.richmedia.RichMediaAnnotation	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/richmedia/RichMediaAnnotation.java	0	0	0	0	265	114
+com.itextpdf.text.pdf.richmedia.RichMediaCommand	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/richmedia/RichMediaCommand.java	0	0	0	0	80	14
+com.itextpdf.text.pdf.richmedia.RichMediaConfiguration	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/richmedia/RichMediaConfiguration.java	0	0	0	0	96	19
+com.itextpdf.text.pdf.richmedia.RichMediaDeactivation	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/richmedia/RichMediaDeactivation.java	0	0	0	0	78	11
+com.itextpdf.text.pdf.richmedia.RichMediaExecuteAction	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/richmedia/RichMediaExecuteAction.java	0	0	0	0	82	16
+com.itextpdf.text.pdf.richmedia.RichMediaInstance	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/richmedia/RichMediaInstance.java	0	0	0	0	99	24
+com.itextpdf.text.pdf.richmedia.RichMediaParams	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/richmedia/RichMediaParams.java	0	0	0	0	111	25
+com.itextpdf.text.pdf.richmedia.RichMediaPosition	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/richmedia/RichMediaPosition.java	0	0	0	0	107	21
+com.itextpdf.text.pdf.richmedia.RichMediaPresentation	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/richmedia/RichMediaPresentation.java	0	0	0	0	132	27
+com.itextpdf.text.pdf.richmedia.RichMediaWindow	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/richmedia/RichMediaWindow.java	0	0	0	0	111	25
+com.itextpdf.text.pdf.fonts.cmaps.CMap	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/fonts/cmaps/CMap.java	0	0	0	0	162	70
+com.itextpdf.text.pdf.fonts.cmaps.CMapParser	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/fonts/cmaps/CMapParser.java	0	0	0	0	492	402
+com.itextpdf.text.pdf.fonts.cmaps.CMapParser$1	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/fonts/cmaps/CMapParser.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.fonts.cmaps.CMapParser$LiteralName	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/fonts/cmaps/CMapParser.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.fonts.cmaps.CMapParser$Operator	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/fonts/cmaps/CMapParser.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.fonts.cmaps.CodespaceRange	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/fonts/cmaps/CodespaceRange.java	0	0	0	0	89	25
+com.itextpdf.text.pdf.interfaces.PdfAnnotations	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/interfaces/PdfAnnotations.java	0	0	0	0	78	10
+com.itextpdf.text.pdf.interfaces.PdfDocumentActions	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/interfaces/PdfDocumentActions.java	0	0	0	0	83	9
+com.itextpdf.text.pdf.interfaces.PdfEncryptionSettings	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/interfaces/PdfEncryptionSettings.java	0	0	0	0	92	7
+com.itextpdf.text.pdf.interfaces.PdfPageActions	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/interfaces/PdfPageActions.java	0	0	0	0	77	10
+com.itextpdf.text.pdf.interfaces.PdfRunDirection	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/interfaces/PdfRunDirection.java	0	0	0	0	58	5
+com.itextpdf.text.pdf.interfaces.PdfVersion	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/interfaces/PdfVersion.java	0	0	0	0	91	9
+com.itextpdf.text.pdf.interfaces.PdfViewerPreferences	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/interfaces/PdfViewerPreferences.java	0	0	0	0	194	7
+com.itextpdf.text.pdf.interfaces.PdfXConformance	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/interfaces/PdfXConformance.java	0	0	0	0	67	6
+com.itextpdf.rups.controller.PdfReaderController		src/rups/com/itextpdf/rups/controller/PdfReaderController.java	1	2	1	0	257	133
+com.itextpdf.rups.controller.RupsController		src/rups/com/itextpdf/rups/controller/RupsController.java	1	2	1	0	178	109
+com.itextpdf.rups.view.icons.IconActionListener		src/rups/com/itextpdf/rups/view/icons/IconActionListener.java	1	2	1	0	33	6
+com.itextpdf.rups.view.icons.IconButton		src/rups/com/itextpdf/rups/view/icons/IconButton.java	1	2	1	0	41	9
+com.itextpdf.rups.view.icons.IconFetcher		src/rups/com/itextpdf/rups/view/icons/IconFetcher.java	1	2	1	0	58	24
+com.itextpdf.rups.view.icons.IconTreeCellRenderer		src/rups/com/itextpdf/rups/view/icons/IconTreeCellRenderer.java	1	2	1	0	50	17
+com.itextpdf.rups.view.icons.IconTreeNode		src/rups/com/itextpdf/rups/view/icons/IconTreeNode.java	1	2	1	0	60	18
+com.itextpdf.rups.model.BackgroundTask		src/rups/com/itextpdf/rups/model/BackgroundTask.java	1	2	1	0	104	45
+com.itextpdf.rups.model.IndirectObjectFactory		src/rups/com/itextpdf/rups/model/IndirectObjectFactory.java	1	2	1	0	178	75
+com.itextpdf.rups.model.ObjectLoader		src/rups/com/itextpdf/rups/model/ObjectLoader.java	1	2	1	0	106	44
+com.itextpdf.rups.model.PdfFile		src/rups/com/itextpdf/rups/model/PdfFile.java	1	2	1	0	127	58
+com.itextpdf.rups.model.Permissions		src/rups/com/itextpdf/rups/model/Permissions.java	1	2	1	0	185	79
+com.itextpdf.rups.model.ProgressDialog		src/rups/com/itextpdf/rups/model/ProgressDialog.java	1	2	1	0	111	55
+com.itextpdf.rups.model.TreeNodeFactory		src/rups/com/itextpdf/rups/model/TreeNodeFactory.java	1	2	1	0	152	90
+com.itextpdf.rups.model.XfaFile		src/rups/com/itextpdf/rups/model/XfaFile.java	1	2	1	0	78	33
+com.itextpdf.text.pdf.codec.Base64	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/Base64.java	0	0	0	0	1697	848
+com.itextpdf.text.pdf.codec.Base64$InputStream	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/Base64.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.codec.Base64$OutputStream	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/Base64.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.codec.BitFile	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/BitFile.java	0	0	0	0	164	87
+com.itextpdf.text.pdf.codec.BmpImage	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/BmpImage.java	0	0	0	0	1299	925
+com.itextpdf.text.pdf.codec.CCITTG4Encoder	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/CCITTG4Encoder.java	0	0	0	0	595	474
+com.itextpdf.text.pdf.codec.GifImage	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/GifImage.java	0	0	0	0	603	406
+com.itextpdf.text.pdf.codec.GifImage$GifFrame	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/GifImage.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.codec.JBIG2Image	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/JBIG2Image.java	0	0	0	0	113	39
+com.itextpdf.text.pdf.codec.JBIG2SegmentReader	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/JBIG2SegmentReader.java	0	0	0	0	436	314
+com.itextpdf.text.pdf.codec.JBIG2SegmentReader$JBIG2Page	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/JBIG2SegmentReader.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.codec.JBIG2SegmentReader$JBIG2Segment	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/JBIG2SegmentReader.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.codec.LZWCompressor	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/LZWCompressor.java	0	0	0	0	169	71
+com.itextpdf.text.pdf.codec.LZWStringTable	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/LZWStringTable.java	0	0	0	0	248	114
+com.itextpdf.text.pdf.codec.PngImage	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/PngImage.java	0	0	0	0	993	778
+com.itextpdf.text.pdf.codec.PngImage$NewByteArrayOutputStream	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/PngImage.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.codec.PngWriter	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/PngWriter.java	0	0	0	0	176	107
+com.itextpdf.text.pdf.codec.TIFFConstants	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/TIFFConstants.java	0	0	0	0	504	213
+com.itextpdf.text.pdf.codec.TIFFDirectory	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/TIFFDirectory.java	0	0	0	0	673	381
+com.itextpdf.text.pdf.codec.TIFFFaxDecoder	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/TIFFFaxDecoder.java	0	0	0	0	1511	933
+com.itextpdf.text.pdf.codec.TIFFFaxDecompressor	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/TIFFFaxDecompressor.java	0	0	0	0	1539	968
+com.itextpdf.text.pdf.codec.TIFFField	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/TIFFField.java	0	0	0	0	487	178
+com.itextpdf.text.pdf.codec.TIFFLZWDecoder	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/TIFFLZWDecoder.java	0	0	0	0	271	139
+com.itextpdf.text.pdf.codec.TiffImage	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/TiffImage.java	0	0	0	0	575	482
+com.itextpdf.text.pdf.codec.TiffWriter	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/TiffWriter.java	0	0	0	0	295	189
+com.itextpdf.text.pdf.codec.TiffWriter$FieldAscii	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/TiffWriter.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.codec.TiffWriter$FieldBase	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/TiffWriter.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.codec.TiffWriter$FieldByte	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/TiffWriter.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.codec.TiffWriter$FieldImage	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/TiffWriter.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.codec.TiffWriter$FieldLong	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/TiffWriter.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.codec.TiffWriter$FieldRational	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/TiffWriter.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.codec.TiffWriter$FieldShort	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/TiffWriter.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.codec.TiffWriter$FieldUndefined	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/TiffWriter.java	0	0	0	2	0	0
+com.itextpdf.text.html.HtmlEncoder	iText-5.0.3.jar	src/core/com/itextpdf/text/html/HtmlEncoder.java	0	0	0	0	203	81
+com.itextpdf.text.html.HtmlTags	iText-5.0.3.jar	src/core/com/itextpdf/text/html/HtmlTags.java	0	0	0	0	331	97
+com.itextpdf.text.html.Markup	iText-5.0.3.jar	src/core/com/itextpdf/text/html/Markup.java	0	0	0	0	450	193
+com.itextpdf.text.html.WebColors	iText-5.0.3.jar	src/core/com/itextpdf/text/html/WebColors.java	0	0	0	0	258	192
+com.itextpdf.text.pdf.codec.wmf.InputMeta	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/wmf/InputMeta.java	0	0	0	0	107	52
+com.itextpdf.text.pdf.codec.wmf.MetaBrush	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/wmf/MetaBrush.java	0	0	0	0	87	36
+com.itextpdf.text.pdf.codec.wmf.MetaDo	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/wmf/MetaDo.java	0	0	0	0	761	682
+com.itextpdf.text.pdf.codec.wmf.MetaFont	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/wmf/MetaFont.java	0	0	0	0	206	150
+com.itextpdf.text.pdf.codec.wmf.MetaObject	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/wmf/MetaObject.java	0	0	0	0	64	16
+com.itextpdf.text.pdf.codec.wmf.MetaPen	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/wmf/MetaPen.java	0	0	0	0	84	33
+com.itextpdf.text.pdf.codec.wmf.MetaState	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/wmf/MetaState.java	0	0	0	0	365	246
+com.itextpdf.text.pdf.codec.wmf.Point	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/codec/wmf/Point.java	0	0	0	0	57	11
+com.itextpdf.text.pdf.AcroFields	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/AcroFields.java	0	0	0	0	2648	1778
+com.itextpdf.text.pdf.AcroFields$1	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/AcroFields.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.AcroFields$FieldPosition	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/AcroFields.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.AcroFields$InstHit	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/AcroFields.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.AcroFields$Item	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/AcroFields.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.AcroFields$RevisionStream	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/AcroFields.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.AcroFields$SorterComparator	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/AcroFields.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.ArabicLigaturizer	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/ArabicLigaturizer.java	0	0	0	0	770	598
+com.itextpdf.text.pdf.ArabicLigaturizer$charstruct	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/ArabicLigaturizer.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.AsianFontMapper	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/AsianFontMapper.java	0	0	0	0	97	42
+com.itextpdf.text.pdf.BadPdfFormatException	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/BadPdfFormatException.java	0	0	0	0	80	10
+com.itextpdf.text.pdf.Barcode	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/Barcode.java	0	0	0	0	473	148
+com.itextpdf.text.pdf.Barcode128	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/Barcode128.java	0	0	0	0	822	630
+com.itextpdf.text.pdf.Barcode39	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/Barcode39.java	0	0	0	0	389	246
+com.itextpdf.text.pdf.BarcodeCodabar	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/BarcodeCodabar.java	0	0	0	0	342	214
+com.itextpdf.text.pdf.BarcodeDatamatrix	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/BarcodeDatamatrix.java	0	0	0	0	1283	946
+com.itextpdf.text.pdf.BarcodeDatamatrix$DmParams	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/BarcodeDatamatrix.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.BarcodeDatamatrix$Placement	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/BarcodeDatamatrix.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.BarcodeDatamatrix$ReedSolomon	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/BarcodeDatamatrix.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.BarcodeEAN	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/BarcodeEAN.java	0	0	0	0	716	539
+com.itextpdf.text.pdf.BarcodeEANSUPP	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/BarcodeEANSUPP.java	0	0	0	0	152	36
+com.itextpdf.text.pdf.BarcodeInter25	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/BarcodeInter25.java	0	0	0	0	335	201
+com.itextpdf.text.pdf.BarcodePDF417	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/BarcodePDF417.java	0	0	0	0	1609	1311
+com.itextpdf.text.pdf.BarcodePDF417$Segment	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/BarcodePDF417.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.BarcodePDF417$SegmentList	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/BarcodePDF417.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.BarcodePostnet	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/BarcodePostnet.java	0	0	0	0	231	114
+com.itextpdf.text.pdf.BarcodeQRCode	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/BarcodeQRCode.java	0	0	0	0	140	63
+com.itextpdf.text.pdf.BaseField	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/BaseField.java	0	0	0	0	676	394
+com.itextpdf.text.pdf.BaseFont	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/BaseFont.java	0	0	0	0	1571	635
+com.itextpdf.text.pdf.BaseFont$StreamFont	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/BaseFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.BidiLine	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/BidiLine.java	0	0	0	0	941	832
+com.itextpdf.text.pdf.BidiOrder	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/BidiOrder.java	0	0	0	0	1291	687
+com.itextpdf.text.pdf.ByteBuffer	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/ByteBuffer.java	0	0	0	0	616	380
+com.itextpdf.text.pdf.CFFFont	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CFFFont.java	0	0	0	0	1204	795
+com.itextpdf.text.pdf.CFFFont$DictNumberItem	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CFFFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.CFFFont$DictOffsetItem	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CFFFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.CFFFont$Font	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CFFFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.CFFFont$IndexBaseItem	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CFFFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.CFFFont$IndexMarkerItem	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CFFFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.CFFFont$IndexOffsetItem	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CFFFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.CFFFont$Item	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CFFFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.CFFFont$MarkerItem	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CFFFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.CFFFont$OffsetItem	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CFFFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.CFFFont$RangeItem	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CFFFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.CFFFont$StringItem	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CFFFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.CFFFont$SubrMarkerItem	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CFFFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.CFFFont$UInt16Item	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CFFFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.CFFFont$UInt24Item	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CFFFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.CFFFont$UInt32Item	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CFFFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.CFFFont$UInt8Item	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CFFFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.CFFFontSubset	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CFFFontSubset.java	0	0	0	0	1639	931
+com.itextpdf.text.pdf.CJKFont	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CJKFont.java	0	0	0	4	684	514
+com.itextpdf.text.pdf.CMYKColor	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CMYKColor.java	0	0	0	0	123	39
+com.itextpdf.text.pdf.CMapAwareDocumentFont	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/CMapAwareDocumentFont.java	0	0	0	0	221	91
+com.itextpdf.text.pdf.ColorDetails	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/ColorDetails.java	0	0	0	4	93	20
+com.itextpdf.text.pdf.ColumnText	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/ColumnText.java	0	0	0	0	1645	988
+com.itextpdf.text.pdf.DefaultFontMapper	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/DefaultFontMapper.java	0	0	0	0	308	174
+com.itextpdf.text.pdf.DefaultFontMapper$BaseFontParameters	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/DefaultFontMapper.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.DefaultSplitCharacter	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/DefaultSplitCharacter.java	0	0	0	0	101	24
+com.itextpdf.text.pdf.DocumentFont	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/DocumentFont.java	0	0	0	0	710	537
+com.itextpdf.text.pdf.EnumerateTTC	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/EnumerateTTC.java	0	0	0	4	113	57
+com.itextpdf.text.pdf.ExtendedColor	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/ExtendedColor.java	0	0	0	0	129	39
+com.itextpdf.text.pdf.ExtraEncoding	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/ExtraEncoding.java	0	0	0	0	79	6
+com.itextpdf.text.pdf.FdfReader	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/FdfReader.java	0	0	0	0	233	131
+com.itextpdf.text.pdf.FdfWriter	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/FdfWriter.java	0	0	0	0	355	224
+com.itextpdf.text.pdf.FdfWriter$Wrt	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/FdfWriter.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.FontDetails	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/FontDetails.java	0	0	0	4	301	163
+com.itextpdf.text.pdf.FontMapper	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/FontMapper.java	0	0	0	0	76	6
+com.itextpdf.text.pdf.FontSelector	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/FontSelector.java	0	0	0	0	145	78
+com.itextpdf.text.pdf.GlyphList	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/GlyphList.java	0	0	0	0	117	67
+com.itextpdf.text.pdf.GrayColor	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/GrayColor.java	0	0	0	0	80	23
+com.itextpdf.text.pdf.HyphenationAuto	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/HyphenationAuto.java	0	0	0	0	121	38
+com.itextpdf.text.pdf.HyphenationEvent	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/HyphenationEvent.java	0	0	0	0	74	6
+com.itextpdf.text.pdf.ICC_Profile	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/ICC_Profile.java	0	0	0	0	162	109
+com.itextpdf.text.pdf.IntHashtable	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/IntHashtable.java	0	0	0	0	479	243
+com.itextpdf.text.pdf.IntHashtable$Entry	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/IntHashtable.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.IntHashtable$IntHashtableIterator	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/IntHashtable.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.LZWDecoder	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/LZWDecoder.java	0	0	0	0	244	124
+com.itextpdf.text.pdf.MappedRandomAccessFile	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/MappedRandomAccessFile.java	0	0	0	0	220	96
+com.itextpdf.text.pdf.MappedRandomAccessFile$1	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/MappedRandomAccessFile.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.MultiColumnText	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/MultiColumnText.java	0	0	0	0	604	288
+com.itextpdf.text.pdf.MultiColumnText$ColumnDef	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/MultiColumnText.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.OcspClient	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/OcspClient.java	0	0	0	0	56	4
+com.itextpdf.text.pdf.OcspClientBouncyCastle	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/OcspClientBouncyCastle.java	0	0	0	0	182	98
+com.itextpdf.text.pdf.OutputStreamCounter	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/OutputStreamCounter.java	0	0	0	0	167	34
+com.itextpdf.text.pdf.OutputStreamEncryption	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/OutputStreamEncryption.java	0	0	0	0	213	84
+com.itextpdf.text.pdf.PRAcroForm	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PRAcroForm.java	0	0	0	0	204	105
+com.itextpdf.text.pdf.PRAcroForm$FieldInformation	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PRAcroForm.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PRIndirectReference	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PRIndirectReference.java	0	0	0	0	96	26
+com.itextpdf.text.pdf.PRStream	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PRStream.java	0	0	0	0	234	138
+com.itextpdf.text.pdf.PRTokeniser	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PRTokeniser.java	0	0	0	0	596	493
+com.itextpdf.text.pdf.PRTokeniser$TokenType	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PRTokeniser.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PageResources	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PageResources.java	0	0	0	4	187	126
+com.itextpdf.text.pdf.PatternColor	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PatternColor.java	0	0	0	0	77	18
+com.itextpdf.text.pdf.PdfAcroForm	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfAcroForm.java	0	0	0	0	734	351
+com.itextpdf.text.pdf.PdfAction	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfAction.java	0	0	0	0	587	283
+com.itextpdf.text.pdf.PdfAnnotation	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfAnnotation.java	0	0	0	0	936	533
+com.itextpdf.text.pdf.PdfAnnotation$PdfImportedLink	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfAnnotation.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfAppearance	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfAppearance.java	0	0	0	0	174	92
+com.itextpdf.text.pdf.PdfArray	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfArray.java	0	0	0	0	550	167
+com.itextpdf.text.pdf.PdfBoolean	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfBoolean.java	0	0	0	0	129	37
+com.itextpdf.text.pdf.PdfBorderArray	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfBorderArray.java	0	0	0	0	75	13
+com.itextpdf.text.pdf.PdfBorderDictionary	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfBorderDictionary.java	0	0	0	0	95	36
+com.itextpdf.text.pdf.PdfChunk	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfChunk.java	0	0	0	0	851	509
+com.itextpdf.text.pdf.PdfColor	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfColor.java	0	0	0	4	75	12
+com.itextpdf.text.pdf.PdfContentByte	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfContentByte.java	0	0	0	0	3174	1653
+com.itextpdf.text.pdf.PdfContentByte$GraphicState	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfContentByte.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfContentParser	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfContentParser.java	0	0	0	0	201	96
+com.itextpdf.text.pdf.PdfContentParser$1	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfContentParser.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfContents	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfContents.java	0	0	0	4	148	85
+com.itextpdf.text.pdf.PdfCopy	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfCopy.java	0	0	0	0	783	566
+com.itextpdf.text.pdf.PdfCopy$IndirectReferences	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfCopy.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfCopy$PageStamp	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfCopy.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfCopy$RefKey	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfCopy.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfCopy$StampContent	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfCopy.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfCopyFields	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfCopyFields.java	0	0	0	0	237	68
+com.itextpdf.text.pdf.PdfCopyFieldsImp	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfCopyFieldsImp.java	0	0	0	4	662	557
+com.itextpdf.text.pdf.PdfCopyForms	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfCopyForms.java	0	0	0	0	237	68
+com.itextpdf.text.pdf.PdfCopyFormsImp	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfCopyFormsImp.java	0	0	0	4	104	35
+com.itextpdf.text.pdf.PdfDashPattern	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfDashPattern.java	0	0	0	0	135	46
+com.itextpdf.text.pdf.PdfDate	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfDate.java	0	0	0	0	248	144
+com.itextpdf.text.pdf.PdfDestination	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfDestination.java	0	0	0	0	234	78
+com.itextpdf.text.pdf.PdfDeveloperExtension	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfDeveloperExtension.java	0	0	0	0	120	28
+com.itextpdf.text.pdf.PdfDictionary	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfDictionary.java	0	0	0	0	524	161
+com.itextpdf.text.pdf.PdfDocument	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfDocument.java	0	0	0	0	2436	1576
+com.itextpdf.text.pdf.PdfDocument$Destination	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfDocument.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfDocument$Indentation	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfDocument.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfDocument$PdfCatalog	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfDocument.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfDocument$PdfInfo	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfDocument.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfEFStream	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfEFStream.java	0	0	0	0	173	105
+com.itextpdf.text.pdf.PdfEncodings	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfEncodings.java	0	0	0	0	795	633
+com.itextpdf.text.pdf.PdfEncodings$1	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfEncodings.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfEncodings$Cp437Conversion	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfEncodings.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfEncodings$SymbolConversion	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfEncodings.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfEncodings$SymbolTTConversion	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfEncodings.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfEncodings$WingdingsConversion	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfEncodings.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfEncryption	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfEncryption.java	0	0	0	0	598	427
+com.itextpdf.text.pdf.PdfEncryptor	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfEncryptor.java	0	0	0	0	315	78
+com.itextpdf.text.pdf.PdfException	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfException.java	0	0	0	0	81	14
+com.itextpdf.text.pdf.PdfFileSpecification	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfFileSpecification.java	0	0	0	0	305	124
+com.itextpdf.text.pdf.PdfFont	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfFont.java	0	0	0	4	179	72
+com.itextpdf.text.pdf.PdfFormField	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfFormField.java	0	0	0	0	343	247
+com.itextpdf.text.pdf.PdfFormXObject	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfFormXObject.java	0	0	0	0	93	27
+com.itextpdf.text.pdf.PdfFunction	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfFunction.java	0	0	0	0	140	81
+com.itextpdf.text.pdf.PdfGState	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfGState.java	0	0	0	0	158	43
+com.itextpdf.text.pdf.PdfGraphics2D	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfGraphics2D.java	0	0	0	0	1789	1290
+com.itextpdf.text.pdf.PdfGraphics2D$1	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfGraphics2D.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfGraphics2D$FakeComponent	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfGraphics2D.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfGraphics2D$HyperLinkKey	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfGraphics2D.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfGraphics2D$Kid	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfGraphics2D.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfICCBased	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfICCBased.java	0	0	0	0	99	33
+com.itextpdf.text.pdf.PdfImage	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfImage.java	0	0	0	0	301	217
+com.itextpdf.text.pdf.PdfImportedPage	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfImportedPage.java	0	0	0	0	161	57
+com.itextpdf.text.pdf.PdfIndirectObject	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfIndirectObject.java	0	0	0	0	160	43
+com.itextpdf.text.pdf.PdfIndirectReference	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfIndirectReference.java	0	0	0	0	126	25
+com.itextpdf.text.pdf.PdfLayer	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfLayer.java	0	0	0	0	345	141
+com.itextpdf.text.pdf.PdfLayerMembership	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfLayerMembership.java	0	0	0	0	147	38
+com.itextpdf.text.pdf.PdfLine	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfLine.java	0	0	0	0	537	251
+com.itextpdf.text.pdf.PdfLister	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfLister.java	0	0	0	0	179	88
+com.itextpdf.text.pdf.PdfLiteral	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfLiteral.java	0	0	0	0	104	35
+com.itextpdf.text.pdf.PdfMediaClipData	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfMediaClipData.java	0	0	0	0	60	14
+com.itextpdf.text.pdf.PdfName	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfName.java	0	0	0	0	2010	782
+com.itextpdf.text.pdf.PdfNameTree	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfNameTree.java	0	0	0	0	157	92
+com.itextpdf.text.pdf.PdfNull	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfNull.java	0	0	0	0	81	11
+com.itextpdf.text.pdf.PdfNumber	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfNumber.java	0	0	0	0	156	41
+com.itextpdf.text.pdf.PdfNumberTree	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfNumberTree.java	0	0	0	0	153	92
+com.itextpdf.text.pdf.PdfOCG	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfOCG.java	0	0	0	0	64	5
+com.itextpdf.text.pdf.PdfOCProperties	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfOCProperties.java	0	0	0	0	56	3
+com.itextpdf.text.pdf.PdfObject	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfObject.java	0	0	0	0	393	101
+com.itextpdf.text.pdf.PdfOutline	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfOutline.java	0	0	0	0	534	184
+com.itextpdf.text.pdf.PdfPCell	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPCell.java	0	0	0	0	1009	435
+com.itextpdf.text.pdf.PdfPCellEvent	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPCellEvent.java	0	0	0	0	71	5
+com.itextpdf.text.pdf.PdfPKCS7	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPKCS7.java	0	0	0	0	1726	1117
+com.itextpdf.text.pdf.PdfPKCS7$X509Name	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPKCS7.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfPKCS7$X509NameTokenizer	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPKCS7.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfPRow	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPRow.java	0	0	0	0	668	475
+com.itextpdf.text.pdf.PdfPSXObject	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPSXObject.java	0	0	0	0	98	26
+com.itextpdf.text.pdf.PdfPTable	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPTable.java	0	0	0	0	1610	788
+com.itextpdf.text.pdf.PdfPTableEvent	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPTableEvent.java	0	0	0	0	87	4
+com.itextpdf.text.pdf.PdfPage	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPage.java	0	0	0	0	190	42
+com.itextpdf.text.pdf.PdfPageElement	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPageElement.java	0	0	0	4	71	5
+com.itextpdf.text.pdf.PdfPageEvent	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPageEvent.java	0	0	0	0	183	17
+com.itextpdf.text.pdf.PdfPageEventHelper	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPageEventHelper.java	0	0	0	0	195	28
+com.itextpdf.text.pdf.PdfPageLabels	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPageLabels.java	0	0	0	0	292	161
+com.itextpdf.text.pdf.PdfPageLabels$PdfPageLabelFormat	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPageLabels.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfPages	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPages.java	0	0	0	0	203	130
+com.itextpdf.text.pdf.PdfPattern	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPattern.java	0	0	0	0	96	33
+com.itextpdf.text.pdf.PdfPatternPainter	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPatternPainter.java	0	0	0	0	400	173
+com.itextpdf.text.pdf.PdfPrinterGraphics2D	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPrinterGraphics2D.java	0	0	0	0	66	15
+com.itextpdf.text.pdf.PdfPublicKeyRecipient	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPublicKeyRecipient.java	0	0	0	0	77	24
+com.itextpdf.text.pdf.PdfPublicKeySecurityHandler	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfPublicKeySecurityHandler.java	0	0	0	0	271	145
+com.itextpdf.text.pdf.PdfReader	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfReader.java	0	0	0	0	3670	2887
+com.itextpdf.text.pdf.PdfReader$1	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfReader.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfReader$PageRefs	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfReader.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfReaderInstance	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfReaderInstance.java	0	0	0	4	205	126
+com.itextpdf.text.pdf.PdfRectangle	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfRectangle.java	0	0	0	0	307	89
+com.itextpdf.text.pdf.PdfRendition	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfRendition.java	0	0	0	0	58	9
+com.itextpdf.text.pdf.PdfResources	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfResources.java	0	0	0	4	84	15
+com.itextpdf.text.pdf.PdfShading	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfShading.java	0	0	0	0	259	175
+com.itextpdf.text.pdf.PdfShadingPattern	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfShadingPattern.java	0	0	0	0	117	51
+com.itextpdf.text.pdf.PdfSigGenericPKCS	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfSigGenericPKCS.java	0	0	0	0	228	92
+com.itextpdf.text.pdf.PdfSigGenericPKCS$PPKLite	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfSigGenericPKCS.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfSigGenericPKCS$PPKMS	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfSigGenericPKCS.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfSigGenericPKCS$VeriSign	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfSigGenericPKCS.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfSignature	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfSignature.java	0	0	0	0	93	35
+com.itextpdf.text.pdf.PdfSignatureAppearance	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfSignatureAppearance.java	0	0	0	0	1495	951
+com.itextpdf.text.pdf.PdfSignatureAppearance$1	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfSignatureAppearance.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfSignatureAppearance$RangeStream	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfSignatureAppearance.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfSignatureAppearance$RenderingMode	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfSignatureAppearance.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfSignatureAppearance$SignatureEvent	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfSignatureAppearance.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfSmartCopy	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfSmartCopy.java	0	0	0	0	223	142
+com.itextpdf.text.pdf.PdfSmartCopy$ByteStore	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfSmartCopy.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfSpotColor	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfSpotColor.java	0	0	0	0	113	43
+com.itextpdf.text.pdf.PdfStamper	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfStamper.java	0	0	0	0	759	241
+com.itextpdf.text.pdf.PdfStamperImp	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfStamperImp.java	0	0	0	4	1703	1444
+com.itextpdf.text.pdf.PdfStamperImp$PageStamp	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfStamperImp.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfStream	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfStream.java	0	0	0	0	380	202
+com.itextpdf.text.pdf.PdfString	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfString.java	0	0	0	0	237	97
+com.itextpdf.text.pdf.PdfStructureElement	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfStructureElement.java	0	0	0	0	127	44
+com.itextpdf.text.pdf.PdfStructureTreeRoot	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfStructureTreeRoot.java	0	0	0	0	140	62
+com.itextpdf.text.pdf.PdfTemplate	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfTemplate.java	0	0	0	0	290	119
+com.itextpdf.text.pdf.PdfTextArray	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfTextArray.java	0	0	0	0	127	49
+com.itextpdf.text.pdf.PdfTransition	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfTransition.java	0	0	0	0	249	126
+com.itextpdf.text.pdf.PdfTransparencyGroup	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfTransparencyGroup.java	0	0	0	0	82	19
+com.itextpdf.text.pdf.PdfVisibilityExpression	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfVisibilityExpression.java	0	0	0	0	127	47
+com.itextpdf.text.pdf.PdfWriter	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfWriter.java	0	0	0	0	3185	1617
+com.itextpdf.text.pdf.PdfWriter$PdfBody	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfWriter.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfWriter$PdfBody$PdfCrossReference	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfWriter.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfWriter$PdfTrailer	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfWriter.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.PdfXConformanceException	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PdfXConformanceException.java	0	0	0	0	65	9
+com.itextpdf.text.pdf.Pfm2afm	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/Pfm2afm.java	0	0	0	0	805	584
+com.itextpdf.text.pdf.PushbuttonField	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/PushbuttonField.java	0	0	0	0	655	403
+com.itextpdf.text.pdf.RadioCheckField	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/RadioCheckField.java	0	0	0	0	415	205
+com.itextpdf.text.pdf.RandomAccessFileOrArray	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/RandomAccessFileOrArray.java	0	0	0	0	676	437
+com.itextpdf.text.pdf.SequenceList	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/SequenceList.java	0	0	0	0	314	237
+com.itextpdf.text.pdf.ShadingColor	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/ShadingColor.java	0	0	0	0	80	18
+com.itextpdf.text.pdf.SimpleBookmark	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/SimpleBookmark.java	0	0	0	0	756	556
+com.itextpdf.text.pdf.SimpleNamedDestination	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/SimpleNamedDestination.java	0	0	0	0	332	223
+com.itextpdf.text.pdf.SpotColor	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/SpotColor.java	0	0	0	0	80	26
+com.itextpdf.text.pdf.StampContent	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/StampContent.java	0	0	0	0	78	22
+com.itextpdf.text.pdf.StandardDecryption	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/StandardDecryption.java	0	0	0	0	105	56
+com.itextpdf.text.pdf.TSAClient	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/TSAClient.java	0	0	0	0	73	5
+com.itextpdf.text.pdf.TSAClientBouncyCastle	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/TSAClientBouncyCastle.java	0	0	0	0	225	108
+com.itextpdf.text.pdf.TextField	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/TextField.java	0	0	0	0	794	543
+com.itextpdf.text.pdf.TrueTypeFont	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/TrueTypeFont.java	0	0	0	4	1574	1152
+com.itextpdf.text.pdf.TrueTypeFont$FontHeader	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/TrueTypeFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.TrueTypeFont$HorizontalHeader	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/TrueTypeFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.TrueTypeFont$WindowsMetrics	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/TrueTypeFont.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.TrueTypeFontSubSet	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/TrueTypeFontSubSet.java	0	0	0	4	424	328
+com.itextpdf.text.pdf.TrueTypeFontUnicode	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/TrueTypeFontUnicode.java	0	0	0	4	499	333
+com.itextpdf.text.pdf.Type1Font	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/Type1Font.java	0	0	0	4	835	587
+com.itextpdf.text.pdf.Type3Font	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/Type3Font.java	0	0	0	0	344	208
+com.itextpdf.text.pdf.Type3Glyph	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/Type3Glyph.java	0	0	0	0	91	38
+com.itextpdf.text.pdf.VerticalText	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/VerticalText.java	0	0	0	0	344	166
+com.itextpdf.text.pdf.XfaForm	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/XfaForm.java	0	0	0	0	1144	712
+com.itextpdf.text.pdf.XfaForm$AcroFieldsSearch	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/XfaForm.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.XfaForm$InverseStore	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/XfaForm.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.XfaForm$Stack2	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/XfaForm.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.XfaForm$Xml2Som	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/XfaForm.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.XfaForm$Xml2SomDatasets	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/XfaForm.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.XfaForm$Xml2SomTemplate	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/XfaForm.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.XfdfReader	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/XfdfReader.java	0	0	0	0	248	116
+com.itextpdf.text.pdf.parser.ContentByteUtils	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/ContentByteUtils.java	0	0	0	0	125	56
+com.itextpdf.text.pdf.parser.ContentOperator	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/ContentOperator.java	0	0	0	0	65	7
+com.itextpdf.text.pdf.parser.FilteredRenderListener	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/FilteredRenderListener.java	0	0	0	0	110	29
+com.itextpdf.text.pdf.parser.FilteredTextRenderListener	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/FilteredTextRenderListener.java	0	0	0	0	74	11
+com.itextpdf.text.pdf.parser.GraphicsState	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/GraphicsState.java	0	0	0	0	198	70
+com.itextpdf.text.pdf.parser.ImageRenderInfo	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/ImageRenderInfo.java	0	0	0	0	123	33
+com.itextpdf.text.pdf.parser.LineSegment	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/LineSegment.java	0	0	0	0	118	31
+com.itextpdf.text.pdf.parser.LocationTextExtractionStrategy	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/LocationTextExtractionStrategy.java	0	0	0	0	280	113
+com.itextpdf.text.pdf.parser.LocationTextExtractionStrategy$TextChunk	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/LocationTextExtractionStrategy.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.MarkedContentInfo	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/MarkedContentInfo.java	0	0	0	0	93	24
+com.itextpdf.text.pdf.parser.MarkedContentRenderFilter	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/MarkedContentRenderFilter.java	0	0	0	0	71	10
+com.itextpdf.text.pdf.parser.Matrix	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/Matrix.java	0	0	0	0	244	98
+com.itextpdf.text.pdf.parser.PdfContentReaderTool	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentReaderTool.java	0	0	0	0	263	135
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	0	898	530
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$1	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$BeginMarkedContent	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$BeginMarkedContentDictionary	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$BeginText	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$Do	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$EmbeddedImageInfo	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$EndMarkedContent	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$EndText	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$FormXObjectDoHandler	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$IgnoreOperatorContentOperator	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$IgnoreXObjectDoHandler	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ImageXObjectDoHandler	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ModifyCurrentTransformationMatrix	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowText	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$MoveNextLineAndShowTextWithSpacing	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$PopGraphicsState	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ProcessGraphicsStateResource	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$PushGraphicsState	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ResourceDictionary	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextCharacterSpacing	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextFont	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextHorizontalScaling	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextLeading	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextRenderMode	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextRise	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$SetTextWordSpacing	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ShowText	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$ShowTextArray	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveNextLine	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveStartNextLine	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextMoveStartNextLineWithLeading	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessor$TextSetTextMatrix	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.parser.PdfImageObject	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfImageObject.java	0	0	0	0	285	201
+com.itextpdf.text.pdf.parser.PdfReaderContentParser	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfReaderContentParser.java	0	0	0	0	45	18
+com.itextpdf.text.pdf.parser.PdfTextExtractor	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/PdfTextExtractor.java	0	0	0	0	91	14
+com.itextpdf.text.pdf.parser.RegionTextRenderFilter	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/RegionTextRenderFilter.java	0	0	0	0	83	18
+com.itextpdf.text.pdf.parser.RenderFilter	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/RenderFilter.java	0	0	0	0	70	9
+com.itextpdf.text.pdf.parser.RenderListener	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/RenderListener.java	0	0	0	0	83	7
+com.itextpdf.text.pdf.parser.SimpleTextExtractionStrategy	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/SimpleTextExtractionStrategy.java	0	0	0	0	155	55
+com.itextpdf.text.pdf.parser.TaggedPdfReaderTool	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/TaggedPdfReaderTool.java	0	0	0	0	198	97
+com.itextpdf.text.pdf.parser.TextExtractionStrategy	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/TextExtractionStrategy.java	0	0	0	0	56	4
+com.itextpdf.text.pdf.parser.TextMarginFinder	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/TextMarginFinder.java	0	0	0	0	139	39
+com.itextpdf.text.pdf.parser.TextRenderInfo	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/TextRenderInfo.java	0	0	0	0	218	74
+com.itextpdf.text.pdf.parser.Vector	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/Vector.java	0	0	0	0	210	64
+com.itextpdf.text.pdf.parser.XObjectDoHandler	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/parser/XObjectDoHandler.java	0	0	0	0	55	6
+com.itextpdf.text.exceptions.BadPasswordException	iText-5.0.3.jar	src/core/com/itextpdf/text/exceptions/BadPasswordException.java	0	0	0	0	64	8
+com.itextpdf.text.exceptions.IllegalPdfSyntaxException	iText-5.0.3.jar	src/core/com/itextpdf/text/exceptions/IllegalPdfSyntaxException.java	0	0	0	0	62	7
+com.itextpdf.text.exceptions.InvalidPdfException	iText-5.0.3.jar	src/core/com/itextpdf/text/exceptions/InvalidPdfException.java	0	0	0	0	65	8
+com.itextpdf.text.exceptions.UnsupportedPdfException	iText-5.0.3.jar	src/core/com/itextpdf/text/exceptions/UnsupportedPdfException.java	0	0	0	0	66	7
+com.itextpdf.text.pdf.internal.PdfAnnotationsImp	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/internal/PdfAnnotationsImp.java	0	0	0	0	241	161
+com.itextpdf.text.pdf.internal.PdfVersionImp	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/internal/PdfVersionImp.java	0	0	0	0	200	99
+com.itextpdf.text.pdf.internal.PdfViewerPreferencesImp	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/internal/PdfViewerPreferencesImp.java	0	0	0	0	356	240
+com.itextpdf.text.pdf.internal.PdfXConformanceImp	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/internal/PdfXConformanceImp.java	0	0	0	0	265	167
+com.itextpdf.text.pdf.internal.PolylineShape	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/internal/PolylineShape.java	0	0	0	0	184	60
+com.itextpdf.text.pdf.internal.PolylineShapeIterator	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/internal/PolylineShapeIterator.java	0	0	0	0	161	47
+com.itextpdf.rups.view.itext.treenodes.FormTreeNode		src/rups/com/itextpdf/rups/view/itext/treenodes/FormTreeNode.java	1	2	1	0	73	29
+com.itextpdf.rups.view.itext.treenodes.OutlineTreeNode		src/rups/com/itextpdf/rups/view/itext/treenodes/OutlineTreeNode.java	1	2	1	0	62	20
+com.itextpdf.rups.view.itext.treenodes.PdfObjectTreeNode		src/rups/com/itextpdf/rups/view/itext/treenodes/PdfObjectTreeNode.java	1	2	1	0	287	153
+com.itextpdf.rups.view.itext.treenodes.PdfPageTreeNode		src/rups/com/itextpdf/rups/view/itext/treenodes/PdfPageTreeNode.java	1	2	1	0	39	8
+com.itextpdf.rups.view.itext.treenodes.PdfPagesTreeNode		src/rups/com/itextpdf/rups/view/itext/treenodes/PdfPagesTreeNode.java	1	2	1	0	39	8
+com.itextpdf.rups.view.itext.treenodes.PdfTrailerTreeNode		src/rups/com/itextpdf/rups/view/itext/treenodes/PdfTrailerTreeNode.java	1	2	1	0	50	12
+com.itextpdf.rups.view.itext.treenodes.XdpTreeNode		src/rups/com/itextpdf/rups/view/itext/treenodes/XdpTreeNode.java	1	2	1	0	124	90
+com.itextpdf.rups.view.itext.treenodes.XfaTreeNode		src/rups/com/itextpdf/rups/view/itext/treenodes/XfaTreeNode.java	1	2	1	0	104	45
+com.itextpdf.text.pdf.events.FieldPositioningEvents	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/events/FieldPositioningEvents.java	0	0	0	0	183	84
+com.itextpdf.text.pdf.events.IndexEvents	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/events/IndexEvents.java	0	0	0	0	390	151
+com.itextpdf.text.pdf.events.IndexEvents$1	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/events/IndexEvents.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.events.IndexEvents$Entry	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/events/IndexEvents.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.events.PdfPCellEventForwarder	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/events/PdfPCellEventForwarder.java	0	0	0	0	81	17
+com.itextpdf.text.pdf.events.PdfPTableEventForwarder	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/events/PdfPTableEventForwarder.java	0	0	0	0	80	16
+com.itextpdf.text.pdf.events.PdfPageEventForwarder	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/events/PdfPageEventForwarder.java	0	0	0	0	284	75
+com.itextpdf.text.pdf.qrcode.BitArray	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/BitArray.java	0	0	0	0	175	97
+com.itextpdf.text.pdf.qrcode.BitMatrix	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/BitMatrix.java	0	0	0	0	191	94
+com.itextpdf.text.pdf.qrcode.BitVector	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/BitVector.java	0	0	0	0	156	92
+com.itextpdf.text.pdf.qrcode.BlockPair	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/BlockPair.java	0	0	0	4	39	15
+com.itextpdf.text.pdf.qrcode.ByteArray	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/ByteArray.java	0	0	0	0	96	54
+com.itextpdf.text.pdf.qrcode.ByteMatrix	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/ByteMatrix.java	0	0	0	0	94	56
+com.itextpdf.text.pdf.qrcode.CharacterSetECI	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/CharacterSetECI.java	0	0	0	0	97	56
+com.itextpdf.text.pdf.qrcode.EncodeHintType	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/EncodeHintType.java	0	0	0	0	40	7
+com.itextpdf.text.pdf.qrcode.Encoder	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/Encoder.java	0	0	0	0	558	386
+com.itextpdf.text.pdf.qrcode.ErrorCorrectionLevel	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/ErrorCorrectionLevel.java	0	0	0	0	87	34
+com.itextpdf.text.pdf.qrcode.FormatInformation	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/FormatInformation.java	0	0	0	4	171	109
+com.itextpdf.text.pdf.qrcode.GF256	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/GF256.java	0	0	0	0	143	73
+com.itextpdf.text.pdf.qrcode.GF256Poly	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/GF256Poly.java	0	0	0	4	264	191
+com.itextpdf.text.pdf.qrcode.MaskUtil	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/MaskUtil.java	0	0	0	0	218	154
+com.itextpdf.text.pdf.qrcode.MatrixUtil	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/MatrixUtil.java	0	0	0	0	521	342
+com.itextpdf.text.pdf.qrcode.Mode	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/Mode.java	0	0	0	0	113	68
+com.itextpdf.text.pdf.qrcode.QRCode	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/QRCode.java	0	0	0	0	238	143
+com.itextpdf.text.pdf.qrcode.QRCodeWriter	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/QRCodeWriter.java	0	0	0	0	140	79
+com.itextpdf.text.pdf.qrcode.ReedSolomonEncoder	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/ReedSolomonEncoder.java	0	0	0	0	76	46
+com.itextpdf.text.pdf.qrcode.ReedSolomonException	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/ReedSolomonException.java	0	0	0	0	37	7
+com.itextpdf.text.pdf.qrcode.Version	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/Version.java	0	0	0	0	584	501
+com.itextpdf.text.pdf.qrcode.Version$ECB	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/Version.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.qrcode.Version$ECBlocks	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/Version.java	0	0	0	2	0	0
+com.itextpdf.text.pdf.qrcode.WriterException	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/qrcode/WriterException.java	0	0	0	0	41	10
+com.itextpdf.text.xml.XmlDomWriter	iText-5.0.3.jar	src/core/com/itextpdf/text/xml/XmlDomWriter.java	0	0	0	0	358	241
+com.itextpdf.text.html.simpleparser.ALink	iText-5.0.3.jar	src/core/com/itextpdf/text/html/simpleparser/ALink.java	0	0	0	0	53	5
+com.itextpdf.text.html.simpleparser.ChainedProperties	iText-5.0.3.jar	src/core/com/itextpdf/text/html/simpleparser/ChainedProperties.java	0	0	0	0	140	84
+com.itextpdf.text.html.simpleparser.ChainedProperties$ChainedProperty	iText-5.0.3.jar	src/core/com/itextpdf/text/html/simpleparser/ChainedProperties.java	0	0	0	2	0	0
+com.itextpdf.text.html.simpleparser.FactoryProperties	iText-5.0.3.jar	src/core/com/itextpdf/text/html/simpleparser/FactoryProperties.java	0	0	0	0	408	304
+com.itextpdf.text.html.simpleparser.HTMLWorker	iText-5.0.3.jar	src/core/com/itextpdf/text/html/simpleparser/HTMLWorker.java	0	0	0	0	718	618
+com.itextpdf.text.html.simpleparser.ImageProvider	iText-5.0.3.jar	src/core/com/itextpdf/text/html/simpleparser/ImageProvider.java	0	0	0	0	53	7
+com.itextpdf.text.html.simpleparser.Img	iText-5.0.3.jar	src/core/com/itextpdf/text/html/simpleparser/Img.java	0	0	0	0	57	7
+com.itextpdf.text.html.simpleparser.IncCell	iText-5.0.3.jar	src/core/com/itextpdf/text/html/simpleparser/IncCell.java	0	0	0	0	143	76
+com.itextpdf.text.html.simpleparser.IncTable	iText-5.0.3.jar	src/core/com/itextpdf/text/html/simpleparser/IncTable.java	0	0	0	0	161	79
+com.itextpdf.text.html.simpleparser.StyleSheet	iText-5.0.3.jar	src/core/com/itextpdf/text/html/simpleparser/StyleSheet.java	0	0	0	0	107	51
+com.itextpdf.text.error_messages.MessageLocalization	iText-5.0.3.jar	src/core/com/itextpdf/text/error_messages/MessageLocalization.java	0	0	0	0	259	125
+com.itextpdf.text.factories.ElementFactory	iText-5.0.3.jar	src/core/com/itextpdf/text/factories/ElementFactory.java	0	0	0	0	424	294
+com.itextpdf.text.factories.GreekAlphabetFactory	iText-5.0.3.jar	src/core/com/itextpdf/text/factories/GreekAlphabetFactory.java	0	0	0	0	126	41
+com.itextpdf.text.factories.RomanAlphabetFactory	iText-5.0.3.jar	src/core/com/itextpdf/text/factories/RomanAlphabetFactory.java	0	0	0	0	124	42
+com.itextpdf.text.factories.RomanNumberFactory	iText-5.0.3.jar	src/core/com/itextpdf/text/factories/RomanNumberFactory.java	0	0	0	0	180	73
+com.itextpdf.text.factories.RomanNumberFactory$RomanDigit	iText-5.0.3.jar	src/core/com/itextpdf/text/factories/RomanNumberFactory.java	0	0	0	2	0	0
+com.itextpdf.text.xml.simpleparser.EntitiesToSymbol	iText-5.0.3.jar	src/core/com/itextpdf/text/xml/simpleparser/EntitiesToSymbol.java	0	0	0	0	375	305
+com.itextpdf.text.xml.simpleparser.EntitiesToUnicode	iText-5.0.3.jar	src/core/com/itextpdf/text/xml/simpleparser/EntitiesToUnicode.java	0	0	0	0	431	322
+com.itextpdf.text.xml.simpleparser.IanaEncodings	iText-5.0.3.jar	src/core/com/itextpdf/text/xml/simpleparser/IanaEncodings.java	0	0	0	0	283	190
+com.itextpdf.text.xml.simpleparser.SimpleXMLDocHandler	iText-5.0.3.jar	src/core/com/itextpdf/text/xml/simpleparser/SimpleXMLDocHandler.java	0	0	0	0	77	9
+com.itextpdf.text.xml.simpleparser.SimpleXMLDocHandlerComment	iText-5.0.3.jar	src/core/com/itextpdf/text/xml/simpleparser/SimpleXMLDocHandlerComment.java	0	0	0	0	56	4
+com.itextpdf.text.xml.simpleparser.SimpleXMLParser	iText-5.0.3.jar	src/core/com/itextpdf/text/xml/simpleparser/SimpleXMLParser.java	0	0	0	0	762	520
+com.itextpdf.rups.view.models.DictionaryTableModel		src/rups/com/itextpdf/rups/view/models/DictionaryTableModel.java	1	2	1	0	95	42
+com.itextpdf.rups.view.models.JTableAutoModel		src/rups/com/itextpdf/rups/view/models/JTableAutoModel.java	1	2	1	0	78	21
+com.itextpdf.rups.view.models.JTableAutoModelInterface		src/rups/com/itextpdf/rups/view/models/JTableAutoModelInterface.java	1	2	1	0	52	7
+com.itextpdf.rups.view.models.PdfArrayTableModel		src/rups/com/itextpdf/rups/view/models/PdfArrayTableModel.java	1	2	1	0	84	32
+com.itextpdf.rups.view.Console		src/rups/com/itextpdf/rups/view/Console.java	1	2	1	0	225	128
+com.itextpdf.rups.view.MessageAction		src/rups/com/itextpdf/rups/view/MessageAction.java	1	2	1	0	43	17
+com.itextpdf.rups.view.PageSelectionListener		src/rups/com/itextpdf/rups/view/PageSelectionListener.java	1	2	1	0	38	4
+com.itextpdf.rups.view.RupsMenuBar		src/rups/com/itextpdf/rups/view/RupsMenuBar.java	1	2	1	0	133	65
+com.itextpdf.text.Anchor	iText-5.0.3.jar	src/core/com/itextpdf/text/Anchor.java	0	0	0	0	303	112
+com.itextpdf.text.Annotation	iText-5.0.3.jar	src/core/com/itextpdf/text/Annotation.java	0	0	0	0	595	185
+com.itextpdf.text.BadElementException	iText-5.0.3.jar	src/core/com/itextpdf/text/BadElementException.java	0	0	0	0	79	13
+com.itextpdf.text.BaseColor	iText-5.0.3.jar	src/core/com/itextpdf/text/BaseColor.java	0	0	0	0	157	89
+com.itextpdf.text.Chapter	iText-5.0.3.jar	src/core/com/itextpdf/text/Chapter.java	0	0	0	0	131	28
+com.itextpdf.text.ChapterAutoNumber	iText-5.0.3.jar	src/core/com/itextpdf/text/ChapterAutoNumber.java	0	0	0	0	121	32
+com.itextpdf.text.Chunk	iText-5.0.3.jar	src/core/com/itextpdf/text/Chunk.java	0	0	0	0	900	282
+com.itextpdf.text.DocListener	iText-5.0.3.jar	src/core/com/itextpdf/text/DocListener.java	0	0	0	0	133	12
+com.itextpdf.text.DocWriter	iText-5.0.3.jar	src/core/com/itextpdf/text/DocWriter.java	0	0	0	0	434	150
+com.itextpdf.text.Document	iText-5.0.3.jar	src/core/com/itextpdf/text/Document.java	0	0	0	0	828	280
+com.itextpdf.text.DocumentException	iText-5.0.3.jar	src/core/com/itextpdf/text/DocumentException.java	0	0	0	0	85	13
+com.itextpdf.text.Element	iText-5.0.3.jar	src/core/com/itextpdf/text/Element.java	0	0	0	0	336	54
+com.itextpdf.text.ElementListener	iText-5.0.3.jar	src/core/com/itextpdf/text/ElementListener.java	0	0	0	0	68	5
+com.itextpdf.text.ElementTags	iText-5.0.3.jar	src/core/com/itextpdf/text/ElementTags.java	0	0	0	0	513	182
+com.itextpdf.text.ExceptionConverter	iText-5.0.3.jar	src/core/com/itextpdf/text/ExceptionConverter.java	0	0	0	0	160	46
+com.itextpdf.text.Font	iText-5.0.3.jar	src/core/com/itextpdf/text/Font.java	0	0	0	0	783	372
+com.itextpdf.text.Font$1	iText-5.0.3.jar	src/core/com/itextpdf/text/Font.java	0	0	0	2	0	0
+com.itextpdf.text.Font$FontFamily	iText-5.0.3.jar	src/core/com/itextpdf/text/Font.java	0	0	0	2	0	0
+com.itextpdf.text.FontFactory	iText-5.0.3.jar	src/core/com/itextpdf/text/FontFactory.java	0	0	0	0	440	112
+com.itextpdf.text.FontFactoryImp	iText-5.0.3.jar	src/core/com/itextpdf/text/FontFactoryImp.java	0	0	0	0	690	390
+com.itextpdf.text.FontProvider	iText-5.0.3.jar	src/core/com/itextpdf/text/FontProvider.java	0	0	0	0	73	6
+com.itextpdf.text.GreekList	iText-5.0.3.jar	src/core/com/itextpdf/text/GreekList.java	0	0	0	0	125	40
+com.itextpdf.text.Header	iText-5.0.3.jar	src/core/com/itextpdf/text/Header.java	0	0	0	0	91	11
+com.itextpdf.text.Image	iText-5.0.3.jar	src/core/com/itextpdf/text/Image.java	0	0	0	0	2033	941
+com.itextpdf.text.ImgCCITT	iText-5.0.3.jar	src/core/com/itextpdf/text/ImgCCITT.java	0	0	0	0	97	26
+com.itextpdf.text.ImgJBIG2	iText-5.0.3.jar	src/core/com/itextpdf/text/ImgJBIG2.java	0	0	0	0	125	44
+com.itextpdf.text.ImgRaw	iText-5.0.3.jar	src/core/com/itextpdf/text/ImgRaw.java	0	0	0	0	91	25
+com.itextpdf.text.ImgTemplate	iText-5.0.3.jar	src/core/com/itextpdf/text/ImgTemplate.java	0	0	0	0	87	24
+com.itextpdf.text.ImgWMF	iText-5.0.3.jar	src/core/com/itextpdf/text/ImgWMF.java	0	0	0	0	185	87
+com.itextpdf.text.Jpeg	iText-5.0.3.jar	src/core/com/itextpdf/text/Jpeg.java	0	0	0	0	345	212
+com.itextpdf.text.Jpeg2000	iText-5.0.3.jar	src/core/com/itextpdf/text/Jpeg2000.java	0	0	0	0	233	138
+com.itextpdf.text.LargeElement	iText-5.0.3.jar	src/core/com/itextpdf/text/LargeElement.java	0	0	0	0	79	6
+com.itextpdf.text.List	iText-5.0.3.jar	src/core/com/itextpdf/text/List.java	0	0	0	0	590	212
+com.itextpdf.text.ListItem	iText-5.0.3.jar	src/core/com/itextpdf/text/ListItem.java	0	0	0	0	248	54
+com.itextpdf.text.MarkedObject	iText-5.0.3.jar	src/core/com/itextpdf/text/MarkedObject.java	0	0	0	0	144	39
+com.itextpdf.text.MarkedSection	iText-5.0.3.jar	src/core/com/itextpdf/text/MarkedSection.java	0	0	0	0	278	90
+com.itextpdf.text.Meta	iText-5.0.3.jar	src/core/com/itextpdf/text/Meta.java	0	0	0	0	223	79
+com.itextpdf.text.PageSize	iText-5.0.3.jar	src/core/com/itextpdf/text/PageSize.java	0	0	0	0	241	78
+com.itextpdf.text.Paragraph	iText-5.0.3.jar	src/core/com/itextpdf/text/Paragraph.java	0	0	0	0	501	180
+com.itextpdf.text.Phrase	iText-5.0.3.jar	src/core/com/itextpdf/text/Phrase.java	0	0	0	0	593	275
+com.itextpdf.text.Rectangle	iText-5.0.3.jar	src/core/com/itextpdf/text/Rectangle.java	0	0	0	0	867	330
+com.itextpdf.text.RectangleReadOnly	iText-5.0.3.jar	src/core/com/itextpdf/text/RectangleReadOnly.java	0	0	0	0	349	104
+com.itextpdf.text.RomanList	iText-5.0.3.jar	src/core/com/itextpdf/text/RomanList.java	0	0	0	0	114	34
+com.itextpdf.text.RtfElementInterface	iText-5.0.3.jar	src/core/com/itextpdf/text/RtfElementInterface.java	0	0	0	0	54	3
+com.itextpdf.text.Section	iText-5.0.3.jar	src/core/com/itextpdf/text/Section.java	0	0	0	0	755	289
+com.itextpdf.text.SpecialSymbol	iText-5.0.3.jar	src/core/com/itextpdf/text/SpecialSymbol.java	0	0	0	0	206	126
+com.itextpdf.text.SplitCharacter	iText-5.0.3.jar	src/core/com/itextpdf/text/SplitCharacter.java	0	0	0	0	90	5
+com.itextpdf.text.TextElementArray	iText-5.0.3.jar	src/core/com/itextpdf/text/TextElementArray.java	0	0	0	0	66	4
+com.itextpdf.text.Utilities	iText-5.0.3.jar	src/core/com/itextpdf/text/Utilities.java	0	0	0	0	361	131
+com.itextpdf.text.ZapfDingbatsList	iText-5.0.3.jar	src/core/com/itextpdf/text/ZapfDingbatsList.java	0	0	0	0	130	43
+com.itextpdf.text.ZapfDingbatsNumberList	iText-5.0.3.jar	src/core/com/itextpdf/text/ZapfDingbatsNumberList.java	0	0	0	0	141	55
+com.itextpdf.text.pdf.crypto.AESCipher	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/crypto/AESCipher.java	0	0	0	0	99	45
+com.itextpdf.text.pdf.crypto.ARCFOUREncryption	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/crypto/ARCFOUREncryption.java	0	0	0	0	100	48
+com.itextpdf.text.pdf.crypto.IVGenerator	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/crypto/IVGenerator.java	0	0	0	0	86	23
+com.itextpdf.rups.Rups		src/rups/com/itextpdf/rups/Rups.java	1	2	1	0	80	38
+com.itextpdf.rups.io.filters.PdfFilter		src/rups/com/itextpdf/rups/io/filters/PdfFilter.java	1	2	1	0	37	14
+com.itextpdf.text.pdf.fonts.FontsResourceAnchor	iText-5.0.3.jar	src/core/com/itextpdf/text/pdf/fonts/FontsResourceAnchor.java	0	0	0	0	59	5
+com.itextpdf.rups.io.FileChooserAction		src/rups/com/itextpdf/rups/io/FileChooserAction.java	1	2	1	0	97	44
+com.itextpdf.rups.io.FileCloseAction		src/rups/com/itextpdf/rups/io/FileCloseAction.java	1	2	1	0	51	13
+com.itextpdf.rups.io.OutputStreamResource		src/rups/com/itextpdf/rups/io/OutputStreamResource.java	1	2	1	0	37	6
+com.itextpdf.rups.io.TextAreaOutputStream		src/rups/com/itextpdf/rups/io/TextAreaOutputStream.java	1	2	1	0	88	37
+#Issues
+#======
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/CJKFont.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/ColorDetails.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/EnumerateTTC.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/FontDetails.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/PageResources.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/PdfColor.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/PdfContents.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/PdfCopyFieldsImp.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/PdfCopyFormsImp.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/PdfFont.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/PdfPageElement.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/PdfReaderInstance.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/PdfResources.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/PdfStamperImp.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/TrueTypeFont.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/TrueTypeFontSubSet.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/TrueTypeFontUnicode.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/Type1Font.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/qrcode/BlockPair.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/qrcode/FormatInformation.java.
+#SRC NO PUBLIC TYPE for src/core/com/itextpdf/text/pdf/qrcode/GF256Poly.java.

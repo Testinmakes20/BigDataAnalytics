@@ -1,0 +1,380 @@
+#2013-09-05T10:01:28NZST
+#System Version : joggplayer-1.1.4s
+#Source Packages: ca.bc.,com.jcraft.
+#Ignore Packages: 
+#Distributed    : src
+#Source Roots   : src
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+FirewallAuthenticator	jOggPlayer.jar		1	1	1	-1	0	0
+ImageHandler	jOggPlayer.jar		1	1	1	-1	0	0
+kiwi.ResourceAnchor		src/kiwi/ResourceAnchor.java	1	2	0	0	47	5
+kiwi.ui.AboutFrame		src/kiwi/ui/AboutFrame.java	1	2	0	0	267	130
+kiwi.ui.AbstractCellEditor		src/kiwi/ui/AbstractCellEditor.java	1	2	0	0	142	58
+kiwi.ui.ArrowButtonView		src/kiwi/ui/ArrowButtonView.java	1	2	0	0	224	104
+kiwi.ui.AudioClip		src/kiwi/ui/AudioClip.java	1	2	0	0	165	55
+kiwi.ui.AudioClipViewer		src/kiwi/ui/AudioClipViewer.java	1	2	0	0	126	50
+kiwi.ui.BooleanCellRenderer		src/kiwi/ui/BooleanCellRenderer.java	1	2	0	0	100	37
+kiwi.ui.ButtonPanel		src/kiwi/ui/ButtonPanel.java	1	2	0	0	321	126
+kiwi.ui.ColorSwatch		src/kiwi/ui/ColorSwatch.java	1	2	0	0	138	44
+kiwi.ui.ColorSwatchCellRenderer		src/kiwi/ui/ColorSwatchCellRenderer.java	1	2	0	0	104	38
+kiwi.ui.ColorTheme		src/kiwi/ui/ColorTheme.java	1	2	0	0	548	381
+kiwi.ui.ColoredCellRenderer		src/kiwi/ui/ColoredCellRenderer.java	1	2	0	0	91	23
+kiwi.ui.ColoredString		src/kiwi/ui/ColoredString.java	1	2	0	0	115	31
+kiwi.ui.ConsoleAdapter		src/kiwi/ui/ConsoleAdapter.java	1	2	0	0	142	64
+kiwi.ui.ConsoleFrame		src/kiwi/ui/ConsoleFrame.java	1	2	0	0	194	74
+kiwi.ui.ContentPanel		src/kiwi/ui/ContentPanel.java	1	2	0	0	155	23
+kiwi.ui.DataField		src/kiwi/ui/DataField.java	1	2	0	0	360	157
+kiwi.ui.DateChooser		src/kiwi/ui/DateChooser.java	1	2	0	0	717	370
+kiwi.ui.DateChooserField		src/kiwi/ui/DateChooserField.java	1	2	0	0	181	86
+kiwi.ui.DateField		src/kiwi/ui/DateField.java	1	2	0	0	155	61
+kiwi.ui.DateRangeHelper		src/kiwi/ui/DateRangeHelper.java	1	2	0	0	160	49
+kiwi.ui.DateTableCellRenderer		src/kiwi/ui/DateTableCellRenderer.java	1	2	0	0	157	55
+kiwi.ui.DocumentBrowserFrame		src/kiwi/ui/DocumentBrowserFrame.java	1	2	0	0	139	53
+kiwi.ui.DocumentBrowserView		src/kiwi/ui/DocumentBrowserView.java	1	2	0	0	211	114
+kiwi.ui.FilesystemListView		src/kiwi/ui/FilesystemListView.java	1	2	0	0	209	80
+kiwi.ui.FilesystemTableView		src/kiwi/ui/FilesystemTableView.java	1	2	0	0	203	74
+kiwi.ui.FilesystemTreeView		src/kiwi/ui/FilesystemTreeView.java	1	2	0	0	216	83
+kiwi.ui.HeaderCellRenderer		src/kiwi/ui/HeaderCellRenderer.java	1	2	0	0	102	38
+kiwi.ui.ImagePanel		src/kiwi/ui/ImagePanel.java	1	2	0	0	125	38
+kiwi.ui.ImageView		src/kiwi/ui/ImageView.java	1	2	0	0	185	91
+kiwi.ui.KButton		src/kiwi/ui/KButton.java	1	2	0	0	93	23
+kiwi.ui.KCheckBox		src/kiwi/ui/KCheckBox.java	1	2	0	0	93	21
+kiwi.ui.KDesktopPane		src/kiwi/ui/KDesktopPane.java	1	2	0	0	91	25
+kiwi.ui.KFileChooser		src/kiwi/ui/KFileChooser.java	1	2	0	0	237	107
+kiwi.ui.KFrame		src/kiwi/ui/KFrame.java	1	2	0	0	284	107
+kiwi.ui.KInternalFrame		src/kiwi/ui/KInternalFrame.java	1	2	0	0	294	105
+kiwi.ui.KLabel		src/kiwi/ui/KLabel.java	1	2	0	0	140	44
+kiwi.ui.KLabelArea		src/kiwi/ui/KLabelArea.java	1	2	0	0	142	42
+kiwi.ui.KPanel		src/kiwi/ui/KPanel.java	1	2	0	0	237	85
+kiwi.ui.KRadioButton		src/kiwi/ui/KRadioButton.java	1	2	0	0	94	23
+kiwi.ui.KScrollPane		src/kiwi/ui/KScrollPane.java	1	2	0	0	92	30
+kiwi.ui.KTable		src/kiwi/ui/KTable.java	1	2	0	0	360	190
+kiwi.ui.KToggleButton		src/kiwi/ui/KToggleButton.java	1	2	0	0	93	23
+kiwi.ui.KiwiTheme		src/kiwi/ui/KiwiTheme.java	1	2	0	0	101	44
+kiwi.ui.LocaleChooser		src/kiwi/ui/LocaleChooser.java	1	2	0	0	113	46
+kiwi.ui.LookAndFeelChooser		src/kiwi/ui/LookAndFeelChooser.java	1	2	0	0	95	34
+kiwi.ui.MarkupProxy		src/kiwi/ui/MarkupProxy.java	1	2	0	0	85	20
+kiwi.ui.MarkupProxyFactory		src/kiwi/ui/MarkupProxyFactory.java	1	2	0	0	57	6
+kiwi.ui.ModelListCellRenderer		src/kiwi/ui/ModelListCellRenderer.java	1	2	0	0	137	51
+kiwi.ui.ModelTableCellRenderer		src/kiwi/ui/ModelTableCellRenderer.java	1	2	0	0	139	53
+kiwi.ui.ModelTreeCellRenderer		src/kiwi/ui/ModelTreeCellRenderer.java	1	2	0	0	146	47
+kiwi.ui.NoAppropriateEditorException		src/kiwi/ui/NoAppropriateEditorException.java	1	2	0	0	71	14
+kiwi.ui.NumericCellEditor		src/kiwi/ui/NumericCellEditor.java	1	2	0	0	203	69
+kiwi.ui.NumericField		src/kiwi/ui/NumericField.java	1	2	0	0	408	163
+kiwi.ui.NumericTableCellRenderer		src/kiwi/ui/NumericTableCellRenderer.java	1	2	0	0	233	84
+kiwi.ui.PathEditor		src/kiwi/ui/PathEditor.java	1	2	0	0	368	243
+kiwi.ui.RepeaterButton		src/kiwi/ui/RepeaterButton.java	1	2	0	0	235	99
+kiwi.ui.ScrollbackView		src/kiwi/ui/ScrollbackView.java	1	2	0	0	211	88
+kiwi.ui.SimpleEditor		src/kiwi/ui/SimpleEditor.java	1	2	0	0	248	103
+kiwi.ui.SimpleStyledEditor		src/kiwi/ui/SimpleStyledEditor.java	1	2	0	0	395	240
+kiwi.ui.SplashScreen		src/kiwi/ui/SplashScreen.java	1	2	0	0	180	70
+kiwi.ui.StackView		src/kiwi/ui/StackView.java	1	2	0	0	205	67
+kiwi.ui.StateIndicator		src/kiwi/ui/StateIndicator.java	1	2	0	0	144	47
+kiwi.ui.StatusBar		src/kiwi/ui/StatusBar.java	1	2	0	0	312	122
+kiwi.ui.TextureViewer		src/kiwi/ui/TextureViewer.java	1	2	0	0	83	21
+kiwi.ui.Thermometer		src/kiwi/ui/Thermometer.java	1	2	0	0	198	93
+kiwi.ui.ToggleIndicator		src/kiwi/ui/ToggleIndicator.java	1	2	0	0	112	27
+kiwi.ui.ToolTipManager		src/kiwi/ui/ToolTipManager.java	1	2	0	0	223	114
+kiwi.ui.ToolTipWindow		src/kiwi/ui/ToolTipWindow.java	1	2	0	4	181	86
+kiwi.ui.TreeTable		src/kiwi/ui/TreeTable.java	1	2	0	0	114	33
+kiwi.ui.UIChangeManager		src/kiwi/ui/UIChangeManager.java	1	2	0	0	361	125
+kiwi.ui.UIElement		src/kiwi/ui/UIElement.java	1	2	0	0	101	27
+kiwi.ui.UIElementChooser		src/kiwi/ui/UIElementChooser.java	1	2	0	0	205	91
+kiwi.ui.UIElementViewer		src/kiwi/ui/UIElementViewer.java	1	2	0	0	65	7
+kiwi.ui.WebBrowser		src/kiwi/ui/WebBrowser.java	1	2	0	0	248	93
+kiwi.ui.WizardPanel		src/kiwi/ui/WizardPanel.java	1	2	0	0	236	68
+kiwi.ui.WizardPanelSequence		src/kiwi/ui/WizardPanelSequence.java	1	2	0	0	333	96
+kiwi.ui.WizardView		src/kiwi/ui/WizardView.java	1	2	0	0	380	167
+kiwi.ui.WorkspaceEditor		src/kiwi/ui/WorkspaceEditor.java	1	2	0	0	495	234
+kiwi.ui.WorkspaceEditorFactory		src/kiwi/ui/WorkspaceEditorFactory.java	1	2	0	0	73	8
+kiwi.ui.WorkspaceManager		src/kiwi/ui/WorkspaceManager.java	1	2	0	0	673	339
+com.jcraft.jogg.Buffer	jOggPlayer.jar	src/com/jcraft/jogg/Buffer.java	0	0	0	0	498	196
+com.jcraft.jogg.Packet	jOggPlayer.jar	src/com/jcraft/jogg/Packet.java	0	0	0	0	82	10
+com.jcraft.jogg.Page	jOggPlayer.jar	src/com/jcraft/jogg/Page.java	0	0	0	0	957	75
+com.jcraft.jogg.StreamState	jOggPlayer.jar	src/com/jcraft/jogg/StreamState.java	0	0	0	0	657	321
+com.jcraft.jogg.SyncState	jOggPlayer.jar	src/com/jcraft/jogg/SyncState.java	0	0	0	0	272	143
+kiwi.text.ParsingException		src/kiwi/text/ParsingException.java	1	2	0	0	104	31
+ca.bc.webarts.widgets.AutoButtonBar	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.widgets.ClassConstants	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.widgets.ColouredLabel	jOggPlayer.jar	src/ca/bc/webarts/widgets/ColouredLabel.java	0	0	0	0	335	122
+ca.bc.webarts.widgets.DirReadBean	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.widgets.DoubleWithError	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.widgets.ExampleFileFilter	AutoUpdatingJOggPlayer.jar,jOggPlayer.jar	src/ca/bc/webarts/widgets/ExampleFileFilter.java	0	0	0	0	242	93
+ca.bc.webarts.widgets.ImageCanvas	jOggPlayer.jar	src/ca/bc/webarts/widgets/ImageCanvas.java	0	0	0	0	124	43
+ca.bc.webarts.widgets.JAboutBox	jOggPlayer.jar	src/ca/bc/webarts/widgets/JAboutBox.java	0	0	0	0	367	219
+ca.bc.webarts.widgets.JAboutBox$1	jOggPlayer.jar	src/ca/bc/webarts/widgets/JAboutBox.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.JAboutBox$2	jOggPlayer.jar	src/ca/bc/webarts/widgets/JAboutBox.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.JAboutBox$3	jOggPlayer.jar	src/ca/bc/webarts/widgets/JAboutBox.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.JAboutBox$4	jOggPlayer.jar	src/ca/bc/webarts/widgets/JAboutBox.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.JAboutBox$5	jOggPlayer.jar	src/ca/bc/webarts/widgets/JAboutBox.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.JAboutBox$6	jOggPlayer.jar	src/ca/bc/webarts/widgets/JAboutBox.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.JCheckDropDown	jOggPlayer.jar	src/ca/bc/webarts/widgets/JCheckDropDown.java	0	0	0	0	887	507
+ca.bc.webarts.widgets.JCheckDropDown$1	jOggPlayer.jar	src/ca/bc/webarts/widgets/JCheckDropDown.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.JCheckDropDown$CheckBoxRenderer	jOggPlayer.jar	src/ca/bc/webarts/widgets/JCheckDropDown.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.JCheckDropDown$ListCheckBoxMouseListsener	jOggPlayer.jar	src/ca/bc/webarts/widgets/JCheckDropDown.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.JCheckDropDown$ListListener	jOggPlayer.jar	src/ca/bc/webarts/widgets/JCheckDropDown.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.JToggleButton	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.widgets.JToggleButton$1	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.widgets.JToggleButton$2	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.widgets.JToggleButton$3	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.widgets.NewsScraper	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.widgets.OggFileRef	jOggPlayer.jar	src/ca/bc/webarts/widgets/PlayList.java	0	0	0	1	0	0
+ca.bc.webarts.widgets.OperatingSystem	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.widgets.PlayList	jOggPlayer.jar	src/ca/bc/webarts/widgets/PlayList.java	0	0	0	0	649	285
+ca.bc.webarts.widgets.PopUpButton	jOggPlayer.jar	src/ca/bc/webarts/widgets/PopUpButton.java	0	0	0	0	715	426
+ca.bc.webarts.widgets.PopUpButton$1	jOggPlayer.jar	src/ca/bc/webarts/widgets/PopUpButton.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.PopUpButton$2	jOggPlayer.jar	src/ca/bc/webarts/widgets/PopUpButton.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.PopUpButton$3	jOggPlayer.jar	src/ca/bc/webarts/widgets/PopUpButton.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.PopUpButton$ListMouseListener	jOggPlayer.jar	src/ca/bc/webarts/widgets/PopUpButton.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.PrintDialog	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.widgets.PrintDialog$1	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.widgets.ProcessRunner	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.widgets.ProcessRunner$Generic	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.widgets.ProcessRunner$Unix	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.widgets.ProcessRunner$Windows	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.widgets.ProcessRunner$Windows9x	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.widgets.ProcessRunner$WindowsNT	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.widgets.ScientificFormat	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.widgets.Splash	jOggPlayer.jar	src/ca/bc/webarts/widgets/Splash.java	0	0	0	0	204	135
+ca.bc.webarts.widgets.StatusBar	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.widgets.StreamPump	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.widgets.UrlGrab	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.widgets.Util	AutoUpdatingJOggPlayer.jar,jOggPlayer.jar	src/ca/bc/webarts/widgets/Util.java	0	0	0	0	2343	1577
+ca.bc.webarts.widgets.WrapperApp	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.widgets.WrapperApp$1	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.widgets.WrapperApp$2	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.widgets.WrapperApp$3	jOggPlayer.jar		0	1	1	2	0	0
+kiwi.event.ChangeSupport		src/kiwi/event/ChangeSupport.java	1	2	0	0	109	35
+kiwi.event.PropertyChangeSource		src/kiwi/event/PropertyChangeSource.java	1	2	0	0	67	7
+com.jcraft.jorbis.AllocChain	jOggPlayer.jar	src/com/jcraft/jorbis/AllocChain.java	0	0	0	4	31	5
+com.jcraft.jorbis.Block	jOggPlayer.jar	src/com/jcraft/jorbis/Block.java	0	0	0	0	188	73
+com.jcraft.jorbis.ChainingExample	jOggPlayer.jar	src/com/jcraft/jorbis/ChainingExample.java	0	0	0	4	61	31
+com.jcraft.jorbis.CodeBook	jOggPlayer.jar	src/com/jcraft/jorbis/CodeBook.java	0	0	0	4	742	379
+com.jcraft.jorbis.Comment	jOggPlayer.jar	src/com/jcraft/jorbis/Comment.java	0	0	0	0	252	170
+com.jcraft.jorbis.DecodeAux	jOggPlayer.jar	src/com/jcraft/jorbis/CodeBook.java	0	0	0	1	0	0
+com.jcraft.jorbis.DecodeExample	jOggPlayer.jar	src/com/jcraft/jorbis/DecodeExample.java	0	0	0	4	316	179
+com.jcraft.jorbis.Drft	jOggPlayer.jar	src/com/jcraft/jorbis/Drft.java	0	0	0	4	1318	1172
+com.jcraft.jorbis.DspState	jOggPlayer.jar	src/com/jcraft/jorbis/DspState.java	0	0	0	0	464	257
+com.jcraft.jorbis.EchstateFloor0	jOggPlayer.jar	src/com/jcraft/jorbis/Floor0.java	0	0	0	1	0	0
+com.jcraft.jorbis.EchstateFloor1	jOggPlayer.jar	src/com/jcraft/jorbis/Floor1.java	0	0	0	1	0	0
+com.jcraft.jorbis.EncodeAuxNearestMatch	jOggPlayer.jar	src/com/jcraft/jorbis/EncodeAuxNearestMatch.java	0	0	0	4	36	9
+com.jcraft.jorbis.EncodeAuxThreshMatch	jOggPlayer.jar	src/com/jcraft/jorbis/EncodeAuxThreshMatch.java	0	0	0	4	33	7
+com.jcraft.jorbis.Floor0	jOggPlayer.jar	src/com/jcraft/jorbis/Floor0.java	0	0	0	4	352	245
+com.jcraft.jorbis.Floor1	jOggPlayer.jar	src/com/jcraft/jorbis/Floor1.java	0	0	0	4	653	495
+com.jcraft.jorbis.FuncFloor	jOggPlayer.jar	src/com/jcraft/jorbis/FuncFloor.java	0	0	0	4	45	14
+com.jcraft.jorbis.FuncMapping	jOggPlayer.jar	src/com/jcraft/jorbis/FuncMapping.java	0	0	0	4	40	11
+com.jcraft.jorbis.FuncResidue	jOggPlayer.jar	src/com/jcraft/jorbis/FuncResidue.java	0	0	0	4	43	14
+com.jcraft.jorbis.FuncTime	jOggPlayer.jar	src/com/jcraft/jorbis/FuncTime.java	0	0	0	4	40	12
+com.jcraft.jorbis.Info	jOggPlayer.jar	src/com/jcraft/jorbis/Info.java	0	0	0	0	516	317
+com.jcraft.jorbis.InfoFloor0	jOggPlayer.jar	src/com/jcraft/jorbis/Floor0.java	0	0	0	1	0	0
+com.jcraft.jorbis.InfoFloor1	jOggPlayer.jar	src/com/jcraft/jorbis/Floor1.java	0	0	0	1	0	0
+com.jcraft.jorbis.InfoMapping0	jOggPlayer.jar	src/com/jcraft/jorbis/Mapping0.java	0	0	0	1	0	0
+com.jcraft.jorbis.InfoMode	jOggPlayer.jar	src/com/jcraft/jorbis/InfoMode.java	0	0	0	4	33	7
+com.jcraft.jorbis.InfoResidue0	jOggPlayer.jar	src/com/jcraft/jorbis/Residue0.java	0	0	0	1	0	0
+com.jcraft.jorbis.JOrbisException	jOggPlayer.jar	src/com/jcraft/jorbis/JOrbisException.java	0	0	0	0	35	9
+com.jcraft.jorbis.LookFloor0	jOggPlayer.jar	src/com/jcraft/jorbis/Floor0.java	0	0	0	1	0	0
+com.jcraft.jorbis.LookFloor1	jOggPlayer.jar	src/com/jcraft/jorbis/Floor1.java	0	0	0	1	0	0
+com.jcraft.jorbis.LookMapping0	jOggPlayer.jar	src/com/jcraft/jorbis/Mapping0.java	0	0	0	1	0	0
+com.jcraft.jorbis.LookResidue0	jOggPlayer.jar	src/com/jcraft/jorbis/Residue0.java	0	0	0	1	0	0
+com.jcraft.jorbis.Lookup	jOggPlayer.jar	src/com/jcraft/jorbis/Lookup.java	0	0	0	4	154	117
+com.jcraft.jorbis.Lpc	jOggPlayer.jar	src/com/jcraft/jorbis/Lpc.java	0	0	0	4	254	86
+com.jcraft.jorbis.Lsfit_acc	jOggPlayer.jar	src/com/jcraft/jorbis/Floor1.java	0	0	0	1	0	0
+com.jcraft.jorbis.Lsp	jOggPlayer.jar	src/com/jcraft/jorbis/Lsp.java	0	0	0	4	111	57
+com.jcraft.jorbis.Mapping0	jOggPlayer.jar	src/com/jcraft/jorbis/Mapping0.java	0	0	0	4	566	272
+com.jcraft.jorbis.Mdct	jOggPlayer.jar	src/com/jcraft/jorbis/Mdct.java	0	0	0	4	249	174
+com.jcraft.jorbis.PsyInfo	jOggPlayer.jar	src/com/jcraft/jorbis/PsyInfo.java	0	0	0	4	72	38
+com.jcraft.jorbis.PsyLook	jOggPlayer.jar	src/com/jcraft/jorbis/PsyLook.java	0	0	0	4	187	12
+com.jcraft.jorbis.Residue0	jOggPlayer.jar	src/com/jcraft/jorbis/Residue0.java	0	0	0	4	454	257
+com.jcraft.jorbis.Residue1	jOggPlayer.jar	src/com/jcraft/jorbis/Residue1.java	0	0	0	4	51	22
+com.jcraft.jorbis.Residue2	jOggPlayer.jar	src/com/jcraft/jorbis/Residue2.java	0	0	0	4	44	14
+com.jcraft.jorbis.StaticCodeBook	jOggPlayer.jar	src/com/jcraft/jorbis/StaticCodeBook.java	0	0	0	4	588	296
+com.jcraft.jorbis.Time0	jOggPlayer.jar	src/com/jcraft/jorbis/Time0.java	0	0	0	4	38	11
+com.jcraft.jorbis.VorbisFile	jOggPlayer.jar	src/com/jcraft/jorbis/VorbisFile.java	0	0	0	0	1222	810
+com.jcraft.jorbis.VorbisFile$SeekableInputStream	jOggPlayer.jar	src/com/jcraft/jorbis/VorbisFile.java	0	0	0	2	0	0
+ca.bc.webarts.JOggPlayerAutoUpdating	AutoUpdatingJOggPlayer.jar,jOggPlayer.jar	src/ca/bc/webarts/JOggPlayerAutoUpdating.java	0	0	0	4	73	20
+ca.bc.webarts.jOggPlayer	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	0	4589	3165
+ca.bc.webarts.jOggPlayer$1	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$10	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$11	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$12	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$13	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$14	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$15	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$16	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$17	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$18	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$19	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$2	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$20	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$21	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$22	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$23	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$24	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$25	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$26	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$27	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$28	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$29	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$3	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$30	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$31	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$32	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$33	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$34	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$35	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$36	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$37	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$4	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$5	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$6	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$7	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$8	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+ca.bc.webarts.jOggPlayer$9	jOggPlayer.jar	src/ca/bc/webarts/jOggPlayer.java	0	0	0	2	0	0
+org.jconfig.ConfigurationManager		src/org/jconfig/ConfigurationManager.java	1	2	0	0	563	413
+org.jconfig.ConfigurationManagerException		src/org/jconfig/ConfigurationManagerException.java	1	2	0	0	10	8
+kiwi.util.ArraySequence		src/kiwi/util/ArraySequence.java	1	2	0	0	106	30
+kiwi.util.Assert		src/kiwi/util/Assert.java	1	2	0	0	75	10
+kiwi.util.AssertionException		src/kiwi/util/AssertionException.java	1	2	0	0	66	12
+kiwi.util.BooleanHolder		src/kiwi/util/BooleanHolder.java	1	2	0	0	128	35
+kiwi.util.CommandDispatcher		src/kiwi/util/CommandDispatcher.java	1	2	0	0	296	117
+kiwi.util.CommandProcessor		src/kiwi/util/CommandProcessor.java	1	2	0	0	89	8
+kiwi.util.Comparator		src/kiwi/util/Comparator.java	1	2	0	0	57	5
+kiwi.util.ComponentPrinter		src/kiwi/util/ComponentPrinter.java	1	2	0	0	123	37
+kiwi.util.Config		src/kiwi/util/Config.java	1	2	0	0	519	188
+kiwi.util.Counter		src/kiwi/util/Counter.java	1	2	0	0	81	20
+kiwi.util.DateHolder		src/kiwi/util/DateHolder.java	1	2	0	0	131	37
+kiwi.util.DirectoryPath		src/kiwi/util/DirectoryPath.java	1	2	0	0	153	57
+kiwi.util.DoubleHolder		src/kiwi/util/DoubleHolder.java	1	2	0	0	128	35
+kiwi.util.ExceptionHandler		src/kiwi/util/ExceptionHandler.java	1	2	0	0	59	5
+kiwi.util.FileLoggingEndpoint		src/kiwi/util/FileLoggingEndpoint.java	1	2	0	0	106	35
+kiwi.util.FloatHolder		src/kiwi/util/FloatHolder.java	1	2	0	0	128	35
+kiwi.util.HashCodeComparator		src/kiwi/util/HashCodeComparator.java	1	2	0	0	73	12
+kiwi.util.HolderObject		src/kiwi/util/HolderObject.java	1	2	0	0	108	22
+kiwi.util.IntegerHolder		src/kiwi/util/IntegerHolder.java	1	2	0	0	128	35
+kiwi.util.IntervalTimer		src/kiwi/util/IntervalTimer.java	1	2	0	0	186	72
+kiwi.util.KiwiUtils		src/kiwi/util/KiwiUtils.java	1	2	0	0	662	266
+kiwi.util.ListConsumer		src/kiwi/util/ListConsumer.java	1	2	0	0	54	5
+kiwi.util.LocaleData		src/kiwi/util/LocaleData.java	1	2	0	0	203	53
+kiwi.util.LocaleManager		src/kiwi/util/LocaleManager.java	1	2	0	0	954	355
+kiwi.util.LoggingEndpoint		src/kiwi/util/LoggingEndpoint.java	1	2	0	0	79	11
+kiwi.util.LoggingMux		src/kiwi/util/LoggingMux.java	1	2	0	0	133	42
+kiwi.util.MergeSort		src/kiwi/util/MergeSort.java	1	2	0	0	158	68
+kiwi.util.NotImplementedException		src/kiwi/util/NotImplementedException.java	1	2	0	0	69	12
+kiwi.util.NullLoggingEndpoint		src/kiwi/util/NullLoggingEndpoint.java	1	2	0	0	69	13
+kiwi.util.ProgressObserver		src/kiwi/util/ProgressObserver.java	1	2	0	0	54	5
+kiwi.util.RawLoggingEndpoint		src/kiwi/util/RawLoggingEndpoint.java	1	2	0	0	80	18
+kiwi.util.ReplacementClassLoader		src/kiwi/util/ReplacementClassLoader.java	1	2	0	0	172	83
+kiwi.util.Resource		src/kiwi/util/Resource.java	1	2	0	0	61	6
+kiwi.util.ResourceDecoder		src/kiwi/util/ResourceDecoder.java	1	2	0	0	176	57
+kiwi.util.ResourceLoader		src/kiwi/util/ResourceLoader.java	1	2	0	0	203	66
+kiwi.util.ResourceManager		src/kiwi/util/ResourceManager.java	1	2	0	0	461	195
+kiwi.util.ResourceNotFoundException		src/kiwi/util/ResourceNotFoundException.java	1	2	0	0	65	12
+kiwi.util.ResourcePool		src/kiwi/util/ResourcePool.java	1	2	0	0	165	58
+kiwi.util.Sequence		src/kiwi/util/Sequence.java	1	2	0	0	64	7
+kiwi.util.StreamUtils		src/kiwi/util/StreamUtils.java	1	2	0	0	141	39
+kiwi.util.StringComparator		src/kiwi/util/StringComparator.java	1	2	0	0	100	25
+kiwi.util.StringHolder		src/kiwi/util/StringHolder.java	1	2	0	0	138	37
+kiwi.util.StringUtils		src/kiwi/util/StringUtils.java	1	2	0	0	194	88
+kiwi.util.TaggedObject		src/kiwi/util/TaggedObject.java	1	2	0	0	125	33
+kiwi.util.Task		src/kiwi/util/Task.java	1	2	0	0	104	27
+kiwi.util.TimerPool		src/kiwi/util/TimerPool.java	1	2	0	0	89	21
+kiwi.util.VectorSequence		src/kiwi/util/VectorSequence.java	1	2	0	0	105	30
+kiwi.util.VectorUtils		src/kiwi/util/VectorUtils.java	1	2	0	0	337	141
+ca.bc.webarts.widgets.dnd.DnDList	jOggPlayer.jar	src/ca/bc/webarts/widgets/dnd/DnDList.java	0	0	0	0	265	127
+ca.bc.webarts.widgets.dnd.DnDList$1	jOggPlayer.jar	src/ca/bc/webarts/widgets/dnd/DnDList.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.dnd.FileDrop	jOggPlayer.jar	src/ca/bc/webarts/widgets/dnd/FileDrop.java	0	0	0	0	621	329
+ca.bc.webarts.widgets.dnd.FileDrop$1	jOggPlayer.jar	src/ca/bc/webarts/widgets/dnd/FileDrop.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.dnd.FileDrop$2	jOggPlayer.jar	src/ca/bc/webarts/widgets/dnd/FileDrop.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.dnd.FileDrop$3	jOggPlayer.jar	src/ca/bc/webarts/widgets/dnd/FileDrop.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.dnd.FileDrop$Listener	jOggPlayer.jar	src/ca/bc/webarts/widgets/dnd/FileDrop.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.dnd.FileDropBean	jOggPlayer.jar	src/ca/bc/webarts/widgets/dnd/FileDropBean.java	0	0	0	0	139	42
+ca.bc.webarts.widgets.dnd.FileDropBean$1	jOggPlayer.jar	src/ca/bc/webarts/widgets/dnd/FileDropBean.java	0	0	0	2	0	0
+ca.bc.webarts.widgets.dnd.FileDropBeanBeanInfo	jOggPlayer.jar	src/ca/bc/webarts/widgets/dnd/FileDropBeanBeanInfo.java	0	0	0	0	189	79
+ca.bc.webarts.widgets.dnd.FileDropEvent	jOggPlayer.jar	src/ca/bc/webarts/widgets/dnd/FileDropEvent.java	0	0	0	0	73	12
+ca.bc.webarts.widgets.dnd.FileDropListener	jOggPlayer.jar	src/ca/bc/webarts/widgets/dnd/FileDropListener.java	0	0	0	0	56	5
+ca.bc.webarts.widgets.dnd.TransferableObject	jOggPlayer.jar	src/ca/bc/webarts/widgets/dnd/TransferableObject.java	0	0	0	0	287	65
+ca.bc.webarts.widgets.dnd.TransferableObject$Fetcher	jOggPlayer.jar	src/ca/bc/webarts/widgets/dnd/TransferableObject.java	0	0	0	2	0	0
+ca.bc.webarts.tools.AliveURL	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.AliveURL$Playback	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.tools.AutoUpdateApp	AutoUpdatingJOggPlayer.jar,jOggPlayer.jar	src/ca/bc/webarts/tools/AutoUpdateApp.java	0	0	0	0	1489	782
+ca.bc.webarts.tools.BlindMailSend	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.CombineTwoPDF	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.ConcatPDF	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.DeletePDFPages	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.EasyBak	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.EasyBak$1	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.tools.InterMergePDF	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.JVoice	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.Log	AutoUpdatingJOggPlayer.jar,jOggPlayer.jar	src/ca/bc/webarts/tools/Log.java	0	0	0	0	835	434
+ca.bc.webarts.tools.MsvXmlValidator	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.MsvXmlValidator$1	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.tools.MsvXmlValidator$2	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.tools.MsvXmlValidator$3	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.tools.MultiZip	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.NativeAppLauncher	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.PrintPhotoDir	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.Recorder	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.Recorder$1	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.tools.RecurseOgg2Mp3	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.ReduceImage	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.ReduceJPEG	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.ReduceJPEGSize	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.ReducePNG	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.RenameOggDirFiles	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.SplitForBurn	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.StreamGobbler	AutoUpdatingJOggPlayer.jar,jOggPlayer.jar	src/ca/bc/webarts/tools/StreamGobbler.java	0	0	0	0	294	152
+ca.bc.webarts.tools.TestApp	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.TimedApp	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.TimedAppAdmin	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.TimedAppRunner	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.TwoUpPDF	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.UnZipper	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.X10Buttons	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.X10Buttons$1	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.tools.X10Buttons$2	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.tools.X10Buttons$3	jOggPlayer.jar		0	1	1	2	0	0
+ca.bc.webarts.tools.ZipWatcher	jOggPlayer.jar		0	1	1	3	0	0
+ca.bc.webarts.tools.Zipper	jOggPlayer.jar		0	1	1	3	0	0
+#Issues
+#======
+#JAR: No package for FirewallAuthenticator.class
+#JAR: No package for ImageHandler.class
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/joggplayer/joggplayer-1.1.4s/src/AutoUpdatingJOggPlayer.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/joggplayer/joggplayer-1.1.4s/src/jOggPlayer.jar in <src> ignored.
+#SRC NO PUBLIC TYPE for src/ca/bc/webarts/JOggPlayerAutoUpdating.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/AllocChain.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/ChainingExample.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/CodeBook.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/DecodeExample.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/Drft.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/EncodeAuxNearestMatch.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/EncodeAuxThreshMatch.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/Floor0.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/Floor1.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/FuncFloor.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/FuncMapping.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/FuncResidue.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/FuncTime.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/InfoMode.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/Lookup.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/Lpc.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/Lsp.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/Mapping0.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/Mdct.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/PsyInfo.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/PsyLook.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/Residue0.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/Residue1.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/Residue2.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/StaticCodeBook.java.
+#SRC NO PUBLIC TYPE for src/com/jcraft/jorbis/Time0.java.
+#SRC NO PUBLIC TYPE for src/kiwi/ui/ToolTipWindow.java.

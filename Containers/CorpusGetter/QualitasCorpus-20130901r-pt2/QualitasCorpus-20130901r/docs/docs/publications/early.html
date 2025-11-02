@@ -1,0 +1,196 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../src/styles.css" />
+
+<title>Early Development of the Corpus</title>
+
+</head>
+
+<body>
+<h1>Early Development of the Corpus</h1>
+
+These publications were based on the corpus before its organisation into a
+form for external distribution. They are listed in order the studies were
+carried out, rather than publication order (which due to the vagarities of
+publication schedules can be quite different), in order to provide a view of
+the growth of the corpus.
+
+<small>
+<ol>
+<li>
+Hayden Melton and Ewan Tempero. Identifying Refactoring Opportunities by
+Identifying Dependency Cycles. In Proceedings of the Twenty-Ninth Australasian
+Computer Science Conference, Hobart, Australia, January 2006.
+<a href="http://crpit.com/abstracts/CRPITV48Melton.html">[Publisher]</a>
+<blockquote>
+This paper discussed Azureus, Tomcat, Eclipse, and Netbeans, although
+a few more (probably about 10 in total) systems had been
+gathered, using the <a href="http://doi.acm.org/10.1145/504282.504300">
+Purdue Benchmark Suite</a> as the starting point. At
+this point only sources were being gathered.
+</blockquote>
+
+<li> Hayden Melton and Ewan Tempero. The CRSS Metric for Package Design Quality.
+In Proceedings of the Thirtieth Australasian Computer Science Conference,
+Ballarat, Australia, January 2007.
+<a href="http://crpit.com/abstracts/CRPITV62Melton2.html">[Publisher]</a>
+<blockquote>
+This study was on the source of 21 systems.
+</blockquote>
+
+<li>
+Homan Ma, Robert Amor and Ewan Tempero.
+Usage Patterns of the Java Standard API.
+In Proceedings of the 13th Asia Pacific Software Engineering
+Conference (APSEC'06),
+Bangalore, India.
+<a href="http://dx.doi.org/10.1109/APSEC.2006.60">[DOI]</a>
+<blockquote>
+This study was on the
+source code of the latest versions we had of 76 systems.
+</blockquote>
+
+
+<li> Homan Ma, Robert Amor and Ewan
+Tempero <a href="http://doi.ieeecomputersociety.org/10.1109/ASWEC.2008.33">Indexing
+the Java API Using Source Code</a> <em>Australian Software Engineering
+Conference (ASWEC)</em>, <em>Perth,
+Australia</em>. <em>March</em> <em>2008</em>. pp. 451-460.
+</li>
+<blockquote>
+This study was on the
+source code of the latest versions we had of 76 systems.
+</blockquote>
+
+<li>
+Hayden Melton and Ewan Tempero. An Empirical Study of Cycles among Classes in
+Java. In Empirical Software Engineering: An International Journal, vol. 12,
+num. 4, August 2007. <a href="http://dx.doi.org/10.1007/s10664-006-9033-1">[DOI]</a>
+
+<blockquote>
+This study was on the bytecode of 78 systems, 8 of which were commercial.
+It was around the time of this study that we began deliberately 
+gathering multiple versions of systems for longitudinal studies.
+</blockquote>
+<!--
+-78 Open-source and closed-source systems (some were offsite, because
+the companies wouldn't release their source code to us).
+- Realised we needed both the source and binaries during the course of doing
+this work (time and effort to make things compile (compiling eclipse was taking
+over 10mins on my box, finding all the libraires, modifying all the ant scripts
+just made things too diifcult).
+- Realised we needed to store where we got the software from, what the domain
+was etc to justify representativeness.
+- Realised we needed to demarcate source-declared classes from library
+classes when doing bytecode analysis (did so using package prefixes)
+- ALSO added multiple versions of each system to do what Notkin terms
+``longitudinal analysis''.
+-->
+
+<li>
+Hong Yul Yang and Ewan Tempero.
+Measuring the Strength of Indirect Coupling.
+In Proceedings of 2007 Australian Software Engineering Conference
+(ASWEC'07), Melbourne, Australia.
+<a href="http://dx.doi.org/10.1109/ASWEC.2007.28">[DOI]</a>
+<blockquote>
+This study was on the bytecode of about 30 systems.
+</blockquote>
+
+<li>
+Gareth Baxter, Marcus Frean, James Noble, Mark Rickerby, Hayden Smith, Matt
+Visser, Hayden Melton and Ewan Tempero. Understanding the Shape of Java
+Software. In OOPSLA 2006 Proceedings, Portland, Oregon, USA, October 2006.
+
+<blockquote>
+This study was on the bytecode of 56 systems.
+</blockquote>
+
+<!--
+-Integrated what the ElvisBrain group at Vic had in their corpus into ours
+(had to redownload all their stuff from the internet in order to record website
+downloaded from, domain, etc).
+-56 systems (just the open-source ones from the corpus, no longitudinal
+analysis).
+-->
+
+<li>
+Hayden Melton and Ewan Tempero. JooJ: Real-time Support for Avoiding Cyclic
+Dependencies. In Proceedings of the Thirtieth Australasian Computer Science
+Conference, Ballarat, Australia, January 2007.
+<blockquote>
+This used systems in the corpus to test the performance
+(space and time) of the tool the paper reports on.
+</blockquote>
+<!--
+- Used only a subset of the corpus (for space reasons in the paper) to test
+the performance (Space and time) of a tool for analysing code in real time (as
+it's written).
+-->
+
+<li>
+Hayden Melton and Ewan Tempero. Static Members and Cycles in Java Software.
+In Proceedings of the First International Symposium on Empirical Software
+Engineering and Measurement, Madrid, Spain, September 2007.
+
+<blockquote>
+This study was on the bytecode of the latest versions
+we had of 81 systems.
+</blockquote>
+
+<!--
+- First situation where doing something in source code would have been
+difficult. Bytecode has all the name bindings and a special invokestatic or
+get- and set-static instructions for doing a correlation between cycles and
+static members.
+-Used 81 systems, only latest versions in the corpus.
+-->
+
+<li>
+Richard Barker and Ewan Tempero.
+A Large-Scale Empirical Comparison of Object-Oriented Cohesion Metrics.
+In Proceedings of
+14th Asia-Pacific Software Engineering Conference (APSEC'07),
+Nagoya, Japan.
+
+<blockquote>
+This study was on the source code of
+the latest versions we had of 92 systems, 80 open-
+source and 12 closed-source.
+</blockquote>
+
+
+<li>
+Hong Yul Yang, Hayden Melton and Ewan Tempero 'An Empirical Study into
+Use of Dependency Injection in Java' <EM>19th Australian Software
+Engineering Conference (ASWEC)</EM>, Software Engineering Research Report,
+University of Auckland <em>Perth, Australia</em>. <em>March</em>
+<em>2008</em>. pp. 239-247. 
+<a href="http://doi.ieeecomputersociety.org/10.1109/ASWEC.2008.35">[DOI]</a>
+
+<blockquote>
+This study was on the bytecode of 34 systems.
+</blockquote>
+<!-- (hayden)
+-30 open-source java apps. Could only do the small ones because of Hong Yul's
+tool.
+-->
+
+<li>
+<P> Ewan Tempero, James Noble and Hayden Melton 'How do Java Programs Use
+Inheritance? An Empirical Study of Inheritance in Java Software' <EM>22nd
+European Conference on Object-Oriented Programming (ECOOP)</EM>, Springer
+Berlin / Heidelberg <em>Paphos,
+Cyprus</em>. <em>July</em> <em>2008</em>. pp. 667-691. 
+<a href="http://dx.doi.org/10.1007/978-3-540-70592-5_28">[DOI]</a>
+
+<blockquote>
+This study was on the bytecode of 93 open-source systems, however
+it included longitudinal studies of all systems for which we
+had multiple versions (although only some appear in the paper).
+</blockquote>
+</ol>
+</small>
+<!--#include virtual="../src/tail.html" -->
+</body>
+</html>

@@ -1,0 +1,471 @@
+#2013-09-05T10:01:20NZST
+#System Version : jpf-1.5.1
+#Source Packages: org.java.plugin
+#Ignore Packages: 
+#Distributed    : source,source-boot,source-tools
+#Source Roots   : source,source-boot,source-tools
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+org.apache.commons.logging.impl.AvalonLogger	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.impl.Jdk14Logger	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.impl.Log4JCategoryLog	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.impl.Log4JLogger	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.impl.Log4jFactory	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.impl.LogFactoryImpl	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.impl.LogFactoryImpl$1	lib/commons-logging.jar		1	1	1	2	0	0
+org.apache.commons.logging.impl.LogKitLogger	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.impl.NoOpLog	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.impl.SimpleLog	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.impl.SimpleLog$1	lib/commons-logging.jar		1	1	1	2	0	0
+org.java.plugin.tools.ant.BaseJpfTask	jpf-tools.jar	source-tools/org/java/plugin/tools/ant/BaseJpfTask.java	0	0	0	0	296	234
+org.java.plugin.tools.ant.CheckTask	jpf-tools.jar	source-tools/org/java/plugin/tools/ant/CheckTask.java	0	0	0	0	71	38
+org.java.plugin.tools.ant.DocTask	jpf-tools.jar	source-tools/org/java/plugin/tools/ant/DocTask.java	0	0	0	0	150	94
+org.java.plugin.tools.ant.PackTask	jpf-tools.jar	source-tools/org/java/plugin/tools/ant/PackTask.java	0	0	0	0	57	24
+org.java.plugin.tools.ant.PathTask	jpf-tools.jar	source-tools/org/java/plugin/tools/ant/PathTask.java	0	0	0	0	189	136
+org.java.plugin.tools.ant.PluginInfoTask	jpf-tools.jar	source-tools/org/java/plugin/tools/ant/PluginInfoTask.java	0	0	0	0	169	93
+org.java.plugin.tools.ant.SingleFilePluginTask	jpf-tools.jar	source-tools/org/java/plugin/tools/ant/SingleFilePluginTask.java	0	0	0	0	84	51
+org.java.plugin.tools.ant.SortTask	jpf-tools.jar	source-tools/org/java/plugin/tools/ant/SortTask.java	0	0	0	0	220	154
+org.java.plugin.tools.ant.UnpackTask	jpf-tools.jar	source-tools/org/java/plugin/tools/ant/UnpackTask.java	0	0	0	0	78	41
+org.java.plugin.tools.ant.VersionUpdateTask	jpf-tools.jar	source-tools/org/java/plugin/tools/ant/VersionUpdateTask.java	0	0	0	0	400	336
+org.java.plugin.tools.ant.VersionUpdateTask$PluginInfo	jpf-tools.jar	source-tools/org/java/plugin/tools/ant/VersionUpdateTask.java	0	0	0	2	0	0
+org.onemind.jxp.parser.AstAndAssignExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstArguments	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstArrayAllocationExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstArrayDims	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstArrayInitializer	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstArrayReference	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstAssertStatement	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstAssignExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstBangUnaryExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstBitAndExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstBitwiseAndAssignExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstBitwiseAndExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstBitwiseComplementExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstBitwiseOrAssignExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstBitwiseOrExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstBitwiseXOrAssignExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstBitwiseXOrExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstBlock	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstBlockStatement	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstBreakStatement	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstCase	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstCastExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstCastLookahead	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstCatchBlock	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstConditionalAndExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstConditionalOrExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstContent	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstContinueStatement	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstDivideAssignExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstDivideExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstDoStatement	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstEQExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstEmptyStatement	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstEnhancedForStatement	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstExclusiveOrExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstExitStatement	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstField	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstFieldDeclaration	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstFieldReference	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstFinallyBlock	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstForInit	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstForStatement	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstForUpdate	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstFormalParameter	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstFormalParameters	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstFunctionDeclaration	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstFunctionDeclarator	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstGEExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstGTExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstHookExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstIfStatement	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstImportDeclaration	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstInclusiveOrExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstInstanceOfExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstJxpDocument	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstLEExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstLExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstLShiftAssignExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstLShiftExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstLTExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstLabeledStatement	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstLiteral	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstLocalVariableDeclaration	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstLogicalComplementExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstMethodCall	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstMethodInvocation	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstMinusAssignExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstMinusExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstMultiplyAssignExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstMultiplyExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstNEExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstName	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstNameList	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstObjectAllocationExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstOrAssignExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstPlusAssignExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstPlusExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstPostDecrementExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstPostIncrementExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstPostfixDecrementExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstPostfixIncrementExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstPreDecrementExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstPreIncrementExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstPrimaryExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstPrimarySuffix	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstPrimitiveType	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstPrintStatement	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstRSignedShiftAssignExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstRSignedShiftExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstRUnsignedShiftAssignExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstRUnsignedShiftExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstRemAssignExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstRemainderExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstReturnStatement	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstSlashAssignExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstSlashExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstStarAssignExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstStatementExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstStatementExpressionList	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstStaticImportDeclaration	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstSwitchStatement	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstSynchronizedStatement	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstThrowStatement	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstTildeUnaryExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstTryStatement	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstType	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstUnaryMinusExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstUnaryPlusExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstVariableDeclarator	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstVariableDeclaratorId	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstVariableParameters	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstWhileStatement	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.AstXOrAssignExpression	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.JJTJxpParserState	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.JavaCharStream	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.JxpParser	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.JxpParser$1	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.jxp.parser.JxpParser$JJCalls	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.jxp.parser.JxpParser$LookaheadSuccess	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.jxp.parser.JxpParserConstants	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.JxpParserTokenManager	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.JxpParserTreeConstants	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.JxpParserVisitor	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.Node	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.ParseException	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.SimpleNode	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.Token	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.parser.TokenMgrError	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.lang.reflect.ClassLookupCache	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.lang.reflect.ReflectUtils	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.lang.reflect.ReflectUtils$MethodKey	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.commons.java.event.EventFirer	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.event.EventListener	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.event.EventListenerList	lib/jxp.jar		1	1	1	-1	0	0
+org.java.plugin.boot.Application	jpf-boot.jar	source-boot/org/java/plugin/boot/Application.java	0	0	0	0	35	4
+org.java.plugin.boot.ApplicationInitializer	jpf-boot.jar	source-boot/org/java/plugin/boot/ApplicationInitializer.java	0	0	0	0	62	7
+org.java.plugin.boot.ApplicationPlugin	jpf-boot.jar	source-boot/org/java/plugin/boot/ApplicationPlugin.java	0	0	0	0	48	7
+org.java.plugin.boot.Boot	jpf-boot.jar	source-boot/org/java/plugin/boot/Boot.java	0	0	0	0	765	477
+org.java.plugin.boot.BootErrorHandler	jpf-boot.jar	source-boot/org/java/plugin/boot/BootErrorHandler.java	0	0	0	0	60	9
+org.java.plugin.boot.BootErrorHandlerConsole	jpf-boot.jar	source-boot/org/java/plugin/boot/BootErrorHandlerConsole.java	0	0	0	0	75	20
+org.java.plugin.boot.BootErrorHandlerGui	jpf-boot.jar	source-boot/org/java/plugin/boot/BootErrorHandlerGui.java	0	0	0	0	80	34
+org.java.plugin.boot.ControlThread	jpf-boot.jar	source-boot/org/java/plugin/boot/ControlThread.java	0	0	0	4	343	303
+org.java.plugin.boot.DefaultApplicationInitializer	jpf-boot.jar	source-boot/org/java/plugin/boot/DefaultApplicationInitializer.java	0	0	0	0	381	247
+org.java.plugin.boot.DefaultPluginsCollector	jpf-boot.jar	source-boot/org/java/plugin/boot/DefaultPluginsCollector.java	0	0	0	0	239	155
+org.java.plugin.boot.DefaultPluginsCollector$LocationsDescriptorHandler	jpf-boot.jar	source-boot/org/java/plugin/boot/DefaultPluginsCollector.java	0	0	0	2	0	0
+org.java.plugin.boot.ErrorDialog	jpf-boot.jar	source-boot/org/java/plugin/boot/ErrorDialog.java	0	0	0	0	533	380
+org.java.plugin.boot.ErrorDialog$1	jpf-boot.jar	source-boot/org/java/plugin/boot/ErrorDialog.java	0	0	0	2	0	0
+org.java.plugin.boot.ErrorDialog$2	jpf-boot.jar	source-boot/org/java/plugin/boot/ErrorDialog.java	0	0	0	2	0	0
+org.java.plugin.boot.ErrorDialog$3	jpf-boot.jar	source-boot/org/java/plugin/boot/ErrorDialog.java	0	0	0	2	0	0
+org.java.plugin.boot.ErrorDialog$4	jpf-boot.jar	source-boot/org/java/plugin/boot/ErrorDialog.java	0	0	0	2	0	0
+org.java.plugin.boot.PluginsCollector	jpf-boot.jar	source-boot/org/java/plugin/boot/PluginsCollector.java	0	0	0	0	50	8
+org.java.plugin.boot.ServiceApplication	jpf-boot.jar	source-boot/org/java/plugin/boot/ServiceApplication.java	0	0	0	0	34	4
+org.java.plugin.boot.SimpleSplashHandler	jpf-boot.jar	source-boot/org/java/plugin/boot/Boot.java	0	0	0	1	0	0
+org.java.plugin.boot.SplashHandler	jpf-boot.jar	source-boot/org/java/plugin/boot/SplashHandler.java	0	0	0	0	95	15
+org.java.plugin.boot.SplashHandlerWrapper	jpf-boot.jar	source-boot/org/java/plugin/boot/Boot.java	0	0	0	1	0	0
+org.java.plugin.boot.SplashWindow	jpf-boot.jar	source-boot/org/java/plugin/boot/SplashWindow.java	0	0	0	4	210	119
+org.java.plugin.boot.SplashWindow$1	jpf-boot.jar	source-boot/org/java/plugin/boot/SplashWindow.java	0	0	0	2	0	0
+org.java.plugin.tools.docgen.ClassPathPageSource	jpf-tools.jar	source-tools/org/java/plugin/tools/docgen/ClassPathPageSource.java	0	0	0	4	85	63
+org.java.plugin.tools.docgen.DocGenerator	jpf-tools.jar	source-tools/org/java/plugin/tools/docgen/DocGenerator.java	0	0	0	0	511	348
+org.java.plugin.tools.docgen.DocGenerator$IdentityComparator	jpf-tools.jar	source-tools/org/java/plugin/tools/docgen/DocGenerator.java	0	0	0	2	0	0
+org.java.plugin.tools.docgen.DocGenerator$Tool	jpf-tools.jar	source-tools/org/java/plugin/tools/docgen/DocGenerator.java	0	0	0	2	0	0
+org.java.plugin.registry.Documentable	jpf.jar	source/org/java/plugin/registry/Documentable.java	0	0	0	0	38	5
+org.java.plugin.registry.Documentation	jpf.jar	source/org/java/plugin/registry/Documentation.java	0	0	0	0	70	13
+org.java.plugin.registry.Documentation$Reference	jpf.jar	source/org/java/plugin/registry/Documentation.java	0	0	0	2	0	0
+org.java.plugin.registry.Extension	jpf.jar	source/org/java/plugin/registry/Extension.java	0	0	0	0	201	32
+org.java.plugin.registry.Extension$Parameter	jpf.jar	source/org/java/plugin/registry/Extension.java	0	0	0	2	0	0
+org.java.plugin.registry.ExtensionMultiplicity	jpf.jar	source/org/java/plugin/registry/ExtensionMultiplicity.java	0	0	0	0	97	37
+org.java.plugin.registry.ExtensionMultiplicity$1	jpf.jar	source/org/java/plugin/registry/ExtensionMultiplicity.java	0	0	0	2	0	0
+org.java.plugin.registry.ExtensionMultiplicity$2	jpf.jar	source/org/java/plugin/registry/ExtensionMultiplicity.java	0	0	0	2	0	0
+org.java.plugin.registry.ExtensionMultiplicity$3	jpf.jar	source/org/java/plugin/registry/ExtensionMultiplicity.java	0	0	0	2	0	0
+org.java.plugin.registry.ExtensionMultiplicity$4	jpf.jar	source/org/java/plugin/registry/ExtensionMultiplicity.java	0	0	0	2	0	0
+org.java.plugin.registry.ExtensionPoint	jpf.jar	source/org/java/plugin/registry/ExtensionPoint.java	0	0	0	0	183	29
+org.java.plugin.registry.ExtensionPoint$ParameterDefinition	jpf.jar	source/org/java/plugin/registry/ExtensionPoint.java	0	0	0	2	0	0
+org.java.plugin.registry.Identity	jpf.jar	source/org/java/plugin/registry/Identity.java	0	0	0	0	32	4
+org.java.plugin.registry.IntegrityCheckReport	jpf.jar	source/org/java/plugin/registry/IntegrityCheckReport.java	0	0	0	0	147	29
+org.java.plugin.registry.IntegrityCheckReport$Error	jpf.jar	source/org/java/plugin/registry/IntegrityCheckReport.java	0	0	0	2	0	0
+org.java.plugin.registry.IntegrityCheckReport$ReportItem	jpf.jar	source/org/java/plugin/registry/IntegrityCheckReport.java	0	0	0	2	0	0
+org.java.plugin.registry.IntegrityCheckReport$Severity	jpf.jar	source/org/java/plugin/registry/IntegrityCheckReport.java	0	0	0	2	0	0
+org.java.plugin.registry.Library	jpf.jar	source/org/java/plugin/registry/Library.java	0	0	0	0	67	8
+org.java.plugin.registry.ManifestInfo	jpf.jar	source/org/java/plugin/registry/ManifestInfo.java	0	0	0	0	62	10
+org.java.plugin.registry.ManifestProcessingException	jpf.jar	source/org/java/plugin/registry/ManifestProcessingException.java	0	0	0	0	59	17
+org.java.plugin.registry.MatchingRule	jpf.jar	source/org/java/plugin/registry/MatchingRule.java	0	0	0	0	96	37
+org.java.plugin.registry.MatchingRule$1	jpf.jar	source/org/java/plugin/registry/MatchingRule.java	0	0	0	2	0	0
+org.java.plugin.registry.MatchingRule$2	jpf.jar	source/org/java/plugin/registry/MatchingRule.java	0	0	0	2	0	0
+org.java.plugin.registry.MatchingRule$3	jpf.jar	source/org/java/plugin/registry/MatchingRule.java	0	0	0	2	0	0
+org.java.plugin.registry.MatchingRule$4	jpf.jar	source/org/java/plugin/registry/MatchingRule.java	0	0	0	2	0	0
+org.java.plugin.registry.ParameterMultiplicity	jpf.jar	source/org/java/plugin/registry/ParameterMultiplicity.java	0	0	0	0	97	37
+org.java.plugin.registry.ParameterMultiplicity$1	jpf.jar	source/org/java/plugin/registry/ParameterMultiplicity.java	0	0	0	2	0	0
+org.java.plugin.registry.ParameterMultiplicity$2	jpf.jar	source/org/java/plugin/registry/ParameterMultiplicity.java	0	0	0	2	0	0
+org.java.plugin.registry.ParameterMultiplicity$3	jpf.jar	source/org/java/plugin/registry/ParameterMultiplicity.java	0	0	0	2	0	0
+org.java.plugin.registry.ParameterMultiplicity$4	jpf.jar	source/org/java/plugin/registry/ParameterMultiplicity.java	0	0	0	2	0	0
+org.java.plugin.registry.ParameterType	jpf.jar	source/org/java/plugin/registry/ParameterType.java	0	0	0	0	213	91
+org.java.plugin.registry.ParameterType$1	jpf.jar	source/org/java/plugin/registry/ParameterType.java	0	0	0	2	0	0
+org.java.plugin.registry.ParameterType$10	jpf.jar	source/org/java/plugin/registry/ParameterType.java	0	0	0	2	0	0
+org.java.plugin.registry.ParameterType$11	jpf.jar	source/org/java/plugin/registry/ParameterType.java	0	0	0	2	0	0
+org.java.plugin.registry.ParameterType$12	jpf.jar	source/org/java/plugin/registry/ParameterType.java	0	0	0	2	0	0
+org.java.plugin.registry.ParameterType$13	jpf.jar	source/org/java/plugin/registry/ParameterType.java	0	0	0	2	0	0
+org.java.plugin.registry.ParameterType$2	jpf.jar	source/org/java/plugin/registry/ParameterType.java	0	0	0	2	0	0
+org.java.plugin.registry.ParameterType$3	jpf.jar	source/org/java/plugin/registry/ParameterType.java	0	0	0	2	0	0
+org.java.plugin.registry.ParameterType$4	jpf.jar	source/org/java/plugin/registry/ParameterType.java	0	0	0	2	0	0
+org.java.plugin.registry.ParameterType$5	jpf.jar	source/org/java/plugin/registry/ParameterType.java	0	0	0	2	0	0
+org.java.plugin.registry.ParameterType$6	jpf.jar	source/org/java/plugin/registry/ParameterType.java	0	0	0	2	0	0
+org.java.plugin.registry.ParameterType$7	jpf.jar	source/org/java/plugin/registry/ParameterType.java	0	0	0	2	0	0
+org.java.plugin.registry.ParameterType$8	jpf.jar	source/org/java/plugin/registry/ParameterType.java	0	0	0	2	0	0
+org.java.plugin.registry.ParameterType$9	jpf.jar	source/org/java/plugin/registry/ParameterType.java	0	0	0	2	0	0
+org.java.plugin.registry.PluginAttribute	jpf.jar	source/org/java/plugin/registry/PluginAttribute.java	0	0	0	0	57	9
+org.java.plugin.registry.PluginDescriptor	jpf.jar	source/org/java/plugin/registry/PluginDescriptor.java	0	0	0	0	137	23
+org.java.plugin.registry.PluginElement	jpf.jar	source/org/java/plugin/registry/PluginElement.java	0	0	0	0	43	6
+org.java.plugin.registry.PluginFragment	jpf.jar	source/org/java/plugin/registry/PluginFragment.java	0	0	0	0	83	13
+org.java.plugin.registry.PluginPrerequisite	jpf.jar	source/org/java/plugin/registry/PluginPrerequisite.java	0	0	0	0	70	11
+org.java.plugin.registry.PluginRegistry	jpf.jar	source/org/java/plugin/registry/PluginRegistry.java	0	0	0	0	401	51
+org.java.plugin.registry.PluginRegistry$RegistryChangeData	jpf.jar	source/org/java/plugin/registry/PluginRegistry.java	0	0	0	2	0	0
+org.java.plugin.registry.PluginRegistry$RegistryChangeListener	jpf.jar	source/org/java/plugin/registry/PluginRegistry.java	0	0	0	2	0	0
+org.java.plugin.registry.UniqueIdentity	jpf.jar	source/org/java/plugin/registry/UniqueIdentity.java	0	0	0	0	32	4
+org.java.plugin.registry.Version	jpf.jar	source/org/java/plugin/registry/Version.java	0	0	0	0	375	225
+org.java.plugin.tools.mocks.MockDocumentation	jpf-tools.jar	source-tools/org/java/plugin/tools/mocks/MockDocumentation.java	0	0	0	0	102	41
+org.java.plugin.tools.mocks.MockExtension	jpf-tools.jar	source-tools/org/java/plugin/tools/mocks/MockExtension.java	0	0	0	0	156	72
+org.java.plugin.tools.mocks.MockExtensionPoint	jpf-tools.jar	source-tools/org/java/plugin/tools/mocks/MockExtensionPoint.java	0	0	0	0	259	131
+org.java.plugin.tools.mocks.MockIdentity	jpf-tools.jar	source-tools/org/java/plugin/tools/mocks/MockIdentity.java	0	0	0	0	44	12
+org.java.plugin.tools.mocks.MockLibrary	jpf-tools.jar	source-tools/org/java/plugin/tools/mocks/MockLibrary.java	0	0	0	0	107	43
+org.java.plugin.tools.mocks.MockManifestInfo	jpf-tools.jar	source-tools/org/java/plugin/tools/mocks/MockManifestInfo.java	0	0	0	0	131	54
+org.java.plugin.tools.mocks.MockParameter	jpf-tools.jar	source-tools/org/java/plugin/tools/mocks/MockParameter.java	0	0	0	0	250	117
+org.java.plugin.tools.mocks.MockParameterDefinition	jpf-tools.jar	source-tools/org/java/plugin/tools/mocks/MockParameterDefinition.java	0	0	0	0	171	81
+org.java.plugin.tools.mocks.MockPluginAttribute	jpf-tools.jar	source-tools/org/java/plugin/tools/mocks/MockPluginAttribute.java	0	0	0	0	127	58
+org.java.plugin.tools.mocks.MockPluginDescriptor	jpf-tools.jar	source-tools/org/java/plugin/tools/mocks/MockPluginDescriptor.java	0	0	0	0	373	186
+org.java.plugin.tools.mocks.MockPluginElement	jpf-tools.jar	source-tools/org/java/plugin/tools/mocks/MockPluginElement.java	0	0	0	0	102	42
+org.java.plugin.tools.mocks.MockPluginFragment	jpf-tools.jar	source-tools/org/java/plugin/tools/mocks/MockPluginFragment.java	0	0	0	0	203	89
+org.java.plugin.tools.mocks.MockPluginPrerequisite	jpf-tools.jar	source-tools/org/java/plugin/tools/mocks/MockPluginPrerequisite.java	0	0	0	0	157	67
+org.java.plugin.tools.mocks.MockPluginRegistry	jpf-tools.jar	source-tools/org/java/plugin/tools/mocks/MockPluginRegistry.java	0	0	0	0	323	163
+org.onemind.jxp.util.StaticImport	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.util.StaticImport$StaticFunction	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.jxp.util.StaticImportUtils	lib/jxp.jar		1	1	1	-1	0	0
+org.java.plugin.JpfException	jpf.jar	source/org/java/plugin/JpfException.java	0	0	0	0	52	21
+org.java.plugin.ObjectFactory	jpf.jar	source/org/java/plugin/ObjectFactory.java	0	0	0	0	301	196
+org.java.plugin.PathResolver	jpf.jar	source/org/java/plugin/PathResolver.java	0	0	0	0	80	12
+org.java.plugin.Plugin	jpf.jar	source/org/java/plugin/Plugin.java	0	0	0	0	130	46
+org.java.plugin.PluginClassLoader	jpf.jar	source/org/java/plugin/PluginClassLoader.java	0	0	0	0	116	43
+org.java.plugin.PluginLifecycleException	jpf.jar	source/org/java/plugin/PluginLifecycleException.java	0	0	0	0	57	16
+org.java.plugin.PluginManager	jpf.jar	source/org/java/plugin/PluginManager.java	0	0	0	0	462	110
+org.java.plugin.PluginManager$1	jpf.jar	source/org/java/plugin/PluginManager.java	0	0	0	2	0	0
+org.java.plugin.PluginManager$EventListener	jpf.jar	source/org/java/plugin/PluginManager.java	0	0	0	2	0	0
+org.java.plugin.PluginManager$EventListenerAdapter	jpf.jar	source/org/java/plugin/PluginManager.java	0	0	0	2	0	0
+org.java.plugin.PluginManager$PluginLocation	jpf.jar	source/org/java/plugin/PluginManager.java	0	0	0	2	0	0
+org.onemind.commons.java.xml.digest.AbstractElementCreatorDigester	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.xml.digest.AbstractElementCreatorDigester$1	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.commons.java.xml.digest.ChainedDigester	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.xml.digest.DefaultDigester	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.xml.digest.ElementCreatorDigester	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.xml.digest.ElementDigester	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.xml.digest.ElementEvent	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.xml.digest.ElementListener	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.xml.digest.SaxDigesterHandler	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.ArrayAssignable	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.Assignable	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.CachedJxpPage	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.CachingPageSource	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.Control	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.Evaluator	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.FilePageSource	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.FilePageSource$FileJxpPage	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.jxp.JxpFactory	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.JxpInvocable	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.JxpPage	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.JxpPageNotFoundException	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.JxpPageParseException	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.JxpPageSource	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.JxpPageSourceException	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.JxpProcessingContext	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.JxpProcessor	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.JxpProcessor$1	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.jxp.JxpProcessor$2	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.jxp.JxpProcessor$3	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.jxp.JxpProcessor$JxpUserDefinedFunction	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.jxp.MultiSourcePageSource	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.MultiSourcePageSource$1	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.jxp.MultiSourcePageSource$2	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.jxp.MultiSourcePageSource$3	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.jxp.ProcessingException	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.ResourceStreamPageSource	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.ResourceStreamPageSource$ResourceStreamJxpPage	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.jxp.VariableAssignable	lib/jxp.jar		1	1	1	-1	0	0
+org.apache.commons.logging.Log	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.LogConfigurationException	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.LogFactory	lib/commons-logging.jar		1	1	1	-1	0	0
+org.apache.commons.logging.LogFactory$1	lib/commons-logging.jar		1	1	1	2	0	0
+org.apache.commons.logging.LogFactory$2	lib/commons-logging.jar		1	1	1	2	0	0
+org.apache.commons.logging.LogFactory$3	lib/commons-logging.jar		1	1	1	2	0	0
+org.apache.commons.logging.LogSource	lib/commons-logging.jar		1	1	1	-1	0	0
+org.java.plugin.util.ExtendedProperties	jpf.jar	source/org/java/plugin/util/ExtendedProperties.java	0	0	0	0	131	59
+org.java.plugin.util.IoUtil	jpf.jar	source/org/java/plugin/util/IoUtil.java	0	0	0	0	516	348
+org.java.plugin.util.ResourceManager	jpf.jar	source/org/java/plugin/util/ResourceManager.java	0	0	0	0	156	84
+org.onemind.commons.invoke.AbstractInvocable	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.invoke.AbstractInvocableFunction	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.invoke.Invocable	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.invoke.InvocableFunction	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.invoke.InvocationException	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.invoke.ReflectionWrapperInvocable	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.invoke.ReflectionWrapperInvocable$ReflectMethodFunction	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.commons.java.lang.ConfigurationException	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.lang.Enum	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.lang.MutableDouble	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.lang.MutableFloat	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.lang.MutableInteger	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.lang.MutableLong	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.lang.MutableShort	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.lang.Null	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.util.Counter	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.util.FileUtils	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.util.LogUtils	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.util.MapUtils	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.util.ObjectUtils	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.util.StringUtils	lib/jxp.jar		1	1	1	-1	0	0
+org.java.plugin.standard.CombinedFileFilter	jpf.jar	source/org/java/plugin/standard/ShadingPathResolver.java	0	0	0	1	0	0
+org.java.plugin.standard.PluginLifecycleHandler	jpf.jar	source/org/java/plugin/standard/PluginLifecycleHandler.java	0	0	0	0	114	27
+org.java.plugin.standard.RegexpFileFilter	jpf.jar	source/org/java/plugin/standard/ShadingPathResolver.java	0	0	0	1	0	0
+org.java.plugin.standard.ShadingPathResolver	jpf.jar	source/org/java/plugin/standard/ShadingPathResolver.java	0	0	0	0	947	831
+org.java.plugin.standard.ShadingUtil	jpf.jar	source/org/java/plugin/standard/ShadingPathResolver.java	0	0	0	1	0	0
+org.java.plugin.standard.ShadowDataController	jpf.jar	source/org/java/plugin/standard/ShadingPathResolver.java	0	0	0	1	0	0
+org.java.plugin.standard.ShadowDataController$ShadowFileFilter	jpf.jar	source/org/java/plugin/standard/ShadingPathResolver.java	0	0	0	2	0	0
+org.java.plugin.standard.StandardObjectFactory	jpf.jar	source/org/java/plugin/standard/StandardObjectFactory.java	0	0	0	0	171	119
+org.java.plugin.standard.StandardPathResolver	jpf.jar	source/org/java/plugin/standard/StandardPathResolver.java	0	0	0	0	182	118
+org.java.plugin.standard.StandardPluginClassLoader	jpf.jar	source/org/java/plugin/standard/StandardPluginClassLoader.java	0	0	0	0	1057	945
+org.java.plugin.standard.StandardPluginClassLoader$PluginResourceLoader	jpf.jar	source/org/java/plugin/standard/StandardPluginClassLoader.java	0	0	0	2	0	0
+org.java.plugin.standard.StandardPluginClassLoader$PluginResourceLoader$1	jpf.jar	source/org/java/plugin/standard/StandardPluginClassLoader.java	0	0	0	2	0	0
+org.java.plugin.standard.StandardPluginClassLoader$ResourceFilter	jpf.jar	source/org/java/plugin/standard/StandardPluginClassLoader.java	0	0	0	2	0	0
+org.java.plugin.standard.StandardPluginLifecycleHandler	jpf.jar	source/org/java/plugin/standard/StandardPluginLifecycleHandler.java	0	0	0	0	188	94
+org.java.plugin.standard.StandardPluginLifecycleHandler$1	jpf.jar	source/org/java/plugin/standard/StandardPluginLifecycleHandler.java	0	0	0	2	0	0
+org.java.plugin.standard.StandardPluginLocation	jpf.jar	source/org/java/plugin/standard/StandardPluginLocation.java	0	0	0	0	190	113
+org.java.plugin.standard.StandardPluginManager	jpf.jar	source/org/java/plugin/standard/StandardPluginManager.java	0	0	0	0	780	567
+org.java.plugin.standard.StandardPluginManager$1	jpf.jar	source/org/java/plugin/standard/StandardPluginManager.java	0	0	0	2	0	0
+org.java.plugin.standard.StandardPluginManager$EmptyPlugin	jpf.jar	source/org/java/plugin/standard/StandardPluginManager.java	0	0	0	2	0	0
+org.onemind.jxp.config.CachingPageSourceDigester	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.config.FileSourceDigester	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.config.JxpConfigDigester	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.config.MultiSourceDigester	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.jxp.config.StreamSourceDigester	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.datastructure.BiMap	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.datastructure.ClassSet	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.datastructure.CounterQueue	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.datastructure.InheritableValueMap	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.datastructure.LongList	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.datastructure.LookupCache	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.datastructure.MapEntry	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.datastructure.MruList	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.datastructure.MruList$MruEntry	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.commons.java.datastructure.MruList$MruIterator	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.commons.java.datastructure.MruMap	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.datastructure.MruMap$InnerMruList	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.commons.java.datastructure.NametableStack	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.datastructure.Stack	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.datastructure.ThreadLocalStack	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.datastructure.TrackedMap	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.datastructure.XmlProperties	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.datastructure.XmlProperties$XmlPropertiesHandler	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.commons.java.datastructure.XmlProperties$XmlPropertiesHandler$NameSetter	lib/jxp.jar		1	1	1	2	0	0
+org.java.plugin.tools.PluginArchiver	jpf-tools.jar	source-tools/org/java/plugin/tools/PluginArchiver.java	0	0	0	0	604	406
+org.java.plugin.tools.PluginArchiver$1	jpf-tools.jar	source-tools/org/java/plugin/tools/PluginArchiver.java	0	0	0	2	0	0
+org.java.plugin.tools.PluginArchiver$2	jpf-tools.jar	source-tools/org/java/plugin/tools/PluginArchiver.java	0	0	0	2	0	0
+org.java.plugin.tools.PluginArchiver$3	jpf-tools.jar	source-tools/org/java/plugin/tools/PluginArchiver.java	0	0	0	2	0	0
+org.java.plugin.tools.PluginArchiver$ArchiveDescriptorEntry	jpf-tools.jar	source-tools/org/java/plugin/tools/PluginArchiver.java	0	0	0	2	0	0
+org.java.plugin.tools.PluginArchiver$Filter	jpf-tools.jar	source-tools/org/java/plugin/tools/PluginArchiver.java	0	0	0	2	0	0
+org.java.plugin.tools.Util	jpf-tools.jar	source-tools/org/java/plugin/tools/Util.java	0	0	0	4	85	57
+org.java.plugin.registry.xml.BaseHandler	jpf.jar	source/org/java/plugin/registry/xml/BaseHandler.java	0	0	0	4	114	66
+org.java.plugin.registry.xml.DocumentationImpl	jpf.jar	source/org/java/plugin/registry/xml/DocumentationImpl.java	0	0	0	4	131	71
+org.java.plugin.registry.xml.DocumentationImpl$ReferenceImpl	jpf.jar	source/org/java/plugin/registry/xml/DocumentationImpl.java	0	0	0	2	0	0
+org.java.plugin.registry.xml.ExtensionImpl	jpf.jar	source/org/java/plugin/registry/xml/ExtensionImpl.java	0	0	0	4	691	539
+org.java.plugin.registry.xml.ExtensionImpl$1	jpf.jar	source/org/java/plugin/registry/xml/ExtensionImpl.java	0	0	0	2	0	0
+org.java.plugin.registry.xml.ExtensionImpl$ParameterImpl	jpf.jar	source/org/java/plugin/registry/xml/ExtensionImpl.java	0	0	0	2	0	0
+org.java.plugin.registry.xml.ExtensionPointImpl	jpf.jar	source/org/java/plugin/registry/xml/ExtensionPointImpl.java	0	0	0	4	600	449
+org.java.plugin.registry.xml.ExtensionPointImpl$1	jpf.jar	source/org/java/plugin/registry/xml/ExtensionPointImpl.java	0	0	0	2	0	0
+org.java.plugin.registry.xml.ExtensionPointImpl$ParameterDefinitionImpl	jpf.jar	source/org/java/plugin/registry/xml/ExtensionPointImpl.java	0	0	0	2	0	0
+org.java.plugin.registry.xml.IdentityImpl	jpf.jar	source/org/java/plugin/registry/xml/IdentityImpl.java	0	0	0	4	82	40
+org.java.plugin.registry.xml.IntegrityChecker	jpf.jar	source/org/java/plugin/registry/xml/IntegrityChecker.java	0	0	0	4	280	217
+org.java.plugin.registry.xml.IntegrityChecker$1	jpf.jar	source/org/java/plugin/registry/xml/IntegrityChecker.java	0	0	0	2	0	0
+org.java.plugin.registry.xml.IntegrityChecker$ReportItemImpl	jpf.jar	source/org/java/plugin/registry/xml/IntegrityChecker.java	0	0	0	2	0	0
+org.java.plugin.registry.xml.LibraryImpl	jpf.jar	source/org/java/plugin/registry/xml/LibraryImpl.java	0	0	0	4	110	61
+org.java.plugin.registry.xml.ManifestHandler	jpf.jar	source/org/java/plugin/registry/xml/ManifestHandler.java	0	0	0	4	408	369
+org.java.plugin.registry.xml.ManifestInfoHandler	jpf.jar	source/org/java/plugin/registry/xml/ManifestInfoHandler.java	0	0	0	4	108	69
+org.java.plugin.registry.xml.ManifestParser	jpf.jar	source/org/java/plugin/registry/xml/ManifestParser.java	0	0	0	4	140	108
+org.java.plugin.registry.xml.ManifestParser$1	jpf.jar	source/org/java/plugin/registry/xml/ManifestParser.java	0	0	0	2	0	0
+org.java.plugin.registry.xml.ModelAttribute	jpf.jar	source/org/java/plugin/registry/xml/Model.java	0	0	0	1	0	0
+org.java.plugin.registry.xml.ModelDocumentation	jpf.jar	source/org/java/plugin/registry/xml/Model.java	0	0	0	1	0	0
+org.java.plugin.registry.xml.ModelDocumentationReference	jpf.jar	source/org/java/plugin/registry/xml/Model.java	0	0	0	1	0	0
+org.java.plugin.registry.xml.ModelExtension	jpf.jar	source/org/java/plugin/registry/xml/Model.java	0	0	0	1	0	0
+org.java.plugin.registry.xml.ModelExtensionPoint	jpf.jar	source/org/java/plugin/registry/xml/Model.java	0	0	0	1	0	0
+org.java.plugin.registry.xml.ModelLibrary	jpf.jar	source/org/java/plugin/registry/xml/Model.java	0	0	0	1	0	0
+org.java.plugin.registry.xml.ModelManifestInfo	jpf.jar	source/org/java/plugin/registry/xml/Model.java	0	0	0	1	0	0
+org.java.plugin.registry.xml.ModelParameter	jpf.jar	source/org/java/plugin/registry/xml/Model.java	0	0	0	1	0	0
+org.java.plugin.registry.xml.ModelParameterDef	jpf.jar	source/org/java/plugin/registry/xml/Model.java	0	0	0	1	0	0
+org.java.plugin.registry.xml.ModelPluginDescriptor	jpf.jar	source/org/java/plugin/registry/xml/Model.java	0	0	0	1	0	0
+org.java.plugin.registry.xml.ModelPluginFragment	jpf.jar	source/org/java/plugin/registry/xml/Model.java	0	0	0	1	0	0
+org.java.plugin.registry.xml.ModelPluginManifest	jpf.jar	source/org/java/plugin/registry/xml/Model.java	0	0	0	1	0	0
+org.java.plugin.registry.xml.ModelPrerequisite	jpf.jar	source/org/java/plugin/registry/xml/Model.java	0	0	0	1	0	0
+org.java.plugin.registry.xml.ParameterValueParser	jpf.jar	source/org/java/plugin/registry/xml/ParameterValueParser.java	0	0	0	4	272	244
+org.java.plugin.registry.xml.ParameterValueParser$1	jpf.jar	source/org/java/plugin/registry/xml/ParameterValueParser.java	0	0	0	2	0	0
+org.java.plugin.registry.xml.PluginAttributeImpl	jpf.jar	source/org/java/plugin/registry/xml/PluginAttributeImpl.java	0	0	0	4	136	86
+org.java.plugin.registry.xml.PluginDescriptorImpl	jpf.jar	source/org/java/plugin/registry/xml/PluginDescriptorImpl.java	0	0	0	4	419	295
+org.java.plugin.registry.xml.PluginElementImpl	jpf.jar	source/org/java/plugin/registry/xml/PluginElementImpl.java	0	0	0	4	91	46
+org.java.plugin.registry.xml.PluginFragmentImpl	jpf.jar	source/org/java/plugin/registry/xml/PluginFragmentImpl.java	0	0	0	4	178	98
+org.java.plugin.registry.xml.PluginPrerequisiteImpl	jpf.jar	source/org/java/plugin/registry/xml/PluginPrerequisiteImpl.java	0	0	0	4	194	112
+org.java.plugin.registry.xml.PluginPrerequisiteImpl$1	jpf.jar	source/org/java/plugin/registry/xml/PluginPrerequisiteImpl.java	0	0	0	2	0	0
+org.java.plugin.registry.xml.PluginRegistryImpl	jpf.jar	source/org/java/plugin/registry/xml/PluginRegistryImpl.java	0	0	0	0	1186	916
+org.java.plugin.registry.xml.PluginRegistryImpl$ManifestInfoImpl	jpf.jar	source/org/java/plugin/registry/xml/PluginRegistryImpl.java	0	0	0	2	0	0
+org.java.plugin.registry.xml.PluginRegistryImpl$RegistryChangeDataImpl	jpf.jar	source/org/java/plugin/registry/xml/PluginRegistryImpl.java	0	0	0	2	0	0
+org.java.plugin.registry.xml.SimpleStack	jpf.jar	source/org/java/plugin/registry/xml/BaseHandler.java	0	0	0	1	0	0
+org.onemind.commons.java.lang.ref.SoftHashMap	lib/jxp.jar		1	1	1	-1	0	0
+org.onemind.commons.java.lang.ref.SoftHashMap$1	lib/jxp.jar		1	1	1	2	0	0
+org.onemind.commons.java.lang.ref.SoftHashMap$SoftValue	lib/jxp.jar		1	1	1	2	0	0
+#Issues
+#======
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jpf/jpf-1.5.1/src/lib/commons-logging.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jpf/jpf-1.5.1/src/lib/jxp.jar in <src> ignored.
+#SRC NO PUBLIC TYPE for source-boot/org/java/plugin/boot/ControlThread.java.
+#SRC NO PUBLIC TYPE for source-boot/org/java/plugin/boot/SplashWindow.java.
+#SRC NO PUBLIC TYPE for source-tools/org/java/plugin/tools/Util.java.
+#SRC NO PUBLIC TYPE for source-tools/org/java/plugin/tools/docgen/ClassPathPageSource.java.
+#SRC NO PUBLIC TYPE for source/org/java/plugin/registry/xml/BaseHandler.java.
+#SRC NO PUBLIC TYPE for source/org/java/plugin/registry/xml/DocumentationImpl.java.
+#SRC NO PUBLIC TYPE for source/org/java/plugin/registry/xml/ExtensionImpl.java.
+#SRC NO PUBLIC TYPE for source/org/java/plugin/registry/xml/ExtensionPointImpl.java.
+#SRC NO PUBLIC TYPE for source/org/java/plugin/registry/xml/IdentityImpl.java.
+#SRC NO PUBLIC TYPE for source/org/java/plugin/registry/xml/IntegrityChecker.java.
+#SRC NO PUBLIC TYPE for source/org/java/plugin/registry/xml/LibraryImpl.java.
+#SRC NO PUBLIC TYPE for source/org/java/plugin/registry/xml/ManifestHandler.java.
+#SRC NO PUBLIC TYPE for source/org/java/plugin/registry/xml/ManifestInfoHandler.java.
+#SRC NO PUBLIC TYPE for source/org/java/plugin/registry/xml/ManifestParser.java.
+#SRC NO PUBLIC TYPE for source/org/java/plugin/registry/xml/Model.java.
+#SRC NO PUBLIC TYPE for source/org/java/plugin/registry/xml/ParameterValueParser.java.
+#SRC NO PUBLIC TYPE for source/org/java/plugin/registry/xml/PluginAttributeImpl.java.
+#SRC NO PUBLIC TYPE for source/org/java/plugin/registry/xml/PluginDescriptorImpl.java.
+#SRC NO PUBLIC TYPE for source/org/java/plugin/registry/xml/PluginElementImpl.java.
+#SRC NO PUBLIC TYPE for source/org/java/plugin/registry/xml/PluginFragmentImpl.java.
+#SRC NO PUBLIC TYPE for source/org/java/plugin/registry/xml/PluginPrerequisiteImpl.java.

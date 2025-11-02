@@ -1,0 +1,121 @@
+#2013-09-05T10:00:21NZST
+#System Version : fitjava-1.1
+#Source Packages: fit.,fat.
+#Ignore Packages: 
+#Distributed    : source/imp/java/src,spec
+#Source Roots   : examples,source/imp/java/src,spec
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+eg.net.GeoCoordinate	fit.jar	examples/eg/net/GeoCoordinate.java,source/imp/java/src/eg/net/GeoCoordinate.java	1	0	0	0	59	48
+eg.net.Simulator	fit.jar	examples/eg/net/Simulator.java,source/imp/java/src/eg/net/Simulator.java	1	0	0	0	55	39
+fat.AnnotationFixture	fit.jar	source/imp/java/src/fat/AnnotationFixture.java,spec/fat/AnnotationFixture.java	0	0	0	0	89	67
+fat.Color	fit.jar	source/imp/java/src/fat/Color.java,spec/fat/Color.java	0	0	0	0	51	40
+fat.Divide	fit.jar	source/imp/java/src/fat/Divide.java,spec/fat/Divide.java	0	0	0	0	11	8
+fat.DocumentParseFixture	fit.jar	source/imp/java/src/fat/DocumentParseFixture.java,spec/fat/DocumentParseFixture.java	0	0	0	0	60	52
+fat.Equals	fit.jar	source/imp/java/src/fat/Equals.java,spec/fat/Equals.java	0	0	0	0	79	65
+fat.ExampleFixture	fit.jar	source/imp/java/src/fat/ExampleFixture.java,spec/fat/ExampleFixture.java	0	0	0	0	7	4
+fat.FatTest	fit.jar	source/imp/java/src/fat/FatTest.java,spec/fat/FatTest.java	0	0	0	0	65	55
+fat.FixtureLoadFixture	fit.jar	source/imp/java/src/fat/FixtureLoadFixture.java,spec/fat/FixtureLoadFixture.java	0	0	0	0	32	23
+fat.FixtureNameFixture	fit.jar	source/imp/java/src/fat/FixtureNameFixture.java,spec/fat/FixtureNameFixture.java	0	0	0	0	44	30
+fat.Frameworks	fit.jar	source/imp/java/src/fat/Frameworks.java,spec/fat/Frameworks.java	0	0	0	0	27	19
+fat.HtmlToTextFixture	fit.jar	source/imp/java/src/fat/HtmlToTextFixture.java,spec/fat/HtmlToTextFixture.java	0	0	0	0	19	15
+fat.Money	fit.jar	source/imp/java/src/fat/Money.java,spec/fat/Money.java	0	0	0	0	32	25
+fat.NotAFixture	fit.jar	source/imp/java/src/fat/NotAFixture.java,spec/fat/NotAFixture.java	0	0	0	0	4	3
+fat.ReferenceFixture	fit.jar	source/imp/java/src/fat/ReferenceFixture.java,spec/fat/ReferenceFixture.java	0	0	0	0	41	36
+fat.StandardAnnotationFixture	fit.jar	source/imp/java/src/fat/StandardAnnotationFixture.java,spec/fat/StandardAnnotationFixture.java	0	0	0	0	49	41
+fat.Table	fit.jar	source/imp/java/src/fat/Table.java,spec/fat/Table.java	0	0	0	0	24	19
+fat.TableParseFixture	fit.jar	source/imp/java/src/fat/TableParseFixture.java,spec/fat/TableParseFixture.java	0	0	0	0	38	28
+fat.Tests	fit.jar	source/imp/java/src/fat/Tests.java,spec/fat/Tests.java	0	0	0	0	131	114
+fat.Tests$Color	fit.jar	source/imp/java/src/fat/Tests.java,spec/fat/Tests.java	0	0	0	2	0	0
+fat.TextToHtmlFixture	fit.jar	source/imp/java/src/fat/TextToHtmlFixture.java,spec/fat/TextToHtmlFixture.java	0	0	0	0	25	20
+eg.AllCombinations	fit.jar	examples/eg/AllCombinations.java,source/imp/java/src/eg/AllCombinations.java	1	0	0	0	47	38
+eg.AllFiles	fit.jar	examples/eg/AllFiles.java,source/imp/java/src/eg/AllFiles.java	1	0	0	0	179	149
+eg.AllFiles$Expand	fit.jar	examples/eg/AllFiles.java,source/imp/java/src/eg/AllFiles.java	1	0	0	2	0	0
+eg.AllFiles$WildCard	fit.jar	examples/eg/AllFiles.java,source/imp/java/src/eg/AllFiles.java	1	0	0	2	0	0
+eg.AllPairs	fit.jar	examples/eg/AllPairs.java,source/imp/java/src/eg/AllPairs.java	1	0	0	0	307	262
+eg.AllPairs$Cases	fit.jar	examples/eg/AllPairs.java,source/imp/java/src/eg/AllPairs.java	1	0	0	2	0	0
+eg.AllPairs$Cases$Case	fit.jar	examples/eg/AllPairs.java,source/imp/java/src/eg/AllPairs.java	1	0	0	2	0	0
+eg.AllPairs$Item	fit.jar	examples/eg/AllPairs.java,source/imp/java/src/eg/AllPairs.java	1	0	0	2	0	0
+eg.AllPairs$Pair	fit.jar	examples/eg/AllPairs.java,source/imp/java/src/eg/AllPairs.java	1	0	0	2	0	0
+eg.AllPairs$Pairs	fit.jar	examples/eg/AllPairs.java,source/imp/java/src/eg/AllPairs.java	1	0	0	2	0	0
+eg.AllPairs$Setup	fit.jar	examples/eg/AllPairs.java,source/imp/java/src/eg/AllPairs.java	1	0	0	2	0	0
+eg.AllPairs$Stats	fit.jar	examples/eg/AllPairs.java,source/imp/java/src/eg/AllPairs.java	1	0	0	2	0	0
+eg.AllPairs$Step	fit.jar	examples/eg/AllPairs.java,source/imp/java/src/eg/AllPairs.java	1	0	0	2	0	0
+eg.AllPairs$Var	fit.jar	examples/eg/AllPairs.java,source/imp/java/src/eg/AllPairs.java	1	0	0	2	0	0
+eg.ArithmeticColumnFixture	fit.jar	examples/eg/ArithmeticColumnFixture.java,source/imp/java/src/eg/ArithmeticColumnFixture.java	1	0	0	0	42	30
+eg.ArithmeticFixture	fit.jar	examples/eg/ArithmeticFixture.java,source/imp/java/src/eg/ArithmeticFixture.java	1	0	0	0	28	22
+eg.BinaryChop	fit.jar	examples/eg/BinaryChop.java,source/imp/java/src/eg/BinaryChop.java	1	0	0	0	114	94
+eg.Calculator	fit.jar	examples/eg/Calculator.java,source/imp/java/src/eg/Calculator.java	1	0	0	0	110	88
+eg.Calculator$HP35	fit.jar	examples/eg/Calculator.java,source/imp/java/src/eg/Calculator.java	1	0	0	2	0	0
+eg.ColumnIndex	fit.jar	examples/eg/ColumnIndex.java,source/imp/java/src/eg/ColumnIndex.java	1	0	0	0	96	80
+eg.ColumnIndex$Column	fit.jar	examples/eg/ColumnIndex.java,source/imp/java/src/eg/ColumnIndex.java	1	0	0	2	0	0
+eg.Division	fit.jar	examples/eg/Division.java,source/imp/java/src/eg/Division.java	1	0	0	0	14	11
+eg.ExampleTests	fit.jar	examples/eg/ExampleTests.java,source/imp/java/src/eg/ExampleTests.java	1	0	0	0	78	60
+eg.Page	fit.jar	examples/eg/Page.java,source/imp/java/src/eg/Page.java	1	0	0	0	91	70
+eg.Page$Row	fit.jar	examples/eg/Page.java,source/imp/java/src/eg/Page.java	1	0	0	2	0	0
+eg.Sqrt	fit.jar	examples/eg/Sqrt.java,source/imp/java/src/eg/Sqrt.java	1	0	0	0	15	11
+fit.ActionFixture	fit.jar	source/imp/java/src/fit/ActionFixture.java	0	0	0	0	72	59
+fit.ColumnFixture	fit.jar	source/imp/java/src/fit/ColumnFixture.java	0	0	0	0	103	87
+fit.Counts	fit.jar	source/imp/java/src/fit/Counts.java	0	0	0	0	26	22
+fit.FileRunner	fit.jar	source/imp/java/src/fit/FileRunner.java	0	0	0	0	80	68
+fit.FileRunnerTest	fit.jar	source/imp/java/src/fit/FileRunnerTest.java	0	0	0	0	45	35
+fit.FileRunnerTest$1	fit.jar	source/imp/java/src/fit/FileRunnerTest.java	0	0	0	2	0	0
+fit.Fixture	fit.jar	source/imp/java/src/fit/Fixture.java	0	0	0	0	293	245
+fit.Fixture$RunTime	fit.jar	source/imp/java/src/fit/Fixture.java	0	0	0	2	0	0
+fit.FixtureTest	fit.jar	source/imp/java/src/fit/FixtureTest.java	0	0	0	0	14	10
+fit.FrameworkTest	fit.jar	source/imp/java/src/fit/FrameworkTest.java	0	0	0	0	135	124
+fit.FrameworkTest$TestFixture	fit.jar	source/imp/java/src/fit/FrameworkTest.java	0	0	0	2	0	0
+fit.Parse	fit.jar	source/imp/java/src/fit/Parse.java	0	0	0	0	238	204
+fit.ParseTest	fit.jar	source/imp/java/src/fit/ParseTest.java	0	0	0	0	110	95
+fit.PrimitiveFixture	fit.jar	source/imp/java/src/fit/PrimitiveFixture.java	0	0	0	0	57	44
+fit.RowFixture	fit.jar	source/imp/java/src/fit/RowFixture.java	0	0	0	0	205	186
+fit.RowFixtureTest	fit.jar	source/imp/java/src/fit/RowFixtureTest.java	0	0	0	0	66	42
+fit.RowFixtureTest$1	fit.jar	source/imp/java/src/fit/RowFixtureTest.java	0	0	0	2	0	0
+fit.RowFixtureTest$BusinessObject	fit.jar	source/imp/java/src/fit/RowFixtureTest.java	0	0	0	2	0	0
+fit.RowFixtureTest$TestRowFixture	fit.jar	source/imp/java/src/fit/RowFixtureTest.java	0	0	0	2	0	0
+fit.ScientificDouble	fit.jar	source/imp/java/src/fit/ScientificDouble.java	0	0	0	0	77	61
+fit.Summary	fit.jar	source/imp/java/src/fit/Summary.java	0	0	0	0	56	47
+fit.TimedActionFixture	fit.jar	source/imp/java/src/fit/TimedActionFixture.java	0	0	0	0	39	28
+fit.TypeAdapter	fit.jar	source/imp/java/src/fit/TypeAdapter.java	0	0	0	0	252	210
+fit.TypeAdapter$ArrayAdapter	fit.jar	source/imp/java/src/fit/TypeAdapter.java	0	0	0	2	0	0
+fit.TypeAdapter$BooleanAdapter	fit.jar	source/imp/java/src/fit/TypeAdapter.java	0	0	0	2	0	0
+fit.TypeAdapter$ByteAdapter	fit.jar	source/imp/java/src/fit/TypeAdapter.java	0	0	0	2	0	0
+fit.TypeAdapter$CharAdapter	fit.jar	source/imp/java/src/fit/TypeAdapter.java	0	0	0	2	0	0
+fit.TypeAdapter$ClassBooleanAdapter	fit.jar	source/imp/java/src/fit/TypeAdapter.java	0	0	0	2	0	0
+fit.TypeAdapter$ClassByteAdapter	fit.jar	source/imp/java/src/fit/TypeAdapter.java	0	0	0	2	0	0
+fit.TypeAdapter$ClassCharacterAdapter	fit.jar	source/imp/java/src/fit/TypeAdapter.java	0	0	0	2	0	0
+fit.TypeAdapter$ClassDoubleAdapter	fit.jar	source/imp/java/src/fit/TypeAdapter.java	0	0	0	2	0	0
+fit.TypeAdapter$ClassFloatAdapter	fit.jar	source/imp/java/src/fit/TypeAdapter.java	0	0	0	2	0	0
+fit.TypeAdapter$ClassIntegerAdapter	fit.jar	source/imp/java/src/fit/TypeAdapter.java	0	0	0	2	0	0
+fit.TypeAdapter$ClassLongAdapter	fit.jar	source/imp/java/src/fit/TypeAdapter.java	0	0	0	2	0	0
+fit.TypeAdapter$ClassShortAdapter	fit.jar	source/imp/java/src/fit/TypeAdapter.java	0	0	0	2	0	0
+fit.TypeAdapter$DoubleAdapter	fit.jar	source/imp/java/src/fit/TypeAdapter.java	0	0	0	2	0	0
+fit.TypeAdapter$FloatAdapter	fit.jar	source/imp/java/src/fit/TypeAdapter.java	0	0	0	2	0	0
+fit.TypeAdapter$IntAdapter	fit.jar	source/imp/java/src/fit/TypeAdapter.java	0	0	0	2	0	0
+fit.TypeAdapter$LongAdapter	fit.jar	source/imp/java/src/fit/TypeAdapter.java	0	0	0	2	0	0
+fit.TypeAdapter$ShortAdapter	fit.jar	source/imp/java/src/fit/TypeAdapter.java	0	0	0	2	0	0
+fit.WikiRunner	fit.jar	source/imp/java/src/fit/WikiRunner.java	0	0	0	0	13	9
+eg.music.Browser	fit.jar	examples/eg/music/Browser.java,source/imp/java/src/eg/music/Browser.java	1	0	0	0	99	70
+eg.music.Dialog	fit.jar	examples/eg/music/Dialog.java,source/imp/java/src/eg/music/Dialog.java	1	0	0	0	26	19
+eg.music.Display	fit.jar	examples/eg/music/Display.java,source/imp/java/src/eg/music/Display.java	1	0	0	0	23	16
+eg.music.Music	fit.jar	examples/eg/music/Music.java,source/imp/java/src/eg/music/Music.java	1	0	0	0	67	50
+eg.music.MusicLibrary	fit.jar	examples/eg/music/MusicLibrary.java,source/imp/java/src/eg/music/MusicLibrary.java	1	0	0	0	90	75
+eg.music.MusicPlayer	fit.jar	examples/eg/music/MusicPlayer.java,source/imp/java/src/eg/music/MusicPlayer.java	1	0	0	0	67	54
+eg.music.Realtime	fit.jar	examples/eg/music/Realtime.java,source/imp/java/src/eg/music/Realtime.java	1	0	0	0	49	38
+eg.music.Simulator	fit.jar	examples/eg/music/Simulator.java,source/imp/java/src/eg/music/Simulator.java	1	0	0	0	71	53
+#Issues
+#======
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/fitjava/fitjava-1.1/src/source/imp/java/tools/ant/lib/ant.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/fitjava/fitjava-1.1/src/source/imp/java/tools/ant/lib/junit.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/fitjava/fitjava-1.1/src/source/imp/java/tools/ant/lib/optional.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/fitjava/fitjava-1.1/src/source/imp/java/tools/ant/lib/xercesImpl.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/fitjava/fitjava-1.1/src/source/imp/java/tools/ant/lib/xml-apis.jar in <src> ignored.
+#GUESS DISTRO: examples

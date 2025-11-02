@@ -1,0 +1,153 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../src/styles.css" />
+
+<title>Qualitas Corpus JRE Versions</title>
+
+</head>
+
+<body>
+<h1>Qualitas Corpus JRE Versions</h1>
+
+The metadata for entries in the corpus includes
+the <a href="">jreversion</a> attribute. This is the earliest version of the
+JRE (really the JDK) that is needed to compile that system. This has been
+determine automatically using the version identification procedure described
+below, and so may not necessarily correspond to what the developers of the
+system think. For example, they may have been using the JDK 1.4 toolset, but
+in fact only ever use types found in JDK 1.3.  In which case, the system
+website may report JDK 1.4 as a requirement to use the system, but the
+metadata reports JDK 1.3. There are other issues, as described below.
+
+<h2>API Identification</h2>
+
+<p>Determining what is the API for the JDK turns out to be a non-trivial
+problem. At some level, the "ground truth" is provided by the compiler and
+the libraries it uses. The libraries include <tt>rt.jar</tt> and similar jar
+files that come with a Java installation. However, that means that if those
+files are different (e.g. different vendors) then the API can be different.
+In this case, we use
+the <a href="http://www.oracle.com/us/technologies/java">Oracle</a> <tt>jar</tt>
+files.
+
+<p>
+Adding to the difficulty is that the library jar files contain
+implementations of types that are there solely to support the JDK
+implementation (e.g. types in the <tt>com.sun</tt> package and subpackages)
+and are not intended to be used by Java developers. Such types should not
+really be considered part of the API.
+
+<p>Given that Java developers will make decisions about what types they can
+used based on what's documented in the "API Specification" JavaDoc pages,
+those pages perhaps represent the most authoritative source of what the API
+is. For the purposes of this exercise, the files that make up the JavaDoc
+pages will be used to identify the API contents.
+
+<p>The API consists of the types, and the accessible members of those
+types. Such members are any that are non-private, since such members could
+be used by any Java developer.
+
+<h3>API Identification Procedure</h3>
+
+This describes how the contents of a particular version of the JRE 
+are determined.
+
+<ol>
+<li>
+Determine the types in the API by listing all the <tt>html</tt>
+files in the <tt>java</tt>, <tt>javax</tt>, and
+<tt>org</tt> directories of the JavaDoc source for the JRE version,
+and stripping out the non-class files.
+<li>
+For each type identified in the previous step, pull out the 
+relevant <tt>.class</tt> file from the appropriate <tt>jar</tt> file.
+<li>
+Use a bytecode library (BCEL in this case) to determine which members
+of that type are non-private.
+</ol>
+
+The result is a list of types and non-private members for those type that
+constitutes the contents of the API for the particular version of the JRE.
+The APIs that have been identified by this procedure are:
+<ul>
+<li>
+1.1.8_16
+<li>
+1.2.2_017
+<li>
+1.3.1_20
+<li>
+1.4.2_19
+<li>
+1.5.0_22
+<li>
+1.6.0
+<li>
+1.7.0_ea
+</ul>
+
+<h2>JRE Version Identification</h2>
+
+The principle of identifying a particular JRE version is that if a system
+depends on one version of the JRE, and not an earlier version, then it will
+probably use something (a member of a type) that was not available in the
+earlier version.
+
+<h3>JRE Version Identification Procedure</h3>
+
+This identifies the earliest version of the JRE that a given system
+requires in order to compile.
+<ol>
+<li>
+For the system (from bytecode), identify all members of the JRE
+it uses
+
+<li> For each <em>api version</em> from the list above from earliest
+to latest version
+<ol>
+  <li> For each <em>used member</em> identified
+     <ol>
+       <li> If the <em>used member</em> does <b>not</b> appear in the 
+	 <em>api version</em>, continue with the next version
+     </ol>
+  <li> If all <em>used members</em> appear in the <em>api version</em> then
+    record that version as the earliest required and stop.
+</ol>
+</ol>
+
+
+<h2>Threats to validity</h2>
+
+<ul>
+<li><p>The identification of the api version is done from bytecode, meaning
+any symbols lost in the compilation process (e.g. constants of primitive
+type) won't be recorded.
+
+<p>It seems unlikely two JRE versions will differ only on existence of
+a constant so this shouldn't be a problem (in fact this assumption
+can be checked)
+
+<li><p>The version recorded is the earliest that would allow the system
+to be compiled. The system may in fact have been written against a
+later version, but just so happened to not use anything specific to
+the later version.
+
+<li><p>The identification of the API is a heuristic. There is nothing stopping
+a developer from using the classes in <tt>com.sun</tt> that appear in the
+deployed <tt>jar files</tt>, in which case the results of the process
+described above may vary.
+
+<li><p>Some system may have been written against one JRE version but later
+recompiled with a later JRE version. This can mean some symbols appearing in
+the bytecode that indicate a later version of the JRE is needed than is
+really the case. For example, the class
+org.apache.tools.ant.taskdefs.optional.ejb.EjbJar is distributed in ant-1.2,
+and it's compiled form contains a reference to java.util.AbstractList,
+despite there being not reference to this in the source code.
+
+</ul>
+
+<!--#include virtual="../src/tail.html"-->
+
+</body>
+</html>

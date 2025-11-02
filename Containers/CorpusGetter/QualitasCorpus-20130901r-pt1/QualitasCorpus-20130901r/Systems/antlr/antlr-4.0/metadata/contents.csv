@@ -1,0 +1,825 @@
+#2013-09-05T10:00:11NZST
+#System Version : antlr-4.0
+#Source Packages: org.antlr.
+#Ignore Packages: 
+#Distributed    : antlr4-4.0/runtime/Java/src,antlr4-4.0/tool/src
+#Source Roots   : antlr4-4.0/antlr4-maven-plugin/src/main/java,antlr4-4.0/runtime/Java/src,antlr4-4.0/tool/playground,antlr4-4.0/tool/src,antlr4-4.0/tool/test
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+Bar		antlr4-4.0/tool/playground/Bar.java	1	2	1	4	11	9
+ExtractInheritance		antlr4-4.0/tool/playground/ExtractInheritance.java	1	2	1	0	54	34
+Foo		antlr4-4.0/tool/playground/Foo.java	1	2	1	4	14	14
+GenHierarchy		antlr4-4.0/tool/playground/GenHierarchy.java	1	2	1	0	61	46
+TestA		antlr4-4.0/tool/playground/TestA.java	1	2	1	0	26	22
+TestCSV		antlr4-4.0/tool/playground/TestCSV.java	1	2	1	0	34	25
+TestE		antlr4-4.0/tool/playground/TestE.java	1	2	1	0	11	10
+TestJava		antlr4-4.0/tool/playground/TestJava.java	1	2	1	4	147	108
+TestJavaLR		antlr4-4.0/tool/playground/TestJavaLR.java	1	2	1	4	277	185
+TestL		antlr4-4.0/tool/playground/TestL.java	1	2	1	0	44	12
+TestR		antlr4-4.0/tool/playground/TestR.java	1	2	1	0	47	13
+TestT		antlr4-4.0/tool/playground/TestT.java	1	2	1	0	36	26
+TestU		antlr4-4.0/tool/playground/TestU.java	1	2	1	0	13	10
+TestW		antlr4-4.0/tool/playground/TestW.java	1	2	1	0	14	12
+TransformEType		antlr4-4.0/tool/playground/TransformEType.java	1	2	1	0	31	25
+org.antlr.v4.codegen.model.chunk.ActionChunk	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/ActionChunk.java	0	0	0	0	44	9
+org.antlr.v4.codegen.model.chunk.ActionTemplate	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/ActionTemplate.java	0	0	0	0	43	10
+org.antlr.v4.codegen.model.chunk.ActionText	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/ActionText.java	0	0	0	0	43	9
+org.antlr.v4.codegen.model.chunk.ArgRef	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/ArgRef.java	0	0	0	0	40	7
+org.antlr.v4.codegen.model.chunk.DefaultLexerSuperClass	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/DefaultLexerSuperClass.java	0	0	0	0	35	4
+org.antlr.v4.codegen.model.chunk.DefaultParserSuperClass	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/DefaultParserSuperClass.java	0	0	0	0	35	4
+org.antlr.v4.codegen.model.chunk.LabelRef	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/LabelRef.java	0	0	0	0	42	9
+org.antlr.v4.codegen.model.chunk.ListLabelRef	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/ListLabelRef.java	0	0	0	0	37	5
+org.antlr.v4.codegen.model.chunk.LocalRef	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/LocalRef.java	0	0	0	0	42	9
+org.antlr.v4.codegen.model.chunk.NonLocalAttrRef	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/NonLocalAttrRef.java	0	0	0	0	47	13
+org.antlr.v4.codegen.model.chunk.QRetValueRef	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/QRetValueRef.java	0	0	0	0	42	9
+org.antlr.v4.codegen.model.chunk.RetValueRef	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/RetValueRef.java	0	0	0	0	44	9
+org.antlr.v4.codegen.model.chunk.RulePropertyRef	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/RulePropertyRef.java	0	0	0	0	43	9
+org.antlr.v4.codegen.model.chunk.RulePropertyRef_ctx	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/RulePropertyRef_ctx.java	0	0	0	0	39	7
+org.antlr.v4.codegen.model.chunk.RulePropertyRef_start	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/RulePropertyRef_start.java	0	0	0	0	40	7
+org.antlr.v4.codegen.model.chunk.RulePropertyRef_stop	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/RulePropertyRef_stop.java	0	0	0	0	40	7
+org.antlr.v4.codegen.model.chunk.RulePropertyRef_text	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/RulePropertyRef_text.java	0	0	0	0	40	7
+org.antlr.v4.codegen.model.chunk.SetAttr	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/SetAttr.java	0	0	0	0	48	13
+org.antlr.v4.codegen.model.chunk.SetNonLocalAttr	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/SetNonLocalAttr.java	0	0	0	0	49	15
+org.antlr.v4.codegen.model.chunk.ThisRulePropertyRef_ctx	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/ThisRulePropertyRef_ctx.java	0	0	0	0	39	7
+org.antlr.v4.codegen.model.chunk.ThisRulePropertyRef_start	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/ThisRulePropertyRef_start.java	0	0	0	0	40	7
+org.antlr.v4.codegen.model.chunk.ThisRulePropertyRef_stop	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/ThisRulePropertyRef_stop.java	0	0	0	0	40	7
+org.antlr.v4.codegen.model.chunk.ThisRulePropertyRef_text	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/ThisRulePropertyRef_text.java	0	0	0	0	40	7
+org.antlr.v4.codegen.model.chunk.TokenPropertyRef	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/TokenPropertyRef.java	0	0	0	0	43	9
+org.antlr.v4.codegen.model.chunk.TokenPropertyRef_channel	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/TokenPropertyRef_channel.java	0	0	0	0	40	7
+org.antlr.v4.codegen.model.chunk.TokenPropertyRef_index	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/TokenPropertyRef_index.java	0	0	0	0	40	7
+org.antlr.v4.codegen.model.chunk.TokenPropertyRef_int	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/TokenPropertyRef_int.java	0	0	0	0	40	7
+org.antlr.v4.codegen.model.chunk.TokenPropertyRef_line	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/TokenPropertyRef_line.java	0	0	0	0	40	7
+org.antlr.v4.codegen.model.chunk.TokenPropertyRef_pos	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/TokenPropertyRef_pos.java	0	0	0	0	40	7
+org.antlr.v4.codegen.model.chunk.TokenPropertyRef_text	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/TokenPropertyRef_text.java	0	0	0	0	40	7
+org.antlr.v4.codegen.model.chunk.TokenPropertyRef_type	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/TokenPropertyRef_type.java	0	0	0	0	40	7
+org.antlr.v4.codegen.model.chunk.TokenRef	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/chunk/TokenRef.java	0	0	0	0	43	9
+org.antlr.v4.tool.interp.LexerInterpreter	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/interp/LexerInterpreter.java	0	0	0	0	126	78
+org.antlr.v4.tool.interp.ParserInterpreter	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/interp/ParserInterpreter.java	0	0	0	0	136	90
+org.antlr.v4.tool.interp.ParserInterpreter$DummyParser	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/interp/ParserInterpreter.java	0	0	0	2	0	0
+org.antlr.v4.parse.ANTLRLexer	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.v4.parse.ANTLRLexer$DFA2	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRLexer$DFA32	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.v4.parse.ANTLRParser$actionElement_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$actionScopeName_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$action_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$altList_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$alternativeEntry_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$alternative_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$atom_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$blockEntry_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$blockSet_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$blockSuffix_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$block_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$delegateGrammar_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$delegateGrammars_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$ebnfSuffix_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$ebnf_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$elementEntry_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$elementOption_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$elementOptions_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$element_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$elements_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$exceptionGroup_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$exceptionHandler_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$finallyClause_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$grammarSpec_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$grammarType_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$id_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$labeledAlt_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$labeledElement_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$labeledLexerElement_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$lexerAltList_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$lexerAlt_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$lexerAtom_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$lexerBlock_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$lexerCommandExpr_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$lexerCommandName_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$lexerCommand_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$lexerCommands_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$lexerElement_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$lexerElements_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$lexerRuleBlock_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$lexerRule_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$localsSpec_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$modeSpec_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$notSet_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$optionValue_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$option_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$optionsSpec_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$parserRule_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$prequelConstruct_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$qid_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$range_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$ruleAction_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$ruleAltList_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$ruleBlock_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$ruleEntry_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$rulePrequel_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$rulePrequels_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$ruleReturns_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$rule_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$ruleref_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$rules_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$setElement_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$sync_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$terminal_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$throwsSpec_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$tokensSpec_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$v3tokenSpec_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ANTLRParser$wildcard_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ATNBuilder	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.v4.parse.ATNBuilder$atom_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ATNBuilder$blockSet_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ATNBuilder$element_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ATNBuilder$lexerCommandExpr_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ATNBuilder$setElement_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ATNBuilder$subrule_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ATNBuilder$terminal_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ActionSplitter	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.v4.parse.ActionSplitterListener	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/parse/ActionSplitterListener.java	0	0	0	0	46	11
+org.antlr.v4.parse.BlockSetTransformer	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.v4.parse.BlockSetTransformer$DFA6	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.BlockSetTransformer$blockSet_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.BlockSetTransformer$ebnfBlockSet_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.BlockSetTransformer$ebnfSuffix_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.BlockSetTransformer$setAlt_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.BlockSetTransformer$setElement_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.BlockSetTransformer$topdown_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarASTAdaptor	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/parse/GrammarASTAdaptor.java	0	0	0	0	83	43
+org.antlr.v4.parse.GrammarTreeVisitor	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$actionElement_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$action_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$alternative_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$astOperand_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$atom_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$blockSet_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$blockSuffix_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$block_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$delegateGrammar_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$delegateGrammars_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$ebnfSuffix_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$elementOption_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$elementOptions_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$element_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$exceptionGroup_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$exceptionHandler_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$finallyClause_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$grammarSpec_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$labeledElement_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$labeledLexerElement_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$lexerAlternative_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$lexerAtom_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$lexerBlock_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$lexerCommandExpr_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$lexerCommand_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$lexerElement_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$lexerElements_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$lexerOuterAlternative_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$lexerRuleBlock_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$lexerRule_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$lexerSubrule_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$locals_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$mode_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$optionValue_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$option_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$optionsSpec_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$outerAlternative_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$prequelConstruct_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$prequelConstructs_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$range_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$ruleAction_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$ruleBlock_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$ruleModifier_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$ruleReturns_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$rule_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$ruleref_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$rules_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$setElement_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$subrule_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$terminal_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$throwsSpec_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$tokenSpec_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.GrammarTreeVisitor$tokensSpec_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.LeftRecursiveRuleWalker	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.v4.parse.LeftRecursiveRuleWalker$outerAlternative_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.LeftRecursiveRuleWalker$ruleBlock_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.parse.ResyncToEndOfRuleBlock	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/parse/ResyncToEndOfRuleBlock.java	0	0	0	0	37	3
+org.antlr.v4.parse.ScopeParser	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/parse/ScopeParser.java	0	0	0	0	299	204
+org.antlr.v4.parse.TokenVocabParser	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/parse/TokenVocabParser.java	0	0	0	0	134	81
+org.antlr.v4.parse.ToolANTLRLexer	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/parse/ToolANTLRLexer.java	0	0	0	0	50	16
+org.antlr.v4.parse.ToolANTLRParser	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/parse/ToolANTLRParser.java	0	0	0	0	84	43
+org.antlr.v4.parse.v3TreeGrammarException	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/parse/v3TreeGrammarException.java	0	0	0	0	42	9
+org.antlr.v4.parse.v4ParserException	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/parse/v4ParserException.java	0	0	0	0	47	11
+org.abego.treelayout.util.DefaultConfiguration	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.antlr.v4.semantics.ActionSniffer	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/semantics/ActionSniffer.java	0	0	0	0	119	70
+org.antlr.v4.semantics.AttributeChecks	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/semantics/AttributeChecks.java	0	0	0	0	265	200
+org.antlr.v4.semantics.BasicSemanticChecks	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/semantics/BasicSemanticChecks.java	0	0	0	0	551	406
+org.antlr.v4.semantics.BasicSemanticChecks$1	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/semantics/BasicSemanticChecks.java	0	0	0	2	0	0
+org.antlr.v4.semantics.BlankActionSplitterListener	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/semantics/BlankActionSplitterListener.java	0	0	0	0	79	36
+org.antlr.v4.semantics.RuleCollector	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/semantics/RuleCollector.java	0	0	0	0	130	84
+org.antlr.v4.semantics.SemanticPipeline	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/semantics/SemanticPipeline.java	0	0	0	0	260	144
+org.antlr.v4.semantics.SymbolChecks	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/semantics/SymbolChecks.java	0	0	0	0	295	203
+org.antlr.v4.semantics.SymbolCollector	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/semantics/SymbolCollector.java	0	0	0	0	198	130
+org.antlr.v4.semantics.UseDefAnalyzer	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/semantics/UseDefAnalyzer.java	0	0	0	0	121	77
+org.antlr.v4.semantics.UseDefAnalyzer$1	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/semantics/UseDefAnalyzer.java	0	0	0	2	0	0
+org.antlr.v4.test.BaseTest		antlr4-4.0/tool/test/org/antlr/v4/test/BaseTest.java	0	2	1	0	1212	930
+org.antlr.v4.test.ErrorQueue		antlr4-4.0/tool/test/org/antlr/v4/test/ErrorQueue.java	0	2	1	0	88	47
+org.antlr.v4.test.TestASTStructure		antlr4-4.0/tool/test/org/antlr/v4/test/TestASTStructure.java	0	2	1	0	406	284
+org.antlr.v4.test.TestATNConstruction		antlr4-4.0/tool/test/org/antlr/v4/test/TestATNConstruction.java	0	2	1	0	907	413
+org.antlr.v4.test.TestATNDeserialization		antlr4-4.0/tool/test/org/antlr/v4/test/TestATNDeserialization.java	0	2	1	0	187	135
+org.antlr.v4.test.TestATNInterpreter		antlr4-4.0/tool/test/org/antlr/v4/test/TestATNInterpreter.java	0	2	1	0	409	333
+org.antlr.v4.test.TestATNLexerInterpreter		antlr4-4.0/tool/test/org/antlr/v4/test/TestATNLexerInterpreter.java	0	2	1	0	325	243
+org.antlr.v4.test.TestATNParserPrediction		antlr4-4.0/tool/test/org/antlr/v4/test/TestATNParserPrediction.java	0	2	1	0	575	453
+org.antlr.v4.test.TestATNSerialization		antlr4-4.0/tool/test/org/antlr/v4/test/TestATNSerialization.java	0	2	1	0	735	680
+org.antlr.v4.test.TestActionSplitter		antlr4-4.0/tool/test/org/antlr/v4/test/TestActionSplitter.java	0	2	1	0	82	46
+org.antlr.v4.test.TestActionTranslation		antlr4-4.0/tool/test/org/antlr/v4/test/TestActionTranslation.java	0	2	1	0	410	325
+org.antlr.v4.test.TestAttributeChecks		antlr4-4.0/tool/test/org/antlr/v4/test/TestAttributeChecks.java	0	2	1	0	271	212
+org.antlr.v4.test.TestBasicSemanticErrors		antlr4-4.0/tool/test/org/antlr/v4/test/TestBasicSemanticErrors.java	0	2	1	0	117	73
+org.antlr.v4.test.TestBufferedTokenStream		antlr4-4.0/tool/test/org/antlr/v4/test/TestBufferedTokenStream.java	0	2	1	0	185	127
+org.antlr.v4.test.TestCommonTokenStream		antlr4-4.0/tool/test/org/antlr/v4/test/TestCommonTokenStream.java	0	2	1	0	308	231
+org.antlr.v4.test.TestCompositeGrammars		antlr4-4.0/tool/test/org/antlr/v4/test/TestCompositeGrammars.java	0	2	1	0	667	548
+org.antlr.v4.test.TestFastQueue		antlr4-4.0/tool/test/org/antlr/v4/test/TestFastQueue.java	0	2	1	0	134	94
+org.antlr.v4.test.TestFullContextParsing		antlr4-4.0/tool/test/org/antlr/v4/test/TestFullContextParsing.java	0	2	1	0	350	270
+org.antlr.v4.test.TestGraphNodes		antlr4-4.0/tool/test/org/antlr/v4/test/TestGraphNodes.java	0	2	1	0	906	803
+org.antlr.v4.test.TestIntervalSet		antlr4-4.0/tool/test/org/antlr/v4/test/TestIntervalSet.java	0	2	1	0	423	331
+org.antlr.v4.test.TestLeftRecursion		antlr4-4.0/tool/test/org/antlr/v4/test/TestLeftRecursion.java	0	2	1	0	421	360
+org.antlr.v4.test.TestLexerErrors		antlr4-4.0/tool/test/org/antlr/v4/test/TestLexerErrors.java	0	2	1	0	213	154
+org.antlr.v4.test.TestLexerExec		antlr4-4.0/tool/test/org/antlr/v4/test/TestLexerExec.java	0	2	1	0	722	628
+org.antlr.v4.test.TestListeners		antlr4-4.0/tool/test/org/antlr/v4/test/TestListeners.java	0	2	1	0	226	187
+org.antlr.v4.test.TestParseErrors		antlr4-4.0/tool/test/org/antlr/v4/test/TestParseErrors.java	0	2	1	0	388	299
+org.antlr.v4.test.TestParseTrees		antlr4-4.0/tool/test/org/antlr/v4/test/TestParseTrees.java	0	2	1	0	154	112
+org.antlr.v4.test.TestParserExec		antlr4-4.0/tool/test/org/antlr/v4/test/TestParserExec.java	0	2	1	0	310	198
+org.antlr.v4.test.TestPerformance		antlr4-4.0/tool/test/org/antlr/v4/test/TestPerformance.java	0	2	1	0	955	665
+org.antlr.v4.test.TestScopeParsing		antlr4-4.0/tool/test/org/antlr/v4/test/TestScopeParsing.java	0	2	1	0	66	30
+org.antlr.v4.test.TestSemPredEvalLexer		antlr4-4.0/tool/test/org/antlr/v4/test/TestSemPredEvalLexer.java	0	2	1	0	183	143
+org.antlr.v4.test.TestSemPredEvalParser		antlr4-4.0/tool/test/org/antlr/v4/test/TestSemPredEvalParser.java	0	2	1	0	551	419
+org.antlr.v4.test.TestSets		antlr4-4.0/tool/test/org/antlr/v4/test/TestSets.java	0	2	1	0	282	220
+org.antlr.v4.test.TestSymbolIssues		antlr4-4.0/tool/test/org/antlr/v4/test/TestSymbolIssues.java	0	2	1	0	171	113
+org.antlr.v4.test.TestTokenStreamRewriter		antlr4-4.0/tool/test/org/antlr/v4/test/TestTokenStreamRewriter.java	0	2	1	0	882	775
+org.antlr.v4.test.TestTokenTypeAssignment		antlr4-4.0/tool/test/org/antlr/v4/test/TestTokenTypeAssignment.java	0	2	1	0	204	140
+org.antlr.v4.test.TestToolSyntaxErrors		antlr4-4.0/tool/test/org/antlr/v4/test/TestToolSyntaxErrors.java	0	2	1	0	174	117
+org.antlr.v4.test.TestTopologicalSort		antlr4-4.0/tool/test/org/antlr/v4/test/TestTopologicalSort.java	0	2	1	0	117	74
+org.antlr.v4.test.TestUnbufferedCharStream		antlr4-4.0/tool/test/org/antlr/v4/test/TestUnbufferedCharStream.java	0	2	1	0	368	263
+org.antlr.v4.test.TestUnbufferedTokenStream		antlr4-4.0/tool/test/org/antlr/v4/test/TestUnbufferedTokenStream.java	0	2	1	0	227	164
+org.stringtemplate.v4.debug.AddAttributeEvent	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.debug.ConstructionEvent	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.debug.EvalExprEvent	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.debug.EvalTemplateEvent	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.debug.IndentEvent	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.debug.InterpEvent	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.antlr.runtime.misc.DoubleKeyMap	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.misc.FastQueue	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.misc.IntArray	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.misc.LookaheadStream	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.v4.runtime.misc.AbstractEqualityComparator	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/AbstractEqualityComparator.java	0	0	0	0	40	3
+org.antlr.v4.runtime.misc.Array2DHashSet	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/Array2DHashSet.java	0	0	0	0	524	378
+org.antlr.v4.runtime.misc.Array2DHashSet$SetIterator	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/Array2DHashSet.java	0	0	0	2	0	0
+org.antlr.v4.runtime.misc.DoubleKeyMap	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/DoubleKeyMap.java	0	0	0	0	85	40
+org.antlr.v4.runtime.misc.EqualityComparator	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/EqualityComparator.java	0	0	0	0	59	5
+org.antlr.v4.runtime.misc.FlexibleHashMap	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/FlexibleHashMap.java	0	0	0	0	292	220
+org.antlr.v4.runtime.misc.FlexibleHashMap$Entry	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/FlexibleHashMap.java	0	0	0	2	0	0
+org.antlr.v4.runtime.misc.GraphicsSupport	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/GraphicsSupport.java	0	0	0	0	137	74
+org.antlr.v4.runtime.misc.GraphicsSupport$1	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/GraphicsSupport.java	0	0	0	2	0	0
+org.antlr.v4.runtime.misc.IntSet	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/IntSet.java	0	0	0	0	80	20
+org.antlr.v4.runtime.misc.IntegerList	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/IntegerList.java	0	0	0	0	296	183
+org.antlr.v4.runtime.misc.IntegerStack	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/IntegerStack.java	0	0	0	0	61	20
+org.antlr.v4.runtime.misc.Interval	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/Interval.java	0	0	0	0	155	77
+org.antlr.v4.runtime.misc.IntervalSet	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/IntervalSet.java	0	0	0	0	642	458
+org.antlr.v4.runtime.misc.LogManager	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/LogManager.java	0	0	0	0	122	81
+org.antlr.v4.runtime.misc.LogManager$Record	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/LogManager.java	0	0	0	2	0	0
+org.antlr.v4.runtime.misc.MultiMap	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/MultiMap.java	0	0	0	0	56	23
+org.antlr.v4.runtime.misc.NotNull	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/NotNull.java	0	0	0	0	37	6
+org.antlr.v4.runtime.misc.Nullable	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/Nullable.java	0	0	0	0	37	6
+org.antlr.v4.runtime.misc.ObjectEqualityComparator	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/ObjectEqualityComparator.java	0	0	0	0	74	18
+org.antlr.v4.runtime.misc.OrderedHashSet	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/OrderedHashSet.java	0	0	0	0	137	73
+org.antlr.v4.runtime.misc.Pair	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/Pair.java	0	0	0	0	41	9
+org.antlr.v4.runtime.misc.ParseCancellationException	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/ParseCancellationException.java	0	0	0	0	64	18
+org.antlr.v4.runtime.misc.TestRig	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/TestRig.java	0	0	0	0	268	203
+org.antlr.v4.runtime.misc.Triple	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/Triple.java	0	0	0	0	40	8
+org.antlr.v4.runtime.misc.Utils	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/Utils.java	0	0	0	0	120	78
+org.antlr.v4.runtime.misc.Utils$1	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/Utils.java	0	0	0	2	0	0
+org.antlr.v4.runtime.misc.Utils$2	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/misc/Utils.java	0	0	0	2	0	0
+org.stringtemplate.v4.compiler.Bytecode	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.compiler.Bytecode$Instruction	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.Bytecode$OperandType	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.BytecodeDisassembler	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.compiler.BytecodeDisassembler$1	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.CodeGenerator	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.compiler.CodeGenerator$args_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.CodeGenerator$conditional_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.CodeGenerator$exprOptions_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.CodeGenerator$includeExpr_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.CodeGenerator$listElement_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.CodeGenerator$list_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.CodeGenerator$mapTemplateRef_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.CodeGenerator$primary_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.CodeGenerator$region_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.CodeGenerator$subtemplate_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.CodeGenerator$template_scope	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.CompilationState	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.compiler.CompiledST	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.compiler.Compiler	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.compiler.Compiler$1	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.Compiler$2	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.Compiler$3	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.Compiler$4	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.FormalArgument	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.compiler.GroupLexer	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.compiler.GroupLexer$DFA8	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.GroupParser	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.compiler.GroupParser$formalArgs_scope	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STException	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.compiler.STLexer	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.compiler.STLexer$STToken	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.compiler.STParser$andConditional_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$argExprList_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$arg_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$args_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$compoundElement_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$conditional_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$conditional_scope	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$element_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$exprNoComma_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$exprOptions_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$exprTag_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$expr_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$ifstat_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$includeExpr_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$listElement_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$list_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$mapExpr_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$mapTemplateRef_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$memberExpr_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$namedArg_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$notConditionalExpr_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$notConditional_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$option_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$primary_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$region_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$singleElement_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$subtemplate_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$templateAndEOF_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.STParser$template_return	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.compiler.StringTable	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.antlr.v4.runtime.ANTLRErrorListener	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/ANTLRErrorListener.java	0	0	0	0	112	26
+org.antlr.v4.runtime.ANTLRErrorStrategy	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/ANTLRErrorStrategy.java	0	0	0	0	142	17
+org.antlr.v4.runtime.ANTLRFileStream	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/ANTLRFileStream.java	0	0	0	0	83	43
+org.antlr.v4.runtime.ANTLRInputStream	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/ANTLRInputStream.java	0	0	0	0	243	143
+org.antlr.v4.runtime.BailErrorStrategy	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/BailErrorStrategy.java	0	0	0	0	72	23
+org.antlr.v4.runtime.BaseErrorListener	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/BaseErrorListener.java	0	0	0	0	78	40
+org.antlr.v4.runtime.BufferedTokenStream	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/BufferedTokenStream.java	0	0	0	0	450	271
+org.antlr.v4.runtime.CharStream	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/CharStream.java	0	0	0	0	73	9
+org.antlr.v4.runtime.CommonToken	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/CommonToken.java	0	0	0	0	223	149
+org.antlr.v4.runtime.CommonTokenFactory	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/CommonTokenFactory.java	0	0	0	0	74	29
+org.antlr.v4.runtime.CommonTokenStream	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/CommonTokenStream.java	0	0	0	0	115	52
+org.antlr.v4.runtime.ConsoleErrorListener	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/ConsoleErrorListener.java	0	0	0	0	50	14
+org.antlr.v4.runtime.DefaultErrorStrategy	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/DefaultErrorStrategy.java	0	0	0	0	560	264
+org.antlr.v4.runtime.DiagnosticErrorListener	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/DiagnosticErrorListener.java	0	0	0	0	73	38
+org.antlr.v4.runtime.FailedPredicateException	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/FailedPredicateException.java	0	0	0	0	89	45
+org.antlr.v4.runtime.InputMismatchException	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/InputMismatchException.java	0	0	0	0	40	7
+org.antlr.v4.runtime.IntStream	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/IntStream.java	0	0	0	0	242	15
+org.antlr.v4.runtime.Lexer	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/Lexer.java	0	0	0	0	436	264
+org.antlr.v4.runtime.LexerNoViableAltException	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/LexerNoViableAltException.java	0	0	0	0	80	39
+org.antlr.v4.runtime.NoViableAltException	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/NoViableAltException.java	0	0	0	0	86	38
+org.antlr.v4.runtime.Parser	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/Parser.java	0	0	0	0	675	417
+org.antlr.v4.runtime.Parser$TraceListener	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/Parser.java	0	0	0	2	0	0
+org.antlr.v4.runtime.Parser$TrimToSizeListener	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/Parser.java	0	0	0	2	0	0
+org.antlr.v4.runtime.ParserRuleContext	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/ParserRuleContext.java	0	0	0	0	296	160
+org.antlr.v4.runtime.ProxyErrorListener	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/ProxyErrorListener.java	0	0	0	0	97	57
+org.antlr.v4.runtime.RecognitionException	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/RecognitionException.java	0	0	0	0	121	54
+org.antlr.v4.runtime.Recognizer	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/Recognizer.java	0	0	0	0	168	81
+org.antlr.v4.runtime.Recognizer$1	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/Recognizer.java	0	0	0	2	0	0
+org.antlr.v4.runtime.RuleContext	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/RuleContext.java	0	0	0	0	266	149
+org.antlr.v4.runtime.Token	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/Token.java	0	0	0	0	109	19
+org.antlr.v4.runtime.TokenFactory	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/TokenFactory.java	0	0	0	0	50	8
+org.antlr.v4.runtime.TokenSource	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/TokenSource.java	0	0	0	0	72	10
+org.antlr.v4.runtime.TokenStream	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/TokenStream.java	0	0	0	0	172	19
+org.antlr.v4.runtime.TokenStreamRewriter	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/TokenStreamRewriter.java	0	0	0	0	586	325
+org.antlr.v4.runtime.TokenStreamRewriter$InsertBeforeOp	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/TokenStreamRewriter.java	0	0	0	2	0	0
+org.antlr.v4.runtime.TokenStreamRewriter$ReplaceOp	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/TokenStreamRewriter.java	0	0	0	2	0	0
+org.antlr.v4.runtime.TokenStreamRewriter$RewriteOperation	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/TokenStreamRewriter.java	0	0	0	2	0	0
+org.antlr.v4.runtime.UnbufferedCharStream	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/UnbufferedCharStream.java	0	0	0	0	328	179
+org.antlr.v4.runtime.UnbufferedTokenStream	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/UnbufferedTokenStream.java	0	0	0	0	336	198
+org.antlr.v4.runtime.WritableToken	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/WritableToken.java	0	0	0	0	45	9
+org.antlr.v4.analysis.AnalysisPipeline	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/analysis/AnalysisPipeline.java	0	0	0	0	117	73
+org.antlr.v4.analysis.LeftRecursionDetector	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/analysis/LeftRecursionDetector.java	0	0	0	0	154	82
+org.antlr.v4.analysis.LeftRecursiveRuleAltInfo	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/analysis/LeftRecursiveRuleAltInfo.java	0	0	0	0	59	25
+org.antlr.v4.analysis.LeftRecursiveRuleAnalyzer	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/analysis/LeftRecursiveRuleAnalyzer.java	0	0	0	0	404	301
+org.antlr.v4.analysis.LeftRecursiveRuleAnalyzer$ASSOC	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/analysis/LeftRecursiveRuleAnalyzer.java	0	0	0	2	0	0
+org.antlr.v4.analysis.LeftRecursiveRuleTransformer	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/analysis/LeftRecursiveRuleTransformer.java	0	0	0	0	250	155
+org.antlr.v4.runtime.atn.ATN	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/ATN.java	0	0	0	0	132	65
+org.antlr.v4.runtime.atn.ATNConfig	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/ATNConfig.java	0	0	0	0	202	119
+org.antlr.v4.runtime.atn.ATNConfigSet	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/ATNConfigSet.java	0	0	0	0	551	234
+org.antlr.v4.runtime.atn.ATNConfigSet$AbstractConfigHashSet	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/ATNConfigSet.java	0	0	0	2	0	0
+org.antlr.v4.runtime.atn.ATNConfigSet$ConfigEqualityComparator	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/ATNConfigSet.java	0	0	0	2	0	0
+org.antlr.v4.runtime.atn.ATNConfigSet$ConfigHashSet	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/ATNConfigSet.java	0	0	0	2	0	0
+org.antlr.v4.runtime.atn.ATNSimulator	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/ATNSimulator.java	0	0	0	0	442	300
+org.antlr.v4.runtime.atn.ATNState	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/ATNState.java	0	0	0	0	209	88
+org.antlr.v4.runtime.atn.ActionTransition	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/ActionTransition.java	0	0	0	0	70	32
+org.antlr.v4.runtime.atn.ArrayPredictionContext	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/ArrayPredictionContext.java	0	0	0	0	191	109
+org.antlr.v4.runtime.atn.ArrayPredictionContext$1	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/ArrayPredictionContext.java	0	0	0	2	0	0
+org.antlr.v4.runtime.atn.AtomTransition	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/AtomTransition.java	0	0	0	0	65	26
+org.antlr.v4.runtime.atn.BasicBlockStartState	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/BasicBlockStartState.java	0	0	0	0	44	7
+org.antlr.v4.runtime.atn.BasicState	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/BasicState.java	0	0	0	0	44	7
+org.antlr.v4.runtime.atn.BlockEndState	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/BlockEndState.java	0	0	0	0	41	8
+org.antlr.v4.runtime.atn.BlockStartState	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/BlockStartState.java	0	0	0	0	36	4
+org.antlr.v4.runtime.atn.DecisionState	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/DecisionState.java	0	0	0	0	36	5
+org.antlr.v4.runtime.atn.EmptyPredictionContext	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/EmptyPredictionContext.java	0	0	0	0	65	28
+org.antlr.v4.runtime.atn.EpsilonTransition	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/EpsilonTransition.java	0	0	0	0	56	20
+org.antlr.v4.runtime.atn.LL1Analyzer	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/LL1Analyzer.java	0	0	0	0	167	97
+org.antlr.v4.runtime.atn.LexerATNConfig	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/LexerATNConfig.java	0	0	0	0	113	68
+org.antlr.v4.runtime.atn.LexerATNSimulator	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/LexerATNSimulator.java	0	0	0	0	712	455
+org.antlr.v4.runtime.atn.LexerATNSimulator$SimState	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/LexerATNSimulator.java	0	0	0	2	0	0
+org.antlr.v4.runtime.atn.LoopEndState	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/LoopEndState.java	0	0	0	0	41	8
+org.antlr.v4.runtime.atn.NotSetTransition	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/NotSetTransition.java	0	0	0	0	58	23
+org.antlr.v4.runtime.atn.OrderedATNConfigSet	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/OrderedATNConfigSet.java	0	0	0	0	50	12
+org.antlr.v4.runtime.atn.OrderedATNConfigSet$LexerConfigHashSet	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/OrderedATNConfigSet.java	0	0	0	2	0	0
+org.antlr.v4.runtime.atn.ParserATNPathFinder	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/ParserATNPathFinder.java	0	0	0	0	175	3
+org.antlr.v4.runtime.atn.ParserATNSimulator	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/ParserATNSimulator.java	0	0	0	0	1639	929
+org.antlr.v4.runtime.atn.PlusBlockStartState	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/PlusBlockStartState.java	0	0	0	0	45	8
+org.antlr.v4.runtime.atn.PlusLoopbackState	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/PlusLoopbackState.java	0	0	0	0	42	7
+org.antlr.v4.runtime.atn.PredicateTransition	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/PredicateTransition.java	0	0	0	0	76	31
+org.antlr.v4.runtime.atn.PredictionContext	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/PredictionContext.java	0	0	0	0	749	459
+org.antlr.v4.runtime.atn.PredictionContextCache	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/PredictionContextCache.java	0	0	0	0	66	22
+org.antlr.v4.runtime.atn.PredictionMode	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/PredictionMode.java	0	0	0	0	648	161
+org.antlr.v4.runtime.atn.PredictionMode$AltAndContextConfigEqualityComparator	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/PredictionMode.java	0	0	0	2	0	0
+org.antlr.v4.runtime.atn.PredictionMode$AltAndContextMap	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/PredictionMode.java	0	0	0	2	0	0
+org.antlr.v4.runtime.atn.RangeTransition	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/RangeTransition.java	0	0	0	0	65	28
+org.antlr.v4.runtime.atn.RuleStartState	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/RuleStartState.java	0	0	0	0	40	8
+org.antlr.v4.runtime.atn.RuleStopState	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/RuleStopState.java	0	0	0	0	45	7
+org.antlr.v4.runtime.atn.RuleTransition	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/RuleTransition.java	0	0	0	0	65	25
+org.antlr.v4.runtime.atn.SemanticContext	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/SemanticContext.java	0	0	0	0	223	139
+org.antlr.v4.runtime.atn.SemanticContext$AND	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/SemanticContext.java	0	0	0	2	0	0
+org.antlr.v4.runtime.atn.SemanticContext$OR	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/SemanticContext.java	0	0	0	2	0	0
+org.antlr.v4.runtime.atn.SemanticContext$Predicate	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/SemanticContext.java	0	0	0	2	0	0
+org.antlr.v4.runtime.atn.SetTransition	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/SetTransition.java	0	0	0	0	69	30
+org.antlr.v4.runtime.atn.SingletonPredictionContext	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/SingletonPredictionContext.java	0	0	0	0	117	72
+org.antlr.v4.runtime.atn.SingletonPredictionContext$1	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/SingletonPredictionContext.java	0	0	0	2	0	0
+org.antlr.v4.runtime.atn.StarBlockStartState	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/StarBlockStartState.java	0	0	0	0	40	7
+org.antlr.v4.runtime.atn.StarLoopEntryState	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/StarLoopEntryState.java	0	0	0	0	40	8
+org.antlr.v4.runtime.atn.StarLoopbackState	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/StarLoopbackState.java	0	0	0	0	42	10
+org.antlr.v4.runtime.atn.TokensStartState	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/TokensStartState.java	0	0	0	0	40	7
+org.antlr.v4.runtime.atn.Transition	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/Transition.java	0	0	0	0	116	58
+org.antlr.v4.runtime.atn.Transition$1	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/Transition.java	0	0	0	2	0	0
+org.antlr.v4.runtime.atn.WildcardTransition	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/atn/WildcardTransition.java	0	0	0	0	53	18
+org.antlr.v4.runtime.dfa.DFA	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/dfa/DFA.java	0	0	0	0	114	64
+org.antlr.v4.runtime.dfa.DFASerializer	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/dfa/DFASerializer.java	0	0	0	0	99	60
+org.antlr.v4.runtime.dfa.DFAState	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/dfa/DFAState.java	0	0	0	0	207	88
+org.antlr.v4.runtime.dfa.DFAState$PredPrediction	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/dfa/DFAState.java	0	0	0	2	0	0
+org.antlr.v4.runtime.dfa.LexerDFASerializer	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/dfa/LexerDFASerializer.java	0	0	0	0	45	12
+org.antlr.v4.runtime.tree.AbstractParseTreeVisitor	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/AbstractParseTreeVisitor.java	0	0	0	0	163	39
+org.antlr.v4.runtime.tree.ErrorNode	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/ErrorNode.java	0	0	0	0	34	3
+org.antlr.v4.runtime.tree.ErrorNodeImpl	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/ErrorNodeImpl.java	0	0	0	0	50	11
+org.antlr.v4.runtime.tree.ParseTree	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/ParseTree.java	0	0	0	0	64	13
+org.antlr.v4.runtime.tree.ParseTreeListener	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/ParseTreeListener.java	0	0	0	0	40	8
+org.antlr.v4.runtime.tree.ParseTreeProperty	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/ParseTreeProperty.java	0	0	0	0	58	9
+org.antlr.v4.runtime.tree.ParseTreeVisitor	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/ParseTreeVisitor.java	0	0	0	0	78	8
+org.antlr.v4.runtime.tree.ParseTreeWalker	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/ParseTreeWalker.java	0	0	0	0	74	33
+org.antlr.v4.runtime.tree.RuleNode	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/RuleNode.java	0	0	0	0	37	5
+org.antlr.v4.runtime.tree.SyntaxTree	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/SyntaxTree.java	0	0	0	0	52	8
+org.antlr.v4.runtime.tree.TerminalNode	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/TerminalNode.java	0	0	0	0	37	5
+org.antlr.v4.runtime.tree.TerminalNodeImpl	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/TerminalNodeImpl.java	0	0	0	0	89	44
+org.antlr.v4.runtime.tree.Tree	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/Tree.java	0	0	0	0	66	10
+org.antlr.v4.runtime.tree.Trees	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/Trees.java	0	0	0	0	168	107
+org.abego.treelayout.Configuration	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.abego.treelayout.Configuration$AlignmentInLevel	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.abego.treelayout.Configuration$Location	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.abego.treelayout.NodeExtentProvider	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.abego.treelayout.TreeForTreeLayout	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.abego.treelayout.TreeLayout	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.abego.treelayout.TreeLayout$DumpConfiguration	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.abego.treelayout.TreeLayout$NormalizedPosition	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.antlr.v4.tool.ANTLRMessage	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ANTLRMessage.java	0	0	0	0	96	53
+org.antlr.v4.tool.ANTLRToolListener	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ANTLRToolListener.java	0	0	0	0	44	6
+org.antlr.v4.tool.Alternative	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/Alternative.java	0	0	0	0	168	92
+org.antlr.v4.tool.Attribute	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/Attribute.java	0	0	0	0	73	23
+org.antlr.v4.tool.AttributeDict	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/AttributeDict.java	0	0	0	0	110	52
+org.antlr.v4.tool.AttributeDict$DictType	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/AttributeDict.java	0	0	0	2	0	0
+org.antlr.v4.tool.AttributeResolver	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/AttributeResolver.java	0	0	0	0	71	10
+org.antlr.v4.tool.BuildDependencyGenerator	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/BuildDependencyGenerator.java	0	0	0	0	278	148
+org.antlr.v4.tool.DOTGenerator	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/DOTGenerator.java	0	0	0	0	478	278
+org.antlr.v4.tool.DefaultToolListener	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/DefaultToolListener.java	0	0	0	0	69	32
+org.antlr.v4.tool.ErrorManager	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ErrorManager.java	0	0	0	0	350	247
+org.antlr.v4.tool.ErrorManager$1	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ErrorManager.java	0	0	0	2	0	0
+org.antlr.v4.tool.ErrorManager$2	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ErrorManager.java	0	0	0	2	0	0
+org.antlr.v4.tool.ErrorSeverity	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ErrorSeverity.java	0	0	0	0	68	13
+org.antlr.v4.tool.ErrorType	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ErrorType.java	0	0	0	0	200	104
+org.antlr.v4.tool.Grammar	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/Grammar.java	0	0	0	0	842	573
+org.antlr.v4.tool.Grammar$1	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/Grammar.java	0	0	0	2	0	0
+org.antlr.v4.tool.Grammar$2	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/Grammar.java	0	0	0	2	0	0
+org.antlr.v4.tool.GrammarSemanticsMessage	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/GrammarSemanticsMessage.java	0	0	0	0	75	19
+org.antlr.v4.tool.GrammarSyntaxMessage	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/GrammarSyntaxMessage.java	0	0	0	0	64	26
+org.antlr.v4.tool.GrammarTransformPipeline	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/GrammarTransformPipeline.java	0	0	0	0	403	270
+org.antlr.v4.tool.GrammarTransformPipeline$1	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/GrammarTransformPipeline.java	0	0	0	2	0	0
+org.antlr.v4.tool.GrammarTransformPipeline$2	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/GrammarTransformPipeline.java	0	0	0	2	0	0
+org.antlr.v4.tool.LabelElementPair	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/LabelElementPair.java	0	0	0	0	74	36
+org.antlr.v4.tool.LabelType	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/LabelType.java	0	0	0	0	45	13
+org.antlr.v4.tool.LeftRecursionCyclesMessage	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/LeftRecursionCyclesMessage.java	0	0	0	0	43	10
+org.antlr.v4.tool.LeftRecursiveRule	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/LeftRecursiveRule.java	0	0	0	0	109	68
+org.antlr.v4.tool.LexerGrammar	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/LexerGrammar.java	0	0	0	0	70	28
+org.antlr.v4.tool.Rule	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/Rule.java	0	0	0	0	355	246
+org.antlr.v4.tool.ToolMessage	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ToolMessage.java	0	0	0	0	51	12
+org.stringtemplate.v4.gui.JTreeASTModel	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.gui.JTreeSTModel	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.gui.JTreeSTModel$Wrapper	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.gui.JTreeScopeStackModel	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.gui.JTreeScopeStackModel$StringTree	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.gui.STViewFrame	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.gui.STViz	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.gui.STViz$1	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.gui.STViz$2	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.gui.STViz$3	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.gui.STViz$4	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.gui.STViz$5	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.gui.STViz$6	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.antlr.runtime.tree.BaseTree	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.BaseTreeAdaptor	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.CommonErrorNode	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.CommonTree	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.CommonTreeAdaptor	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.CommonTreeNodeStream	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.PositionTrackingStream	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.RewriteCardinalityException	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.RewriteEarlyExitException	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.RewriteEmptyStreamException	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.RewriteRuleElementStream	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.RewriteRuleNodeStream	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.RewriteRuleSubtreeStream	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.RewriteRuleTokenStream	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.Tree	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.TreeAdaptor	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.TreeIterator	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.TreeNodeStream	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.TreeParser	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.TreePatternLexer	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.TreePatternParser	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.TreeRewriter	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.TreeRewriter$1	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.runtime.tree.TreeRewriter$2	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.runtime.tree.TreeRewriter$3	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.runtime.tree.TreeRewriter$fptr	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.runtime.tree.TreeRuleReturnScope	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.TreeVisitor	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.TreeVisitorAction	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.TreeWizard	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.tree.TreeWizard$1	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.runtime.tree.TreeWizard$2	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.runtime.tree.TreeWizard$3	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.runtime.tree.TreeWizard$ContextVisitor	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.runtime.tree.TreeWizard$TreePattern	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.runtime.tree.TreeWizard$TreePatternTreeAdaptor	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.runtime.tree.TreeWizard$Visitor	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.runtime.tree.TreeWizard$WildcardTreePattern	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.Tool	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/Tool.java	0	0	0	0	841	625
+org.antlr.v4.Tool$1UndefChecker	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/Tool.java	0	0	0	2	0	0
+org.antlr.v4.Tool$Option	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/Tool.java	0	0	0	2	0	0
+org.antlr.v4.Tool$OptionArgType	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/Tool.java	0	0	0	2	0	0
+org.antlr.v4.codegen.model.Action	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/Action.java	0	0	0	0	83	44
+org.antlr.v4.codegen.model.AddToLabelList	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/AddToLabelList.java	0	0	0	0	46	12
+org.antlr.v4.codegen.model.AltBlock	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/AltBlock.java	0	0	0	0	51	14
+org.antlr.v4.codegen.model.ArgAction	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/ArgAction.java	0	0	0	0	43	10
+org.antlr.v4.codegen.model.BaseListenerFile	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/BaseListenerFile.java	0	0	0	0	38	7
+org.antlr.v4.codegen.model.BaseVisitorFile	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/BaseVisitorFile.java	0	0	0	0	38	7
+org.antlr.v4.codegen.model.CaptureNextToken	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/CaptureNextToken.java	0	0	0	0	41	9
+org.antlr.v4.codegen.model.CaptureNextTokenType	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/CaptureNextTokenType.java	0	0	0	0	42	9
+org.antlr.v4.codegen.model.Choice	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/Choice.java	0	0	0	0	98	49
+org.antlr.v4.codegen.model.CodeBlockForAlt	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/CodeBlockForAlt.java	0	0	0	0	42	8
+org.antlr.v4.codegen.model.CodeBlockForOuterMostAlt	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/CodeBlockForOuterMostAlt.java	0	0	0	0	48	12
+org.antlr.v4.codegen.model.DispatchMethod	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/DispatchMethod.java	0	0	0	0	38	7
+org.antlr.v4.codegen.model.ExceptionClause	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/ExceptionClause.java	0	0	0	0	48	15
+org.antlr.v4.codegen.model.InvokeRule	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/InvokeRule.java	0	0	0	0	104	61
+org.antlr.v4.codegen.model.LL1AltBlock	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/LL1AltBlock.java	0	0	0	0	53	16
+org.antlr.v4.codegen.model.LL1Choice	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/LL1Choice.java	0	0	0	0	48	13
+org.antlr.v4.codegen.model.LL1Loop	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/LL1Loop.java	0	0	0	0	71	30
+org.antlr.v4.codegen.model.LL1OptionalBlock	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/LL1OptionalBlock.java	0	0	0	0	47	9
+org.antlr.v4.codegen.model.LL1OptionalBlockSingleAlt	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/LL1OptionalBlockSingleAlt.java	0	0	0	0	65	25
+org.antlr.v4.codegen.model.LL1PlusBlock	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/LL1PlusBlock.java	0	0	0	0	81	35
+org.antlr.v4.codegen.model.LL1PlusBlockSingleAlt	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/LL1PlusBlockSingleAlt.java	0	0	0	0	55	19
+org.antlr.v4.codegen.model.LL1StarBlock	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/LL1StarBlock.java	0	0	0	0	70	28
+org.antlr.v4.codegen.model.LL1StarBlockSingleAlt	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/LL1StarBlockSingleAlt.java	0	0	0	0	53	18
+org.antlr.v4.codegen.model.LabeledOp	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/LabeledOp.java	0	0	0	0	40	6
+org.antlr.v4.codegen.model.LeftRecursiveRuleFunction	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/LeftRecursiveRuleFunction.java	0	0	0	0	68	33
+org.antlr.v4.codegen.model.Lexer	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/Lexer.java	0	0	0	0	106	67
+org.antlr.v4.codegen.model.LexerFile	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/LexerFile.java	0	0	0	0	55	21
+org.antlr.v4.codegen.model.ListenerDispatchMethod	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/ListenerDispatchMethod.java	0	0	0	0	41	9
+org.antlr.v4.codegen.model.ListenerFile	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/ListenerFile.java	0	0	0	0	75	37
+org.antlr.v4.codegen.model.Loop	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/Loop.java	0	0	0	0	60	24
+org.antlr.v4.codegen.model.MatchNotSet	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/MatchNotSet.java	0	0	0	0	41	9
+org.antlr.v4.codegen.model.MatchSet	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/MatchSet.java	0	0	0	0	51	18
+org.antlr.v4.codegen.model.MatchToken	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/MatchToken.java	0	0	0	0	63	26
+org.antlr.v4.codegen.model.ModelElement	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/ModelElement.java	0	0	0	0	41	6
+org.antlr.v4.codegen.model.OptionalBlock	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/OptionalBlock.java	0	0	0	0	46	12
+org.antlr.v4.codegen.model.OutputFile	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/OutputFile.java	0	0	0	0	53	20
+org.antlr.v4.codegen.model.OutputModelObject	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/OutputModelObject.java	0	0	0	0	49	13
+org.antlr.v4.codegen.model.Parser	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/Parser.java	0	0	0	0	104	68
+org.antlr.v4.codegen.model.ParserFile	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/ParserFile.java	0	0	0	0	56	21
+org.antlr.v4.codegen.model.PlusBlock	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/PlusBlock.java	0	0	0	0	57	22
+org.antlr.v4.codegen.model.RuleActionFunction	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/RuleActionFunction.java	0	0	0	0	53	17
+org.antlr.v4.codegen.model.RuleElement	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/RuleElement.java	0	0	0	0	45	10
+org.antlr.v4.codegen.model.RuleFunction	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/RuleFunction.java	0	0	0	0	421	314
+org.antlr.v4.codegen.model.RuleFunction$ElementFrequenciesVisitor	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/RuleFunction.java	0	0	0	2	0	0
+org.antlr.v4.codegen.model.RuleSempredFunction	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/RuleSempredFunction.java	0	0	0	0	40	8
+org.antlr.v4.codegen.model.SemPred	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/SemPred.java	0	0	0	0	75	36
+org.antlr.v4.codegen.model.SerializedATN	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/SerializedATN.java	0	0	0	0	54	19
+org.antlr.v4.codegen.model.SrcOp	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/SrcOp.java	0	0	0	0	82	34
+org.antlr.v4.codegen.model.StarBlock	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/StarBlock.java	0	0	0	0	52	18
+org.antlr.v4.codegen.model.Sync	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/Sync.java	0	0	0	0	52	16
+org.antlr.v4.codegen.model.TestSetInline	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/TestSetInline.java	0	0	0	0	80	39
+org.antlr.v4.codegen.model.TestSetInline$Bitset	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/TestSetInline.java	0	0	0	2	0	0
+org.antlr.v4.codegen.model.ThrowEarlyExitException	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/ThrowEarlyExitException.java	0	0	0	0	42	9
+org.antlr.v4.codegen.model.ThrowNoViableAlt	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/ThrowNoViableAlt.java	0	0	0	0	44	11
+org.antlr.v4.codegen.model.ThrowRecognitionException	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/ThrowRecognitionException.java	0	0	0	0	53	16
+org.antlr.v4.codegen.model.VisitorDispatchMethod	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/VisitorDispatchMethod.java	0	0	0	0	38	7
+org.antlr.v4.codegen.model.VisitorFile	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/VisitorFile.java	0	0	0	0	72	37
+org.antlr.v4.codegen.model.dbg	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/dbg.java	0	0	0	0	35	3
+org.antlr.runtime.ANTLRFileStream	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.ANTLRInputStream	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.ANTLRReaderStream	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.ANTLRStringStream	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.BaseRecognizer	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.BitSet	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.BufferedTokenStream	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.CharStream	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.CharStreamState	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.CommonToken	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.CommonTokenStream	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.DFA	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.EarlyExitException	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.FailedPredicateException	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.IntStream	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.Lexer	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.MismatchedNotSetException	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.MismatchedRangeException	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.MismatchedSetException	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.MismatchedTokenException	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.MismatchedTreeNodeException	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.MissingTokenException	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.NoViableAltException	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.Parser	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.ParserRuleReturnScope	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.RecognitionException	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.RecognizerSharedState	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.RuleReturnScope	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.Token	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.TokenSource	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.TokenStream	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.runtime.UnwantedTokenException	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.abego.treelayout.internal.util.java.lang.string.StringUtil	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.antlr.v4.misc.CharSupport	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/misc/CharSupport.java	0	0	0	0	153	90
+org.antlr.v4.misc.FrequencySet	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/misc/FrequencySet.java	0	0	0	0	52	19
+org.antlr.v4.misc.Graph	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/misc/Graph.java	0	0	0	0	115	56
+org.antlr.v4.misc.Graph$Node	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/misc/Graph.java	0	0	0	2	0	0
+org.antlr.v4.misc.MutableInt	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/misc/MutableInt.java	0	0	0	0	47	14
+org.antlr.v4.misc.OrderedHashMap	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/misc/OrderedHashMap.java	0	0	0	0	64	23
+org.antlr.v4.misc.Utils	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/misc/Utils.java	0	0	0	0	206	117
+org.antlr.v4.misc.Utils$Filter	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/misc/Utils.java	0	0	0	2	0	0
+org.antlr.v4.misc.Utils$Func0	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/misc/Utils.java	0	0	0	2	0	0
+org.antlr.v4.misc.Utils$Func1	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/misc/Utils.java	0	0	0	2	0	0
+org.stringtemplate.v4.AttributeRenderer	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.AutoIndentWriter	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.InstanceScope	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.Interpreter	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.Interpreter$1	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.Interpreter$2	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.Interpreter$ArgumentsMap	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.Interpreter$ObjectList	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.Interpreter$Option	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.ModelAdaptor	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.NumberRenderer	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.ST	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.ST$AttributeList	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.ST$DebugState	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.ST$RegionType	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.STErrorListener	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.STGroup	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.STGroup$1	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.STGroupDir	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.STGroupFile	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.STGroupString	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.STWriter	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.StringRenderer	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.antlr.v4.tool.ast.ActionAST	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/ActionAST.java	0	0	0	0	58	20
+org.antlr.v4.tool.ast.AltAST	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/AltAST.java	0	0	0	0	66	23
+org.antlr.v4.tool.ast.BlockAST	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/BlockAST.java	0	0	0	0	61	21
+org.antlr.v4.tool.ast.GrammarAST	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/GrammarAST.java	0	0	0	0	239	162
+org.antlr.v4.tool.ast.GrammarASTErrorNode	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/GrammarASTErrorNode.java	0	0	0	0	56	20
+org.antlr.v4.tool.ast.GrammarASTVisitor	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/GrammarASTVisitor.java	0	0	0	0	68	17
+org.antlr.v4.tool.ast.GrammarASTWithOptions	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/GrammarASTWithOptions.java	0	0	0	0	97	52
+org.antlr.v4.tool.ast.GrammarRootAST	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/GrammarRootAST.java	0	0	0	0	112	66
+org.antlr.v4.tool.ast.NotAST	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/NotAST.java	0	0	0	0	50	14
+org.antlr.v4.tool.ast.OptionalBlockAST	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/OptionalBlockAST.java	0	0	0	0	59	21
+org.antlr.v4.tool.ast.PlusBlockAST	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/PlusBlockAST.java	0	0	0	0	58	21
+org.antlr.v4.tool.ast.PredAST	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/PredAST.java	0	0	0	0	49	14
+org.antlr.v4.tool.ast.QuantifierAST	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/QuantifierAST.java	0	0	0	0	41	4
+org.antlr.v4.tool.ast.RangeAST	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/RangeAST.java	0	0	0	0	50	14
+org.antlr.v4.tool.ast.RuleAST	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/RuleAST.java	0	0	0	0	77	37
+org.antlr.v4.tool.ast.RuleElementAST	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/RuleElementAST.java	0	0	0	0	35	3
+org.antlr.v4.tool.ast.RuleRefAST	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/RuleRefAST.java	0	0	0	0	60	20
+org.antlr.v4.tool.ast.SetAST	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/SetAST.java	0	0	0	0	50	14
+org.antlr.v4.tool.ast.StarBlockAST	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/StarBlockAST.java	0	0	0	0	58	21
+org.antlr.v4.tool.ast.TerminalAST	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/tool/ast/TerminalAST.java	0	0	0	0	50	14
+org.antlr.v4.codegen.ActionTranslator	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/ActionTranslator.java	0	0	0	0	327	268
+org.antlr.v4.codegen.ActionTranslator$1	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/ActionTranslator.java	0	0	0	2	0	0
+org.antlr.v4.codegen.BlankOutputModelFactory	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/BlankOutputModelFactory.java	0	0	0	0	130	67
+org.antlr.v4.codegen.CodeGenPipeline	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/CodeGenPipeline.java	0	0	0	0	101	61
+org.antlr.v4.codegen.CodeGenerator	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/CodeGenerator.java	0	0	0	0	327	228
+org.antlr.v4.codegen.CodeGenerator$1	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/CodeGenerator.java	0	0	0	2	0	0
+org.antlr.v4.codegen.CodeGeneratorExtension	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/CodeGeneratorExtension.java	0	0	0	0	96	37
+org.antlr.v4.codegen.DefaultOutputModelFactory	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/DefaultOutputModelFactory.java	0	0	0	0	129	69
+org.antlr.v4.codegen.LexerFactory	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/LexerFactory.java	0	0	0	0	36	4
+org.antlr.v4.codegen.OutputModelController	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/OutputModelController.java	0	0	0	0	485	360
+org.antlr.v4.codegen.OutputModelFactory	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/OutputModelFactory.java	0	0	0	0	130	58
+org.antlr.v4.codegen.OutputModelWalker	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/OutputModelWalker.java	0	0	0	0	166	97
+org.antlr.v4.codegen.ParserFactory	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/ParserFactory.java	0	0	0	0	365	288
+org.antlr.v4.codegen.SourceGenTriggers	antlr-4.0-complete.jar		0	1	1	3	0	0
+org.antlr.v4.codegen.SourceGenTriggers$alt_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.codegen.SourceGenTriggers$alternative_return	antlr-4.0-complete.jar		0	1	1	2	0	0
+org.antlr.v4.codegen.Target	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/Target.java	0	0	0	0	459	279
+org.antlr.v4.codegen.Wildcard	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/Wildcard.java	0	0	0	0	40	8
+org.abego.treelayout.internal.util.Contract	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.antlr.v4.runtime.tree.gui.BasicFontMetrics	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/gui/BasicFontMetrics.java	0	0	0	0	95	20
+org.antlr.v4.runtime.tree.gui.PostScriptDocument	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/gui/PostScriptDocument.java	0	0	0	0	211	141
+org.antlr.v4.runtime.tree.gui.SystemFontMetrics	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/gui/SystemFontMetrics.java	0	0	0	0	65	26
+org.antlr.v4.runtime.tree.gui.TreeLayoutAdaptor	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/gui/TreeLayoutAdaptor.java	0	0	0	4	149	93
+org.antlr.v4.runtime.tree.gui.TreeLayoutAdaptor$AntlrTreeChildrenIterable	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/gui/TreeLayoutAdaptor.java	0	0	0	2	0	0
+org.antlr.v4.runtime.tree.gui.TreeLayoutAdaptor$AntlrTreeChildrenIterable$1	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/gui/TreeLayoutAdaptor.java	0	0	0	2	0	0
+org.antlr.v4.runtime.tree.gui.TreeLayoutAdaptor$AntlrTreeChildrenReverseIterable	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/gui/TreeLayoutAdaptor.java	0	0	0	2	0	0
+org.antlr.v4.runtime.tree.gui.TreeLayoutAdaptor$AntlrTreeChildrenReverseIterable$1	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/gui/TreeLayoutAdaptor.java	0	0	0	2	0	0
+org.antlr.v4.runtime.tree.gui.TreePostScriptGenerator	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/gui/TreePostScriptGenerator.java	0	0	0	0	171	114
+org.antlr.v4.runtime.tree.gui.TreePostScriptGenerator$VariableExtentProvide	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/gui/TreePostScriptGenerator.java	0	0	0	2	0	0
+org.antlr.v4.runtime.tree.gui.TreeTextProvider	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/gui/TreeTextProvider.java	0	0	0	0	37	5
+org.antlr.v4.runtime.tree.gui.TreeViewer	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/gui/TreeViewer.java	0	0	0	0	511	386
+org.antlr.v4.runtime.tree.gui.TreeViewer$1	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/gui/TreeViewer.java	0	0	0	2	0	0
+org.antlr.v4.runtime.tree.gui.TreeViewer$2	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/gui/TreeViewer.java	0	0	0	2	0	0
+org.antlr.v4.runtime.tree.gui.TreeViewer$3	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/gui/TreeViewer.java	0	0	0	2	0	0
+org.antlr.v4.runtime.tree.gui.TreeViewer$3$1	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/gui/TreeViewer.java	0	0	0	2	0	0
+org.antlr.v4.runtime.tree.gui.TreeViewer$DefaultTreeTextProvider	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/gui/TreeViewer.java	0	0	0	2	0	0
+org.antlr.v4.runtime.tree.gui.TreeViewer$VariableExtentProvide	antlr-4.0-complete.jar	antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/gui/TreeViewer.java	0	0	0	2	0	0
+org.stringtemplate.v4.misc.Aggregate	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.misc.AggregateModelAdaptor	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.misc.ArrayIterator	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.misc.Coordinate	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.misc.ErrorBuffer	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.misc.ErrorManager	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.misc.ErrorManager$1	antlr-4.0-complete.jar		1	1	1	2	0	0
+org.stringtemplate.v4.misc.ErrorType	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.misc.Interval	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.misc.MapModelAdaptor	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.misc.Misc	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.misc.MultiMap	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.misc.ObjectModelAdaptor	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.misc.STCompiletimeMessage	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.misc.STGroupCompiletimeMessage	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.misc.STLexerMessage	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.misc.STMessage	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.misc.STModelAdaptor	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.misc.STNoSuchAttributeException	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.misc.STNoSuchPropertyException	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.stringtemplate.v4.misc.STRuntimeMessage	antlr-4.0-complete.jar		1	1	1	-1	0	0
+org.antlr.mojo.antlr4.Antlr4ErrorLog		antlr4-4.0/antlr4-maven-plugin/src/main/java/org/antlr/mojo/antlr4/Antlr4ErrorLog.java	0	2	1	0	90	23
+org.antlr.mojo.antlr4.Antlr4Mojo		antlr4-4.0/antlr4-maven-plugin/src/main/java/org/antlr/mojo/antlr4/Antlr4Mojo.java	0	2	1	0	493	268
+org.antlr.v4.codegen.model.decl.AltLabelStructDecl	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/decl/AltLabelStructDecl.java	0	0	0	0	78	40
+org.antlr.v4.codegen.model.decl.AttributeDecl	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/decl/AttributeDecl.java	0	0	0	0	40	7
+org.antlr.v4.codegen.model.decl.CodeBlock	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/decl/CodeBlock.java	0	0	0	0	85	43
+org.antlr.v4.codegen.model.decl.ContextGetterDecl	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/decl/ContextGetterDecl.java	0	0	0	0	63	20
+org.antlr.v4.codegen.model.decl.ContextRuleGetterDecl	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/decl/ContextRuleGetterDecl.java	0	0	0	0	42	9
+org.antlr.v4.codegen.model.decl.ContextRuleListGetterDecl	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/decl/ContextRuleListGetterDecl.java	0	0	0	0	44	9
+org.antlr.v4.codegen.model.decl.ContextRuleListIndexedGetterDecl	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/decl/ContextRuleListIndexedGetterDecl.java	0	0	0	0	44	11
+org.antlr.v4.codegen.model.decl.ContextTokenGetterDecl	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/decl/ContextTokenGetterDecl.java	0	0	0	0	40	7
+org.antlr.v4.codegen.model.decl.ContextTokenListGetterDecl	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/decl/ContextTokenListGetterDecl.java	0	0	0	0	42	7
+org.antlr.v4.codegen.model.decl.ContextTokenListIndexedGetterDecl	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/decl/ContextTokenListIndexedGetterDecl.java	0	0	0	0	44	11
+org.antlr.v4.codegen.model.decl.Decl	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/decl/Decl.java	0	0	0	0	67	28
+org.antlr.v4.codegen.model.decl.ElementListDecl	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/decl/ElementListDecl.java	0	0	0	0	39	7
+org.antlr.v4.codegen.model.decl.RuleContextDecl	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/decl/RuleContextDecl.java	0	0	0	0	44	10
+org.antlr.v4.codegen.model.decl.RuleContextListDecl	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/decl/RuleContextListDecl.java	0	0	0	0	40	8
+org.antlr.v4.codegen.model.decl.StructDecl	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/decl/StructDecl.java	0	0	0	0	112	65
+org.antlr.v4.codegen.model.decl.TokenDecl	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/decl/TokenDecl.java	0	0	0	0	42	8
+org.antlr.v4.codegen.model.decl.TokenListDecl	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/decl/TokenListDecl.java	0	0	0	0	40	7
+org.antlr.v4.codegen.model.decl.TokenTypeDecl	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/codegen/model/decl/TokenTypeDecl.java	0	0	0	0	40	7
+org.antlr.v4.automata.ATNFactory	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/automata/ATNFactory.java	0	0	0	0	220	49
+org.antlr.v4.automata.ATNFactory$Handle	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/automata/ATNFactory.java	0	0	0	2	0	0
+org.antlr.v4.automata.ATNOptimizer	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/automata/ATNOptimizer.java	0	0	0	0	171	110
+org.antlr.v4.automata.ATNPrinter	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/automata/ATNPrinter.java	0	0	0	0	140	99
+org.antlr.v4.automata.ATNSerializer	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/automata/ATNSerializer.java	0	0	0	0	387	295
+org.antlr.v4.automata.ATNVisitor	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/automata/ATNVisitor.java	0	0	0	0	62	22
+org.antlr.v4.automata.LexerATNFactory	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/automata/LexerATNFactory.java	0	0	0	0	292	223
+org.antlr.v4.automata.ParserATNFactory	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/automata/ParserATNFactory.java	0	0	0	0	728	501
+org.antlr.v4.automata.TailEpsilonRemover	antlr-4.0-complete.jar	antlr4-4.0/tool/src/org/antlr/v4/automata/TailEpsilonRemover.java	0	0	0	0	82	40
+#Issues
+#======
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/antlr/antlr-4.0/src/antlr4-4.0/runtime/Java/lib/org.abego.treelayout.core.jar in <src> ignored.
+#SRC NO PUBLIC TYPE for antlr4-4.0/runtime/Java/src/org/antlr/v4/runtime/tree/gui/TreeLayoutAdaptor.java.
+#SRC NO PUBLIC TYPE for antlr4-4.0/tool/playground/Bar.java.
+#SRC NO PUBLIC TYPE for antlr4-4.0/tool/playground/Foo.java.
+#SRC NO PUBLIC TYPE for antlr4-4.0/tool/playground/TestJava.java.
+#SRC NO PUBLIC TYPE for antlr4-4.0/tool/playground/TestJavaLR.java.

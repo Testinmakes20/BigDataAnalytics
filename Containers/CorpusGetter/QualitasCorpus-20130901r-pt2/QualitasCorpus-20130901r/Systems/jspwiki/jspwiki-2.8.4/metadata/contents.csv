@@ -1,0 +1,656 @@
+#2013-09-05T10:02:41NZST
+#System Version : jspwiki-2.8.4
+#Source Packages: com.ecyrd.jspwiki.,com.ecyrd.management.
+#Ignore Packages: 
+#Distributed    : src
+#Source Roots   : src,tests
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+SamplePlugin2		tests/SamplePlugin2.java	1	2	1	0	26	16
+TranslationsCheck		tests/TranslationsCheck.java	1	2	1	0	173	131
+com.ecyrd.jspwiki.rss.AllTests		tests/com/ecyrd/jspwiki/rss/AllTests.java	0	2	1	0	25	13
+com.ecyrd.jspwiki.rss.AtomFeed	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/rss/AtomFeed.java	0	0	0	0	227	123
+com.ecyrd.jspwiki.rss.Entry	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/rss/Entry.java	0	0	0	0	136	50
+com.ecyrd.jspwiki.rss.Feed	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/rss/Feed.java	0	0	0	0	184	77
+com.ecyrd.jspwiki.rss.RSS10Feed	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/rss/RSS10Feed.java	0	0	0	0	212	101
+com.ecyrd.jspwiki.rss.RSS20Feed	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/rss/RSS20Feed.java	0	0	0	0	193	103
+com.ecyrd.jspwiki.rss.RSSGenerator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/rss/RSSGenerator.java	0	0	0	0	648	351
+com.ecyrd.jspwiki.rss.RSSGeneratorTest		tests/com/ecyrd/jspwiki/rss/RSSGeneratorTest.java	0	2	1	0	115	80
+com.ecyrd.jspwiki.rss.RSSThread	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/rss/RSSThread.java	0	0	0	0	139	74
+com.ecyrd.jspwiki.rpc.atom.AtomAPIServlet	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/rpc/atom/AtomAPIServlet.java	0	0	0	0	339	195
+com.ecyrd.jspwiki.util.AllTests		tests/com/ecyrd/jspwiki/util/AllTests.java	0	2	1	0	32	25
+com.ecyrd.jspwiki.util.BlogUtil	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/BlogUtil.java	0	0	0	0	67	24
+com.ecyrd.jspwiki.util.ClassUtil	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/ClassUtil.java	0	0	0	0	347	162
+com.ecyrd.jspwiki.util.ClassUtilTest		tests/com/ecyrd/jspwiki/util/ClassUtilTest.java	0	2	1	0	47	31
+com.ecyrd.jspwiki.util.CommentedProperties	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/CommentedProperties.java	0	0	0	0	246	138
+com.ecyrd.jspwiki.util.CommentedPropertiesTest		tests/com/ecyrd/jspwiki/util/CommentedPropertiesTest.java	0	2	1	0	181	135
+com.ecyrd.jspwiki.util.CryptoUtil	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/CryptoUtil.java	0	0	0	0	287	128
+com.ecyrd.jspwiki.util.CryptoUtilTest		tests/com/ecyrd/jspwiki/util/CryptoUtilTest.java	0	2	1	0	157	101
+com.ecyrd.jspwiki.util.FormUtil	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/FormUtil.java	0	0	0	0	178	84
+com.ecyrd.jspwiki.util.HttpUtil	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/HttpUtil.java	0	0	0	0	224	116
+com.ecyrd.jspwiki.util.MailUtil	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/MailUtil.java	0	0	0	0	506	197
+com.ecyrd.jspwiki.util.MailUtil$SmtpAuthenticator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/MailUtil.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.util.MailUtilTest		tests/com/ecyrd/jspwiki/util/MailUtilTest.java	0	2	1	0	126	82
+com.ecyrd.jspwiki.util.PageSorter	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/PageSorter.java	0	0	0	0	211	94
+com.ecyrd.jspwiki.util.PageSorterTest		tests/com/ecyrd/jspwiki/util/PageSorterTest.java	0	2	1	0	97	56
+com.ecyrd.jspwiki.util.PriorityList	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/PriorityList.java	0	0	0	0	117	44
+com.ecyrd.jspwiki.util.PriorityList$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/PriorityList.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.util.PriorityList$Item	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/PriorityList.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.util.PriorityListTest		tests/com/ecyrd/jspwiki/util/PriorityListTest.java	0	2	1	0	103	71
+com.ecyrd.jspwiki.util.ProviderConverter	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/ProviderConverter.java	0	0	0	0	162	90
+com.ecyrd.jspwiki.util.Serializer	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/Serializer.java	0	0	0	0	103	43
+com.ecyrd.jspwiki.util.SerializerTest		tests/com/ecyrd/jspwiki/util/SerializerTest.java	0	2	1	0	33	27
+com.ecyrd.jspwiki.util.TextUtilTest		tests/com/ecyrd/jspwiki/util/TextUtilTest.java	0	2	1	0	28	21
+com.ecyrd.jspwiki.util.TimedCounterList	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/TimedCounterList.java	0	0	0	0	245	149
+com.ecyrd.jspwiki.util.TimedCounterList$CounterItem	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/TimedCounterList.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.util.TimedCounterListTest		tests/com/ecyrd/jspwiki/util/TimedCounterListTest.java	0	2	1	0	53	41
+com.ecyrd.jspwiki.util.UtilJ2eeCompat	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/UtilJ2eeCompat.java	0	0	0	0	156	86
+com.ecyrd.jspwiki.util.UtilJ2eeCompatTest		tests/com/ecyrd/jspwiki/util/UtilJ2eeCompatTest.java	0	2	1	0	53	25
+com.ecyrd.jspwiki.util.WatchDog	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/WatchDog.java	0	0	0	0	495	280
+com.ecyrd.jspwiki.util.WatchDog$State	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/WatchDog.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.util.WatchDog$ThreadWrapper	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/WatchDog.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.util.WatchDog$WatchDogThread	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/WatchDog.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.util.Watchable	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/Watchable.java	0	0	0	0	55	7
+com.ecyrd.jspwiki.util.WikiBackgroundThread	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/WikiBackgroundThread.java	0	0	0	0	203	90
+com.ecyrd.jspwiki.auth.acl.Acl	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/acl/Acl.java	0	0	0	0	118	15
+com.ecyrd.jspwiki.auth.acl.AclEntry	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/acl/AclEntry.java	0	0	0	0	109	15
+com.ecyrd.jspwiki.auth.acl.AclEntryImpl	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/acl/AclEntryImpl.java	0	0	0	0	183	80
+com.ecyrd.jspwiki.auth.acl.AclEntryImplTest		tests/com/ecyrd/jspwiki/auth/acl/AclEntryImplTest.java	0	2	1	0	114	71
+com.ecyrd.jspwiki.auth.acl.AclImpl	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/acl/AclImpl.java	0	0	0	0	211	113
+com.ecyrd.jspwiki.auth.acl.AclImplTest		tests/com/ecyrd/jspwiki/auth/acl/AclImplTest.java	0	2	1	0	259	185
+com.ecyrd.jspwiki.auth.acl.AclManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/acl/AclManager.java	0	0	0	0	78	12
+com.ecyrd.jspwiki.auth.acl.AllTests		tests/com/ecyrd/jspwiki/auth/acl/AllTests.java	0	2	1	0	24	19
+com.ecyrd.jspwiki.auth.acl.DefaultAclManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/acl/DefaultAclManager.java	0	0	0	0	301	178
+com.ecyrd.jspwiki.auth.acl.DefaultAclManagerTest		tests/com/ecyrd/jspwiki/auth/acl/DefaultAclManagerTest.java	0	2	1	0	189	150
+com.ecyrd.jspwiki.auth.acl.UnresolvedPrincipal	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/acl/UnresolvedPrincipal.java	0	0	0	0	96	32
+com.ecyrd.jspwiki.preferences.Preferences	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/preferences/Preferences.java	0	0	0	0	350	170
+com.ecyrd.jspwiki.preferences.Preferences$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/preferences/Preferences.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.preferences.Preferences$TimeFormat	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/preferences/Preferences.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.diff.AllTests		tests/com/ecyrd/jspwiki/diff/AllTests.java	0	2	1	0	22	13
+com.ecyrd.jspwiki.diff.ContextualDiffProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/diff/ContextualDiffProvider.java	0	0	0	0	475	278
+com.ecyrd.jspwiki.diff.ContextualDiffProvider$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/diff/ContextualDiffProvider.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.diff.ContextualDiffProvider$ChangeMerger	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/diff/ContextualDiffProvider.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.diff.ContextualDiffProviderTest		tests/com/ecyrd/jspwiki/diff/ContextualDiffProviderTest.java	0	2	1	0	196	98
+com.ecyrd.jspwiki.diff.DiffProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/diff/DiffProvider.java	0	0	0	0	77	26
+com.ecyrd.jspwiki.diff.DiffProvider$NullDiffProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/diff/DiffProvider.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.diff.DifferenceManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/diff/DifferenceManager.java	0	0	0	0	140	79
+com.ecyrd.jspwiki.diff.ExternalDiffProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/diff/ExternalDiffProvider.java	0	0	0	0	200	113
+com.ecyrd.jspwiki.diff.TraditionalDiffProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/diff/TraditionalDiffProvider.java	0	0	0	0	197	116
+com.ecyrd.jspwiki.diff.TraditionalDiffProvider$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/diff/TraditionalDiffProvider.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.diff.TraditionalDiffProvider$RevisionPrint	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/diff/TraditionalDiffProvider.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.render.AllTests		tests/com/ecyrd/jspwiki/render/AllTests.java	0	2	1	0	28	19
+com.ecyrd.jspwiki.render.CleanTextRenderer	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/render/CleanTextRenderer.java	0	0	0	0	92	44
+com.ecyrd.jspwiki.render.CreoleRenderer	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/render/CreoleRenderer.java	0	0	0	0	213	140
+com.ecyrd.jspwiki.render.CreoleRendererTest		tests/com/ecyrd/jspwiki/render/CreoleRendererTest.java	0	2	1	0	180	108
+com.ecyrd.jspwiki.render.RenderingManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/render/RenderingManager.java	0	0	0	0	362	196
+com.ecyrd.jspwiki.render.RenderingManagerTest		tests/com/ecyrd/jspwiki/render/RenderingManagerTest.java	0	2	1	0	189	155
+com.ecyrd.jspwiki.render.WikiRenderer	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/render/WikiRenderer.java	0	0	0	0	85	28
+com.ecyrd.jspwiki.render.WysiwygEditingRenderer	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/render/WysiwygEditingRenderer.java	0	0	0	0	161	87
+com.ecyrd.jspwiki.render.WysiwygEditingRendererTest		tests/com/ecyrd/jspwiki/render/WysiwygEditingRendererTest.java	0	2	1	0	90	67
+com.ecyrd.jspwiki.render.XHTMLRenderer	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/render/XHTMLRenderer.java	0	0	0	0	76	29
+com.ecyrd.jspwiki.i18n.InternationalizationManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/i18n/InternationalizationManager.java	0	0	0	0	97	27
+com.ecyrd.jspwiki.rpc.json.JSONRPCManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/rpc/json/JSONRPCManager.java	0	0	0	0	308	144
+com.ecyrd.jspwiki.rpc.json.JSONRPCManager$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/rpc/json/JSONRPCManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.rpc.json.JSONRPCManager$CallbackContainer	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/rpc/json/JSONRPCManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.rpc.json.JSONRPCManager$WikiJSONAccessor	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/rpc/json/JSONRPCManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.auth.user.AbstractUserDatabase	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/user/AbstractUserDatabase.java	0	0	0	0	382	214
+com.ecyrd.jspwiki.auth.user.AllTests		tests/com/ecyrd/jspwiki/auth/user/AllTests.java	0	2	1	0	25	19
+com.ecyrd.jspwiki.auth.user.DefaultUserProfile	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/user/DefaultUserProfile.java	0	0	0	0	357	156
+com.ecyrd.jspwiki.auth.user.DuplicateUserException	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/user/DuplicateUserException.java	0	0	0	0	37	9
+com.ecyrd.jspwiki.auth.user.JDBCUserDatabase	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/user/JDBCUserDatabase.java	0	0	0	0	919	561
+com.ecyrd.jspwiki.auth.user.JDBCUserDatabaseTest		tests/com/ecyrd/jspwiki/auth/user/JDBCUserDatabaseTest.java	0	2	1	0	439	358
+com.ecyrd.jspwiki.auth.user.UserDatabase	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/user/UserDatabase.java	0	0	0	0	232	25
+com.ecyrd.jspwiki.auth.user.UserProfile	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/user/UserProfile.java	0	0	0	0	208	29
+com.ecyrd.jspwiki.auth.user.UserProfileTest		tests/com/ecyrd/jspwiki/auth/user/UserProfileTest.java	0	2	1	0	116	84
+com.ecyrd.jspwiki.auth.user.XMLUserDatabase	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/user/XMLUserDatabase.java	0	0	0	0	798	548
+com.ecyrd.jspwiki.auth.user.XMLUserDatabaseTest		tests/com/ecyrd/jspwiki/auth/user/XMLUserDatabaseTest.java	0	2	1	0	352	288
+com.ecyrd.jspwiki.modules.InternalModule	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/modules/InternalModule.java	0	0	0	0	38	4
+com.ecyrd.jspwiki.modules.ModuleManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/modules/ModuleManager.java	0	0	0	0	81	25
+com.ecyrd.jspwiki.modules.WikiModuleInfo	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/modules/WikiModuleInfo.java	0	0	0	0	229	99
+com.ecyrd.jspwiki.ui.progress.ProgressItem	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/progress/ProgressItem.java	0	0	0	0	70	18
+com.ecyrd.jspwiki.ui.progress.ProgressManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/progress/ProgressManager.java	0	0	0	0	135	50
+com.ecyrd.jspwiki.ui.progress.ProgressManager$JSONTracker	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/progress/ProgressManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.auth.authorize.AllTests		tests/com/ecyrd/jspwiki/auth/authorize/AllTests.java	0	2	1	0	26	20
+com.ecyrd.jspwiki.auth.authorize.Group	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/authorize/Group.java	0	0	0	0	341	147
+com.ecyrd.jspwiki.auth.authorize.GroupDatabase	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/authorize/GroupDatabase.java	0	0	0	0	97	15
+com.ecyrd.jspwiki.auth.authorize.GroupManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/authorize/GroupManager.java	0	0	0	0	746	384
+com.ecyrd.jspwiki.auth.authorize.GroupTest		tests/com/ecyrd/jspwiki/auth/authorize/GroupTest.java	0	2	1	0	161	121
+com.ecyrd.jspwiki.auth.authorize.JDBCGroupDatabase	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/authorize/JDBCGroupDatabase.java	0	0	0	0	719	411
+com.ecyrd.jspwiki.auth.authorize.JDBCGroupDatabaseTest		tests/com/ecyrd/jspwiki/auth/authorize/JDBCGroupDatabaseTest.java	0	2	1	0	240	173
+com.ecyrd.jspwiki.auth.authorize.Role	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/authorize/Role.java	0	0	0	0	139	48
+com.ecyrd.jspwiki.auth.authorize.WebAuthorizer	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/authorize/WebAuthorizer.java	0	0	0	0	50	8
+com.ecyrd.jspwiki.auth.authorize.WebContainerAuthorizer	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/authorize/WebContainerAuthorizer.java	0	0	0	0	466	227
+com.ecyrd.jspwiki.auth.authorize.WebContainerAuthorizer$LocalEntityResolver	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/authorize/WebContainerAuthorizer.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.auth.authorize.WebContainerAuthorizerTest		tests/com/ecyrd/jspwiki/auth/authorize/WebContainerAuthorizerTest.java	0	2	1	0	89	75
+com.ecyrd.jspwiki.auth.authorize.XMLGroupDatabase	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/authorize/XMLGroupDatabase.java	0	0	0	0	479	302
+com.ecyrd.jspwiki.auth.authorize.XMLGroupDatabaseTest		tests/com/ecyrd/jspwiki/auth/authorize/XMLGroupDatabaseTest.java	0	2	1	0	221	144
+com.ecyrd.jspwiki.event.PageEventFilter	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/event/PageEventFilter.java	0	0	0	0	167	54
+com.ecyrd.jspwiki.event.WikiEngineEvent	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/event/WikiEngineEvent.java	0	0	0	0	161	61
+com.ecyrd.jspwiki.event.WikiEvent	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/event/WikiEvent.java	0	0	0	0	161	60
+com.ecyrd.jspwiki.event.WikiEventListener	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/event/WikiEventListener.java	0	0	0	0	43	6
+com.ecyrd.jspwiki.event.WikiEventManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/event/WikiEventManager.java	0	0	0	0	611	233
+com.ecyrd.jspwiki.event.WikiEventManager$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/event/WikiEventManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.event.WikiEventManager$WikiEventDelegate	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/event/WikiEventManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.event.WikiEventManager$WikiEventListenerComparator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/event/WikiEventManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.event.WikiEventUtils	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/event/WikiEventUtils.java	0	0	0	0	162	60
+com.ecyrd.jspwiki.event.WikiPageEvent	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/event/WikiPageEvent.java	0	0	0	0	297	87
+com.ecyrd.jspwiki.event.WikiPageRenameEvent	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/event/WikiPageRenameEvent.java	0	0	0	0	124	32
+com.ecyrd.jspwiki.event.WikiSecurityEvent	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/event/WikiSecurityEvent.java	0	0	0	0	281	127
+com.ecyrd.jspwiki.event.WorkflowEvent	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/event/WorkflowEvent.java	0	0	0	0	146	53
+com.ecyrd.jspwiki.search.AllTests		tests/com/ecyrd/jspwiki/search/AllTests.java	0	2	1	0	22	17
+com.ecyrd.jspwiki.search.BasicSearchProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/search/BasicSearchProvider.java	0	0	0	0	219	139
+com.ecyrd.jspwiki.search.LuceneSearchProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/search/LuceneSearchProvider.java	0	0	0	0	788	536
+com.ecyrd.jspwiki.search.LuceneSearchProvider$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/search/LuceneSearchProvider.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.search.LuceneSearchProvider$LuceneUpdater	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/search/LuceneSearchProvider.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.search.LuceneSearchProvider$SearchResultImpl	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/search/LuceneSearchProvider.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.search.SearchManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/search/SearchManager.java	0	0	0	0	362	203
+com.ecyrd.jspwiki.search.SearchManager$JSONSearch	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/search/SearchManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.search.SearchManagerTest		tests/com/ecyrd/jspwiki/search/SearchManagerTest.java	0	2	1	0	167	111
+com.ecyrd.jspwiki.search.SearchProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/search/SearchProvider.java	0	0	0	0	61	12
+com.ecyrd.jspwiki.auth.login.AbstractLoginModule	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/login/AbstractLoginModule.java	0	0	0	0	270	101
+com.ecyrd.jspwiki.auth.login.AllTests		tests/com/ecyrd/jspwiki/auth/login/AllTests.java	0	2	1	0	26	20
+com.ecyrd.jspwiki.auth.login.AnonymousLoginModule	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/login/AnonymousLoginModule.java	0	0	0	0	110	45
+com.ecyrd.jspwiki.auth.login.AnonymousLoginModuleTest		tests/com/ecyrd/jspwiki/auth/login/AnonymousLoginModuleTest.java	0	2	1	0	126	88
+com.ecyrd.jspwiki.auth.login.AuthorizerCallback	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/login/AuthorizerCallback.java	0	0	0	0	58	15
+com.ecyrd.jspwiki.auth.login.CookieAssertionLoginModule	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/login/CookieAssertionLoginModule.java	0	0	0	0	167	77
+com.ecyrd.jspwiki.auth.login.CookieAssertionLoginModuleTest		tests/com/ecyrd/jspwiki/auth/login/CookieAssertionLoginModuleTest.java	0	2	1	0	137	97
+com.ecyrd.jspwiki.auth.login.CookieAuthenticationLoginModule	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/login/CookieAuthenticationLoginModule.java	0	0	0	0	351	186
+com.ecyrd.jspwiki.auth.login.HttpRequestCallback	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/login/HttpRequestCallback.java	0	0	0	0	59	15
+com.ecyrd.jspwiki.auth.login.PrincipalWrapper	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/login/PrincipalWrapper.java	0	0	0	0	92	32
+com.ecyrd.jspwiki.auth.login.UserDatabaseCallback	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/login/UserDatabaseCallback.java	0	0	0	0	58	15
+com.ecyrd.jspwiki.auth.login.UserDatabaseLoginModule	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/login/UserDatabaseLoginModule.java	0	0	0	0	123	64
+com.ecyrd.jspwiki.auth.login.UserDatabaseLoginModuleTest		tests/com/ecyrd/jspwiki/auth/login/UserDatabaseLoginModuleTest.java	0	2	1	0	141	101
+com.ecyrd.jspwiki.auth.login.WebContainerCallbackHandler	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/login/WebContainerCallbackHandler.java	0	0	0	0	81	36
+com.ecyrd.jspwiki.auth.login.WebContainerLoginModule	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/login/WebContainerLoginModule.java	0	0	0	0	133	66
+com.ecyrd.jspwiki.auth.login.WebContainerLoginModuleTest		tests/com/ecyrd/jspwiki/auth/login/WebContainerLoginModuleTest.java	0	2	1	0	135	97
+com.ecyrd.jspwiki.auth.login.WikiCallbackHandler	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/login/WikiCallbackHandler.java	0	0	0	0	103	51
+com.ecyrd.jspwiki.auth.login.WikiEngineCallback	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/login/WikiEngineCallback.java	0	0	0	0	57	15
+com.ecyrd.jspwiki.workflow.AbstractStep	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/workflow/AbstractStep.java	0	0	0	0	290	134
+com.ecyrd.jspwiki.workflow.AllTests		tests/com/ecyrd/jspwiki/workflow/AllTests.java	0	2	1	0	30	24
+com.ecyrd.jspwiki.workflow.ApprovalWorkflowTest		tests/com/ecyrd/jspwiki/workflow/ApprovalWorkflowTest.java	0	2	1	0	285	204
+com.ecyrd.jspwiki.workflow.Decision	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/workflow/Decision.java	0	0	0	0	247	87
+com.ecyrd.jspwiki.workflow.DecisionQueue	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/workflow/DecisionQueue.java	0	0	0	0	188	81
+com.ecyrd.jspwiki.workflow.DecisionQueueTest		tests/com/ecyrd/jspwiki/workflow/DecisionQueueTest.java	0	2	1	0	189	120
+com.ecyrd.jspwiki.workflow.DecisionRequiredException	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/workflow/DecisionRequiredException.java	0	0	0	0	47	10
+com.ecyrd.jspwiki.workflow.Fact	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/workflow/Fact.java	0	0	0	0	111	42
+com.ecyrd.jspwiki.workflow.FactTest		tests/com/ecyrd/jspwiki/workflow/FactTest.java	0	2	1	0	23	17
+com.ecyrd.jspwiki.workflow.NoSuchOutcomeException	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/workflow/NoSuchOutcomeException.java	0	0	0	0	42	9
+com.ecyrd.jspwiki.workflow.Outcome	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/workflow/Outcome.java	0	0	0	0	168	65
+com.ecyrd.jspwiki.workflow.OutcomeTest		tests/com/ecyrd/jspwiki/workflow/OutcomeTest.java	0	2	1	0	104	85
+com.ecyrd.jspwiki.workflow.SimpleDecision	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/workflow/SimpleDecision.java	0	0	0	0	54	11
+com.ecyrd.jspwiki.workflow.SimpleDecisionTest		tests/com/ecyrd/jspwiki/workflow/SimpleDecisionTest.java	0	2	1	0	167	133
+com.ecyrd.jspwiki.workflow.SimpleNotification	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/workflow/SimpleNotification.java	0	0	0	0	80	19
+com.ecyrd.jspwiki.workflow.Step	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/workflow/Step.java	0	0	0	0	247	27
+com.ecyrd.jspwiki.workflow.SystemPrincipal	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/workflow/SystemPrincipal.java	0	0	0	0	54	15
+com.ecyrd.jspwiki.workflow.Task	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/workflow/Task.java	0	0	0	0	113	29
+com.ecyrd.jspwiki.workflow.TaskTest		tests/com/ecyrd/jspwiki/workflow/TaskTest.java	0	2	1	0	179	141
+com.ecyrd.jspwiki.workflow.Workflow	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/workflow/Workflow.java	0	0	0	0	848	310
+com.ecyrd.jspwiki.workflow.WorkflowBuilder	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/workflow/WorkflowBuilder.java	0	0	0	0	190	86
+com.ecyrd.jspwiki.workflow.WorkflowManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/workflow/WorkflowManager.java	0	0	0	0	340	165
+com.ecyrd.jspwiki.workflow.WorkflowManagerTest		tests/com/ecyrd/jspwiki/workflow/WorkflowManagerTest.java	0	2	1	0	100	74
+com.ecyrd.jspwiki.workflow.WorkflowTest		tests/com/ecyrd/jspwiki/workflow/WorkflowTest.java	0	2	1	0	369	267
+com.ecyrd.jspwiki.dav.methods.DavMethod	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/methods/DavMethod.java	0	0	0	0	50	17
+com.ecyrd.jspwiki.dav.methods.GetMethod	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/methods/GetMethod.java	0	0	0	0	85	45
+com.ecyrd.jspwiki.dav.methods.PropFindMethod	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/methods/PropFindMethod.java	0	0	0	0	293	192
+com.ecyrd.jspwiki.dav.methods.PropPatchMethod	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/methods/PropPatchMethod.java	0	0	0	0	54	19
+com.foo.SamplePlugin3		tests/com/foo/SamplePlugin3.java	1	2	1	0	28	17
+com.ecyrd.jspwiki.rpc.RPCCallable	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/rpc/RPCCallable.java	0	0	0	0	31	4
+com.ecyrd.jspwiki.rpc.RPCManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/rpc/RPCManager.java	0	0	0	0	52	9
+com.ecyrd.jspwiki.ui.admin.AdminBean	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/admin/AdminBean.java	0	0	0	0	53	13
+com.ecyrd.jspwiki.ui.admin.AdminBeanManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/admin/AdminBeanManager.java	0	0	0	0	319	209
+com.ecyrd.jspwiki.ui.admin.AdminBeanManager$MBeanServerFactory15	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/admin/AdminBeanManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.ui.admin.SimpleAdminBean	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/admin/SimpleAdminBean.java	0	0	0	0	124	56
+com.ecyrd.jspwiki.ui.admin.WikiFormAdminBean	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/admin/WikiFormAdminBean.java	0	0	0	0	72	35
+com.ecyrd.jspwiki.dav.items.AttachmentDirectoryItem	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/items/AttachmentDirectoryItem.java	0	0	0	0	48	19
+com.ecyrd.jspwiki.dav.items.AttachmentItem	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/items/AttachmentItem.java	0	0	0	0	101	39
+com.ecyrd.jspwiki.dav.items.DavItem	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/items/DavItem.java	0	0	0	0	92	53
+com.ecyrd.jspwiki.dav.items.DirectoryItem	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/items/DirectoryItem.java	0	0	0	0	98	54
+com.ecyrd.jspwiki.dav.items.HTMLPageDavItem	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/items/HTMLPageDavItem.java	0	0	0	0	131	68
+com.ecyrd.jspwiki.dav.items.PageDavItem	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/items/PageDavItem.java	0	0	0	0	124	68
+com.ecyrd.jspwiki.dav.items.TopLevelDavItem	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/items/TopLevelDavItem.java	0	0	0	0	38	12
+com.ecyrd.jspwiki.xmlrpc.AbstractRPCHandler	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/xmlrpc/AbstractRPCHandler.java	0	0	0	0	131	60
+com.ecyrd.jspwiki.xmlrpc.AllTests		tests/com/ecyrd/jspwiki/xmlrpc/AllTests.java	0	2	1	0	21	15
+com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/xmlrpc/MetaWeblogHandler.java	0	0	0	0	405	230
+com.ecyrd.jspwiki.xmlrpc.RPCHandler	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/xmlrpc/RPCHandler.java	0	0	0	0	347	199
+com.ecyrd.jspwiki.xmlrpc.RPCHandlerTest		tests/com/ecyrd/jspwiki/xmlrpc/RPCHandlerTest.java	0	2	1	0	215	137
+com.ecyrd.jspwiki.xmlrpc.RPCHandlerUTF8	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/xmlrpc/RPCHandlerUTF8.java	0	0	0	0	293	174
+com.ecyrd.jspwiki.xmlrpc.RPCServlet	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/xmlrpc/RPCServlet.java	0	0	0	0	233	133
+com.ecyrd.jspwiki.xmlrpc.RPCServlet$LocalHandler	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/xmlrpc/RPCServlet.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.xmlrpc.RPCServlet$WikiXmlRpcContext	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/xmlrpc/RPCServlet.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.xmlrpc.WikiRPCHandler	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/xmlrpc/WikiRPCHandler.java	0	0	0	0	36	6
+com.ecyrd.jspwiki.url.AllTests		tests/com/ecyrd/jspwiki/url/AllTests.java	0	2	1	0	24	15
+com.ecyrd.jspwiki.url.DefaultURLConstructor	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/url/DefaultURLConstructor.java	0	0	0	0	308	130
+com.ecyrd.jspwiki.url.DefaultURLConstructorTest		tests/com/ecyrd/jspwiki/url/DefaultURLConstructorTest.java	0	2	1	0	143	104
+com.ecyrd.jspwiki.url.ShortURLConstructor	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/url/ShortURLConstructor.java	0	0	0	0	230	160
+com.ecyrd.jspwiki.url.ShortURLConstructorTest		tests/com/ecyrd/jspwiki/url/ShortURLConstructorTest.java	0	2	1	0	144	104
+com.ecyrd.jspwiki.url.ShortViewURLConstructor	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/url/ShortViewURLConstructor.java	0	0	0	0	110	60
+com.ecyrd.jspwiki.url.ShortViewURLConstructorTest		tests/com/ecyrd/jspwiki/url/ShortViewURLConstructorTest.java	0	2	1	0	143	104
+com.ecyrd.jspwiki.url.URLConstructor	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/url/URLConstructor.java	0	0	0	0	96	19
+com.ecyrd.jspwiki.htmltowiki.AllTests		tests/com/ecyrd/jspwiki/htmltowiki/AllTests.java	0	2	1	0	20	15
+com.ecyrd.jspwiki.htmltowiki.ForgetNullValuesLinkedHashMap	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/htmltowiki/ForgetNullValuesLinkedHashMap.java	0	0	0	0	49	14
+com.ecyrd.jspwiki.htmltowiki.HtmlStringToWikiTranslator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/htmltowiki/HtmlStringToWikiTranslator.java	0	0	0	0	130	43
+com.ecyrd.jspwiki.htmltowiki.HtmlStringToWikiTranslatorTest		tests/com/ecyrd/jspwiki/htmltowiki/HtmlStringToWikiTranslatorTest.java	0	2	1	0	394	283
+com.ecyrd.jspwiki.htmltowiki.PersistentMapDecorator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/htmltowiki/PersistentMapDecorator.java	0	0	0	0	189	94
+com.ecyrd.jspwiki.htmltowiki.PropertiesUtils	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/htmltowiki/PropertiesUtils.java	0	0	0	0	148	93
+com.ecyrd.jspwiki.htmltowiki.WhitespaceTrimWriter	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/htmltowiki/WhitespaceTrimWriter.java	0	0	0	0	153	85
+com.ecyrd.jspwiki.htmltowiki.XHtmlElementToWikiTranslator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/htmltowiki/XHtmlElementToWikiTranslator.java	0	0	0	0	1082	889
+com.ecyrd.jspwiki.htmltowiki.XHtmlElementToWikiTranslator$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/htmltowiki/XHtmlElementToWikiTranslator.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.htmltowiki.XHtmlElementToWikiTranslator$LiStack	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/htmltowiki/XHtmlElementToWikiTranslator.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.htmltowiki.XHtmlElementToWikiTranslator$PreStack	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/htmltowiki/XHtmlElementToWikiTranslator.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.htmltowiki.XHtmlToWikiConfig	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/htmltowiki/XHtmlToWikiConfig.java	0	0	0	0	205	76
+com.ecyrd.jspwiki.dav.AllTests		tests/com/ecyrd/jspwiki/dav/AllTests.java	0	2	1	0	23	16
+com.ecyrd.jspwiki.dav.AttachmentDavProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/AttachmentDavProvider.java	0	0	0	0	184	120
+com.ecyrd.jspwiki.dav.AttachmentDavProviderTest		tests/com/ecyrd/jspwiki/dav/AttachmentDavProviderTest.java	0	2	1	0	82	59
+com.ecyrd.jspwiki.dav.DavContext	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/DavContext.java	0	0	0	0	62	28
+com.ecyrd.jspwiki.dav.DavPath	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/DavPath.java	0	0	0	0	271	110
+com.ecyrd.jspwiki.dav.DavPathTest		tests/com/ecyrd/jspwiki/dav/DavPathTest.java	0	2	1	0	165	109
+com.ecyrd.jspwiki.dav.DavProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/DavProvider.java	0	0	0	0	33	8
+com.ecyrd.jspwiki.dav.DavUtil	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/DavUtil.java	0	0	0	0	96	58
+com.ecyrd.jspwiki.dav.HTMLPagesDavProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/HTMLPagesDavProvider.java	0	0	0	0	128	77
+com.ecyrd.jspwiki.dav.HTMLPagesDavProviderTest		tests/com/ecyrd/jspwiki/dav/HTMLPagesDavProviderTest.java	0	2	1	0	77	54
+com.ecyrd.jspwiki.dav.RawPagesDavProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/RawPagesDavProvider.java	0	0	0	0	266	173
+com.ecyrd.jspwiki.dav.RawPagesDavProviderTest		tests/com/ecyrd/jspwiki/dav/RawPagesDavProviderTest.java	0	2	1	0	76	54
+com.ecyrd.jspwiki.dav.WebdavServlet	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/WebdavServlet.java	0	0	0	0	177	113
+com.ecyrd.jspwiki.dav.WikiDavProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/WikiDavProvider.java	0	0	0	0	39	14
+com.ecyrd.jspwiki.dav.WikiDavServlet	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/WikiDavServlet.java	0	0	0	0	186	114
+com.ecyrd.jspwiki.dav.WikiRootProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/dav/WikiRootProvider.java	0	0	0	0	68	35
+com.ecyrd.jspwiki.web.AllTests		tests/com/ecyrd/jspwiki/web/AllTests.java	0	2	1	0	20	16
+com.ecyrd.jspwiki.web.TestContainer		tests/com/ecyrd/jspwiki/web/TestContainer.java	0	2	1	0	376	208
+com.ecyrd.jspwiki.plugin.AbstractReferralPlugin	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/AbstractReferralPlugin.java	0	0	0	0	492	303
+com.ecyrd.jspwiki.plugin.AbstractReferralPlugin$CutMutator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/AbstractReferralPlugin.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.plugin.AllTests		tests/com/ecyrd/jspwiki/plugin/AllTests.java	0	2	1	0	33	25
+com.ecyrd.jspwiki.plugin.BugReportHandler	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/BugReportHandler.java	0	0	0	0	256	147
+com.ecyrd.jspwiki.plugin.Counter	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/Counter.java	0	0	0	0	137	59
+com.ecyrd.jspwiki.plugin.CounterPluginTest		tests/com/ecyrd/jspwiki/plugin/CounterPluginTest.java	0	2	1	0	129	95
+com.ecyrd.jspwiki.plugin.CurrentTimePlugin	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/CurrentTimePlugin.java	0	0	0	0	75	32
+com.ecyrd.jspwiki.plugin.Denounce	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/Denounce.java	0	0	0	0	223	128
+com.ecyrd.jspwiki.plugin.Groups	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/Groups.java	0	0	0	0	86	39
+com.ecyrd.jspwiki.plugin.GroupsTest		tests/com/ecyrd/jspwiki/plugin/GroupsTest.java	0	2	1	0	56	41
+com.ecyrd.jspwiki.plugin.IfPlugin	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/IfPlugin.java	0	0	0	0	302	145
+com.ecyrd.jspwiki.plugin.Image	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/Image.java	0	0	0	0	220	121
+com.ecyrd.jspwiki.plugin.IndexPlugin	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/IndexPlugin.java	0	0	0	0	157	83
+com.ecyrd.jspwiki.plugin.InitializablePlugin	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/InitializablePlugin.java	0	0	0	0	50	7
+com.ecyrd.jspwiki.plugin.InsertPage	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/InsertPage.java	0	0	0	0	212	125
+com.ecyrd.jspwiki.plugin.InsertPageTest		tests/com/ecyrd/jspwiki/plugin/InsertPageTest.java	0	2	1	0	114	73
+com.ecyrd.jspwiki.plugin.JavaScriptPlugin		tests/com/ecyrd/jspwiki/plugin/JavaScriptPlugin.java	0	2	1	0	30	17
+com.ecyrd.jspwiki.plugin.ListLocksPlugin	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/ListLocksPlugin.java	0	0	0	0	88	47
+com.ecyrd.jspwiki.plugin.Note	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/Note.java	0	0	0	0	108	37
+com.ecyrd.jspwiki.plugin.PageViewPlugin	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/PageViewPlugin.java	0	0	0	0	809	465
+com.ecyrd.jspwiki.plugin.PageViewPlugin$Counter	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/PageViewPlugin.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.plugin.PageViewPlugin$CounterSaveThread	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/PageViewPlugin.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.plugin.PageViewPlugin$PageViewManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/PageViewPlugin.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.plugin.PageViewPlugin$PageViewManager$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/PageViewPlugin.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.plugin.PageViewPluginTest		tests/com/ecyrd/jspwiki/plugin/PageViewPluginTest.java	0	2	1	0	178	115
+com.ecyrd.jspwiki.plugin.ParserStagePlugin	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/ParserStagePlugin.java	0	0	0	0	44	8
+com.ecyrd.jspwiki.plugin.PluginException	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/PluginException.java	0	0	0	0	68	22
+com.ecyrd.jspwiki.plugin.PluginManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/PluginManager.java	0	0	0	0	1074	584
+com.ecyrd.jspwiki.plugin.PluginManager$WikiPluginInfo	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/PluginManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.plugin.PluginManagerTest		tests/com/ecyrd/jspwiki/plugin/PluginManagerTest.java	0	2	1	0	205	155
+com.ecyrd.jspwiki.plugin.RPCSamplePlugin	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/RPCSamplePlugin.java	0	0	0	0	67	18
+com.ecyrd.jspwiki.plugin.RecentChangesPlugin	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/RecentChangesPlugin.java	0	0	0	0	276	154
+com.ecyrd.jspwiki.plugin.RecentChangesPluginTest		tests/com/ecyrd/jspwiki/plugin/RecentChangesPluginTest.java	0	2	1	0	130	65
+com.ecyrd.jspwiki.plugin.ReferredPagesPlugin	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/ReferredPagesPlugin.java	0	0	0	0	252	136
+com.ecyrd.jspwiki.plugin.ReferringPagesPlugin	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/ReferringPagesPlugin.java	0	0	0	0	147	74
+com.ecyrd.jspwiki.plugin.ReferringPagesPluginTest		tests/com/ecyrd/jspwiki/plugin/ReferringPagesPluginTest.java	0	2	1	0	207	162
+com.ecyrd.jspwiki.plugin.SamplePlugin		tests/com/ecyrd/jspwiki/plugin/SamplePlugin.java	0	2	1	0	47	29
+com.ecyrd.jspwiki.plugin.Search	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/Search.java	0	0	0	0	161	89
+com.ecyrd.jspwiki.plugin.SessionsPlugin	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/SessionsPlugin.java	0	0	0	0	119	56
+com.ecyrd.jspwiki.plugin.TableOfContents	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/TableOfContents.java	0	0	0	0	248	168
+com.ecyrd.jspwiki.plugin.TableOfContentsTest		tests/com/ecyrd/jspwiki/plugin/TableOfContentsTest.java	0	2	1	0	240	166
+com.ecyrd.jspwiki.plugin.UndefinedPagesPlugin	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/UndefinedPagesPlugin.java	0	0	0	0	72	30
+com.ecyrd.jspwiki.plugin.UndefinedPagesPluginTest		tests/com/ecyrd/jspwiki/plugin/UndefinedPagesPluginTest.java	0	2	1	0	95	69
+com.ecyrd.jspwiki.plugin.UnusedPagesPlugin	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/UnusedPagesPlugin.java	0	0	0	0	95	44
+com.ecyrd.jspwiki.plugin.WeblogArchivePlugin	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/WeblogArchivePlugin.java	0	0	0	0	208	114
+com.ecyrd.jspwiki.plugin.WeblogArchivePlugin$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/WeblogArchivePlugin.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.plugin.WeblogArchivePlugin$ArchiveComparator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/WeblogArchivePlugin.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.plugin.WeblogEntryPlugin	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/WeblogEntryPlugin.java	0	0	0	0	171	88
+com.ecyrd.jspwiki.plugin.WeblogPlugin	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/WeblogPlugin.java	0	0	0	0	511	286
+com.ecyrd.jspwiki.plugin.WeblogPlugin$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/WeblogPlugin.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.plugin.WeblogPlugin$PageDateComparator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/WeblogPlugin.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.plugin.WikiPlugin	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/plugin/WikiPlugin.java	0	0	0	0	64	9
+com.ecyrd.jspwiki.parser.AllTests		tests/com/ecyrd/jspwiki/parser/AllTests.java	0	2	1	0	27	19
+com.ecyrd.jspwiki.parser.CreoleToJSPWikiTranslator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/parser/CreoleToJSPWikiTranslator.java	0	0	0	0	564	346
+com.ecyrd.jspwiki.parser.CreoleToJSPWikiTranslatorTest		tests/com/ecyrd/jspwiki/parser/CreoleToJSPWikiTranslatorTest.java	0	2	1	0	847	599
+com.ecyrd.jspwiki.parser.Heading	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/parser/Heading.java	0	0	0	0	65	11
+com.ecyrd.jspwiki.parser.HeadingListener	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/parser/HeadingListener.java	0	0	0	0	38	6
+com.ecyrd.jspwiki.parser.JSPWikiMarkupParser	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/parser/JSPWikiMarkupParser.java	0	0	0	0	3016	1978
+com.ecyrd.jspwiki.parser.JSPWikiMarkupParser$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/parser/JSPWikiMarkupParser.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.parser.JSPWikiMarkupParser$StartingComparator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/parser/JSPWikiMarkupParser.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.parser.JSPWikiMarkupParserTest		tests/com/ecyrd/jspwiki/parser/JSPWikiMarkupParserTest.java	0	2	1	0	2741	1821
+com.ecyrd.jspwiki.parser.LinkParser	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/parser/LinkParser.java	0	0	0	0	569	254
+com.ecyrd.jspwiki.parser.LinkParser$Link	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/parser/LinkParser.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.parser.MarkupParser	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/parser/MarkupParser.java	0	0	0	0	352	149
+com.ecyrd.jspwiki.parser.MarkupParserTest		tests/com/ecyrd/jspwiki/parser/MarkupParserTest.java	0	2	1	0	46	36
+com.ecyrd.jspwiki.parser.ParseException	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/parser/ParseException.java	0	0	0	0	44	10
+com.ecyrd.jspwiki.parser.PluginContent	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/parser/PluginContent.java	0	0	0	0	233	112
+com.ecyrd.jspwiki.parser.VariableContent	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/parser/VariableContent.java	0	0	0	0	114	52
+com.ecyrd.jspwiki.parser.WikiDocument	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/parser/WikiDocument.java	0	0	0	0	113	36
+com.ecyrd.jspwiki.auth.permissions.AllPermission	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/permissions/AllPermission.java	0	0	0	0	184	80
+com.ecyrd.jspwiki.auth.permissions.AllPermissionCollection	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/permissions/AllPermissionCollection.java	0	0	0	0	144	61
+com.ecyrd.jspwiki.auth.permissions.AllPermissionCollectionTest		tests/com/ecyrd/jspwiki/auth/permissions/AllPermissionCollectionTest.java	0	2	1	0	249	195
+com.ecyrd.jspwiki.auth.permissions.AllPermissionTest		tests/com/ecyrd/jspwiki/auth/permissions/AllPermissionTest.java	0	2	1	0	83	60
+com.ecyrd.jspwiki.auth.permissions.AllTests		tests/com/ecyrd/jspwiki/auth/permissions/AllTests.java	0	2	1	0	27	21
+com.ecyrd.jspwiki.auth.permissions.GroupPermission	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/permissions/GroupPermission.java	0	0	0	0	501	196
+com.ecyrd.jspwiki.auth.permissions.GroupPermissionTest		tests/com/ecyrd/jspwiki/auth/permissions/GroupPermissionTest.java	0	2	1	0	314	226
+com.ecyrd.jspwiki.auth.permissions.PagePermission	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/permissions/PagePermission.java	0	0	0	0	484	235
+com.ecyrd.jspwiki.auth.permissions.PagePermissionTest		tests/com/ecyrd/jspwiki/auth/permissions/PagePermissionTest.java	0	2	1	0	351	263
+com.ecyrd.jspwiki.auth.permissions.PermissionFactory	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/permissions/PermissionFactory.java	0	0	0	0	116	35
+com.ecyrd.jspwiki.auth.permissions.WikiPermission	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/permissions/WikiPermission.java	0	0	0	0	274	132
+com.ecyrd.jspwiki.auth.permissions.WikiPermissionTest		tests/com/ecyrd/jspwiki/auth/permissions/WikiPermissionTest.java	0	2	1	0	157	112
+com.ecyrd.jspwiki.content.AllTests		tests/com/ecyrd/jspwiki/content/AllTests.java	0	2	1	0	23	17
+com.ecyrd.jspwiki.content.Exporter	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/content/Exporter.java	0	0	0	0	516	325
+com.ecyrd.jspwiki.content.Exporter$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/content/Exporter.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.content.ExporterTest		tests/com/ecyrd/jspwiki/content/ExporterTest.java	0	2	1	0	53	35
+com.ecyrd.jspwiki.content.PageRenamer	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/content/PageRenamer.java	0	0	0	0	414	212
+com.ecyrd.jspwiki.content.PageRenamerTest		tests/com/ecyrd/jspwiki/content/PageRenamerTest.java	0	2	1	0	489	337
+com.ecyrd.jspwiki.providers.AbstractFileProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/AbstractFileProvider.java	0	0	0	0	514	299
+com.ecyrd.jspwiki.providers.AbstractFileProvider$WikiFileFilter	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/AbstractFileProvider.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.providers.AllTests		tests/com/ecyrd/jspwiki/providers/AllTests.java	0	2	1	0	25	19
+com.ecyrd.jspwiki.providers.BasicAttachmentProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/BasicAttachmentProvider.java	0	0	0	0	752	446
+com.ecyrd.jspwiki.providers.BasicAttachmentProvider$AttachmentFilter	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/BasicAttachmentProvider.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.providers.BasicAttachmentProvider$AttachmentVersionFilter	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/BasicAttachmentProvider.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.providers.BasicAttachmentProviderTest		tests/com/ecyrd/jspwiki/providers/BasicAttachmentProviderTest.java	0	2	1	0	342	214
+com.ecyrd.jspwiki.providers.CachingAttachmentProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/CachingAttachmentProvider.java	0	0	0	0	536	320
+com.ecyrd.jspwiki.providers.CachingAttachmentProvider$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/CachingAttachmentProvider.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.providers.CachingAttachmentProvider$CachedAttachmentCollector	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/CachingAttachmentProvider.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.providers.CachingProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/CachingProvider.java	0	0	0	0	965	575
+com.ecyrd.jspwiki.providers.CachingProvider$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/CachingProvider.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.providers.CachingProvider$CacheItemCollector	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/CachingProvider.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.providers.CachingProviderTest		tests/com/ecyrd/jspwiki/providers/CachingProviderTest.java	0	2	1	0	104	71
+com.ecyrd.jspwiki.providers.CounterProvider		tests/com/ecyrd/jspwiki/providers/CounterProvider.java	0	2	1	0	167	99
+com.ecyrd.jspwiki.providers.FastSearch	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/FastSearch.java	0	0	0	0	32	4
+com.ecyrd.jspwiki.providers.FileSystemProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/FileSystemProvider.java	0	0	0	0	184	110
+com.ecyrd.jspwiki.providers.FileSystemProviderTest		tests/com/ecyrd/jspwiki/providers/FileSystemProviderTest.java	0	2	1	0	272	187
+com.ecyrd.jspwiki.providers.NoSuchVersionException	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/NoSuchVersionException.java	0	0	0	0	40	10
+com.ecyrd.jspwiki.providers.ProviderException	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/ProviderException.java	0	0	0	0	45	11
+com.ecyrd.jspwiki.providers.RCSFileProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/RCSFileProvider.java	0	0	0	0	721	478
+com.ecyrd.jspwiki.providers.RCSFileProviderTest		tests/com/ecyrd/jspwiki/providers/RCSFileProviderTest.java	0	2	1	0	236	142
+com.ecyrd.jspwiki.providers.RepositoryModifiedException	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/RepositoryModifiedException.java	0	0	0	0	63	16
+com.ecyrd.jspwiki.providers.VersioningFileProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/VersioningFileProvider.java	0	0	0	0	826	466
+com.ecyrd.jspwiki.providers.VersioningFileProvider$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/VersioningFileProvider.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.providers.VersioningFileProvider$CachedProperties	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/VersioningFileProvider.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.providers.VersioningFileProviderTest		tests/com/ecyrd/jspwiki/providers/VersioningFileProviderTest.java	0	2	1	0	336	226
+com.ecyrd.jspwiki.providers.VersioningProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/VersioningProvider.java	0	0	0	0	45	5
+com.ecyrd.jspwiki.providers.VerySimpleProvider		tests/com/ecyrd/jspwiki/providers/VerySimpleProvider.java	0	2	1	0	139	74
+com.ecyrd.jspwiki.providers.WikiAttachmentProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/WikiAttachmentProvider.java	0	0	0	0	181	33
+com.ecyrd.jspwiki.providers.WikiPageProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/providers/WikiPageProvider.java	0	0	0	0	202	30
+com.ecyrd.jspwiki.ui.AbstractCommand	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/AbstractCommand.java	0	0	0	0	249	132
+com.ecyrd.jspwiki.ui.AllTests		tests/com/ecyrd/jspwiki/ui/AllTests.java	0	2	1	0	25	18
+com.ecyrd.jspwiki.ui.Command	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/Command.java	0	0	0	0	162	13
+com.ecyrd.jspwiki.ui.CommandResolver	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/CommandResolver.java	0	0	0	0	534	265
+com.ecyrd.jspwiki.ui.CommandResolverTest		tests/com/ecyrd/jspwiki/ui/CommandResolverTest.java	0	2	1	0	228	167
+com.ecyrd.jspwiki.ui.Editor	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/Editor.java	0	0	0	0	95	49
+com.ecyrd.jspwiki.ui.EditorManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/EditorManager.java	0	0	0	0	335	172
+com.ecyrd.jspwiki.ui.EditorManager$WikiEditorInfo	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/EditorManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.ui.GenericHTTPHandler	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/GenericHTTPHandler.java	0	0	0	0	55	8
+com.ecyrd.jspwiki.ui.GroupCommand	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/GroupCommand.java	0	0	0	0	126	49
+com.ecyrd.jspwiki.ui.GroupCommandTest		tests/com/ecyrd/jspwiki/ui/GroupCommandTest.java	0	2	1	0	103	81
+com.ecyrd.jspwiki.ui.InputValidator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/InputValidator.java	0	0	0	0	190	91
+com.ecyrd.jspwiki.ui.InputValidatorTest		tests/com/ecyrd/jspwiki/ui/InputValidatorTest.java	0	2	1	0	79	61
+com.ecyrd.jspwiki.ui.Installer	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/Installer.java	0	0	0	0	361	246
+com.ecyrd.jspwiki.ui.PageCommand	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/PageCommand.java	0	0	0	0	149	71
+com.ecyrd.jspwiki.ui.PageCommandTest		tests/com/ecyrd/jspwiki/ui/PageCommandTest.java	0	2	1	0	116	91
+com.ecyrd.jspwiki.ui.RedirectCommand	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/RedirectCommand.java	0	0	0	0	102	32
+com.ecyrd.jspwiki.ui.RedirectCommandTest		tests/com/ecyrd/jspwiki/ui/RedirectCommandTest.java	0	2	1	0	55	42
+com.ecyrd.jspwiki.ui.TemplateManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/TemplateManager.java	0	0	0	0	856	423
+com.ecyrd.jspwiki.ui.WikiCommand	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/WikiCommand.java	0	0	0	0	156	71
+com.ecyrd.jspwiki.ui.WikiCommandTest		tests/com/ecyrd/jspwiki/ui/WikiCommandTest.java	0	2	1	0	168	138
+com.ecyrd.jspwiki.ui.WikiJSPFilter	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/WikiJSPFilter.java	0	0	0	0	395	215
+com.ecyrd.jspwiki.ui.WikiJSPFilter$ByteArrayResponseWrapper	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/WikiJSPFilter.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.ui.WikiJSPFilter$ByteArrayResponseWrapper$MyServletOutputStream	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/WikiJSPFilter.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.ui.WikiJSPFilter$MyServletResponseWrapper	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/WikiJSPFilter.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.ui.WikiJSPFilter$MyServletResponseWrapper$MyServletOutputStream	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/WikiJSPFilter.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.ui.WikiRequestWrapper	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/WikiRequestWrapper.java	0	0	0	0	142	62
+com.ecyrd.jspwiki.ui.WikiServletFilter	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/WikiServletFilter.java	0	0	0	0	218	115
+com.ecyrd.jspwiki.auth.AllTests		tests/com/ecyrd/jspwiki/auth/AllTests.java	0	2	1	0	31	25
+com.ecyrd.jspwiki.auth.AuthenticationManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/AuthenticationManager.java	0	0	0	0	778	375
+com.ecyrd.jspwiki.auth.AuthenticationManagerTest		tests/com/ecyrd/jspwiki/auth/AuthenticationManagerTest.java	0	2	1	0	276	184
+com.ecyrd.jspwiki.auth.AuthorizationManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/AuthorizationManager.java	0	0	0	0	687	334
+com.ecyrd.jspwiki.auth.AuthorizationManager$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/AuthorizationManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.auth.AuthorizationManagerTest		tests/com/ecyrd/jspwiki/auth/AuthorizationManagerTest.java	0	2	1	0	748	554
+com.ecyrd.jspwiki.auth.Authorizer	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/Authorizer.java	0	0	0	0	96	12
+com.ecyrd.jspwiki.auth.GroupManagerTest		tests/com/ecyrd/jspwiki/auth/GroupManagerTest.java	0	2	1	0	197	149
+com.ecyrd.jspwiki.auth.GroupPrincipal	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/GroupPrincipal.java	0	0	0	0	102	35
+com.ecyrd.jspwiki.auth.NoSuchPrincipalException	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/NoSuchPrincipalException.java	0	0	0	0	41	10
+com.ecyrd.jspwiki.auth.PrincipalComparator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/PrincipalComparator.java	0	0	0	0	51	15
+com.ecyrd.jspwiki.auth.SecurityEventTrap		tests/com/ecyrd/jspwiki/auth/SecurityEventTrap.java	0	2	1	0	48	35
+com.ecyrd.jspwiki.auth.SecurityVerifier	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/SecurityVerifier.java	0	0	0	0	910	645
+com.ecyrd.jspwiki.auth.SecurityVerifier$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/SecurityVerifier.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.auth.SessionMonitor	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/SessionMonitor.java	0	0	0	0	285	143
+com.ecyrd.jspwiki.auth.UserManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/UserManager.java	0	0	0	0	855	467
+com.ecyrd.jspwiki.auth.UserManager$DummyUserDatabase	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/UserManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.auth.UserManager$JSONUserModule	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/UserManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.auth.UserManager$SaveUserProfileTask	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/UserManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.auth.UserManagerTest		tests/com/ecyrd/jspwiki/auth/UserManagerTest.java	0	2	1	0	435	282
+com.ecyrd.jspwiki.auth.Users		tests/com/ecyrd/jspwiki/auth/Users.java	0	2	1	0	26	18
+com.ecyrd.jspwiki.auth.WikiPrincipal	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/WikiPrincipal.java	0	0	0	0	181	69
+com.ecyrd.jspwiki.auth.WikiSecurityException	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/auth/WikiSecurityException.java	0	0	0	0	55	15
+com.ecyrd.jspwiki.filters.AllTests		tests/com/ecyrd/jspwiki/filters/AllTests.java	0	2	1	0	21	15
+com.ecyrd.jspwiki.filters.BasicPageFilter	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/filters/BasicPageFilter.java	0	0	0	0	91	36
+com.ecyrd.jspwiki.filters.CreoleFilter	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/filters/CreoleFilter.java	0	0	0	0	107	46
+com.ecyrd.jspwiki.filters.FilterException	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/filters/FilterException.java	0	0	0	0	44	11
+com.ecyrd.jspwiki.filters.FilterManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/filters/FilterManager.java	0	0	0	0	553	293
+com.ecyrd.jspwiki.filters.FilterManager$PageFilterInfo	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/filters/FilterManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.filters.FilterManagerTest		tests/com/ecyrd/jspwiki/filters/FilterManagerTest.java	0	2	1	0	76	52
+com.ecyrd.jspwiki.filters.PageFilter	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/filters/PageFilter.java	0	0	0	0	126	18
+com.ecyrd.jspwiki.filters.PingWeblogsComFilter	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/filters/PingWeblogsComFilter.java	0	0	0	0	124	71
+com.ecyrd.jspwiki.filters.PingWeblogsComFilter$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/filters/PingWeblogsComFilter.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.filters.ProfanityFilter	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/filters/ProfanityFilter.java	0	0	0	0	99	57
+com.ecyrd.jspwiki.filters.RedirectException	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/filters/RedirectException.java	0	0	0	0	58	16
+com.ecyrd.jspwiki.filters.SpamFilter	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/filters/SpamFilter.java	0	0	0	0	1229	697
+com.ecyrd.jspwiki.filters.SpamFilter$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/filters/SpamFilter.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.filters.SpamFilter$Change	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/filters/SpamFilter.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.filters.SpamFilter$Host	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/filters/SpamFilter.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.filters.TestFilter		tests/com/ecyrd/jspwiki/filters/TestFilter.java	0	2	1	0	16	12
+com.ecyrd.jspwiki.forms.FormClose	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/forms/FormClose.java	0	0	0	0	68	27
+com.ecyrd.jspwiki.forms.FormElement	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/forms/FormElement.java	0	0	0	0	108	27
+com.ecyrd.jspwiki.forms.FormHandler	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/forms/FormHandler.java	0	0	0	0	36	4
+com.ecyrd.jspwiki.forms.FormInfo	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/forms/FormInfo.java	0	0	0	0	240	97
+com.ecyrd.jspwiki.forms.FormInput	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/forms/FormInput.java	0	0	0	0	100	52
+com.ecyrd.jspwiki.forms.FormOpen	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/forms/FormOpen.java	0	0	0	0	153	71
+com.ecyrd.jspwiki.forms.FormOutput	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/forms/FormOutput.java	0	0	0	0	154	71
+com.ecyrd.jspwiki.forms.FormSelect	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/forms/FormSelect.java	0	0	0	0	181	110
+com.ecyrd.jspwiki.forms.FormSet	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/forms/FormSet.java	0	0	0	0	98	30
+com.ecyrd.jspwiki.forms.FormTextarea	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/forms/FormTextarea.java	0	0	0	0	115	62
+org.apache.catalina.util.HexUtils	WEB-INF/lib/JSPWiki.jar	src/org/apache/catalina/util/HexUtils.java	1	0	0	0	173	97
+com.ecyrd.jspwiki.AllTests		tests/com/ecyrd/jspwiki/AllTests.java	0	2	1	0	81	64
+com.ecyrd.jspwiki.FileUtil	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/FileUtil.java	0	0	0	0	326	173
+com.ecyrd.jspwiki.FileUtilTest		tests/com/ecyrd/jspwiki/FileUtilTest.java	0	2	1	0	128	84
+com.ecyrd.jspwiki.InternalWikiException	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/InternalWikiException.java	0	0	0	0	43	9
+com.ecyrd.jspwiki.LinkCollector	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/LinkCollector.java	0	0	0	0	54	17
+com.ecyrd.jspwiki.NoRequiredPropertyException	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/NoRequiredPropertyException.java	0	0	0	0	45	10
+com.ecyrd.jspwiki.NoSuchVariableException	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/NoSuchVariableException.java	0	0	0	0	40	10
+com.ecyrd.jspwiki.PageLock	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/PageLock.java	0	0	0	0	117	43
+com.ecyrd.jspwiki.PageManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/PageManager.java	0	0	0	0	908	484
+com.ecyrd.jspwiki.PageManager$LockReaper	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/PageManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.PageManager$PreSaveWikiPageTask	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/PageManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.PageManager$SaveWikiPageTask	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/PageManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.PageManagerTest		tests/com/ecyrd/jspwiki/PageManagerTest.java	0	2	1	0	61	45
+com.ecyrd.jspwiki.PageTimeComparator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/PageTimeComparator.java	0	0	0	0	79	36
+com.ecyrd.jspwiki.PropertyReader	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/PropertyReader.java	0	0	0	0	357	183
+com.ecyrd.jspwiki.PropertyReaderTest		tests/com/ecyrd/jspwiki/PropertyReaderTest.java	0	2	1	0	95	62
+com.ecyrd.jspwiki.QueryItem	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/QueryItem.java	0	0	0	0	47	9
+com.ecyrd.jspwiki.ReferenceManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ReferenceManager.java	0	0	0	0	1168	585
+com.ecyrd.jspwiki.ReferenceManagerTest		tests/com/ecyrd/jspwiki/ReferenceManagerTest.java	0	2	1	0	417	302
+com.ecyrd.jspwiki.Release	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/Release.java	0	0	0	0	193	68
+com.ecyrd.jspwiki.ReleaseTest		tests/com/ecyrd/jspwiki/ReleaseTest.java	0	2	1	0	126	96
+com.ecyrd.jspwiki.SearchMatcher	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/SearchMatcher.java	0	0	0	0	193	84
+com.ecyrd.jspwiki.SearchMatcher$SearchResultImpl	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/SearchMatcher.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.SearchResult	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/SearchResult.java	0	0	0	0	53	7
+com.ecyrd.jspwiki.SearchResultComparator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/SearchResultComparator.java	0	0	0	0	53	15
+com.ecyrd.jspwiki.StringTransmutator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/StringTransmutator.java	0	0	0	0	38	5
+com.ecyrd.jspwiki.TestAuthorizer		tests/com/ecyrd/jspwiki/TestAuthorizer.java	0	2	1	0	97	42
+com.ecyrd.jspwiki.TestEngine		tests/com/ecyrd/jspwiki/TestEngine.java	0	2	1	0	350	222
+com.ecyrd.jspwiki.TestJDBCDataSource		tests/com/ecyrd/jspwiki/TestJDBCDataSource.java	0	2	1	0	176	90
+com.ecyrd.jspwiki.TestJNDIContext		tests/com/ecyrd/jspwiki/TestJNDIContext.java	0	2	1	0	347	150
+com.ecyrd.jspwiki.TextUtil	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/TextUtil.java	0	0	0	0	870	455
+com.ecyrd.jspwiki.TextUtilTest		tests/com/ecyrd/jspwiki/TextUtilTest.java	0	2	1	0	359	264
+com.ecyrd.jspwiki.TranslatorReader	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/TranslatorReader.java	0	0	0	0	302	114
+com.ecyrd.jspwiki.Util		tests/com/ecyrd/jspwiki/Util.java	0	2	1	0	26	17
+com.ecyrd.jspwiki.VariableManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/VariableManager.java	0	0	0	0	520	289
+com.ecyrd.jspwiki.VariableManager$SystemVariables	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/VariableManager.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.VariableManagerTest		tests/com/ecyrd/jspwiki/VariableManagerTest.java	0	2	1	0	172	138
+com.ecyrd.jspwiki.WikiContext	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/WikiContext.java	0	0	0	0	994	426
+com.ecyrd.jspwiki.WikiEngine	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/WikiEngine.java	0	0	0	0	2478	1155
+com.ecyrd.jspwiki.WikiEngineTest		tests/com/ecyrd/jspwiki/WikiEngineTest.java	0	2	1	0	987	634
+com.ecyrd.jspwiki.WikiException	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/WikiException.java	0	0	0	0	53	14
+com.ecyrd.jspwiki.WikiPage	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/WikiPage.java	0	0	0	0	394	149
+com.ecyrd.jspwiki.WikiProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/WikiProvider.java	0	0	0	0	61	11
+com.ecyrd.jspwiki.WikiServlet	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/WikiServlet.java	0	0	0	0	104	42
+com.ecyrd.jspwiki.WikiSession	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/WikiSession.java	0	0	0	0	894	453
+com.ecyrd.jspwiki.WikiSessionTest		tests/com/ecyrd/jspwiki/WikiSessionTest.java	0	2	1	0	375	269
+stress.Benchmark		tests/stress/Benchmark.java	1	2	1	0	36	10
+stress.MassiveRepositoryTest		tests/stress/MassiveRepositoryTest.java	1	2	1	0	144	92
+stress.StressTestRCSProvider		tests/stress/StressTestRCSProvider.java	1	2	1	0	153	98
+stress.StressTestSpeed		tests/stress/StressTestSpeed.java	1	2	1	0	113	81
+stress.StressTestVersioningProvider		tests/stress/StressTestVersioningProvider.java	1	2	1	0	137	97
+com.ecyrd.jspwiki.tags.AdminBeanIteratorInfo	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/AdminBeanIteratorInfo.java	0	0	0	0	50	17
+com.ecyrd.jspwiki.tags.AdminBeanIteratorTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/AdminBeanIteratorTag.java	0	0	0	0	74	31
+com.ecyrd.jspwiki.tags.AttachmentsIteratorInfo	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/AttachmentsIteratorInfo.java	0	0	0	0	49	17
+com.ecyrd.jspwiki.tags.AttachmentsIteratorTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/AttachmentsIteratorTag.java	0	0	0	0	162	98
+com.ecyrd.jspwiki.tags.AuthorTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/AuthorTag.java	0	0	0	0	82	39
+com.ecyrd.jspwiki.tags.BaseURLTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/BaseURLTag.java	0	0	0	0	45	14
+com.ecyrd.jspwiki.tags.BreadcrumbsTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/BreadcrumbsTag.java	0	0	0	0	232	120
+com.ecyrd.jspwiki.tags.BreadcrumbsTag$FixedQueue	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/BreadcrumbsTag.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.tags.CalendarTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/CalendarTag.java	0	0	0	0	377	227
+com.ecyrd.jspwiki.tags.CheckLockInfo	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/CheckLockInfo.java	0	0	0	0	47	18
+com.ecyrd.jspwiki.tags.CheckLockTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/CheckLockTag.java	0	0	0	0	127	66
+com.ecyrd.jspwiki.tags.CheckLockTag$LockState	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/CheckLockTag.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.tags.CheckRequestContextTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/CheckRequestContextTag.java	0	0	0	0	109	53
+com.ecyrd.jspwiki.tags.CheckVersionTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/CheckVersionTag.java	0	0	0	0	141	77
+com.ecyrd.jspwiki.tags.CheckVersionTag$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/CheckVersionTag.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.tags.CheckVersionTag$VersionMode	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/CheckVersionTag.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.tags.CommentLinkTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/CommentLinkTag.java	0	0	0	0	104	48
+com.ecyrd.jspwiki.tags.ContentEncodingTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/ContentEncodingTag.java	0	0	0	0	49	15
+com.ecyrd.jspwiki.tags.ContentTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/ContentTag.java	0	0	0	0	199	93
+com.ecyrd.jspwiki.tags.CookieTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/CookieTag.java	0	0	0	0	445	258
+com.ecyrd.jspwiki.tags.DiffLinkTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/DiffLinkTag.java	0	0	0	0	178	114
+com.ecyrd.jspwiki.tags.EditLinkTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/EditLinkTag.java	0	0	0	0	146	82
+com.ecyrd.jspwiki.tags.EditorIteratorInfo	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/EditorIteratorInfo.java	0	0	0	0	46	16
+com.ecyrd.jspwiki.tags.EditorIteratorTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/EditorIteratorTag.java	0	0	0	0	66	28
+com.ecyrd.jspwiki.tags.EditorTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/EditorTag.java	0	0	0	0	86	46
+com.ecyrd.jspwiki.tags.FeedDiscoveryTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/FeedDiscoveryTag.java	0	0	0	0	84	41
+com.ecyrd.jspwiki.tags.HasAttachmentsTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/HasAttachmentsTag.java	0	0	0	0	65	33
+com.ecyrd.jspwiki.tags.HistoryIteratorInfo	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/HistoryIteratorInfo.java	0	0	0	0	45	16
+com.ecyrd.jspwiki.tags.HistoryIteratorTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/HistoryIteratorTag.java	0	0	0	0	136	84
+com.ecyrd.jspwiki.tags.IfNoSearchResultsTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/IfNoSearchResultsTag.java	0	0	0	0	49	20
+com.ecyrd.jspwiki.tags.IncludeResourcesTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/IncludeResourcesTag.java	0	0	0	0	61	22
+com.ecyrd.jspwiki.tags.IncludeTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/IncludeTag.java	0	0	0	0	102	62
+com.ecyrd.jspwiki.tags.InsertDiffTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/InsertDiffTag.java	0	0	0	0	123	60
+com.ecyrd.jspwiki.tags.InsertPageTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/InsertPageTag.java	0	0	0	0	140	73
+com.ecyrd.jspwiki.tags.IteratorTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/IteratorTag.java	0	0	0	0	222	102
+com.ecyrd.jspwiki.tags.LinkTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/LinkTag.java	0	0	0	0	471	349
+com.ecyrd.jspwiki.tags.LinkToParentTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/LinkToParentTag.java	0	0	0	0	79	33
+com.ecyrd.jspwiki.tags.LinkToTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/LinkToTag.java	0	0	0	0	138	83
+com.ecyrd.jspwiki.tags.MessagesTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/MessagesTag.java	0	0	0	0	125	75
+com.ecyrd.jspwiki.tags.NextVersionTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/NextVersionTag.java	0	0	0	0	53	20
+com.ecyrd.jspwiki.tags.NoSuchPageTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/NoSuchPageTag.java	0	0	0	0	82	44
+com.ecyrd.jspwiki.tags.PageDateTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/PageDateTag.java	0	0	0	0	101	50
+com.ecyrd.jspwiki.tags.PageExistsTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/PageExistsTag.java	0	0	0	0	46	14
+com.ecyrd.jspwiki.tags.PageInfoLinkTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/PageInfoLinkTag.java	0	0	0	0	102	56
+com.ecyrd.jspwiki.tags.PageNameTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/PageNameTag.java	0	0	0	0	59	28
+com.ecyrd.jspwiki.tags.PageSizeTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/PageSizeTag.java	0	0	0	0	68	35
+com.ecyrd.jspwiki.tags.PageTypeTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/PageTypeTag.java	0	0	0	0	81	40
+com.ecyrd.jspwiki.tags.PageVersionTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/PageVersionTag.java	0	0	0	0	57	23
+com.ecyrd.jspwiki.tags.ParamHandler	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/ParamHandler.java	0	0	0	0	33	5
+com.ecyrd.jspwiki.tags.ParamTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/ParamTag.java	0	0	0	0	102	48
+com.ecyrd.jspwiki.tags.ParentPageNameTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/ParentPageNameTag.java	0	0	0	0	80	40
+com.ecyrd.jspwiki.tags.PermissionTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/PermissionTag.java	0	0	0	0	204	117
+com.ecyrd.jspwiki.tags.PluginTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/PluginTag.java	0	0	0	0	159	86
+com.ecyrd.jspwiki.tags.PreviousVersionTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/PreviousVersionTag.java	0	0	0	0	55	19
+com.ecyrd.jspwiki.tags.RSSImageLinkTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/RSSImageLinkTag.java	0	0	0	0	123	66
+com.ecyrd.jspwiki.tags.RSSLinkTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/RSSLinkTag.java	0	0	0	0	59	20
+com.ecyrd.jspwiki.tags.RequestResourceTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/RequestResourceTag.java	0	0	0	0	107	39
+com.ecyrd.jspwiki.tags.SearchResultIteratorInfo	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/SearchResultIteratorInfo.java	0	0	0	0	45	16
+com.ecyrd.jspwiki.tags.SearchResultIteratorTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/SearchResultIteratorTag.java	0	0	0	0	152	89
+com.ecyrd.jspwiki.tags.SearchResultsSizeTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/SearchResultsSizeTag.java	0	0	0	0	50	20
+com.ecyrd.jspwiki.tags.SearchResultsTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/SearchResultsTag.java	0	0	0	0	60	28
+com.ecyrd.jspwiki.tags.SetPaginationTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/SetPaginationTag.java	0	0	0	0	277	163
+com.ecyrd.jspwiki.tags.TabTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/TabTag.java	0	0	0	0	211	115
+com.ecyrd.jspwiki.tags.TabbedSectionTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/TabbedSectionTag.java	0	0	0	0	207	110
+com.ecyrd.jspwiki.tags.TemplateDirTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/TemplateDirTag.java	0	0	0	0	45	14
+com.ecyrd.jspwiki.tags.TranslateTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/TranslateTag.java	0	0	0	0	84	39
+com.ecyrd.jspwiki.tags.UploadLinkTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/UploadLinkTag.java	0	0	0	0	80	38
+com.ecyrd.jspwiki.tags.UserCheckTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/UserCheckTag.java	0	0	0	0	227	126
+com.ecyrd.jspwiki.tags.UserNameTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/UserNameTag.java	0	0	0	0	72	36
+com.ecyrd.jspwiki.tags.UserProfileTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/UserProfileTag.java	0	0	0	0	295	184
+com.ecyrd.jspwiki.tags.VariableTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/VariableTag.java	0	0	0	0	111	63
+com.ecyrd.jspwiki.tags.WikiBodyTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/WikiBodyTag.java	0	0	0	0	86	40
+com.ecyrd.jspwiki.tags.WikiLinkTag	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/WikiLinkTag.java	0	0	0	0	108	58
+com.ecyrd.jspwiki.tags.WikiTagBase	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/tags/WikiTagBase.java	0	0	0	0	124	62
+com.ecyrd.jspwiki.ui.admin.beans.CoreBean	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/admin/beans/CoreBean.java	0	0	0	0	96	52
+com.ecyrd.jspwiki.ui.admin.beans.PlainEditorAdminBean	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/admin/beans/PlainEditorAdminBean.java	0	0	0	0	130	78
+com.ecyrd.jspwiki.ui.admin.beans.PluginBean	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/admin/beans/PluginBean.java	0	0	0	0	108	65
+com.ecyrd.jspwiki.ui.admin.beans.SearchManagerBean	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/admin/beans/SearchManagerBean.java	0	0	0	0	162	97
+com.ecyrd.jspwiki.ui.admin.beans.SearchManagerBean$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/admin/beans/SearchManagerBean.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.ui.admin.beans.SearchManagerBean$1$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/admin/beans/SearchManagerBean.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.ui.admin.beans.UserBean	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/ui/admin/beans/UserBean.java	0	0	0	0	149	102
+com.ecyrd.jspwiki.util.comparators.AllTests		tests/com/ecyrd/jspwiki/util/comparators/AllTests.java	0	2	1	0	22	15
+com.ecyrd.jspwiki.util.comparators.CollatorComparator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/comparators/CollatorComparator.java	0	0	0	0	85	30
+com.ecyrd.jspwiki.util.comparators.HumanComparator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/comparators/HumanComparator.java	0	0	0	0	260	128
+com.ecyrd.jspwiki.util.comparators.HumanComparator$CharType	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/comparators/HumanComparator.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.util.comparators.HumanComparatorTest		tests/com/ecyrd/jspwiki/util/comparators/HumanComparatorTest.java	0	2	1	0	90	54
+com.ecyrd.jspwiki.util.comparators.JavaNaturalComparator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/comparators/JavaNaturalComparator.java	0	0	0	0	50	16
+com.ecyrd.jspwiki.util.comparators.LocaleComparator	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/util/comparators/LocaleComparator.java	0	0	0	0	59	18
+com.ecyrd.management.SimpleMBean	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/management/SimpleMBean.java	0	0	0	0	424	247
+com.ecyrd.jspwiki.attachment.AllTests		tests/com/ecyrd/jspwiki/attachment/AllTests.java	0	2	1	0	21	15
+com.ecyrd.jspwiki.attachment.Attachment	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/attachment/Attachment.java	0	0	0	0	122	40
+com.ecyrd.jspwiki.attachment.AttachmentManager	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/attachment/AttachmentManager.java	0	0	0	0	645	291
+com.ecyrd.jspwiki.attachment.AttachmentManagerTest		tests/com/ecyrd/jspwiki/attachment/AttachmentManagerTest.java	0	2	1	0	365	249
+com.ecyrd.jspwiki.attachment.AttachmentServlet	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/attachment/AttachmentServlet.java	0	0	0	0	859	520
+com.ecyrd.jspwiki.attachment.AttachmentServlet$1	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/attachment/AttachmentServlet.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.attachment.AttachmentServlet$UploadListener	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/attachment/AttachmentServlet.java	0	0	0	2	0	0
+com.ecyrd.jspwiki.attachment.DynamicAttachment	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/attachment/DynamicAttachment.java	0	0	0	0	104	18
+com.ecyrd.jspwiki.attachment.DynamicAttachmentProvider	WEB-INF/lib/JSPWiki.jar	src/com/ecyrd/jspwiki/attachment/DynamicAttachmentProvider.java	0	0	0	0	53	10
+#Issues
+#======
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/activation.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/akismet-java-1.02.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/commons-codec-1.3.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/commons-fileupload-1.2.1.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/commons-httpclient-3.0.1.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/commons-io-1.4.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/commons-lang-2.3.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/commons-logging-api.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/ecs.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/freshcookies-security-0.60.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/jakarta-tablibs-standard-1.1.2.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/jakarta-taglibs-jstl-1.1.2.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/jaxen.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/jdom.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/jrcs-diff.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/jsonrpc-1.0.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/jsp-api.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/log4j-1.2.14.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/lucene-highlighter.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/lucene.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/mail.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/nekohtml.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/oro.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/oscache.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/sandler.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/servlet-api.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/lib/xmlrpc.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/tests/lib/commons-el-1.0.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/tests/lib/custom_rhino.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/tests/lib/hsqldb.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/tests/lib/jasper-compiler-5.5.25.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/tests/lib/jasper-runtime-5.5.25.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/tests/lib/jetty-jmx-5.1.14.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/tests/lib/jetty-plus-5.1.14.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/tests/lib/jetty-servlet-5.1.14.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/tests/lib/junit.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/tests/lib/selenium-java-client-driver-1.0-beta1.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/tests/lib/selenium-server-1.0-beta1.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/tests/lib/stripes-1.5.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/tests/lib/xercesImpl-2.6.2.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/tests/lib/xml-apis-1.0.b2.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jspwiki/jspwiki-2.8.4/src/tests/lib/yuicompressor-2.4.2.jar in <src> ignored.

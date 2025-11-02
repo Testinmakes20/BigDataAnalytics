@@ -1,0 +1,258 @@
+#2013-09-05T10:01:10NZST
+#System Version : javacc-5.0
+#Source Packages: org.javacc.
+#Ignore Packages: 
+#Distributed    : javacc/src
+#Source Roots   : javacc/examples/GUIParsing/ParserVersion,javacc/examples/GUIParsing/TokenMgrVersion,javacc/examples/Interpreter,javacc/examples/JJTreeExamples,javacc/examples/JavaGrammars,javacc/examples/JavaGrammars/1.5,javacc/examples/Obfuscator,javacc/examples/Obfuscator/input,javacc/examples/Transformer,javacc/examples/VTransformer,javacc/src,javacc/test/javaFileGeneration/expected/no-keep-line,javacc/test/javaFileGeneration/expected/non-static,javacc/test/javaFileGeneration/expected/not-public,javacc/test/javaFileGeneration/expected/static,javacc/test/javaFiles,javacc/test/newToken
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+ASTAddNode		javacc/examples/Interpreter/ASTAddNode.java	1	2	1	0	48	15
+ASTAndNode		javacc/examples/Interpreter/ASTAndNode.java	1	2	1	0	55	20
+ASTAssignment		javacc/examples/Interpreter/ASTAssignment.java	1	2	1	0	47	14
+ASTBitwiseAndNode		javacc/examples/Interpreter/ASTBitwiseAndNode.java	1	2	1	0	53	19
+ASTBitwiseComplNode		javacc/examples/Interpreter/ASTBitwiseComplNode.java	1	2	1	0	46	13
+ASTBitwiseOrNode		javacc/examples/Interpreter/ASTBitwiseOrNode.java	1	2	1	0	52	19
+ASTBitwiseXorNode		javacc/examples/Interpreter/ASTBitwiseXorNode.java	1	2	1	0	52	19
+ASTBlock		javacc/examples/Interpreter/ASTBlock.java	1	2	1	0	49	14
+ASTCompilationUnit		javacc/examples/Interpreter/ASTCompilationUnit.java,javacc/examples/Transformer/ASTCompilationUnit.java	1	2	1	0	63	26
+ASTDivNode		javacc/examples/Interpreter/ASTDivNode.java	1	2	1	0	49	15
+ASTEQNode		javacc/examples/Interpreter/ASTEQNode.java	1	2	1	0	53	19
+ASTFalseNode		javacc/examples/Interpreter/ASTFalseNode.java	1	2	1	0	45	12
+ASTGENode		javacc/examples/Interpreter/ASTGENode.java	1	2	1	0	49	15
+ASTGTNode		javacc/examples/Interpreter/ASTGTNode.java	1	2	1	0	52	15
+ASTId		javacc/examples/Interpreter/ASTId.java	1	2	1	0	48	13
+ASTIfStatement		javacc/examples/Interpreter/ASTIfStatement.java	1	2	1	0	50	16
+ASTIntConstNode		javacc/examples/Interpreter/ASTIntConstNode.java	1	2	1	0	48	13
+ASTLENode		javacc/examples/Interpreter/ASTLENode.java	1	2	1	0	49	15
+ASTLTNode		javacc/examples/Interpreter/ASTLTNode.java	1	2	1	0	49	15
+ASTModNode		javacc/examples/Interpreter/ASTModNode.java	1	2	1	0	49	15
+ASTMulNode		javacc/examples/Interpreter/ASTMulNode.java	1	2	1	0	49	15
+ASTMyID		javacc/examples/JJTreeExamples/ASTMyID.java	1	2	1	0	61	12
+ASTMyOtherID		javacc/examples/JJTreeExamples/ASTMyOtherID.java	1	2	1	0	66	15
+ASTNENode		javacc/examples/Interpreter/ASTNENode.java	1	2	1	0	54	19
+ASTNotNode		javacc/examples/Interpreter/ASTNotNode.java	1	2	1	0	47	13
+ASTOrNode		javacc/examples/Interpreter/ASTOrNode.java	1	2	1	0	55	20
+ASTReadStatement		javacc/examples/Interpreter/ASTReadStatement.java	1	2	1	0	68	32
+ASTSpecialBlock		javacc/examples/Transformer/ASTSpecialBlock.java	1	2	1	0	54	16
+ASTStatementExpression		javacc/examples/Interpreter/ASTStatementExpression.java	1	2	1	0	46	13
+ASTSubtractNode		javacc/examples/Interpreter/ASTSubtractNode.java	1	2	1	0	52	15
+ASTTrueNode		javacc/examples/Interpreter/ASTTrueNode.java	1	2	1	0	48	12
+ASTVarDeclaration		javacc/examples/Interpreter/ASTVarDeclaration.java	1	2	1	0	55	18
+ASTWhileStatement		javacc/examples/Interpreter/ASTWhileStatement.java	1	2	1	0	55	18
+ASTWriteStatement		javacc/examples/Interpreter/ASTWriteStatement.java	1	2	1	0	59	23
+AddAcceptVisitor		javacc/examples/VTransformer/AddAcceptVisitor.java	1	2	1	0	64	23
+CalcGUI		javacc/examples/GUIParsing/ParserVersion/CalcGUI.java,javacc/examples/GUIParsing/TokenMgrVersion/CalcGUI.java	1	2	1	0	237	180
+CharCollector		javacc/examples/GUIParsing/TokenMgrVersion/CharCollector.java	1	2	1	0	223	153
+Eg4DumpVisitor		javacc/examples/JJTreeExamples/Eg4DumpVisitor.java	1	2	1	0	110	54
+Globals		javacc/examples/Obfuscator/Globals.java	1	2	1	0	76	28
+JavaGenerics		javacc/examples/JavaGrammars/1.5/JavaGenerics.java	1	2	1	0	13	11
+Main		javacc/examples/GUIParsing/ParserVersion/Main.java,javacc/examples/GUIParsing/TokenMgrVersion/Main.java,javacc/examples/JavaGrammars/1.5/Main.java,javacc/examples/Obfuscator/Main.java,javacc/examples/VTransformer/Main.java	1	2	1	0	45	14
+MyLexer		javacc/examples/GUIParsing/TokenMgrVersion/MyLexer.java	1	2	1	4	52	12
+MyNode		javacc/examples/Interpreter/MyNode.java	1	2	1	0	69	22
+MyToken		javacc/examples/JavaGrammars/1.5/MyToken.java	1	2	1	0	22	13
+Node		javacc/examples/Interpreter/Node.java	1	2	1	0	66	10
+Obfuscator		javacc/examples/Obfuscator/Obfuscator.java	1	2	1	0	268	209
+ParseException		javacc/test/javaFileGeneration/expected/no-keep-line/ParseException.java,javacc/test/javaFileGeneration/expected/non-static/ParseException.java,javacc/test/javaFileGeneration/expected/not-public/ParseException.java,javacc/test/javaFileGeneration/expected/static/ParseException.java	1	2	1	0	184	108
+Parser		javacc/test/javaFileGeneration/expected/no-keep-line/Parser.java,javacc/test/javaFileGeneration/expected/non-static/Parser.java,javacc/test/javaFileGeneration/expected/not-public/Parser.java,javacc/test/javaFileGeneration/expected/static/Parser.java	1	2	1	0	228	192
+ParserConstants		javacc/test/javaFileGeneration/expected/no-keep-line/ParserConstants.java,javacc/test/javaFileGeneration/expected/non-static/ParserConstants.java,javacc/test/javaFileGeneration/expected/not-public/ParserConstants.java,javacc/test/javaFileGeneration/expected/static/ParserConstants.java	1	2	1	0	32	15
+ParserTokenManager		javacc/test/javaFileGeneration/expected/no-keep-line/ParserTokenManager.java,javacc/test/javaFileGeneration/expected/non-static/ParserTokenManager.java,javacc/test/javaFileGeneration/expected/not-public/ParserTokenManager.java,javacc/test/javaFileGeneration/expected/static/ParserTokenManager.java	1	2	1	0	184	156
+ProducerConsumer		javacc/examples/GUIParsing/ParserVersion/ProducerConsumer.java	1	2	1	0	69	20
+SPL		javacc/examples/Interpreter/SPL.java	1	2	1	0	61	28
+SimpleCharStream		javacc/test/javaFileGeneration/expected/no-keep-line/SimpleCharStream.java,javacc/test/javaFileGeneration/expected/non-static/SimpleCharStream.java,javacc/test/javaFileGeneration/expected/not-public/SimpleCharStream.java,javacc/test/javaFileGeneration/expected/static/SimpleCharStream.java,javacc/test/javaFiles/BaseSimpleCharStream.java,javacc/test/javaFiles/ChangedOptionsSimpleCharStream.java,javacc/test/javaFiles/ModifiedOldSimpleCharStream.java,javacc/test/javaFiles/ModifiedSimpleCharStream.java,javacc/test/javaFiles/OldSimpleCharStream.java	1	2	1	0	349	252
+SimpleNode		javacc/examples/Transformer/SimpleNode.java,javacc/examples/VTransformer/SimpleNode.java,javacc/test/javaFiles/BaseSimpleNode.java,javacc/test/javaFiles/IncompatSimpleNode.java,javacc/test/javaFiles/ModifiedSimpleNode.java	1	2	1	0	137	76
+Test		javacc/examples/JavaGrammars/1.5/Test.java,javacc/examples/JavaGrammars/Test.java	1	2	1	4	15	14
+Token		javacc/test/javaFileGeneration/expected/no-keep-line/Token.java,javacc/test/javaFileGeneration/expected/non-static/Token.java,javacc/test/javaFileGeneration/expected/not-public/Token.java,javacc/test/javaFileGeneration/expected/static/Token.java,javacc/test/newToken/OldToken.java	1	2	1	0	120	35
+TokenCollector		javacc/examples/GUIParsing/ParserVersion/TokenCollector.java	1	2	1	0	36	5
+TokenMgrError		javacc/test/javaFileGeneration/expected/no-keep-line/TokenMgrError.java,javacc/test/javaFileGeneration/expected/non-static/TokenMgrError.java,javacc/test/javaFileGeneration/expected/not-public/TokenMgrError.java,javacc/test/javaFileGeneration/expected/static/TokenMgrError.java	1	2	1	0	145	72
+UnparseVisitor		javacc/examples/VTransformer/UnparseVisitor.java	1	2	1	0	526	396
+javacc	javacc-5.0/bin/lib/javacc.jar	javacc/src/javacc.java	1	0	0	0	39	6
+jjdoc	javacc-5.0/bin/lib/javacc.jar	javacc/src/jjdoc.java	1	0	0	0	41	6
+jjtree	javacc-5.0/bin/lib/javacc.jar	javacc/src/jjtree.java	1	0	0	0	41	6
+package1.Main		javacc/examples/Obfuscator/input/package1/Main.java	1	2	1	0	40	9
+org.javacc.parser.test.NfaStateTest		javacc/src/org/javacc/parser/test/NfaStateTest.java	0	2	0	0	682	520
+org.javacc.utils.JavaFileGenerator	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/utils/JavaFileGenerator.java	0	0	0	0	271	168
+package2.Incr		javacc/examples/Obfuscator/input/package2/Incr.java	1	2	1	0	43	7
+org.javacc.JavaCCTestCase	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/JavaCCTestCase.java	0	0	0	0	47	16
+org.javacc.Version	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/Version.java	0	0	0	0	76	36
+org.javacc.jjdoc.test.JJDocMainTest		javacc/src/org/javacc/jjdoc/test/JJDocMainTest.java	0	2	0	0	86	23
+org.javacc.jjtree.ASTBNF	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/ASTBNF.java	0	0	0	0	49	14
+org.javacc.jjtree.ASTBNFAction	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/ASTBNFAction.java	0	0	0	0	102	55
+org.javacc.jjtree.ASTBNFAssignment	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTBNFChoice	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTBNFDeclaration	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/ASTBNFDeclaration.java	0	0	0	0	59	25
+org.javacc.jjtree.ASTBNFLookahead	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTBNFNodeScope	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/ASTBNFNodeScope.java	0	0	0	0	56	20
+org.javacc.jjtree.ASTBNFNonTerminal	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTBNFOneOrMore	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTBNFParenthesized	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTBNFSequence	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTBNFTryBlock	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTBNFZeroOrMore	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTBNFZeroOrOne	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTCharDescriptor	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTCompilationUnit	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/ASTCompilationUnit.java	0	0	0	0	85	43
+org.javacc.jjtree.ASTExpansionNodeScope	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/ASTExpansionNodeScope.java	0	0	0	0	55	18
+org.javacc.jjtree.ASTGrammar	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/ASTGrammar.java	0	0	0	0	52	17
+org.javacc.jjtree.ASTJavacode	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/ASTJavacode.java	0	0	0	0	39	7
+org.javacc.jjtree.ASTJavacodeBody	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/ASTJavacodeBody.java	0	0	0	0	59	23
+org.javacc.jjtree.ASTLHS	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/ASTLHS.java	0	0	0	0	51	15
+org.javacc.jjtree.ASTNodeDescriptor	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/ASTNodeDescriptor.java	0	0	0	0	175	115
+org.javacc.jjtree.ASTNodeDescriptorExpression	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/ASTNodeDescriptorExpression.java	0	0	0	0	42	10
+org.javacc.jjtree.ASTOptionBinding	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/ASTOptionBinding.java	0	0	0	0	74	31
+org.javacc.jjtree.ASTOptions	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/ASTOptions.java	0	0	0	0	38	6
+org.javacc.jjtree.ASTPrimaryExpression	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTProduction	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/ASTProduction.java	0	0	0	0	58	22
+org.javacc.jjtree.ASTProductions	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTRE	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTRECharList	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTREChoice	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTREEOF	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTRENamed	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTREOneOrMore	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTREParenthesized	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTREReference	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTRESequence	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTRESpec	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTREStringLiteral	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTREZeroOrMore	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTREZeroOrOne	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTRRepetitionRange	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.ASTTokenDecls	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.IO	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/IO.java	0	0	0	4	182	126
+org.javacc.jjtree.JJTJJTreeParserState	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.JJTree	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/JJTree.java	0	0	0	0	210	142
+org.javacc.jjtree.JJTreeGlobals	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/JJTreeGlobals.java	0	0	0	4	129	56
+org.javacc.jjtree.JJTreeIOException	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/JJTreeIOException.java	0	0	0	4	41	7
+org.javacc.jjtree.JJTreeNode	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/JJTreeNode.java	0	0	0	0	232	139
+org.javacc.jjtree.JJTreeOptions	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/JJTreeOptions.java	0	0	0	4	268	104
+org.javacc.jjtree.JJTreeOptionsTest		javacc/src/org/javacc/jjtree/JJTreeOptionsTest.java	0	2	0	0	121	86
+org.javacc.jjtree.JJTreeParser	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.JJTreeParser$1	javacc-5.0/bin/lib/javacc.jar		0	1	1	2	0	0
+org.javacc.jjtree.JJTreeParser$JJCalls	javacc-5.0/bin/lib/javacc.jar		0	1	1	2	0	0
+org.javacc.jjtree.JJTreeParser$LookaheadSuccess	javacc-5.0/bin/lib/javacc.jar		0	1	1	2	0	0
+org.javacc.jjtree.JJTreeParserConstants	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.JJTreeParserTokenManager	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.JJTreeParserTreeConstants	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.JJTreeState	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/JJTreeState.java	0	0	0	4	251	197
+org.javacc.jjtree.JavaCharStream	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.Main	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/Main.java	0	0	0	0	45	10
+org.javacc.jjtree.Node	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.NodeFiles	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/NodeFiles.java	0	0	0	4	284	182
+org.javacc.jjtree.NodeScope	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/NodeScope.java	0	0	0	0	310	215
+org.javacc.jjtree.ParseException	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.SimpleNode	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.Token	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/Token.java	0	0	0	0	143	51
+org.javacc.jjtree.Token$GTToken	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/Token.java	0	0	0	2	0	0
+org.javacc.jjtree.TokenMgrError	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.jjtree.TokenUtils	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjtree/TokenUtils.java	0	0	0	0	185	142
+org.javacc.jjdoc.BNFGenerator	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjdoc/BNFGenerator.java	0	0	0	0	148	110
+org.javacc.jjdoc.Generator	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjdoc/Generator.java	0	0	0	0	186	33
+org.javacc.jjdoc.HTMLGenerator	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjdoc/HTMLGenerator.java	0	0	0	0	205	149
+org.javacc.jjdoc.JJDoc	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjdoc/JJDoc.java	0	0	0	0	457	362
+org.javacc.jjdoc.JJDocGlobals	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjdoc/JJDocGlobals.java	0	0	0	0	116	43
+org.javacc.jjdoc.JJDocMain	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjdoc/JJDocMain.java	0	0	0	0	188	130
+org.javacc.jjdoc.JJDocOptions	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjdoc/JJDocOptions.java	0	0	0	0	105	30
+org.javacc.jjdoc.TextGenerator	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/jjdoc/TextGenerator.java	0	0	0	0	280	120
+org.javacc.parser.Action	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/Action.java	0	0	0	0	63	19
+org.javacc.parser.BNFProduction	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/BNFProduction.java	0	0	0	0	72	16
+org.javacc.parser.CharacterRange	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/CharacterRange.java	0	0	0	0	118	40
+org.javacc.parser.Choice	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/Choice.java	0	0	0	0	87	35
+org.javacc.parser.Container	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/Container.java	0	0	0	0	38	4
+org.javacc.parser.Expansion	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/Expansion.java	0	0	0	0	156	50
+org.javacc.parser.ExpansionTest		javacc/src/org/javacc/parser/ExpansionTest.java	0	2	0	0	119	78
+org.javacc.parser.ExpansionTreeWalker	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/ExpansionTreeWalker.java	0	0	0	0	137	91
+org.javacc.parser.JavaCCErrors	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/JavaCCErrors.java	0	0	0	0	122	77
+org.javacc.parser.JavaCCGlobals	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/JavaCCGlobals.java	0	0	0	0	559	336
+org.javacc.parser.JavaCCParser	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.parser.JavaCCParser$1	javacc-5.0/bin/lib/javacc.jar		0	1	1	2	0	0
+org.javacc.parser.JavaCCParser$JJCalls	javacc-5.0/bin/lib/javacc.jar		0	1	1	2	0	0
+org.javacc.parser.JavaCCParser$LookaheadSuccess	javacc-5.0/bin/lib/javacc.jar		0	1	1	2	0	0
+org.javacc.parser.JavaCCParser$ModifierSet	javacc-5.0/bin/lib/javacc.jar		0	1	1	2	0	0
+org.javacc.parser.JavaCCParserConstants	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.parser.JavaCCParserInternals	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/JavaCCParserInternals.java	0	0	0	0	319	265
+org.javacc.parser.JavaCCParserTokenManager	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.parser.JavaCharStream	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.parser.JavaCodeProduction	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/JavaCodeProduction.java	0	0	0	0	48	7
+org.javacc.parser.JavaFiles	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/JavaFiles.java	0	0	0	0	469	333
+org.javacc.parser.KindInfo	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/RStringLiteral.java	0	0	0	1	0	0
+org.javacc.parser.LexGen	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/LexGen.java	0	0	0	0	1596	1328
+org.javacc.parser.Lookahead	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/Lookahead.java	0	0	0	0	131	39
+org.javacc.parser.LookaheadCalc	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/LookaheadCalc.java	0	0	0	0	266	223
+org.javacc.parser.LookaheadWalk	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/LookaheadWalk.java	0	0	0	0	214	169
+org.javacc.parser.Main	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/Main.java	0	0	0	0	217	163
+org.javacc.parser.MatchInfo	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/MatchInfo.java	0	0	0	0	41	10
+org.javacc.parser.MetaParseException	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/MetaParseException.java	0	0	0	0	35	3
+org.javacc.parser.Nfa	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/Nfa.java	0	0	0	0	49	16
+org.javacc.parser.NfaState	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/NfaState.java	0	0	0	0	3038	2399
+org.javacc.parser.NonTerminal	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/NonTerminal.java	0	0	0	0	122	38
+org.javacc.parser.NormalProduction	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/NormalProduction.java	0	0	0	0	327	124
+org.javacc.parser.OneOrMore	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/OneOrMore.java	0	0	0	0	61	20
+org.javacc.parser.Options	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/Options.java	0	0	0	0	660	327
+org.javacc.parser.OptionsTest		javacc/src/org/javacc/parser/OptionsTest.java	0	2	0	0	176	136
+org.javacc.parser.OtherFilesGen	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/OtherFilesGen.java	0	0	0	0	160	114
+org.javacc.parser.OutputFile	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/OutputFile.java	0	0	0	0	345	197
+org.javacc.parser.OutputFile$1	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/OutputFile.java	0	0	0	2	0	0
+org.javacc.parser.OutputFile$NullOutputStream	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/OutputFile.java	0	0	0	2	0	0
+org.javacc.parser.OutputFile$TrapClosePrintWriter	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/OutputFile.java	0	0	0	2	0	0
+org.javacc.parser.ParseEngine	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/ParseEngine.java	0	0	0	0	1230	977
+org.javacc.parser.ParseException	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.parser.ParseGen	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/ParseGen.java	0	0	0	0	787	733
+org.javacc.parser.Phase3Data	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/ParseEngine.java	0	0	0	1	0	0
+org.javacc.parser.RCharacterList	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/RCharacterList.java	0	0	0	0	622	435
+org.javacc.parser.RChoice	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/RChoice.java	0	0	0	0	167	96
+org.javacc.parser.REndOfFile	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/REndOfFile.java	0	0	0	0	40	7
+org.javacc.parser.RJustName	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/RJustName.java	0	0	0	0	57	14
+org.javacc.parser.ROneOrMore	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/ROneOrMore.java	0	0	0	0	64	21
+org.javacc.parser.RRepetitionRange	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/RRepetitionRange.java	0	0	0	0	74	33
+org.javacc.parser.RSequence	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/RSequence.java	0	0	0	0	86	37
+org.javacc.parser.RStringLiteral	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/RStringLiteral.java	0	0	0	0	1353	1087
+org.javacc.parser.RZeroOrMore	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/RZeroOrMore.java	0	0	0	0	66	22
+org.javacc.parser.RZeroOrOne	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/RZeroOrOne.java	0	0	0	0	56	15
+org.javacc.parser.RegExprSpec	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/RegExprSpec.java	0	0	0	0	61	7
+org.javacc.parser.RegularExpression	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/RegularExpression.java	0	0	0	0	102	24
+org.javacc.parser.Semanticize	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/Semanticize.java	0	0	0	0	854	634
+org.javacc.parser.Semanticize$EmptyChecker	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/Semanticize.java	0	0	0	2	0	0
+org.javacc.parser.Semanticize$FixRJustNames	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/Semanticize.java	0	0	0	2	0	0
+org.javacc.parser.Semanticize$LookaheadChecker	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/Semanticize.java	0	0	0	2	0	0
+org.javacc.parser.Semanticize$LookaheadFixer	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/Semanticize.java	0	0	0	2	0	0
+org.javacc.parser.Semanticize$ProductionDefinedChecker	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/Semanticize.java	0	0	0	2	0	0
+org.javacc.parser.Sequence	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/Sequence.java	0	0	0	0	72	27
+org.javacc.parser.SingleCharacter	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/SingleCharacter.java	0	0	0	0	86	25
+org.javacc.parser.Token	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/Token.java	0	0	0	0	143	51
+org.javacc.parser.Token$GTToken	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/Token.java	0	0	0	2	0	0
+org.javacc.parser.TokenMgrError	javacc-5.0/bin/lib/javacc.jar		0	1	1	3	0	0
+org.javacc.parser.TokenProduction	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/TokenProduction.java	0	0	0	0	130	32
+org.javacc.parser.TreeWalkerOp	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/TreeWalkerOp.java	0	0	0	0	48	5
+org.javacc.parser.TryBlock	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/TryBlock.java	0	0	0	0	77	18
+org.javacc.parser.ZeroOrMore	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/ZeroOrMore.java	0	0	0	0	61	20
+org.javacc.parser.ZeroOrOne	javacc-5.0/bin/lib/javacc.jar	javacc/src/org/javacc/parser/ZeroOrOne.java	0	0	0	0	61	20
+#Issues
+#======
+#JAR: No package for javacc.class
+#JAR: No package for jjdoc.class
+#JAR: No package for jjtree.class
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/javacc/javacc-5.0/src/javacc/bootstrap/javacc.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/javacc/javacc-5.0/src/javacc/lib/junit3.8.1/junit.jar in <src> ignored.
+#SRC NO PUBLIC TYPE for javacc/examples/GUIParsing/TokenMgrVersion/MyLexer.java.
+#SRC NO PUBLIC TYPE for javacc/examples/JavaGrammars/1.5/Main.java.
+#SRC NO PUBLIC TYPE for javacc/examples/JavaGrammars/1.5/Test.java.
+#SRC NO PUBLIC TYPE for javacc/examples/JavaGrammars/Test.java.
+#SRC NO PUBLIC TYPE for javacc/src/org/javacc/jjtree/IO.java.
+#SRC NO PUBLIC TYPE for javacc/src/org/javacc/jjtree/JJTreeGlobals.java.
+#SRC NO PUBLIC TYPE for javacc/src/org/javacc/jjtree/JJTreeIOException.java.
+#SRC NO PUBLIC TYPE for javacc/src/org/javacc/jjtree/JJTreeOptions.java.
+#SRC NO PUBLIC TYPE for javacc/src/org/javacc/jjtree/JJTreeState.java.
+#SRC NO PUBLIC TYPE for javacc/src/org/javacc/jjtree/NodeFiles.java.
+#SRC NO PUBLIC TYPE for javacc/test/javaFileGeneration/expected/not-public/ParserConstants.java.
+#SRC NO PUBLIC TYPE for javacc/test/javaFileGeneration/expected/not-public/ParserTokenManager.java.
+#SRC NO PUBLIC TYPE for javacc/test/javaFileGeneration/expected/not-public/SimpleCharStream.java.
+#SRC NO PUBLIC TYPE for javacc/test/javaFileGeneration/expected/not-public/Token.java.
+#SRC NO PUBLIC TYPE for javacc/test/javaFileGeneration/expected/not-public/TokenMgrError.java.

@@ -1,0 +1,132 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="src/styles.css" />
+
+<title>(Possibly) Frequently Asked Questions</title>
+</head>
+
+<body>
+<h1>(Possibly) Frequently Asked Questions</h1>
+
+<li><a href="#download">Why is there no link to the download site?</a></li>
+<li><a href="#contributors">Is there other work done on the 
+Qualitas Corpus?</a>
+
+<li><a href="#thirdparty">Some of the systems seem to be missing libraries so they cannot be executed?</a>
+<li><a href="#dynamic">I want to do studies involving dynamic analysis, can I use
+the corpus for this</a>?</dt>
+<li><a href="#interactive">Is there any way I can interactively, or otherwise
+explore the corpus?</a>
+<li><a href="#specialised">I need a collection of 
+systems with specific characteristics. Does the corpus have such?</a></dt>
+<li><a href="#windows">The corpus seems to have problems installing on
+windows. Is there a distribution for windows?</a>
+</a></dt>
+<li><a href="#related">What other software corpora are there?</a>
+<li><a href="#projects">What are other related projects?</a></dt>
+
+<dl>
+<p><dt><a name="download">Why is there no link to the download site?</a></dt>
+<dd>
+There are two main reasons why the corpus is not available for direct
+download. One is, we want to have some idea of the interest in its use and
+the degree to which it is being used. At the moment, the interest is low
+enough that the manual "email for access" method works just fine. You
+will usually get a response in under a day. If
+interest picks up, we may introduce an auto-response method for access.
+
+<p>Note that once you know the location for downloads, you are welcome to
+continue to access it whenever you like. So if a new release is made, you do
+not need to check with us before acquiring it.
+
+<p>The other reason is that New Zealand's international internet connection
+is only slightly better than a piece of damp string and there are costs
+involved with its use. All indications are that this isn't a huge problem,
+but we have been cautious about
+allowing <a href="http://dictionary.reference.com/browse/slather">open
+slather</a> on the corpus.
+
+<p><dt><a name="contributors">Is there other work done on the 
+Qualitas Corpus?</dt>
+<dd>
+Yes, some of which are listed below.
+<ul>
+<li>
+<a href="http://java.labsoft.dcc.ufmg.br/qualitas.class">Qualitas.class</a>
+UFMG, Brazil
+
+</ul>
+</dd>
+
+<p><dt><a name="thirdparty">Some of the systems seem to be missing libraries so they cannot be executed?</a><br/>
+<a name="dynamic">I want to do studies involving dynamic analysis, can I use
+the corpus for this</a>?</dt>
+
+<dd>
+The corpus was designed with static analysis in mind so we have not made
+much effort to ensure the systems are executable. In particular, to simplify
+the cost of adding new systems, we do not try to find any missing libraries
+(part of the cost is figuring out which version of the library should be
+included).
+
+<p>However we have had a number of requests regarding using it for dynamic
+analysis, so we would like to make it more useful eventually. Unfortunately
+lack of resources mean that this is likely to take a while. As a first step,
+we have identified those systems that either do not use third-party
+libraries, or provide the third-party libraries as part of their
+distributions (see <a href="metadata/thirdparty.html">this list</a>). These
+systems, in principle, should be able to be executed. This information is
+still in a fairly raw state, so should be treated with caution.
+
+<p>Those who need systems that can execute may like to try 
+<a href="#related">other corpora</a>.
+
+<dt><a name="interactive">Is there any way I can interactively, or otherwise
+explore the corpus?</a></dt>
+<dd>
+There is nothing in the corpus itself to support exploring the corpus other
+than the <a href="catalogue/index.html">catalogue</a>. However people are using the corpus
+is input to their tools. For example
+<ul>
+<li>The <a href="http://xplrarc.massey.ac.nz">Massey Architecture Explorer</a> by Jens Dietrich and
+his group at Massey University, New Zealand.
+</ul>
+</dd>
+
+<p><dt><a name="windows">The corpus seems to have problems installing on
+windows. Is there a distribution for windows?</a></dt>
+<dd>
+We've had some reports of problems installing on windows. Some
+seem to relate to long filenames or filenames with non ASCII characters. Others
+related to the installer script not properly handling spaces in filenames.
+It's possible there are no problems on Windows 7, but this has not been confirmed.
+There are no plans to produce a distribution that has been tested for Windows.
+</dd>
+
+<p><dt><a name="related">What other software corpora are there?</a><br/>
+<a name="specialised">I need a collection of systems with specific characteristics. Does the corpus have such?</a></dt>
+<dd>
+As noted <a href="#dynamic">above</a>, the Qualitas Corpus was designed with
+static analysis in mind. There are other corpora that have been created
+with this goal in mind, but they do not appear to be actively maintained.
+There are also corpora that have been created with other goals in mind.
+Those we know to be actively maintained are:
+<ul>
+<li><a href="http://dacapobench.org">DaCapo</a> for performance testing
+<li><a href="http://sir.unl.edu/portal/index.php">Software Infrastructure
+Repository</a> for research on software testing
+</ul>
+</dd>
+
+<p><dt><a name="projects">What are other related projects?</a></dt>
+<dd>
+<ul>
+<li><a href="http://promisedata.org">PROMISE data</a> A "site where researchers can publish their data and the tools used to make their conclusions".
+<li><a href="http://evaluate.inf.usi.ch/">Collaboratory on Experimental Evaluation of Software and Systems in Computer Science</a> "This web site serves as a resource and a hub for everybody interested in understanding and improving the state of practice in experimental evaluation."
+</ul>
+</dd>
+
+</dl>
+<!--#include virtual="src/tail.html" -->
+</body>
+</html>

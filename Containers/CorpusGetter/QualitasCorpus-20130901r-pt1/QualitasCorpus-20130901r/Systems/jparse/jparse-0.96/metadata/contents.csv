@@ -1,0 +1,94 @@
+#2013-09-05T10:01:19NZST
+#System Version : jparse-0.96
+#Source Packages: jparse.
+#Ignore Packages: 
+#Distributed    : jparse-0.96
+#Source Roots   : jparse-0.96
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+jparse.stmt.AssertAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/AssertAST.java	0	0	0	0	110	43
+jparse.stmt.BreakAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/BreakAST.java	0	0	0	0	94	33
+jparse.stmt.CaseGroupAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/CaseGroupAST.java	0	0	0	0	156	84
+jparse.stmt.CatchAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/CatchAST.java	0	0	0	0	128	53
+jparse.stmt.ClassAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/ClassAST.java	0	0	0	0	84	29
+jparse.stmt.CompoundAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/CompoundAST.java	0	0	0	0	139	69
+jparse.stmt.ContinueAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/ContinueAST.java	0	0	0	0	91	33
+jparse.stmt.DeclarationAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/DeclarationAST.java	0	0	0	0	142	61
+jparse.stmt.DoWhileAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/DoWhileAST.java	0	0	0	0	104	37
+jparse.stmt.EmptyAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/EmptyAST.java	0	0	0	0	64	20
+jparse.stmt.ExpressionAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/ExpressionAST.java	0	0	0	0	84	29
+jparse.stmt.ForAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/ForAST.java	0	0	0	0	164	73
+jparse.stmt.IfElseAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/IfElseAST.java	0	0	0	0	142	64
+jparse.stmt.LabelAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/LabelAST.java	0	0	0	0	84	29
+jparse.stmt.ReturnAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/ReturnAST.java	0	0	0	0	87	32
+jparse.stmt.StatementAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/StatementAST.java	0	0	0	0	138	34
+jparse.stmt.SwitchAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/SwitchAST.java	0	0	0	0	149	73
+jparse.stmt.SynchronizedAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/SynchronizedAST.java	0	0	0	0	99	34
+jparse.stmt.ThrowAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/ThrowAST.java	0	0	0	0	82	27
+jparse.stmt.TryAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/TryAST.java	0	0	0	0	188	93
+jparse.stmt.WhileAST	jparse-0.96.jar	jparse-0.96/jparse/stmt/WhileAST.java	0	0	0	0	103	36
+jparse.CompileContext	jparse-0.96.jar	jparse-0.96/jparse/CompileContext.java	0	0	0	0	137	32
+jparse.CompiledConstructor	jparse-0.96.jar	jparse-0.96/jparse/CompiledConstructor.java	0	0	0	0	216	89
+jparse.CompiledMethod	jparse-0.96.jar	jparse-0.96/jparse/CompiledMethod.java	0	0	0	0	288	137
+jparse.CompiledType	jparse-0.96.jar	jparse-0.96/jparse/CompiledType.java	0	0	0	0	531	361
+jparse.ConstrAST	jparse-0.96.jar	jparse-0.96/jparse/ConstrAST.java	0	0	0	0	380	193
+jparse.Constructor	jparse-0.96.jar	jparse-0.96/jparse/Constructor.java	0	0	0	0	84	8
+jparse.FileAST	jparse-0.96.jar	jparse-0.96/jparse/FileAST.java	0	0	0	0	256	145
+jparse.HasExceptions	jparse-0.96.jar	jparse-0.96/jparse/HasExceptions.java	0	0	0	0	49	4
+jparse.JavaAST	jparse-0.96.jar	jparse-0.96/jparse/JavaAST.java	0	0	0	0	187	74
+jparse.JavaLexer	jparse-0.96.jar	jparse-0.96/jparse/JavaLexer.java	0	0	0	0	1981	1806
+jparse.JavaParser	jparse-0.96.jar	jparse-0.96/jparse/JavaParser.java	0	0	0	0	5820	5450
+jparse.JavaTokenTypes	jparse-0.96.jar	jparse-0.96/jparse/JavaTokenTypes.java	0	0	0	0	190	157
+jparse.LineReader	jparse-0.96.jar	jparse-0.96/jparse/LineReader.java	0	0	0	4	339	131
+jparse.MethAST	jparse-0.96.jar	jparse-0.96/jparse/MethAST.java	0	0	0	0	499	261
+jparse.Method	jparse-0.96.jar	jparse-0.96/jparse/Method.java	0	0	0	0	138	14
+jparse.ModifierAST	jparse-0.96.jar	jparse-0.96/jparse/ModifierAST.java	0	0	0	0	198	55
+jparse.ParameterAST	jparse-0.96.jar	jparse-0.96/jparse/ParameterAST.java	0	0	0	0	106	31
+jparse.SourceType	jparse-0.96.jar	jparse-0.96/jparse/SourceType.java	0	0	0	0	470	291
+jparse.SymbolTable	jparse-0.96.jar	jparse-0.96/jparse/SymbolTable.java	0	0	0	0	316	162
+jparse.Type	jparse-0.96.jar	jparse-0.96/jparse/Type.java	0	0	0	0	884	417
+jparse.TypeAST	jparse-0.96.jar	jparse-0.96/jparse/TypeAST.java	0	0	0	0	241	96
+jparse.VarList	jparse-0.96.jar	jparse-0.96/jparse/VarList.java	0	0	0	0	277	151
+test.JavaCopy		jparse-0.96/test/JavaCopy.java	1	2	0	0	74	28
+test.JavaPrinter	jparse-0.96.jar	jparse-0.96/test/JavaPrinter.java	1	0	0	0	4423	4225
+test.JavaPrinterTokenTypes	jparse-0.96.jar	jparse-0.96/test/JavaPrinterTokenTypes.java	1	0	0	0	184	155
+test.JavaType		jparse-0.96/test/JavaType.java	1	2	0	0	92	43
+test.JavaTyper	jparse-0.96.jar	jparse-0.96/test/JavaTyper.java	1	0	0	0	7955	7630
+test.JavaTyperTokenTypes		jparse-0.96/test/JavaTyperTokenTypes.java	1	2	0	0	185	156
+jparse.expr.ArithmeticAST	jparse-0.96.jar	jparse-0.96/jparse/expr/ArithmeticAST.java	0	0	0	0	181	112
+jparse.expr.ArrayInitAST	jparse-0.96.jar	jparse-0.96/jparse/expr/ArrayInitAST.java	0	0	0	0	141	71
+jparse.expr.AssignAST	jparse-0.96.jar	jparse-0.96/jparse/expr/AssignAST.java	0	0	0	0	109	41
+jparse.expr.BitwiseAST	jparse-0.96.jar	jparse-0.96/jparse/expr/BitwiseAST.java	0	0	0	0	151	82
+jparse.expr.BooleanAST	jparse-0.96.jar	jparse-0.96/jparse/expr/BooleanAST.java	0	0	0	0	206	128
+jparse.expr.BooleanLiteralAST	jparse-0.96.jar	jparse-0.96/jparse/expr/BooleanLiteralAST.java	0	0	0	0	68	23
+jparse.expr.CharLiteralAST	jparse-0.96.jar	jparse-0.96/jparse/expr/CharLiteralAST.java	0	0	0	0	68	23
+jparse.expr.ConditionalAST	jparse-0.96.jar	jparse-0.96/jparse/expr/ConditionalAST.java	0	0	0	0	150	64
+jparse.expr.ExpressionAST	jparse-0.96.jar	jparse-0.96/jparse/expr/ExpressionAST.java	0	0	0	0	152	38
+jparse.expr.FloatLiteralAST	jparse-0.96.jar	jparse-0.96/jparse/expr/FloatLiteralAST.java	0	0	0	0	78	32
+jparse.expr.IdentifierAST	jparse-0.96.jar	jparse-0.96/jparse/expr/IdentifierAST.java	0	0	0	0	209	108
+jparse.expr.IndexAST	jparse-0.96.jar	jparse-0.96/jparse/expr/IndexAST.java	0	0	0	0	104	38
+jparse.expr.InitializerAST	jparse-0.96.jar	jparse-0.96/jparse/expr/InitializerAST.java	0	0	0	0	86	29
+jparse.expr.ListAST	jparse-0.96.jar	jparse-0.96/jparse/expr/ListAST.java	0	0	0	0	148	74
+jparse.expr.MethodCallAST	jparse-0.96.jar	jparse-0.96/jparse/expr/MethodCallAST.java	0	0	0	0	224	102
+jparse.expr.NewAST	jparse-0.96.jar	jparse-0.96/jparse/expr/NewAST.java	0	0	0	0	232	107
+jparse.expr.NullLiteralAST	jparse-0.96.jar	jparse-0.96/jparse/expr/NullLiteralAST.java	0	0	0	0	66	21
+jparse.expr.NumLiteralAST	jparse-0.96.jar	jparse-0.96/jparse/expr/NumLiteralAST.java	0	0	0	0	107	57
+jparse.expr.ParenthesizedAST	jparse-0.96.jar	jparse-0.96/jparse/expr/ParenthesizedAST.java	0	0	0	0	88	32
+jparse.expr.ShiftAST	jparse-0.96.jar	jparse-0.96/jparse/expr/ShiftAST.java	0	0	0	0	129	60
+jparse.expr.StringLiteralAST	jparse-0.96.jar	jparse-0.96/jparse/expr/StringLiteralAST.java	0	0	0	0	68	23
+jparse.expr.ThisLiteralAST	jparse-0.96.jar	jparse-0.96/jparse/expr/ThisLiteralAST.java	0	0	0	0	66	21
+jparse.expr.TypeAST	jparse-0.96.jar	jparse-0.96/jparse/expr/TypeAST.java	0	0	0	0	73	28
+jparse.expr.TypecastAST	jparse-0.96.jar	jparse-0.96/jparse/expr/TypecastAST.java	0	0	0	0	128	57
+jparse.expr.UnaryArithAST	jparse-0.96.jar	jparse-0.96/jparse/expr/UnaryArithAST.java	0	0	0	0	115	51
+jparse.expr.VarAST	jparse-0.96.jar	jparse-0.96/jparse/expr/VarAST.java	0	0	0	0	191	86
+#Issues
+#======
+#SRC NO PUBLIC TYPE for jparse-0.96/jparse/LineReader.java.

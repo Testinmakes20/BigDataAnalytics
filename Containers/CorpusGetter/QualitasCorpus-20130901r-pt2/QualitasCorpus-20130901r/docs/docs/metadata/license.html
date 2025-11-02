@@ -1,0 +1,76 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../src/styles.css" />
+
+<title>Qualitas Corpus Contents Licenses</title>
+</head>
+
+<body>
+<h1>Qualitas Corpus Contents Licenses</h1>
+
+<p>The metadata includes information regarding what license the sysver
+(usually referring to the source distribution) is released under. However no
+guarantee can be made regarding the accuracy of this information.
+
+<p>For most of the sysvers, the license they are distributed under is clear,
+but there are some (maybe as much as 10%) where it is not clear. There is
+also the possibility that what is recorded is wrong because the sheer volume
+of data could mean that mistakes were made or what's given is not complete.
+Examples of such issues are given below. There are also some cases where the
+information is not available.
+
+<p>The information provided is a string that is believed to identify the
+relevant license, and a location that contains that string.  Part of the
+corpus release process is to confirm that, where the location is a file in
+the sysver distribution, that the specified file contains the specified
+string. However it is possible that the wrong file was specified, or that
+there is no such file.
+
+<p>
+Examples of possible issues in this information are:
+<ul>
+<li> A number of sysvers include multiple licence statements (e.g. for
+third-party libraries that they use). It could be that the wrong license was
+attributed to the sysver either by simple mistake, or because it wasn't
+obvious which license applied to the sysver.
+
+<li> Some sysvers are released under multiple licenses. As of the
+more recent release of the corpus only one license is listed, although this
+probably needs to be changed.
+
+<li> Some sysvers have licenses that don't appear to apply to the entire
+code base. In most cases, the exceptions seem to be the third-party
+libraries they use, but there are some cases where it is not clear what
+exactly the licenses apply to.
+
+<li> Some sysvers do not provide the text of the license, but do provide
+license information in some form that refers to the text. In these cases,
+the location is given as the file provided.
+
+<li> Some sysvers provide no (clear) license information.  In some such
+cases, some attempt has been made to determine license information from
+other sources (e.g. a website), but this activity is incomplete. There are
+external locations (URLs) or empty entries in this case.
+</ul>
+
+<h3>History</h3>
+
+<dl>
+<dt>20130901</dt>
+<dd>
+Most sysvers had some license information provided, but there were
+still a few gaps, and the possibility that some information was wrong.
+</dd>
+
+<dt>20120401</dt>
+<dd>
+Some license information was added with this release but it was very
+incomplete and the information provided was inconsistent (in that often
+different license information for different sysvers was given).
+</dd>
+</dl>
+
+
+<!--#include virtual="../src/tail.html" -->
+</body>
+</html>

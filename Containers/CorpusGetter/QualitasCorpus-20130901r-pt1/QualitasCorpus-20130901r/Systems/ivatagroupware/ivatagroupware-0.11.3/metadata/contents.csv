@@ -1,0 +1,406 @@
+#2013-09-05T10:01:20NZST
+#System Version : ivatagroupware-0.11.3
+#Source Packages: com.ivata
+#Ignore Packages: 
+#Distributed    : ivatagroupware-src-0.11.3/addressbook/src/java,ivatagroupware-src-0.11.3/calendar/src/java,ivatagroupware-src-0.11.3/core/src/java,ivatagroupware-src-0.11.3/htmlparser/src/java,ivatagroupware-src-0.11.3/library/src/java,ivatagroupware-src-0.11.3/mask/src/java,ivatagroupware-src-0.11.3/search/src/java,ivatagroupware-src-0.11.3/security/src/java,ivatagroupware-src-0.11.3/webmail/src/java
+#Source Roots   : ivatagroupware-src-0.11.3/addressbook/src/java,ivatagroupware-src-0.11.3/addressbook/src/test,ivatagroupware-src-0.11.3/calendar/src/java,ivatagroupware-src-0.11.3/core/src/java,ivatagroupware-src-0.11.3/htmlparser/src/java,ivatagroupware-src-0.11.3/library/src/java,ivatagroupware-src-0.11.3/mask/src/java,ivatagroupware-src-0.11.3/search/src/java,ivatagroupware-src-0.11.3/security/src/java,ivatagroupware-src-0.11.3/webmail/src/java
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+com.ivata.mask.web.format.CaseFormat	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.format.CharacterEntityFormat	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.format.DateFormatter	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.format.DateFormatterConstants	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.format.DateFormatterException	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.format.FormatConstants	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.format.HTMLFormat	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.format.HTMLFormatter	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.format.HTMLFormatterNullException	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.format.LeadingCharacterFormat	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.format.LineBreakFormat	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.format.LinkFormat	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.format.MaximumLengthFormat	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.format.NonBreakingSpaceFormat	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.format.SearchReplaceFormat	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.format.StripTagFormat	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.format.URLFormat	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.format.WordWrapFormat	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.field.text.TextAreaFieldWriter	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.field.text.TextFieldWriter	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.business.search.item.content.SearchItemContentDO	WEB-INF/lib/ivatagroupware-search-jar-0.11.3.jar	ivatagroupware-src-0.11.3/search/src/java/com/ivata/groupware/business/search/item/content/SearchItemContentDO.java	0	0	0	0	172	26
+com.ivata.groupware.business.search.item.SearchItemDO	WEB-INF/lib/ivatagroupware-search-jar-0.11.3.jar	ivatagroupware-src-0.11.3/search/src/java/com/ivata/groupware/business/search/item/SearchItemDO.java	0	0	0	0	211	33
+com.ivata.mask.web.field.AttributesWriter	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.field.DefaultFieldWriterFactory	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.field.FieldWriter	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.field.FieldWriterConstants	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.field.FieldWriterFactory	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.theme.parser.ThemeLexer	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.theme.parser.ThemeParser	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.theme.parser.ThemeParserTokenTypes	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.field.date.DateFieldValueConvertor	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.business.mail.server.HMailServer	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/server/HMailServer.java	0	0	0	0	1048	664
+com.ivata.groupware.business.mail.server.JavaMailServer	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/server/JavaMailServer.java	0	0	0	0	373	253
+com.ivata.groupware.business.mail.server.MailServer	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/server/MailServer.java	0	0	0	0	266	47
+com.ivata.groupware.business.mail.server.NoMailServerException	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/server/NoMailServerException.java	0	0	0	0	82	10
+com.ivata.groupware.business.mail.server.ScriptMailServer	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/server/ScriptMailServer.java	0	0	0	0	539	165
+com.ivata.groupware.business.calendar.struts.EventAction	WEB-INF/lib/ivatagroupware-calendar-jar-0.11.3.jar	ivatagroupware-src-0.11.3/calendar/src/java/com/ivata/groupware/business/calendar/struts/EventAction.java	0	0	0	0	538	219
+com.ivata.groupware.business.calendar.struts.EventForm	WEB-INF/lib/ivatagroupware-calendar-jar-0.11.3.jar	ivatagroupware-src-0.11.3/calendar/src/java/com/ivata/groupware/business/calendar/struts/EventForm.java	0	0	0	0	718	285
+com.ivata.groupware.business.calendar.struts.EventHourComparator	WEB-INF/lib/ivatagroupware-calendar-jar-0.11.3.jar	ivatagroupware-src-0.11.3/calendar/src/java/com/ivata/groupware/business/calendar/struts/EventHourComparator.java	0	0	0	0	204	51
+com.ivata.groupware.business.calendar.struts.FindEventAction	WEB-INF/lib/ivatagroupware-calendar-jar-0.11.3.jar	ivatagroupware-src-0.11.3/calendar/src/java/com/ivata/groupware/business/calendar/struts/FindEventAction.java	0	0	0	0	283	96
+com.ivata.groupware.business.calendar.struts.IndexAction	WEB-INF/lib/ivatagroupware-calendar-jar-0.11.3.jar	ivatagroupware-src-0.11.3/calendar/src/java/com/ivata/groupware/business/calendar/struts/IndexAction.java	0	0	0	0	567	266
+com.ivata.groupware.business.calendar.struts.IndexForm	WEB-INF/lib/ivatagroupware-calendar-jar-0.11.3.jar	ivatagroupware-src-0.11.3/calendar/src/java/com/ivata/groupware/business/calendar/struts/IndexForm.java	0	0	0	0	535	141
+com.ivata.groupware.business.calendar.struts.IndexFormConstants	WEB-INF/lib/ivatagroupware-calendar-jar-0.11.3.jar	ivatagroupware-src-0.11.3/calendar/src/java/com/ivata/groupware/business/calendar/struts/IndexFormConstants.java	0	0	0	0	101	9
+com.ivata.groupware.business.library.faq.FAQDO	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/faq/FAQDO.java	0	0	0	0	171	26
+com.ivata.groupware.web.tag.webgui.tree.TreeSelectTag	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/web/tag/webgui/tree/TreeSelectTag.java	0	0	0	0	879	214
+com.ivata.groupware.web.tag.webgui.tree.TreeTag	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/web/tag/webgui/tree/TreeTag.java	0	0	0	0	556	126
+com.ivata.mask.web.servlet.GenerateCSS	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.group.Group	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.group.GroupImpl	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.business.library.struts.CommentAction	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/struts/CommentAction.java	0	0	0	0	416	139
+com.ivata.groupware.business.library.struts.CommentForm	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/struts/CommentForm.java	0	0	0	0	218	49
+com.ivata.groupware.business.library.struts.DisplayAction	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/struts/DisplayAction.java	0	0	0	0	872	348
+com.ivata.groupware.business.library.struts.FindTopicAction	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/struts/FindTopicAction.java	0	0	0	0	317	131
+com.ivata.groupware.business.library.struts.IndexAction	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/struts/IndexAction.java	0	0	0	0	206	81
+com.ivata.groupware.business.library.struts.ItemForm	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/struts/ItemForm.java	0	0	0	0	894	251
+com.ivata.groupware.business.library.struts.LibraryForm	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/struts/LibraryForm.java	0	0	0	0	177	30
+com.ivata.groupware.business.library.struts.SubmitAction	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/struts/SubmitAction.java	0	0	0	0	869	241
+com.ivata.groupware.business.library.struts.TopicAction	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/struts/TopicAction.java	0	0	0	0	283	67
+com.ivata.groupware.business.library.struts.TopicForm	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/struts/TopicForm.java	0	0	0	0	450	122
+com.ivata.groupware.business.library.struts.UnacknowledgedCommentsAction	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/struts/UnacknowledgedCommentsAction.java	0	0	0	0	261	44
+com.ivata.groupware.business.library.struts.UploadHTMLAction	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/struts/UploadHTMLAction.java	0	0	0	0	278	85
+com.ivata.groupware.business.library.struts.UploadHTMLForm	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/struts/UploadHTMLForm.java	0	0	0	0	194	42
+com.ivata.groupware.business.library.struts.UploadImagesAction	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/struts/UploadImagesAction.java	0	0	0	0	301	34
+com.ivata.groupware.business.library.struts.UploadImagesForm	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/struts/UploadImagesForm.java	0	0	0	0	233	52
+com.ivata.mask.DefaultMaskFactory	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.Mask	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.MaskFactory	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.MaskImpl	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.business.search.index.SearchIndexDO	WEB-INF/lib/ivatagroupware-search-jar-0.11.3.jar	ivatagroupware-src-0.11.3/search/src/java/com/ivata/groupware/business/search/index/SearchIndexDO.java	0	0	0	0	157	26
+com.ivata.mask.web.tag.util.BufferAppendTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.util.CollectionAddTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.util.ForEachTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.util.MapClearTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.util.MapEntryTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.util.MapTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.util.SetPropertyTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.field.ClassFieldValueConvertor	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.field.DefaultFieldValueConvertorFactory	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.field.Field	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.field.FieldImpl	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.field.FieldValueConvertor	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.field.FieldValueConvertor$FieldValueException	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	2	0	0
+com.ivata.mask.field.FieldValueConvertorConstants	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.field.FieldValueConvertorFactory	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.business.addressbook.struts.FindPersonAction	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/struts/FindPersonAction.java	0	0	0	0	314	92
+com.ivata.groupware.business.addressbook.struts.GroupFrameAction	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/struts/GroupFrameAction.java	0	0	0	0	173	61
+com.ivata.groupware.business.addressbook.struts.GroupListAction	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/struts/GroupListAction.java	0	0	0	0	299	144
+com.ivata.groupware.business.addressbook.struts.GroupRightAction	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/struts/GroupRightAction.java	0	0	0	0	692	347
+com.ivata.groupware.business.addressbook.struts.GroupRightForm	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/struts/GroupRightForm.java	0	0	0	0	740	207
+com.ivata.groupware.business.addressbook.struts.PersonAction	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/struts/PersonAction.java	0	0	0	0	741	317
+com.ivata.groupware.business.addressbook.struts.PersonForm	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/struts/PersonForm.java	0	0	0	0	1187	455
+com.ivata.groupware.business.addressbook.struts.PersonListAction	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/struts/PersonListAction.java	0	0	0	0	287	113
+com.ivata.groupware.web.tree.comment.CommentTreeNodeRenderer	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/web/tree/comment/CommentTreeNodeRenderer.java	0	0	0	0	334	131
+com.ivata.mask.web.field.hidden.HiddenFieldWriter	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.container.persistence.listener.AddPersistenceListener	WEB-INF/lib/ivatagroupware-core-jar-0.11.3.jar	ivatagroupware-src-0.11.3/core/src/java/com/ivata/groupware/container/persistence/listener/AddPersistenceListener.java	0	0	0	0	68	8
+com.ivata.groupware.container.persistence.listener.AmendPersistenceListener	WEB-INF/lib/ivatagroupware-core-jar-0.11.3.jar	ivatagroupware-src-0.11.3/core/src/java/com/ivata/groupware/container/persistence/listener/AmendPersistenceListener.java	0	0	0	0	67	8
+com.ivata.groupware.container.persistence.listener.RemovePersistenceListener	WEB-INF/lib/ivatagroupware-core-jar-0.11.3.jar	ivatagroupware-src-0.11.3/core/src/java/com/ivata/groupware/container/persistence/listener/RemovePersistenceListener.java	0	0	0	0	67	8
+com.ivata.groupware.container.struts.PicoRequestProcessor	WEB-INF/lib/ivatagroupware-mask-jar-0.11.3.jar	ivatagroupware-src-0.11.3/mask/src/java/com/ivata/groupware/container/struts/PicoRequestProcessor.java	0	0	0	0	133	30
+com.ivata.groupware.container.struts.PicoRequestProcessorImplementation	WEB-INF/lib/ivatagroupware-mask-jar-0.11.3.jar	ivatagroupware-src-0.11.3/mask/src/java/com/ivata/groupware/container/struts/PicoRequestProcessorImplementation.java	0	0	0	0	359	206
+com.ivata.groupware.container.struts.PicoTilesRequestProcessor	WEB-INF/lib/ivatagroupware-mask-jar-0.11.3.jar	ivatagroupware-src-0.11.3/mask/src/java/com/ivata/groupware/container/struts/PicoTilesRequestProcessor.java	0	0	0	0	106	30
+com.ivata.groupware.container.struts.ResetContainerAction	WEB-INF/lib/ivatagroupware-core-jar-0.11.3.jar	ivatagroupware-src-0.11.3/core/src/java/com/ivata/groupware/container/struts/ResetContainerAction.java	0	0	0	0	97	25
+com.ivata.mask.web.tag.html.ApplyTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.BaseTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.ButtonTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.CancelTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.CheckboxTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.ClearTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.DeleteTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.ErrorsTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.FormTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.HTMLTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.HelpTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.HiddenTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.IFrameTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.ImgTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.LabelTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.LinkTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.MaskProperties	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.MultiboxTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.OkTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.OptionTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.PasswordTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.RadioTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.ResetTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.RewriteTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.SelectTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.SubmitTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.TextTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.html.TextareaTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.theme.DefaultPropertyTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.theme.SectionTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.theme.ThemeConstants	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.theme.ThemeTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.business.calendar.Calendar	WEB-INF/lib/ivatagroupware-calendar-jar-0.11.3.jar	ivatagroupware-src-0.11.3/calendar/src/java/com/ivata/groupware/business/calendar/Calendar.java	0	0	0	0	175	31
+com.ivata.groupware.business.calendar.CalendarBean	WEB-INF/lib/ivatagroupware-calendar-jar-0.11.3.jar	ivatagroupware-src-0.11.3/calendar/src/java/com/ivata/groupware/business/calendar/CalendarBean.java	0	0	0	0	399	64
+com.ivata.groupware.business.calendar.CalendarImpl	WEB-INF/lib/ivatagroupware-calendar-jar-0.11.3.jar	ivatagroupware-src-0.11.3/calendar/src/java/com/ivata/groupware/business/calendar/CalendarImpl.java	0	0	0	0	404	208
+com.ivata.groupware.business.calendar.CalendarImpl$1	WEB-INF/lib/ivatagroupware-calendar-jar-0.11.3.jar	ivatagroupware-src-0.11.3/calendar/src/java/com/ivata/groupware/business/calendar/CalendarImpl.java	0	0	0	2	0	0
+com.ivata.groupware.business.calendar.CalendarImpl$EventComparator	WEB-INF/lib/ivatagroupware-calendar-jar-0.11.3.jar	ivatagroupware-src-0.11.3/calendar/src/java/com/ivata/groupware/business/calendar/CalendarImpl.java	0	0	0	2	0	0
+com.ivata.groupware.web.tag.container.ContainerBeanTag	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/web/tag/container/ContainerBeanTag.java	0	0	0	0	593	216
+com.ivata.groupware.web.tag.container.ContainerBeanTei	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/web/tag/container/ContainerBeanTei.java	0	0	0	0	94	27
+com.ivata.groupware.admin.setting.SettingConstants	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/setting/SettingConstants.java	0	0	0	0	119	8
+com.ivata.groupware.admin.setting.SettingDO	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/setting/SettingDO.java	0	0	0	0	325	47
+com.ivata.groupware.admin.setting.SettingNullException	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/setting/SettingNullException.java	0	0	0	0	103	7
+com.ivata.groupware.admin.setting.Settings	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/setting/Settings.java	0	0	0	0	230	46
+com.ivata.groupware.admin.setting.SettingsBean	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/setting/SettingsBean.java	0	0	0	0	475	73
+com.ivata.groupware.admin.setting.SettingsDataTypeException	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/setting/SettingsDataTypeException.java	0	0	0	0	120	7
+com.ivata.groupware.admin.setting.SettingsImpl	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/admin/setting/SettingsImpl.java	0	0	0	0	586	315
+com.ivata.groupware.admin.setting.SettingsImplTest		ivatagroupware-src-0.11.3/addressbook/src/test/com/ivata/groupware/admin/setting/SettingsImplTest.java	0	2	1	0	211	110
+com.ivata.groupware.admin.setting.SettingsInitializationException	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/setting/SettingsInitializationException.java	0	0	0	0	116	7
+com.ivata.groupware.navigation.menu.item.MenuItemComparator	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/navigation/menu/item/MenuItemComparator.java	0	0	0	0	115	42
+com.ivata.groupware.navigation.menu.item.MenuItemDO	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar,WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/navigation/menu/item/MenuItemDO.java,ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/navigation/menu/item/MenuItemDO.java	0	0	0	0	289	48
+com.ivata.groupware.container.PicoContainerFactory	WEB-INF/lib/ivatagroupware-core-jar-0.11.3.jar	ivatagroupware-src-0.11.3/core/src/java/com/ivata/groupware/container/PicoContainerFactory.java	0	0	0	0	599	275
+com.ivata.groupware.container.PicoContainerFactory$1	WEB-INF/lib/ivatagroupware-core-jar-0.11.3.jar	ivatagroupware-src-0.11.3/core/src/java/com/ivata/groupware/container/PicoContainerFactory.java	0	0	0	2	0	0
+com.ivata.groupware.navigation.menu.item.listener.UserRemoveBean	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar,WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/navigation/menu/item/listener/UserRemoveBean.java,ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/navigation/menu/item/listener/UserRemoveBean.java	0	0	0	0	145	17
+com.ivata.groupware.business.addressbook.person.group.right.detail.RightDetailDO	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/person/group/right/detail/RightDetailDO.java	0	0	0	0	169	18
+com.ivata.groupware.business.event.Event	WEB-INF/lib/ivatagroupware-core-jar-0.11.3.jar	ivatagroupware-src-0.11.3/core/src/java/com/ivata/groupware/business/event/Event.java	0	0	0	0	82	11
+com.ivata.groupware.business.event.EventManager	WEB-INF/lib/ivatagroupware-core-jar-0.11.3.jar	ivatagroupware-src-0.11.3/core/src/java/com/ivata/groupware/business/event/EventManager.java	0	0	0	0	129	14
+com.ivata.groupware.business.drive.directory.DirectoryConstants	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/drive/directory/DirectoryConstants.java	0	0	0	0	98	9
+com.ivata.groupware.business.drive.directory.DirectoryDO	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/drive/directory/DirectoryDO.java	0	0	0	0	130	19
+com.ivata.mask.filter.Filter	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.filter.FilterImpl	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.list.ListBodyTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.list.ListColumnComparator	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.list.ListColumnHeadingTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.list.ListColumnTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.list.ListConstants	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.list.ListEmptyTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.list.ListFrameTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.list.ListHeadingTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.admin.security.addressbook.AddressBookSecurity	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/admin/security/addressbook/AddressBookSecurity.java	0	0	0	0	89	11
+com.ivata.groupware.admin.security.addressbook.AddressBookSecurityImpl	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/admin/security/addressbook/AddressBookSecurityImpl.java	0	0	0	0	398	207
+com.ivata.groupware.business.BusinessLogic	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/business/BusinessLogic.java	0	0	0	0	61	4
+com.ivata.mask.web.tag.webgui.ControlTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.WebGUITag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.navigation.Navigation	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/navigation/Navigation.java	0	0	0	0	140	22
+com.ivata.groupware.navigation.NavigationBean	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/navigation/NavigationBean.java	0	0	0	0	288	45
+com.ivata.groupware.navigation.NavigationImpl	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/navigation/NavigationImpl.java	0	0	0	0	213	72
+com.ivata.groupware.admin.security.right.SecurityRights	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/admin/security/right/SecurityRights.java	0	0	0	0	117	15
+com.ivata.groupware.admin.security.right.SecurityRightsBean	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/admin/security/right/SecurityRightsBean.java	0	0	0	0	282	41
+com.ivata.groupware.admin.security.right.SecurityRightsImpl	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/admin/security/right/SecurityRightsImpl.java	0	0	0	0	181	29
+com.ivata.mask.field.valueobject.ValueObjectFieldValueConvertor	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.business.library.Library	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/Library.java	0	0	0	0	500	85
+com.ivata.groupware.business.library.LibraryImpl	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/LibraryImpl.java	0	0	0	0	1812	983
+com.ivata.groupware.business.library.LibraryImpl$CommentComparator	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/LibraryImpl.java	0	0	0	2	0	0
+com.ivata.groupware.business.library.LibraryImpl$LibraryItemComparator	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/LibraryImpl.java	0	0	0	2	0	0
+com.ivata.groupware.business.library.NotificationException	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/NotificationException.java	0	0	0	0	81	20
+com.ivata.groupware.admin.security.user.UserConstants	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/security/user/UserConstants.java	0	0	0	0	62	7
+com.ivata.groupware.admin.security.user.UserDO	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/security/user/UserDO.java	0	0	0	0	343	53
+com.ivata.groupware.admin.security.user.UserEvent	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/security/user/UserEvent.java	0	0	0	0	96	12
+com.ivata.groupware.admin.security.user.UserEventConstants	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/security/user/UserEventConstants.java	0	0	0	0	67	4
+com.ivata.mask.web.struts.util.MessageResourcesHandling	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.admin.AdminTestCase		ivatagroupware-src-0.11.3/addressbook/src/test/com/ivata/groupware/admin/AdminTestCase.java	0	2	1	0	107	35
+com.ivata.groupware.business.library.comment.CommentDO	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/comment/CommentDO.java	0	0	0	0	287	54
+com.ivata.groupware.business.library.comment.tree.CommentTreeModel	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/comment/tree/CommentTreeModel.java	0	0	0	0	310	88
+com.ivata.groupware.business.library.page.PageDO	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/page/PageDO.java	0	0	0	0	183	18
+com.ivata.groupware.navigation.menu.MenuConstants	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/navigation/menu/MenuConstants.java	0	0	0	0	104	8
+com.ivata.groupware.navigation.menu.MenuDO	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/navigation/menu/MenuDO.java	0	0	0	0	228	38
+com.ivata.mask.validation.ValidationError	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.validation.ValidationErrors	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.validation.ValidationException	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.persistence.right.DefaultPersistenceRights	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.persistence.right.PersistenceRights	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.frame.ButtonFrameTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.frame.ButtonSpacerTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.frame.FrameBreakTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.frame.FramePaneTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.frame.FrameTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.frame.WindowTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.business.mail.Mail	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/Mail.java	0	0	0	0	445	86
+com.ivata.groupware.business.mail.MailBean	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/MailBean.java	0	0	0	0	850	151
+com.ivata.groupware.business.mail.MailConstants	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/MailConstants.java	0	0	0	0	178	19
+com.ivata.groupware.business.mail.MailImpl	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/MailImpl.java	0	0	0	0	3317	1858
+com.ivata.groupware.business.mail.MailImpl$1	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/MailImpl.java	0	0	0	2	0	0
+com.ivata.groupware.business.mail.MailImpl$MessageTextParts	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/MailImpl.java	0	0	0	2	0	0
+com.ivata.groupware.business.calendar.event.meeting.attendee.AttendeeDO	WEB-INF/lib/ivatagroupware-calendar-jar-0.11.3.jar	ivatagroupware-src-0.11.3/calendar/src/java/com/ivata/groupware/business/calendar/event/meeting/attendee/AttendeeDO.java	0	0	0	0	202	27
+com.ivata.groupware.web.format.ByteSizeFormat	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/web/format/ByteSizeFormat.java	0	0	0	0	278	78
+com.ivata.groupware.web.format.EmailAddressFormatter	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/web/format/EmailAddressFormatter.java	0	0	0	0	434	138
+com.ivata.groupware.web.format.SanitizerFormat	WEB-INF/lib/ivatagroupware-htmlparser-jar-0.11.3.jar	ivatagroupware-src-0.11.3/htmlparser/src/java/com/ivata/groupware/web/format/SanitizerFormat.java	0	0	0	0	680	335
+com.ivata.mask.web.field.valueobject.ValueObjectFieldWriter	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.admin.struts.HibernateSetupAction	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/struts/HibernateSetupAction.java	0	0	0	0	736	467
+com.ivata.groupware.admin.struts.HibernateSetupForm	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/struts/HibernateSetupForm.java	0	0	0	0	387	182
+com.ivata.mask.persistence.FinderException	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.persistence.PersistenceException	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.persistence.PersistenceManager	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.persistence.PersistenceSession	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.business.library.faq.category.FAQCategoryDO	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/faq/category/FAQCategoryDO.java	0	0	0	0	242	45
+com.ivata.groupware.web.tag.CheckLoginTag	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/web/tag/CheckLoginTag.java	0	0	0	0	276	54
+com.ivata.groupware.web.tag.CheckSiteTag	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/web/tag/CheckSiteTag.java	0	0	0	0	170	32
+com.ivata.groupware.web.tag.GetSettingTag	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/web/tag/GetSettingTag.java	0	0	0	0	383	105
+com.ivata.groupware.web.tag.GetSettingTei	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/web/tag/GetSettingTei.java	0	0	0	0	82	21
+com.ivata.groupware.web.tag.HeadTag	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/web/tag/HeadTag.java	0	0	0	0	1091	424
+com.ivata.groupware.web.tag.SetSettingTag	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/web/tag/SetSettingTag.java	0	0	0	0	311	57
+com.ivata.groupware.business.library.item.LibraryItemConstants	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/item/LibraryItemConstants.java	0	0	0	0	108	9
+com.ivata.groupware.business.library.item.LibraryItemDO	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/item/LibraryItemDO.java	0	0	0	0	366	79
+com.ivata.groupware.business.drive.file.DriveFileDO	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/drive/file/DriveFileDO.java	0	0	0	0	156	25
+com.ivata.groupware.business.drive.file.FileContentDO	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/drive/file/FileContentDO.java	0	0	0	0	161	27
+com.ivata.groupware.business.drive.file.FileDO	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/drive/file/FileDO.java	0	0	0	0	206	32
+com.ivata.groupware.business.drive.file.FileRevisionDO	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/drive/file/FileRevisionDO.java	0	0	0	0	226	42
+com.ivata.groupware.business.library.right.LibraryRights	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/right/LibraryRights.java	0	0	0	0	344	61
+com.ivata.groupware.business.library.right.LibraryRightsImpl	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/right/LibraryRightsImpl.java	0	0	0	0	686	274
+com.ivata.groupware.util.SettingDateFormatter	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/util/SettingDateFormatter.java	0	0	0	0	724	278
+com.ivata.groupware.business.addressbook.person.group.right.GroupRights	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/person/group/right/GroupRights.java	0	0	0	0	192	76
+com.ivata.groupware.business.addressbook.person.group.right.RightConstants	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/person/group/right/RightConstants.java	0	0	0	0	166	14
+com.ivata.groupware.business.addressbook.person.group.right.RightDO	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/person/group/right/RightDO.java	0	0	0	0	269	34
+com.ivata.groupware.business.addressbook.person.group.right.UserRightFilter	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/person/group/right/UserRightFilter.java	0	0	0	0	262	59
+com.ivata.groupware.business.calendar.event.meeting.category.MeetingCategoryDO	WEB-INF/lib/ivatagroupware-calendar-jar-0.11.3.jar	ivatagroupware-src-0.11.3/calendar/src/java/com/ivata/groupware/business/calendar/event/meeting/category/MeetingCategoryDO.java	0	0	0	0	197	27
+com.ivata.groupware.web.tree.person.PersonTreeNodeRenderer	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/web/tree/person/PersonTreeNodeRenderer.java	0	0	0	0	228	73
+com.ivata.groupware.web.container.JSPPicoContainerFactory	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/web/container/JSPPicoContainerFactory.java	0	0	0	0	93	21
+com.ivata.groupware.admin.setting.right.SettingsRights	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/admin/setting/right/SettingsRights.java	0	0	0	0	109	19
+com.ivata.groupware.admin.setting.right.SettingsRightsBean	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/admin/setting/right/SettingsRightsBean.java	0	0	0	0	239	43
+com.ivata.groupware.admin.setting.right.SettingsRightsImpl	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/admin/setting/right/SettingsRightsImpl.java	0	0	0	0	310	128
+com.ivata.groupware.admin.setting.struts.SettingAction	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/admin/setting/struts/SettingAction.java	0	0	0	0	555	241
+com.ivata.groupware.admin.setting.struts.SettingForm	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/admin/setting/struts/SettingForm.java	0	0	0	0	757	308
+com.ivata.groupware.business.search.PorterStemmer	WEB-INF/lib/ivatagroupware-search-jar-0.11.3.jar	ivatagroupware-src-0.11.3/search/src/java/com/ivata/groupware/business/search/PorterStemmer.java	0	0	0	0	531	326
+com.ivata.groupware.business.search.SearchEngine	WEB-INF/lib/ivatagroupware-search-jar-0.11.3.jar	ivatagroupware-src-0.11.3/search/src/java/com/ivata/groupware/business/search/SearchEngine.java	0	0	0	0	128	22
+com.ivata.groupware.business.search.SearchEngineImpl	WEB-INF/lib/ivatagroupware-search-jar-0.11.3.jar	ivatagroupware-src-0.11.3/search/src/java/com/ivata/groupware/business/search/SearchEngineImpl.java	0	0	0	0	556	260
+com.ivata.mask.field.number.NumberFieldValueConvertor	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.business.addressbook.telecomaddress.EMailAddressLocator	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/telecomaddress/EMailAddressLocator.java	0	0	0	0	54	3
+com.ivata.groupware.business.addressbook.telecomaddress.TelecomAddressConstants	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/telecomaddress/TelecomAddressConstants.java	0	0	0	0	151	22
+com.ivata.groupware.business.addressbook.telecomaddress.TelecomAddressDO	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/telecomaddress/TelecomAddressDO.java	0	0	0	0	214	28
+com.ivata.groupware.business.addressbook.person.PersonDO	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/person/PersonDO.java	0	0	0	0	592	152
+com.ivata.groupware.business.addressbook.address.AddressDO	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/address/AddressDO.java	0	0	0	0	291	83
+com.ivata.mask.web.javascript.JavaScriptWindow	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.admin.script.ExternalScriptExecutor	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/script/ExternalScriptExecutor.java	0	0	0	0	258	121
+com.ivata.groupware.admin.script.ScriptExecutor	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/script/ScriptExecutor.java	0	0	0	0	81	8
+com.ivata.mask.web.struts.DefaultMaskAuthenticator	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.struts.DialogForm	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.struts.FindAction	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.struts.InputMaskAction	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.struts.InputMaskForm	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.struts.ListAction	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.struts.ListForm	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.struts.MaskAction	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.struts.MaskAuthenticator	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.struts.MaskForm	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.struts.MaskRequestProcessor	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.struts.MaskRequestProcessorImplementation	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.struts.MaskTilesRequestProcessor	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.struts.NewAction	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.struts.SuccessAction	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.struts.ValidationErrorsConvertor	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.struts.ValueObjectException	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.container.persistence.BaseDO	WEB-INF/lib/ivatagroupware-core-jar-0.11.3.jar	ivatagroupware-src-0.11.3/core/src/java/com/ivata/groupware/container/persistence/BaseDO.java	0	0	0	0	216	58
+com.ivata.groupware.container.persistence.NamedDO	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/container/persistence/NamedDO.java	0	0	0	0	146	32
+com.ivata.groupware.container.persistence.QueryPersistenceManager	WEB-INF/lib/ivatagroupware-core-jar-0.11.3.jar	ivatagroupware-src-0.11.3/core/src/java/com/ivata/groupware/container/persistence/QueryPersistenceManager.java	0	0	0	0	98	36
+com.ivata.groupware.container.persistence.TimestampDO	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/container/persistence/TimestampDO.java	0	0	0	0	207	75
+com.ivata.groupware.container.persistence.TimestampDOHandling	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/container/persistence/TimestampDOHandling.java	0	0	0	0	84	22
+com.ivata.groupware.container.persistence.TimestampDOListener	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/container/persistence/TimestampDOListener.java	0	0	0	0	126	50
+com.ivata.groupware.business.mail.message.MessageDO	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/message/MessageDO.java	0	0	0	0	483	98
+com.ivata.groupware.business.mail.message.MessageNotFoundException	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/message/MessageNotFoundException.java	0	0	0	0	160	31
+com.ivata.groupware.business.calendar.event.meeting.agendapoint.AgendaPointDO	WEB-INF/lib/ivatagroupware-calendar-jar-0.11.3.jar	ivatagroupware-src-0.11.3/calendar/src/java/com/ivata/groupware/business/calendar/event/meeting/agendapoint/AgendaPointDO.java	0	0	0	0	196	26
+com.ivata.groupware.container.persistence.hibernate.HibernateInterceptor	WEB-INF/lib/ivatagroupware-core-jar-0.11.3.jar	ivatagroupware-src-0.11.3/core/src/java/com/ivata/groupware/container/persistence/hibernate/HibernateInterceptor.java	0	0	0	0	555	405
+com.ivata.groupware.container.persistence.hibernate.HibernateManager	WEB-INF/lib/ivatagroupware-core-jar-0.11.3.jar	ivatagroupware-src-0.11.3/core/src/java/com/ivata/groupware/container/persistence/hibernate/HibernateManager.java	0	0	0	0	613	282
+com.ivata.groupware.container.persistence.hibernate.HibernateQuery	WEB-INF/lib/ivatagroupware-core-jar-0.11.3.jar	ivatagroupware-src-0.11.3/core/src/java/com/ivata/groupware/container/persistence/hibernate/HibernateQuery.java	0	0	0	0	69	17
+com.ivata.groupware.container.persistence.hibernate.HibernateQueryFactory	WEB-INF/lib/ivatagroupware-core-jar-0.11.3.jar	ivatagroupware-src-0.11.3/core/src/java/com/ivata/groupware/container/persistence/hibernate/HibernateQueryFactory.java	0	0	0	0	130	54
+com.ivata.groupware.container.persistence.hibernate.HibernateSession	WEB-INF/lib/ivatagroupware-core-jar-0.11.3.jar	ivatagroupware-src-0.11.3/core/src/java/com/ivata/groupware/container/persistence/hibernate/HibernateSession.java	0	0	0	0	205	89
+com.ivata.groupware.container.persistence.hibernate.HibernateSetupConstants	WEB-INF/lib/ivatagroupware-core-jar-0.11.3.jar	ivatagroupware-src-0.11.3/core/src/java/com/ivata/groupware/container/persistence/hibernate/HibernateSetupConstants.java	0	0	0	0	270	131
+com.ivata.groupware.business.mail.struts.ComposeAction	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/struts/ComposeAction.java	0	0	0	0	301	89
+com.ivata.groupware.business.mail.struts.ComposeForm	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/struts/ComposeForm.java	0	0	0	0	466	130
+com.ivata.groupware.business.mail.struts.DisplayAction	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/struts/DisplayAction.java	0	0	0	0	287	94
+com.ivata.groupware.business.mail.struts.DisplayForm	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/struts/DisplayForm.java	0	0	0	0	521	116
+com.ivata.groupware.business.mail.struts.FindMailUserAction	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/struts/FindMailUserAction.java	0	0	0	0	194	66
+com.ivata.groupware.business.mail.struts.IndexAction	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/struts/IndexAction.java	0	0	0	0	685	357
+com.ivata.groupware.business.mail.struts.IndexForm	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/struts/IndexForm.java	0	0	0	0	580	145
+com.ivata.groupware.business.mail.struts.MailSetupAction	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/struts/MailSetupAction.java	0	0	0	0	509	354
+com.ivata.groupware.business.mail.struts.MailSetupConstants	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/struts/MailSetupConstants.java	0	0	0	0	109	17
+com.ivata.groupware.business.mail.struts.MailSetupForm	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/struts/MailSetupForm.java	0	0	0	0	553	331
+com.ivata.groupware.business.mail.struts.MailUserAction	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/struts/MailUserAction.java	0	0	0	0	198	80
+com.ivata.groupware.business.mail.struts.MailUserForm	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/struts/MailUserForm.java	0	0	0	0	284	92
+com.ivata.groupware.business.addressbook.right.AddressBookRights	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/right/AddressBookRights.java	0	0	0	0	190	54
+com.ivata.groupware.business.addressbook.right.AddressBookRightsBean	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/right/AddressBookRightsBean.java	0	0	0	0	391	74
+com.ivata.groupware.business.addressbook.right.AddressBookRightsImpl	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/right/AddressBookRightsImpl.java	0	0	0	0	451	239
+com.ivata.groupware.business.calendar.event.EventDO	WEB-INF/lib/ivatagroupware-calendar-jar-0.11.3.jar	ivatagroupware-src-0.11.3/calendar/src/java/com/ivata/groupware/business/calendar/event/EventDO.java	0	0	0	0	235	40
+com.ivata.mask.web.tag.webgui.tab.TabContentTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.tab.TabControlTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.tab.TabFrameTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.tab.TabTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.navigation.struts.AddFavoriteAction	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/navigation/struts/AddFavoriteAction.java	0	0	0	0	291	115
+com.ivata.groupware.navigation.struts.FavoriteAction	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/navigation/struts/FavoriteAction.java	0	0	0	0	66	10
+com.ivata.groupware.navigation.struts.FindFavoriteAction	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/navigation/struts/FindFavoriteAction.java	0	0	0	0	118	45
+com.ivata.groupware.business.calendar.event.publicholiday.PublicHolidayDO	WEB-INF/lib/ivatagroupware-calendar-jar-0.11.3.jar	ivatagroupware-src-0.11.3/calendar/src/java/com/ivata/groupware/business/calendar/event/publicholiday/PublicHolidayDO.java	0	0	0	0	151	19
+com.ivata.mask.web.tag.webgui.toolbar.ToolBarButtonTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.toolbar.ToolBarSpacerTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.webgui.toolbar.ToolBarTag	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.FieldLabelTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.FieldTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.business.addressbook.person.group.tree.PersonTreeModel	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/person/group/tree/PersonTreeModel.java	0	0	0	0	499	151
+com.ivata.groupware.business.addressbook.person.group.tree.PersonTreeNode	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/person/group/tree/PersonTreeNode.java	0	0	0	0	211	40
+com.ivata.groupware.business.library.topic.TopicDO	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/topic/TopicDO.java	0	0	0	0	196	40
+com.ivata.groupware.mask.struts.ResetAction	WEB-INF/lib/ivatagroupware-mask-jar-0.11.3.jar	ivatagroupware-src-0.11.3/mask/src/java/com/ivata/groupware/mask/struts/ResetAction.java	0	0	0	0	151	38
+com.ivata.groupware.mask.struts.SecurityMaskAuthenticator	WEB-INF/lib/ivatagroupware-mask-jar-0.11.3.jar	ivatagroupware-src-0.11.3/mask/src/java/com/ivata/groupware/mask/struts/SecurityMaskAuthenticator.java	0	0	0	0	95	18
+com.ivata.groupware.business.addressbook.AddressBook	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/AddressBook.java	0	0	0	0	334	73
+com.ivata.groupware.business.addressbook.AddressBookBean	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/AddressBookBean.java	0	0	0	0	713	133
+com.ivata.groupware.business.addressbook.AddressBookImpl	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/AddressBookImpl.java	0	0	0	0	982	670
+com.ivata.groupware.business.addressbook.AddressBookImpl$CountryComparator	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/AddressBookImpl.java	0	0	0	2	0	0
+com.ivata.groupware.business.addressbook.AddressBookImpl$PersonComparator	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/AddressBookImpl.java	0	0	0	2	0	0
+com.ivata.groupware.business.addressbook.AddressBookImplTest		ivatagroupware-src-0.11.3/addressbook/src/test/com/ivata/groupware/business/addressbook/AddressBookImplTest.java	0	2	1	0	807	517
+com.ivata.mask.web.browser.Browser	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.browser.BrowserConstants	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.GroupwareTestCase		ivatagroupware-src-0.11.3/addressbook/src/test/com/ivata/groupware/GroupwareTestCase.java	0	2	1	0	168	57
+com.ivata.groupware.business.calendar.event.meeting.MeetingDO	WEB-INF/lib/ivatagroupware-calendar-jar-0.11.3.jar	ivatagroupware-src-0.11.3/calendar/src/java/com/ivata/groupware/business/calendar/event/meeting/MeetingDO.java	0	0	0	0	229	34
+com.ivata.groupware.business.addressbook.person.employee.EmployeeDO	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/person/employee/EmployeeDO.java	0	0	0	0	239	37
+com.ivata.groupware.business.search.stopword.SearchStopwordDO	WEB-INF/lib/ivatagroupware-search-jar-0.11.3.jar	ivatagroupware-src-0.11.3/search/src/java/com/ivata/groupware/business/search/stopword/SearchStopwordDO.java	0	0	0	0	87	18
+com.ivata.groupware.business.calendar.event.vacation.VacationDO	WEB-INF/lib/ivatagroupware-calendar-jar-0.11.3.jar	ivatagroupware-src-0.11.3/calendar/src/java/com/ivata/groupware/business/calendar/event/vacation/VacationDO.java	0	0	0	0	92	11
+com.ivata.groupware.web.servlet.SanitizeLibrary	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/web/servlet/SanitizeLibrary.java	0	0	0	0	136	41
+com.ivata.groupware.web.servlet.UpdateLibrarySearchIndex	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/web/servlet/UpdateLibrarySearchIndex.java	0	0	0	0	132	40
+com.ivata.groupware.business.addressbook.address.country.CountryDO	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/address/country/CountryDO.java	0	0	0	0	184	28
+net.freshmeat.imageinfo.ImageInfo	WEB-INF/lib/ivatamasks-thirdparty-imageinfo-0.1.1.jar		1	1	1	-1	0	0
+com.ivata.mask.web.tag.format.AddFormatTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.format.FormatDateTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.tag.format.FormatTag	WEB-INF/lib/ivatamasks-web-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.theme.Theme	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.theme.ThemeParseException	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.theme.ThemeUnsupportedException	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.theme.ThemeVersionException	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.admin.security.struts.JavaScriptAction	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/security/struts/JavaScriptAction.java	0	0	0	0	210	60
+com.ivata.groupware.admin.security.struts.LoginAction	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/security/struts/LoginAction.java	0	0	0	0	519	259
+com.ivata.groupware.admin.security.struts.LoginGuestAction	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/security/struts/LoginGuestAction.java	0	0	0	0	197	70
+com.ivata.groupware.admin.security.struts.PasswordAction	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/admin/security/struts/PasswordAction.java	0	0	0	0	379	208
+com.ivata.groupware.admin.security.Security	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/security/Security.java	0	0	0	0	245	46
+com.ivata.groupware.admin.security.SecurityBean	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/security/SecurityBean.java	0	0	0	0	417	76
+com.ivata.groupware.admin.security.SecurityImpl	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/security/SecurityImpl.java	0	0	0	0	648	344
+com.ivata.groupware.admin.security.SecurityImplTest		ivatagroupware-src-0.11.3/addressbook/src/test/com/ivata/groupware/admin/security/SecurityImplTest.java	0	2	1	0	204	76
+com.ivata.groupware.business.mail.session.MailAuthenticator	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/session/MailAuthenticator.java	0	0	0	0	168	25
+com.ivata.groupware.business.mail.session.MailSession	WEB-INF/lib/ivatagroupware-webmail-jar-0.11.3.jar	ivatagroupware-src-0.11.3/webmail/src/java/com/ivata/groupware/business/mail/session/MailSession.java	0	0	0	0	175	40
+com.ivata.mask.util.CollectionHandling	WEB-INF/lib/ivatamasks-util-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.util.MimeTypesHandling	WEB-INF/lib/ivatamasks-util-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.util.SerializedByteArray	WEB-INF/lib/ivatamasks-util-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.util.StringHandling	WEB-INF/lib/ivatamasks-util-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.util.SystemException	WEB-INF/lib/ivatamasks-util-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.util.ThrowableHandling	WEB-INF/lib/ivatamasks-util-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.web.RewriteHandling	WEB-INF/lib/ivatamasks-webtheme-jar-0.6.2.jar		0	1	1	3	0	0
+com.ivata.mask.valueobject.ValueObject	WEB-INF/lib/ivatamasks-mask-0.6.2.jar		0	1	1	3	0	0
+com.ivata.groupware.struts.SetupAction	WEB-INF/lib/ivatagroupware-core-jar-0.11.3.jar	ivatagroupware-src-0.11.3/core/src/java/com/ivata/groupware/struts/SetupAction.java	0	0	0	0	58	5
+com.ivata.groupware.admin.security.server.AbstractSecuritySession	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/security/server/AbstractSecuritySession.java	0	0	0	0	243	68
+com.ivata.groupware.admin.security.server.PlainTextSecurityServer	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/security/server/PlainTextSecurityServer.java	0	0	0	0	266	107
+com.ivata.groupware.admin.security.server.PlainTextSecuritySession	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/security/server/PlainTextSecuritySession.java	0	0	0	0	83	10
+com.ivata.groupware.admin.security.server.SecurityServer	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/security/server/SecurityServer.java	0	0	0	0	176	33
+com.ivata.groupware.admin.security.server.SecurityServerException	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/security/server/SecurityServerException.java	0	0	0	0	108	13
+com.ivata.groupware.admin.security.server.SecuritySession	WEB-INF/lib/ivatagroupware-security-jar-0.11.3.jar	ivatagroupware-src-0.11.3/security/src/java/com/ivata/groupware/admin/security/server/SecuritySession.java	0	0	0	0	148	15
+com.ivata.groupware.admin.security.server.TestSecurityServer		ivatagroupware-src-0.11.3/addressbook/src/test/com/ivata/groupware/admin/security/server/TestSecurityServer.java	0	2	1	0	156	43
+com.ivata.groupware.admin.security.server.TestSecuritySession		ivatagroupware-src-0.11.3/addressbook/src/test/com/ivata/groupware/admin/security/server/TestSecuritySession.java	0	2	1	0	132	40
+com.ivata.groupware.web.tree.DefaultTreeNodeRenderer	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/web/tree/DefaultTreeNodeRenderer.java	0	0	0	0	367	102
+com.ivata.groupware.web.tree.TreeNode	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/web/tree/TreeNode.java	0	0	0	0	106	5
+com.ivata.groupware.web.tree.TreeNodeRenderer	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/web/tree/TreeNodeRenderer.java	0	0	0	0	198	21
+com.ivata.groupware.business.library.listener.UserRemoveBean	WEB-INF/lib/ivatagroupware-library-jar-0.11.3.jar	ivatagroupware-src-0.11.3/library/src/java/com/ivata/groupware/business/library/listener/UserRemoveBean.java	0	0	0	0	210	34
+com.ivata.groupware.business.search.result.SearchResult	WEB-INF/lib/ivatagroupware-search-jar-0.11.3.jar	ivatagroupware-src-0.11.3/search/src/java/com/ivata/groupware/business/search/result/SearchResult.java	0	0	0	0	132	28
+com.ivata.groupware.business.addressbook.person.group.GroupConstants	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/person/group/GroupConstants.java	0	0	0	0	142	19
+com.ivata.groupware.business.addressbook.person.group.GroupDO	WEB-INF/lib/ivatagroupware-addressbook-jar-0.11.3.jar	ivatagroupware-src-0.11.3/addressbook/src/java/com/ivata/groupware/business/addressbook/person/group/GroupDO.java	0	0	0	0	384	99
+#No issues

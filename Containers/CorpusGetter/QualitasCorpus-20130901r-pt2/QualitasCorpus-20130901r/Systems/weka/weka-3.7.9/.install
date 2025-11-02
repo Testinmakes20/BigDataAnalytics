@@ -1,0 +1,33 @@
+#!/usr/bin/perl -w
+
+use strict;
+
+if ($ARGV[0] eq "-list") {
+	my @list = list_names($ARGV[1]);
+	printf("@list");
+} elsif ($ARGV[0] eq "-reduced") {
+	my $destination = $ARGV[1];
+	install_reduced($destination);
+} else {
+	my $destination = $ARGV[0];
+	install_reduced($destination);
+}
+
+sub install_reduced {
+	my ($corpusdir) = @_;
+	my $archive = "weka-3-7-9.zip";
+	my $source = "weka-3-7-9/weka-src.jar";
+	printf("\t\t unpacking $archive\n");
+	system("unzip -qo $corpusdir/compressed/$archive -d $corpusdir/bin") == 0 or die "Failed to extract $archive\n";
+	print "\t\t unpacking $source\n";
+	system("unzip -qo $corpusdir/bin/$source -d $corpusdir/src") == 0 or die "Failed to extract $source\n";
+	system("rm $corpusdir/bin/$source");
+}
+
+sub list_names {
+	my ($appverdir) = @_;
+	opendir(COMPRESSED, "$appverdir/compressed") || die "can't open $appverdir/compressed: $!";
+	my @archives = grep {! /^\.$/ and ! /^\.\.$/ } readdir(COMPRESSED);
+	close(COMPRESSED);
+	return @archives;
+}

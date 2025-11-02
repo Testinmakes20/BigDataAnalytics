@@ -1,0 +1,3 @@
+The problem occured with the installation due to the rather unusual format of 
+the tar archives: tzr.bz2. To procede with extraction a different command to 
+"unzip" had to be used - "tar".

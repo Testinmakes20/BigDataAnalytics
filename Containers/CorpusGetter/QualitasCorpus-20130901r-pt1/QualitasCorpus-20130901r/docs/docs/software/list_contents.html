@@ -1,0 +1,82 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../src/styles.css" />
+
+<title>Qualitas Corpus: list_contents.pl</title>
+
+</head>
+
+<body>
+<h1>Qualitas Corpus: list_contents.pl</h1>
+
+<dl>
+<dt>SYNOPSIS</dt>
+<dd>
+<pre>
+       ./list_contents.pl [--bin | --sys| --size| --np| --evaluate] <path>
+       ./list_contents.pl --help
+</pre>
+
+<dt>DESCRIPTION</dt>
+<dd>
+Summarise the contents of a sysver in various ways, using the 
+<a href="../metadata/contents.html">contents detail</a> metadata.
+
+<p>The default behaviour is to list all types that are in the system (match
+<a href="../metadata/attributes.html#sourcepackages">sourcepackages</a>), have both source
+and compiled forms, and are considered to be distributed
+
+<p>Arguments:-
+  <dl>    
+  <dt><tt>&lt;path&gt;</tt>
+  <dd> 
+    A path to a file containing the metadata file
+  </dd>
+  <dt>--bin</dt>
+  <dd>         
+    List those types in the system and in <tt>bin</tt>
+  </dd>
+  <dt>--sys</dt>
+  <dd>
+    List those types in the system and both <tt>bin</tt> and <tt>src</tt>
+    (but do not need to be distributed, unlike the default behaviour).
+  </dd>
+  <dt>--size</dt>
+  <dd>
+    Provide various system version size summaries - LOC+, NCLOC+,
+    number of system types in both src and bin, number of
+    system types in bin, number of top-level types in bin,
+    number of files with source.
+    (+ This information may not always be available.)
+  </dd>
+
+  <dt>--np</dt>
+  <dd>
+    List non-public top level types
+  </dd>
+
+  <dt>--evaluate</dt>
+  <dd>
+    List entries with different properties. This is only of use for 
+    checking the integrity of the metadata.
+
+  <dt>--help</dt>
+  <dd>
+  This information.
+  </dl>
+
+<dt>EXAMPLE</dt>
+
+<dd>    
+<font size=-1>
+<pre>
+  prompt> ./list_contents.pl --size /opt/corpus/QualitasCorpus-20090202r/Systems/marauroa/marauroa-2.5/metadata/context.txt
+  marauroa-2.5    LOC(Both):24108 NCLOC(Both):11354       #Both:170       #Bin:170#Top(Bin):142   #Files:142
+  prompt>
+</pre>
+</font>
+</dl>
+
+<!--#include virtual="../src/tail.html" -->
+</body>
+</html>

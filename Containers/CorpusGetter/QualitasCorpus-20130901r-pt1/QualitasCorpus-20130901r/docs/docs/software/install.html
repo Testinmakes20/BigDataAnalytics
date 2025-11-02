@@ -1,0 +1,111 @@
+<html>
+<head>
+<style>
+.cli {font-family:monospace; text-indent: 30pt;}
+</style>
+<link rel="stylesheet" type="text/css" href="../src/styles.css" />
+
+<title>Installing the Qualitas Corpus</title>
+
+</head>
+
+<body>
+<h1>Installing the Qualitas Corpus</h1>
+
+
+<p>The installation process is slightly different, depending on whether
+the distribution is on writable or non-writable media.</p>
+
+<p>If the distribution is a <tt>tar</tt> or <tt>zip</tt> file, 
+the simplest method is to unpack it
+in the desired destination directory for the corpus, and execute the 
+perl script <tt>install.pl</tt> from within the <tt>bin</tt> directory
+(see the <a href="../distribution.html">
+distribution structure</a>):</p>
+<p class="cli">./install.pl</p>
+
+<p>Alternatively, it is possible to unpack the corpus to any directory,
+but this method will cause the corpus to make an entire copy of itself 
+to the destination, which may be time consuming.</p>
+<p class="cli">./install.pl /tmp</p>
+
+<dl>
+<dt>SYNOPSIS</dt>
+<dd>
+<p class="cli">./install.pl [-r] [-s system1[,system2,...]] [-v sysver1[,sysver2,...]] [destination]</p>
+</dd><dd>
+<p class="cli">./install.pl  -l [system1[,system2,...]]</p>
+</dd>
+
+<dt>DESCRIPTION</dt>
+<dd>
+    Unpack the corpus to &lt;destination&gt;. If &lt;destination&gt; is not specified, the 
+    default behaviour is to unpack in place.
+
+    <dl>
+    <dt>-h</dt>
+    <dd>Display usage instructions.
+    <dt>-r</dt>
+    <dd>Unpack only relevant jar files and sources, 
+        ignoring third party content and other miscellaneous files. </dd>
+        
+    <dt>-s</dt>
+    <dd>Unpack only the specified comma-separated list of systems. If not installing in place, 
+    only these systems will be copied. If installing in place, all other
+    systems will be left packed.</dd>
+    
+    <dt>-v</dt>
+    <dd>Unpack only the specified comma-separated list of versions. If not installing in place,
+    only these versions will be copied. If installing in place, all other
+    systems and versions will be left packed.</dd>
+    
+    <dt>-l</dt>
+    <dd>List all available systems if no systems are provided, otherwise
+    list all available versions of the specified comma-separated list of systems.</dd>
+    
+    <dt>&nbsp;</dt>
+    <dt>If both -s and -v are omitted, all systems will be installed.</dt>
+    <dt>If no destination is provided, all files will be unpacked in place.</dt>
+    
+    </dl>
+</dd>
+
+<dt>EXAMPLES</dt>
+<dd>
+    <dl>
+    <dt>To unpack the corpus in place:</dt><dd>
+    <p class="cli">./install.pl</p>
+    </dd>
+
+    <dt>To unpack the corpus into the /tmp directory:</dt><dd>
+    <p class="cli">./install.pl /tmp</p>
+    </dd>
+
+    <dt>To unpack only the system "eclipse_SDK" in place:</dt><dd>
+    <p class="cli">./install.pl -s eclipse_SDK</p>
+    </dd>
+
+    <dt>To unpack only the latest version of the system "eclipse_SDK" in place:</dt><dd>
+    <p class="cli">./install.pl -v eclipse_SDK-3.6</p>
+    </dd>
+
+    <dt>To view all available versions of the system "eclipse_SDK":</dt><dd>
+    <p class="cli">./install.pl -l eclipse_SDK</p>
+    </dd>
+
+    </dl>
+</dd>
+</dl>
+
+<h3><font color=red>Important Note</font></h3>
+
+Due to licensing restrictions the JRE binaries and source is <b>not</b> in
+this distribution. In order to include the JRE in a given installation, it
+must be downloaded directly from 
+<a href="http://www.oracle.com/technetwork/java/javase">Oracle</a> and
+installed manually.  Instructions are given in the relevant directory
+within <a href="structure.html">Systems</a>.
+
+<!--#include virtual="../src/tail.html" -->
+</body>
+</html>

@@ -1,0 +1,49 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="src/styles.css" />
+
+<title>Qualitas Corpus Conventions</title>
+
+</head>
+
+<body>
+<h1>Qualitas Corpus Conventions</h1>
+
+<h3>Naming conventions</h3>
+
+<p>All directories containing system code are named as:
+<pre>        <b>&lt;sysname&gt;-&lt;versionid&gt;</b></pre>
+
+<dl>
+<dt><i>&lt;sysname&gt;</i></dt>
+<dd>A unique name, typically the one used to identify the system
+(although see the <a href="metadata/attributes.html#fullname">fullname</a> field
+in the metadata).
+This name does <em>not</em> contain "-" in it. If the original
+name does have a "-", then 
+&lt;sysname&gt; will be the original name with "-" replaced
+with a "_". E.g., <tt>eclipse_SDK</tt> from
+<tt>eclipse-SDK</tt>.
+
+<dt><i>&lt;versionid&gt;</i></dt>
+<dd>The version, it should be specific as possible and typically
+will be based on the version identification used to identify
+the distribution file of the version. 
+
+<p>For example,
+if the compressed file is named <i>openjms-0.7.7-alpha-3.tgz</i> then the
+<i>&lt;versionid&gt;</i> would be <i>0.7.7-alpha-3</i>. Note that
+the exact id string is used, including occurrences of "-", and
+no "tidying" has been done, such as to make it
+<i>0.7.7</i>.
+<p>
+By and large <i>&lt;versionid&gt;</i> should not be changed from
+what is used by the developers although note that the version
+identification used by developers is not always what is used for
+naming
+the compressed file. In such cases, use what the developers use is
+what is used in the corpus.
+</dl>
+<!--#include virtual="src/tail.html" -->
+</body>
+</html>

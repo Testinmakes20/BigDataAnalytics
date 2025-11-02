@@ -1,0 +1,220 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../src/styles.css" />
+
+<title>20120401 Release Notes</title>
+
+</head>
+
+<body>
+<h1>20120401 Release Notes</h1>
+
+<p>The goal for this release was to reorganise some of the metadata,
+specificially that data that does (or should) appear in the
+<a href="../glossary.html#properties"</a><tt>.properties</tt></a> files
+and the <a href="../glossary.html#summary"><tt>summary.csv</tt></a> file.
+As part of this exercise, some issues with the metadata were uncovered and
+fixed (details below).
+
+<p>Some new systems were added and the evolution release systems were
+updated with all their new versions since the last release of the corpus.
+One of the new systems (<tt>freemind</tt>) was also added as an evolution
+system.
+
+<p>In summary, 5 new systems were added, bringing the total to 111, and a
+total of 76 new sysvers were added (including for the new systems), bringing
+the total to 661 sysvers.
+
+<p>
+The "r" distribution has versions of 111 systems (3.27 GiB uninstalled, 9.56
+GiB installed).  The "e" distribution contains the 14 systems for which
+there are 10 or more versions. This distribution (12.12 GiB uninstalled,
+45.64 GiB installed) is intended for evolution studies.  The full
+distribution (at 15.69 GiB uninstalled, 56.20 GiB installed) can be made
+available on request.
+
+<p>
+<dl>
+<dt>Metadata</dt>
+<dd>
+<p>The <a href="../metadata/attributes.html">attributes</a> metadata has
+undergone extensive change. Previously this data was found in two places,
+the
+individual <a href="../glossary.html#properties"><tt>.properties</tt></a>
+files and the
+global <a href="../glossary.html#summary"><tt>summary.csv</tt></a> file.
+Some attributes were found in both places, and some where only found in
+one place, so it was non-trivial to get all the attribute values.
+With this release, attribute values can be found in the same two 
+places, but now all attribute values are found in both places. 
+
+<p>Some new attributes have been added, most notably <a href="../glossary.html#license">license</a> (albeit incompletely),
+<a href="../glossary.html#status">status</a>, 
+<a href="../glossary.html#jreversion">jreversion</a>, and
+<a href="../glossary.html#distribution">distribution</a>. The
+<a href="../glossary.html#versionnotes">versionnotes</a>, which had been
+used as a catch-all for any notes regarding a given version, including
+internal management notes, has been re-purposed to contain only
+version-specific notes of use to a corpus user. The internal notes have been
+removed.
+
+<p>Some of the attribute names have been modified to provide a more
+consistent naming scheme. This affects the old names of systemversion (now
+<a href="../glossary.html#sysver">sysver</a>), LOC(Both) (now
+<a href="../glossary.html#loc(both)">loc(both)</a>), NCLOC(Both) (now
+<a href="../glossary.html#ncloc(both)">ncloc(both)</a>), #Both (now
+<a href="../glossary.html#n_both">n_both</a>), #Bin (now
+<a href="../glossary.html#n_bin">n_bin</a>), #Top(Bin) (now
+<a href="../glossary.html#n_top(bin)">n_top(bin)</a>), and #Files (now
+<a href="../glossary.html#n_files">n_files</a>). Other attributes are now not
+provided, being either for internal use only or obsolete (notes,
+acquisitiondate, acquisitionperson, language, languageversion, origin,
+opensource, obfuscated, source).
+
+<p>During this exercise, a lot of checks were made of existing metadata,
+and some errors or missing data were uncovered. Below are the changes to
+attribute values that are not represented by the comments above:
+
+<dl>
+<dt>
+<dt><b>ant-1.5.1</b></dt>
+<dd>
+Changed <a href="../glossary.html#releasedate">releasedate</a> to use IS0 8601 ("2002-10-2" to "2002-10-02")
+</dd>
+
+<dt><b>argouml-0.16.1</b></dt>
+<dd>
+Changed <a href="../glossary.html#releasedate">releasedate</a> to use IS0 8601 ("2004-09-4" to "2004-09-04")
+
+<dt><b>columba-1.0</b></dt>
+<dd>
+Corrected <a href="../glossary.html#url">url</a> "http://www.columbamail.org" to "http://sourceforge.net/projects/columba"
+
+<dt><b>displaytag-1.1</b></dt>
+<dd>
+Changed <a href="../glossary.html#releasedate">releasedate</a> to use IS0 8601 ("2006/02/12"  to "2006-02-12")
+
+<dt><b>findbugs-1.0.0</b></dt>
+<dd>
+Changed <a href="../glossary.html#releasedate">releasedate</a> to use IS0 8601 ("2006/06/10"  to "2006-06-10")
+
+<dt><b>hibernate</b></dt>
+<dd>
+Corrected <a href="../glossary.html#domain">domain</a> for 
+hibernate-3.5.3-final,
+hibernate-3.5.5-final,
+hibernate-3.6.0-beta1,
+hibernate-3.6.0-beta2,
+hibernate-3.6.0-beta3, and
+hibernate-3.6.0-beta4 ("Persistence Object Mapper" to "database")
+
+<dt><b>hsqldb-1.8.0.2</b></dt>
+<dd>
+Added <a href="../glossary.html#fullname">fullname</a> ("HyperSQL DataBase")
+
+<dt><b>hsqldb-1.8.0.4</b></dt>
+<dd>
+Changed <a href="../glossary.html#releasedate">releasedate</a> to use IS0 8601 ("2006/04/16" to "2006-04-16")
+
+<dt><b>ivatagroupware-0.11.3</b></dt>
+<dd>
+Changed <a href="../glossary.html#releasedate">releasedate</a> to use IS0 8601 ("2005/10/10" to "2005-10-10")
+
+<dt><b>jboss-5.1.0</b></dt>
+<dd>
+Corrected <a href="../glossary.html#domain">domain</a> ("J2EE server" to "middleware")
+
+<dt><b>jchempaint-2.0.12</b></dt>
+<dd>
+Added <a href="../glossary.html#fullname">fullname</a> ("Chemistry Development Kit")
+
+<dt><b>jmeter-2.3.2</b></dt>
+<dd>
+Changed <a href="../glossary.html#releasedate">releasedate</a> to use IS0 8601 ("2007-06-10" to "2008-06-10")
+
+<dt><b>jre-1.5.0_22</b></dt>
+<dd>
+Added <a href="../glossary.html#domain">domain</a> ("programming language")
+
+<dt><b>marauroa</b></dt>
+<dd>
+Changed <a href="../glossary.html#fullname">fullname</a> for 
+marauroa-2.5 and marauroa-3.8.1
+("Server for Arianne, a multiplayer online games framework and engine" to "Marauroa")
+
+<dt><b>maven-3.0</b></dt>
+<dd>
+Corrected <a href="../glossary.html#domain">domain</a> ("parsers/generator/make" to "parsers/generators/make")
+
+<dt><b>oscache-2.3-full</b></dt>
+<dd>
+Changed <a href="../glossary.html#releasedate">releasedate</a> to use IS0 8601 ("2006/03/06" to "2006-03-06")
+
+<dt><b>quartz-1.5.2</b></dt>
+<dd>
+Changed <a href="../glossary.html#releasedate">releasedate</a> to use IS0 8601 ("2006/03/03" to "2006-03-03")
+
+<dt><b>velocity-1.5</b></dt>
+<dd>
+Added <a href="../glossary.html#fullname">fullname</a> ("Velocity Engine")
+
+<dt><b>weka</b></dt>
+<dd>
+Changed 
+<a href="../glossary.html#fullname">fullname</a>
+for all versions ("Weka---Machine Learning Software in Java" to "Weka")
+</dd>
+
+<dt><b>xalan-2.7.1</b></dt>
+<dd>
+Changed <a href="../glossary.html#fullname">fullname</a> ("Xalan." to "Xalan")
+</dd>
+</dl>
+
+<dt>New Systems</dt>
+<dd>
+batik, collections, freemind, hadoop, wct
+</dd>
+
+<dt>Added versions</dt>
+<dd>
+ant-1.8.2, antlr-3.3, antlr-3.4, argouml-0.22, argouml-0.30.1, argouml-0.32, argouml-0.32.1, argouml-0.32.2, argouml-0.34, azureus-4.5.1.0, azureus-4.6.0.0, azureus-4.6.0.2, azureus-4.6.0.4, azureus-4.7.0.0, azureus-4.7.0.2, batik-1.7, collections-3.2.1, eclipse_SDK-3.4.1, eclipse_SDK-3.6.1, eclipse_SDK-3.6.2, eclipse_SDK-3.7, eclipse_SDK-3.7.1, freecol-0.10.0, freecol-0.10.1, freecol-0.10.2, freecol-0.10.3, freecol-0.9.5, freemind-0.0.2, freemind-0.0.3, freemind-0.1.0, freemind-0.2.0, freemind-0.3.0, freemind-0.3.1, freemind-0.4, freemind-0.5, freemind-0.6, freemind-0.6.1, freemind-0.6.5, freemind-0.6.7, freemind-0.7.1, freemind-0.8.0, freemind-0.8.1, freemind-0.9.0, hadoop-1.0.0, hibernate-3.6.0, hibernate-3.6.1, hibernate-3.6.10, hibernate-3.6.2, hibernate-3.6.3, hibernate-3.6.4, hibernate-3.6.5, hibernate-3.6.6, hibernate-3.6.7, hibernate-3.6.8, hibernate-3.6.9, hibernate-4.0.0, hibernate-4.0.1, hibernate-4.1.0, jmeter-2.5, jmeter-2.5.1, junit-4.10, junit-4.9, lucene-2.9.4, lucene-3.0.3, lucene-3.1.0, lucene-3.2.0, lucene-3.3.0, lucene-3.4.0, lucene-3.5.0, wct-1.5.2, weka-3.6.3, weka-3.6.4, weka-3.6.5, weka-3.6.6, weka-3.7.4, weka-3.7.5
+</dd>
+
+<dt>Changed properties</dt>
+<dd>
+The <tt>contents.csv</tt> files changed for existing versions
+of <tt>eclipse_SDK</tt> due to the source now being unpacked. 
+
+</dd>
+
+<dt>Changed install</dt>
+<dd>
+All of the <tt>.install</tt> for existing versions of <tt>eclipse_SDK</tt>
+have been changed to unpack the source code (previously this wasn't happening). 
+</dd>
+
+<dt>Changed bin</dt>
+<dd>
+With the change to the <tt>eclipse_SDK</tt> installation procedure, the
+organisation of the <tt>bin</tt> directory has changed for most versions.
+</dd>
+
+<dt>Changed src</dt>
+<dd>
+With the change to the <tt>eclipse_SDK</tt> installation procedure, the
+organisation of the <tt>src</tt> directory has changed for most versions,
+specifically those versions now have the src unpacked.
+</dd>
+
+<dt>Changed docs</dt>
+<dd>
+The documentation for the <a href="../metadata/index.html">metadata</a> has
+been reorganised to reflect the new structure. A <a href="../glossary.html">glossary</a> has been added.
+</dd>
+
+</dl>
+
+<!--#include virtual="../src/tail.html" -->
+</body>
+</html>

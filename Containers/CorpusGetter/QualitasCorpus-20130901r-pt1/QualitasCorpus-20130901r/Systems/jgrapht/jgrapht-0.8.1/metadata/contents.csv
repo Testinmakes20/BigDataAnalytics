@@ -1,0 +1,823 @@
+#2013-09-05T10:01:24NZST
+#System Version : jgrapht-0.8.1
+#Source Packages: org.jgrapht
+#Ignore Packages: 
+#Distributed    : jgrapht-0.8.1/src
+#Source Roots   : jgrapht-0.8.1/src,jgrapht-0.8.1/testsrc
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+junit.awtui.AboutDialog	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.awtui.AboutDialog$1	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.awtui.AboutDialog$2	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.awtui.Logo	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.awtui.ProgressBar	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.awtui.TestRunner	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.awtui.TestRunner$1	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.awtui.TestRunner$10	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.awtui.TestRunner$2	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.awtui.TestRunner$3	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.awtui.TestRunner$4	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.awtui.TestRunner$5	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.awtui.TestRunner$6	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.awtui.TestRunner$7	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.awtui.TestRunner$8	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.awtui.TestRunner$9	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.extensions.ActiveTestSuite	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.extensions.ActiveTestSuite$1	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.extensions.ExceptionTestCase	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.extensions.RepeatedTest	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.extensions.TestDecorator	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.extensions.TestSetup	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.extensions.TestSetup$1	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.textui.ResultPrinter	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.textui.TestRunner	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Add	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Cat	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Checkout	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Commit	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Copy	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.CreateRepository	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Delete	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Diff	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Export	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Feedback	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Ignore	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Ignore$1	jgrapht-0.8.1/lib/svnant.jar		1	1	1	2	0	0
+org.tigris.subversion.svnant.Import	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Keywords	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Keywordsadd	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Keywordsremove	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Keywordsset	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Mkdir	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Move	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Propdel	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Propget	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Propset	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Revert	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Status	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.SvnCommand	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.SvnTask	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Switch	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnant.Update	jgrapht-0.8.1/lib/svnant.jar		1	1	1	-1	0	0
+org.jgrapht.experimental.dag.DirectedAcyclicGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/dag/DirectedAcyclicGraph.java	0	0	0	0	1199	619
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$1	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/dag/DirectedAcyclicGraph.java	0	0	0	2	0	0
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$CycleFoundException	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/dag/DirectedAcyclicGraph.java	0	0	0	2	0	0
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$Region	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/dag/DirectedAcyclicGraph.java	0	0	0	2	0	0
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoComparator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/dag/DirectedAcyclicGraph.java	0	0	0	2	0	0
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoIterator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/dag/DirectedAcyclicGraph.java	0	0	0	2	0	0
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoOrderMapping	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/dag/DirectedAcyclicGraph.java	0	0	0	2	0	0
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoOrderMappingFactory	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/dag/DirectedAcyclicGraph.java	0	0	0	2	0	0
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoVertexBiMap	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/dag/DirectedAcyclicGraph.java	0	0	0	2	0	0
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$TopoVertexMap	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/dag/DirectedAcyclicGraph.java	0	0	0	2	0	0
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$Visited	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/dag/DirectedAcyclicGraph.java	0	0	0	2	0	0
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedArrayImpl	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/dag/DirectedAcyclicGraph.java	0	0	0	2	0	0
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedArrayListImpl	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/dag/DirectedAcyclicGraph.java	0	0	0	2	0	0
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedBitSetImpl	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/dag/DirectedAcyclicGraph.java	0	0	0	2	0	0
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedFactory	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/dag/DirectedAcyclicGraph.java	0	0	0	2	0	0
+org.jgrapht.experimental.dag.DirectedAcyclicGraph$VisitedHashSetImpl	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/dag/DirectedAcyclicGraph.java	0	0	0	2	0	0
+org.jgrapht.experimental.dag.DirectedAcyclicGraphTest		jgrapht-0.8.1/testsrc/org/jgrapht/experimental/dag/DirectedAcyclicGraphTest.java	0	2	1	0	603	399
+org.jgrapht.ext.DOTExporter	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/ext/DOTExporter.java	0	0	0	0	185	71
+org.jgrapht.ext.DOTExporterTest		jgrapht-0.8.1/testsrc/org/jgrapht/ext/DOTExporterTest.java	0	2	1	0	136	74
+org.jgrapht.ext.EdgeNameProvider	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/ext/EdgeNameProvider.java	0	0	0	0	53	5
+org.jgrapht.ext.GmlExporter	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/ext/GmlExporter.java	0	0	0	0	286	136
+org.jgrapht.ext.GmlExporterTest		jgrapht-0.8.1/testsrc/org/jgrapht/ext/GmlExporterTest.java	0	2	1	0	121	60
+org.jgrapht.ext.GraphMLExporter	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/ext/GraphMLExporter.java	0	0	0	0	260	150
+org.jgrapht.ext.GraphMLExporterTest		jgrapht-0.8.1/testsrc/org/jgrapht/ext/GraphMLExporterTest.java	0	2	1	0	106	45
+org.jgrapht.ext.IntegerEdgeNameProvider	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/ext/IntegerEdgeNameProvider.java	0	0	0	0	82	22
+org.jgrapht.ext.IntegerNameProvider	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/ext/IntegerNameProvider.java	0	0	0	0	95	23
+org.jgrapht.ext.JGraphModelAdapter	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/ext/JGraphModelAdapter.java	0	0	0	0	1148	535
+org.jgrapht.ext.JGraphModelAdapter$1	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/ext/JGraphModelAdapter.java	0	0	0	2	0	0
+org.jgrapht.ext.JGraphModelAdapter$CellFactory	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/ext/JGraphModelAdapter.java	0	0	0	2	0	0
+org.jgrapht.ext.JGraphModelAdapter$DefaultCellFactory	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/ext/JGraphModelAdapter.java	0	0	0	2	0	0
+org.jgrapht.ext.JGraphModelAdapter$JGraphListener	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/ext/JGraphModelAdapter.java	0	0	0	2	0	0
+org.jgrapht.ext.JGraphModelAdapter$JGraphTListener	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/ext/JGraphModelAdapter.java	0	0	0	2	0	0
+org.jgrapht.ext.JGraphModelAdapter$ShieldedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/ext/JGraphModelAdapter.java	0	0	0	2	0	0
+org.jgrapht.ext.MatrixExporter	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/ext/MatrixExporter.java	0	0	0	0	264	133
+org.jgrapht.ext.MatrixExporterTest		jgrapht-0.8.1/testsrc/org/jgrapht/ext/MatrixExporterTest.java	0	2	1	0	153	84
+org.jgrapht.ext.StringEdgeNameProvider	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/ext/StringEdgeNameProvider.java	0	0	0	0	64	12
+org.jgrapht.ext.StringNameProvider	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/ext/StringNameProvider.java	0	0	0	0	78	13
+org.jgrapht.ext.VertexNameProvider	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/ext/VertexNameProvider.java	0	0	0	0	61	5
+org.jgrapht.ext.VisioExporter	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/ext/VisioExporter.java	0	0	0	0	149	52
+org.jgraph.event.GraphLayoutCacheEvent	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.event.GraphLayoutCacheEvent$GraphLayoutCacheChange	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.event.GraphLayoutCacheListener	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.event.GraphModelEvent	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.event.GraphModelEvent$GraphModelChange	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.event.GraphModelListener	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.event.GraphSelectionEvent	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.event.GraphSelectionListener	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.interaction.DragAddUI	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.interaction.DragMultiselectUI	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.interaction.DragNodeUI	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.interaction.GLEditUI	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.interaction.GLEditUI$1	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.GLEditUI$2	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.GLEditUI$3	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.GLEditUI$4	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.GLEditUI$5	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.GLEditUI$6	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.GLEditUI$7	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.GLEditUI$8	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.GLEditUI$9	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.GLEditUI$GLEditMouseListener	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.GLEditUI$GLEditMouseMotionListener	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.GLNavigateUI	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.interaction.GLNavigateUI$1	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.GLNavigateUI$2	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.GLNavigateUI$3	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.GLNavigateUI$4	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.GLNavigateUI$5	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.GLNavigateUI$GLNavigateMouseListener	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.HVScroll	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.interaction.HVScroll$1	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.HVScroll$2	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.HVScroll$DScrollbar	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.HVScroll$HVDragUI	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.HVScroll$HVLens	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.HVScroll$HVScrollToCenterUI	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.HVScroll$horizAdjustmentListener	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.HVScroll$vertAdjustmentListener	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.HyperScroll	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.interaction.HyperScroll$1	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.HyperScroll$HyperLens	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.HyperScroll$hyperAdjustmentListener	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.LocalityScroll	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.interaction.LocalityScroll$1	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.LocalityScroll$localityAdjustmentListener	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.RotateScroll	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.interaction.RotateScroll$1	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.RotateScroll$DScrollBar	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.RotateScroll$RotateDragUI	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.RotateScroll$RotateLens	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.RotateScroll$rotateAdjustmentListener	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.TGAbstractClickUI	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.interaction.TGAbstractClickUI$1	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.TGAbstractClickUI$ACUIMouseListener	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.TGAbstractDragUI	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.interaction.TGAbstractDragUI$1	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.TGAbstractDragUI$ADUIMouseListener	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.TGAbstractDragUI$ADUIMouseMotionListener	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.TGSelfDeactivatingUI	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.interaction.TGUIManager	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.interaction.TGUIManager$NamedUI	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.TGUserInterface	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.interaction.ZoomScroll	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.interaction.ZoomScroll$1	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.ZoomScroll$ZoomLens	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.interaction.ZoomScroll$zoomAdjustmentListener	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+org.jgrapht.experimental.permutation.ArrayPermutationsIter	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/permutation/ArrayPermutationsIter.java	0	0	0	0	56	6
+org.jgrapht.experimental.permutation.CollectionPermutationIter	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/permutation/CollectionPermutationIter.java	0	0	0	0	185	79
+org.jgrapht.experimental.permutation.CompoundPermutationIter	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/permutation/CompoundPermutationIter.java	0	0	0	0	307	126
+org.jgrapht.experimental.permutation.CompoundPermutationIterTest		jgrapht-0.8.1/testsrc/org/jgrapht/experimental/permutation/CompoundPermutationIterTest.java	0	2	1	0	132	54
+org.jgrapht.experimental.permutation.IntegerPermutationIter	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/permutation/IntegerPermutationIter.java	0	0	0	0	311	152
+org.jgrapht.experimental.permutation.PermutationFactory	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/permutation/PermutationFactory.java	0	0	0	0	98	17
+org.jgraph.plaf.basic.BasicGraphDropTargetListener	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.plaf.basic.BasicGraphTransferable	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.plaf.basic.BasicGraphUI	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.plaf.basic.BasicGraphUI$1	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$CellEditorHandler	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$ComponentHandler	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$GraphCancelEditingAction	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$GraphDropTargetListener	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$GraphEditAction	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$GraphIncrementAction	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$GraphLayoutCacheHandler	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$GraphModelHandler	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$GraphSelectAllAction	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$GraphSelectionHandler	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$KeyHandler	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$MouseInputHandler	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$PropertyChangeHandler	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineAnnotations	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineClientAdapter	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineClientAdapter12	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineClientAdapterFactory	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineException	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineInfoPart	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineInfoPart$1	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	2	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineInfoPart$CmdLineInfoPartUnversioned	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	2	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineLogMessage	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineNotificationHandler	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineNotify	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineNotify$Action	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	2	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineNotify$Status	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	2	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineNotifyAction	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineNotifyStatus	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineProperty	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineRemoteDirEntry	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineStatusComposite	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineStatusFromXml	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineStatusPart	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineStatusPart$CmdLineStatusPartFromStdout	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	2	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineStatusPart$CmdLineStatusPartFromXml	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	2	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineStatuses	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.CmdLineXmlCommand	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.CommandLine	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.CommandLine$1	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	2	0	0
+org.tigris.subversion.svnclientadapter.commandline.CommandLine$ByteStreamPumper	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	2	0	0
+org.tigris.subversion.svnclientadapter.commandline.CommandLine$CharacterStreamPumper	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	2	0	0
+org.tigris.subversion.svnclientadapter.commandline.CommandLine$StreamPumper	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	2	0	0
+org.tigris.subversion.svnclientadapter.commandline.Helper	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.SvnAdminCommandLine	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.SvnCommandLine	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.SvnCommandLine$1	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	2	0	0
+org.tigris.subversion.svnclientadapter.commandline.SvnCommandLine12	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.SvnMultiArgCommandLine	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.SvnMultiArgCommandLine$1	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	2	0	0
+junit.swingui.AboutDialog	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.swingui.AboutDialog$1	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.AboutDialog$2	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.CounterPanel	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.swingui.DefaultFailureDetailView	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.swingui.DefaultFailureDetailView$StackEntryRenderer	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.DefaultFailureDetailView$StackTraceListModel	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.FailureRunView	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.swingui.FailureRunView$1	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.FailureRunView$FailureListCellRenderer	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.ProgressBar	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.swingui.StatusLine	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.swingui.TestHierarchyRunView	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.swingui.TestHierarchyRunView$1	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestRunContext	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.swingui.TestRunView	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.swingui.TestRunner	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.swingui.TestRunner$1	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$10	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$11	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$12	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$13	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$14	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$15	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$16	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$17	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$18	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$19	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$2	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$3	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$4	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$5	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$6	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$7	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$8	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$9	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestSelector	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.swingui.TestSelector$1	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestSelector$2	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestSelector$3	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestSelector$4	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestSelector$DoubleClickListener	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestSelector$KeySelectListener	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestSelector$ParallelSwapper	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestSelector$TestCellRenderer	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestSuitePanel	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.swingui.TestSuitePanel$1	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestSuitePanel$TestTreeCellRenderer	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.swingui.TestTreeModel	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.framework.Assert	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.framework.AssertionFailedError	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.framework.ComparisonFailure	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.framework.Protectable	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.framework.Test	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.framework.TestCase	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.framework.TestFailure	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.framework.TestListener	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.framework.TestResult	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.framework.TestResult$1	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.framework.TestSuite	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.framework.TestSuite$1	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+org.jgrapht.util.AllUtilTests		jgrapht-0.8.1/testsrc/org/jgrapht/util/AllUtilTests.java	0	2	1	0	65	16
+org.jgrapht.util.ArrayUnenforcedSet	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/util/ArrayUnenforcedSet.java	0	0	0	0	112	40
+org.jgrapht.util.ArrayUnenforcedSet$1	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/util/ArrayUnenforcedSet.java	0	0	0	2	0	0
+org.jgrapht.util.ArrayUnenforcedSet$SetForEquality	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/util/ArrayUnenforcedSet.java	0	0	0	2	0	0
+org.jgrapht.util.FibonacciHeap	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/util/FibonacciHeap.java	0	0	0	0	611	260
+org.jgrapht.util.FibonacciHeapNode	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/util/FibonacciHeapNode.java	0	0	0	0	199	65
+org.jgrapht.util.FibonacciHeapTest		jgrapht-0.8.1/testsrc/org/jgrapht/util/FibonacciHeapTest.java	0	2	1	0	96	42
+org.jgrapht.util.MathUtil	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/util/MathUtil.java	0	0	0	0	61	12
+org.jgrapht.util.ModifiableInteger	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/util/ModifiableInteger.java	0	0	0	0	285	76
+org.jgrapht.util.PrefetchIterator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/util/PrefetchIterator.java	0	0	0	0	223	84
+org.jgrapht.util.PrefetchIterator$NextElementFunctor	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/util/PrefetchIterator.java	0	0	0	2	0	0
+org.jgrapht.util.PrefetchIteratorTest		jgrapht-0.8.1/testsrc/org/jgrapht/util/PrefetchIteratorTest.java	0	2	1	0	141	83
+org.jgrapht.util.StopWatch		jgrapht-0.8.1/testsrc/org/jgrapht/util/StopWatch.java	0	2	1	0	74	24
+org.jgrapht.util.TypeUtil	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/util/TypeUtil.java	0	0	0	0	67	9
+org.jgrapht.util.WeightCombiner	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/util/WeightCombiner.java	0	0	0	0	78	40
+org.jgrapht.util.WeightCombiner$1	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/util/WeightCombiner.java	0	0	0	2	0	0
+org.jgrapht.util.WeightCombiner$2	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/util/WeightCombiner.java	0	0	0	2	0	0
+org.jgrapht.util.WeightCombiner$3	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/util/WeightCombiner.java	0	0	0	2	0	0
+org.jgrapht.util.WeightCombiner$4	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/util/WeightCombiner.java	0	0	0	2	0	0
+org.jgrapht.util.WeightCombiner$5	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/util/WeightCombiner.java	0	0	0	2	0	0
+com.touchgraph.graphlayout.graphelements.GESUtils	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.graphelements.GraphEltSet	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.graphelements.ImmutableGraphEltSet	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.graphelements.Locality	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.graphelements.TGForEachEdge	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.graphelements.TGForEachNode	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.graphelements.TGForEachNodePair	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.graphelements.TGNodeQueue	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.graphelements.VisibleLocality	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.graphelements.VisibleLocality$1	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.graphelements.VisibleLocality$2	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+org.jgrapht.AllTests		jgrapht-0.8.1/testsrc/org/jgrapht/AllTests.java	0	2	1	0	123	44
+org.jgrapht.DirectedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/DirectedGraph.java	0	0	0	0	108	10
+org.jgrapht.EdgeFactory	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/EdgeFactory.java	0	0	0	0	66	5
+org.jgrapht.EnhancedTestCase		jgrapht-0.8.1/testsrc/org/jgrapht/EnhancedTestCase.java	0	2	1	0	91	22
+org.jgrapht.Graph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/Graph.java	0	0	0	0	431	26
+org.jgrapht.GraphHelper	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/GraphHelper.java	0	0	0	0	59	5
+org.jgrapht.GraphMapping	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/GraphMapping.java	0	0	0	0	75	6
+org.jgrapht.GraphPath	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/GraphPath.java	0	0	0	0	105	10
+org.jgrapht.Graphs	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/Graphs.java	0	0	0	0	442	163
+org.jgrapht.ListenableGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/ListenableGraph.java	0	0	0	0	90	10
+org.jgrapht.UndirectedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/UndirectedGraph.java	0	0	0	0	70	6
+org.jgrapht.VertexFactory	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/VertexFactory.java	0	0	0	0	63	5
+org.jgrapht.WeightedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/WeightedGraph.java	0	0	0	0	71	7
+org.tigris.subversion.svnclientadapter.utils.Command	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.utils.ReaderThread	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.javasvn.JavaSvnClientAdapter	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.javasvn.JavaSvnClientAdapterFactory	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.javasvn.JavaSvnPromptUserPassword	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.jgrapht.event.ConnectedComponentTraversalEvent	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/event/ConnectedComponentTraversalEvent.java	0	0	0	0	103	19
+org.jgrapht.event.EdgeTraversalEvent	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/event/EdgeTraversalEvent.java	0	0	0	0	93	17
+org.jgrapht.event.GraphChangeEvent	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/event/GraphChangeEvent.java	0	0	0	0	93	17
+org.jgrapht.event.GraphEdgeChangeEvent	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/event/GraphEdgeChangeEvent.java	0	0	0	0	118	20
+org.jgrapht.event.GraphListener	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/event/GraphListener.java	0	0	0	0	74	7
+org.jgrapht.event.GraphVertexChangeEvent	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/event/GraphVertexChangeEvent.java	0	0	0	0	119	20
+org.jgrapht.event.TraversalListener	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/event/TraversalListener.java	0	0	0	0	100	10
+org.jgrapht.event.TraversalListenerAdapter	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/event/TraversalListenerAdapter.java	0	0	0	0	93	21
+org.jgrapht.event.VertexSetListener	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/event/VertexSetListener.java	0	0	0	0	77	8
+org.jgrapht.event.VertexTraversalEvent	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/event/VertexTraversalEvent.java	0	0	0	0	93	17
+org.custommonkey.xmlunit.AbstractNodeTester	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.ComparisonController	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.CountingNodeTester	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.DetailedDiff	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.Diff	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.Difference	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.DifferenceConstants	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.DifferenceEngine	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.DifferenceEngine$1	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	2	0	0
+org.custommonkey.xmlunit.DifferenceEngine$DifferenceFoundException	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	2	0	0
+org.custommonkey.xmlunit.DifferenceListener	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.DoctypeReader	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.ElementNameAndAttributeQualifier	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.ElementNameAndTextQualifier	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.ElementNameQualifier	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.ElementQualifier	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.HTMLDocumentBuilder	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.HTMLDocumentBuilder$SwingEvent2SaxAdapter	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	2	0	0
+org.custommonkey.xmlunit.IgnoreTextAndAttributeValuesDifferenceListener	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.NodeDescriptor	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.NodeDetail	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.NodeInputStream	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.NodeTest	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.NodeTest$NodeTypeNodeFilter	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	2	0	0
+org.custommonkey.xmlunit.NodeTestException	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.NodeTester	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.Replacement	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.SimpleSerializer	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.SimpleXpathEngine	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.TolerantSaxDocumentBuilder	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.Transform	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.Validator	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.XMLAssert	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.XMLConstants	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.XMLTestCase	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.XMLUnit	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.XSLTConstants	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.XpathNodeTracker	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	-1	0	0
+org.custommonkey.xmlunit.XpathNodeTracker$1	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	2	0	0
+org.custommonkey.xmlunit.XpathNodeTracker$Int	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	2	0	0
+org.custommonkey.xmlunit.XpathNodeTracker$TrackingEntry	jgrapht-0.8.1/lib/xmlunit1.0.jar		1	1	1	2	0	0
+org.jgrapht.traverse.AbstractGraphIterator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/traverse/AbstractGraphIterator.java	0	0	0	0	217	81
+org.jgrapht.traverse.AbstractGraphIteratorTest		jgrapht-0.8.1/testsrc/org/jgrapht/traverse/AbstractGraphIteratorTest.java	0	2	1	0	235	118
+org.jgrapht.traverse.AllTraverseTests		jgrapht-0.8.1/testsrc/org/jgrapht/traverse/AllTraverseTests.java	0	2	1	0	81	18
+org.jgrapht.traverse.BreadthFirstIterator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/traverse/BreadthFirstIterator.java	0	0	0	0	130	32
+org.jgrapht.traverse.BreadthFirstIteratorTest		jgrapht-0.8.1/testsrc/org/jgrapht/traverse/BreadthFirstIteratorTest.java	0	2	1	0	84	24
+org.jgrapht.traverse.ClosestFirstIterator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/traverse/ClosestFirstIterator.java	0	0	0	0	342	136
+org.jgrapht.traverse.ClosestFirstIterator$QueueEntry	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/traverse/ClosestFirstIterator.java	0	0	0	2	0	0
+org.jgrapht.traverse.ClosestFirstIteratorTest		jgrapht-0.8.1/testsrc/org/jgrapht/traverse/ClosestFirstIteratorTest.java	0	2	1	0	129	52
+org.jgrapht.traverse.CrossComponentIterator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/traverse/CrossComponentIterator.java	0	0	0	0	570	242
+org.jgrapht.traverse.CrossComponentIterator$DirectedSpecifics	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/traverse/CrossComponentIterator.java	0	0	0	2	0	0
+org.jgrapht.traverse.CrossComponentIterator$FlyweightEdgeEvent	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/traverse/CrossComponentIterator.java	0	0	0	2	0	0
+org.jgrapht.traverse.CrossComponentIterator$FlyweightVertexEvent	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/traverse/CrossComponentIterator.java	0	0	0	2	0	0
+org.jgrapht.traverse.CrossComponentIterator$SimpleContainer	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/traverse/CrossComponentIterator.java	0	0	0	2	0	0
+org.jgrapht.traverse.CrossComponentIterator$Specifics	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/traverse/CrossComponentIterator.java	0	0	0	2	0	0
+org.jgrapht.traverse.CrossComponentIterator$UndirectedSpecifics	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/traverse/CrossComponentIterator.java	0	0	0	2	0	0
+org.jgrapht.traverse.CrossComponentIterator$VisitColor	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/traverse/CrossComponentIterator.java	0	0	0	2	0	0
+org.jgrapht.traverse.DepthFirstIterator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/traverse/DepthFirstIterator.java	0	0	0	0	223	74
+org.jgrapht.traverse.DepthFirstIteratorTest		jgrapht-0.8.1/testsrc/org/jgrapht/traverse/DepthFirstIteratorTest.java	0	2	1	0	153	81
+org.jgrapht.traverse.GraphIterator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/traverse/GraphIterator.java	0	0	0	0	114	13
+org.jgrapht.traverse.IgnoreDirectionTest		jgrapht-0.8.1/testsrc/org/jgrapht/traverse/IgnoreDirectionTest.java	0	2	1	0	92	30
+org.jgrapht.traverse.TopologicalOrderIterator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/traverse/TopologicalOrderIterator.java	0	0	0	0	279	112
+org.jgrapht.traverse.TopologicalOrderIterator$1	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/traverse/TopologicalOrderIterator.java	0	0	0	2	0	0
+org.jgrapht.traverse.TopologicalOrderIterator$LinkedListQueue	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/traverse/TopologicalOrderIterator.java	0	0	0	2	0	0
+org.jgrapht.traverse.TopologicalOrderIteratorTest		jgrapht-0.8.1/testsrc/org/jgrapht/traverse/TopologicalOrderIteratorTest.java	0	2	1	0	140	68
+org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/isomorphism/AbstractExhaustiveIsomorphismInspector.java	0	0	0	4	423	188
+org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector$1	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/isomorphism/AbstractExhaustiveIsomorphismInspector.java	0	0	0	2	0	0
+org.jgrapht.experimental.isomorphism.AbstractExhaustiveIsomorphismInspector$NextFunctor	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/isomorphism/AbstractExhaustiveIsomorphismInspector.java	0	0	0	2	0	0
+org.jgrapht.experimental.isomorphism.AdaptiveIsomorphismInspectorFactory	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/isomorphism/AdaptiveIsomorphismInspectorFactory.java	0	0	0	0	268	124
+org.jgrapht.experimental.isomorphism.EdgeTopologyCompare		jgrapht-0.8.1/testsrc/org/jgrapht/experimental/isomorphism/EdgeTopologyCompare.java	0	2	1	0	70	14
+org.jgrapht.experimental.isomorphism.EquivalenceIsomorphismInspector	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/isomorphism/EquivalenceIsomorphismInspector.java	0	0	0	4	325	134
+org.jgrapht.experimental.isomorphism.GraphIsomorphismInspector	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/isomorphism/GraphIsomorphismInspector.java	0	0	0	0	95	7
+org.jgrapht.experimental.isomorphism.GraphOrdering	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/isomorphism/GraphOrdering.java	0	0	0	0	232	99
+org.jgrapht.experimental.isomorphism.GraphOrdering$LabelsEdge	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/isomorphism/GraphOrdering.java	0	0	0	2	0	0
+org.jgrapht.experimental.isomorphism.IntegerVertexFactory		jgrapht-0.8.1/testsrc/org/jgrapht/experimental/isomorphism/IntegerVertexFactory.java	0	2	1	0	87	20
+org.jgrapht.experimental.isomorphism.IsomorphismInspectorTest		jgrapht-0.8.1/testsrc/org/jgrapht/experimental/isomorphism/IsomorphismInspectorTest.java	0	2	1	0	640	461
+org.jgrapht.experimental.isomorphism.IsomorphismRelation	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/isomorphism/IsomorphismRelation.java	0	0	0	0	151	65
+org.jgrapht.experimental.isomorphism.PermutationIsomorphismInspector	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/isomorphism/PermutationIsomorphismInspector.java	0	0	0	4	148	51
+org.jgrapht.experimental.isomorphism.VertexDegreeEquivalenceComparator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/isomorphism/VertexDegreeEquivalenceComparator.java	0	0	0	0	178	68
+org.jgrapht.experimental.isomorphism.VertexDegreeEquivalenceComparator$InOutDegrees	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/isomorphism/VertexDegreeEquivalenceComparator.java	0	0	0	2	0	0
+org.tigris.subversion.svnclientadapter.AbstractClientAdapter	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.AnnotateInputStream	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.Annotations	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.Annotations$Annotation	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	2	0	0
+org.tigris.subversion.svnclientadapter.ISVNAnnotations	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.ISVNClientAdapter	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.ISVNDirEntry	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.ISVNInfo	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.ISVNLock	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.ISVNLogMessage	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.ISVNLogMessageChangePath	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.ISVNNotifyListener	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.ISVNNotifyListener$Command	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	2	0	0
+org.tigris.subversion.svnclientadapter.ISVNPromptUserPassword	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.ISVNProperty	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.ISVNStatus	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.Policy	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.SVNBaseDir	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.SVNClientAdapterFactory	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.SVNClientException	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.SVNConstants	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.SVNInfoUnversioned	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.SVNKeywords	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.SVNLogMessageChangePath	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.SVNNodeKind	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.SVNNotificationHandler	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.SVNRevision	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.SVNRevision$DateSpec	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	2	0	0
+org.tigris.subversion.svnclientadapter.SVNRevision$Kind	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	2	0	0
+org.tigris.subversion.svnclientadapter.SVNRevision$Number	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	2	0	0
+org.tigris.subversion.svnclientadapter.SVNScheduleKind	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.SVNStatusKind	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.SVNStatusUnversioned	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.SVNStatusUtils	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.SVNUrl	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.SVNUrlUtils	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.StringUtils	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.jgrapht.alg.util.VertexDegreeComparator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/util/VertexDegreeComparator.java	0	0	0	0	134	36
+org.jgrapht.experimental.alg.ApproximationAlgorithm	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/alg/ApproximationAlgorithm.java	0	0	0	0	17	8
+org.jgrapht.experimental.alg.ExactAlgorithm	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/alg/ExactAlgorithm.java	0	0	0	0	13	6
+org.jgrapht.experimental.alg.IntArrayGraphAlgorithm	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/alg/IntArrayGraphAlgorithm.java	0	0	0	0	50	30
+org.jgrapht.experimental.touchgraph.SimpleTouchgraphApplet	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/touchgraph/SimpleTouchgraphApplet.java	0	0	0	0	132	56
+org.jgrapht.experimental.touchgraph.TouchgraphConverter	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/touchgraph/TouchgraphConverter.java	0	0	0	0	135	39
+org.jgrapht.experimental.touchgraph.TouchgraphPanel	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/touchgraph/TouchgraphPanel.java	0	0	0	0	166	64
+org.jgrapht.experimental.isomorphism.comparators.DirectedEdgeWeightOddEvenComparator		jgrapht-0.8.1/testsrc/org/jgrapht/experimental/isomorphism/comparators/DirectedEdgeWeightOddEvenComparator.java	0	2	1	0	110	30
+org.jgrapht.experimental.isomorphism.comparators.Mod3GroupComparator		jgrapht-0.8.1/testsrc/org/jgrapht/experimental/isomorphism/comparators/Mod3GroupComparator.java	0	2	1	0	86	22
+org.jgrapht.experimental.isomorphism.comparators.OddEvenGroupComparator		jgrapht-0.8.1/testsrc/org/jgrapht/experimental/isomorphism/comparators/OddEvenGroupComparator.java	0	2	1	0	84	22
+org.jgraph.util.Bezier	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.util.Spline	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.util.Spline2D	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.JGraph	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.JGraph$EmptySelectionModel	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.JGraph$GraphSelectionRedirector	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgrapht.experimental.alg.color.BrownBacktrackColoring	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/alg/color/BrownBacktrackColoring.java	0	0	0	0	97	70
+org.jgrapht.experimental.alg.color.GreedyColoring	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/alg/color/GreedyColoring.java	0	0	0	0	192	157
+org.jgraph.graph.AbstractCellView	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.AttributeMap	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.AttributeMap$1	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.graph.AttributeMap$SerializablePoint2D	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.graph.AttributeMap$SerializableRectangle2D	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.graph.BasicMarqueeHandler	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.CellHandle	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.CellMapper	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.CellView	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.CellViewFactory	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.CellViewRenderer	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.ConnectionSet	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.ConnectionSet$Connection	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultCellViewFactory	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.DefaultEdge	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.DefaultEdge$DefaultRouting	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultEdge$LoopRouting	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultGraphCell	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.DefaultGraphCellEditor	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.DefaultGraphCellEditor$1	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultGraphCellEditor$DefaultTextField	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultGraphCellEditor$EditorContainer	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultGraphModel	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.DefaultGraphModel$1	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultGraphModel$EmptyIterator	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultGraphModel$GraphModelEdit	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultGraphModel$GraphModelLayerEdit	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultGraphSelectionModel	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.DefaultGraphSelectionModel$CellPlaceHolder	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultPort	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.DefaultRealEditor	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.Edge	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.Edge$Routing	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.graph.EdgeRenderer	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.EdgeView	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.EdgeView$EdgeHandle	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.graph.GraphCell	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.GraphCellEditor	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.GraphConstants	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.GraphContext	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.GraphLayoutCache	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.GraphLayoutCache$1	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.graph.GraphLayoutCache$GraphLayoutCacheEdit	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.graph.GraphModel	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.GraphSelectionModel	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.GraphTransferHandler	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.GraphTransferable	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.GraphUndoManager	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.ParentMap	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.ParentMap$Entry	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+org.jgraph.graph.Port	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.PortRenderer	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.PortView	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.VertexRenderer	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.VertexView	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgraph.graph.VertexView$SizeHandle	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	2	0	0
+junit.runner.BaseTestRunner	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.runner.ClassPathTestCollector	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.runner.FailureDetailView	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.runner.LoadingTestCollector	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.runner.ReloadingTestSuiteLoader	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.runner.SimpleTestCollector	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.runner.Sorter	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.runner.Sorter$Swapper	jgrapht-0.8.1/lib/junit.jar		1	1	1	2	0	0
+junit.runner.StandardTestSuiteLoader	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.runner.TestCaseClassLoader	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.runner.TestCollector	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.runner.TestRunListener	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.runner.TestSuiteLoader	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+junit.runner.Version	jgrapht-0.8.1/lib/junit.jar		1	1	1	-1	0	0
+org.jgrapht.alg.AbstractPathElement	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/AbstractPathElement.java	0	0	0	4	202	65
+org.jgrapht.alg.AbstractPathElementList	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/AbstractPathElementList.java	0	0	0	4	185	68
+org.jgrapht.alg.AllAlgTests		jgrapht-0.8.1/testsrc/org/jgrapht/alg/AllAlgTests.java	0	2	1	0	96	32
+org.jgrapht.alg.BellmanFordIterator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/BellmanFordIterator.java	0	0	0	4	448	201
+org.jgrapht.alg.BellmanFordPathElement	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/BellmanFordPathElement.java	0	0	0	4	150	50
+org.jgrapht.alg.BellmanFordShortestPath	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/BellmanFordShortestPath.java	0	0	0	0	239	97
+org.jgrapht.alg.BellmanFordShortestPathTest		jgrapht-0.8.1/testsrc/org/jgrapht/alg/BellmanFordShortestPathTest.java	0	2	1	0	131	64
+org.jgrapht.alg.BiconnectedGraph		jgrapht-0.8.1/testsrc/org/jgrapht/alg/BiconnectedGraph.java	0	2	1	0	91	32
+org.jgrapht.alg.BiconnectivityInspector	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/BiconnectivityInspector.java	0	0	0	0	138	49
+org.jgrapht.alg.BiconnectivityInspectorTest		jgrapht-0.8.1/testsrc/org/jgrapht/alg/BiconnectivityInspectorTest.java	0	2	1	0	105	45
+org.jgrapht.alg.BlockCutpointGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/BlockCutpointGraph.java	0	0	0	0	365	199
+org.jgrapht.alg.BlockCutpointGraph$BCGEdge	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/BlockCutpointGraph.java	0	0	0	2	0	0
+org.jgrapht.alg.BlockCutpointGraph$VertexComponentForbiddenFunction	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/BlockCutpointGraph.java	0	0	0	2	0	0
+org.jgrapht.alg.BlockCutpointGraphTest		jgrapht-0.8.1/testsrc/org/jgrapht/alg/BlockCutpointGraphTest.java	0	2	1	0	143	81
+org.jgrapht.alg.BronKerboschCliqueFinder	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/BronKerboschCliqueFinder.java	0	0	0	0	198	92
+org.jgrapht.alg.BronKerboschCliqueFinderTest		jgrapht-0.8.1/testsrc/org/jgrapht/alg/BronKerboschCliqueFinderTest.java	0	2	1	0	179	90
+org.jgrapht.alg.ChromaticNumber	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/ChromaticNumber.java	0	0	0	0	128	43
+org.jgrapht.alg.ChromaticNumberTest		jgrapht-0.8.1/testsrc/org/jgrapht/alg/ChromaticNumberTest.java	0	2	1	0	97	36
+org.jgrapht.alg.ConnectivityInspector	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/ConnectivityInspector.java	0	0	0	0	302	108
+org.jgrapht.alg.ConnectivityInspector$1	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/ConnectivityInspector.java	0	0	0	2	0	0
+org.jgrapht.alg.ConnectivityInspector$MyTraversalListener	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/ConnectivityInspector.java	0	0	0	2	0	0
+org.jgrapht.alg.ConnectivityInspectorTest		jgrapht-0.8.1/testsrc/org/jgrapht/alg/ConnectivityInspectorTest.java	0	2	1	0	377	229
+org.jgrapht.alg.CycleDetector	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/CycleDetector.java	0	0	0	0	271	117
+org.jgrapht.alg.CycleDetector$1	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/CycleDetector.java	0	0	0	2	0	0
+org.jgrapht.alg.CycleDetector$CycleDetectedException	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/CycleDetector.java	0	0	0	2	0	0
+org.jgrapht.alg.CycleDetector$ProbeIterator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/CycleDetector.java	0	0	0	2	0	0
+org.jgrapht.alg.CycleDetectorTest		jgrapht-0.8.1/testsrc/org/jgrapht/alg/CycleDetectorTest.java	0	2	1	0	198	101
+org.jgrapht.alg.DijkstraShortestPath	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/DijkstraShortestPath.java	0	0	0	0	218	94
+org.jgrapht.alg.DijkstraShortestPathTest		jgrapht-0.8.1/testsrc/org/jgrapht/alg/DijkstraShortestPathTest.java	0	2	1	0	102	43
+org.jgrapht.alg.DirectedNeighborIndex	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/DirectedNeighborIndex.java	0	0	0	0	233	90
+org.jgrapht.alg.EdmondsKarpMaximumFlow	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/EdmondsKarpMaximumFlow.java	0	0	0	0	361	205
+org.jgrapht.alg.EdmondsKarpMaximumFlow$Arc	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/EdmondsKarpMaximumFlow.java	0	0	0	2	0	0
+org.jgrapht.alg.EdmondsKarpMaximumFlow$Node	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/EdmondsKarpMaximumFlow.java	0	0	0	2	0	0
+org.jgrapht.alg.EdmondsKarpMaximumFlowTest		jgrapht-0.8.1/testsrc/org/jgrapht/alg/EdmondsKarpMaximumFlowTest.java	0	2	1	0	254	200
+org.jgrapht.alg.EulerianCircuit	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/EulerianCircuit.java	0	0	0	0	148	56
+org.jgrapht.alg.EulerianCircuitTest		jgrapht-0.8.1/testsrc/org/jgrapht/alg/EulerianCircuitTest.java	0	2	1	0	101	39
+org.jgrapht.alg.FloydWarshallShortestPaths	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/FloydWarshallShortestPaths.java	0	0	0	0	143	58
+org.jgrapht.alg.FloydWarshallShortestPathsTest		jgrapht-0.8.1/testsrc/org/jgrapht/alg/FloydWarshallShortestPathsTest.java	0	2	1	0	130	68
+org.jgrapht.alg.HamiltonianCycle	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/HamiltonianCycle.java	0	0	0	0	120	39
+org.jgrapht.alg.HamiltonianCycleTest		jgrapht-0.8.1/testsrc/org/jgrapht/alg/HamiltonianCycleTest.java	0	2	1	0	95	33
+org.jgrapht.alg.KSPExampleGraph		jgrapht-0.8.1/testsrc/org/jgrapht/alg/KSPExampleGraph.java	0	2	1	0	123	51
+org.jgrapht.alg.KSPExampleTest		jgrapht-0.8.1/testsrc/org/jgrapht/alg/KSPExampleTest.java	0	2	1	0	88	34
+org.jgrapht.alg.KShortestPathCompleteGraph4		jgrapht-0.8.1/testsrc/org/jgrapht/alg/KShortestPathCompleteGraph4.java	0	2	1	0	109	42
+org.jgrapht.alg.KShortestPathCompleteGraph5		jgrapht-0.8.1/testsrc/org/jgrapht/alg/KShortestPathCompleteGraph5.java	0	2	1	0	127	55
+org.jgrapht.alg.KShortestPathCompleteGraph6		jgrapht-0.8.1/testsrc/org/jgrapht/alg/KShortestPathCompleteGraph6.java	0	2	1	0	156	71
+org.jgrapht.alg.KShortestPathCostTest		jgrapht-0.8.1/testsrc/org/jgrapht/alg/KShortestPathCostTest.java	0	2	1	0	183	112
+org.jgrapht.alg.KShortestPathKValuesTest		jgrapht-0.8.1/testsrc/org/jgrapht/alg/KShortestPathKValuesTest.java	0	2	1	0	161	88
+org.jgrapht.alg.KShortestPaths	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/KShortestPaths.java	0	0	0	0	266	123
+org.jgrapht.alg.KShortestPaths$PathWrapper	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/KShortestPaths.java	0	0	0	2	0	0
+org.jgrapht.alg.KShortestPathsIterator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/KShortestPathsIterator.java	0	0	0	4	362	156
+org.jgrapht.alg.NeighborIndex	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/NeighborIndex.java	0	0	0	0	262	123
+org.jgrapht.alg.NeighborIndex$Neighbors	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/NeighborIndex.java	0	0	0	2	0	0
+org.jgrapht.alg.NeighborIndexTest		jgrapht-0.8.1/testsrc/org/jgrapht/alg/NeighborIndexTest.java	0	2	1	0	150	69
+org.jgrapht.alg.NotBiconnectedGraph		jgrapht-0.8.1/testsrc/org/jgrapht/alg/NotBiconnectedGraph.java	0	2	1	0	91	32
+org.jgrapht.alg.Picture1Graph		jgrapht-0.8.1/testsrc/org/jgrapht/alg/Picture1Graph.java	0	2	1	0	147	67
+org.jgrapht.alg.RankingPathElement	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/RankingPathElement.java	0	0	0	4	115	29
+org.jgrapht.alg.RankingPathElementList	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/RankingPathElementList.java	0	0	0	4	316	172
+org.jgrapht.alg.ShortestPathTestCase		jgrapht-0.8.1/testsrc/org/jgrapht/alg/ShortestPathTestCase.java	0	2	1	0	161	81
+org.jgrapht.alg.StrongConnectivityInspector	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/StrongConnectivityInspector.java	0	0	0	0	393	206
+org.jgrapht.alg.StrongConnectivityInspector$1	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/StrongConnectivityInspector.java	0	0	0	2	0	0
+org.jgrapht.alg.StrongConnectivityInspector$VertexData	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/StrongConnectivityInspector.java	0	0	0	2	0	0
+org.jgrapht.alg.StrongConnectivityInspector$VertexData1	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/StrongConnectivityInspector.java	0	0	0	2	0	0
+org.jgrapht.alg.StrongConnectivityInspector$VertexData2	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/StrongConnectivityInspector.java	0	0	0	2	0	0
+org.jgrapht.alg.TransitiveClosure	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/TransitiveClosure.java	0	0	0	0	138	50
+org.jgrapht.alg.TransitiveClosureTest		jgrapht-0.8.1/testsrc/org/jgrapht/alg/TransitiveClosureTest.java	0	2	1	0	120	64
+org.jgrapht.alg.VertexCovers	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/alg/VertexCovers.java	0	0	0	0	157	40
+org.jgrapht.alg.VertexCoversTest		jgrapht-0.8.1/testsrc/org/jgrapht/alg/VertexCoversTest.java	0	2	1	0	151	57
+org.tigris.subversion.svnclientadapter.commandline.parser.SvnActionRE	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.commandline.parser.SvnOutputParser	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.jgraph.plaf.GraphUI	jgrapht-0.8.1/lib/jgraph.jar		1	1	1	-1	0	0
+org.jgrapht.demo.CompleteGraphDemo	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/demo/CompleteGraphDemo.java	0	0	0	0	128	62
+org.jgrapht.demo.HelloJGraphT	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/demo/HelloJGraphT.java	0	0	0	0	145	53
+org.jgrapht.demo.JGraphAdapterDemo	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/demo/JGraphAdapterDemo.java	0	0	0	0	203	97
+org.jgrapht.demo.JGraphAdapterDemo$ListenableDirectedMultigraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/demo/JGraphAdapterDemo.java	0	0	0	2	0	0
+org.jgrapht.demo.PerformanceDemo	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/demo/PerformanceDemo.java	0	0	0	0	164	74
+org.jgrapht.experimental.equivalence.EquivalenceComparator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/equivalence/EquivalenceComparator.java	0	0	0	0	93	10
+org.jgrapht.experimental.equivalence.EquivalenceComparatorChain	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/equivalence/EquivalenceComparatorChain.java	0	0	0	0	71	6
+org.jgrapht.experimental.equivalence.EquivalenceComparatorChainBase	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/equivalence/EquivalenceComparatorChainBase.java	0	0	0	0	167	61
+org.jgrapht.experimental.equivalence.EquivalenceGroupCreatorTest		jgrapht-0.8.1/testsrc/org/jgrapht/experimental/equivalence/EquivalenceGroupCreatorTest.java	0	2	1	0	170	72
+org.jgrapht.experimental.equivalence.EquivalenceSet	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/equivalence/EquivalenceSet.java	0	0	0	0	215	84
+org.jgrapht.experimental.equivalence.EquivalenceSetCreator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/equivalence/EquivalenceSetCreator.java	0	0	0	0	261	109
+org.jgrapht.experimental.equivalence.EquivalenceSetCreator$1	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/equivalence/EquivalenceSetCreator.java	0	0	0	2	0	0
+org.jgrapht.experimental.equivalence.EquivalenceSetCreator$EqGroupSizeComparator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/equivalence/EquivalenceSetCreator.java	0	0	0	2	0	0
+org.jgrapht.experimental.equivalence.UniformEquivalenceComparator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/equivalence/UniformEquivalenceComparator.java	0	0	0	0	80	17
+org.jgrapht.graph.AbstractBaseGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/AbstractBaseGraph.java	0	0	0	0	1222	624
+org.jgrapht.graph.AbstractBaseGraph$1	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/AbstractBaseGraph.java	0	0	0	2	0	0
+org.jgrapht.graph.AbstractBaseGraph$ArrayListFactory	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/AbstractBaseGraph.java	0	0	0	2	0	0
+org.jgrapht.graph.AbstractBaseGraph$DirectedEdgeContainer	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/AbstractBaseGraph.java	0	0	0	2	0	0
+org.jgrapht.graph.AbstractBaseGraph$DirectedSpecifics	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/AbstractBaseGraph.java	0	0	0	2	0	0
+org.jgrapht.graph.AbstractBaseGraph$Specifics	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/AbstractBaseGraph.java	0	0	0	2	0	0
+org.jgrapht.graph.AbstractBaseGraph$UndirectedEdgeContainer	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/AbstractBaseGraph.java	0	0	0	2	0	0
+org.jgrapht.graph.AbstractBaseGraph$UndirectedSpecifics	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/AbstractBaseGraph.java	0	0	0	2	0	0
+org.jgrapht.graph.AbstractGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/AbstractGraph.java	0	0	0	0	231	93
+org.jgrapht.graph.AllGraphTests		jgrapht-0.8.1/testsrc/org/jgrapht/graph/AllGraphTests.java	0	2	1	0	85	21
+org.jgrapht.graph.AsUndirectedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/AsUndirectedGraph.java	0	0	0	0	209	74
+org.jgrapht.graph.AsUndirectedGraphTest		jgrapht-0.8.1/testsrc/org/jgrapht/graph/AsUndirectedGraphTest.java	0	2	1	0	190	93
+org.jgrapht.graph.AsUnweightedDirectedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/AsUnweightedDirectedGraph.java	0	0	0	0	100	18
+org.jgrapht.graph.AsUnweightedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/AsUnweightedGraph.java	0	0	0	0	100	17
+org.jgrapht.graph.AsUnweightedGraphTest		jgrapht-0.8.1/testsrc/org/jgrapht/graph/AsUnweightedGraphTest.java	0	2	1	0	143	70
+org.jgrapht.graph.AsWeightedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/AsWeightedGraph.java	0	0	0	0	147	37
+org.jgrapht.graph.AsWeightedGraphTest		jgrapht-0.8.1/testsrc/org/jgrapht/graph/AsWeightedGraphTest.java	0	2	1	0	146	73
+org.jgrapht.graph.ClassBasedEdgeFactory	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/ClassBasedEdgeFactory.java	0	0	0	0	91	22
+org.jgrapht.graph.ClassBasedVertexFactory	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/ClassBasedVertexFactory.java	0	0	0	0	79	19
+org.jgrapht.graph.CloneTest		jgrapht-0.8.1/testsrc/org/jgrapht/graph/CloneTest.java	0	2	1	0	141	63
+org.jgrapht.graph.DefaultDirectedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/DefaultDirectedGraph.java	0	0	0	0	86	16
+org.jgrapht.graph.DefaultDirectedGraphTest		jgrapht-0.8.1/testsrc/org/jgrapht/graph/DefaultDirectedGraphTest.java	0	2	1	0	213	107
+org.jgrapht.graph.DefaultDirectedWeightedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/DefaultDirectedWeightedGraph.java	0	0	0	0	85	16
+org.jgrapht.graph.DefaultEdge	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/DefaultEdge.java	0	0	0	0	91	19
+org.jgrapht.graph.DefaultGraphMapping	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/DefaultGraphMapping.java	0	0	0	0	135	60
+org.jgrapht.graph.DefaultListenableGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/DefaultListenableGraph.java	0	0	0	0	511	240
+org.jgrapht.graph.DefaultListenableGraph$FlyweightEdgeEvent	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/DefaultListenableGraph.java	0	0	0	2	0	0
+org.jgrapht.graph.DefaultListenableGraph$FlyweightVertexEvent	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/DefaultListenableGraph.java	0	0	0	2	0	0
+org.jgrapht.graph.DefaultWeightedEdge	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/DefaultWeightedEdge.java	0	0	0	0	77	12
+org.jgrapht.graph.DirectedGraphUnion	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/DirectedGraphUnion.java	0	0	0	0	71	53
+org.jgrapht.graph.DirectedMaskSubgraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/DirectedMaskSubgraph.java	0	0	0	0	64	13
+org.jgrapht.graph.DirectedMultigraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/DirectedMultigraph.java	0	0	0	0	82	16
+org.jgrapht.graph.DirectedPseudograph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/DirectedPseudograph.java	0	0	0	0	80	16
+org.jgrapht.graph.DirectedSubgraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/DirectedSubgraph.java	0	0	0	0	158	61
+org.jgrapht.graph.DirectedWeightedMultigraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/DirectedWeightedMultigraph.java	0	0	0	0	84	16
+org.jgrapht.graph.DirectedWeightedSubgraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/DirectedWeightedSubgraph.java	0	0	0	0	83	16
+org.jgrapht.graph.EdgeReversedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/EdgeReversedGraph.java	0	0	0	0	187	64
+org.jgrapht.graph.EdgeSetFactory	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/EdgeSetFactory.java	0	0	0	0	73	6
+org.jgrapht.graph.GenericGraphsTest		jgrapht-0.8.1/testsrc/org/jgrapht/graph/GenericGraphsTest.java	0	2	1	0	250	161
+org.jgrapht.graph.GraphDelegator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/GraphDelegator.java	0	0	0	0	298	116
+org.jgrapht.graph.GraphPathImpl	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/GraphPathImpl.java	0	0	0	0	122	49
+org.jgrapht.graph.GraphUnion	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/GraphUnion.java	0	0	0	0	250	167
+org.jgrapht.graph.IntrusiveEdge	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/IntrusiveEdge.java	0	0	0	4	82	18
+org.jgrapht.graph.ListenableDirectedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/ListenableDirectedGraph.java	0	0	0	0	83	16
+org.jgrapht.graph.ListenableDirectedWeightedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/ListenableDirectedWeightedGraph.java	0	0	0	0	84	16
+org.jgrapht.graph.ListenableGraphTest		jgrapht-0.8.1/testsrc/org/jgrapht/graph/ListenableGraphTest.java	0	2	1	0	250	123
+org.jgrapht.graph.ListenableUndirectedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/ListenableUndirectedGraph.java	0	0	0	0	83	16
+org.jgrapht.graph.ListenableUndirectedWeightedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/ListenableUndirectedWeightedGraph.java	0	0	0	0	85	16
+org.jgrapht.graph.MaskEdgeSet	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/MaskEdgeSet.java	0	0	0	4	149	70
+org.jgrapht.graph.MaskEdgeSet$MaskEdgeSetNextElementFunctor	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/MaskEdgeSet.java	0	0	0	2	0	0
+org.jgrapht.graph.MaskFunctor	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/MaskFunctor.java	0	0	0	0	72	6
+org.jgrapht.graph.MaskSubgraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/MaskSubgraph.java	0	0	0	0	298	149
+org.jgrapht.graph.MaskVertexSet	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/MaskVertexSet.java	0	0	0	4	134	57
+org.jgrapht.graph.MaskVertexSet$MaskVertexSetNextElementFunctor	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/MaskVertexSet.java	0	0	0	2	0	0
+org.jgrapht.graph.Multigraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/Multigraph.java	0	0	0	0	85	16
+org.jgrapht.graph.ParanoidGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/ParanoidGraph.java	0	0	0	0	110	38
+org.jgrapht.graph.Pseudograph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/Pseudograph.java	0	0	0	0	84	16
+org.jgrapht.graph.SerializationTest		jgrapht-0.8.1/testsrc/org/jgrapht/graph/SerializationTest.java	0	2	1	0	120	51
+org.jgrapht.graph.SimpleDirectedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/SimpleDirectedGraph.java	0	0	0	0	82	16
+org.jgrapht.graph.SimpleDirectedGraphTest		jgrapht-0.8.1/testsrc/org/jgrapht/graph/SimpleDirectedGraphTest.java	0	2	1	0	502	305
+org.jgrapht.graph.SimpleDirectedWeightedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/SimpleDirectedWeightedGraph.java	0	0	0	0	83	16
+org.jgrapht.graph.SimpleGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/SimpleGraph.java	0	0	0	0	85	16
+org.jgrapht.graph.SimpleWeightedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/SimpleWeightedGraph.java	0	0	0	0	82	16
+org.jgrapht.graph.Subgraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/Subgraph.java	0	0	0	0	542	246
+org.jgrapht.graph.Subgraph$1	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/Subgraph.java	0	0	0	2	0	0
+org.jgrapht.graph.Subgraph$BaseGraphListener	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/Subgraph.java	0	0	0	2	0	0
+org.jgrapht.graph.SubgraphTest		jgrapht-0.8.1/testsrc/org/jgrapht/graph/SubgraphTest.java	0	2	1	0	174	87
+org.jgrapht.graph.UndirectedGraphUnion	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/UndirectedGraphUnion.java	0	0	0	0	43	28
+org.jgrapht.graph.UndirectedMaskSubgraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/UndirectedMaskSubgraph.java	0	0	0	0	64	13
+org.jgrapht.graph.UndirectedSubgraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/UndirectedSubgraph.java	0	0	0	0	106	30
+org.jgrapht.graph.UndirectedWeightedSubgraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/UndirectedWeightedSubgraph.java	0	0	0	0	82	16
+org.jgrapht.graph.UnmodifiableDirectedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/UnmodifiableDirectedGraph.java	0	0	0	0	74	12
+org.jgrapht.graph.UnmodifiableGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/UnmodifiableGraph.java	0	0	0	0	164	51
+org.jgrapht.graph.UnmodifiableUndirectedGraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/UnmodifiableUndirectedGraph.java	0	0	0	0	74	12
+org.jgrapht.graph.WeightedMultigraph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/WeightedMultigraph.java	0	0	0	0	85	16
+org.jgrapht.graph.WeightedPseudograph	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/graph/WeightedPseudograph.java	0	0	0	0	85	16
+org.jgrapht.generate.AllGenerateTests		jgrapht-0.8.1/testsrc/org/jgrapht/generate/AllGenerateTests.java	0	2	1	0	78	15
+org.jgrapht.generate.CompleteBipartiteGraphGenerator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/generate/CompleteBipartiteGraphGenerator.java	0	0	0	0	119	43
+org.jgrapht.generate.CompleteGraphGenerator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/generate/CompleteGraphGenerator.java	0	0	0	0	139	43
+org.jgrapht.generate.EmptyGraphGenerator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/generate/EmptyGraphGenerator.java	0	0	0	0	95	24
+org.jgrapht.generate.GraphGenerator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/generate/GraphGenerator.java	0	0	0	0	80	10
+org.jgrapht.generate.GraphGeneratorTest		jgrapht-0.8.1/testsrc/org/jgrapht/generate/GraphGeneratorTest.java	0	2	1	0	295	175
+org.jgrapht.generate.HyperCubeGraphGenerator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/generate/HyperCubeGraphGenerator.java	0	0	0	0	118	42
+org.jgrapht.generate.LinearGraphGenerator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/generate/LinearGraphGenerator.java	0	0	0	0	124	39
+org.jgrapht.generate.RandomGraphGenerator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/generate/RandomGraphGenerator.java	0	0	0	0	375	140
+org.jgrapht.generate.RandomGraphGenerator$DefaultEdgeTopologyFactory	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/generate/RandomGraphGenerator.java	0	0	0	2	0	0
+org.jgrapht.generate.RandomGraphGenerator$EdgeTopologyFactory	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/generate/RandomGraphGenerator.java	0	0	0	2	0	0
+org.jgrapht.generate.RandomGraphGeneratorTest		jgrapht-0.8.1/testsrc/org/jgrapht/generate/RandomGraphGeneratorTest.java	0	2	1	0	136	62
+org.jgrapht.generate.RingGraphGenerator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/generate/RingGraphGenerator.java	0	0	0	0	106	31
+org.jgrapht.generate.ScaleFreeGraphGenerator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/generate/ScaleFreeGraphGenerator.java	0	0	0	0	154	67
+org.jgrapht.generate.StarGraphGenerator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/generate/StarGraphGenerator.java	0	0	0	0	116	38
+org.jgrapht.generate.WheelGraphGenerator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/generate/WheelGraphGenerator.java	0	0	0	0	155	56
+org.jgrapht.generate.WheelGraphGenerator$1	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/generate/WheelGraphGenerator.java	0	0	0	2	0	0
+com.touchgraph.graphlayout.Edge	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.GLPanel	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.GLPanel$1	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.GLPanel$1$radioItemListener	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.GLPanel$2	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.GLPanel$3	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.GraphLayoutApplet	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.GraphListener	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.LocalityUtils	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.LocalityUtils$1	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.LocalityUtils$2	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.LocalityUtils$3	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.LocalityUtils$4	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.LocalityUtils$5	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.LocalityUtils$6	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.LocalityUtils$ShiftLocaleThread	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.Node	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.TGAbstractLens	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.TGException	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.TGLayout	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.TGLayout$1	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.TGLayout$2	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.TGLayout$3	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.TGLensSet	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.TGPaintListener	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.TGPanel	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+com.touchgraph.graphlayout.TGPanel$1	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.TGPanel$2	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.TGPanel$3	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.TGPanel$4	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.TGPanel$5	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.TGPanel$6	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.TGPanel$7	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.TGPanel$8	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.TGPanel$AdjustOriginLens	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.TGPanel$BasicMouseListener	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.TGPanel$BasicMouseMotionListener	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.TGPanel$SwitchSelectUI	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	2	0	0
+com.touchgraph.graphlayout.TGPoint2D	jgrapht-0.8.1/lib/TGGraphLayout.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.javahl.AbstractJhlClientAdapter$DefaultPromptUserPassword	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	2	0	0
+org.tigris.subversion.svnclientadapter.javahl.JhlAnnotations	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.javahl.JhlClientAdapter	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.javahl.JhlClientAdapterFactory	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.javahl.JhlConverter	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.javahl.JhlDirEntry	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.javahl.JhlInfo	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.javahl.JhlInfo2	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.javahl.JhlLock	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.javahl.JhlLogMessage	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.javahl.JhlNotificationHandler	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.javahl.JhlPromptUserPassword	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.javahl.JhlPropertyData	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.tigris.subversion.svnclientadapter.javahl.JhlStatus	jgrapht-0.8.1/lib/svnClientAdapter.jar		1	1	1	-1	0	0
+org.jgrapht.experimental.GraphReader	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/GraphReader.java	0	0	0	0	174	97
+org.jgrapht.experimental.GraphReader$1	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/GraphReader.java	0	0	0	2	0	0
+org.jgrapht.experimental.GraphReader$IntVertexFactory	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/GraphReader.java	0	0	0	2	0	0
+org.jgrapht.experimental.GraphSquare	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/GraphSquare.java	0	0	0	0	219	109
+org.jgrapht.experimental.GraphSquare$1	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/GraphSquare.java	0	0	0	2	0	0
+org.jgrapht.experimental.GraphTests	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/GraphTests.java	0	0	0	0	118	94
+org.jgrapht.experimental.PartiteRandomGraphGenerator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/PartiteRandomGraphGenerator.java	0	0	0	0	171	71
+org.jgrapht.experimental.RandomGraphHelper	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/RandomGraphHelper.java	0	0	0	0	126	44
+org.jgrapht.experimental.UniformRandomGraphGenerator	jgrapht-0.8.1/jgrapht-jdk1.6.jar	jgrapht-0.8.1/src/org/jgrapht/experimental/UniformRandomGraphGenerator.java	0	0	0	0	115	39
+#Issues
+#======
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgrapht/jgrapht-0.8.1/src/jgrapht-0.8.1/jgrapht-jdk1.6.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgrapht/jgrapht-0.8.1/src/jgrapht-0.8.1/lib/TGGraphLayout.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgrapht/jgrapht-0.8.1/src/jgrapht-0.8.1/lib/jgraph.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgrapht/jgrapht-0.8.1/src/jgrapht-0.8.1/lib/junit.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgrapht/jgrapht-0.8.1/src/jgrapht-0.8.1/lib/svnClientAdapter.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgrapht/jgrapht-0.8.1/src/jgrapht-0.8.1/lib/svnant.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgrapht/jgrapht-0.8.1/src/jgrapht-0.8.1/lib/xmlunit1.0.jar in <src> ignored.
+#SRC NO PUBLIC TYPE for jgrapht-0.8.1/src/org/jgrapht/alg/AbstractPathElement.java.
+#SRC NO PUBLIC TYPE for jgrapht-0.8.1/src/org/jgrapht/alg/AbstractPathElementList.java.
+#SRC NO PUBLIC TYPE for jgrapht-0.8.1/src/org/jgrapht/alg/BellmanFordIterator.java.
+#SRC NO PUBLIC TYPE for jgrapht-0.8.1/src/org/jgrapht/alg/BellmanFordPathElement.java.
+#SRC NO PUBLIC TYPE for jgrapht-0.8.1/src/org/jgrapht/alg/KShortestPathsIterator.java.
+#SRC NO PUBLIC TYPE for jgrapht-0.8.1/src/org/jgrapht/alg/RankingPathElement.java.
+#SRC NO PUBLIC TYPE for jgrapht-0.8.1/src/org/jgrapht/alg/RankingPathElementList.java.
+#SRC NO PUBLIC TYPE for jgrapht-0.8.1/src/org/jgrapht/experimental/isomorphism/AbstractExhaustiveIsomorphismInspector.java.
+#SRC NO PUBLIC TYPE for jgrapht-0.8.1/src/org/jgrapht/experimental/isomorphism/EquivalenceIsomorphismInspector.java.
+#SRC NO PUBLIC TYPE for jgrapht-0.8.1/src/org/jgrapht/experimental/isomorphism/PermutationIsomorphismInspector.java.
+#SRC NO PUBLIC TYPE for jgrapht-0.8.1/src/org/jgrapht/graph/IntrusiveEdge.java.
+#SRC NO PUBLIC TYPE for jgrapht-0.8.1/src/org/jgrapht/graph/MaskEdgeSet.java.
+#SRC NO PUBLIC TYPE for jgrapht-0.8.1/src/org/jgrapht/graph/MaskVertexSet.java.

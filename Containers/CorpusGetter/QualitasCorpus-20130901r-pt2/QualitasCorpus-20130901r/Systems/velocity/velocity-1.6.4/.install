@@ -1,0 +1,33 @@
+#!/usr/bin/perl -w
+
+use strict;
+
+if ($ARGV[0] eq "-list") {
+	my @list = list_names($ARGV[1]);
+	printf("@list");
+} elsif ($ARGV[0] eq "-reduced") {
+	my $destination = $ARGV[1];
+	install_reduced($destination);
+} else {
+	my $destination = $ARGV[0];
+	install_reduced($destination);
+}
+
+sub install_reduced {
+	my ($corpusdir) = @_;
+	my $src = "velocity-1.6.4.tar.gz";
+	my $bin = "velocity-1.6.4.tar.gz";
+	my @files = ("velocity-1.6.4/test/cpload/test1.jar","velocity-1.6.4/lib/avalon-logkit-2.1.jar","velocity-1.6.4/lib/test/hsqldb-1.7.1.jar","velocity-1.6.4/velocity-1.6.4.jar","velocity-1.6.4/test/cpload/test2.jar","velocity-1.6.4/lib/antlr-2.7.5.jar","velocity-1.6.4/test/texen-classpath/test.jar","velocity-1.6.4/lib/commons-collections-3.2.1.jar","velocity-1.6.4/lib/maven-ant-tasks-2.0.9.jar","velocity-1.6.4/lib/test/junit-3.8.1.jar","velocity-1.6.4/lib/commons-logging-1.1.jar","velocity-1.6.4/lib/commons-lang-2.4.jar","velocity-1.6.4/lib/oro-2.0.8.jar","velocity-1.6.4/lib/werken-xpath-0.9.4.jar","velocity-1.6.4/lib/servletapi-2.3.jar","velocity-1.6.4/velocity-1.6.4-dep.jar","velocity-1.6.4/lib/log4j-1.2.12.jar","velocity-1.6.4/lib/jdom-1.0.jar");
+	printf("\t\t unpacking $src\n");
+	system("tar zxf $corpusdir/compressed/$src -C $corpusdir/src\n") == 0 or die "Failed to extract $src\n";
+	printf("\t\t unpacking $bin\n");
+	system("tar zxf $corpusdir/compressed/$bin -C $corpusdir/bin @files\n") == 0 or die "Failed to extract $bin\n";
+}
+
+sub list_names {
+	my ($appverdir) = @_;
+	opendir(COMPRESSED, "$appverdir/compressed") || die "can't open $appverdir/compressed: $!";
+	my @archives = grep {! /^\.$/ and ! /^\.\.$/ } readdir(COMPRESSED);
+	close(COMPRESSED);
+	return @archives;
+}

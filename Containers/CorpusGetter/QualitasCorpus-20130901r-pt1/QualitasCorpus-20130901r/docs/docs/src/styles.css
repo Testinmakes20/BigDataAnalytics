@@ -1,0 +1,151 @@
+body {
+    color:#000000;
+    background-color:#f1f1f1;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2cm;
+}
+
+h1 {
+    text-align:center;
+}
+
+dt {
+    font-weight: bold;
+}
+
+<!-- what's below probably isn't interesting -->
+
+
+table, input, textarea
+{
+font-size: 100%;
+}
+
+table.ex
+{
+color:#000000;
+background-color:#f1f1f1;
+font-size: 100%;
+padding:0px;
+}
+
+table.tip
+{
+color:#000000;
+background-color:#ffffff;
+font-size: 100%;
+border:1px solid;
+}
+
+table.db
+{
+color:#000000;
+background-color:#ffffff;
+font-size:100%;
+}
+
+table.codex
+{
+font-size: 80%;
+color:#000000;
+background-color:#FFFF88;
+border:1px solid;
+font-family:Courier,monospace;
+}
+
+th.db
+{
+color:#000000;
+background-color:#f1f1f1;
+}
+
+div.eg {
+background-color:#F00000;
+width:100%;
+}
+div.code {
+background-color:#00F0F0;
+width:100%;
+margin:10px;
+}
+
+h2.home
+{
+margin-top:0px;
+margin-bottom:5px;
+font-size:120%;
+padding-top:1px;
+padding-bottom:1px;
+padding-left:1px;
+color:#900B09;
+background-color:#ffffff;
+}
+
+h2.tutheader
+{
+margin-top:0px;
+margin-bottom:5px;
+font-size:110%;
+padding-top:0px;
+padding-bottom:1px;
+padding-left:4px;
+color:#ffffff;
+background-color:#808080;
+}
+
+h2.right
+{
+text-align:center;
+font-size:100%;
+margin-top:0px;
+margin-bottom:0px;
+padding-top:0px;
+padding-bottom:2px;
+padding-left:0px;
+color:#ffffff;
+background-color:#808080;
+}
+
+table.right
+{
+color:#000000;
+background-color:#ffffff;
+border:2px ridge;
+margin-bottom:1px;
+}
+
+th.right
+{
+color:#ffffff;
+background-color:#808080;
+padding-bottom:2px;
+}
+
+td.right
+{
+color:#000000;
+background-color:#FFFFFF;
+padding-top:3px;
+padding-bottom:6px;
+}
+
+div.w3left {color:#900B09;background-color:#f1f1f1;}
+
+td.content {color:#900B09;background-color:#f1f1f1;}
+td.deprecated {color: #FF0000;background-color:transparent}
+td.red {color: #FF0000;background-color:transparent;}
+p.red {color: #FF0000;background-color:transparent;}
+
+pre.code
+{
+font-size: 90%;
+color:#000000;
+background-color:#FFFF88;
+border:1px solid;
+font-family:"Courier New",monospace;
+padding-top:3px;
+padding-bottom:3px;
+padding-left:6px;
+padding-right:6px;
+}

@@ -1,0 +1,41 @@
+#!/usr/bin/perl -w
+# Created by Ewan (modified from a standard .install), because this
+# uses a .war file
+
+use strict;
+
+if ($ARGV[0] eq "-list") {
+	my @list = list_names($ARGV[1]);
+	printf("@list");
+} elsif ($ARGV[0] eq "-reduced") {
+	my $destination = $ARGV[1];
+	install_reduced($destination);
+} else {
+	my $destination = $ARGV[0];
+	install_reduced($destination);
+}
+
+sub install_reduced {
+	my ($corpusdir) = @_;
+	my $src = "JSPWiki-2.8.4-src.zip";
+	printf("\t\t unpacking $src\n");
+	system("unzip -qo $corpusdir/compressed/$src -d $corpusdir/src\n") == 0 or die "Failed to extract $src\n";
+
+	my $bin = "JSPWiki-2.8.4-bin.zip";
+	my $file = "JSPWiki/JSPWiki.war";
+	printf("\t\t unpacking $bin\n");
+	system("unzip -qo $corpusdir/compressed/$bin $file -d $corpusdir/bin\n") == 0 or die "Failed to extract $file\n";
+
+	my @files = ("WEB-INF/lib/JSPWiki.jar");
+	system("unzip -qo $corpusdir/bin/$file -d $corpusdir/bin @files\n") == 0 or die "Failed to extract @files\n";
+	system("/bin/rm $corpusdir/bin/$file\n");
+	system("/bin/rm -rf $corpusdir/bin/JSPWiki\n");
+}
+
+sub list_names {
+	my ($appverdir) = @_;
+	opendir(COMPRESSED, "$appverdir/compressed") || die "can't open $appverdir/compressed: $!";
+	my @archives = grep {! /^\.$/ and ! /^\.\.$/ } readdir(COMPRESSED);
+	close(COMPRESSED);
+	return @archives;
+}

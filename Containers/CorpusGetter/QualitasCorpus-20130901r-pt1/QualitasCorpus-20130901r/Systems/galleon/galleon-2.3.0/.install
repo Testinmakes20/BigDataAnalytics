@@ -1,0 +1,33 @@
+#!/usr/bin/perl -w
+
+use strict;
+
+if ($ARGV[0] eq "-list") {
+	my @list = list_names($ARGV[1]);
+	printf("@list");
+} elsif ($ARGV[0] eq "-reduced") {
+	my $destination = $ARGV[1];
+	install_reduced($destination);
+} else {
+	my $destination = $ARGV[0];
+	install_reduced($destination);
+}
+
+sub install_reduced {
+	my ($corpusdir) = @_;
+	my $src = "galleon-2.3.0.src.zip";
+	my $bin = "galleon-unix-2.3.0.zip";
+	my @files = ("lib/smack.jar","lib/jdai.jar","lib/widgets.jar","lib/WinService.jar","apps/music.jar","lib/jax.jar","apps/rss.jar","apps/togo.jar","apps/email.jar","lib/log4j.jar","lib/forms.jar","apps/menu.jar","lib/xml-apis.jar","lib/wrapper.jar","lib/js.jar","apps/traffic.jar","apps/weather.jar","apps/desktop.jar","lib/browserlauncher.jar","lib/javazoom.jar","lib/sbbi-upnplib-1.0.2.jar","apps/upcoming.jar","apps/jabber.jar","lib/htmlparser.jar","lib/hibernate.jar","lib/MHS.jar","apps/movies.jar","apps/podcasting.jar","lib/derby.jar","lib/cmgatejava120.jar","lib/dom4j.jar","lib/jawin.jar","apps/internetSlideshows.jar","lib/bananas.jar","lib/informa.jar","lib/hme-host-sample.jar","apps/internet.jar","lib/commons.jar","apps/iTunes.jar","apps/photos.jar","lib/jshortcut.jar","apps/shoutcast.jar","apps/jukebox.jar","lib/jdom.jar","lib/xercesImpl.jar","lib/xbean.jar","apps/videocasting.jar","lib/mp3dings.jar","lib/concurrent.jar","lib/galleon.jar","lib/hme.jar","apps/musicOrganizer.jar","lib/yahoo_search.jar","lib/jampal.jar","lib/pja.jar","apps/playlists.jar","lib/activation.jar","lib/mediamanager.jar","lib/mail.jar");
+	printf("\t\t unpacking $src\n");
+	system("unzip -qo $corpusdir/compressed/$src -d $corpusdir/src\n") == 0 or die "Failed to extract $src\n";
+	printf("\t\t unpacking $bin\n");
+	system("unzip -qo $corpusdir/compressed/$bin @files -d $corpusdir/bin\n") == 0 or die "Failed to extract $bin\n";
+}
+
+sub list_names {
+	my ($appverdir) = @_;
+	opendir(COMPRESSED, "$appverdir/compressed") || die "can't open $appverdir/compressed: $!";
+	my @archives = grep {! /^\.$/ and ! /^\.\.$/ } readdir(COMPRESSED);
+	close(COMPRESSED);
+	return @archives;
+}

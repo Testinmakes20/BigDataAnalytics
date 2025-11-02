@@ -1,0 +1,172 @@
+#2013-09-05T10:02:03NZST
+#System Version : webmail-0.7.10
+#Source Packages: net.wastl.webmail,org.bulbul.webmail,org.webengruven.webmail
+#Ignore Packages: 
+#Distributed    : jwebmail-0.7/src
+#Source Roots   : jwebmail-0.7/src,jwebmail-0.7/src/net/wastl/webmail/authenticators,jwebmail-0.7/src/net/wastl/webmail/plugins,jwebmail-0.7/src/org/webengruven/webmail/authenticators,jwebmail-0.7/src/org/webengruven/webmail/plugins
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+About		jwebmail-0.7/src/net/wastl/webmail/plugins/About.java	1	2	0	0	97	52
+AdminPlugin		jwebmail-0.7/src/net/wastl/webmail/plugins/AdminPlugin.java	1	2	0	0	280	211
+ChallengeHandler		jwebmail-0.7/src/org/webengruven/webmail/plugins/ChallengeHandler.java	1	2	0	0	113	62
+Composer		jwebmail-0.7/src/net/wastl/webmail/plugins/Composer.java	1	2	0	0	139	73
+ErrorHandler		jwebmail-0.7/src/net/wastl/webmail/plugins/ErrorHandler.java	1	2	0	0	94	47
+FileAttacher		jwebmail-0.7/src/net/wastl/webmail/plugins/FileAttacher.java	1	2	0	0	171	84
+FolderList		jwebmail-0.7/src/net/wastl/webmail/plugins/FolderList.java	1	2	0	0	115	66
+FolderSetup		jwebmail-0.7/src/net/wastl/webmail/plugins/FolderSetup.java	1	2	0	0	172	109
+IMAPAuthenticator		jwebmail-0.7/src/net/wastl/webmail/authenticators/IMAPAuthenticator.java	1	2	0	0	75	48
+ImageHandler		jwebmail-0.7/src/net/wastl/webmail/plugins/ImageHandler.java	1	2	0	0	90	45
+LogoutSession		jwebmail-0.7/src/net/wastl/webmail/plugins/LogoutSession.java	1	2	0	0	91	46
+MailboxList		jwebmail-0.7/src/net/wastl/webmail/plugins/MailboxList.java	1	2	0	0	98	47
+NavBar		jwebmail-0.7/src/net/wastl/webmail/plugins/NavBar.java	1	2	0	0	95	48
+OTPAuthenticator		jwebmail-0.7/src/org/webengruven/webmail/authenticators/OTPAuthenticator.java	1	2	0	0	403	257
+POPAuthenticator		jwebmail-0.7/src/net/wastl/webmail/authenticators/POPAuthenticator.java	1	2	0	0	76	48
+PassThroughPlugin		jwebmail-0.7/src/net/wastl/webmail/plugins/PassThroughPlugin.java	1	2	0	0	105	45
+SendMessage		jwebmail-0.7/src/net/wastl/webmail/plugins/SendMessage.java	1	2	0	0	457	281
+ShowMIME		jwebmail-0.7/src/net/wastl/webmail/plugins/ShowMIME.java	1	2	0	0	115	57
+ShowMessage		jwebmail-0.7/src/net/wastl/webmail/plugins/ShowMessage.java	1	2	0	0	112	63
+SimpleAuthenticator		jwebmail-0.7/src/net/wastl/webmail/authenticators/SimpleAuthenticator.java	1	2	0	0	47	26
+UnixAuthenticator		jwebmail-0.7/src/net/wastl/webmail/authenticators/UnixAuthenticator.java	1	2	0	0	90	62
+UserSetup		jwebmail-0.7/src/net/wastl/webmail/plugins/UserSetup.java	1	2	0	0	114	61
+WebMailHelp		jwebmail-0.7/src/net/wastl/webmail/plugins/WebMailHelp.java	1	2	0	0	129	65
+WebMailTitle		jwebmail-0.7/src/net/wastl/webmail/plugins/WebMailTitle.java	1	2	0	0	87	41
+net.wastl.webmail.ui.html.Fancyfier	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/ui/html/Fancyfier.java	0	0	0	0	122	76
+net.wastl.webmail.ui.html.HTMLDocument	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/ui/html/HTMLDocument.java	0	0	0	0	111	50
+net.wastl.webmail.ui.html.HTMLHeader	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/ui/html/HTMLHeader.java	0	0	0	0	48	15
+net.wastl.webmail.ui.html.HTMLImage	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/ui/html/HTMLImage.java	0	0	0	0	71	32
+net.wastl.webmail.ui.html.JavaScriptFilter	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/ui/html/JavaScriptFilter.java	0	0	0	0	75	33
+net.wastl.webmail.ui.xml.XHTMLDocument	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/ui/xml/XHTMLDocument.java	0	0	0	0	109	54
+net.wastl.webmail.debug.ErrorHandler	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/debug/ErrorHandler.java	0	0	0	0	20	6
+net.wastl.webmail.storage.FileStorage	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/storage/FileStorage.java	0	0	0	0	522	364
+net.wastl.webmail.storage.FileStorage$1	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/storage/FileStorage.java	0	0	0	2	0	0
+net.wastl.webmail.storage.FileStorage$2	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/storage/FileStorage.java	0	0	0	2	0	0
+org.webengruven.javaOTP.Converter	WEB-INF/lib/javaOTP.jar		1	1	1	-1	0	0
+org.webengruven.javaOTP.FoldFunction	WEB-INF/lib/javaOTP.jar		1	1	1	-1	0	0
+org.webengruven.javaOTP.Hash	WEB-INF/lib/javaOTP.jar		1	1	1	-1	0	0
+org.webengruven.javaOTP.MD5Fold	WEB-INF/lib/javaOTP.jar		1	1	1	-1	0	0
+org.webengruven.javaOTP.OTP	WEB-INF/lib/javaOTP.jar		1	1	1	-1	0	0
+org.webengruven.javaOTP.OTPDictionary	WEB-INF/lib/javaOTP.jar		1	1	1	-1	0	0
+org.webengruven.javaOTP.OTPFormatException	WEB-INF/lib/javaOTP.jar		1	1	1	-1	0	0
+org.webengruven.javaOTP.OTPServer	WEB-INF/lib/javaOTP.jar		1	1	1	-1	0	0
+org.webengruven.javaOTP.OTPState	WEB-INF/lib/javaOTP.jar		1	1	1	-1	0	0
+org.webengruven.javaOTP.SHAFold	WEB-INF/lib/javaOTP.jar		1	1	1	-1	0	0
+org.webengruven.javaOTP.StdDictionary	WEB-INF/lib/javaOTP.jar		1	1	1	-1	0	0
+net.wastl.webmail.server.AdminSession	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/AdminSession.java	0	0	0	0	386	263
+net.wastl.webmail.server.Authenticator	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/Authenticator.java	0	0	0	0	123	33
+net.wastl.webmail.server.AuthenticatorHandler	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/AuthenticatorHandler.java	0	0	0	0	89	41
+net.wastl.webmail.server.ConnectionTimer	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/ConnectionTimer.java	0	0	0	0	88	50
+net.wastl.webmail.server.HTTPSession	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/HTTPSession.java	0	0	0	0	72	23
+net.wastl.webmail.server.Logger	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/Logger.java	0	0	0	0	43	6
+net.wastl.webmail.server.MailHostData	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/MailHostData.java	0	0	0	0	81	13
+net.wastl.webmail.server.Plugin	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/Plugin.java	0	0	0	0	70	9
+net.wastl.webmail.server.PluginDependencyTree	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/PluginDependencyTree.java	0	0	0	0	100	53
+net.wastl.webmail.server.PluginHandler	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/PluginHandler.java	0	0	0	0	134	73
+net.wastl.webmail.server.PluginHandler$FFilter	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/PluginHandler.java	0	0	0	2	0	0
+net.wastl.webmail.server.StatusServer	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/StatusServer.java	0	0	0	0	22	4
+net.wastl.webmail.server.Storage	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/Storage.java	0	0	0	0	435	213
+net.wastl.webmail.server.Storage$1	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/Storage.java	0	0	0	2	0	0
+net.wastl.webmail.server.SystemCheck	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/SystemCheck.java	0	0	0	0	136	79
+net.wastl.webmail.server.TimeableConnection	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/TimeableConnection.java	0	0	0	0	40	6
+net.wastl.webmail.server.ToplevelURLHandler	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/ToplevelURLHandler.java	0	0	0	0	150	78
+net.wastl.webmail.server.URLHandler	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/URLHandler.java	0	0	0	0	47	11
+net.wastl.webmail.server.URLHandlerTree	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/URLHandlerTree.java	0	0	0	0	101	55
+net.wastl.webmail.server.URLHandlerTreeNode	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/URLHandlerTreeNode.java	0	0	0	0	32	4
+net.wastl.webmail.server.UserData	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/UserData.java	0	0	0	0	359	48
+net.wastl.webmail.server.WebMailServer	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/WebMailServer.java	0	0	0	0	478	309
+net.wastl.webmail.server.WebMailServlet	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/WebMailServlet.java	0	0	0	0	503	316
+net.wastl.webmail.server.WebMailServlet$1	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/WebMailServlet.java	0	0	0	2	0	0
+net.wastl.webmail.server.WebMailSession	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/WebMailSession.java	0	0	0	0	2192	1396
+net.wastl.webmail.server.WebMailVirtualDomain	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/WebMailVirtualDomain.java	0	0	0	0	93	15
+org.bulbul.webmail.util.TranscodeUtil	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/org/bulbul/webmail/util/TranscodeUtil.java	0	0	0	0	73	25
+net.wastl.webmail.server.http.HTTPRequestHeader	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/http/HTTPRequestHeader.java	0	0	0	0	133	97
+net.wastl.webmail.server.http.HTTPResponseHeader	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/server/http/HTTPResponseHeader.java	0	0	0	0	83	57
+org.webengruven.webmail.auth.AuthDisplayMngr	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/org/webengruven/webmail/auth/AuthDisplayMngr.java	0	0	0	0	94	24
+org.webengruven.webmail.auth.CRAuthDisplayMngr	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/org/webengruven/webmail/auth/CRAuthDisplayMngr.java	0	0	0	0	78	26
+org.webengruven.webmail.auth.CRAuthenticator	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/org/webengruven/webmail/auth/CRAuthenticator.java	0	0	0	0	65	10
+org.webengruven.webmail.auth.OTPAuthDisplayMngr	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/org/webengruven/webmail/auth/OTPAuthDisplayMngr.java	0	0	0	0	83	29
+org.webengruven.webmail.auth.OTPAuthenticatorIface	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/org/webengruven/webmail/auth/OTPAuthenticatorIface.java	0	0	0	0	37	7
+org.webengruven.webmail.auth.OTPCacheNode	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/org/webengruven/webmail/auth/OTPCacheNode.java	0	0	0	0	52	17
+org.bulbul.webmail.xmlresource.ResourceBase	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/org/bulbul/webmail/xmlresource/ResourceBase.java	0	0	0	0	170	97
+org.bulbul.webmail.xmlresource.Resources	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/org/bulbul/webmail/xmlresource/Resources.java	0	0	0	0	32	6
+org.bulbul.webmail.xmlresource.Resources_en	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/org/bulbul/webmail/xmlresource/Resources_en.java	0	0	0	0	32	6
+org.bulbul.webmail.xmlresource.Resources_en_US	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/org/bulbul/webmail/xmlresource/Resources_en_US.java	0	0	0	0	32	6
+org.bulbul.webmail.xmlresource.Resources_zh_TW	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/org/bulbul/webmail/xmlresource/Resources_zh_TW.java	0	0	0	0	32	6
+net.wastl.webmail.config.ChoiceConfigParameter	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/config/ChoiceConfigParameter.java	0	0	0	0	76	39
+net.wastl.webmail.config.ConfigParameter	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/config/ConfigParameter.java	0	0	0	0	132	47
+net.wastl.webmail.config.ConfigScheme	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/config/ConfigScheme.java	0	0	0	0	251	147
+net.wastl.webmail.config.ConfigStore	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/config/ConfigStore.java	0	0	0	0	120	48
+net.wastl.webmail.config.ConfigYesNoParameter	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/config/ConfigYesNoParameter.java	0	0	0	0	43	11
+net.wastl.webmail.config.ConfigurationListener	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/config/ConfigurationListener.java	0	0	0	0	33	4
+net.wastl.webmail.config.CryptedStringConfigParameter	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/config/CryptedStringConfigParameter.java	0	0	0	0	47	13
+net.wastl.webmail.config.IntegerConfigParameter	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/config/IntegerConfigParameter.java	0	0	0	0	49	17
+net.wastl.webmail.config.StringConfigParameter	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/config/StringConfigParameter.java	0	0	0	0	46	16
+net.wastl.webmail.config.UnchangeableStringConfigParameter	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/config/UnchangeableStringConfigParameter.java	0	0	0	0	47	12
+net.wastl.webmail.misc.AttributedExpireableCache	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/misc/AttributedExpireableCache.java	0	0	0	0	43	24
+net.wastl.webmail.misc.ByteStore	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/misc/ByteStore.java	0	0	0	0	131	78
+net.wastl.webmail.misc.ExpireableCache	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/misc/ExpireableCache.java	0	0	0	0	231	137
+net.wastl.webmail.misc.ExpireableCache$MyHeap	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/misc/ExpireableCache.java	0	0	0	2	0	0
+net.wastl.webmail.misc.Helper	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/misc/Helper.java	0	0	0	0	811	657
+net.wastl.webmail.misc.Helper$1	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/misc/Helper.java	0	0	0	2	0	0
+net.wastl.webmail.misc.Helper$2	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/misc/Helper.java	0	0	0	2	0	0
+net.wastl.webmail.misc.JavaScriptCleaner	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/misc/JavaScriptCleaner.java	0	0	0	0	107	41
+net.wastl.webmail.misc.MD5	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/misc/MD5.java	0	0	0	0	533	260
+net.wastl.webmail.misc.MD5State	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/misc/MD5.java	0	0	0	1	0	0
+net.wastl.webmail.misc.Queue	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/misc/Queue.java	0	0	0	0	55	19
+net.wastl.webmail.misc.StreamConnector	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/misc/StreamConnector.java	0	0	0	0	66	31
+net.wastl.webmail.misc.StringHeap	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/misc/StringHeap.java	0	0	0	0	118	54
+net.wastl.webmail.misc.TEA	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/misc/TEA.java	0	0	0	0	458	208
+net.wastl.webmail.xml.XMLAdminModel	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/xml/XMLAdminModel.java	0	0	0	0	73	30
+net.wastl.webmail.xml.XMLCommon	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/xml/XMLCommon.java	0	0	0	0	334	239
+net.wastl.webmail.xml.XMLGenericModel	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/xml/XMLGenericModel.java	0	0	0	0	220	133
+net.wastl.webmail.xml.XMLMessage	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/xml/XMLMessage.java	0	0	0	0	220	145
+net.wastl.webmail.xml.XMLMessagePart	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/xml/XMLMessagePart.java	0	0	0	0	178	108
+net.wastl.webmail.xml.XMLResourceBundle	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/xml/XMLResourceBundle.java	0	0	0	0	155	102
+net.wastl.webmail.xml.XMLSystemData	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/xml/XMLSystemData.java	0	0	0	0	388	296
+net.wastl.webmail.xml.XMLSystemData$1	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/xml/XMLSystemData.java	0	0	0	2	0	0
+net.wastl.webmail.xml.XMLSystemData$2	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/xml/XMLSystemData.java	0	0	0	2	0	0
+net.wastl.webmail.xml.XMLSystemData$3	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/xml/XMLSystemData.java	0	0	0	2	0	0
+net.wastl.webmail.xml.XMLUserData	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/xml/XMLUserData.java	0	0	0	0	526	375
+net.wastl.webmail.xml.XMLUserData$1	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/xml/XMLUserData.java	0	0	0	2	0	0
+net.wastl.webmail.xml.XMLUserData$2	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/xml/XMLUserData.java	0	0	0	2	0	0
+net.wastl.webmail.xml.XMLUserModel	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/xml/XMLUserModel.java	0	0	0	0	309	212
+net.wastl.webmail.storage.simple.SimpleStorage	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/storage/simple/SimpleStorage.java	0	0	0	0	380	261
+net.wastl.webmail.storage.simple.SimpleStorage$1	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/storage/simple/SimpleStorage.java	0	0	0	2	0	0
+net.wastl.webmail.storage.simple.SimpleStorage$2	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/storage/simple/SimpleStorage.java	0	0	0	2	0	0
+net.wastl.webmail.storage.simple.SimpleStorage$3	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/storage/simple/SimpleStorage.java	0	0	0	2	0	0
+net.wastl.webmail.logger.FileLogger	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/logger/FileLogger.java	0	0	0	0	179	129
+net.wastl.webmail.logger.ServletLogger	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/logger/ServletLogger.java	0	0	0	0	99	57
+net.wastl.webmail.exceptions.BinaryNotFoundException	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/exceptions/BinaryNotFoundException.java	0	0	0	0	23	9
+net.wastl.webmail.exceptions.CreateUserDataException	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/exceptions/CreateUserDataException.java	0	0	0	0	43	9
+net.wastl.webmail.exceptions.DocumentNotFoundException	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/exceptions/DocumentNotFoundException.java	0	0	0	0	24	9
+net.wastl.webmail.exceptions.InvalidDataException	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/exceptions/InvalidDataException.java	0	0	0	0	42	9
+net.wastl.webmail.exceptions.InvalidPasswordException	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/exceptions/InvalidPasswordException.java	0	0	0	0	43	9
+net.wastl.webmail.exceptions.NoSuchFolderException	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/exceptions/NoSuchFolderException.java	0	0	0	0	39	9
+net.wastl.webmail.exceptions.StylesheetNotFoundException	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/exceptions/StylesheetNotFoundException.java	0	0	0	0	23	9
+net.wastl.webmail.exceptions.TimeoutException	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/exceptions/TimeoutException.java	0	0	0	0	39	6
+net.wastl.webmail.exceptions.UserDataException	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/exceptions/UserDataException.java	0	0	0	0	56	19
+net.wastl.webmail.exceptions.WebMailException	WEB-INF/lib/webmail-common.jar	jwebmail-0.7/src/net/wastl/webmail/exceptions/WebMailException.java	0	0	0	0	71	33
+#Issues
+#======
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/webmail/webmail-0.7.10/src/jwebmail-0.7/contrib/ant.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/webmail/webmail-0.7.10/src/jwebmail-0.7/contrib/cos.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/webmail/webmail-0.7.10/src/jwebmail-0.7/contrib/fop.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/webmail/webmail-0.7.10/src/jwebmail-0.7/contrib/jaf-1_0_2.zip in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/webmail/webmail-0.7.10/src/jwebmail-0.7/contrib/jakarta-oro-2.0.6.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/webmail/webmail-0.7.10/src/jwebmail-0.7/contrib/javaOTP.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/webmail/webmail-0.7.10/src/jwebmail-0.7/contrib/javamail-1_3.zip in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/webmail/webmail-0.7.10/src/jwebmail-0.7/contrib/mbox.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/webmail/webmail-0.7.10/src/jwebmail-0.7/contrib/nekohtml.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/webmail/webmail-0.7.10/src/jwebmail-0.7/contrib/pop31_1_1.zip in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/webmail/webmail-0.7.10/src/jwebmail-0.7/contrib/servlet-2.3.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/webmail/webmail-0.7.10/src/jwebmail-0.7/contrib/xalan.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/webmail/webmail-0.7.10/src/jwebmail-0.7/contrib/xercesImpl.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/webmail/webmail-0.7.10/src/jwebmail-0.7/contrib/xml-apis.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/webmail/webmail-0.7.10/src/jwebmail-0.7/contrib/xsltc.jar in <src> ignored.

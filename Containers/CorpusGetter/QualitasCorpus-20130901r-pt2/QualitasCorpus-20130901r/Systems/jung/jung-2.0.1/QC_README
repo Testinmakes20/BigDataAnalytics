@@ -1,0 +1,9 @@
+The source in jung2-2_0_1-sources.zip is within a second level of jar archives.
+It is the contents of these jar archives that have been unpacked into the src
+directory. These source archives have been deleted after being unpacked.
+
+To retrieve the original source jar archives, unpack it using the command:
+
+unzip jung2-2_0_1-sources.zip -d [destination]
+
+

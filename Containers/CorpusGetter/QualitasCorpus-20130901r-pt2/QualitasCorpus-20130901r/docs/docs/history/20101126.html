@@ -1,0 +1,241 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../src/styles.css" />
+
+<title>20101126 Release Notes</title>
+
+</head>
+
+<body>
+<h1>20101126 Release Notes</h1>
+
+<p>The goal for this release was to update every system were possible, since
+many of the versions in the corpus were many years old (for systems for
+which there were only 1 or 2 or so versions). There were also, for the first
+time in a while, some new systems added. These were mainly medium to large
+sized systems (as measured by number of top-level types). 
+
+<p>There were also further improvements made to the quality assurance
+procedues, which resulted in several problems with the metadata of several
+versions in past releases. The details of these problems are given below.
+
+<p>This release added 6 new systems, and 84 new versions for existing
+systems, giving a total of 585 versions overall of 106 systems. The "e"
+release has 13 systems, with a total of 414 versions.
+
+<p>In this release, there has been a change made to how it is distributed.
+The distributions provided by default will be the standard "r" distribution
+and a new "e" distribution. The "r" distribution has versions of 106 systems
+(2.9 GiB uninstalled, 8.5 GiB installed).  The "e" distribution will contain
+just those systems for which there are 10 or more versions. This
+distribution (9.3 GiB uninstalled, 31.9 GiB installed) is intended for
+evolution studies. The full distribution (at 12.5 GiB uninstalled, 42.0 GiB
+installed) can be made available on request.
+
+<dl>
+<dt>Metadata</dt>
+<dd>
+<ul>
+<li>
+The naming convention for metadata for individual systems has
+changed. Instead of this being in <tt>contents.<b>txt</b></tt> it
+is now in <tt>contents.<b>csv</b></tt> (so that spreadsheet applications
+will more easily load these files). 
+<li>
+Metadata information now exists for all versions in the corpus.
+<li>
+All of the metadata files in the previous release had incorrectly-computed
+values for the top-level (and related) types, so have all been regenerated.
+</ul>
+</dd>
+
+<dt>New Systems</dt>
+<dd>
+castor-1.3.1
+cayenne-3.0.1
+jboss-5.1.0
+maven-3.0
+netbeans-6.9.1
+tapestry-5.1.0.5 
+</dd>
+
+<dt>Changed versions</dt>
+<dd>
+<tt>jre-1.5.0_14-linux-i586</tt> has been changed to <tt>jre-1.5.0_22</tt>.
+The issue is that as the source and binary for <tt>jre</tt> is not
+distributed and there appears to be no way to get release 14 of
+<tt>jre-1.5.0</tt>. Since <tt>jre-1.5.0</tt> is no longer supported,
+we have decided to provide the metadata for its last release, namely
+22. This way, anyone downloading <tt>jre-1.5.0</tt> should get the
+same content that we used to generate the metadata.
+Accordingly we have "changed"  <tt>jre-1.5.0_14-linux-i586</tt> to 
+<tt>jre-1.5.0_22</tt>. 
+
+</ul>
+</dd>
+
+<dt>Added versions</dt>
+<dd>
+ant-1.8.1
+aoi-2.8.1
+argouml-0.30.2
+aspectj-1.6.9
+azureus-4.4.0.0
+azureus-4.4.0.2
+azureus-4.4.0.4
+azureus-4.4.0.6
+azureus-4.4.1.0
+azureus-4.5.0.0
+azureus-4.5.0.2
+azureus-4.5.0.4
+checkstyle-5.1
+cobertura-1.9.4.1
+compiere-330
+derby-10.6.1.0
+displaytag-1.2
+drjava-stable-20100913-r5387
+findbugs-1.3.9
+fitlibraryforfitnesse-20100806
+freecol-0.9.3
+freecol-0.9.4
+freecs-1.3.20100406 
+galleon-2.3.0
+ganttproject-2.0.9
+gt2-2.7-M3
+heritrix-1.14.4
+hibernate-3.5.5-final
+hibernate-3.6.0-beta1
+hibernate-3.6.0-beta2
+hibernate-3.6.0-beta3
+hibernate-3.6.0-beta4
+hsqldb-2.0.0
+htmlunit-2.8
+informa-0.7.0-alpha2
+ireport-3.7.5
+itext-5.0.3
+jFin_DateMath-R1.0.1
+jag-6.1
+jasperreports-3.7.3
+javacc-5.0
+jboss-5.1.0
+jchempaint-3.0.1
+jedit-4.3.2
+jena-2.6.3
+jfreechart-1.0.13
+jgrapht-0.8.1
+jgroups-2.10.0
+jhotdraw-7.5.1
+jmeter-2.4
+jpf-1.5.1
+jre-1.6.0
+jruby-1.5.2
+jspwiki-2.8.4
+jtopen-7.1
+junit-4.8.2
+log4j-1.2.16
+lucene-2.9.3
+lucene-3.0.2
+marauroa-3.8.1
+megamek-0.35.18
+mvnforum-1.2.2-ga
+myfaces_core-2.0.2
+nakedobjects-4.0.0
+nekohtml-1.9.14
+openjms-0.7.7-beta-1
+oscache-2.4.1
+picocontainer-2.10.2
+pmd-4.2.5
+poi-3.6
+pooka-3.0-080505
+proguard-4.5.1
+quartz-1.8.3
+roller-4.0.1
+rssowl-2.0.5
+sablecc-3.2
+springframework-3.0.5
+squirrel_sql-3.1.2
+struts-2.2.1
+tomcat-7.0.2
+trove-2.1.0
+velocity-1.6.4
+weka-3.7.2
+xalan-2.7.1
+xerces-2.10.0 
+</dd>
+
+<dt>Changed properties</dt>
+<dd>
+For colt-1.2.0, versionnotes was changed to add information about the release date. For jre-1.5.0_14-linux-i586, all sourcepackage values had "." appended (otherwise unchanged). 
+</dd>
+<dd>
+The url field values were corrected for the following:
+antlr-3.0.1, antlr-3.0, antlr-3.1.1, antlr-3.1.2, antlr-3.1.3, antlr-3.1, antlr-3.2
+</dd>
+
+<dd>
+The following versions had their sourcepackage values changed:
+aoi-2.5.1,
+fitlibraryforfitnesse-20050923,
+heritrix-1.8.0,
+james-2.2.0,
+jext-5.0,
+jgraph-5.13.0.0,
+jgraphpad-5.10.0.2,
+jmeter-1.8.1,
+jmeter-1.9.1,
+jmeter-2.0.0,
+jmeter-2.0.1,
+jmeter-2.0.2,
+jmeter-2.0.3,
+jmeter-2.1,
+jmeter-2.1-rc1,
+jmeter-2.1.1,
+jmeter-2.2,
+jmeter-2.3,
+jmeter-2.3-rc3,
+jmeter-2.3-rc4,
+jmeter-2.3.1,
+jmeter-2.3.2,
+jmeter-2.3.3,
+jmeter-2.3.4,
+jrefactory-2.9.19,
+jtopen-4.9,
+lucene-1.9-final,
+lucene-1.9-rc1,
+lucene-1.9.1,
+lucene-2.0.0,
+lucene-2.1.0,
+lucene-2.2.0,
+lucene-2.3.0,
+lucene-2.3.1,
+lucene-2.3.2,
+lucene-2.4.0,
+lucene-2.4.1,
+lucene-2.9.0,
+lucene-2.9.1,
+lucene-2.9.2,
+lucene-3.0.0,
+lucene-3.0.1,
+tomcat-5.5.17,
+xmojo-5.0.0
+
+</dd>
+
+
+<dt>Changed docs</dt>
+<dd>
+The web pages making up the documentation have been restructured.
+
+</dd>
+
+<dt>Other</dt>
+<dd>
+References to "Sun" (Microsystems) changed to Oracle.
+</dd>
+
+</dl>
+
+<!--#include virtual="../src/tail.html" -->
+</body>
+</html>
+

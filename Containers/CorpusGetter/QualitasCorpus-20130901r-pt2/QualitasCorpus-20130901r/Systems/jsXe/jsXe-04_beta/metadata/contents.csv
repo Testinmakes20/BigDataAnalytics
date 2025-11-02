@@ -1,0 +1,219 @@
+#2013-09-05T10:01:49NZST
+#System Version : jsXe-04_beta
+#Source Packages: net.sourceforge.jsxe
+#Ignore Packages: 
+#Distributed    : jsXe-0_4_99_0-src/src
+#Source Roots   : jsXe-0_4_99_0-src/jars/sourceview/src,jsXe-0_4_99_0-src/jars/treeview/src,jsXe-0_4_99_0-src/src
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+net.sourceforge.jsxe.gui.ActivityLogDialog	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/ActivityLogDialog.java	0	0	0	0	213	103
+net.sourceforge.jsxe.gui.ActivityLogDialog$1	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/ActivityLogDialog.java	0	0	0	2	0	0
+net.sourceforge.jsxe.gui.DirtyFilesDialog	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/DirtyFilesDialog.java	0	0	0	0	459	237
+net.sourceforge.jsxe.gui.DirtyFilesDialog$1	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/DirtyFilesDialog.java	0	0	0	2	0	0
+net.sourceforge.jsxe.gui.DirtyFilesDialog$2	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/DirtyFilesDialog.java	0	0	0	2	0	0
+net.sourceforge.jsxe.gui.DirtyFilesDialog$3	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/DirtyFilesDialog.java	0	0	0	2	0	0
+net.sourceforge.jsxe.gui.DirtyFilesDialog$4	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/DirtyFilesDialog.java	0	0	0	2	0	0
+net.sourceforge.jsxe.gui.DocumentView	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/DocumentView.java	0	0	0	0	122	15
+net.sourceforge.jsxe.gui.EnhancedDialog	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/EnhancedDialog.java	0	0	0	0	282	155
+net.sourceforge.jsxe.gui.EnhancedDialog$ContainerHandler	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/EnhancedDialog.java	0	0	0	2	0	0
+net.sourceforge.jsxe.gui.EnhancedDialog$KeyHandler	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/EnhancedDialog.java	0	0	0	2	0	0
+net.sourceforge.jsxe.gui.EnhancedDialog$WindowHandler	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/EnhancedDialog.java	0	0	0	2	0	0
+net.sourceforge.jsxe.gui.EnhancedMenu	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/EnhancedMenu.java	0	0	0	0	372	245
+net.sourceforge.jsxe.gui.EnhancedMenu$MoreMenu	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/EnhancedMenu.java	0	0	0	2	0	0
+net.sourceforge.jsxe.gui.ErrorListDialog	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/ErrorListDialog.java	0	0	0	0	123	58
+net.sourceforge.jsxe.gui.ErrorListDialog$ActionHandler	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/ErrorListDialog.java	0	0	0	2	0	0
+net.sourceforge.jsxe.gui.GlobalOptionsDialog	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/GlobalOptionsDialog.java	0	0	0	0	96	39
+net.sourceforge.jsxe.gui.Messages	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/Messages.java	0	0	0	0	204	89
+net.sourceforge.jsxe.gui.OptionsDialog	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/OptionsDialog.java	0	0	0	0	618	454
+net.sourceforge.jsxe.gui.OptionsDialog$OptionTreeModel	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/OptionsDialog.java	0	0	0	2	0	0
+net.sourceforge.jsxe.gui.OptionsDialog$PaneNameRenderer	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/OptionsDialog.java	0	0	0	2	0	0
+net.sourceforge.jsxe.gui.OptionsPanel	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/OptionsPanel.java	0	0	0	0	77	16
+net.sourceforge.jsxe.gui.PluginManagerDialog	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/PluginManagerDialog.java	0	0	0	0	244	124
+net.sourceforge.jsxe.gui.PluginManagerDialog$1	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/PluginManagerDialog.java	0	0	0	2	0	0
+net.sourceforge.jsxe.gui.PluginManagerDialog$2	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/PluginManagerDialog.java	0	0	0	2	0	0
+net.sourceforge.jsxe.gui.PluginManagerDialog$PluginManagerTableModel	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/PluginManagerDialog.java	0	0	0	2	0	0
+net.sourceforge.jsxe.gui.ProgressSplashScreenWindow	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/ProgressSplashScreenWindow.java	0	0	0	0	153	56
+net.sourceforge.jsxe.gui.TabbedView	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/TabbedView.java	0	0	0	0	683	373
+net.sourceforge.jsxe.gui.TabbedView$1	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/TabbedView.java	0	0	0	2	0	0
+net.sourceforge.jsxe.gui.TabbedView$2	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/TabbedView.java	0	0	0	2	0	0
+net.sourceforge.jsxe.gui.TabbedView$SetViewAction	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/TabbedView.java	0	0	0	2	0	0
+net.sourceforge.jsxe.gui.TabbedView$WindowHandler	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/TabbedView.java	0	0	0	2	0	0
+net.sourceforge.jsxe.gui.jsxeAboutDialog	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/jsxeAboutDialog.java	0	0	0	0	97	34
+net.sourceforge.jsxe.gui.jsxeFileDialog	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/gui/jsxeFileDialog.java	0	0	0	0	137	56
+gnu.regexp.CharIndexed		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/CharIndexed.java	1	2	1	0	65	7
+gnu.regexp.CharIndexedCharArray		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/CharIndexedCharArray.java	1	2	1	4	43	20
+gnu.regexp.CharIndexedInputStream		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/CharIndexedInputStream.java	1	2	1	4	131	87
+gnu.regexp.CharIndexedReader		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/CharIndexedReader.java	1	2	1	4	142	95
+gnu.regexp.CharIndexedString		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/CharIndexedString.java	1	2	1	4	45	22
+gnu.regexp.CharIndexedStringBuffer		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/CharIndexedStringBuffer.java	1	2	1	4	43	20
+gnu.regexp.CharUnit		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RE.java	1	2	1	1	0	0
+gnu.regexp.IntPair		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RE.java	1	2	1	1	0	0
+gnu.regexp.RE		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RE.java	1	2	1	0	1356	682
+gnu.regexp.REException		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/REException.java	1	2	1	0	164	39
+gnu.regexp.REFilterInputStream		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/REFilterInputStream.java	1	2	1	0	121	57
+gnu.regexp.REFilterReader		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/REFilterReader.java	1	2	1	0	117	57
+gnu.regexp.REMatch		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/REMatch.java	1	2	1	0	244	106
+gnu.regexp.REMatchEnumeration		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/REMatchEnumeration.java	1	2	1	0	116	49
+gnu.regexp.RESyntax		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RESyntax.java	1	2	1	0	502	180
+gnu.regexp.REToken		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/REToken.java	1	2	1	4	68	37
+gnu.regexp.RETokenAny		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenAny.java	1	2	1	4	54	26
+gnu.regexp.RETokenBackRef		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenBackRef.java	1	2	1	4	53	26
+gnu.regexp.RETokenChar		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenChar.java	1	2	1	4	72	39
+gnu.regexp.RETokenEnd		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenEnd.java	1	2	1	4	55	29
+gnu.regexp.RETokenEndSub		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenEndSub.java	1	2	1	4	35	12
+gnu.regexp.RETokenLookAhead		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenLookAhead.java	1	2	1	4	68	38
+gnu.regexp.RETokenOneOf		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenOneOf.java	1	2	1	4	112	74
+gnu.regexp.RETokenPOSIX		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenPOSIX.java	1	2	1	4	125	92
+gnu.regexp.RETokenRange		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenRange.java	1	2	1	4	51	26
+gnu.regexp.RETokenRepeated		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenRepeated.java	1	2	1	4	207	125
+gnu.regexp.RETokenStart		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenStart.java	1	2	1	4	69	39
+gnu.regexp.RETokenWordBoundary		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenWordBoundary.java	1	2	1	4	85	44
+gnu.regexp.UncheckedRE		jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/UncheckedRE.java	1	2	1	0	91	16
+org.syntax.jedit.tokenmarker.Token		jsXe-0_4_99_0-src/jars/sourceview/src/org/syntax/jedit/tokenmarker/Token.java	1	2	1	0	162	33
+org.syntax.jedit.tokenmarker.TokenMarker		jsXe-0_4_99_0-src/jars/sourceview/src/org/syntax/jedit/tokenmarker/TokenMarker.java	1	2	1	0	345	131
+org.syntax.jedit.tokenmarker.XMLTokenMarker		jsXe-0_4_99_0-src/jars/sourceview/src/org/syntax/jedit/tokenmarker/XMLTokenMarker.java	1	2	1	0	309	215
+treeview.action.AddAttributeAction		jsXe-0_4_99_0-src/jars/treeview/src/treeview/action/AddAttributeAction.java	1	2	1	0	81	27
+treeview.action.AddDocTypeAction		jsXe-0_4_99_0-src/jars/treeview/src/treeview/action/AddDocTypeAction.java	1	2	1	0	330	197
+treeview.action.AddNodeAction		jsXe-0_4_99_0-src/jars/treeview/src/treeview/action/AddNodeAction.java	1	2	1	0	147	62
+treeview.action.CopyNodeAction		jsXe-0_4_99_0-src/jars/treeview/src/treeview/action/CopyNodeAction.java	1	2	1	0	86	30
+treeview.action.CutNodeAction		jsXe-0_4_99_0-src/jars/treeview/src/treeview/action/CutNodeAction.java	1	2	1	0	95	36
+treeview.action.EditNodeAction		jsXe-0_4_99_0-src/jars/treeview/src/treeview/action/EditNodeAction.java	1	2	1	0	112	47
+treeview.action.PasteNodeAction		jsXe-0_4_99_0-src/jars/treeview/src/treeview/action/PasteNodeAction.java	1	2	1	0	95	36
+treeview.action.RemoveAttributeAction		jsXe-0_4_99_0-src/jars/treeview/src/treeview/action/RemoveAttributeAction.java	1	2	1	0	89	32
+treeview.action.RemoveNodeAction		jsXe-0_4_99_0-src/jars/treeview/src/treeview/action/RemoveNodeAction.java	1	2	1	0	75	32
+treeview.action.RenameNodeAction		jsXe-0_4_99_0-src/jars/treeview/src/treeview/action/RenameNodeAction.java	1	2	1	0	68	25
+net.sourceforge.jsxe.action.ActivityLogAction	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/action/ActivityLogAction.java	0	0	0	0	90	23
+net.sourceforge.jsxe.action.FileCloseAction	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/action/FileCloseAction.java	0	0	0	0	89	26
+net.sourceforge.jsxe.action.FileCloseAllAction	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/action/FileCloseAllAction.java	0	0	0	0	89	26
+net.sourceforge.jsxe.action.FileExitAction	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/action/FileExitAction.java	0	0	0	0	80	20
+net.sourceforge.jsxe.action.FileNewAction	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/action/FileNewAction.java	0	0	0	0	91	28
+net.sourceforge.jsxe.action.FileOpenAction	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/action/FileOpenAction.java	0	0	0	0	90	26
+net.sourceforge.jsxe.action.FileReloadAction	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/action/FileReloadAction.java	0	0	0	0	93	30
+net.sourceforge.jsxe.action.FileSaveAction	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/action/FileSaveAction.java	0	0	0	0	98	32
+net.sourceforge.jsxe.action.FileSaveAsAction	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/action/FileSaveAsAction.java	0	0	0	0	110	35
+net.sourceforge.jsxe.action.OpenRecentFileAction	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/action/OpenRecentFileAction.java	0	0	0	0	96	34
+net.sourceforge.jsxe.action.ToolsOptionsAction	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/action/ToolsOptionsAction.java	0	0	0	0	80	19
+net.sourceforge.jsxe.action.ToolsPluginManagerAction	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/action/ToolsPluginManagerAction.java	0	0	0	0	80	19
+net.sourceforge.jsxe.action.ValidationErrorsAction	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/action/ValidationErrorsAction.java	0	0	0	0	119	48
+treeview.DefaultView		jsXe-0_4_99_0-src/jars/treeview/src/treeview/DefaultView.java	1	2	1	0	610	313
+treeview.DefaultViewDocument		jsXe-0_4_99_0-src/jars/treeview/src/treeview/DefaultViewDocument.java	1	2	1	0	124	45
+treeview.DefaultViewOptionsPanel		jsXe-0_4_99_0-src/jars/treeview/src/treeview/DefaultViewOptionsPanel.java	1	2	1	0	179	87
+treeview.DefaultViewTableModel		jsXe-0_4_99_0-src/jars/treeview/src/treeview/DefaultViewTableModel.java	1	2	1	0	312	166
+treeview.DefaultViewTree		jsXe-0_4_99_0-src/jars/treeview/src/treeview/DefaultViewTree.java	1	2	1	0	1121	719
+treeview.DefaultViewTreeModel		jsXe-0_4_99_0-src/jars/treeview/src/treeview/DefaultViewTreeModel.java	1	2	1	0	316	168
+treeview.EditTagDialog		jsXe-0_4_99_0-src/jars/treeview/src/treeview/EditTagDialog.java	1	2	1	0	596	404
+treeview.NodeTransferHandler		jsXe-0_4_99_0-src/jars/treeview/src/treeview/NodeTransferHandler.java	1	2	1	0	198	66
+treeview.TransferableNode		jsXe-0_4_99_0-src/jars/treeview/src/treeview/TransferableNode.java	1	2	1	0	122	42
+treeview.TreeViewPlugin		jsXe-0_4_99_0-src/jars/treeview/src/treeview/TreeViewPlugin.java	1	2	1	0	83	35
+net.sourceforge.jsxe.options.OptionGroup	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/options/OptionGroup.java	0	0	0	0	176	63
+net.sourceforge.jsxe.options.OptionPane	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/options/OptionPane.java	0	0	0	0	83	9
+net.sourceforge.jsxe.dom.AdapterNode	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/AdapterNode.java	0	0	0	0	1097	537
+net.sourceforge.jsxe.dom.AdapterNodeListener	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/AdapterNodeListener.java	0	0	0	0	75	16
+net.sourceforge.jsxe.dom.DOMOutput	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/DOMOutput.java	0	0	0	0	129	45
+net.sourceforge.jsxe.dom.DOMSerializer	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/DOMSerializer.java	0	0	0	0	825	540
+net.sourceforge.jsxe.dom.DOMSerializer$DOMSerializerError	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/DOMSerializer.java	0	0	0	2	0	0
+net.sourceforge.jsxe.dom.DOMSerializerConfiguration	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/DOMSerializerConfiguration.java	0	0	0	0	478	275
+net.sourceforge.jsxe.dom.DOMSerializerConfiguration$DOMStringListImpl	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/DOMSerializerConfiguration.java	0	0	0	2	0	0
+net.sourceforge.jsxe.dom.DOMSerializerException	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/DOMSerializerException.java	0	0	0	0	65	12
+net.sourceforge.jsxe.dom.DefaultDOMLocator	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/DefaultDOMLocator.java	0	0	0	0	111	40
+net.sourceforge.jsxe.dom.XMLDocument	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/XMLDocument.java	0	0	0	0	2080	1042
+net.sourceforge.jsxe.dom.XMLDocument$1	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/XMLDocument.java	0	0	0	2	0	0
+net.sourceforge.jsxe.dom.XMLDocument$ContentManager	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/XMLDocument.java	0	0	0	2	0	0
+net.sourceforge.jsxe.dom.XMLDocument$ContentManagerWriter	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/XMLDocument.java	0	0	0	2	0	0
+net.sourceforge.jsxe.dom.XMLDocument$ParseErrorHandler	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/XMLDocument.java	0	0	0	2	0	0
+net.sourceforge.jsxe.dom.XMLDocument$SchemaHandler	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/XMLDocument.java	0	0	0	2	0	0
+net.sourceforge.jsxe.dom.XMLDocument$SerializeErrorHandler	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/XMLDocument.java	0	0	0	2	0	0
+net.sourceforge.jsxe.dom.XMLDocument$XMLDocAdapterListener	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/XMLDocument.java	0	0	0	2	0	0
+net.sourceforge.jsxe.dom.XMLDocumentListener	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/XMLDocumentListener.java	0	0	0	0	57	5
+sourceview.CharIndexedSegment		jsXe-0_4_99_0-src/jars/sourceview/src/sourceview/CharIndexedSegment.java	1	2	1	0	99	43
+sourceview.RESearchMatcher		jsXe-0_4_99_0-src/jars/sourceview/src/sourceview/RESearchMatcher.java	1	2	1	0	186	89
+sourceview.SourceView		jsXe-0_4_99_0-src/jars/sourceview/src/sourceview/SourceView.java	1	2	1	0	451	231
+sourceview.SourceViewDocument		jsXe-0_4_99_0-src/jars/sourceview/src/sourceview/SourceViewDocument.java	1	2	1	0	168	55
+sourceview.SourceViewOptionsPanel		jsXe-0_4_99_0-src/jars/sourceview/src/sourceview/SourceViewOptionsPanel.java	1	2	1	0	736	511
+sourceview.SourceViewPlugin		jsXe-0_4_99_0-src/jars/sourceview/src/sourceview/SourceViewPlugin.java	1	2	1	0	92	35
+sourceview.SourceViewSearchDialog		jsXe-0_4_99_0-src/jars/sourceview/src/sourceview/SourceViewSearchDialog.java	1	2	1	0	358	213
+org.syntax.jedit.DefaultInputHandler		jsXe-0_4_99_0-src/jars/sourceview/src/org/syntax/jedit/DefaultInputHandler.java	1	2	1	0	354	252
+org.syntax.jedit.InputHandler		jsXe-0_4_99_0-src/jars/sourceview/src/org/syntax/jedit/InputHandler.java	1	2	1	0	1130	847
+org.syntax.jedit.JEditTextArea		jsXe-0_4_99_0-src/jars/sourceview/src/org/syntax/jedit/JEditTextArea.java	1	2	1	0	2192	1408
+org.syntax.jedit.KeywordMap		jsXe-0_4_99_0-src/jars/sourceview/src/org/syntax/jedit/KeywordMap.java	1	2	1	0	141	76
+org.syntax.jedit.SyntaxDocument		jsXe-0_4_99_0-src/jars/sourceview/src/org/syntax/jedit/SyntaxDocument.java	1	2	1	0	167	82
+org.syntax.jedit.SyntaxStyle		jsXe-0_4_99_0-src/jars/sourceview/src/org/syntax/jedit/SyntaxStyle.java	1	2	1	0	138	76
+org.syntax.jedit.SyntaxUtilities		jsXe-0_4_99_0-src/jars/sourceview/src/org/syntax/jedit/SyntaxUtilities.java	1	2	1	0	161	87
+org.syntax.jedit.TextAreaDefaults		jsXe-0_4_99_0-src/jars/sourceview/src/org/syntax/jedit/TextAreaDefaults.java	1	2	1	0	76	47
+org.syntax.jedit.TextAreaPainter		jsXe-0_4_99_0-src/jars/sourceview/src/org/syntax/jedit/TextAreaPainter.java	1	2	1	0	725	423
+org.syntax.jedit.TextUtilities		jsXe-0_4_99_0-src/jars/sourceview/src/org/syntax/jedit/TextUtilities.java	1	2	1	0	191	103
+net.sourceforge.jsxe.util.ArrayListEnumeration	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/util/ArrayListEnumeration.java	0	0	0	0	136	58
+net.sourceforge.jsxe.util.Log	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/util/Log.java	0	0	0	0	352	177
+net.sourceforge.jsxe.util.Log$1	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/util/Log.java	0	0	0	2	0	0
+net.sourceforge.jsxe.util.MiscUtilities	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/util/MiscUtilities.java	0	0	0	0	1336	670
+net.sourceforge.jsxe.util.MiscUtilities$MenuItemCompare	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/util/MiscUtilities.java	0	0	0	2	0	0
+net.sourceforge.jsxe.util.MiscUtilities$StringCompare	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/util/MiscUtilities.java	0	0	0	2	0	0
+net.sourceforge.jsxe.util.MiscUtilities$StringICaseCompare	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/util/MiscUtilities.java	0	0	0	2	0	0
+net.sourceforge.jsxe.ActionPlugin	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/ActionPlugin.java	0	0	0	0	136	35
+net.sourceforge.jsxe.ActionPlugin$Broken	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/ActionPlugin.java	0	0	0	2	0	0
+net.sourceforge.jsxe.ActionSet	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/ActionSet.java	0	0	0	0	175	50
+net.sourceforge.jsxe.BufferHistory	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/BufferHistory.java	0	0	0	0	480	212
+net.sourceforge.jsxe.BufferHistory$1	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/BufferHistory.java	0	0	0	2	0	0
+net.sourceforge.jsxe.BufferHistory$BufferHistoryEntry	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/BufferHistory.java	0	0	0	2	0	0
+net.sourceforge.jsxe.BufferHistory$BufferHistoryHandler	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/BufferHistory.java	0	0	0	2	0	0
+net.sourceforge.jsxe.CatalogManager	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/CatalogManager.java	0	0	0	0	537	329
+net.sourceforge.jsxe.CatalogManager$Entry	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/CatalogManager.java	0	0	0	2	0	0
+net.sourceforge.jsxe.CustomFileFilter	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/CustomFileFilter.java	0	0	0	0	111	41
+net.sourceforge.jsxe.DocumentBuffer	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/DocumentBuffer.java	0	0	0	0	889	464
+net.sourceforge.jsxe.DocumentBuffer$1	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/DocumentBuffer.java	0	0	0	2	0	0
+net.sourceforge.jsxe.DocumentBuffer$DocumentBufferOptionsPanel	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/DocumentBuffer.java	0	0	0	2	0	0
+net.sourceforge.jsxe.DocumentBuffer$DocumentBufferResolver	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/DocumentBuffer.java	0	0	0	2	0	0
+net.sourceforge.jsxe.DocumentBufferListener	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/DocumentBufferListener.java	0	0	0	0	58	8
+net.sourceforge.jsxe.JARClassLoader	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/JARClassLoader.java	0	0	0	0	751	455
+net.sourceforge.jsxe.JARClassLoader$1	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/JARClassLoader.java	0	0	0	2	0	0
+net.sourceforge.jsxe.OperatingSystem	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/OperatingSystem.java	0	0	0	0	185	93
+net.sourceforge.jsxe.PluginDependencyException	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/PluginDependencyException.java	0	0	0	0	58	18
+net.sourceforge.jsxe.PluginLoadException	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/PluginLoadException.java	0	0	0	0	54	13
+net.sourceforge.jsxe.UnrecognizedPluginException	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/UnrecognizedPluginException.java	0	0	0	0	41	6
+net.sourceforge.jsxe.ViewPlugin	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/ViewPlugin.java	0	0	0	0	56	6
+net.sourceforge.jsxe.jsXe	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/jsXe.java	0	0	0	0	1317	713
+net.sourceforge.jsxe.jsXe$jsXeOptionsPanel	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/jsXe.java	0	0	0	2	0	0
+sourceview.action.EditCopyAction		jsXe-0_4_99_0-src/jars/sourceview/src/sourceview/action/EditCopyAction.java	1	2	1	0	77	24
+sourceview.action.EditCutAction		jsXe-0_4_99_0-src/jars/sourceview/src/sourceview/action/EditCutAction.java	1	2	1	0	77	24
+sourceview.action.EditFindAction		jsXe-0_4_99_0-src/jars/sourceview/src/sourceview/action/EditFindAction.java	1	2	1	0	80	23
+sourceview.action.EditPasteAction		jsXe-0_4_99_0-src/jars/sourceview/src/sourceview/action/EditPasteAction.java	1	2	1	0	76	24
+net.sourceforge.jsxe.dom.completion.CompletionInfo	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/completion/CompletionInfo.java	0	0	0	0	375	203
+net.sourceforge.jsxe.dom.completion.CompletionInfo$CompletionInfoHandler	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/completion/CompletionInfo.java	0	0	0	2	0	0
+net.sourceforge.jsxe.dom.completion.ElementDecl	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/completion/ElementDecl.java	0	0	0	0	279	192
+net.sourceforge.jsxe.dom.completion.ElementDecl$AttributeDecl	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/completion/ElementDecl.java	0	0	0	2	0	0
+net.sourceforge.jsxe.dom.completion.ElementDecl$Compare	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/completion/ElementDecl.java	0	0	0	2	0	0
+net.sourceforge.jsxe.dom.completion.EntityDecl	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/completion/EntityDecl.java	0	0	0	0	89	51
+net.sourceforge.jsxe.dom.completion.EntityDecl$Compare	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/completion/EntityDecl.java	0	0	0	2	0	0
+net.sourceforge.jsxe.dom.completion.IDDecl	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/completion/IDDecl.java	0	0	0	0	67	31
+net.sourceforge.jsxe.dom.completion.IDDecl$Compare	jsXe-0_4_99_0-bin/jsXe.jar	jsXe-0_4_99_0-src/src/net/sourceforge/jsxe/dom/completion/IDDecl.java	0	0	0	2	0	0
+#Issues
+#======
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jsXe/jsXe-04_beta/src/jsXe-0_4_99_0-src/lib/resolver.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jsXe/jsXe-04_beta/src/jsXe-0_4_99_0-src/lib/xercesImpl.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jsXe/jsXe-04_beta/src/jsXe-0_4_99_0-src/lib/xml-apis.jar in <src> ignored.
+#SRC NO PUBLIC TYPE for jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/CharIndexedCharArray.java.
+#SRC NO PUBLIC TYPE for jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/CharIndexedInputStream.java.
+#SRC NO PUBLIC TYPE for jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/CharIndexedReader.java.
+#SRC NO PUBLIC TYPE for jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/CharIndexedString.java.
+#SRC NO PUBLIC TYPE for jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/CharIndexedStringBuffer.java.
+#SRC NO PUBLIC TYPE for jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/REToken.java.
+#SRC NO PUBLIC TYPE for jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenAny.java.
+#SRC NO PUBLIC TYPE for jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenBackRef.java.
+#SRC NO PUBLIC TYPE for jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenChar.java.
+#SRC NO PUBLIC TYPE for jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenEnd.java.
+#SRC NO PUBLIC TYPE for jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenEndSub.java.
+#SRC NO PUBLIC TYPE for jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenLookAhead.java.
+#SRC NO PUBLIC TYPE for jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenOneOf.java.
+#SRC NO PUBLIC TYPE for jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenPOSIX.java.
+#SRC NO PUBLIC TYPE for jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenRange.java.
+#SRC NO PUBLIC TYPE for jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenRepeated.java.
+#SRC NO PUBLIC TYPE for jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenStart.java.
+#SRC NO PUBLIC TYPE for jsXe-0_4_99_0-src/jars/sourceview/src/gnu/regexp/RETokenWordBoundary.java.

@@ -1,0 +1,33 @@
+#!/usr/bin/perl -w
+
+use strict;
+
+if ($ARGV[0] eq "-list") {
+	my @list = list_names($ARGV[1]);
+	printf("@list");
+} elsif ($ARGV[0] eq "-reduced") {
+	my $destination = $ARGV[1];
+	install_reduced($destination);
+} else {
+	my $destination = $ARGV[0];
+	install_reduced($destination);
+}
+
+sub install_reduced {
+	my ($corpusdir) = @_;
+	my $src = "db-derby-10.6.1.0-src.tar.gz";
+	my $bin = "db-derby-10.6.1.0-bin.tar.gz";
+	my @files = ("db-derby-10.6.1.0-bin/lib/derbyLocale_fr.jar","db-derby-10.6.1.0-bin/lib/derbyLocale_it.jar","db-derby-10.6.1.0-bin/test/derbyTesting.jar","db-derby-10.6.1.0-bin/lib/derbyLocale_cs.jar","db-derby-10.6.1.0-bin/lib/derbyLocale_ko_KR.jar","db-derby-10.6.1.0-bin/lib/derbyLocale_zh_CN.jar","db-derby-10.6.1.0-bin/lib/derbyLocale_zh_TW.jar","db-derby-10.6.1.0-bin/lib/derbyLocale_de_DE.jar","db-derby-10.6.1.0-bin/demo/databases/toursdb.jar","db-derby-10.6.1.0-bin/lib/derbyLocale_pl.jar","db-derby-10.6.1.0-bin/lib/derbyLocale_es.jar","db-derby-10.6.1.0-bin/lib/derbyLocale_ru.jar","db-derby-10.6.1.0-bin/lib/derbyLocale_hu.jar","db-derby-10.6.1.0-bin/lib/derbytools.jar","db-derby-10.6.1.0-bin/lib/derbynet.jar","db-derby-10.6.1.0-bin/lib/derbyLocale_ja_JP.jar","db-derby-10.6.1.0-bin/lib/derbyrun.jar","db-derby-10.6.1.0-bin/lib/derbyclient.jar","db-derby-10.6.1.0-bin/lib/derbyLocale_pt_BR.jar","db-derby-10.6.1.0-bin/lib/derby.jar","db-derby-10.6.1.0-bin/test/jakarta-oro-2.0.8.jar");
+	printf("\t\t unpacking $src\n");
+	system("tar zxf $corpusdir/compressed/$src -C $corpusdir/src\n") == 0 or die "Failed to extract $src\n";
+	printf("\t\t unpacking $bin\n");
+	system("tar zxf $corpusdir/compressed/$bin -C $corpusdir/bin @files\n") == 0 or die "Failed to extract $bin\n";
+}
+
+sub list_names {
+	my ($appverdir) = @_;
+	opendir(COMPRESSED, "$appverdir/compressed") || die "can't open $appverdir/compressed: $!";
+	my @archives = grep {! /^\.$/ and ! /^\.\.$/ } readdir(COMPRESSED);
+	close(COMPRESSED);
+	return @archives;
+}

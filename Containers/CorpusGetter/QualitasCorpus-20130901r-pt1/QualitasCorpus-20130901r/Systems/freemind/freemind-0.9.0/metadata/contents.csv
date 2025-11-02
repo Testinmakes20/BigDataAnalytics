@@ -1,0 +1,1233 @@
+#2013-09-05T10:01:10NZST
+#System Version : freemind-0.9.0
+#Source Packages: freemind,accessories.plugins,de.foltin,plugins.script,plugins.svg,plugins.help
+#Ignore Packages: 
+#Distributed    : freemind
+#Source Roots   : freemind
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+freemind.controller.BlindIcon	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/BlindIcon.java	0	0	0	0	63	18
+freemind.controller.ColorSwatch	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/ColorSwatch.java	0	0	0	4	59	31
+freemind.controller.Controller	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	0	1653	1233
+freemind.controller.Controller$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$AboutAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$BackgroundSwatch	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$CloseAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$Closer	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$ColorTracker	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$DefaultLocalLinkConverter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$DisposeOnClose	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$DocumentationAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$DocumentationAction$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$HideAllAttributesAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$KeyDocumentationAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$LicenseAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$LocalLinkConverter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$MoveToRootAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$NavigationNextMapAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$NavigationPreviousMapAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$OpenURLAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$OptionAntialiasAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$OptionHTMLExportFoldingAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$OptionSelectionMechanismAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$PageAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$PageAction$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$PageAction$2	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$PrintAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$PrintPreviewAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$PropertyAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$PropertyAction$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$PropertyAction$2	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$PropertyAction$3	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$QuitAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$ShowAllAttributesAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$ShowAttributeDialogAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$ShowFilterToolbarAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$ShowSelectedAttributesAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$ShowSelectionAsRectangleAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$ToggleLeftToolbarAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$ToggleMenubarAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$ToggleToolbarAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$ZoomInAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.Controller$ZoomOutAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/Controller.java	0	0	0	2	0	0
+freemind.controller.FreeMindPopupMenu	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/FreeMindPopupMenu.java	0	0	0	0	75	36
+freemind.controller.FreeMindToolBar	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/FreeMindToolBar.java	0	0	0	0	88	37
+freemind.controller.LastOpenedList	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/LastOpenedList.java	0	0	0	0	115	66
+freemind.controller.MainToolBar	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/MainToolBar.java	0	0	0	0	142	98
+freemind.controller.MainToolBar$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/MainToolBar.java	0	0	0	2	0	0
+freemind.controller.MapModuleManager	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/MapModuleManager.java	0	0	0	0	379	247
+freemind.controller.MapModuleManager$MapModuleChangeObserver	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/MapModuleManager.java	0	0	0	2	0	0
+freemind.controller.MapModuleManager$MapModuleChangeObserverCompound	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/MapModuleManager.java	0	0	0	2	0	0
+freemind.controller.MapModuleManager$MapTitleChangeListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/MapModuleManager.java	0	0	0	2	0	0
+freemind.controller.MapMouseMotionListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/MapMouseMotionListener.java	0	0	0	0	121	67
+freemind.controller.MapMouseMotionListener$MapMouseMotionReceiver	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/MapMouseMotionListener.java	0	0	0	2	0	0
+freemind.controller.MapMouseWheelListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/MapMouseWheelListener.java	0	0	0	0	49	19
+freemind.controller.MenuBar	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/MenuBar.java	0	0	0	0	441	297
+freemind.controller.MenuBar$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/MenuBar.java	0	0	0	2	0	0
+freemind.controller.MenuBar$LastOpenedActionListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/MenuBar.java	0	0	0	2	0	0
+freemind.controller.MenuBar$MapsMenuActionListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/MenuBar.java	0	0	0	2	0	0
+freemind.controller.MenuBar$MapsMenuActionListener$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/MenuBar.java	0	0	0	2	0	0
+freemind.controller.MenuBar$ModesMenuActionListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/MenuBar.java	0	0	0	2	0	0
+freemind.controller.MenuBar$ModesMenuActionListener$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/MenuBar.java	0	0	0	2	0	0
+freemind.controller.MenuItemEnabledListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/MenuItemEnabledListener.java	0	0	0	0	31	6
+freemind.controller.MenuItemSelectedListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/MenuItemSelectedListener.java	0	0	0	0	31	6
+freemind.controller.MindMapNodesSelection	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/MindMapNodesSelection.java	0	0	0	0	114	75
+freemind.controller.NodeDragListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/NodeDragListener.java	0	0	0	0	106	56
+freemind.controller.NodeDragListener$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/NodeDragListener.java	0	0	0	2	0	0
+freemind.controller.NodeDropListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/NodeDropListener.java	0	0	0	0	74	38
+freemind.controller.NodeKeyListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/NodeKeyListener.java	0	0	0	0	70	32
+freemind.controller.NodeMotionListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/NodeMotionListener.java	0	0	0	0	90	50
+freemind.controller.NodeMotionListener$NodeMotionAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/NodeMotionListener.java	0	0	0	2	0	0
+freemind.controller.NodeMouseMotionListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/NodeMouseMotionListener.java	0	0	0	0	97	54
+freemind.controller.NodeMouseMotionListener$NodeMouseMotionObserver	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/NodeMouseMotionListener.java	0	0	0	2	0	0
+freemind.controller.StructuredMenuHolder	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/StructuredMenuHolder.java	0	0	0	0	547	379
+freemind.controller.StructuredMenuHolder$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/StructuredMenuHolder.java	0	0	0	2	0	0
+freemind.controller.StructuredMenuHolder$2	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/StructuredMenuHolder.java	0	0	0	2	0	0
+freemind.controller.StructuredMenuHolder$3	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/StructuredMenuHolder.java	0	0	0	2	0	0
+freemind.controller.StructuredMenuHolder$DefaultMenuAdderCreator	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/StructuredMenuHolder.java	0	0	0	2	0	0
+freemind.controller.StructuredMenuHolder$MapTokenPair	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/StructuredMenuHolder.java	0	0	0	2	0	0
+freemind.controller.StructuredMenuHolder$MenuAdder	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/StructuredMenuHolder.java	0	0	0	2	0	0
+freemind.controller.StructuredMenuHolder$MenuAdderCreator	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/StructuredMenuHolder.java	0	0	0	2	0	0
+freemind.controller.StructuredMenuHolder$MenuEventSupplier	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/StructuredMenuHolder.java	0	0	0	2	0	0
+freemind.controller.StructuredMenuHolder$MenuItemAdder	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/StructuredMenuHolder.java	0	0	0	2	0	0
+freemind.controller.StructuredMenuHolder$PrintMenuAdder	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/StructuredMenuHolder.java	0	0	0	2	0	0
+freemind.controller.StructuredMenuHolder$PrintMenuAdderCreator	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/StructuredMenuHolder.java	0	0	0	2	0	0
+freemind.controller.StructuredMenuHolder$SeparatorHolder	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/StructuredMenuHolder.java	0	0	0	2	0	0
+freemind.controller.StructuredMenuHolder$StructuredMenuListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/StructuredMenuHolder.java	0	0	0	2	0	0
+freemind.controller.StructuredMenuItemHolder	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/StructuredMenuItemHolder.java	0	0	0	0	71	45
+freemind.modes.filemode.FileController	lib/freemind.jar	freemind/freemind/modes/filemode/FileController.java	0	0	0	0	146	93
+freemind.modes.filemode.FileController$CenterAction	lib/freemind.jar	freemind/freemind/modes/filemode/FileController.java	0	0	0	2	0	0
+freemind.modes.filemode.FileController$OpenPathAction	lib/freemind.jar	freemind/freemind/modes/filemode/FileController.java	0	0	0	2	0	0
+freemind.modes.filemode.FileEdgeModel	lib/freemind.jar	freemind/freemind/modes/filemode/FileEdgeModel.java	0	0	0	0	33	9
+freemind.modes.filemode.FileMapModel	lib/freemind.jar	freemind/freemind/modes/filemode/FileMapModel.java	0	0	0	0	161	49
+freemind.modes.filemode.FileMode	lib/freemind.jar	freemind/freemind/modes/filemode/FileMode.java	0	0	0	0	81	43
+freemind.modes.filemode.FileNodeModel	lib/freemind.jar	freemind/freemind/modes/filemode/FileNodeModel.java	0	0	0	0	175	90
+freemind.modes.filemode.FilePopupMenu	lib/freemind.jar	freemind/freemind/modes/filemode/FilePopupMenu.java	0	0	0	0	47	15
+freemind.modes.filemode.FileToolBar	lib/freemind.jar	freemind/freemind/modes/filemode/FileToolBar.java	0	0	0	0	41	14
+freemind.common.BooleanProperty	lib/freemind.jar	freemind/freemind/common/BooleanProperty.java	0	0	0	0	106	62
+freemind.common.BooleanProperty$1	lib/freemind.jar	freemind/freemind/common/BooleanProperty.java	0	0	0	2	0	0
+freemind.common.ColorProperty	lib/freemind.jar	freemind/freemind/common/ColorProperty.java	0	0	0	0	149	90
+freemind.common.ColorProperty$1	lib/freemind.jar	freemind/freemind/common/ColorProperty.java	0	0	0	2	0	0
+freemind.common.ColorProperty$2	lib/freemind.jar	freemind/freemind/common/ColorProperty.java	0	0	0	2	0	0
+freemind.common.ComboProperty	lib/freemind.jar	freemind/freemind/common/ComboProperty.java	0	0	0	0	148	91
+freemind.common.ComboProperty$1	lib/freemind.jar	freemind/freemind/common/ComboProperty.java	0	0	0	2	0	0
+freemind.common.DontShowNotificationProperty	lib/freemind.jar	freemind/freemind/common/DontShowNotificationProperty.java	0	0	0	0	37	10
+freemind.common.FontProperty	lib/freemind.jar	freemind/freemind/common/FontProperty.java	0	0	0	0	109	63
+freemind.common.FontProperty$1	lib/freemind.jar	freemind/freemind/common/FontProperty.java	0	0	0	2	0	0
+freemind.common.IconProperty	lib/freemind.jar	freemind/freemind/common/IconProperty.java	0	0	0	0	126	81
+freemind.common.NamedObject	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/common/NamedObject.java	0	0	0	0	65	30
+freemind.common.NextLineProperty	lib/freemind.jar	freemind/freemind/common/NextLineProperty.java	0	0	0	0	49	18
+freemind.common.NumberProperty	lib/freemind.jar	freemind/freemind/common/NumberProperty.java	0	0	0	0	106	63
+freemind.common.NumberProperty$1	lib/freemind.jar	freemind/freemind/common/NumberProperty.java	0	0	0	2	0	0
+freemind.common.OptionalDontShowMeAgainDialog	lib/freemind.jar	freemind/freemind/common/OptionalDontShowMeAgainDialog.java	0	0	0	0	210	152
+freemind.common.OptionalDontShowMeAgainDialog$1	lib/freemind.jar	freemind/freemind/common/OptionalDontShowMeAgainDialog.java	0	0	0	2	0	0
+freemind.common.OptionalDontShowMeAgainDialog$2	lib/freemind.jar	freemind/freemind/common/OptionalDontShowMeAgainDialog.java	0	0	0	2	0	0
+freemind.common.OptionalDontShowMeAgainDialog$3	lib/freemind.jar	freemind/freemind/common/OptionalDontShowMeAgainDialog.java	0	0	0	2	0	0
+freemind.common.OptionalDontShowMeAgainDialog$DontShowPropertyHandler	lib/freemind.jar	freemind/freemind/common/OptionalDontShowMeAgainDialog.java	0	0	0	2	0	0
+freemind.common.OptionalDontShowMeAgainDialog$StandardPropertyHandler	lib/freemind.jar	freemind/freemind/common/OptionalDontShowMeAgainDialog.java	0	0	0	2	0	0
+freemind.common.PropertyBean	lib/freemind.jar	freemind/freemind/common/PropertyBean.java	0	0	0	0	56	25
+freemind.common.PropertyControl	lib/freemind.jar	freemind/freemind/common/PropertyControl.java	0	0	0	0	36	8
+freemind.common.RemindValueProperty	lib/freemind.jar	freemind/freemind/common/RemindValueProperty.java	0	0	0	0	55	19
+freemind.common.ScriptEditorProperty	lib/freemind.jar	freemind/freemind/common/ScriptEditorProperty.java	0	0	0	0	135	80
+freemind.common.ScriptEditorProperty$ScriptEditorStarter	lib/freemind.jar	freemind/freemind/common/ScriptEditorProperty.java	0	0	0	2	0	0
+freemind.common.SeparatorProperty	lib/freemind.jar	freemind/freemind/common/SeparatorProperty.java	0	0	0	0	53	20
+freemind.common.StringProperty	lib/freemind.jar	freemind/freemind/common/StringProperty.java	0	0	0	0	90	44
+freemind.common.StringProperty$1	lib/freemind.jar	freemind/freemind/common/StringProperty.java	0	0	0	2	0	0
+freemind.common.TextTranslator	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/common/TextTranslator.java	0	0	0	0	28	4
+freemind.common.ThreeCheckBoxProperty	lib/freemind.jar	freemind/freemind/common/ThreeCheckBoxProperty.java	0	0	0	0	166	102
+freemind.common.ThreeCheckBoxProperty$1	lib/freemind.jar	freemind/freemind/common/ThreeCheckBoxProperty.java	0	0	0	2	0	0
+freemind.common.UnicodeReader	lib/freemind.jar	freemind/freemind/common/UnicodeReader.java	0	0	0	0	129	69
+freemind.common.XmlBindingTools	lib/freemind.jar	freemind/freemind/common/XmlBindingTools.java	0	0	0	0	179	119
+freemind.extensions.ExportHook	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/ExportHook.java	0	0	0	0	227	134
+freemind.extensions.ExportHook$ImageFilter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/ExportHook.java	0	0	0	2	0	0
+freemind.extensions.HookAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/HookAdapter.java	0	0	0	0	134	58
+freemind.extensions.HookDescriptorBase	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/HookDescriptorBase.java	0	0	0	0	178	109
+freemind.extensions.HookDescriptorPluginAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/HookDescriptorPluginAction.java	0	0	0	0	131	89
+freemind.extensions.HookDescriptorRegistration	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/HookDescriptorRegistration.java	0	0	0	0	60	21
+freemind.extensions.HookFactory	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/HookFactory.java	0	0	0	0	115	30
+freemind.extensions.HookFactory$RegistrationContainer	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/HookFactory.java	0	0	0	2	0	0
+freemind.extensions.HookFactoryAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/HookFactoryAdapter.java	0	0	0	0	81	28
+freemind.extensions.HookInstanciationMethod	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/HookInstanciationMethod.java	0	0	0	0	145	97
+freemind.extensions.HookInstanciationMethod$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/HookInstanciationMethod.java	0	0	0	2	0	0
+freemind.extensions.HookInstanciationMethod$AllDestinationNodesGetter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/HookInstanciationMethod.java	0	0	0	2	0	0
+freemind.extensions.HookInstanciationMethod$DefaultDestinationNodesGetter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/HookInstanciationMethod.java	0	0	0	2	0	0
+freemind.extensions.HookInstanciationMethod$DestinationNodesGetter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/HookInstanciationMethod.java	0	0	0	2	0	0
+freemind.extensions.HookInstanciationMethod$RootDestinationNodesGetter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/HookInstanciationMethod.java	0	0	0	2	0	0
+freemind.extensions.HookRegistration	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/HookRegistration.java	0	0	0	0	36	5
+freemind.extensions.ImportWizard	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/ImportWizard.java	0	0	0	0	248	137
+freemind.extensions.MindMapHook	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/MindMapHook.java	0	0	0	0	89	17
+freemind.extensions.MindMapHook$PluginBaseClassSearcher	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/MindMapHook.java	0	0	0	2	0	0
+freemind.extensions.ModeControllerHook	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/ModeControllerHook.java	0	0	0	0	37	4
+freemind.extensions.ModeControllerHookAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/ModeControllerHookAdapter.java	0	0	0	0	50	6
+freemind.extensions.NodeHook	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/NodeHook.java	0	0	0	0	40	10
+freemind.extensions.NodeHookAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/NodeHookAdapter.java	0	0	0	0	87	32
+freemind.extensions.PermanentNodeHook	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/PermanentNodeHook.java	0	0	0	0	95	19
+freemind.extensions.PermanentNodeHookAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/PermanentNodeHookAdapter.java	0	0	0	0	181	78
+freemind.extensions.PermanentNodeHookSubstituteUnknown	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/PermanentNodeHookSubstituteUnknown.java	0	0	0	0	55	26
+freemind.extensions.StatefulMindMapNodeHookAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/StatefulMindMapNodeHookAdapter.java	0	0	0	0	24	17
+freemind.extensions.StatefulNodeHook	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/StatefulNodeHook.java	0	0	0	0	9	8
+freemind.extensions.UndoEventReceiver	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/extensions/UndoEventReceiver.java	0	0	0	0	38	3
+freemind.controller.filter.util.ExtendedComboBoxModel	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/util/ExtendedComboBoxModel.java	0	0	0	0	164	102
+freemind.controller.filter.util.ExtendedComboBoxModel$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/util/ExtendedComboBoxModel.java	0	0	0	2	0	0
+freemind.controller.filter.util.ExtendedComboBoxModel$ExtensionDataListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/util/ExtendedComboBoxModel.java	0	0	0	2	0	0
+freemind.controller.filter.util.SortedComboBoxModel	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/util/SortedComboBoxModel.java	0	0	0	0	48	12
+freemind.controller.filter.util.SortedListModel	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/util/SortedListModel.java	0	0	0	0	55	10
+freemind.controller.filter.util.SortedMapListModel	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/util/SortedMapListModel.java	0	0	0	0	115	68
+freemind.controller.filter.util.SortedMapVector	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/util/SortedMapVector.java	0	0	0	0	163	121
+freemind.controller.filter.util.SortedMapVector$MapElement	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/util/SortedMapVector.java	0	0	0	2	0	0
+tests.freemind.findreplace.FindTextTests		freemind/tests/freemind/findreplace/FindTextTests.java	1	2	0	0	188	131
+tests.freemind.findreplace.TestMindMapNode		freemind/tests/freemind/findreplace/TestMindMapNode.java	1	2	0	4	469	325
+freemind.modes.common.listeners.CommonMouseMotionManager	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/listeners/CommonMouseMotionManager.java	0	0	0	0	84	38
+freemind.modes.common.listeners.CommonNodeMouseMotionListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/listeners/CommonNodeMouseMotionListener.java	0	0	0	0	241	135
+freemind.modes.common.listeners.CommonNodeMouseMotionListener$timeDelayedSelection	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/listeners/CommonNodeMouseMotionListener.java	0	0	0	2	0	0
+freemind.modes.common.listeners.CommonNodeMouseMotionListener$timeDelayedSelection$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/listeners/CommonNodeMouseMotionListener.java	0	0	0	2	0	0
+freemind.modes.common.listeners.MindMapMouseWheelEventHandler	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/listeners/MindMapMouseWheelEventHandler.java	0	0	0	0	124	75
+freemind.modes.common.listeners.MindMapMouseWheelEventHandler$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/listeners/MindMapMouseWheelEventHandler.java	0	0	0	2	0	0
+plugins.collaboration.database.DatabaseBasics		freemind/plugins/collaboration/database/DatabaseBasics.java	1	2	0	0	226	165
+plugins.collaboration.database.DatabaseConnectionHook		freemind/plugins/collaboration/database/DatabaseConnectionHook.java	1	2	0	0	106	50
+plugins.collaboration.database.DatabaseConnector		freemind/plugins/collaboration/database/DatabaseConnector.java	1	2	0	0	110	68
+plugins.collaboration.database.DatabaseRegistration		freemind/plugins/collaboration/database/DatabaseRegistration.java	1	2	0	0	110	71
+plugins.collaboration.database.DatabaseStarter		freemind/plugins/collaboration/database/DatabaseStarter.java	1	2	0	0	180	116
+plugins.collaboration.database.UpdateThread		freemind/plugins/collaboration/database/UpdateThread.java	1	2	0	0	313	255
+freemind.main.Base64Coding	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/Base64Coding.java	0	0	0	0	175	96
+freemind.main.ExampleFileFilter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/ExampleFileFilter.java	0	0	0	0	270	93
+freemind.main.FeedBack	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FeedBack.java	0	0	0	0	34	9
+freemind.main.FixedHTMLWriter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FixedHTMLWriter.java	0	0	0	0	108	56
+freemind.main.FreeMind	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMind.java	0	0	0	0	1202	836
+freemind.main.FreeMind$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMind.java	0	0	0	2	0	0
+freemind.main.FreeMind$3	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMind.java	0	0	0	2	0	0
+freemind.main.FreeMind$4	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMind.java	0	0	0	2	0	0
+freemind.main.FreeMind$5	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMind.java	0	0	0	2	0	0
+freemind.main.FreeMind$6	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMind.java	0	0	0	2	0	0
+freemind.main.FreeMind$7	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMind.java	0	0	0	2	0	0
+freemind.main.FreeMind$FocusSearch	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMind.java	0	0	0	2	0	0
+freemind.main.FreeMind$FocusSearch$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMind.java	0	0	0	2	0	0
+freemind.main.FreeMindApplet	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMindApplet.java	0	0	0	0	393	278
+freemind.main.FreeMindCommon	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMindCommon.java	0	0	0	0	363	224
+freemind.main.FreeMindCommon$FreemindResourceBundle	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMindCommon.java	0	0	0	2	0	0
+freemind.main.FreeMindMain	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMindMain.java	0	0	0	0	235	135
+freemind.main.FreeMindMain$VersionInformation	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMindMain.java	0	0	0	2	0	0
+freemind.main.FreeMindSecurityManager	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMindSecurityManager.java	0	0	0	0	191	147
+freemind.main.FreeMindSplash	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMindSplash.java	0	0	0	0	207	153
+freemind.main.FreeMindSplash$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMindSplash.java	0	0	0	2	0	0
+freemind.main.FreeMindSplash$FeedBackImpl	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMindSplash.java	0	0	0	2	0	0
+freemind.main.FreeMindSplash$FeedBackImpl$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMindSplash.java	0	0	0	2	0	0
+freemind.main.FreeMindSplashModern	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMindSplashModern.java	0	0	0	0	211	158
+freemind.main.FreeMindSplashModern$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMindSplashModern.java	0	0	0	2	0	0
+freemind.main.FreeMindSplashModern$FeedBackImpl	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMindSplashModern.java	0	0	0	2	0	0
+freemind.main.FreeMindSplashModern$FeedBackImpl$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMindSplashModern.java	0	0	0	2	0	0
+freemind.main.FreeMindStarter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/FreeMindStarter.java	0	0	0	0	180	118
+freemind.main.HtmlTools	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/HtmlTools.java	0	0	0	0	656	465
+freemind.main.HtmlTools$IndexPair	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/HtmlTools.java	0	0	0	2	0	0
+freemind.main.IFreeMindSplash	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/IFreeMindSplash.java	0	0	0	0	37	8
+freemind.main.LoggingOutputStream	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/LoggingOutputStream.java	0	0	0	4	53	28
+freemind.main.Resources	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/Resources.java	0	0	0	0	146	91
+freemind.main.StdFormatter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/StdFormatter.java	0	0	0	4	68	29
+freemind.main.StdFormatter$StdOutErrLevel	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/StdFormatter.java	0	0	0	2	0	0
+freemind.main.Tools	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/Tools.java	0	0	0	0	1429	1019
+freemind.main.Tools$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/Tools.java	0	0	0	2	0	0
+freemind.main.Tools$1EscapeAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/Tools.java	0	0	0	2	0	0
+freemind.main.Tools$1TransformerRunnable	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/Tools.java	0	0	0	2	0	0
+freemind.main.Tools$ActionHolder	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/Tools.java	0	0	0	2	0	0
+freemind.main.Tools$BooleanHolder	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/Tools.java	0	0	0	2	0	0
+freemind.main.Tools$ButtonHolder	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/Tools.java	0	0	0	2	0	0
+freemind.main.Tools$DesEncrypter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/Tools.java	0	0	0	2	0	0
+freemind.main.Tools$IntHolder	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/Tools.java	0	0	0	2	0	0
+freemind.main.Tools$NameMnemonicHolder	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/Tools.java	0	0	0	2	0	0
+freemind.main.Tools$ObjectHolder	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/Tools.java	0	0	0	2	0	0
+freemind.main.Tools$Pair	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/Tools.java	0	0	0	2	0	0
+freemind.main.Tools$SingleDesEncrypter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/Tools.java	0	0	0	2	0	0
+freemind.main.Tools$TripleDesEncrypter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/Tools.java	0	0	0	2	0	0
+freemind.main.XHTMLWriter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/XHTMLWriter.java	0	0	0	0	236	120
+freemind.main.XHTMLWriter$XHTMLFilterWriter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/XHTMLWriter.java	0	0	0	2	0	0
+freemind.main.XMLElement	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/XMLElement.java	0	0	0	0	2958	1092
+freemind.main.XMLParseException	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/main/XMLParseException.java	0	0	0	0	152	30
+plugins.help.FreemindHelpStarter	plugins/help/help_plugin.jar	freemind/plugins/help/FreemindHelpStarter.java	0	0	0	0	65	26
+plugins.svg.ExportPdf	plugins/svg/svg_plugin.jar	freemind/plugins/svg/ExportPdf.java	0	0	0	0	100	50
+plugins.svg.ExportSvg	plugins/svg/svg_plugin.jar	freemind/plugins/svg/ExportSvg.java	0	0	0	0	89	52
+plugins.svg.ExportVectorGraphic	plugins/svg/svg_plugin.jar	freemind/plugins/svg/ExportVectorGraphic.java	0	0	0	0	124	68
+freemind.modes.common.plugins.NodeNoteBase	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/plugins/NodeNoteBase.java	0	0	0	0	35	4
+freemind.modes.common.plugins.ReminderHookBase	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/plugins/ReminderHookBase.java	0	0	0	0	265	171
+freemind.modes.common.plugins.ReminderHookBase$CheckReminder	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/plugins/ReminderHookBase.java	0	0	0	2	0	0
+freemind.modes.common.plugins.ReminderHookBase$CheckReminder$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/plugins/ReminderHookBase.java	0	0	0	2	0	0
+freemind.modes.common.plugins.ReminderHookBase$TimerBlinkTask	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/plugins/ReminderHookBase.java	0	0	0	2	0	0
+freemind.modes.common.plugins.ReminderHookBase$TimerBlinkTask$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/plugins/ReminderHookBase.java	0	0	0	2	0	0
+freemind.controller.printpreview.BrowseAction	lib/freemind.jar	freemind/freemind/controller/printpreview/BrowseAction.java	0	0	0	4	61	35
+freemind.controller.printpreview.BrowseAction$1	lib/freemind.jar	freemind/freemind/controller/printpreview/BrowseAction.java	0	0	0	2	0	0
+freemind.controller.printpreview.Preview	lib/freemind.jar	freemind/freemind/controller/printpreview/Preview.java	0	0	0	4	121	85
+freemind.controller.printpreview.PreviewDialog	lib/freemind.jar	freemind/freemind/controller/printpreview/PreviewDialog.java	0	0	0	0	109	73
+freemind.controller.printpreview.ZoomAction	lib/freemind.jar	freemind/freemind/controller/printpreview/ZoomAction.java	0	0	0	4	42	16
+freemind.view.mindmapview.ArrowLinkView	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/ArrowLinkView.java	0	0	0	0	294	198
+freemind.view.mindmapview.BezierEdgeView	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/BezierEdgeView.java	0	0	0	0	80	44
+freemind.view.mindmapview.BubbleMainView	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/BubbleMainView.java	0	0	0	4	156	92
+freemind.view.mindmapview.CloudView	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/CloudView.java	0	0	0	0	207	144
+freemind.view.mindmapview.ConvexHull	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/ConvexHull.java	0	0	0	0	148	105
+freemind.view.mindmapview.ConvexHull$thetaComparator	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/ConvexHull.java	0	0	0	2	0	0
+freemind.view.mindmapview.EdgeView	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EdgeView.java	0	0	0	0	126	70
+freemind.view.mindmapview.EditNodeBase	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeBase.java	0	0	0	0	332	230
+freemind.view.mindmapview.EditNodeBase$1KeyEventQueue	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeBase.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeBase$EditControl	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeBase.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeBase$EditCopyAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeBase.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeBase$EditDialog	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeBase.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeBase$EditDialog$CancelAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeBase.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeBase$EditDialog$DialogWindowListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeBase.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeBase$EditDialog$SplitAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeBase.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeBase$EditDialog$SubmitAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeBase.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeBase$EditPopupMenu	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeBase.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeDialog	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeDialog.java	0	0	0	0	319	224
+freemind.view.mindmapview.EditNodeDialog$LongNodeDialog	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeDialog.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeDialog$LongNodeDialog$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeDialog.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeDialog$LongNodeDialog$2	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeDialog.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeDialog$LongNodeDialog$3	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeDialog.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeDialog$LongNodeDialog$4	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeDialog.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeDialog$LongNodeDialog$5	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeDialog.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeDialog$LongNodeDialog$6	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeDialog.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeExternalApplication	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeExternalApplication.java	0	0	0	0	108	54
+freemind.view.mindmapview.EditNodeExternalApplication$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeExternalApplication.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeTextField	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeTextField.java	0	0	0	0	292	198
+freemind.view.mindmapview.EditNodeTextField$1TextFieldListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeTextField.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeWYSIWYG	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeWYSIWYG.java	0	0	0	0	265	197
+freemind.view.mindmapview.EditNodeWYSIWYG$HTMLDialog	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeWYSIWYG.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeWYSIWYG$HTMLDialog$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeWYSIWYG.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeWYSIWYG$HTMLDialog$2	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeWYSIWYG.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeWYSIWYG$HTMLDialog$3	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeWYSIWYG.java	0	0	0	2	0	0
+freemind.view.mindmapview.EditNodeWYSIWYG$HTMLDialog$4	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/EditNodeWYSIWYG.java	0	0	0	2	0	0
+freemind.view.mindmapview.ForkMainView	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/ForkMainView.java	0	0	0	4	134	91
+freemind.view.mindmapview.LeftNodeViewLayout	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/LeftNodeViewLayout.java	0	0	0	0	89	50
+freemind.view.mindmapview.LinearEdgeView	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/LinearEdgeView.java	0	0	0	0	72	43
+freemind.view.mindmapview.MainView	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/MainView.java	0	0	0	0	368	282
+freemind.view.mindmapview.MapView	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/MapView.java	0	0	0	0	1465	1081
+freemind.view.mindmapview.MapView$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/MapView.java	0	0	0	2	0	0
+freemind.view.mindmapview.MapView$1CenterNodeRunnable	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/MapView.java	0	0	0	2	0	0
+freemind.view.mindmapview.MapView$2	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/MapView.java	0	0	0	2	0	0
+freemind.view.mindmapview.MapView$ResizeListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/MapView.java	0	0	0	2	0	0
+freemind.view.mindmapview.MapView$ScrollPane	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/MapView.java	0	0	0	2	0	0
+freemind.view.mindmapview.MapView$Selected	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/MapView.java	0	0	0	2	0	0
+freemind.view.mindmapview.MindMapLayout	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/MindMapLayout.java	0	0	0	0	117	68
+freemind.view.mindmapview.MultipleImage	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/MultipleImage.java	0	0	0	0	142	82
+freemind.view.mindmapview.NodeMotionListenerView	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/NodeMotionListenerView.java	0	0	0	0	95	61
+freemind.view.mindmapview.NodeView	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/NodeView.java	0	0	0	0	1423	1052
+freemind.view.mindmapview.NodeViewFactory	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/NodeViewFactory.java	0	0	0	4	212	155
+freemind.view.mindmapview.NodeViewFactory$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/NodeViewFactory.java	0	0	0	2	0	0
+freemind.view.mindmapview.NodeViewFactory$ContentPane	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/NodeViewFactory.java	0	0	0	2	0	0
+freemind.view.mindmapview.NodeViewFactory$ContentPaneLayout	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/NodeViewFactory.java	0	0	0	2	0	0
+freemind.view.mindmapview.NodeViewLayout	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/NodeViewLayout.java	0	0	0	0	31	8
+freemind.view.mindmapview.NodeViewLayoutAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/NodeViewLayoutAdapter.java	0	0	0	0	285	211
+freemind.view.mindmapview.NodeViewVisitor	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/NodeViewVisitor.java	0	0	0	0	24	4
+freemind.view.mindmapview.PathBBox	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/PathBBox.java	0	0	0	4	182	134
+freemind.view.mindmapview.RightNodeViewLayout	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/RightNodeViewLayout.java	0	0	0	0	91	51
+freemind.view.mindmapview.RootMainView	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/RootMainView.java	0	0	0	4	174	118
+freemind.view.mindmapview.SharpBezierEdgeView	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/SharpBezierEdgeView.java	0	0	0	0	120	84
+freemind.view.mindmapview.SharpLinearEdgeView	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/SharpLinearEdgeView.java	0	0	0	0	49	20
+freemind.view.mindmapview.VerticalRootNodeViewLayout	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/VerticalRootNodeViewLayout.java	0	0	0	0	130	88
+freemind.modes.mindmapmode.listeners.MindMapMouseMotionManager	lib/freemind.jar	freemind/freemind/modes/mindmapmode/listeners/MindMapMouseMotionManager.java	0	0	0	0	115	67
+freemind.modes.mindmapmode.listeners.MindMapNodeDropListener	lib/freemind.jar	freemind/freemind/modes/mindmapmode/listeners/MindMapNodeDropListener.java	0	0	0	0	282	174
+freemind.modes.mindmapmode.listeners.MindMapNodeMotionListener	lib/freemind.jar	freemind/freemind/modes/mindmapmode/listeners/MindMapNodeMotionListener.java	0	0	0	0	241	177
+freemind.modes.mindmapmode.listeners.MindMapNodeMotionListener$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/listeners/MindMapNodeMotionListener.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.hooks.MindMapHookAdapter	lib/freemind.jar	freemind/freemind/modes/mindmapmode/hooks/MindMapHookAdapter.java	0	0	0	0	42	11
+freemind.modes.mindmapmode.hooks.MindMapHookFactory	lib/freemind.jar	freemind/freemind/modes/mindmapmode/hooks/MindMapHookFactory.java	0	0	0	0	392	251
+freemind.modes.mindmapmode.hooks.MindMapHookFactory$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/hooks/MindMapHookFactory.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.hooks.MindMapNodeHookAdapter	lib/freemind.jar	freemind/freemind/modes/mindmapmode/hooks/MindMapNodeHookAdapter.java	0	0	0	0	43	11
+freemind.modes.mindmapmode.hooks.PermanentMindMapNodeHookAdapter	lib/freemind.jar	freemind/freemind/modes/mindmapmode/hooks/PermanentMindMapNodeHookAdapter.java	0	0	0	0	68	24
+freemind.modes.common.dialogs.EnterPasswordDialog	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/dialogs/EnterPasswordDialog.java	0	0	0	0	312	200
+freemind.modes.common.dialogs.EnterPasswordDialog$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/dialogs/EnterPasswordDialog.java	0	0	0	2	0	0
+freemind.modes.common.dialogs.EnterPasswordDialog$2	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/dialogs/EnterPasswordDialog.java	0	0	0	2	0	0
+freemind.modes.common.dialogs.EnterPasswordDialog$3	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/dialogs/EnterPasswordDialog.java	0	0	0	2	0	0
+freemind.modes.common.dialogs.EnterPasswordDialog$4	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/dialogs/EnterPasswordDialog.java	0	0	0	2	0	0
+freemind.modes.common.dialogs.IconSelectionPopupDialog	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/dialogs/IconSelectionPopupDialog.java	0	0	0	0	348	250
+freemind.modes.common.dialogs.IconSelectionPopupDialog$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/dialogs/IconSelectionPopupDialog.java	0	0	0	2	0	0
+freemind.modes.common.dialogs.IconSelectionPopupDialog$Position	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/dialogs/IconSelectionPopupDialog.java	0	0	0	2	0	0
+freemind.modes.common.dialogs.PersistentEditableComboBox	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/dialogs/PersistentEditableComboBox.java	0	0	0	0	107	70
+freemind.modes.common.dialogs.PersistentEditableComboBox$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/dialogs/PersistentEditableComboBox.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.xml.AbstractActorXml	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/xml/AbstractActorXml.java	0	0	0	0	60	29
+freemind.modes.mindmapmode.actions.xml.AbstractXmlAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/xml/AbstractXmlAction.java	0	0	0	0	90	35
+freemind.modes.mindmapmode.actions.xml.ActionFactory	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/xml/ActionFactory.java	0	0	0	0	182	110
+freemind.modes.mindmapmode.actions.xml.ActionFilter	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/xml/ActionFilter.java	0	0	0	0	50	6
+freemind.modes.mindmapmode.actions.xml.ActionFilter$FinalActionFilter	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/xml/ActionFilter.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.xml.ActionHandler	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/xml/ActionHandler.java	0	0	0	0	44	7
+freemind.modes.mindmapmode.actions.xml.ActionPair	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/xml/ActionPair.java	0	0	0	0	59	19
+freemind.modes.mindmapmode.actions.xml.ActorXml	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/xml/ActorXml.java	0	0	0	0	41	6
+freemind.modes.mindmapmode.actions.xml.NodeHookUndoableContentActor	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/xml/NodeHookUndoableContentActor.java	0	0	0	0	108	70
+freemind.modes.mindmapmode.actions.xml.PrintActionHandler	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/xml/PrintActionHandler.java	0	0	0	0	76	22
+freemind.modes.mindmapmode.actions.xml.UndoActionHandler	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/xml/UndoActionHandler.java	0	0	0	0	63	30
+freemind.modes.common.actions.FindAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/actions/FindAction.java	0	0	0	0	297	205
+freemind.modes.common.actions.FindAction$FindNextAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/actions/FindAction.java	0	0	0	2	0	0
+freemind.modes.common.actions.NewMapAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/actions/NewMapAction.java	0	0	0	0	55	16
+plugins.collaboration.jabber.mindmap.JabberListener		freemind/plugins/collaboration/jabber/mindmap/JabberListener.java	1	2	0	0	240	161
+plugins.collaboration.jabber.mindmap.JabberSender		freemind/plugins/collaboration/jabber/mindmap/JabberSender.java	1	2	0	0	260	135
+plugins.collaboration.jabber.mindmap.MapSharingController		freemind/plugins/collaboration/jabber/mindmap/MapSharingController.java	1	2	0	0	525	235
+freemind.controller.filter.DefaultFilter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/DefaultFilter.java	0	0	0	0	194	128
+freemind.controller.filter.Filter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/Filter.java	0	0	0	0	51	19
+freemind.controller.filter.FilterComposerDialog	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterComposerDialog.java	0	0	0	0	706	579
+freemind.controller.filter.FilterComposerDialog$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterComposerDialog.java	0	0	0	2	0	0
+freemind.controller.filter.FilterComposerDialog$AddConditionAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterComposerDialog.java	0	0	0	2	0	0
+freemind.controller.filter.FilterComposerDialog$CloseAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterComposerDialog.java	0	0	0	2	0	0
+freemind.controller.filter.FilterComposerDialog$ConditionListMouseListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterComposerDialog.java	0	0	0	2	0	0
+freemind.controller.filter.FilterComposerDialog$ConditionListMouseListener$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterComposerDialog.java	0	0	0	2	0	0
+freemind.controller.filter.FilterComposerDialog$ConditionListSelectionListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterComposerDialog.java	0	0	0	2	0	0
+freemind.controller.filter.FilterComposerDialog$CreateConjunctConditionAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterComposerDialog.java	0	0	0	2	0	0
+freemind.controller.filter.FilterComposerDialog$CreateDisjunctConditionAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterComposerDialog.java	0	0	0	2	0	0
+freemind.controller.filter.FilterComposerDialog$CreateNotSatisfiedConditionAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterComposerDialog.java	0	0	0	2	0	0
+freemind.controller.filter.FilterComposerDialog$DeleteConditionAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterComposerDialog.java	0	0	0	2	0	0
+freemind.controller.filter.FilterComposerDialog$LoadAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterComposerDialog.java	0	0	0	2	0	0
+freemind.controller.filter.FilterComposerDialog$MindMapFilterFileFilter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterComposerDialog.java	0	0	0	2	0	0
+freemind.controller.filter.FilterComposerDialog$SaveAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterComposerDialog.java	0	0	0	2	0	0
+freemind.controller.filter.FilterComposerDialog$SelectedAttributeChangeListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterComposerDialog.java	0	0	0	2	0	0
+freemind.controller.filter.FilterComposerDialog$SimpleConditionChangeListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterComposerDialog.java	0	0	0	2	0	0
+freemind.controller.filter.FilterController	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterController.java	0	0	0	0	211	148
+freemind.controller.filter.FilterInfo	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterInfo.java	0	0	0	0	76	34
+freemind.controller.filter.FilterToolbar	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterToolbar.java	0	0	0	4	297	221
+freemind.controller.filter.FilterToolbar$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterToolbar.java	0	0	0	2	0	0
+freemind.controller.filter.FilterToolbar$EditFilterAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterToolbar.java	0	0	0	2	0	0
+freemind.controller.filter.FilterToolbar$FilterChangeListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterToolbar.java	0	0	0	2	0	0
+freemind.controller.filter.FilterToolbar$UnfoldAncestorsAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/FilterToolbar.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.AddArrowLinkAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/AddArrowLinkAction.java	0	0	0	0	148	93
+freemind.modes.mindmapmode.actions.AddLocalLinkAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/AddLocalLinkAction.java	0	0	0	0	63	25
+freemind.modes.mindmapmode.actions.ApplyPatternAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/ApplyPatternAction.java	0	0	0	0	208	155
+freemind.modes.mindmapmode.actions.ApplyPatternAction$ExternalPatternAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/ApplyPatternAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.BoldAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/BoldAction.java	0	0	0	0	94	53
+freemind.modes.mindmapmode.actions.ChangeArrowLinkEndPoints	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/ChangeArrowLinkEndPoints.java	0	0	0	0	113	58
+freemind.modes.mindmapmode.actions.ChangeArrowsInArrowLinkAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/ChangeArrowsInArrowLinkAction.java	0	0	0	0	118	72
+freemind.modes.mindmapmode.actions.CloudAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/CloudAction.java	0	0	0	0	124	83
+freemind.modes.mindmapmode.actions.CloudColorAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/CloudColorAction.java	0	0	0	0	119	79
+freemind.modes.mindmapmode.actions.ColorArrowLinkAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/ColorArrowLinkAction.java	0	0	0	0	113	67
+freemind.modes.mindmapmode.actions.CompoundActionHandler	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/CompoundActionHandler.java	0	0	0	0	76	31
+freemind.modes.mindmapmode.actions.CopyAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/CopyAction.java	0	0	0	0	52	23
+freemind.modes.mindmapmode.actions.CopySingleAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/CopySingleAction.java	0	0	0	0	49	21
+freemind.modes.mindmapmode.actions.CutAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/CutAction.java	0	0	0	0	150	104
+freemind.modes.mindmapmode.actions.DeleteChildAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/DeleteChildAction.java	0	0	0	0	148	96
+freemind.modes.mindmapmode.actions.EdgeColorAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/EdgeColorAction.java	0	0	0	0	107	66
+freemind.modes.mindmapmode.actions.EdgeStyleAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/EdgeStyleAction.java	0	0	0	0	99	65
+freemind.modes.mindmapmode.actions.EdgeWidthAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/EdgeWidthAction.java	0	0	0	0	106	70
+freemind.modes.mindmapmode.actions.EditAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/EditAction.java	0	0	0	0	309	233
+freemind.modes.mindmapmode.actions.EditAction$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/EditAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.EditAction$2	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/EditAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.EditAction$3	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/EditAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.EditAction$4	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/EditAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.ExportBranchAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/ExportBranchAction.java	0	0	0	0	159	103
+freemind.modes.mindmapmode.actions.FontFamilyAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/FontFamilyAction.java	0	0	0	0	109	61
+freemind.modes.mindmapmode.actions.FontSizeAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/FontSizeAction.java	0	0	0	0	109	60
+freemind.modes.mindmapmode.actions.FreemindAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/FreemindAction.java	0	0	0	0	76	29
+freemind.modes.mindmapmode.actions.HookAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/HookAction.java	0	0	0	0	32	4
+freemind.modes.mindmapmode.actions.IconAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/IconAction.java	0	0	0	0	235	178
+freemind.modes.mindmapmode.actions.ImportExplorerFavoritesAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/ImportExplorerFavoritesAction.java	0	0	0	0	125	81
+freemind.modes.mindmapmode.actions.ImportFolderStructureAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/ImportFolderStructureAction.java	0	0	0	0	119	76
+freemind.modes.mindmapmode.actions.ItalicAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/ItalicAction.java	0	0	0	0	92	53
+freemind.modes.mindmapmode.actions.JoinNodesAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/JoinNodesAction.java	0	0	0	0	110	78
+freemind.modes.mindmapmode.actions.MindMapActions	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/MindMapActions.java	0	0	0	0	247	104
+freemind.modes.mindmapmode.actions.MindMapActions$MouseWheelEventHandler	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/MindMapActions.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.MindMapControllerHookAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/MindMapControllerHookAction.java	0	0	0	0	55	24
+freemind.modes.mindmapmode.actions.ModeControllerActionHandler	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/ModeControllerActionHandler.java	0	0	0	0	65	19
+freemind.modes.mindmapmode.actions.MoveNodeAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/MoveNodeAction.java	0	0	0	0	102	66
+freemind.modes.mindmapmode.actions.NewChildAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/NewChildAction.java	0	0	0	0	177	123
+freemind.modes.mindmapmode.actions.NewPreviousSiblingAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/NewPreviousSiblingAction.java	0	0	0	0	41	14
+freemind.modes.mindmapmode.actions.NewSiblingAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/NewSiblingAction.java	0	0	0	0	41	14
+freemind.modes.mindmapmode.actions.NodeActorXml	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/NodeActorXml.java	0	0	0	0	46	8
+freemind.modes.mindmapmode.actions.NodeBackgroundColorAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/NodeBackgroundColorAction.java	0	0	0	0	113	74
+freemind.modes.mindmapmode.actions.NodeBackgroundColorAction$RemoveNodeBackgroundColorAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/NodeBackgroundColorAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.NodeBackgroundColorAction$RemoveNodeBackgroundColorAction$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/NodeBackgroundColorAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.NodeColorAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/NodeColorAction.java	0	0	0	0	96	62
+freemind.modes.mindmapmode.actions.NodeColorBlendAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/NodeColorBlendAction.java	0	0	0	0	46	12
+freemind.modes.mindmapmode.actions.NodeColorBlendAction$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/NodeColorBlendAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.NodeGeneralAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/NodeGeneralAction.java	0	0	0	0	179	106
+freemind.modes.mindmapmode.actions.NodeHookAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/NodeHookAction.java	0	0	0	0	320	217
+freemind.modes.mindmapmode.actions.NodeStyleAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/NodeStyleAction.java	0	0	0	0	109	71
+freemind.modes.mindmapmode.actions.NodeUpAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/NodeUpAction.java	0	0	0	0	206	158
+freemind.modes.mindmapmode.actions.NodeUpAction$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/NodeUpAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.NodeUpAction$2	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/NodeUpAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.PasteAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/PasteAction.java	0	0	0	0	727	540
+freemind.modes.mindmapmode.actions.PasteAction$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/PasteAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.PasteAction$DataFlavorHandler	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/PasteAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.PasteAction$DirectHtmlFlavorHandler	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/PasteAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.PasteAction$FileListFlavorHandler	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/PasteAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.PasteAction$HtmlFlavorHandler	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/PasteAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.PasteAction$MindMapNodesFlavorHandler	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/PasteAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.PasteAction$NodeCoordinate	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/PasteAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.PasteAction$StringFlavorHandler	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/PasteAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.RedoAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/RedoAction.java	0	0	0	0	47	15
+freemind.modes.mindmapmode.actions.RemoveAllIconsAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/RemoveAllIconsAction.java	0	0	0	0	116	72
+freemind.modes.mindmapmode.actions.RemoveArrowLinkAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/RemoveArrowLinkAction.java	0	0	0	0	141	83
+freemind.modes.mindmapmode.actions.RemoveIconAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/RemoveIconAction.java	0	0	0	0	127	74
+freemind.modes.mindmapmode.actions.RevertAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/RevertAction.java	0	0	0	0	186	112
+freemind.modes.mindmapmode.actions.SelectAllAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/SelectAllAction.java	0	0	0	0	44	13
+freemind.modes.mindmapmode.actions.SelectAllAction$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/SelectAllAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.SelectBranchAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/SelectBranchAction.java	0	0	0	0	43	11
+freemind.modes.mindmapmode.actions.SetLinkByTextFieldAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/SetLinkByTextFieldAction.java	0	0	0	0	94	58
+freemind.modes.mindmapmode.actions.SingleNodeOperation	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/SingleNodeOperation.java	0	0	0	0	37	5
+freemind.modes.mindmapmode.actions.ToggleChildrenFoldedAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/ToggleChildrenFoldedAction.java	0	0	0	0	48	20
+freemind.modes.mindmapmode.actions.ToggleFoldedAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/ToggleFoldedAction.java	0	0	0	0	161	112
+freemind.modes.mindmapmode.actions.UnderlinedAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/UnderlinedAction.java	0	0	0	0	91	53
+freemind.modes.mindmapmode.actions.UndoAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/UndoAction.java	0	0	0	0	211	145
+freemind.modes.mindmapmode.actions.UndoAction$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/UndoAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.UsePlainTextAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/UsePlainTextAction.java	0	0	0	0	67	20
+freemind.modes.mindmapmode.actions.UsePlainTextAction$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/UsePlainTextAction.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.actions.UseRichFormattingAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/UseRichFormattingAction.java	0	0	0	0	66	20
+freemind.modes.mindmapmode.actions.UseRichFormattingAction$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/actions/UseRichFormattingAction.java	0	0	0	2	0	0
+plugins.latex.JZoomedHotEqn		freemind/plugins/latex/JZoomedHotEqn.java	1	2	0	0	99	88
+plugins.latex.LatexNodeHook		freemind/plugins/latex/LatexNodeHook.java	1	2	0	0	127	92
+freemind.modes.browsemode.BrowseArrowLinkModel	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/browsemode/BrowseArrowLinkModel.java	0	0	0	0	56	22
+freemind.modes.browsemode.BrowseCloudModel	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/browsemode/BrowseCloudModel.java	0	0	0	0	41	15
+freemind.modes.browsemode.BrowseController	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/browsemode/BrowseController.java	0	0	0	0	332	178
+freemind.modes.browsemode.BrowseController$FollowLinkAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/browsemode/BrowseController.java	0	0	0	2	0	0
+freemind.modes.browsemode.BrowseEdgeModel	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/browsemode/BrowseEdgeModel.java	0	0	0	0	47	20
+freemind.modes.browsemode.BrowseHookFactory	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/browsemode/BrowseHookFactory.java	0	0	0	0	121	48
+freemind.modes.browsemode.BrowseMapModel	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/browsemode/BrowseMapModel.java	0	0	0	0	173	96
+freemind.modes.browsemode.BrowseMode	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/browsemode/BrowseMode.java	0	0	0	0	86	46
+freemind.modes.browsemode.BrowseNodeModel	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/browsemode/BrowseNodeModel.java	0	0	0	0	62	22
+freemind.modes.browsemode.BrowsePopupMenu	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/browsemode/BrowsePopupMenu.java	0	0	0	0	49	21
+freemind.modes.browsemode.BrowseReminderHook	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/browsemode/BrowseReminderHook.java	0	0	0	0	57	15
+freemind.modes.browsemode.BrowseToolBar	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/browsemode/BrowseToolBar.java	0	0	0	0	69	36
+freemind.modes.browsemode.BrowseToolBar$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/browsemode/BrowseToolBar.java	0	0	0	2	0	0
+freemind.modes.browsemode.BrowseXMLElement	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/browsemode/BrowseXMLElement.java	0	0	0	0	81	49
+freemind.modes.browsemode.EncryptedBrowseNode	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/browsemode/EncryptedBrowseNode.java	0	0	0	0	146	90
+freemind.modes.browsemode.NodeNoteViewer	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/browsemode/NodeNoteViewer.java	0	0	0	0	100	59
+plugins.script.ScriptEditor	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptEditor.java	0	0	0	0	174	125
+plugins.script.ScriptEditor$1	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptEditor.java	0	0	0	2	0	0
+plugins.script.ScriptEditor$AttributeHolder	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptEditor.java	0	0	0	2	0	0
+plugins.script.ScriptEditor$NodeScriptModel	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptEditor.java	0	0	0	2	0	0
+plugins.script.ScriptEditorPanel	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptEditorPanel.java	0	0	0	0	467	338
+plugins.script.ScriptEditorPanel$1	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptEditorPanel.java	0	0	0	2	0	0
+plugins.script.ScriptEditorPanel$2	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptEditorPanel.java	0	0	0	2	0	0
+plugins.script.ScriptEditorPanel$3	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptEditorPanel.java	0	0	0	2	0	0
+plugins.script.ScriptEditorPanel$4	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptEditorPanel.java	0	0	0	2	0	0
+plugins.script.ScriptEditorPanel$5	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptEditorPanel.java	0	0	0	2	0	0
+plugins.script.ScriptEditorPanel$CancelAction	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptEditorPanel.java	0	0	0	2	0	0
+plugins.script.ScriptEditorPanel$ExitAction	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptEditorPanel.java	0	0	0	2	0	0
+plugins.script.ScriptEditorPanel$NewScriptAction	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptEditorPanel.java	0	0	0	2	0	0
+plugins.script.ScriptEditorPanel$ResultFieldStream	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptEditorPanel.java	0	0	0	2	0	0
+plugins.script.ScriptEditorPanel$RunAction	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptEditorPanel.java	0	0	0	2	0	0
+plugins.script.ScriptEditorPanel$ScriptHolder	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptEditorPanel.java	0	0	0	2	0	0
+plugins.script.ScriptEditorPanel$ScriptModel	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptEditorPanel.java	0	0	0	2	0	0
+plugins.script.ScriptEditorPanel$SignAction	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptEditorPanel.java	0	0	0	2	0	0
+plugins.script.ScriptingEngine	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptingEngine.java	0	0	0	0	337	259
+plugins.script.ScriptingEngine$1	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptingEngine.java	0	0	0	2	0	0
+plugins.script.ScriptingEngine$2	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptingEngine.java	0	0	0	2	0	0
+plugins.script.ScriptingEngine$3	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptingEngine.java	0	0	0	2	0	0
+plugins.script.ScriptingEngine$ErrorHandler	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptingEngine.java	0	0	0	2	0	0
+plugins.script.ScriptingRegistration	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptingRegistration.java	0	0	0	0	183	152
+plugins.script.ScriptingRegistration$1	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptingRegistration.java	0	0	0	2	0	0
+plugins.script.ScriptingRegistration$2	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptingRegistration.java	0	0	0	2	0	0
+plugins.script.ScriptingRegistration$PatternScriptModel	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptingRegistration.java	0	0	0	2	0	0
+plugins.script.ScriptingRegistration$ScriptingPluginPropertyContributor	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptingRegistration.java	0	0	0	2	0	0
+plugins.script.ScriptingSecurityManager	plugins/script/scripting_plugin.jar	freemind/plugins/script/ScriptingSecurityManager.java	0	0	0	0	209	140
+plugins.script.SignedScriptHandler	plugins/script/scripting_plugin.jar	freemind/plugins/script/SignedScriptHandler.java	0	0	0	0	227	177
+plugins.script.SignedScriptHandler$ScriptContents	plugins/script/scripting_plugin.jar	freemind/plugins/script/SignedScriptHandler.java	0	0	0	2	0	0
+accessories.plugins.ApplyFormatPlugin	lib/freemind.jar	freemind/accessories/plugins/ApplyFormatPlugin.java	0	0	0	0	70	31
+accessories.plugins.AutomaticLayout	lib/freemind.jar	freemind/accessories/plugins/AutomaticLayout.java	0	0	0	0	459	311
+accessories.plugins.AutomaticLayout$AutomaticLayoutPropertyContributor	lib/freemind.jar	freemind/accessories/plugins/AutomaticLayout.java	0	0	0	2	0	0
+accessories.plugins.AutomaticLayout$Registration	lib/freemind.jar	freemind/accessories/plugins/AutomaticLayout.java	0	0	0	2	0	0
+accessories.plugins.AutomaticLayout$Registration$MyFreemindPropertyListener	lib/freemind.jar	freemind/accessories/plugins/AutomaticLayout.java	0	0	0	2	0	0
+accessories.plugins.AutomaticLayout$StylePatternListProperty	lib/freemind.jar	freemind/accessories/plugins/AutomaticLayout.java	0	0	0	2	0	0
+accessories.plugins.AutomaticLayout$StylePatternListProperty$1	lib/freemind.jar	freemind/accessories/plugins/AutomaticLayout.java	0	0	0	2	0	0
+accessories.plugins.AutomaticLayout$StylePatternProperty	lib/freemind.jar	freemind/accessories/plugins/AutomaticLayout.java	0	0	0	2	0	0
+accessories.plugins.AutomaticLayout$StylePropertyTranslator	lib/freemind.jar	freemind/accessories/plugins/AutomaticLayout.java	0	0	0	2	0	0
+accessories.plugins.BlinkingNodeHook	lib/freemind.jar	freemind/accessories/plugins/BlinkingNodeHook.java	0	0	0	0	115	64
+accessories.plugins.BlinkingNodeHook$TimerColorChanger	lib/freemind.jar	freemind/accessories/plugins/BlinkingNodeHook.java	0	0	0	2	0	0
+accessories.plugins.BlinkingNodeHook$TimerColorChanger$1	lib/freemind.jar	freemind/accessories/plugins/BlinkingNodeHook.java	0	0	0	2	0	0
+accessories.plugins.BlinkingNodeHook$TimerColorChanger$1$1	lib/freemind.jar	freemind/accessories/plugins/BlinkingNodeHook.java	0	0	0	2	0	0
+accessories.plugins.ChangeNodeLevelAction	lib/freemind.jar	freemind/accessories/plugins/ChangeNodeLevelAction.java	0	0	0	0	179	114
+accessories.plugins.CreationModificationPlugin	lib/freemind.jar	freemind/accessories/plugins/CreationModificationPlugin.java	0	0	0	0	137	61
+accessories.plugins.EncryptNode	lib/freemind.jar	freemind/accessories/plugins/EncryptNode.java	0	0	0	0	250	171
+accessories.plugins.EncryptNode$1	lib/freemind.jar	freemind/accessories/plugins/EncryptNode.java	0	0	0	2	0	0
+accessories.plugins.EncryptNode$Registration	lib/freemind.jar	freemind/accessories/plugins/EncryptNode.java	0	0	0	2	0	0
+accessories.plugins.ExportToImage	lib/freemind.jar	freemind/accessories/plugins/ExportToImage.java	0	0	0	0	124	61
+accessories.plugins.ExportToOoWriter	lib/freemind.jar	freemind/accessories/plugins/ExportToOoWriter.java	0	0	0	0	193	125
+accessories.plugins.ExportWithXSLT	lib/freemind.jar	freemind/accessories/plugins/ExportWithXSLT.java	0	0	0	0	349	238
+accessories.plugins.ExportWithXSLT$1	lib/freemind.jar	freemind/accessories/plugins/ExportWithXSLT.java	0	0	0	2	0	0
+accessories.plugins.FitToPage	lib/freemind.jar	freemind/accessories/plugins/FitToPage.java	0	0	0	0	105	61
+accessories.plugins.FitToPage$1	lib/freemind.jar	freemind/accessories/plugins/FitToPage.java	0	0	0	2	0	0
+accessories.plugins.FormatNewNodes	lib/freemind.jar	freemind/accessories/plugins/FormatNewNodes.java	0	0	0	0	123	74
+accessories.plugins.FormatPaste	lib/freemind.jar	freemind/accessories/plugins/FormatPaste.java	0	0	0	0	74	33
+accessories.plugins.FormularEditor	lib/freemind.jar	freemind/accessories/plugins/FormularEditor.java	0	0	0	0	390	284
+accessories.plugins.FormularEditor$CheckBoxEntity	lib/freemind.jar	freemind/accessories/plugins/FormularEditor.java	0	0	0	2	0	0
+accessories.plugins.FormularEditor$CheckBoxEntity$1	lib/freemind.jar	freemind/accessories/plugins/FormularEditor.java	0	0	0	2	0	0
+accessories.plugins.FormularEditor$ChoiceEntity	lib/freemind.jar	freemind/accessories/plugins/FormularEditor.java	0	0	0	2	0	0
+accessories.plugins.FormularEditor$ChoiceEntity$1	lib/freemind.jar	freemind/accessories/plugins/FormularEditor.java	0	0	0	2	0	0
+accessories.plugins.FormularEditor$ChoiceEntity$ChoiceElement	lib/freemind.jar	freemind/accessories/plugins/FormularEditor.java	0	0	0	2	0	0
+accessories.plugins.FormularEditor$FormularEntity	lib/freemind.jar	freemind/accessories/plugins/FormularEditor.java	0	0	0	2	0	0
+accessories.plugins.FormularEditor$StringEntity	lib/freemind.jar	freemind/accessories/plugins/FormularEditor.java	0	0	0	2	0	0
+accessories.plugins.FormularEditor$StringEntity$1	lib/freemind.jar	freemind/accessories/plugins/FormularEditor.java	0	0	0	2	0	0
+accessories.plugins.HierarchicalIcons	lib/freemind.jar	freemind/accessories/plugins/HierarchicalIcons.java	0	0	0	0	219	129
+accessories.plugins.IconSelectionPlugin	lib/freemind.jar	freemind/accessories/plugins/IconSelectionPlugin.java	0	0	0	0	101	48
+accessories.plugins.ImportMindmanagerFiles	lib/freemind.jar	freemind/accessories/plugins/ImportMindmanagerFiles.java	0	0	0	0	143	93
+accessories.plugins.ManagePatterns	lib/freemind.jar	freemind/accessories/plugins/ManagePatterns.java	0	0	0	0	73	37
+accessories.plugins.NewParentNode	lib/freemind.jar	freemind/accessories/plugins/NewParentNode.java	0	0	0	0	167	85
+accessories.plugins.NodeHistory	lib/freemind.jar	freemind/accessories/plugins/NodeHistory.java	0	0	0	0	300	214
+accessories.plugins.NodeHistory$1	lib/freemind.jar	freemind/accessories/plugins/NodeHistory.java	0	0	0	2	0	0
+accessories.plugins.NodeHistory$NodeHolder	lib/freemind.jar	freemind/accessories/plugins/NodeHistory.java	0	0	0	2	0	0
+accessories.plugins.NodeHistory$Registration	lib/freemind.jar	freemind/accessories/plugins/NodeHistory.java	0	0	0	2	0	0
+accessories.plugins.NodeNote	lib/freemind.jar	freemind/accessories/plugins/NodeNote.java	0	0	0	0	113	59
+accessories.plugins.NodeNote$1	lib/freemind.jar	freemind/accessories/plugins/NodeNote.java	0	0	0	2	0	0
+accessories.plugins.NodeNoteRegistration	lib/freemind.jar	freemind/accessories/plugins/NodeNoteRegistration.java	0	0	0	0	482	342
+accessories.plugins.NodeNoteRegistration$1	lib/freemind.jar	freemind/accessories/plugins/NodeNoteRegistration.java	0	0	0	2	0	0
+accessories.plugins.NodeNoteRegistration$JumpToMapAction	lib/freemind.jar	freemind/accessories/plugins/NodeNoteRegistration.java	0	0	0	2	0	0
+accessories.plugins.NodeNoteRegistration$NoteDocumentListener	lib/freemind.jar	freemind/accessories/plugins/NodeNoteRegistration.java	0	0	0	2	0	0
+accessories.plugins.NodeNoteRegistration$NotesManager	lib/freemind.jar	freemind/accessories/plugins/NodeNoteRegistration.java	0	0	0	2	0	0
+accessories.plugins.NodeNoteRegistration$SimplyHtmlResources	lib/freemind.jar	freemind/accessories/plugins/NodeNoteRegistration.java	0	0	0	2	0	0
+accessories.plugins.NodeNoteRegistration$SouthPanel	lib/freemind.jar	freemind/accessories/plugins/NodeNoteRegistration.java	0	0	0	2	0	0
+accessories.plugins.RemoveNote	lib/freemind.jar	freemind/accessories/plugins/RemoveNote.java	0	0	0	0	118	76
+accessories.plugins.RemoveNote$Registration	lib/freemind.jar	freemind/accessories/plugins/RemoveNote.java	0	0	0	2	0	0
+accessories.plugins.RevisionPlugin	lib/freemind.jar	freemind/accessories/plugins/RevisionPlugin.java	0	0	0	0	96	39
+accessories.plugins.SaveAll	lib/freemind.jar	freemind/accessories/plugins/SaveAll.java	0	0	0	0	81	37
+accessories.plugins.SortNodes	lib/freemind.jar	freemind/accessories/plugins/SortNodes.java	0	0	0	0	84	40
+accessories.plugins.SortNodes$1	lib/freemind.jar	freemind/accessories/plugins/SortNodes.java	0	0	0	2	0	0
+accessories.plugins.SortNodes$NodeTextComparator	lib/freemind.jar	freemind/accessories/plugins/SortNodes.java	0	0	0	2	0	0
+accessories.plugins.SplitNode	lib/freemind.jar	freemind/accessories/plugins/SplitNode.java	0	0	0	0	165	122
+accessories.plugins.SplitNode$1	lib/freemind.jar	freemind/accessories/plugins/SplitNode.java	0	0	0	2	0	0
+accessories.plugins.UnfoldAll	lib/freemind.jar	freemind/accessories/plugins/UnfoldAll.java	0	0	0	0	236	163
+accessories.plugins.UnfoldAll$Registration	lib/freemind.jar	freemind/accessories/plugins/UnfoldAll.java	0	0	0	2	0	0
+plugins.collaboration.jabber.JabberStarter		freemind/plugins/collaboration/jabber/JabberStarter.java	1	2	0	0	47	13
+freemind.modes.attributes.Attribute	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/attributes/Attribute.java	0	0	0	0	66	32
+freemind.modes.attributes.AttributeController	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/attributes/AttributeController.java	0	0	0	0	59	18
+freemind.modes.attributes.AttributeRegistry	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/attributes/AttributeRegistry.java	0	0	0	0	420	307
+freemind.modes.attributes.AttributeRegistryComboBoxColumnModel	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/attributes/AttributeRegistryComboBoxColumnModel.java	0	0	0	4	132	65
+freemind.modes.attributes.AttributeRegistryElement	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/attributes/AttributeRegistryElement.java	0	0	0	0	162	127
+freemind.modes.attributes.AttributeRegistryElement$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/attributes/AttributeRegistryElement.java	0	0	0	2	0	0
+freemind.modes.attributes.AttributeRegistryElement$RegisteredAttributeValues	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/attributes/AttributeRegistryElement.java	0	0	0	2	0	0
+freemind.modes.attributes.AttributeRegistryTableModel	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/attributes/AttributeRegistryTableModel.java	0	0	0	0	168	114
+freemind.modes.attributes.AttributeTableLayoutModel	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/attributes/AttributeTableLayoutModel.java	0	0	0	0	98	49
+freemind.modes.attributes.AttributeTableModel	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/attributes/AttributeTableModel.java	0	0	0	0	48	12
+freemind.modes.attributes.ColumnWidthChangeEvent	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/attributes/ColumnWidthChangeEvent.java	0	0	0	0	44	12
+freemind.modes.attributes.ColumnWidthChangeListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/attributes/ColumnWidthChangeListener.java	0	0	0	0	38	5
+freemind.modes.attributes.NodeAttributeTableModel	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/attributes/NodeAttributeTableModel.java	0	0	0	0	252	171
+freemind.preferences.FreemindPropertyContributor	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/FreemindPropertyContributor.java	0	0	0	0	39	7
+freemind.preferences.FreemindPropertyListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/FreemindPropertyListener.java	0	0	0	0	31	4
+de.foltin.CompileXsdStart	lib/freemind.jar	freemind/de/foltin/CompileXsdStart.java	0	0	0	0	706	549
+de.foltin.CompileXsdStart$AttributeHandler	lib/freemind.jar	freemind/de/foltin/CompileXsdStart.java	0	0	0	2	0	0
+de.foltin.CompileXsdStart$ChoiceElementHandler	lib/freemind.jar	freemind/de/foltin/CompileXsdStart.java	0	0	0	2	0	0
+de.foltin.CompileXsdStart$ChoiceHandler	lib/freemind.jar	freemind/de/foltin/CompileXsdStart.java	0	0	0	2	0	0
+de.foltin.CompileXsdStart$ComplexContentHandler	lib/freemind.jar	freemind/de/foltin/CompileXsdStart.java	0	0	0	2	0	0
+de.foltin.CompileXsdStart$ComplexTypeHandler	lib/freemind.jar	freemind/de/foltin/CompileXsdStart.java	0	0	0	2	0	0
+de.foltin.CompileXsdStart$ElementTypes	lib/freemind.jar	freemind/de/foltin/CompileXsdStart.java	0	0	0	2	0	0
+de.foltin.CompileXsdStart$ExtensionHandler	lib/freemind.jar	freemind/de/foltin/CompileXsdStart.java	0	0	0	2	0	0
+de.foltin.CompileXsdStart$GroupHandler	lib/freemind.jar	freemind/de/foltin/CompileXsdStart.java	0	0	0	2	0	0
+de.foltin.CompileXsdStart$SchemaHandler	lib/freemind.jar	freemind/de/foltin/CompileXsdStart.java	0	0	0	2	0	0
+de.foltin.CompileXsdStart$SequenceElementHandler	lib/freemind.jar	freemind/de/foltin/CompileXsdStart.java	0	0	0	2	0	0
+de.foltin.CompileXsdStart$SequenceHandler	lib/freemind.jar	freemind/de/foltin/CompileXsdStart.java	0	0	0	2	0	0
+de.foltin.CompileXsdStart$XsdHandler	lib/freemind.jar	freemind/de/foltin/CompileXsdStart.java	0	0	0	2	0	0
+accessories.plugins.time.FlatNodeTableFilterModel	lib/freemind.jar	freemind/accessories/plugins/time/FlatNodeTableFilterModel.java	0	0	0	0	129	65
+accessories.plugins.time.FlatNodeTableFilterModel$1	lib/freemind.jar	freemind/accessories/plugins/time/FlatNodeTableFilterModel.java	0	0	0	2	0	0
+accessories.plugins.time.FlatNodeTableFilterModel$TableModelHandler	lib/freemind.jar	freemind/accessories/plugins/time/FlatNodeTableFilterModel.java	0	0	0	2	0	0
+accessories.plugins.time.JCalendar	lib/freemind.jar	freemind/accessories/plugins/time/JCalendar.java	0	0	0	0	664	266
+accessories.plugins.time.JDayChooser	lib/freemind.jar	freemind/accessories/plugins/time/JDayChooser.java	0	0	0	0	1077	612
+accessories.plugins.time.JDayChooser$1	lib/freemind.jar	freemind/accessories/plugins/time/JDayChooser.java	0	0	0	2	0	0
+accessories.plugins.time.JDayChooser$DecoratorButton	lib/freemind.jar	freemind/accessories/plugins/time/JDayChooser.java	0	0	0	2	0	0
+accessories.plugins.time.JMonthChooser	lib/freemind.jar	freemind/accessories/plugins/time/JMonthChooser.java	0	0	0	0	405	203
+accessories.plugins.time.JMonthChooser$1	lib/freemind.jar	freemind/accessories/plugins/time/JMonthChooser.java	0	0	0	2	0	0
+accessories.plugins.time.JSpinField	lib/freemind.jar	freemind/accessories/plugins/time/JSpinField.java	0	0	0	0	366	174
+accessories.plugins.time.JSpinField$1	lib/freemind.jar	freemind/accessories/plugins/time/JSpinField.java	0	0	0	2	0	0
+accessories.plugins.time.JTripleCalendar	lib/freemind.jar	freemind/accessories/plugins/time/JTripleCalendar.java	0	0	0	0	159	101
+accessories.plugins.time.JTripleCalendar$JInfoPanel	lib/freemind.jar	freemind/accessories/plugins/time/JTripleCalendar.java	0	0	0	2	0	0
+accessories.plugins.time.JTripleCalendar$JInfoPanel$1	lib/freemind.jar	freemind/accessories/plugins/time/JTripleCalendar.java	0	0	0	2	0	0
+accessories.plugins.time.JYearChooser	lib/freemind.jar	freemind/accessories/plugins/time/JYearChooser.java	0	0	0	0	147	55
+accessories.plugins.time.ReminderHook	lib/freemind.jar	freemind/accessories/plugins/time/ReminderHook.java	0	0	0	0	47	18
+accessories.plugins.time.RemoveReminderHook	lib/freemind.jar	freemind/accessories/plugins/time/RemoveReminderHook.java	0	0	0	0	55	19
+accessories.plugins.time.TableSorter	lib/freemind.jar	freemind/accessories/plugins/time/TableSorter.java	0	0	0	0	502	333
+accessories.plugins.time.TableSorter$1	lib/freemind.jar	freemind/accessories/plugins/time/TableSorter.java	0	0	0	2	0	0
+accessories.plugins.time.TableSorter$2	lib/freemind.jar	freemind/accessories/plugins/time/TableSorter.java	0	0	0	2	0	0
+accessories.plugins.time.TableSorter$Arrow	lib/freemind.jar	freemind/accessories/plugins/time/TableSorter.java	0	0	0	2	0	0
+accessories.plugins.time.TableSorter$Directive	lib/freemind.jar	freemind/accessories/plugins/time/TableSorter.java	0	0	0	2	0	0
+accessories.plugins.time.TableSorter$MouseHandler	lib/freemind.jar	freemind/accessories/plugins/time/TableSorter.java	0	0	0	2	0	0
+accessories.plugins.time.TableSorter$Row	lib/freemind.jar	freemind/accessories/plugins/time/TableSorter.java	0	0	0	2	0	0
+accessories.plugins.time.TableSorter$SortableHeaderRenderer	lib/freemind.jar	freemind/accessories/plugins/time/TableSorter.java	0	0	0	2	0	0
+accessories.plugins.time.TableSorter$TableModelHandler	lib/freemind.jar	freemind/accessories/plugins/time/TableSorter.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	0	903	686
+accessories.plugins.time.TimeList$1	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$10	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$11	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$12	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$13	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$2	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$3	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$4	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$5	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$6	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$7	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$8	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$9	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$DateRenderer	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$FilterTextDocumentListener	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$FilterTextDocumentListener$DelayedTextEntry	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$FilterTextDocumentListener$DelayedTextEntry$1	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$FlatNodeTable	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$FlatNodeTableKeyListener	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$FlatNodeTableMouseAdapter	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$IReplaceInputInformation	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$IconsHolder	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$IconsRenderer	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$NodeHolder	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$NodeRenderer	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$NotesHolder	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$NotesRenderer	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$ReplaceAllInfo	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeList$ReplaceSelectedInfo	lib/freemind.jar	freemind/accessories/plugins/time/TimeList.java	0	0	0	2	0	0
+accessories.plugins.time.TimeManagement	lib/freemind.jar	freemind/accessories/plugins/time/TimeManagement.java	0	0	0	0	395	310
+accessories.plugins.time.TimeManagement$1	lib/freemind.jar	freemind/accessories/plugins/time/TimeManagement.java	0	0	0	2	0	0
+accessories.plugins.time.TimeManagement$2	lib/freemind.jar	freemind/accessories/plugins/time/TimeManagement.java	0	0	0	2	0	0
+accessories.plugins.time.TimeManagement$3	lib/freemind.jar	freemind/accessories/plugins/time/TimeManagement.java	0	0	0	2	0	0
+accessories.plugins.time.TimeManagement$4	lib/freemind.jar	freemind/accessories/plugins/time/TimeManagement.java	0	0	0	2	0	0
+accessories.plugins.time.TimeManagement$5	lib/freemind.jar	freemind/accessories/plugins/time/TimeManagement.java	0	0	0	2	0	0
+accessories.plugins.time.TimeManagement$RemoveReminders	lib/freemind.jar	freemind/accessories/plugins/time/TimeManagement.java	0	0	0	2	0	0
+accessories.plugins.time.TimeManagementOrganizer	lib/freemind.jar	freemind/accessories/plugins/time/TimeManagementOrganizer.java	0	0	0	0	93	51
+accessories.plugins.util.xslt.ExportDialog	lib/freemind.jar	freemind/accessories/plugins/util/xslt/ExportDialog.java	0	0	0	0	276	181
+accessories.plugins.util.xslt.ExportDialog$ExportListener	lib/freemind.jar	freemind/accessories/plugins/util/xslt/ExportDialog.java	0	0	0	2	0	0
+accessories.plugins.util.xslt.FileChooseListener	lib/freemind.jar	freemind/accessories/plugins/util/xslt/ExportDialog.java	0	0	0	1	0	0
+accessories.plugins.util.xslt.XmlExporter	lib/freemind.jar	freemind/accessories/plugins/util/xslt/XmlExporter.java	0	0	0	0	72	24
+accessories.plugins.dialogs.ArrayListTransferHandler	lib/freemind.jar	freemind/accessories/plugins/dialogs/ArrayListTransferHandler.java	0	0	0	0	207	148
+accessories.plugins.dialogs.ArrayListTransferHandler$ArrayListTransferable	lib/freemind.jar	freemind/accessories/plugins/dialogs/ArrayListTransferHandler.java	0	0	0	2	0	0
+accessories.plugins.dialogs.ChooseFormatPopupDialog	lib/freemind.jar	freemind/accessories/plugins/dialogs/ChooseFormatPopupDialog.java	0	0	0	0	258	150
+accessories.plugins.dialogs.ChooseFormatPopupDialog$1	lib/freemind.jar	freemind/accessories/plugins/dialogs/ChooseFormatPopupDialog.java	0	0	0	2	0	0
+accessories.plugins.dialogs.ChooseFormatPopupDialog$2	lib/freemind.jar	freemind/accessories/plugins/dialogs/ChooseFormatPopupDialog.java	0	0	0	2	0	0
+accessories.plugins.dialogs.ChooseFormatPopupDialog$3	lib/freemind.jar	freemind/accessories/plugins/dialogs/ChooseFormatPopupDialog.java	0	0	0	2	0	0
+accessories.plugins.dialogs.ChooseFormatPopupDialog$4	lib/freemind.jar	freemind/accessories/plugins/dialogs/ChooseFormatPopupDialog.java	0	0	0	2	0	0
+accessories.plugins.dialogs.EnterPasswordDialog	lib/freemind.jar	freemind/accessories/plugins/dialogs/EnterPasswordDialog.java	0	0	0	0	311	197
+accessories.plugins.dialogs.EnterPasswordDialog$1	lib/freemind.jar	freemind/accessories/plugins/dialogs/EnterPasswordDialog.java	0	0	0	2	0	0
+accessories.plugins.dialogs.EnterPasswordDialog$2	lib/freemind.jar	freemind/accessories/plugins/dialogs/EnterPasswordDialog.java	0	0	0	2	0	0
+accessories.plugins.dialogs.EnterPasswordDialog$3	lib/freemind.jar	freemind/accessories/plugins/dialogs/EnterPasswordDialog.java	0	0	0	2	0	0
+accessories.plugins.dialogs.ManagePatternsPopupDialog	lib/freemind.jar	freemind/accessories/plugins/dialogs/ManagePatternsPopupDialog.java	0	0	0	0	705	517
+accessories.plugins.dialogs.ManagePatternsPopupDialog$1	lib/freemind.jar	freemind/accessories/plugins/dialogs/ManagePatternsPopupDialog.java	0	0	0	2	0	0
+accessories.plugins.dialogs.ManagePatternsPopupDialog$10	lib/freemind.jar	freemind/accessories/plugins/dialogs/ManagePatternsPopupDialog.java	0	0	0	2	0	0
+accessories.plugins.dialogs.ManagePatternsPopupDialog$11	lib/freemind.jar	freemind/accessories/plugins/dialogs/ManagePatternsPopupDialog.java	0	0	0	2	0	0
+accessories.plugins.dialogs.ManagePatternsPopupDialog$2	lib/freemind.jar	freemind/accessories/plugins/dialogs/ManagePatternsPopupDialog.java	0	0	0	2	0	0
+accessories.plugins.dialogs.ManagePatternsPopupDialog$3	lib/freemind.jar	freemind/accessories/plugins/dialogs/ManagePatternsPopupDialog.java	0	0	0	2	0	0
+accessories.plugins.dialogs.ManagePatternsPopupDialog$4	lib/freemind.jar	freemind/accessories/plugins/dialogs/ManagePatternsPopupDialog.java	0	0	0	2	0	0
+accessories.plugins.dialogs.ManagePatternsPopupDialog$5	lib/freemind.jar	freemind/accessories/plugins/dialogs/ManagePatternsPopupDialog.java	0	0	0	2	0	0
+accessories.plugins.dialogs.ManagePatternsPopupDialog$6	lib/freemind.jar	freemind/accessories/plugins/dialogs/ManagePatternsPopupDialog.java	0	0	0	2	0	0
+accessories.plugins.dialogs.ManagePatternsPopupDialog$7	lib/freemind.jar	freemind/accessories/plugins/dialogs/ManagePatternsPopupDialog.java	0	0	0	2	0	0
+accessories.plugins.dialogs.ManagePatternsPopupDialog$8	lib/freemind.jar	freemind/accessories/plugins/dialogs/ManagePatternsPopupDialog.java	0	0	0	2	0	0
+accessories.plugins.dialogs.ManagePatternsPopupDialog$9	lib/freemind.jar	freemind/accessories/plugins/dialogs/ManagePatternsPopupDialog.java	0	0	0	2	0	0
+accessories.plugins.dialogs.ManagePatternsPopupDialog$PatternListModel	lib/freemind.jar	freemind/accessories/plugins/dialogs/ManagePatternsPopupDialog.java	0	0	0	2	0	0
+accessories.plugins.dialogs.ManagePatternsPopupDialog$PatternListSelectionListener	lib/freemind.jar	freemind/accessories/plugins/dialogs/ManagePatternsPopupDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.EncryptedMindMapNode	lib/freemind.jar	freemind/freemind/modes/mindmapmode/EncryptedMindMapNode.java	0	0	0	0	419	266
+freemind.modes.mindmapmode.JAutoScrollBarPane	lib/freemind.jar	freemind/freemind/modes/mindmapmode/JAutoScrollBarPane.java	0	0	0	0	84	42
+freemind.modes.mindmapmode.MindMapArrowLinkModel	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapArrowLinkModel.java	0	0	0	0	99	64
+freemind.modes.mindmapmode.MindMapCloudModel	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapCloudModel.java	0	0	0	0	37	12
+freemind.modes.mindmapmode.MindMapController	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapController.java	0	0	0	0	2178	1723
+freemind.modes.mindmapmode.MindMapController$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapController$2	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapController$3	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapController$4	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapController$AssignAttributesAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapController$DefaultMindMapNodeCreator	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapController$EditLongAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapController$ExportBranchToHTMLAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapController$ExportToHTMLAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapController$FollowLinkAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapController$ImportBranchAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapController$ImportLinkedBranchAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapController$ImportLinkedBranchWithoutRootAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapController$MindMapControllerPlugin	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapController$MindMapFilter	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapController$NewNodeCreator	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapController$SetImageByFileChooserAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapController$SetLinkByFileChooserAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapEdgeModel	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapEdgeModel.java	0	0	0	0	35	11
+freemind.modes.mindmapmode.MindMapHTMLWriter	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapHTMLWriter.java	0	0	0	4	693	580
+freemind.modes.mindmapmode.MindMapMapModel	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapMapModel.java	0	0	0	0	698	524
+freemind.modes.mindmapmode.MindMapMapModel$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapMapModel.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapMapModel$DoAutomaticSave	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapMapModel.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapMapModel$DoAutomaticSave$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapMapModel.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapMapModel$DummyLockManager	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapMapModel.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapMapModel$FileReaderCreator	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapMapModel.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapMapModel$LockManager	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapMapModel.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapMapModel$ReaderCreator	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapMapModel.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapMapModel$StringReaderCreator	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapMapModel.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapMode	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapMode.java	0	0	0	0	94	56
+freemind.modes.mindmapmode.MindMapNodeModel	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapNodeModel.java	0	0	0	0	231	163
+freemind.modes.mindmapmode.MindMapPopupMenu	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapPopupMenu.java	0	0	0	0	62	26
+freemind.modes.mindmapmode.MindMapToolBar	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapToolBar.java	0	0	0	0	153	102
+freemind.modes.mindmapmode.MindMapToolBar$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapToolBar.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapToolBar$2	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapToolBar.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.MindMapXMLElement	lib/freemind.jar	freemind/freemind/modes/mindmapmode/MindMapXMLElement.java	0	0	0	0	112	68
+freemind.modes.mindmapmode.attributeactors.AssignAttributeDialog	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AssignAttributeDialog.java	0	0	0	0	536	447
+freemind.modes.mindmapmode.attributeactors.AssignAttributeDialog$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AssignAttributeDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AssignAttributeDialog$2	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AssignAttributeDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AssignAttributeDialog$3	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AssignAttributeDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AssignAttributeDialog$AddAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AssignAttributeDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AssignAttributeDialog$ClonedComboBoxModel	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AssignAttributeDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AssignAttributeDialog$DeleteAttributeAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AssignAttributeDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AssignAttributeDialog$DeleteValueAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AssignAttributeDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AssignAttributeDialog$IteratingAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AssignAttributeDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AssignAttributeDialog$ReplaceValueAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AssignAttributeDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AttributeManagerDialog	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AttributeManagerDialog.java	0	0	0	0	275	191
+freemind.modes.mindmapmode.attributeactors.AttributeManagerDialog$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AttributeManagerDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AttributeManagerDialog$2	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AttributeManagerDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AttributeManagerDialog$ApplyAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AttributeManagerDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AttributeManagerDialog$CancelAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AttributeManagerDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AttributeManagerDialog$ClosingListener	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AttributeManagerDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AttributeManagerDialog$EditListAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AttributeManagerDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AttributeManagerDialog$ImportAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AttributeManagerDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AttributeManagerDialog$OKAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AttributeManagerDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AttributeRegistryTable	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AttributeRegistryTable.java	0	0	0	4	194	143
+freemind.modes.mindmapmode.attributeactors.AttributeRegistryTable$ButtonEditor	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AttributeRegistryTable.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AttributeRegistryTable$ButtonRenderer	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AttributeRegistryTable.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AttributeRegistryTable$ToggleAllAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AttributeRegistryTable.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.AttributesListener	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/AttributesListener.java	0	0	0	0	34	6
+freemind.modes.mindmapmode.attributeactors.ImportAttributesDialog	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/ImportAttributesDialog.java	0	0	0	4	365	306
+freemind.modes.mindmapmode.attributeactors.ImportAttributesDialog$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/ImportAttributesDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.ImportAttributesDialog$2	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/ImportAttributesDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.ImportAttributesDialog$AttributeTreeNodeInfo	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/ImportAttributesDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.ImportAttributesDialog$MyRenderer	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/ImportAttributesDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.ImportAttributesDialog$TreeNodeInfo	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/ImportAttributesDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.InsertAttributeActor	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/InsertAttributeActor.java	0	0	0	0	81	48
+freemind.modes.mindmapmode.attributeactors.ListDialog	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/ListDialog.java	0	0	0	0	307	228
+freemind.modes.mindmapmode.attributeactors.ListDialog$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/ListDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.ListDialog$2	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/ListDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.ListDialog$AddAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/ListDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.ListDialog$CloseAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/ListDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.ListDialog$DeleteAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/ListDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.ListDialog$ListSelectionChangeListener	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/ListDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.ListDialog$RenameAction	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/ListDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.ListDialog$TextChangeListener	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/ListDialog.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.MindMapModeAttributeController	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/MindMapModeAttributeController.java	0	0	0	0	438	361
+freemind.modes.mindmapmode.attributeactors.MindMapModeAttributeController$AttributeChanger	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/MindMapModeAttributeController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.MindMapModeAttributeController$AttributeRemover	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/MindMapModeAttributeController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.MindMapModeAttributeController$AttributeRenamer	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/MindMapModeAttributeController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.MindMapModeAttributeController$AttributeValueRemover	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/MindMapModeAttributeController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.MindMapModeAttributeController$Iterator	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/MindMapModeAttributeController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.MindMapModeAttributeController$Visitor	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/MindMapModeAttributeController.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.attributeactors.RegistryAttributeActor	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/RegistryAttributeActor.java	0	0	0	0	73	40
+freemind.modes.mindmapmode.attributeactors.RegistryAttributeValueActor	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/RegistryAttributeValueActor.java	0	0	0	0	72	39
+freemind.modes.mindmapmode.attributeactors.RemoveAttributeActor	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/RemoveAttributeActor.java	0	0	0	0	77	44
+freemind.modes.mindmapmode.attributeactors.ReplaceAttributeValueActor	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/ReplaceAttributeValueActor.java	0	0	0	0	72	39
+freemind.modes.mindmapmode.attributeactors.SetAttributeColumnWidthActor	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/SetAttributeColumnWidthActor.java	0	0	0	0	75	42
+freemind.modes.mindmapmode.attributeactors.SetAttributeFontSizeActor	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/SetAttributeFontSizeActor.java	0	0	0	0	68	35
+freemind.modes.mindmapmode.attributeactors.SetAttributeNameActor	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/SetAttributeNameActor.java	0	0	0	0	76	43
+freemind.modes.mindmapmode.attributeactors.SetAttributeRestrictedActor	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/SetAttributeRestrictedActor.java	0	0	0	0	81	48
+freemind.modes.mindmapmode.attributeactors.SetAttributeValueActor	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/SetAttributeValueActor.java	0	0	0	0	74	43
+freemind.modes.mindmapmode.attributeactors.SetAttributeVisibleActor	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/SetAttributeVisibleActor.java	0	0	0	0	70	37
+freemind.modes.mindmapmode.attributeactors.UnregistryAttributeActor	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/UnregistryAttributeActor.java	0	0	0	0	85	51
+freemind.modes.mindmapmode.attributeactors.UnregistryAttributeValueActor	lib/freemind.jar	freemind/freemind/modes/mindmapmode/attributeactors/UnregistryAttributeValueActor.java	0	0	0	0	70	37
+accessories.plugins.util.html.ClickableImageCreator	lib/freemind.jar	freemind/accessories/plugins/util/html/ClickableImageCreator.java	0	0	0	0	138	79
+accessories.plugins.util.html.ClickableImageCreator$AreaHolder	lib/freemind.jar	freemind/accessories/plugins/util/html/ClickableImageCreator.java	0	0	0	2	0	0
+freemind.view.MapModule	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/MapModule.java	0	0	0	0	101	58
+freemind.modes.common.CommonNodeKeyListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/CommonNodeKeyListener.java	0	0	0	0	174	107
+freemind.modes.common.CommonNodeKeyListener$EditHandler	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/CommonNodeKeyListener.java	0	0	0	2	0	0
+freemind.modes.common.CommonToggleFoldedAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/CommonToggleFoldedAction.java	0	0	0	0	112	61
+freemind.modes.common.GotoLinkNodeAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/common/GotoLinkNodeAction.java	0	0	0	0	61	26
+freemind.controller.filter.condition.AttributeCompareCondition	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/condition/AttributeCompareCondition.java	0	0	0	0	91	56
+freemind.controller.filter.condition.AttributeExistsCondition	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/condition/AttributeExistsCondition.java	0	0	0	0	72	38
+freemind.controller.filter.condition.AttributeNotExistsCondition	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/condition/AttributeNotExistsCondition.java	0	0	0	0	72	38
+freemind.controller.filter.condition.CompareConditionAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/condition/CompareConditionAdapter.java	0	0	0	4	90	57
+freemind.controller.filter.condition.Condition	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/condition/Condition.java	0	0	0	0	36	10
+freemind.controller.filter.condition.ConditionFactory	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/condition/ConditionFactory.java	0	0	0	0	240	192
+freemind.controller.filter.condition.ConditionNotSatisfiedDecorator	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/condition/ConditionNotSatisfiedDecorator.java	0	0	0	0	87	42
+freemind.controller.filter.condition.ConditionRenderer	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/condition/ConditionRenderer.java	0	0	0	0	77	41
+freemind.controller.filter.condition.ConjunctConditions	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/condition/ConjunctConditions.java	0	0	0	0	107	63
+freemind.controller.filter.condition.DisjunctConditions	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/condition/DisjunctConditions.java	0	0	0	0	107	63
+freemind.controller.filter.condition.IconContainedCondition	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/condition/IconContainedCondition.java	0	0	0	0	110	71
+freemind.controller.filter.condition.IgnoreCaseNodeContainsCondition	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/condition/IgnoreCaseNodeContainsCondition.java	0	0	0	4	64	35
+freemind.controller.filter.condition.JCondition	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/condition/JCondition.java	0	0	0	0	43	10
+freemind.controller.filter.condition.NoFilteringCondition	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/condition/NoFilteringCondition.java	0	0	0	0	69	38
+freemind.controller.filter.condition.NodeCompareCondition	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/condition/NodeCompareCondition.java	0	0	0	4	81	52
+freemind.controller.filter.condition.NodeCondition	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/condition/NodeCondition.java	0	0	0	0	62	25
+freemind.controller.filter.condition.NodeContainsCondition	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/condition/NodeContainsCondition.java	0	0	0	4	64	35
+freemind.controller.filter.condition.SelectedViewCondition	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/controller/filter/condition/SelectedViewCondition.java	0	0	0	0	69	40
+freemind.view.mindmapview.attributeview.AttributePopupMenu	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/attributeview/AttributePopupMenu.java	0	0	0	0	258	183
+freemind.view.mindmapview.attributeview.AttributePopupMenu$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/attributeview/AttributePopupMenu.java	0	0	0	2	0	0
+freemind.view.mindmapview.attributeview.AttributePopupMenu$2	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/attributeview/AttributePopupMenu.java	0	0	0	2	0	0
+freemind.view.mindmapview.attributeview.AttributePopupMenu$3	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/attributeview/AttributePopupMenu.java	0	0	0	2	0	0
+freemind.view.mindmapview.attributeview.AttributePopupMenu$4	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/attributeview/AttributePopupMenu.java	0	0	0	2	0	0
+freemind.view.mindmapview.attributeview.AttributePopupMenu$5	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/attributeview/AttributePopupMenu.java	0	0	0	2	0	0
+freemind.view.mindmapview.attributeview.AttributePopupMenu$6	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/attributeview/AttributePopupMenu.java	0	0	0	2	0	0
+freemind.view.mindmapview.attributeview.AttributeTable	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/attributeview/AttributeTable.java	0	0	0	0	549	443
+freemind.view.mindmapview.attributeview.AttributeTable$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/attributeview/AttributeTable.java	0	0	0	2	0	0
+freemind.view.mindmapview.attributeview.AttributeTable$HeaderMouseListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/attributeview/AttributeTable.java	0	0	0	2	0	0
+freemind.view.mindmapview.attributeview.AttributeTable$MyFocusListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/attributeview/AttributeTable.java	0	0	0	2	0	0
+freemind.view.mindmapview.attributeview.AttributeTable$MyFocusListener$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/attributeview/AttributeTable.java	0	0	0	2	0	0
+freemind.view.mindmapview.attributeview.AttributeTableCellRenderer	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/attributeview/AttributeTableCellRenderer.java	0	0	0	0	87	54
+freemind.view.mindmapview.attributeview.AttributeTableModelDecoratorAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/attributeview/AttributeTableModelDecoratorAdapter.java	0	0	0	4	96	58
+freemind.view.mindmapview.attributeview.AttributeView	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/attributeview/AttributeView.java	0	0	0	0	261	207
+freemind.view.mindmapview.attributeview.AttributeView$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/attributeview/AttributeView.java	0	0	0	2	0	0
+freemind.view.mindmapview.attributeview.AttributeViewScrollPane	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/attributeview/AttributeViewScrollPane.java	0	0	0	4	52	21
+freemind.view.mindmapview.attributeview.ExtendedAttributeTableModelDecorator	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/attributeview/ExtendedAttributeTableModelDecorator.java	0	0	0	4	122	80
+freemind.view.mindmapview.attributeview.ReducedAttributeTableModelDecorator	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/view/mindmapview/attributeview/ReducedAttributeTableModelDecorator.java	0	0	0	4	134	80
+plugins.collaboration.jabber.view.MapSharingWizardView		freemind/plugins/collaboration/jabber/view/MapSharingWizardView.java	1	2	0	0	593	379
+plugins.collaboration.jabber.view.SpringUtilities		freemind/plugins/collaboration/jabber/view/SpringUtilities.java	1	2	0	0	222	132
+freemind.preferences.layout.GrabKeyDialog	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/layout/GrabKeyDialog.java	0	0	0	0	624	394
+freemind.preferences.layout.GrabKeyDialog$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/layout/GrabKeyDialog.java	0	0	0	2	0	0
+freemind.preferences.layout.GrabKeyDialog$ActionHandler	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/layout/GrabKeyDialog.java	0	0	0	2	0	0
+freemind.preferences.layout.GrabKeyDialog$Buffer	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/layout/GrabKeyDialog.java	0	0	0	2	0	0
+freemind.preferences.layout.GrabKeyDialog$InputPane	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/layout/GrabKeyDialog.java	0	0	0	2	0	0
+freemind.preferences.layout.GrabKeyDialog$KeyBinding	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/layout/GrabKeyDialog.java	0	0	0	2	0	0
+freemind.preferences.layout.KeyEventTranslator	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/layout/KeyEventTranslator.java	0	0	0	0	479	330
+freemind.preferences.layout.KeyEventTranslator$Key	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/layout/KeyEventTranslator.java	0	0	0	2	0	0
+freemind.preferences.layout.KeyEventWorkaround	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/layout/KeyEventWorkaround.java	0	0	0	0	285	209
+freemind.preferences.layout.OptionPanel	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/layout/OptionPanel.java	0	0	0	0	1245	735
+freemind.preferences.layout.OptionPanel$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/layout/OptionPanel.java	0	0	0	2	0	0
+freemind.preferences.layout.OptionPanel$2	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/layout/OptionPanel.java	0	0	0	2	0	0
+freemind.preferences.layout.OptionPanel$3	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/layout/OptionPanel.java	0	0	0	2	0	0
+freemind.preferences.layout.OptionPanel$ChangeTabAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/layout/OptionPanel.java	0	0	0	2	0	0
+freemind.preferences.layout.OptionPanel$KeyProperty	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/layout/OptionPanel.java	0	0	0	2	0	0
+freemind.preferences.layout.OptionPanel$KeyProperty$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/layout/OptionPanel.java	0	0	0	2	0	0
+freemind.preferences.layout.OptionPanel$NewTabProperty	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/layout/OptionPanel.java	0	0	0	2	0	0
+freemind.preferences.layout.OptionPanel$OptionPanelFeedback	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/layout/OptionPanel.java	0	0	0	2	0	0
+freemind.preferences.layout.VariableSizeCardLayout	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/preferences/layout/VariableSizeCardLayout.java	0	0	0	0	74	36
+tests.freemind.AllTests		freemind/tests/freemind/AllTests.java	1	2	0	0	53	24
+tests.freemind.Base64Tests		freemind/tests/freemind/Base64Tests.java	1	2	0	0	50	15
+tests.freemind.DontShowAgainDialogTests		freemind/tests/freemind/DontShowAgainDialogTests.java	1	2	0	0	98	55
+tests.freemind.FreeMindMainMock		freemind/tests/freemind/FreeMindMainMock.java	1	2	0	0	211	132
+tests.freemind.FreeMindTestBase		freemind/tests/freemind/FreeMindTestBase.java	1	2	0	0	56	18
+tests.freemind.HtmlConversionTests		freemind/tests/freemind/HtmlConversionTests.java	1	2	0	0	464	392
+tests.freemind.MarshallerTests		freemind/tests/freemind/MarshallerTests.java	1	2	0	0	51	21
+tests.freemind.MindMapControllerMock		freemind/tests/freemind/MindMapControllerMock.java	1	2	0	0	602	226
+tests.freemind.MindMapMock		freemind/tests/freemind/MindMapMock.java	1	2	0	0	183	116
+tests.freemind.ScriptEditorPanelTest		freemind/tests/freemind/ScriptEditorPanelTest.java	1	2	0	0	117	70
+tests.freemind.SignedScriptTests		freemind/tests/freemind/SignedScriptTests.java	1	2	0	0	42	37
+tests.freemind.SplashTests		freemind/tests/freemind/SplashTests.java	1	2	0	0	39	14
+tests.freemind.TransformTest		freemind/tests/freemind/TransformTest.java	1	2	0	0	176	133
+accessories.plugins.util.window.WindowClosingAdapter	lib/freemind.jar	freemind/accessories/plugins/util/window/WindowClosingAdapter.java	0	0	0	0	56	20
+freemind.modes.ArrowLinkAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/ArrowLinkAdapter.java	0	0	0	0	134	96
+freemind.modes.CloudAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/CloudAdapter.java	0	0	0	0	148	101
+freemind.modes.CloudAdapter$CloudAdapterListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/CloudAdapter.java	0	0	0	2	0	0
+freemind.modes.ControllerAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/ControllerAdapter.java	0	0	0	0	1283	888
+freemind.modes.ControllerAdapter$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/ControllerAdapter.java	0	0	0	2	0	0
+freemind.modes.ControllerAdapter$ControllerPopupMenuListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/ControllerAdapter.java	0	0	0	2	0	0
+freemind.modes.ControllerAdapter$EditAttributesAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/ControllerAdapter.java	0	0	0	2	0	0
+freemind.modes.ControllerAdapter$FileOpener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/ControllerAdapter.java	0	0	0	2	0	0
+freemind.modes.ControllerAdapter$OpenAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/ControllerAdapter.java	0	0	0	2	0	0
+freemind.modes.ControllerAdapter$SaveAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/ControllerAdapter.java	0	0	0	2	0	0
+freemind.modes.ControllerAdapter$SaveAsAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/ControllerAdapter.java	0	0	0	2	0	0
+freemind.modes.ControllerAdapter$nodesDepthComparator	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/ControllerAdapter.java	0	0	0	2	0	0
+freemind.modes.EdgeAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/EdgeAdapter.java	0	0	0	0	177	121
+freemind.modes.EdgeAdapter$EdgeAdapterListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/EdgeAdapter.java	0	0	0	2	0	0
+freemind.modes.HistoryInformation	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/HistoryInformation.java	0	0	0	0	65	27
+freemind.modes.IconInformation	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/IconInformation.java	0	0	0	0	11	9
+freemind.modes.LineAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/LineAdapter.java	0	0	0	0	169	94
+freemind.modes.LinkAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/LinkAdapter.java	0	0	0	0	114	68
+freemind.modes.LinkAdapter$LinkAdapterListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/LinkAdapter.java	0	0	0	2	0	0
+freemind.modes.LinkRegistryAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/LinkRegistryAdapter.java	0	0	0	0	430	280
+freemind.modes.LinkRegistryAdapter$ID_BasicState	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/LinkRegistryAdapter.java	0	0	0	2	0	0
+freemind.modes.LinkRegistryAdapter$ID_BasicStateAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/LinkRegistryAdapter.java	0	0	0	2	0	0
+freemind.modes.LinkRegistryAdapter$ID_Blank	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/LinkRegistryAdapter.java	0	0	0	2	0	0
+freemind.modes.LinkRegistryAdapter$ID_BlankAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/LinkRegistryAdapter.java	0	0	0	2	0	0
+freemind.modes.LinkRegistryAdapter$ID_Registered	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/LinkRegistryAdapter.java	0	0	0	2	0	0
+freemind.modes.LinkRegistryAdapter$ID_RegisteredAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/LinkRegistryAdapter.java	0	0	0	2	0	0
+freemind.modes.LinkRegistryAdapter$ID_UsedState	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/LinkRegistryAdapter.java	0	0	0	2	0	0
+freemind.modes.LinkRegistryAdapter$ID_UsedStateAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/LinkRegistryAdapter.java	0	0	0	2	0	0
+freemind.modes.MapAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/MapAdapter.java	0	0	0	0	378	240
+freemind.modes.MapRegistry	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/MapRegistry.java	0	0	0	0	114	69
+freemind.modes.MindIcon	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/MindIcon.java	0	0	0	0	248	146
+freemind.modes.MindMap	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/MindMap.java	0	0	0	0	118	37
+freemind.modes.MindMapArrowLink	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/MindMapArrowLink.java	0	0	0	0	55	16
+freemind.modes.MindMapCloud	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/MindMapCloud.java	0	0	0	0	51	9
+freemind.modes.MindMapEdge	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/MindMapEdge.java	0	0	0	0	36	6
+freemind.modes.MindMapLine	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/MindMapLine.java	0	0	0	0	36	11
+freemind.modes.MindMapLink	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/MindMapLink.java	0	0	0	0	47	12
+freemind.modes.MindMapLinkRegistry	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/MindMapLinkRegistry.java	0	0	0	0	68	25
+freemind.modes.MindMapNode	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/MindMapNode.java	0	0	0	0	338	125
+freemind.modes.Mode	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/Mode.java	0	0	0	0	47	19
+freemind.modes.ModeController	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/ModeController.java	0	0	0	0	276	110
+freemind.modes.ModeController$NodeLifetimeListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/ModeController.java	0	0	0	2	0	0
+freemind.modes.ModeController$NodeSelectionListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/ModeController.java	0	0	0	2	0	0
+freemind.modes.ModesCreator	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/ModesCreator.java	0	0	0	0	104	57
+freemind.modes.NodeAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/NodeAdapter.java	0	0	0	0	1313	913
+freemind.modes.NodeAdapter$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/NodeAdapter.java	0	0	0	2	0	0
+freemind.modes.NodeDownAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/NodeDownAction.java	0	0	0	0	42	14
+freemind.modes.NodeViewEvent	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/NodeViewEvent.java	0	0	0	0	37	8
+freemind.modes.NodeViewEventListener	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/NodeViewEventListener.java	0	0	0	0	41	6
+freemind.modes.StylePattern	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/StylePattern.java	0	0	0	0	518	211
+freemind.modes.StylePatternFactory	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/StylePatternFactory.java	0	0	0	0	278	219
+freemind.modes.XMLElementAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/XMLElementAdapter.java	0	0	0	0	567	442
+freemind.modes.mindmapmode.dialogs.StylePatternFrame	lib/freemind.jar	freemind/freemind/modes/mindmapmode/dialogs/StylePatternFrame.java	0	0	0	0	695	521
+freemind.modes.mindmapmode.dialogs.StylePatternFrame$1	lib/freemind.jar	freemind/freemind/modes/mindmapmode/dialogs/StylePatternFrame.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.dialogs.StylePatternFrame$EdgeWidthBackTransformer	lib/freemind.jar	freemind/freemind/modes/mindmapmode/dialogs/StylePatternFrame.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.dialogs.StylePatternFrame$EdgeWidthTransformer	lib/freemind.jar	freemind/freemind/modes/mindmapmode/dialogs/StylePatternFrame.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.dialogs.StylePatternFrame$IdentityTransformer	lib/freemind.jar	freemind/freemind/modes/mindmapmode/dialogs/StylePatternFrame.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.dialogs.StylePatternFrame$StylePatternFrameType	lib/freemind.jar	freemind/freemind/modes/mindmapmode/dialogs/StylePatternFrame.java	0	0	0	2	0	0
+freemind.modes.mindmapmode.dialogs.StylePatternFrame$ValueTransformator	lib/freemind.jar	freemind/freemind/modes/mindmapmode/dialogs/StylePatternFrame.java	0	0	0	2	0	0
+freemind.modes.viewmodes.CommonToggleChildrenFoldedAction	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/viewmodes/CommonToggleChildrenFoldedAction.java	0	0	0	0	56	21
+freemind.modes.viewmodes.ViewControllerAdapter	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/viewmodes/ViewControllerAdapter.java	0	0	0	0	157	91
+freemind.modes.viewmodes.ViewControllerAdapter$1	browser/freemindbrowser.jar,lib/freemind.jar	freemind/freemind/modes/viewmodes/ViewControllerAdapter.java	0	0	0	2	0	0
+freemind.modes.schememode.SchemeController	lib/freemind.jar	freemind/freemind/modes/schememode/SchemeController.java	0	0	0	0	144	81
+freemind.modes.schememode.SchemeController$EvaluateAction	lib/freemind.jar	freemind/freemind/modes/schememode/SchemeController.java	0	0	0	2	0	0
+freemind.modes.schememode.SchemeEdgeModel	lib/freemind.jar	freemind/freemind/modes/schememode/SchemeEdgeModel.java	0	0	0	0	33	9
+freemind.modes.schememode.SchemeMapModel	lib/freemind.jar	freemind/freemind/modes/schememode/SchemeMapModel.java	0	0	0	0	167	90
+freemind.modes.schememode.SchemeMode	lib/freemind.jar	freemind/freemind/modes/schememode/SchemeMode.java	0	0	0	0	84	45
+freemind.modes.schememode.SchemeNodeModel	lib/freemind.jar	freemind/freemind/modes/schememode/SchemeNodeModel.java	0	0	0	0	110	75
+freemind.modes.schememode.SchemePopupMenu	lib/freemind.jar	freemind/freemind/modes/schememode/SchemePopupMenu.java	0	0	0	0	39	9
+freemind.modes.schememode.SchemeToolBar	lib/freemind.jar	freemind/freemind/modes/schememode/SchemeToolBar.java	0	0	0	0	42	16
+freemind.controller.actions.generated.instance.AddArrowLinkXmlAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.AddCloudXmlAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.AddIconAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.AddLinkXmlAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.ArrowLinkArrowXmlAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.ArrowLinkColorXmlAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.ArrowLinkPointXmlAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.BoldNodeAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.CloudColorXmlAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.CollaborationAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.CompoundAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.CutNodeAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.DeleteAttributeElementaryAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.DeleteNodeAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.EdgeColorFormatAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.EdgeStyleFormatAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.EdgeWidthFormatAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.EditNodeAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.EditNoteToNodeAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.FoldAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.FontNodeAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.FontSizeNodeAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.FormatNodeAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.HookContentNodeAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.HookNodeAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.InsertAttributeElementaryAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.ItalicNodeAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_MungeAdapter	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingAddArrowLinkXmlAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingAddCloudXmlAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingAddIconAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingAddLinkXmlAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingArrowLinkArrowXmlAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingArrowLinkColorXmlAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingArrowLinkPointXmlAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingBoldNodeAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingCloudColorXmlAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingCollaborationAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingCompoundAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingCutNodeAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingDeleteAttributeElementaryAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingDeleteNodeAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingEdgeColorFormatAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingEdgeStyleFormatAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingEdgeWidthFormatAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingEditNodeAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingEditNoteToNodeAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingFactory	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingFoldAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingFontNodeAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingFontSizeNodeAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingFormatNodeAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingHookContentNodeAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingHookNodeAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingInsertAttributeElementaryAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingItalicNodeAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingManageStyleEditorWindowConfigurationStorage_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingMenuActionBase_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingMenuAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingMenuCategoryBase_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingMenuCategory_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingMenuCheckedAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingMenuRadioAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingMenuSeparator_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingMenuStructure_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingMenuSubmenu_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingMoveNodeXmlAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingMoveNodesAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingNewNodeAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingNodeAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingNodeBackgroundColorFormatAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingNodeColorFormatAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingNodeListMember_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingNodeStyleFormatAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingNormalWindowConfigurationStorage_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingOptionPanelWindowConfigurationStorage_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPasteNodeAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPatternChild_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPatternEdgeColor_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPatternEdgeStyle_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPatternEdgeWidth_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPatternIcon_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPatternNodeBackgroundColor_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPatternNodeColor_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPatternNodeFontBold_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPatternNodeFontItalic_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPatternNodeFontName_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPatternNodeFontSize_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPatternNodeStyle_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPatternNodeText_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPatternPropertyBase_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPatternScript_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPattern_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPatterns_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPluginAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPluginClasspath_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPluginMenu_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPluginMode_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPluginProperty_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPluginRegistration_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPluginString_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPluginStrings_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingPlugin_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingRegistryAttributeElementaryAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingRegistryAttributeValueElementaryAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingRemoveAllIconsXmlAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingRemoveArrowLinkXmlAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingRemoveIconXmlAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingReplaceAttributeValueElementaryAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingRevertXmlAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingScriptEditorWindowConfigurationStorage_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingSelectNodeAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingSetAttributeColumnWidthElementaryAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingSetAttributeFontSizeElementaryAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingSetAttributeNameElementaryAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingSetAttributeRestrictedElementaryAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingSetAttributeValueElementaryAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingSetAttributeVisibleElementaryAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingTextNodeAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingTimeWindowColumnSetting_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingTimeWindowConfigurationStorage_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingTransferableContent_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingTransferableFile_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingUnderlinedNodeAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingUndoXmlAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingUnregistryAttributeElementaryAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingUnregistryAttributeValueElementaryAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingWindowConfigurationStorage_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.JiBX_bindingXmlAction_access	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.ManageStyleEditorWindowConfigurationStorage	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.MenuAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.MenuActionBase	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.MenuCategory	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.MenuCategoryBase	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.MenuCheckedAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.MenuRadioAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.MenuSeparator	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.MenuStructure	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.MenuSubmenu	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.MoveNodeXmlAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.MoveNodesAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.NewNodeAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.NodeAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.NodeBackgroundColorFormatAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.NodeColorFormatAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.NodeListMember	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.NodeStyleFormatAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.NormalWindowConfigurationStorage	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.OptionPanelWindowConfigurationStorage	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PasteNodeAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.Pattern	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PatternChild	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PatternEdgeColor	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PatternEdgeStyle	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PatternEdgeWidth	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PatternIcon	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PatternNodeBackgroundColor	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PatternNodeColor	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PatternNodeFontBold	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PatternNodeFontItalic	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PatternNodeFontName	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PatternNodeFontSize	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PatternNodeStyle	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PatternNodeText	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PatternPropertyBase	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PatternScript	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.Patterns	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.Plugin	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PluginAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PluginClasspath	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PluginMenu	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PluginMode	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PluginProperty	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PluginRegistration	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PluginString	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.PluginStrings	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.RegistryAttributeElementaryAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.RegistryAttributeValueElementaryAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.RemoveAllIconsXmlAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.RemoveArrowLinkXmlAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.RemoveIconXmlAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.ReplaceAttributeValueElementaryAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.RevertXmlAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.ScriptEditorWindowConfigurationStorage	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.SelectNodeAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.SetAttributeColumnWidthElementaryAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.SetAttributeFontSizeElementaryAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.SetAttributeNameElementaryAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.SetAttributeRestrictedElementaryAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.SetAttributeValueElementaryAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.SetAttributeVisibleElementaryAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.TextNodeAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.TimeWindowColumnSetting	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.TimeWindowConfigurationStorage	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.TransferableContent	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.TransferableFile	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.UnderlinedNodeAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.UndoXmlAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.UnregistryAttributeElementaryAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.UnregistryAttributeValueElementaryAction	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.WindowConfigurationStorage	lib/bindings.jar		0	1	1	3	0	0
+freemind.controller.actions.generated.instance.XmlAction	lib/bindings.jar		0	1	1	3	0	0
+#Issues
+#======
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/lib/SimplyHTML/SimplyHTML.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/lib/SimplyHTML/gnu-regexp-1.1.4.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/lib/bindings.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/lib/forms-1.0.5-src.zip in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/lib/forms-1.0.5.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/lib/jarbundler-2.0.0.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/lib/jibx/bcel.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/lib/jibx/commons-logging-1.0.4.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/lib/jibx/jaxme-js-0.3.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/lib/jibx/jibx-bind.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/lib/jibx/jibx-extras.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/lib/jibx/jibx-run.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/lib/jibx/log4j-1.2.8.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/lib/jibx/xpp3.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/lib/junit.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/collaboration/database/hsqldb.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/collaboration/jabber/commons-logging.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/collaboration/jabber/crimson-1.1.3.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/collaboration/jabber/jakarta-oro.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/collaboration/jabber/jaxp-1.1.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/collaboration/jabber/jdom.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/collaboration/jabber/log4j.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/collaboration/jabber/muse.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/help/jhall.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/latex/HotEqn.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/script/groovy-all-1.5.6.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/batik-awt-util.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/batik-bridge.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/batik-css.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/batik-dom.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/batik-ext.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/batik-extension.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/batik-gui-util.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/batik-gvt.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/batik-parser.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/batik-script.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/batik-squiggle.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/batik-svg-dom.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/batik-svggen.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/batik-swing.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/batik-transcoder.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/batik-util.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/batik-xml.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/js.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/pdf-transcoder.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/xerces_2_5_0.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/freemind/freemind-0.9.0/src/freemind/plugins/svg/xml-apis.jar in <src> ignored.
+#SRC NO PUBLIC TYPE for freemind/freemind/controller/ColorSwatch.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/controller/filter/FilterToolbar.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/controller/filter/condition/CompareConditionAdapter.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/controller/filter/condition/IgnoreCaseNodeContainsCondition.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/controller/filter/condition/NodeCompareCondition.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/controller/filter/condition/NodeContainsCondition.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/controller/printpreview/BrowseAction.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/controller/printpreview/Preview.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/controller/printpreview/ZoomAction.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/main/LoggingOutputStream.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/main/StdFormatter.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/modes/attributes/AttributeRegistryComboBoxColumnModel.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/modes/mindmapmode/MindMapHTMLWriter.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/modes/mindmapmode/attributeactors/AttributeRegistryTable.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/modes/mindmapmode/attributeactors/ImportAttributesDialog.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/view/mindmapview/BubbleMainView.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/view/mindmapview/ForkMainView.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/view/mindmapview/NodeViewFactory.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/view/mindmapview/PathBBox.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/view/mindmapview/RootMainView.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/view/mindmapview/attributeview/AttributeTableModelDecoratorAdapter.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/view/mindmapview/attributeview/AttributeViewScrollPane.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/view/mindmapview/attributeview/ExtendedAttributeTableModelDecorator.java.
+#SRC NO PUBLIC TYPE for freemind/freemind/view/mindmapview/attributeview/ReducedAttributeTableModelDecorator.java.
+#SRC NO PUBLIC TYPE for freemind/tests/freemind/findreplace/TestMindMapNode.java.

@@ -1,0 +1,1548 @@
+#2013-09-05T10:01:04NZST
+#System Version : fitlibraryforfitnesse-20100806
+#Source Packages: fitlibrary.
+#Ignore Packages: 
+#Distributed    : fitnesse/lib/src
+#Source Roots   : fitnesse/lib/src
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+fitlibraryGeneric.utility.ListCreator	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/utility/ListCreator.java	0	0	0	0	24	16
+fitlibrary.eg.AccountVariables	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/AccountVariables.java	0	0	0	0	68	57
+fitlibrary.eg.AccountVariables$Account	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/AccountVariables.java	0	0	0	2	0	0
+fitlibrary.eg.AccountVariables$AccountsRepository	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/AccountVariables.java	0	0	0	2	0	0
+fitlibrary.eg.Calculator	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/Calculator.java	0	0	0	0	24	15
+fitlibrary.eg.ChatSuite	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/ChatSuite.java	0	0	0	0	20	12
+fitlibrary.eg.Collections	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/Collections.java	0	0	0	0	52	43
+fitlibrary.eg.Collections$Element	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/Collections.java	0	0	0	2	0	0
+fitlibrary.eg.Constraints	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/Constraints.java	0	0	0	0	14	9
+fitlibrary.eg.Discount	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/Discount.java	0	0	0	0	13	8
+fitlibrary.eg.DiscountAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/DiscountAdapter.java	0	0	0	0	15	8
+fitlibrary.eg.DomainAdapterWithVariables	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/DomainAdapterWithVariables.java	0	0	0	0	23	15
+fitlibrary.eg.ListToSet	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/ListToSet.java	0	0	0	0	44	36
+fitlibrary.eg.ListToSet$Person	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/ListToSet.java	0	0	0	2	0	0
+fitlibrary.eg.NestedArray	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/NestedArray.java	0	0	0	0	13	7
+fitlibrary.eg.Owing	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/Owing.java	0	0	0	0	19	13
+fitlibrary.eg.StartListing	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/StartListing.java	0	0	0	0	41	33
+fitlibrary.eg.StartListing$Element	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/StartListing.java	0	0	0	2	0	0
+fitlibrary.eg.Variable	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/Variable.java	0	0	0	0	24	18
+fitlibrary.eg.VectorAddition	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/VectorAddition.java	0	0	0	0	39	32
+fitlibrary.eg.VectorAddition$Vector	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/VectorAddition.java	0	0	0	2	0	0
+fitlibrary.batch.FitLibraryRunner	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/FitLibraryRunner.java	0	0	0	0	132	123
+fitlibrary.batch.FitLibraryRunner$RunParameters	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/FitLibraryRunner.java	0	0	0	2	0	0
+fitlibrary.batch.RunFitLibraryRunner	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/RunFitLibraryRunner.java	0	0	0	0	18	13
+fitlibrary.batch.TestFitLibraryRunner	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.batch.TestFitLibraryTestEngine	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.batch.TestFitLibraryTestEngine$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.batch.TestFitLibraryTestEngine$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.batch.TestFitLibraryTestEngine$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.batch.TestFitLibraryTestEngine$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.batch.TestFitLibraryTestEngine$5	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.batch.TestFitLibraryTestEngine$TestResultMatcher	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.batch.TestParallelFolderTestResultRepository	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.batch.TestParallelFolderTestResultRepository$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.batch.TestParallelFolderTestResultRepository$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.batch.TestParallelFolderTestResultRepository$ThreadPerTaskExecutor	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.batch.TestParallelTestRunner	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.batch.TestParallelTestRunner$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.batch.TestParallelTestRunner$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.batch.TestParallelTestRunner$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.batch.TestParallelTestRunner$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.runResults.ITableListener	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runResults/ITableListener.java	0	0	0	0	14	7
+fitlibrary.runResults.TableListener	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runResults/TableListener.java	0	0	0	0	47	40
+fitlibrary.runResults.TableListener$EmptyFixtureListener	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runResults/TableListener.java	0	0	0	2	0	0
+fitlibrary.runResults.TestResults	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runResults/TestResults.java	0	0	0	0	24	17
+fitlibrary.runResults.TestResultsFactory	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runResults/TestResultsFactory.java	0	0	0	0	17	10
+fitlibrary.runResults.TestResultsOnCounts	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runResults/TestResultsOnCounts.java	0	0	0	0	97	90
+fitlibrary.specify.autowrap.Pojo	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/autowrap/Pojo.java	0	0	0	0	12	6
+fitlibrary.log.FileLogger	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/log/FileLogger.java	0	0	0	0	55	52
+fitlibrary.log.Logging	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/log/Logging.java	0	0	0	0	63	55
+fitlibrary.traverse.workflow.caller.CreateFromClassNameCaller	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/caller/CreateFromClassNameCaller.java	0	0	0	0	114	105
+fitlibrary.traverse.workflow.caller.CreateFromClassNameCaller$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/caller/CreateFromClassNameCaller.java	0	0	0	2	0	0
+fitlibrary.traverse.workflow.caller.DefinedActionCallManager	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/caller/DefinedActionCallManager.java	0	0	0	0	55	45
+fitlibrary.traverse.workflow.caller.DefinedActionCaller	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/caller/DefinedActionCaller.java	0	0	0	0	146	138
+fitlibrary.traverse.workflow.caller.DoActionCaller	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/caller/DoActionCaller.java	0	0	0	0	59	51
+fitlibrary.traverse.workflow.caller.MultiDefinedActionCaller	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/caller/MultiDefinedActionCaller.java	0	0	0	0	42	35
+fitlibrary.traverse.workflow.caller.MultiDefinedActionRunnerTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/caller/MultiDefinedActionRunnerTraverse.java	0	0	0	0	98	91
+fitlibrary.traverse.workflow.caller.PostFixSpecialCaller	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/caller/PostFixSpecialCaller.java	0	0	0	0	53	46
+fitlibrary.traverse.workflow.caller.SpecialCaller	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/caller/SpecialCaller.java	0	0	0	0	58	50
+fitlibrary.traverse.workflow.caller.TestPlainTextForTableForAction	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.traverse.workflow.caller.TestPlainTextForTableForDefinedAction	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.traverse.workflow.caller.TwoStageSpecial	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/caller/TwoStageSpecial.java	0	0	0	0	12	5
+fitlibrary.traverse.workflow.caller.ValidCall	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/caller/ValidCall.java	0	0	0	0	125	117
+fitbook.chat.ChatRoom	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/chat/ChatRoom.java	1	0	0	0	111	98
+fitbook.chat.ChatServer	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/chat/ChatServer.java	1	0	0	0	20	10
+fitbook.chat.Room	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/chat/Room.java	1	0	0	0	55	43
+fitbook.chat.User	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/chat/User.java	1	0	0	0	20	10
+fitlibrary.collection.set.SetTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/collection/set/SetTraverse.java	0	0	0	0	91	74
+fitlibrary.object.DomainCheckTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/object/DomainCheckTraverse.java	0	0	0	0	108	101
+fitlibrary.object.DomainFixtured	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/object/DomainFixtured.java	0	0	0	0	10	4
+fitlibrary.object.DomainInjectionTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/object/DomainInjectionTraverse.java	0	0	0	0	99	92
+fitlibrary.object.DomainObjectCheckTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/object/DomainObjectCheckTraverse.java	0	0	0	0	70	63
+fitlibrary.object.DomainObjectParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/object/DomainObjectParser.java	0	0	0	0	84	76
+fitlibrary.object.DomainObjectSetUpTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/object/DomainObjectSetUpTraverse.java	0	0	0	0	110	103
+fitlibrary.object.DomainTraverser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/object/DomainTraverser.java	0	0	0	0	11	5
+fitlibrary.object.Finder	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/object/Finder.java	0	0	0	0	10	7
+fitlibrary.object.NonGenericFinder	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/object/NonGenericFinder.java	0	0	0	0	78	71
+fitbook.money.Money	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/money/Money.java	1	0	0	0	77	66
+fitlibraryGeneric.traverse.ReferenceTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/traverse/ReferenceTraverse.java	0	0	0	0	126	118
+fitlibrary.exception.parse.BadNumberException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/parse/BadNumberException.java	0	0	0	0	11	6
+fitlibrary.exception.parse.CouldNotParseException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/parse/CouldNotParseException.java	0	0	0	0	14	9
+fitlibrary.exception.parse.InvalidMapString	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/parse/InvalidMapString.java	0	0	0	0	11	6
+fitlibrary.exception.parse.NoValueProvidedException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/parse/NoValueProvidedException.java	0	0	0	0	11	6
+fitlibrary.exception.parse.ParseException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/parse/ParseException.java	0	0	0	0	15	7
+fitlibrary.exception.table.ExtraCellsException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/table/ExtraCellsException.java	0	0	0	0	13	7
+fitlibrary.exception.table.MissingCellsException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/table/MissingCellsException.java	0	0	0	0	13	7
+fitlibrary.exception.table.MissingRowException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/table/MissingRowException.java	0	0	0	0	13	7
+fitlibrary.exception.table.MissingTableException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/table/MissingTableException.java	0	0	0	0	13	7
+fitlibrary.exception.table.NestedTableExpectedException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/table/NestedTableExpectedException.java	0	0	0	0	13	7
+fitlibrary.exception.table.RowWrongWidthException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/table/RowWrongWidthException.java	0	0	0	0	13	7
+fitlibrary.exception.table.SingleNestedTableExpected	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/table/SingleNestedTableExpected.java	0	0	0	0	14	7
+fitlibrary.specify.constraint.SetUpAndTearDownCalled	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/constraint/SetUpAndTearDownCalled.java	0	0	0	0	26	19
+fitlibrary.exception.method.AmbiguousActionException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/method/AmbiguousActionException.java	0	0	0	0	13	7
+fitlibrary.exception.method.AmbiguousNameException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/method/AmbiguousNameException.java	0	0	0	0	13	7
+fitlibrary.exception.method.BooleanMethodException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/method/BooleanMethodException.java	0	0	0	0	13	7
+fitlibrary.exception.method.MissingMethodException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/method/MissingMethodException.java	0	0	0	0	47	39
+fitlibrary.exception.method.NoSuchPropertyException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/method/NoSuchPropertyException.java	0	0	0	0	13	7
+fitlibrary.exception.method.VoidMethodException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/method/VoidMethodException.java	0	0	0	0	13	7
+fitlibrary.exception.method.WrongTypeForMethodException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/method/WrongTypeForMethodException.java	0	0	0	0	16	9
+fitlibrary.specify.AbstractNestedLists	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/AbstractNestedLists.java	0	0	0	0	93	83
+fitlibrary.specify.AbstractNestedLists$Element	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/AbstractNestedLists.java	0	0	0	2	0	0
+fitlibrary.specify.AbstractNestedLists$Fruit	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/AbstractNestedLists.java	0	0	0	2	0	0
+fitlibrary.specify.AbstractNestedLists$SubElement	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/AbstractNestedLists.java	0	0	0	2	0	0
+fitlibrary.specify.AbstractNestedSets	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/AbstractNestedSets.java	0	0	0	0	78	68
+fitlibrary.specify.AbstractNestedSets$Element	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/AbstractNestedSets.java	0	0	0	2	0	0
+fitlibrary.specify.AbstractNestedSets$Fruit	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/AbstractNestedSets.java	0	0	0	2	0	0
+fitlibrary.specify.AbstractNestedSets$SubElement	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/AbstractNestedSets.java	0	0	0	2	0	0
+fitlibrary.specify.AggregateDoFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/AggregateDoFixture.java	0	0	0	0	59	51
+fitlibrary.specify.AggregateDoFixture$Point	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/AggregateDoFixture.java	0	0	0	2	0	0
+fitlibrary.specify.AggregateDomainObject	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/AggregateDomainObject.java	0	0	0	0	139	125
+fitlibrary.specify.AggregateDomainObject$Address	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/AggregateDomainObject.java	0	0	0	2	0	0
+fitlibrary.specify.AggregateDomainObject$Author	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/AggregateDomainObject.java	0	0	0	2	0	0
+fitlibrary.specify.AggregateDomainObject$Book	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/AggregateDomainObject.java	0	0	0	2	0	0
+fitlibrary.specify.AggregateDomainObject$KeyValue	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/AggregateDomainObject.java	0	0	0	2	0	0
+fitlibrary.specify.AggregateDomainObject$Phone	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/AggregateDomainObject.java	0	0	0	2	0	0
+fitlibrary.specify.AggregateDomainObject$Publisher	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/AggregateDomainObject.java	0	0	0	2	0	0
+fitlibrary.specify.AnotherActor	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/AnotherActor.java	0	0	0	0	28	22
+fitlibrary.specify.ArrayFixtureUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/ArrayFixtureUnderTest.java	0	0	0	0	11	6
+fitlibrary.specify.ArrayFixtureUnderTest2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/ArrayFixtureUnderTest2.java	0	0	0	0	20	15
+fitlibrary.specify.ArrayFixtureUnderTest2$Some	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/ArrayFixtureUnderTest2.java	0	0	0	2	0	0
+fitlibrary.specify.ArrayFixtureUnderTest3	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/ArrayFixtureUnderTest3.java	0	0	0	0	13	7
+fitlibrary.specify.ArrayFixtureUnderTestGraphics	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/ArrayFixtureUnderTestGraphics.java	0	0	0	0	31	24
+fitlibrary.specify.ArrayFixtureUnderTestGraphics$GraphicElement	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/ArrayFixtureUnderTestGraphics.java	0	0	0	2	0	0
+fitlibrary.specify.ArrayFixtureUnderTestMixed	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/ArrayFixtureUnderTestMixed.java	0	0	0	0	30	24
+fitlibrary.specify.ArrayFixtureUnderTestWithMap	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/ArrayFixtureUnderTestWithMap.java	0	0	0	0	31	25
+fitlibrary.specify.ArrayFixtureUnderTestWithScientificDouble	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/ArrayFixtureUnderTestWithScientificDouble.java	0	0	0	0	33	25
+fitlibrary.specify.ArrayFixtureUnderTestWithScientificDouble$Pair	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/ArrayFixtureUnderTestWithScientificDouble.java	0	0	0	2	0	0
+fitlibrary.specify.ArrayFixtureUnderTestWithValueObjects	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/ArrayFixtureUnderTestWithValueObjects.java	0	0	0	0	32	25
+fitlibrary.specify.ArrayFixtureUnderTestWithValueObjects$Pair	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/ArrayFixtureUnderTestWithValueObjects.java	0	0	0	2	0	0
+fitlibrary.specify.CalculateFixtureSetUp	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/CalculateFixtureSetUp.java	0	0	0	0	20	13
+fitlibrary.specify.CalculateFixtureSetUpWithException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/CalculateFixtureSetUpWithException.java	0	0	0	0	16	10
+fitlibrary.specify.CalculateFixtureTearDown	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/CalculateFixtureTearDown.java	0	0	0	0	16	10
+fitlibrary.specify.CalculateFixtureUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/CalculateFixtureUnderTest.java	0	0	0	0	47	40
+fitlibrary.specify.CalculateFixtureUnderTest2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/CalculateFixtureUnderTest2.java	0	0	0	0	26	20
+fitlibrary.specify.CalculateFixtureUnderTest2$Calculate	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/CalculateFixtureUnderTest2.java	0	0	0	2	0	0
+fitlibrary.specify.CalculateFixtureUnderTest3	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/CalculateFixtureUnderTest3.java	0	0	0	0	22	16
+fitlibrary.specify.CalculateFixtureUnderTest3$Calculate	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/CalculateFixtureUnderTest3.java	0	0	0	2	0	0
+fitlibrary.specify.CamelRowFixtureUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/CamelRowFixtureUnderTest.java	0	0	0	0	20	14
+fitlibrary.specify.ClearStartInActionFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/ClearStartInActionFixture.java	0	0	0	0	16	7
+fitlibrary.specify.DirectCombination	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DirectCombination.java	0	0	0	0	13	7
+fitlibrary.specify.DoCalculateFixtureSetUp	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DoCalculateFixtureSetUp.java	0	0	0	0	16	10
+fitlibrary.specify.DoFixtureFlowUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DoFixtureFlowUnderTest.java	0	0	0	0	158	147
+fitlibrary.specify.DoFixtureFlowUnderTest$DateHolder	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DoFixtureFlowUnderTest.java	0	0	0	2	0	0
+fitlibrary.specify.DoFixtureFlowUnderTest$Entity	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DoFixtureFlowUnderTest.java	0	0	0	2	0	0
+fitlibrary.specify.DoFixtureFlowUnderTest$Local	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DoFixtureFlowUnderTest.java	0	0	0	2	0	0
+fitlibrary.specify.DoFixtureFlowUnderTest$LocalRowFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DoFixtureFlowUnderTest.java	0	0	0	2	0	0
+fitlibrary.specify.DoFixtureFlowUnderTest$PointHolder	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DoFixtureFlowUnderTest.java	0	0	0	2	0	0
+fitlibrary.specify.DoFixtureFlowUnderTestWithoutSut	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DoFixtureFlowUnderTestWithoutSut.java	0	0	0	0	13	7
+fitlibrary.specify.DoFixtureNotSetUpNorTearDown	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DoFixtureNotSetUpNorTearDown.java	0	0	0	0	13	7
+fitlibrary.specify.DoFixtureSetUp	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DoFixtureSetUp.java	0	0	0	0	18	11
+fitlibrary.specify.DoFixtureSetUpWithException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DoFixtureSetUpWithException.java	0	0	0	0	13	7
+fitlibrary.specify.DoFixtureTearDown	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DoFixtureTearDown.java	0	0	0	0	16	10
+fitlibrary.specify.DoFixtureUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DoFixtureUnderTest.java	0	0	0	0	28	21
+fitlibrary.specify.DoFixtureWithExceptionInConstructor	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DoFixtureWithExceptionInConstructor.java	0	0	0	0	11	6
+fitlibrary.specify.DoGraphics	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DoGraphics.java	0	0	0	0	19	13
+fitlibrary.specify.DoTable	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DoTable.java	0	0	0	0	25	19
+fitlibrary.specify.DoTree	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DoTree.java	0	0	0	0	62	53
+fitlibrary.specify.DoTree$TeeTree	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DoTree.java	0	0	0	2	0	0
+fitlibrary.specify.DoWithTags	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DoWithTags.java	0	0	0	0	16	10
+fitlibrary.specify.DomainAdapterUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DomainAdapterUnderTest.java	0	0	0	0	68	58
+fitlibrary.specify.DomainAdapterUnderTest$AB	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DomainAdapterUnderTest.java	0	0	0	2	0	0
+fitlibrary.specify.DomainAdapterUnderTest$ChainedSut	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DomainAdapterUnderTest.java	0	0	0	2	0	0
+fitlibrary.specify.DomainAdapterUnderTest$Sut	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DomainAdapterUnderTest.java	0	0	0	2	0	0
+fitlibrary.specify.DomainObjectUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DomainObjectUnderTest.java	0	0	0	0	54	46
+fitlibrary.specify.DomainObjectUnderTest$TestObject	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DomainObjectUnderTest.java	0	0	0	2	0	0
+fitlibrary.specify.DomainObjectUnderTest$TestObject$D	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/DomainObjectUnderTest.java	0	0	0	2	0	0
+fitlibrary.specify.EmptyRowFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/EmptyRowFixture.java	0	0	0	0	18	12
+fitlibrary.specify.EntityInNestedArray	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/EntityInNestedArray.java	0	0	0	0	67	58
+fitlibrary.specify.EntityInNestedArray$ActionEntity	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/EntityInNestedArray.java	0	0	0	2	0	0
+fitlibrary.specify.EntityInNestedArray$Entity	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/EntityInNestedArray.java	0	0	0	2	0	0
+fitlibrary.specify.EntityInNestedArray$EntityElement	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/EntityInNestedArray.java	0	0	0	2	0	0
+fitlibrary.specify.EntityInNestedArray$EntitySubElement	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/EntityInNestedArray.java	0	0	0	2	0	0
+fitlibrary.specify.FailConstraint	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/FailConstraint.java	0	0	0	0	16	10
+fitlibrary.specify.GridFixtureUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/GridFixtureUnderTest.java	0	0	0	0	47	41
+fitlibrary.specify.MapFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/MapFixture.java	0	0	0	0	26	20
+fitlibrary.specify.MixedCombination	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/MixedCombination.java	0	0	0	0	14	8
+fitlibrary.specify.MockCollection	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/MockCollection.java	0	0	0	0	24	18
+fitlibrary.specify.NestedCalculateFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/NestedCalculateFixture.java	0	0	0	0	61	55
+fitlibrary.specify.NestedLists222	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/NestedLists222.java	0	0	0	0	40	34
+fitlibrary.specify.NestedSets	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/NestedSets.java	0	0	0	0	47	41
+fitlibrary.specify.Point	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/Point.java	0	0	0	0	40	34
+fitlibrary.specify.PrimitiveArrayFixtureUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/PrimitiveArrayFixtureUnderTest.java	0	0	0	0	9	7
+fitlibrary.specify.PrimitiveArrayFixtureUnderTestEmpty	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/PrimitiveArrayFixtureUnderTestEmpty.java	0	0	0	0	13	7
+fitlibrary.specify.PrimitiveArrayFixtureUnderTestMixed	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/PrimitiveArrayFixtureUnderTestMixed.java	0	0	0	0	15	7
+fitlibrary.specify.PrimitiveArrayFixtureWithCollection	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/PrimitiveArrayFixtureWithCollection.java	0	0	0	0	25	17
+fitlibrary.specify.PrimitiveArrayFixtureWithCollection$C	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/PrimitiveArrayFixtureWithCollection.java	0	0	0	2	0	0
+fitlibrary.specify.Rectangle	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/Rectangle.java	0	0	0	0	33	27
+fitlibrary.specify.References	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/References.java	0	0	0	0	170	156
+fitlibrary.specify.References$Account	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/References.java	0	0	0	2	0	0
+fitlibrary.specify.References$AccountDoFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/References.java	0	0	0	2	0	0
+fitlibrary.specify.References$AccountRef	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/References.java	0	0	0	2	0	0
+fitlibrary.specify.References$CalculateReference	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/References.java	0	0	0	2	0	0
+fitlibrary.specify.References$Person	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/References.java	0	0	0	2	0	0
+fitlibrary.specify.References$SetUpAccountRefs	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/References.java	0	0	0	2	0	0
+fitlibrary.specify.References$SetUpAccounts	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/References.java	0	0	0	2	0	0
+fitlibrary.specify.References$SetUpTransAction	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/References.java	0	0	0	2	0	0
+fitlibrary.specify.References$Sut	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/References.java	0	0	0	2	0	0
+fitlibrary.specify.References$Transaction	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/References.java	0	0	0	2	0	0
+fitlibrary.specify.ReferencesByContent	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/ReferencesByContent.java	0	0	0	0	74	64
+fitlibrary.specify.ReferencesByContent$Fruit	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/ReferencesByContent.java	0	0	0	2	0	0
+fitlibrary.specify.ReferencesByContent$SaleItem	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/ReferencesByContent.java	0	0	0	2	0	0
+fitlibrary.specify.ReferencesByContent$Vegetable	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/ReferencesByContent.java	0	0	0	2	0	0
+fitlibrary.specify.ResetCounts	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/ResetCounts.java	0	0	0	0	20	11
+fitlibrary.specify.SelfStartingActionFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/SelfStartingActionFixture.java	0	0	0	0	15	9
+fitlibrary.specify.SequenceFixtureFlowUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/SequenceFixtureFlowUnderTest.java	0	0	0	0	82	72
+fitlibrary.specify.SequenceFixtureFlowUnderTest$Local	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/SequenceFixtureFlowUnderTest.java	0	0	0	2	0	0
+fitlibrary.specify.SequenceFixtureFlowUnderTest$LocalRowFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/SequenceFixtureFlowUnderTest.java	0	0	0	2	0	0
+fitlibrary.specify.SequenceFixtureFlowUnderTest$MyColumnFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/SequenceFixtureFlowUnderTest.java	0	0	0	2	0	0
+fitlibrary.specify.SequenceFixtureUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/SequenceFixtureUnderTest.java	0	0	0	0	30	22
+fitlibrary.specify.SetFixtureUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/SetFixtureUnderTest.java	0	0	0	0	11	6
+fitlibrary.specify.SetFixtureUnderTest2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/SetFixtureUnderTest2.java	0	0	0	0	20	15
+fitlibrary.specify.SetFixtureUnderTest2$Some	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/SetFixtureUnderTest2.java	0	0	0	2	0	0
+fitlibrary.specify.SetFixtureUnderTest3	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/SetFixtureUnderTest3.java	0	0	0	0	14	8
+fitlibrary.specify.SetFixtureUnderTestGraphics	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/SetFixtureUnderTestGraphics.java	0	0	0	0	14	9
+fitlibrary.specify.SetUpFixtureUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/SetUpFixtureUnderTest.java	0	0	0	0	14	8
+fitlibrary.specify.SetUpFixtureUnderTest2222	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/SetUpFixtureUnderTest2222.java	0	0	0	0	27	21
+fitlibrary.specify.StartDoSpecification	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/StartDoSpecification.java	0	0	0	0	13	7
+fitlibrary.specify.SubsetFixtureUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/SubsetFixtureUnderTest.java	0	0	0	0	11	6
+fitlibrary.specify.SucceedConstraint	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/SucceedConstraint.java	0	0	0	0	16	10
+fitlibrary.specify.SystemUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/SystemUnderTest.java	0	0	0	0	167	158
+fitlibrary.specify.SystemUnderTest$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/SystemUnderTest.java	0	0	0	2	0	0
+fitlibrary.specify.SystemUnderTest$A	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/SystemUnderTest.java	0	0	0	2	0	0
+fitlibrary.specify.TestCamelCase	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/TestCamelCase.java	0	0	0	0	10	8
+fitlibrary.specify.TimesCombination	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/TimesCombination.java	0	0	0	0	13	7
+fitlibrary.specify.TimesCombinationSetUp	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/TimesCombinationSetUp.java	0	0	0	0	29	22
+fitlibrary.specify.TimesCombinationSetUp$Combine	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/TimesCombinationSetUp.java	0	0	0	2	0	0
+fitlibrary.specify.WithinFlow	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/WithinFlow.java	0	0	0	0	19	13
+fitlibraryGeneric.specify.workflow.Check	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/workflow/Check.java	0	0	0	0	29	19
+fitlibraryGeneric.specify.workflow.Check$Gen	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/workflow/Check.java	0	0	0	2	0	0
+fitlibraryGeneric.specify.workflow.GenericObjectFollows	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/workflow/GenericObjectFollows.java	0	0	0	0	23	15
+fitlibraryGeneric.specify.workflow.GenericObjectFollows$Gen	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/workflow/GenericObjectFollows.java	0	0	0	2	0	0
+fitlibrary.specify.select.FirstSelect	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/select/FirstSelect.java	0	0	0	0	12	10
+fitlibrary.specify.select.FirstSelectTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/select/FirstSelectTraverse.java	0	0	0	0	12	10
+fitlibrary.specify.select.SecondSelect	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/select/SecondSelect.java	0	0	0	0	9	7
+fitlibrary.specify.select.SelectWithSetUpFailing	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/select/SelectWithSetUpFailing.java	0	0	0	0	9	7
+fitlibrary.specify.select.SelectWithTearDownFailing	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/select/SelectWithTearDownFailing.java	0	0	0	0	10	7
+fitlibraryGeneric.specify.object.BindSuperGenerics	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/BindSuperGenerics.java	0	0	0	0	34	24
+fitlibraryGeneric.specify.object.BindSuperGenerics$Gen	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/BindSuperGenerics.java	0	0	0	2	0	0
+fitlibraryGeneric.specify.object.BindSuperGenerics$SuperGen	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/BindSuperGenerics.java	0	0	0	2	0	0
+fitlibraryGeneric.specify.object.GenericListOfSets	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericListOfSets.java	0	0	0	0	34	23
+fitlibraryGeneric.specify.object.GenericListOfSets$Gen	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericListOfSets.java	0	0	0	2	0	0
+fitlibraryGeneric.specify.object.GenericObjectContainsArrayOfGenericList	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericObjectContainsArrayOfGenericList.java	0	0	0	0	33	22
+fitlibraryGeneric.specify.object.GenericObjectContainsArrayOfGenericList$Gen	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericObjectContainsArrayOfGenericList.java	0	0	0	2	0	0
+fitlibraryGeneric.specify.object.GenericObjectContainsGeneric	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericObjectContainsGeneric.java	0	0	0	0	31	21
+fitlibraryGeneric.specify.object.GenericObjectContainsGeneric$Gen	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericObjectContainsGeneric.java	0	0	0	2	0	0
+fitlibraryGeneric.specify.object.GenericObjectContainsGenericArray	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericObjectContainsGenericArray.java	0	0	0	0	31	21
+fitlibraryGeneric.specify.object.GenericObjectContainsGenericArray$Gen	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericObjectContainsGenericArray.java	0	0	0	2	0	0
+fitlibraryGeneric.specify.object.GenericObjectContainsGenericPrimitiveArray	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericObjectContainsGenericPrimitiveArray.java	0	0	0	0	30	20
+fitlibraryGeneric.specify.object.GenericObjectContainsGenericPrimitiveArray$Gen	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericObjectContainsGenericPrimitiveArray.java	0	0	0	2	0	0
+fitlibraryGeneric.specify.object.GenericObjectContainsList	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericObjectContainsList.java	0	0	0	0	33	22
+fitlibraryGeneric.specify.object.GenericObjectContainsList$Gen	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericObjectContainsList.java	0	0	0	2	0	0
+fitlibraryGeneric.specify.object.GenericObjectContainsListOfGenericArray	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericObjectContainsListOfGenericArray.java	0	0	0	0	33	22
+fitlibraryGeneric.specify.object.GenericObjectContainsListOfGenericArray$Gen	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericObjectContainsListOfGenericArray.java	0	0	0	2	0	0
+fitlibraryGeneric.specify.object.GenericObjectContainsMap	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericObjectContainsMap.java	0	0	0	0	32	21
+fitlibraryGeneric.specify.object.GenericObjectContainsMap$Gen	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericObjectContainsMap.java	0	0	0	2	0	0
+fitlibraryGeneric.specify.object.GenericObjectContainsMapOfGenericArray	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericObjectContainsMapOfGenericArray.java	0	0	0	0	33	22
+fitlibraryGeneric.specify.object.GenericObjectContainsMapOfGenericArray$Gen	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericObjectContainsMapOfGenericArray.java	0	0	0	2	0	0
+fitlibraryGeneric.specify.object.GenericObjectContainsSetOfGenericArray	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericObjectContainsSetOfGenericArray.java	0	0	0	0	33	22
+fitlibraryGeneric.specify.object.GenericObjectContainsSetOfGenericArray$Gen	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/GenericObjectContainsSetOfGenericArray.java	0	0	0	2	0	0
+fitlibraryGeneric.specify.object.NestedGenericObjects	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/NestedGenericObjects.java	0	0	0	0	41	30
+fitlibraryGeneric.specify.object.NestedGenericObjects$Gen	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/NestedGenericObjects.java	0	0	0	2	0	0
+fitlibraryGeneric.specify.object.NestedGenericObjects$Gen2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/object/NestedGenericObjects.java	0	0	0	2	0	0
+fit.decorator.util.ClassDelegatePointParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/util/ClassDelegatePointParser.java	1	0	0	0	29	21
+fit.decorator.util.ClassDelegatePointParserTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/util/ClassDelegatePointParserTest.java	1	0	0	0	34	27
+fit.decorator.util.DataType	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/util/DataType.java	1	0	0	0	154	125
+fit.decorator.util.DataType$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/util/DataType.java	1	0	0	2	0	0
+fit.decorator.util.DataType$2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/util/DataType.java	1	0	0	2	0	0
+fit.decorator.util.DataType$3	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/util/DataType.java	1	0	0	2	0	0
+fit.decorator.util.DataType$4	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/util/DataType.java	1	0	0	2	0	0
+fit.decorator.util.DataTypeTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/util/DataTypeTest.java	1	0	0	0	97	83
+fit.decorator.util.DefaultTimer	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/util/DefaultTimer.java	1	0	0	0	13	10
+fit.decorator.util.Delta	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/util/Delta.java	1	0	0	0	34	28
+fit.decorator.util.DeltaTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/util/DeltaTest.java	1	0	0	0	75	65
+fit.decorator.util.DeltaTest$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/util/DeltaTest.java	1	0	0	2	0	0
+fit.decorator.util.PointDataType	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/util/PointDataType.java	1	0	0	0	18	15
+fit.decorator.util.Table	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/util/Table.java	1	0	0	0	175	147
+fit.decorator.util.TableTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/util/TableTest.java	1	0	0	0	156	133
+fit.decorator.util.TestCaseHelper	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/util/TestCaseHelper.java	1	0	0	0	22	19
+fit.decorator.util.Timer	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/util/Timer.java	1	0	0	0	7	5
+fitlibrary.utility.ClassUtility	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/ClassUtility.java	0	0	0	0	135	128
+fitlibrary.utility.CollectionUtility	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/CollectionUtility.java	0	0	0	0	29	21
+fitlibrary.utility.ExceptionHandler	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/ExceptionHandler.java	0	0	0	0	22	15
+fitlibrary.utility.ExtendedCamelCase	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/ExtendedCamelCase.java	0	0	0	0	139	122
+fitlibrary.utility.FileAccess	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/FileAccess.java	0	0	0	0	13	7
+fitlibrary.utility.FileHandler	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/FileHandler.java	0	0	0	0	59	52
+fitlibrary.utility.FileIO	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/FileIO.java	0	0	0	0	51	44
+fitlibrary.utility.HtmlReceiver	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/HtmlReceiver.java	0	0	0	0	11	5
+fitlibrary.utility.HtmlUtils	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/HtmlUtils.java	0	0	0	0	41	39
+fitlibrary.utility.MapElement	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/MapElement.java	0	0	0	0	20	14
+fitlibrary.utility.MustBeThreadSafe	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/MustBeThreadSafe.java	0	0	0	0	11	4
+fitlibrary.utility.NullIterator	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/NullIterator.java	0	0	0	0	29	22
+fitlibrary.utility.Pair	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/Pair.java	0	0	0	0	31	24
+fitlibrary.utility.ParseUtility	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/ParseUtility.java	0	0	0	0	211	195
+fitlibrary.utility.SimpleWikiTranslator	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/SimpleWikiTranslator.java	0	0	0	0	136	128
+fitlibrary.utility.SimpleWikiTranslator$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/SimpleWikiTranslator.java	0	0	0	2	0	0
+fitlibrary.utility.StringTablesPair	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/StringTablesPair.java	0	0	0	0	18	11
+fitlibrary.utility.StringUtility	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/StringUtility.java	0	0	0	0	22	17
+fitlibrary.utility.TestClassUtility	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.utility.TestCollectionUtility	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.utility.TestDynamicVariables	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.utility.TestExtendedCamelCase	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.utility.TestHtmlUtils	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.utility.TestParseUtility	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.utility.TestSimpleWikiTranslator	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.utility.TestSimpleWikiTranslator$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.utility.TestSimpleWikiTranslator$10	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.utility.TestSimpleWikiTranslator$11	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.utility.TestSimpleWikiTranslator$12	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.utility.TestSimpleWikiTranslator$13	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.utility.TestSimpleWikiTranslator$14	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.utility.TestSimpleWikiTranslator$15	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.utility.TestSimpleWikiTranslator$16	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.utility.TestSimpleWikiTranslator$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.utility.TestSimpleWikiTranslator$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.utility.TestSimpleWikiTranslator$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.utility.TestSimpleWikiTranslator$5	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.utility.TestSimpleWikiTranslator$6	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.utility.TestSimpleWikiTranslator$7	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.utility.TestSimpleWikiTranslator$8	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.utility.TestSimpleWikiTranslator$9	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.utility.TestStringUtility	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.collection.map.ListOfMapsTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/collection/map/ListOfMapsTraverse.java	0	0	0	0	70	62
+fitlibrary.collection.map.MapSetUpTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/collection/map/MapSetUpTraverse.java	0	0	0	0	55	47
+fitlibrary.collection.map.MapTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/collection/map/MapTraverse.java	0	0	0	0	95	87
+fitlibrary.collection.map.SubsetMapTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/collection/map/SubsetMapTraverse.java	0	0	0	0	22	14
+fitlibraryGeneric.specify.unbound.ClassHasUnboundGenericArrayTypeVariable	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/unbound/ClassHasUnboundGenericArrayTypeVariable.java	0	0	0	0	20	11
+fitlibraryGeneric.specify.unbound.ClassHasUnboundParametricTypeVariable	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/unbound/ClassHasUnboundParametricTypeVariable.java	0	0	0	0	22	12
+fitlibraryGeneric.specify.unbound.ClassHasUnboundTypeVariable	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/unbound/ClassHasUnboundTypeVariable.java	0	0	0	0	20	11
+fitlibraryGeneric.specify.unbound.MethodHasUnboundTypeVariable	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/unbound/MethodHasUnboundTypeVariable.java	0	0	0	0	15	7
+fitlibraryGeneric.specify.unbound.SuperClassHasUnboundTypeVariable	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/unbound/SuperClassHasUnboundTypeVariable.java	0	0	0	0	13	5
+fit.decorator.performance.MaxTime	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/performance/MaxTime.java	1	0	0	0	36	29
+fit.decorator.performance.MaxTimeTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/performance/MaxTimeTest.java	1	0	0	0	91	79
+fit.decorator.performance.TimeBasedFixtureDecorator	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/performance/TimeBasedFixtureDecorator.java	1	0	0	0	44	35
+fit.decorator.performance.TimeRange	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/performance/TimeRange.java	1	0	0	0	41	34
+fit.decorator.performance.TimeRangeTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/performance/TimeRangeTest.java	1	0	0	0	89	77
+fitlibrary.specify.suite.MyOtherDoFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/suite/MyOtherDoFixture.java	0	0	0	0	7	6
+fitlibrary.specify.suite.MyOtherDoTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/suite/MyOtherDoTraverse.java	0	0	0	0	9	7
+fitlibrary.specify.suite.SetUpWithDomain	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/suite/SetUpWithDomain.java	0	0	0	0	34	31
+fitlibrary.specify.suite.SetUpWithDomain$Sut	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/suite/SetUpWithDomain.java	0	0	0	2	0	0
+fitlibrary.specify.suite.Simple	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/suite/Simple.java	0	0	0	0	41	33
+fitlibrary.specify.suite.Simple$Sut	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/suite/Simple.java	0	0	0	2	0	0
+fitlibrary.specify.suite.SimpleSetUp	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/suite/SimpleSetUp.java	0	0	0	0	95	87
+fitlibrary.specify.suite.SimpleSetUp$MyOtherDoFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/suite/SimpleSetUp.java	0	0	0	2	0	0
+fitlibrary.specify.suite.SimpleSetUp$Sut	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/suite/SimpleSetUp.java	0	0	0	2	0	0
+fitlibrary.specify.suite.VariantOnSimple	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/suite/VariantOnSimple.java	0	0	0	0	34	28
+fitlibrary.specify.suite.VariantOnSimple$Sut	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/suite/VariantOnSimple.java	0	0	0	2	0	0
+fitlibraryGeneric.list.ListParser2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/list/ListParser2.java	0	0	0	0	119	111
+fitlibraryGeneric.list.ListParser2$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/list/ListParser2.java	0	0	0	2	0	0
+fitlibraryGeneric.list.ListParser2$2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/list/ListParser2.java	0	0	0	2	0	0
+fitlibraryGeneric.list.ListSetUpTraverse2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/list/ListSetUpTraverse2.java	0	0	0	0	117	109
+fitlibraryGeneric.list.NestingListSetUpTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/list/NestingListSetUpTraverse.java	0	0	0	0	49	41
+fitlibraryGeneric.list.NestingListTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/list/NestingListTraverse.java	0	0	0	0	54	46
+fit.decorator.CopyAndAppendLastRow	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/CopyAndAppendLastRow.java	1	0	0	0	29	24
+fit.decorator.CopyAndAppendLastRowTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/CopyAndAppendLastRowTest.java	1	0	0	0	80	67
+fit.decorator.FixtureDecorator	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/FixtureDecorator.java	1	0	0	0	84	72
+fit.decorator.FixtureDecoratorTestCase	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/FixtureDecoratorTestCase.java	1	0	0	0	140	120
+fit.decorator.FixtureDecoratorTestCase$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/FixtureDecoratorTestCase.java	1	0	0	2	0	0
+fit.decorator.FixtureDecoratorTestCase$2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/FixtureDecoratorTestCase.java	1	0	0	2	0	0
+fit.decorator.IncrementColumnsValue	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/IncrementColumnsValue.java	1	0	0	0	39	33
+fit.decorator.IncrementColumnsValueTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/IncrementColumnsValueTest.java	1	0	0	0	136	117
+fit.decorator.Loop	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/Loop.java	1	0	0	0	28	23
+fit.decorator.LoopTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/LoopTest.java	1	0	0	0	46	38
+fit.decorator.TestFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/TestFixture.java	1	0	0	0	17	13
+fitlibrary.differences.DifferenceInterface	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/differences/DifferenceInterface.java	0	0	0	0	16	10
+fitlibrary.differences.FitLibraryRunnerDifference	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/differences/FitLibraryRunnerDifference.java	0	0	0	0	13	7
+fitlibrary.differences.FitNesseDifference	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/differences/FitNesseDifference.java	0	0	0	0	48	38
+fitlibrary.differences.FitNesseGlobalFile	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/differences/FitNesseGlobalFile.java	0	0	0	0	51	43
+fitlibrary.differences.FitNesseLocalFile	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/differences/FitNesseLocalFile.java	0	0	0	0	75	67
+fitlibrary.differences.FolderRunnerDifference	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/differences/FolderRunnerDifference.java	0	0	0	0	57	49
+fitlibrary.differences.FolderRunnerGlobalFile	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/differences/FolderRunnerGlobalFile.java	0	0	0	0	25	18
+fitlibrary.differences.FolderRunnerLocalFile	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/differences/FolderRunnerLocalFile.java	0	0	0	0	74	66
+fitlibrary.differences.LocalFile	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/differences/LocalFile.java	0	0	0	0	40	9
+fitlibrary.ArrayFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/ArrayFixture.java	0	0	0	0	16	10
+fitlibrary.CalculateFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/CalculateFixture.java	0	0	0	0	18	12
+fitlibrary.CollectionFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/CollectionFixture.java	0	0	0	0	20	13
+fitlibrary.CombinationFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/CombinationFixture.java	0	0	0	0	18	12
+fitlibrary.CommentFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/CommentFixture.java	0	0	0	0	19	12
+fitlibrary.CompareFilesFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/CompareFilesFixture.java	0	0	0	0	42	20
+fitlibrary.ConstraintFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/ConstraintFixture.java	0	0	0	0	34	20
+fitlibrary.DefaultPackages	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/DefaultPackages.java	0	0	0	0	23	15
+fitlibrary.DefineAction	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/DefineAction.java	0	0	0	0	125	121
+fitlibrary.DoFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/DoFixture.java	0	0	0	0	75	57
+fitlibrary.DomainFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/DomainFixture.java	0	0	0	0	25	17
+fitlibrary.DomainFixture$DomainTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/DomainFixture.java	0	0	0	2	0	0
+fitlibrary.DomainObjectCheckFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/DomainObjectCheckFixture.java	0	0	0	0	16	9
+fitlibrary.DomainObjectSetUpFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/DomainObjectSetUpFixture.java	0	0	0	0	15	9
+fitlibrary.FitLibraryFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/FitLibraryFixture.java	0	0	0	0	99	70
+fitlibrary.FunctionFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/FunctionFixture.java	0	0	0	0	40	27
+fitlibrary.GridFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/GridFixture.java	0	0	0	0	25	15
+fitlibrary.ImageFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/ImageFixture.java	0	0	0	0	23	14
+fitlibrary.ParamRowFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/ParamRowFixture.java	0	0	0	0	33	21
+fitlibrary.PrimitiveArrayFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/PrimitiveArrayFixture.java	0	0	0	0	17	7
+fitlibrary.SelectFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/SelectFixture.java	0	0	0	0	5	4
+fitlibrary.SequenceFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/SequenceFixture.java	0	0	0	0	23	12
+fitlibrary.SetFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/SetFixture.java	0	0	0	0	16	10
+fitlibrary.SetUpFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/SetUpFixture.java	0	0	0	0	24	16
+fitlibrary.SubsetFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/SubsetFixture.java	0	0	0	0	20	10
+fit.ActionFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/ActionFixture.java	1	0	0	0	107	86
+fit.Binding	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/Binding.java	1	0	0	0	205	171
+fit.Binding$NullBinding	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/Binding.java	1	0	0	2	0	0
+fit.Binding$QueryBinding	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/Binding.java	1	0	0	2	0	0
+fit.Binding$RecallBinding	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/Binding.java	1	0	0	2	0	0
+fit.Binding$RegexQueryBinding	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/Binding.java	1	0	0	2	0	0
+fit.Binding$SaveBinding	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/Binding.java	1	0	0	2	0	0
+fit.Binding$SetBinding	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/Binding.java	1	0	0	2	0	0
+fit.BindingTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/BindingTest.java	1	0	0	0	167	138
+fit.BindingTest$TestFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/BindingTest.java	1	0	0	2	0	0
+fit.CannotLoadFixtureTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/CannotLoadFixtureTest.java	1	0	0	0	95	79
+fit.ColumnFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/ColumnFixture.java	1	0	0	0	74	63
+fit.ColumnFixtureTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/ColumnFixtureTest.java	1	0	0	0	92	77
+fit.ColumnFixtureTest$TestFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/ColumnFixtureTest.java	1	0	0	2	0	0
+fit.Comment	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/Comment.java	1	0	0	0	8	3
+fit.Counts	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/Counts.java	1	0	0	0	55	44
+fit.CountsTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/CountsTest.java	1	0	0	0	20	13
+fit.FileRunner	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FileRunner.java	1	0	0	0	82	65
+fit.FitMatcher	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FitMatcher.java	1	0	0	4	70	57
+fit.FitMatcherTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FitMatcherTest.java	1	0	0	0	71	58
+fit.FitProtocol	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FitProtocol.java	1	0	0	0	61	49
+fit.FitServer	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FitServer.java	1	0	0	0	228	193
+fit.FitServer$TablePrintingFixtureListener	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FitServer.java	1	0	0	2	0	0
+fit.FitServerBridge	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FitServerBridge.java	1	0	0	0	231	223
+fit.FitServerBridge$TableReportListener	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FitServerBridge.java	1	0	0	2	0	0
+fit.FitServerTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FitServerTest.java	1	0	0	0	337	277
+fit.FitServerTest$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FitServerTest.java	1	0	0	2	0	0
+fit.FitServerTest$2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FitServerTest.java	1	0	0	2	0	0
+fit.Fixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/Fixture.java	1	0	0	0	433	347
+fit.Fixture$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/Fixture.java	1	0	0	2	0	0
+fit.Fixture$CellComparator	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/Fixture.java	1	0	0	2	0	0
+fit.Fixture$RunTime	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/Fixture.java	1	0	0	2	0	0
+fit.Fixture$Unparseable	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/Fixture.java	1	0	0	2	0	0
+fit.FixtureClass	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FixtureClass.java	1	0	0	0	41	26
+fit.FixtureListener	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FixtureListener.java	1	0	0	0	10	5
+fit.FixtureLoader	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FixtureLoader.java	1	0	0	0	90	65
+fit.FixtureLoader$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FixtureLoader.java	1	0	0	2	0	0
+fit.FixtureLoaderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FixtureLoaderTest.java	1	0	0	0	37	25
+fit.FixtureName	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FixtureName.java	1	0	0	0	54	39
+fit.FixtureOne	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FixtureTest.java	1	0	0	1	0	0
+fit.FixtureSupplier	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FixtureSupplier.java	1	0	0	0	5	4
+fit.FixtureTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FixtureTest.java	1	0	0	0	192	155
+fit.FixtureTest$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FixtureTest.java	1	0	0	2	0	0
+fit.FixtureTest$HasNoParseMethod	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FixtureTest.java	1	0	0	2	0	0
+fit.FixtureTest$HasParseMethod	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FixtureTest.java	1	0	0	2	0	0
+fit.FixtureTwo	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FixtureTest.java	1	0	0	1	0	0
+fit.FriendlyErrorTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FriendlyErrorTest.java	1	0	0	0	51	41
+fit.ImportFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/ImportFixture.java	1	0	0	0	11	7
+fit.NullFixtureListener	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/NullFixtureListener.java	1	0	0	0	14	7
+fit.Parse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/Parse.java	1	0	0	0	199	162
+fit.ParseTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/ParseTest.java	1	0	0	0	139	116
+fit.PrimitiveFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/PrimitiveFixture.java	1	0	0	0	48	30
+fit.RowFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/RowFixture.java	1	0	0	0	221	195
+fit.RowFixtureTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/RowFixtureTest.java	1	0	0	0	103	70
+fit.RowFixtureTest$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/RowFixtureTest.java	1	0	0	2	0	0
+fit.RowFixtureTest$BusinessObject	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/RowFixtureTest.java	1	0	0	2	0	0
+fit.RowFixtureTest$SimpleBusinessObject	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/RowFixtureTest.java	1	0	0	2	0	0
+fit.RowFixtureTest$SimpleRowFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/RowFixtureTest.java	1	0	0	2	0	0
+fit.RowFixtureTest$TestRowFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/RowFixtureTest.java	1	0	0	2	0	0
+fit.ScientificDouble	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/ScientificDouble.java	1	0	0	0	83	61
+fit.ScientificDoubleTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/ScientificDoubleTest.java	1	0	0	0	27	21
+fit.SemaphoreFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/SemaphoreFixture.java	1	0	0	0	94	74
+fit.SummaryFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/SummaryFixture.java	1	0	0	0	61	46
+fit.TheThirdFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/FixtureTest.java	1	0	0	1	0	0
+fit.TimedActionFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TimedActionFixture.java	1	0	0	0	42	26
+fit.TypeAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	0	379	313
+fit.TypeAdapter$ArrayAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	2	0	0
+fit.TypeAdapter$BooleanAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	2	0	0
+fit.TypeAdapter$ByteAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	2	0	0
+fit.TypeAdapter$CharAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	2	0	0
+fit.TypeAdapter$ClassBooleanAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	2	0	0
+fit.TypeAdapter$ClassByteAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	2	0	0
+fit.TypeAdapter$ClassCharacterAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	2	0	0
+fit.TypeAdapter$ClassDoubleAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	2	0	0
+fit.TypeAdapter$ClassFloatAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	2	0	0
+fit.TypeAdapter$ClassIntegerAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	2	0	0
+fit.TypeAdapter$ClassLongAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	2	0	0
+fit.TypeAdapter$ClassShortAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	2	0	0
+fit.TypeAdapter$DelegateClassAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	2	0	0
+fit.TypeAdapter$DelegateObjectAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	2	0	0
+fit.TypeAdapter$DoubleAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	2	0	0
+fit.TypeAdapter$FloatAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	2	0	0
+fit.TypeAdapter$IntAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	2	0	0
+fit.TypeAdapter$LongAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	2	0	0
+fit.TypeAdapter$ShortAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapter.java	1	0	0	2	0	0
+fit.TypeAdapterTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapterTest.java	1	0	0	0	238	196
+fit.TypeAdapterTest$DateFormater	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapterTest.java	1	0	0	2	0	0
+fit.TypeAdapterTest$ProtectedParseMethod	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapterTest.java	1	0	0	2	0	0
+fit.TypeAdapterTest$PublicNonStaticParseMethod	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapterTest.java	1	0	0	2	0	0
+fit.TypeAdapterTest$PublicStaticParseMethod	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapterTest.java	1	0	0	2	0	0
+fit.TypeAdapterTest$PublicStaticParseMethodWithoutStringParam	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapterTest.java	1	0	0	2	0	0
+fit.TypeAdapterTest$PublicStaticVoidParseMethod	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapterTest.java	1	0	0	2	0	0
+fit.TypeAdapterTest$TestFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/TypeAdapterTest.java	1	0	0	2	0	0
+fit.WikiRunner	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/WikiRunner.java	1	0	0	0	26	16
+fitlibrary.collection.list.ListTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/collection/list/ListTraverse.java	0	0	0	0	58	36
+fitlibrary.parser.table.Table	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/table/Table.java	0	0	0	0	67	60
+fitlibrary.parser.table.TableInterface	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/table/TableInterface.java	0	0	0	0	14	6
+fitlibrary.parser.table.TableParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/table/TableParser.java	0	0	0	0	57	51
+fitlibrary.parser.table.TableParser$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/table/TableParser.java	0	0	0	2	0	0
+fit.testFxtr.HandleFixtureDoesNotExtendFixtureTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/testFxtr/HandleFixtureDoesNotExtendFixtureTest.java	1	0	0	0	35	25
+fit.testFxtr.NoDefaultConstructorFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/testFxtr/NoDefaultConstructorFixture.java	1	0	0	0	12	6
+fit.testFxtr.WouldBeFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/testFxtr/WouldBeFixture.java	1	0	0	0	15	6
+fitlibrary.tableProxy.CellProxy	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/tableProxy/CellProxy.java	0	0	0	0	12	6
+fitlibrary.tableProxy.RowProxy	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/tableProxy/RowProxy.java	0	0	0	0	10	4
+fitlibrary.flow.DoAutoWrapper	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/flow/DoAutoWrapper.java	0	0	0	0	68	58
+fitlibrary.flow.DoFlow	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/flow/DoFlow.java	0	0	0	0	185	170
+fitlibrary.flow.DoFlowDriver	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.flow.DoFlowDriver$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowDriver$10	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowDriver$11	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowDriver$12	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowDriver$13	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowDriver$14	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowDriver$15	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowDriver$16	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowDriver$17	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowDriver$18	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowDriver$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowDriver$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowDriver$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowDriver$5	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowDriver$6	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowDriver$7	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowDriver$8	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowDriver$9	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowOnTable	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/flow/DoFlowOnTable.java	0	0	0	0	171	163
+fitlibrary.flow.DoFlowOnTable$DoFlower	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/flow/DoFlowOnTable.java	0	0	0	2	0	0
+fitlibrary.flow.DoFlowOnTableDriver	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.flow.DoFlowOnTableDriver$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowOnTableDriver$10	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowOnTableDriver$11	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowOnTableDriver$12	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowOnTableDriver$13	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowOnTableDriver$14	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowOnTableDriver$15	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowOnTableDriver$16	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowOnTableDriver$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowOnTableDriver$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowOnTableDriver$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowOnTableDriver$5	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowOnTableDriver$6	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowOnTableDriver$7	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowOnTableDriver$8	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowOnTableDriver$9	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.DoFlowerOnTable	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/flow/DoFlowerOnTable.java	0	0	0	0	15	8
+fitlibrary.flow.GlobalActionScope	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/flow/GlobalActionScope.java	0	0	0	0	240	228
+fitlibrary.flow.HasTypedSubjectsMatcher	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.flow.IDoAutoWrapper	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/flow/IDoAutoWrapper.java	0	0	0	0	13	6
+fitlibrary.flow.IScope	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/flow/IScope.java	0	0	0	0	23	15
+fitlibrary.flow.IScopeStack	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/flow/IScopeStack.java	0	0	0	0	25	17
+fitlibrary.flow.IScopeState	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/flow/IScopeState.java	0	0	0	0	14	6
+fitlibrary.flow.ScopeStack	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/flow/ScopeStack.java	0	0	0	0	197	188
+fitlibrary.flow.ScopeStack$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/flow/ScopeStack.java	0	0	0	2	0	0
+fitlibrary.flow.SetUpTearDown	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/flow/SetUpTearDown.java	0	0	0	0	16	9
+fitlibrary.flow.SetUpTearDownCache	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/flow/SetUpTearDownCache.java	0	0	0	0	60	51
+fitlibrary.flow.SetUpTearDownCache$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/flow/SetUpTearDownCache.java	0	0	0	2	0	0
+fitlibrary.flow.SetUpTearDownReferenceCounter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/flow/SetUpTearDownReferenceCounter.java	0	0	0	0	74	59
+fitlibrary.flow.SetUpTearDownReferenceCounter$MethodCaller	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/flow/SetUpTearDownReferenceCounter.java	0	0	0	2	0	0
+fitlibrary.flow.SetUpTearDownReferenceCounter$ReferenceCount	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/flow/SetUpTearDownReferenceCounter.java	0	0	0	2	0	0
+fitlibrary.flow.TestDoAutoWrapper	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.flow.TestDoAutoWrapper$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoAutoWrapper$WithOutParse	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoAutoWrapper$WithParse	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlow	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.flow.TestDoFlow$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlow$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlow$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlow$DoEvaluatorExample	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlow$PojoWithSut	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowOnTableWithDomainFixture	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.flow.TestDoFlowOnTableWithDomainFixture$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowOnTableWithDomainFixture$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowOnTableWithEvaluator	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.flow.TestDoFlowOnTableWithEvaluator$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowOnTableWithEvaluator$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowOnTableWithEvaluator$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowOnTableWithEvaluator$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowOnTableWithFixture	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.flow.TestDoFlowOnTableWithFixture$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowOnTableWithFixture$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowOnTableWithFixture$MockFixture	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowOnTableWithNestedTables	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.flow.TestDoFlowOnTableWithSuiteEvaluator	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.flow.TestDoFlowOnTableWithSuiteEvaluator$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowWithEvaluator	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.flow.TestDoFlowWithEvaluator$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowWithEvaluator$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowWithEvaluator$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowWithEvaluator$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowWithFixture	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.flow.TestDoFlowWithFixture$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowWithFixture$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowWithFixture$MockFixture	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowWithNestedTables	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.flow.TestDoFlowWithSelect	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.flow.TestDoFlowWithSelect$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowWithSelect$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestDoFlowWithSuiteEvaluator	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.flow.TestDoFlowWithSuiteEvaluator$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestGlobalMethodScope	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.flow.TestGlobalMethodScope$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestGlobalMethodScope$10	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestGlobalMethodScope$11	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestGlobalMethodScope$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestGlobalMethodScope$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestGlobalMethodScope$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestGlobalMethodScope$5	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestGlobalMethodScope$6	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestGlobalMethodScope$7	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestGlobalMethodScope$8	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestGlobalMethodScope$9	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestScopeStack	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.flow.TestScopeStack$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestScopeStack$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestScopeStack$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestScopeStack$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestScopeStack$FlowEvaluatorThatIsRuntimeContextual	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestSetUpTearDownCache	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.flow.TestSetUpTearDownCache$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestSetUpTearDownCache$10	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestSetUpTearDownCache$11	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestSetUpTearDownCache$12	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestSetUpTearDownCache$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestSetUpTearDownCache$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestSetUpTearDownCache$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestSetUpTearDownCache$5	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestSetUpTearDownCache$6	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestSetUpTearDownCache$7	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestSetUpTearDownCache$8	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestSetUpTearDownCache$9	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestSetUpTearDownCache$TestInterface	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestSetUpTearDownReferenceCounter	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.flow.TestSetUpTearDownReferenceCounter$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestSetUpTearDownReferenceCounter$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestSetUpTearDownReferenceCounter$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.flow.TestSetUpTearDownReferenceCounter$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.specify.plugin.HasNewInstancePlugin	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/plugin/HasNewInstancePlugin.java	0	0	0	0	70	61
+fitlibrary.specify.plugin.HasNewInstancePlugin$ConcretePerson	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/plugin/HasNewInstancePlugin.java	0	0	0	2	0	0
+fitlibrary.specify.plugin.HasNewInstancePlugin$Crash	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/plugin/HasNewInstancePlugin.java	0	0	0	2	0	0
+fitlibrary.specify.plugin.HasNewInstancePlugin$Dog	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/plugin/HasNewInstancePlugin.java	0	0	0	2	0	0
+fitlibrary.specify.plugin.HasNewInstancePlugin$Person	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/plugin/HasNewInstancePlugin.java	0	0	0	2	0	0
+fitlibraryGeneric.specify.ConcreteClassOne	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/ConcreteClassOne.java	0	0	0	0	17	10
+fitlibraryGeneric.specify.ConcreteClassTwo	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/ConcreteClassTwo.java	0	0	0	0	16	10
+fitlibraryGeneric.specify.DomainFixtureUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/DomainFixtureUnderTest.java	0	0	0	0	24	18
+fitlibraryGeneric.specify.InterfaceType	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/InterfaceType.java	0	0	0	0	10	5
+fitlibraryGeneric.specify.PrePopulated	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/PrePopulated.java	0	0	0	0	287	261
+fitlibraryGeneric.specify.PrePopulated$Colour	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/PrePopulated.java	0	0	0	2	0	0
+fitlibraryGeneric.specify.PrePopulated$MyPoint	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/PrePopulated.java	0	0	0	2	0	0
+fitlibrary.specify.collection.NullInCollection	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/collection/NullInCollection.java	0	0	0	0	15	12
+fitbook.BuyActionSequence	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/BuyActionSequence.java	1	0	0	0	18	7
+fitbook.BuyActions	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/BuyActions.java	1	0	0	0	29	16
+fitbook.BuyActionsDoDirect	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/BuyActionsDoDirect.java	1	0	0	0	18	7
+fitbook.BuyActionsWithColumn	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/BuyActionsWithColumn.java	1	0	0	0	21	11
+fitbook.CalculateCredit	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/CalculateCredit.java	1	0	0	0	23	14
+fitbook.CalculateCredit2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/CalculateCredit2.java	1	0	0	0	22	13
+fitbook.CalculateCredit3	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/CalculateCredit3.java	1	0	0	0	28	19
+fitbook.CalculateCredit4	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/CalculateCredit4.java	1	0	0	0	36	25
+fitbook.CalculateCredit4$Calculate	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/CalculateCredit4.java	1	0	0	2	0	0
+fitbook.CalculateDiscount	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/CalculateDiscount.java	1	0	0	0	21	9
+fitbook.CalculateDiscountMoney	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/CalculateDiscountMoney.java	1	0	0	0	31	17
+fitbook.CalculateDiscounts	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/CalculateDiscounts.java	1	0	0	0	21	10
+fitbook.CalculateDiscounts2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/CalculateDiscounts2.java	1	0	0	0	22	13
+fitbook.CalculateFirstPhoneNumber	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/CalculateFirstPhoneNumber.java	1	0	0	0	20	11
+fitbook.CalculateMoney	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/CalculateMoney.java	1	0	0	0	16	8
+fitbook.CalculateQuoted	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/CalculateQuoted.java	1	0	0	0	24	14
+fitbook.CalculatedDiscount	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/CalculatedDiscount.java	1	0	0	0	14	8
+fitbook.CardHandList	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/CardHandList.java	1	0	0	0	29	21
+fitbook.CardHandList$Card	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/CardHandList.java	1	0	0	2	0	0
+fitbook.ChatServer2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/ChatServer2.java	1	0	0	0	53	40
+fitbook.ChatServerActions	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/ChatServerActions.java	1	0	0	0	42	29
+fitbook.ChatServerActions2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/ChatServerActions2.java	1	0	0	0	49	36
+fitbook.ChatStart	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/ChatStart.java	1	0	0	0	72	55
+fitbook.ChatStartSequence	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/ChatStartSequence.java	1	0	0	0	12	9
+fitbook.ChatSuiteFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/ChatSuiteFixture.java	1	0	0	0	20	11
+fitbook.Client	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/Client.java	1	0	0	0	20	10
+fitbook.Credit	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/Credit.java	1	0	0	0	19	11
+fitbook.Discount	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/Discount.java	1	0	0	0	18	10
+fitbook.DiscountApplication	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/DiscountApplication.java	1	0	0	0	37	23
+fitbook.DiscountForGroup	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/DiscountForGroup.java	1	0	0	0	31	19
+fitbook.DiscountGroup	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/DiscountGroup.java	1	0	0	0	46	36
+fitbook.DiscountGroupArrayList	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/DiscountGroupArrayList.java	1	0	0	0	15	6
+fitbook.DiscountGroupList	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/DiscountGroupList.java	1	0	0	0	19	11
+fitbook.DiscountGroupOrderedList	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/DiscountGroupOrderedList.java	1	0	0	0	29	20
+fitbook.DiscountGroupOrderedSubsetList	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/DiscountGroupOrderedSubsetList.java	1	0	0	0	15	6
+fitbook.DiscountGroupSubsetList	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/DiscountGroupSubsetList.java	1	0	0	0	15	6
+fitbook.DiscountGroupsEntry	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/DiscountGroupsEntry.java	1	0	0	0	30	19
+fitbook.DiscountGroupsSetUp	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/DiscountGroupsSetUp.java	1	0	0	0	23	11
+fitbook.Discounts	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/Discounts.java	1	0	0	0	32	21
+fitbook.Occupancy	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/Occupancy.java	1	0	0	0	20	9
+fitbook.Occupancy2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/Occupancy2.java	1	0	0	0	20	9
+fitbook.OccupantList	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/OccupantList.java	1	0	0	0	44	33
+fitbook.OccupantList2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/OccupantList2.java	1	0	0	0	42	31
+fitbook.OccupantListInRoom	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/OccupantListInRoom.java	1	0	0	0	41	30
+fitbook.OrderedDiscountGroup	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/OrderedDiscountGroup.java	1	0	0	0	26	17
+fitbook.RoomFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/RoomFixture.java	1	0	0	0	28	17
+fitbook.SetUpDiscounts	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/SetUpDiscounts.java	1	0	0	0	26	15
+fitbook.StartBuying	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/StartBuying.java	1	0	0	0	25	13
+fitbook.StartListing	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/StartListing.java	1	0	0	0	69	54
+fitbook.StartListing$Item	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/StartListing.java	1	0	0	2	0	0
+fitbook.StartListing$ItemRowFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/StartListing.java	1	0	0	2	0	0
+fitbook.StartSokoban	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/StartSokoban.java	1	0	0	0	44	31
+fitbook.StressTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/StressTest.java	1	0	0	0	25	14
+fitbook.TaxInvoice	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/TaxInvoice.java	1	0	0	0	85	74
+fitbook.TestCreditJapanese	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/TestCreditJapanese.java	1	0	0	0	23	12
+fitbook.TestCreditKorean	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/TestCreditKorean.java	1	0	0	0	23	12
+fitbook.UserCopy	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/UserCopy.java	1	0	0	0	17	8
+fitbook.UserFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/UserFixture.java	1	0	0	0	32	20
+fitbook.UsersAndRooms	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/UsersAndRooms.java	1	0	0	0	34	22
+fitbook.UsersFixture2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/UsersFixture2.java	1	0	0	0	31	19
+fitlibrary.traverse.workflow.definedAction.TestDefineActionsOnPage	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.traverse.workflow.definedAction.TestDefineActionsOnPage$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.definedAction.TestDefineActionsOnPage$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.specify.dynamicVariable.DynamicVariablesUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/dynamicVariable/DynamicVariablesUnderTest.java	0	0	0	0	17	14
+fitlibrary.specify.eg.Account	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/eg/Account.java	0	0	0	0	30	24
+fitlibrary.specify.eg.Colour	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/eg/Colour.java	0	0	0	0	51	45
+fitlibrary.specify.eg.Count	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/eg/Count.java	0	0	0	0	39	33
+fitlibrary.specify.eg.FixedPoint	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/eg/FixedPoint.java	0	0	0	0	48	38
+fitlibrary.specify.eg.FixedPointInterface	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/eg/FixedPointInterface.java	0	0	0	0	5	4
+fitlibrary.specify.eg.MyPoint	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/eg/MyPoint.java	0	0	0	0	54	48
+fitlibrary.specify.eg.Phone	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/eg/Phone.java	0	0	0	0	38	32
+fitlibrary.specify.eg.Rectangle	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/eg/Rectangle.java	0	0	0	0	38	32
+fitlibrary.specify.eg.User	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/eg/User.java	0	0	0	0	57	50
+fitlibrary.specify.workflow.AnyCharactersInActions	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/workflow/AnyCharactersInActions.java	0	0	0	0	17	12
+fitlibrary.specify.workflow.AutoWrap	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/workflow/AutoWrap.java	0	0	0	0	40	33
+fitlibrary.specify.workflow.DoSeqAmbiguity	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/workflow/DoSeqAmbiguity.java	0	0	0	0	15	9
+fitlibrary.specify.workflow.ExceptionAddsCells	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/workflow/ExceptionAddsCells.java	0	0	0	0	11	9
+fitlibrary.specify.workflow.Keywords	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/workflow/Keywords.java	0	0	0	0	16	10
+fitlibrary.specify.workflow.OnFailureWithException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/workflow/OnFailureWithException.java	0	0	0	0	25	18
+fitlibrary.specify.workflow.OnFailureWithResult	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/workflow/OnFailureWithResult.java	0	0	0	0	24	17
+fitlibrary.specify.workflow.ParserDelegateMethod	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/workflow/ParserDelegateMethod.java	0	0	0	0	47	32
+fitlibrary.specify.workflow.ParserDelegateMethod$Date	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/workflow/ParserDelegateMethod.java	0	0	0	2	0	0
+fitlibrary.specify.workflow.PropertyAccess	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/workflow/PropertyAccess.java	0	0	0	0	14	9
+fitlibrary.specify.workflow.SelectWrap	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/workflow/SelectWrap.java	0	0	0	0	14	9
+fitlibrary.specify.workflow.SetUp	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/workflow/SetUp.java	0	0	0	0	21	14
+fitlibrary.specify.workflow.SetUpTearDownNotCalledOnSut	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/workflow/SetUpTearDownNotCalledOnSut.java	0	0	0	0	28	24
+fitlibrary.specify.workflow.SetUpTearDownOfOther	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/workflow/SetUpTearDownOfOther.java	0	0	0	0	14	9
+fitlibrary.specify.workflow.SetUpWithException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/workflow/SetUpWithException.java	0	0	0	0	16	10
+fitlibrary.specify.workflow.SpecialsAndSequence	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/workflow/SpecialsAndSequence.java	0	0	0	0	35	28
+fitlibrary.specify.workflow.Sum	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/workflow/Sum.java	0	0	0	0	25	19
+fitlibrary.specify.workflow.TearDown	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/workflow/TearDown.java	0	0	0	0	22	16
+fitlibrary.specify.collectionSetUp.ExceptionInObjectFactoryMethod	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/collectionSetUp/ExceptionInObjectFactoryMethod.java	0	0	0	0	20	12
+fitlibrary.specify.collectionSetUp.MissingObjectFactoryMethod	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/collectionSetUp/MissingObjectFactoryMethod.java	0	0	0	0	15	7
+fitlibrary.specify.collectionSetUp.NestedTables222	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/collectionSetUp/NestedTables222.java	0	0	0	0	46	38
+fitlibrary.specify.collectionSetUp.NestedTables222$MySetUpFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/collectionSetUp/NestedTables222.java	0	0	0	2	0	0
+fitlibrary.specify.collectionSetUp.SetUpList	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/collectionSetUp/SetUpList.java	0	0	0	0	28	18
+fitlibrary.specify.collectionSetUp.SetUpMap	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/collectionSetUp/SetUpMap.java	0	0	0	0	33	23
+fitlibrary.specify.collectionSetUp.SetUpSet	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/collectionSetUp/SetUpSet.java	0	0	0	0	28	18
+fitlibrary.specify.valueObject.ParseMyFixedPointAsStringWithDelegate	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/valueObject/ParseMyFixedPointAsStringWithDelegate.java	0	0	0	0	36	28
+fitlibrary.specify.valueObject.ParseMyFixedPointAsStringWithDelegate$FixedPointDelegate	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/valueObject/ParseMyFixedPointAsStringWithDelegate.java	0	0	0	2	0	0
+fitlibrary.specify.valueObject.ParseMyFixedPointAsStringWithSuperDelegate	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/valueObject/ParseMyFixedPointAsStringWithSuperDelegate.java	0	0	0	0	48	40
+fitlibrary.specify.valueObject.ParseMyFixedPointAsStringWithSuperDelegate$FixedPointSuperDelegate	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/valueObject/ParseMyFixedPointAsStringWithSuperDelegate.java	0	0	0	2	0	0
+fitlibrary.specify.valueObject.ParseMyPoint	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/valueObject/ParseMyPoint.java	0	0	0	0	20	12
+fitlibrary.traverse.function.CalculateTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/function/CalculateTraverse.java	0	0	0	0	132	105
+fitlibrary.traverse.function.CombinationTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/function/CombinationTraverse.java	0	0	0	0	82	74
+fitlibrary.traverse.function.ConstraintTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/function/ConstraintTraverse.java	0	0	0	0	87	80
+fitlibrary.traverse.function.FunctionTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/function/FunctionTraverse.java	0	0	0	0	42	29
+fitlibrary.traverse.function.Rule	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/function/Rule.java	0	0	0	0	10	4
+fitlibrary.traverse.function.RuleTable	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/function/RuleTable.java	0	0	0	0	160	150
+fitlibrary.traverse.function.RuleTable$ColumnTarget	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/function/RuleTable.java	0	0	0	2	0	0
+fitlibrary.traverse.function.RuleTable$InputColumnTarget	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/function/RuleTable.java	0	0	0	2	0	0
+fitlibrary.traverse.function.RuleTable$OutputColumnTarget	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/function/RuleTable.java	0	0	0	2	0	0
+fitlibrary.suite.BatchFitLibrary	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/suite/BatchFitLibrary.java	0	0	0	0	87	79
+fitlibrary.suite.BatchFitLibrary$DefaultReportage	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/suite/BatchFitLibrary.java	0	0	0	2	0	0
+fitlibrary.suite.FitLibraryServer	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/suite/FitLibraryServer.java	0	0	0	0	56	48
+fitlibrary.suite.FlowControl	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/suite/FlowControl.java	0	0	0	0	12	5
+fitlibrary.suite.ReportListener	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/suite/ReportListener.java	0	0	0	0	14	7
+fitlibrary.suite.Reportage	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/suite/Reportage.java	0	0	0	0	9	4
+fitlibrary.suite.StorytestRunner	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/suite/StorytestRunner.java	0	0	0	0	13	6
+fitlibrary.suite.SuiteEvaluator	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/suite/SuiteEvaluator.java	0	0	0	0	14	6
+fitlibrary.suite.SuiteFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/suite/SuiteFixture.java	0	0	0	0	33	25
+fitlibrary.suite.SuiteRunner	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/suite/SuiteRunner.java	0	0	0	0	16	8
+fitlibrary.traverse.CommentTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/CommentTraverse.java	0	0	0	0	28	21
+fitlibrary.traverse.CompareFilesTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/CompareFilesTraverse.java	0	0	0	0	178	160
+fitlibrary.traverse.CompareFilesTraverse$ListTreeError	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/CompareFilesTraverse.java	0	0	0	2	0	0
+fitlibrary.traverse.DomainAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/DomainAdapter.java	0	0	0	0	9	4
+fitlibrary.traverse.Evaluator	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/Evaluator.java	0	0	0	0	18	12
+fitlibrary.traverse.FitHandler	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/FitHandler.java	0	0	0	0	32	26
+fitlibrary.traverse.FitLibrarySelector	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/FitLibrarySelector.java	0	0	0	0	93	85
+fitlibrary.traverse.FitLibrarySelector$Header	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/FitLibrarySelector.java	0	0	0	2	0	0
+fitlibrary.traverse.FitLibrarySelector$Ordering	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/FitLibrarySelector.java	0	0	0	2	0	0
+fitlibrary.traverse.FitLibrarySelector$Subset	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/FitLibrarySelector.java	0	0	0	2	0	0
+fitlibrary.traverse.GridTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/GridTraverse.java	0	0	0	0	101	94
+fitlibrary.traverse.RuntimeContextual	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/RuntimeContextual.java	0	0	0	0	12	5
+fitlibrary.traverse.ShowAfter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/ShowAfter.java	0	0	0	0	10	4
+fitlibrary.traverse.TableEvaluator	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/TableEvaluator.java	0	0	0	0	19	13
+fitlibrary.traverse.Traverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/Traverse.java	0	0	0	0	239	217
+fitlibrary.collection.array.ArraySetUpTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/collection/array/ArraySetUpTraverse.java	0	0	0	0	45	37
+fitlibrary.collection.array.ArrayTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/collection/array/ArrayTraverse.java	0	0	0	0	80	70
+fitbook.items.LineItems	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/items/LineItems.java	1	0	0	0	22	11
+fitlibrary.specify.exception.AmbiguousActionMethod	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/AmbiguousActionMethod.java	0	0	0	0	16	9
+fitlibrary.specify.exception.ConstructorNotVisible	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ConstructorNotVisible.java	0	0	0	0	13	6
+fitlibrary.specify.exception.ExceptionThrownByAction	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByAction.java	0	0	0	0	14	7
+fitlibrary.specify.exception.ExceptionThrownByEquals	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByEquals.java	0	0	0	0	27	19
+fitlibrary.specify.exception.ExceptionThrownByEquals$User	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByEquals.java	0	0	0	2	0	0
+fitlibrary.specify.exception.ExceptionThrownByFinder	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByFinder.java	0	0	0	0	24	16
+fitlibrary.specify.exception.ExceptionThrownByFinder$User	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByFinder.java	0	0	0	2	0	0
+fitlibrary.specify.exception.ExceptionThrownByGetter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByGetter.java	0	0	0	0	23	15
+fitlibrary.specify.exception.ExceptionThrownByGetter$User	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByGetter.java	0	0	0	2	0	0
+fitlibrary.specify.exception.ExceptionThrownByGetterInCollection	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByGetterInCollection.java	0	0	0	0	39	31
+fitlibrary.specify.exception.ExceptionThrownByGetterInCollection$Department	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByGetterInCollection.java	0	0	0	2	0	0
+fitlibrary.specify.exception.ExceptionThrownByGetterInCollection$User	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByGetterInCollection.java	0	0	0	2	0	0
+fitlibrary.specify.exception.ExceptionThrownByNestedEquals	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByNestedEquals.java	0	0	0	0	32	24
+fitlibrary.specify.exception.ExceptionThrownByNestedEquals$Project	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByNestedEquals.java	0	0	0	2	0	0
+fitlibrary.specify.exception.ExceptionThrownByNestedEquals$User	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByNestedEquals.java	0	0	0	2	0	0
+fitlibrary.specify.exception.ExceptionThrownByNestedFinder	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByNestedFinder.java	0	0	0	0	36	28
+fitlibrary.specify.exception.ExceptionThrownByNestedFinder$Project	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByNestedFinder.java	0	0	0	2	0	0
+fitlibrary.specify.exception.ExceptionThrownByNestedFinder$User	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByNestedFinder.java	0	0	0	2	0	0
+fitlibrary.specify.exception.ExceptionThrownByNestedParse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByNestedParse.java	0	0	0	0	24	17
+fitlibrary.specify.exception.ExceptionThrownByNestedParse$Colour	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByNestedParse.java	0	0	0	2	0	0
+fitlibrary.specify.exception.ExceptionThrownByNestedParse$Value	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByNestedParse.java	0	0	0	2	0	0
+fitlibrary.specify.exception.ExceptionThrownByNestedShow	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByNestedShow.java	0	0	0	0	33	25
+fitlibrary.specify.exception.ExceptionThrownByNestedShow$Project	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByNestedShow.java	0	0	0	2	0	0
+fitlibrary.specify.exception.ExceptionThrownByNestedShow$User	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByNestedShow.java	0	0	0	2	0	0
+fitlibrary.specify.exception.ExceptionThrownByNestedToString	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByNestedToString.java	0	0	0	0	27	20
+fitlibrary.specify.exception.ExceptionThrownByNestedToString$Colour	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByNestedToString.java	0	0	0	2	0	0
+fitlibrary.specify.exception.ExceptionThrownByNestedToString$Value	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByNestedToString.java	0	0	0	2	0	0
+fitlibrary.specify.exception.ExceptionThrownByParse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByParse.java	0	0	0	0	19	12
+fitlibrary.specify.exception.ExceptionThrownByParse$Value	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByParse.java	0	0	0	2	0	0
+fitlibrary.specify.exception.ExceptionThrownBySetter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownBySetter.java	0	0	0	0	24	16
+fitlibrary.specify.exception.ExceptionThrownBySetter$User	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownBySetter.java	0	0	0	2	0	0
+fitlibrary.specify.exception.ExceptionThrownByShow	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByShow.java	0	0	0	0	28	20
+fitlibrary.specify.exception.ExceptionThrownByShow$User	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByShow.java	0	0	0	2	0	0
+fitlibrary.specify.exception.ExceptionThrownByToString	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByToString.java	0	0	0	0	22	15
+fitlibrary.specify.exception.ExceptionThrownByToString$Value	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ExceptionThrownByToString.java	0	0	0	2	0	0
+fitlibrary.specify.exception.ForcedException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/ForcedException.java	0	0	0	0	11	4
+fitlibrary.specify.exception.NoNullaryConstructor	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/exception/NoNullaryConstructor.java	0	0	0	0	14	7
+fitlibrary.batch.trinidad.InMemoryTestImpl	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/trinidad/InMemoryTestImpl.java	0	0	0	0	20	15
+fitlibrary.batch.trinidad.SingleTestResult	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/trinidad/SingleTestResult.java	0	0	0	0	28	25
+fitlibrary.batch.trinidad.TestDescriptor	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/trinidad/TestDescriptor.java	0	0	0	0	9	5
+fitlibrary.batch.trinidad.TestEngine	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/trinidad/TestEngine.java	0	0	0	0	8	4
+fitlibrary.batch.trinidad.TestResult	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/trinidad/TestResult.java	0	0	0	0	12	7
+fitlibrary.batch.trinidad.TestResultRepository	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/trinidad/TestResultRepository.java	0	0	0	0	12	7
+fitlibrary.parser.collection.ArrayParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/collection/ArrayParser.java	0	0	0	0	141	133
+fitlibrary.parser.collection.ArrayParser$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/collection/ArrayParser.java	0	0	0	2	0	0
+fitlibrary.parser.collection.ListParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/collection/ListParser.java	0	0	0	0	137	129
+fitlibrary.parser.collection.ListParser$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/collection/ListParser.java	0	0	0	2	0	0
+fitlibrary.parser.collection.MapParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/collection/MapParser.java	0	0	0	0	116	106
+fitlibrary.parser.collection.MapParser$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/collection/MapParser.java	0	0	0	2	0	0
+fitlibrary.parser.collection.SetParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/collection/SetParser.java	0	0	0	0	99	91
+fitlibrary.parser.collection.SetParser$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/collection/SetParser.java	0	0	0	2	0	0
+fitlibrary.parser.collection.TestArrayParser	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.parser.collection.TestCollectionParser	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.batch.resultsOut.FolderTestResultRepository	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/resultsOut/FolderTestResultRepository.java	0	0	0	0	74	67
+fitlibrary.batch.resultsOut.ParallelFolderTestResultRepository	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/resultsOut/ParallelFolderTestResultRepository.java	0	0	0	0	56	48
+fitlibrary.batch.resultsOut.ParallelFolderTestResultRepository$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/resultsOut/ParallelFolderTestResultRepository.java	0	0	0	2	0	0
+fitlibrary.batch.resultsOut.ParallelSuiteResult	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/resultsOut/ParallelSuiteResult.java	0	0	0	0	66	56
+fitlibrary.batch.resultsOut.ParallelTestResultRepository	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/resultsOut/ParallelTestResultRepository.java	0	0	0	0	11	5
+fitlibrary.batch.resultsOut.SuiteResult	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/resultsOut/SuiteResult.java	0	0	0	0	11	5
+fitlibrary.traverse.workflow.special.PrefixSpecialAction	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/special/PrefixSpecialAction.java	0	0	0	0	249	240
+fitlibrary.traverse.workflow.special.PrefixSpecialAction$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/special/PrefixSpecialAction.java	0	0	0	2	0	0
+fitlibrary.traverse.workflow.special.PrefixSpecialAction$2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/special/PrefixSpecialAction.java	0	0	0	2	0	0
+fitlibrary.traverse.workflow.special.PrefixSpecialAction$3	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/special/PrefixSpecialAction.java	0	0	0	2	0	0
+fitlibrary.traverse.workflow.special.PrefixSpecialAction$4	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/special/PrefixSpecialAction.java	0	0	0	2	0	0
+fitlibrary.traverse.workflow.special.PrefixSpecialAction$5	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/special/PrefixSpecialAction.java	0	0	0	2	0	0
+fitlibrary.traverse.workflow.special.PrefixSpecialAction$6	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/special/PrefixSpecialAction.java	0	0	0	2	0	0
+fitlibrary.traverse.workflow.special.PrefixSpecialAction$7	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/special/PrefixSpecialAction.java	0	0	0	2	0	0
+fitlibrary.traverse.workflow.special.PrefixSpecialAction$8	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/special/PrefixSpecialAction.java	0	0	0	2	0	0
+fitlibrary.traverse.workflow.special.PrefixSpecialAction$9	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/special/PrefixSpecialAction.java	0	0	0	2	0	0
+fitlibrary.traverse.workflow.special.PrefixSpecialAction$NotSyle	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/special/PrefixSpecialAction.java	0	0	0	2	0	0
+fitlibrary.traverse.workflow.special.PrefixSpecialAction$ShowSyle	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/special/PrefixSpecialAction.java	0	0	0	2	0	0
+fitlibrary.traverse.workflow.special.SpecialActionContext	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/special/SpecialActionContext.java	0	0	0	0	19	12
+fitlibrary.traverse.workflow.special.SpecialActionTest	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.traverse.workflow.special.TestCheck	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.traverse.workflow.special.TestCheck$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestCheck$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestCheck$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestEnsure	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.traverse.workflow.special.TestEnsure$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestEnsure$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestEnsure$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestEnsure$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestEnsure$5	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestEnsure$6	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestEnsure$EnsureExpectations	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestLog	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.traverse.workflow.special.TestLog$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestLog$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestLog$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.traverse.workflow.special.TestNot$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$10	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$11	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$12	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$13	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$14	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$15	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$16	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$17	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$18	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$19	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$20	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$5	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$6	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$7	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$8	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$9	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestNot$NotExpectations	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestSet	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.traverse.workflow.special.TestSet$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestSet$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestSet$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestSet$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestSet$5	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestSet$6	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestSet$7	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestSet$SetExpectations	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestSetSymbolNamed	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.traverse.workflow.special.TestSetSymbolNamed$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestSetSymbolNamed$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestSetSymbolNamed$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestSetSymbolNamed$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestSetSymbolNamed$5	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestSetSymbolNamed$6	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestSetSymbolNamed$SetExpectations	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestShow	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.traverse.workflow.special.TestShow$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestShow$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestShow$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestShowAfter	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.traverse.workflow.special.TestShowAfter$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestShowAfter$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestShowAfter$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestShowEscaped	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.traverse.workflow.special.TestShowEscaped$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestShowEscaped$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.traverse.workflow.special.TestShowEscaped$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.batch.fitnesseIn.DefinedActionLoader	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/fitnesseIn/DefinedActionLoader.java	0	0	0	0	76	68
+fitlibrary.batch.fitnesseIn.ParallelFitNesseRepository	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/fitnesseIn/ParallelFitNesseRepository.java	0	0	0	0	142	127
+fitlibrary.batch.fitnesseIn.ParallelTestRepository	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/fitnesseIn/ParallelTestRepository.java	0	0	0	0	18	11
+fitlibrary.batch.fitnesseIn.SuiteLoader	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/fitnesseIn/SuiteLoader.java	0	0	0	0	76	66
+fitlibraryGeneric.map.MapParser2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/map/MapParser2.java	0	0	0	0	37	30
+fitlibraryGeneric.map.MapParser2$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/map/MapParser2.java	0	0	0	2	0	0
+fitlibraryGeneric.specify.enumerator.BareEnum	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/enumerator/BareEnum.java	0	0	0	0	34	29
+fitlibraryGeneric.specify.enumerator.BareEnum$ColourEnum	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/enumerator/BareEnum.java	0	0	0	2	0	0
+fitlibraryGeneric.specify.enumerator.EnumWithParse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/enumerator/EnumWithParse.java	0	0	0	0	23	19
+fitlibraryGeneric.specify.enumerator.EnumWithParse$ColourEnum	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/enumerator/EnumWithParse.java	0	0	0	2	0	0
+fitlibrary.specify.initialClass.ClassWithHiddenConstructor	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/initialClass/ClassWithHiddenConstructor.java	0	0	0	0	11	6
+fitlibrary.specify.initialClass.ClassWithNoNullaryConstructor	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/initialClass/ClassWithNoNullaryConstructor.java	0	0	0	0	12	7
+fitlibrary.runtime.FoldingTexts	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runtime/FoldingTexts.java	0	0	0	0	46	37
+fitlibrary.runtime.RuntimeContext	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runtime/RuntimeContext.java	0	0	0	0	20	12
+fitlibrary.runtime.RuntimeContextContainer	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runtime/RuntimeContextContainer.java	0	0	0	0	248	239
+fitlibrary.runtime.RuntimeContextContainer$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runtime/RuntimeContextContainer.java	0	0	0	2	0	0
+fitlibrary.runtime.RuntimeContextContainer$2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runtime/RuntimeContextContainer.java	0	0	0	2	0	0
+fitlibrary.runtime.RuntimeContextInternal	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runtime/RuntimeContextInternal.java	0	0	0	0	50	44
+fitlibrary.runtime.TestRuntimeContext	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.parser.ByStringParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/ByStringParser.java	0	0	0	0	59	47
+fitlibrary.parser.ByStringParser$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/ByStringParser.java	0	0	0	2	0	0
+fitlibrary.parser.DelegateParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/DelegateParser.java	0	0	0	0	41	33
+fitlibrary.parser.DelegatingParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/DelegatingParser.java	0	0	0	0	78	71
+fitlibrary.parser.EnumParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/EnumParser.java	0	0	0	0	67	58
+fitlibrary.parser.EnumParser$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/EnumParser.java	0	0	0	2	0	0
+fitlibrary.parser.FailingDelegateParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/FailingDelegateParser.java	0	0	0	0	18	12
+fitlibrary.parser.HtmlParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/HtmlParser.java	0	0	0	0	9	4
+fitlibrary.parser.HtmlStructureParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/HtmlStructureParser.java	0	0	0	0	66	53
+fitlibrary.parser.Parser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/Parser.java	0	0	0	0	26	11
+fitlibrary.parser.ParserTestCase	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.parser.TestReferenceParser	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.parser.TestReferenceParser$MyClass	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.parser.TestReferenceParser$MyDoFixture	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.parser.TestSimpleValueAdapter	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.table.Cell	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/table/Cell.java	0	0	0	0	59	48
+fitlibrary.table.CellOnList	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/table/CellOnList.java	0	0	0	0	273	265
+fitlibrary.table.Row	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/table/Row.java	0	0	0	0	37	26
+fitlibrary.table.RowOnList	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/table/RowOnList.java	0	0	0	0	136	129
+fitlibrary.table.Table	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/table/Table.java	0	0	0	0	28	21
+fitlibrary.table.TableConversion	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/table/TableConversion.java	0	0	0	0	46	40
+fitlibrary.table.TableElement	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/table/TableElement.java	0	0	0	0	33	26
+fitlibrary.table.TableElementOnList	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/table/TableElementOnList.java	0	0	0	0	189	181
+fitlibrary.table.TableFactory	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/table/TableFactory.java	0	0	0	0	113	101
+fitlibrary.table.TableOnList	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/table/TableOnList.java	0	0	0	0	138	115
+fitlibrary.table.Tables	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/table/Tables.java	0	0	0	0	15	8
+fitlibrary.table.TablesOnList	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/table/TablesOnList.java	0	0	0	0	75	69
+fitlibrary.table.TestCellOnList	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.table.TestCellOnList$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$10	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$11	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$12	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$13	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$14	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$15	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$16	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$17	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$18	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$19	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$20	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$21	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$22	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$23	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$24	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$25	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$26	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$27	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$28	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$29	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$30	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$31	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$32	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$33	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$34	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$35	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$36	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$37	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$38	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$5	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$6	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$7	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$8	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestCellOnList$9	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestParseToTableOnList	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.table.TestRowOnList	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.table.TestRowOnListWithTestResults	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.table.TestRowOnListWithTestResults$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestRowOnListWithTestResults$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestRowOnListWithTestResults$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestRowOnListWithTestResults$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestRowOnListWithTestResults$5	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestRowOnListWithTestResults$6	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestRowOnListWithTestResults$7	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestRowOnListWithTestResults$8	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestTable	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.table.TestTableOnList	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.table.TestTableOnList$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestTableOnList$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestTableOnList$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestTableOnList$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestTableOnList$5	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestTableOnList$6	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestTables	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.table.TestTablesOnList	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.table.TestTablesOnList$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestTablesOnList$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestTablesOnList$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.table.TestTablesOnList$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.diff.Diff_match_patch	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/diff/Diff_match_patch.java	0	0	0	0	2403	1606
+fitlibrary.diff.Diff_match_patch$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/diff/Diff_match_patch.java	0	0	0	2	0	0
+fitlibrary.diff.Diff_match_patch$Diff	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/diff/Diff_match_patch.java	0	0	0	2	0	0
+fitlibrary.diff.Diff_match_patch$LinesToCharsResult	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/diff/Diff_match_patch.java	0	0	0	2	0	0
+fitlibrary.diff.Diff_match_patch$Operation	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/diff/Diff_match_patch.java	0	0	0	2	0	0
+fitlibrary.diff.Diff_match_patch$Patch	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/diff/Diff_match_patch.java	0	0	0	2	0	0
+fitlibrary.diff.StringDifferencing	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/diff/StringDifferencing.java	0	0	0	0	13	5
+fitlibrary.diff.StringDifferencingStandard	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/diff/StringDifferencingStandard.java	0	0	0	0	63	54
+fitlibrary.diff.StringDifferencingStandard$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/diff/StringDifferencingStandard.java	0	0	0	2	0	0
+fitlibrary.diff.TestStringDifferencing	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.specify.mapTraverse.ColourMap	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/mapTraverse/ColourMap.java	0	0	0	0	21	14
+fitlibrary.specify.mapTraverse.Empty	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/mapTraverse/Empty.java	0	0	0	0	17	10
+fitlibrary.specify.mapTraverse.ErrorMap	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/mapTraverse/ErrorMap.java	0	0	0	0	28	21
+fitlibrary.specify.mapTraverse.ErrorMap$InError	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/mapTraverse/ErrorMap.java	0	0	0	2	0	0
+fitlibrary.specify.mapTraverse.MixedMap	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/mapTraverse/MixedMap.java	0	0	0	0	23	16
+fitlibrary.specify.mapTraverse.StringMap	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/mapTraverse/StringMap.java	0	0	0	0	20	13
+fitlibrary.specify.arrayParser.Match	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/arrayParser/Match.java	0	0	0	0	14	9
+fitlibrary.specify.arrayParser.Parse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/arrayParser/Parse.java	0	0	0	0	17	12
+fitlibrary.specify.entityParser.MissingFinderMethod	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/entityParser/MissingFinderMethod.java	0	0	0	0	31	21
+fitlibrary.specify.entityParser.NullString	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/entityParser/NullString.java	0	0	0	0	51	46
+fitlibrary.specify.entityParser.NullString$Person	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/entityParser/NullString.java	0	0	0	2	0	0
+fitlibrary.specify.entityParser.UserAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/entityParser/UserAdapter.java	0	0	0	0	41	31
+fitlibrary.specify.missingProperty.InDomainAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/missingProperty/InDomainAdapter.java	0	0	0	0	16	8
+fitlibrary.specify.missingProperty.InJustSut	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/missingProperty/InJustSut.java	0	0	0	0	23	14
+fitlibrary.specify.missingProperty.InJustSut$Colour	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/missingProperty/InJustSut.java	0	0	0	2	0	0
+fitlibrary.clean.CleanFitNesse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/clean/CleanFitNesse.java	0	0	0	0	28	22
+fitlibrary.ref.EntityReference	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/ref/EntityReference.java	0	0	0	0	75	67
+fitlibrary.specify.domain.Array	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/Array.java	0	0	0	0	37	29
+fitlibrary.specify.domain.BadClassFromClassFactoryMethod	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/BadClassFromClassFactoryMethod.java	0	0	0	0	51	42
+fitlibrary.specify.domain.BadClassFromClassFactoryMethod$AbstractUser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/BadClassFromClassFactoryMethod.java	0	0	0	2	0	0
+fitlibrary.specify.domain.BadClassFromClassFactoryMethod$NoNullaryUser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/BadClassFromClassFactoryMethod.java	0	0	0	2	0	0
+fitlibrary.specify.domain.BadClassFromClassFactoryMethod$PrivateUser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/BadClassFromClassFactoryMethod.java	0	0	0	2	0	0
+fitlibrary.specify.domain.BadClassFromClassFactoryMethodForInterface	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/BadClassFromClassFactoryMethodForInterface.java	0	0	0	0	52	42
+fitlibrary.specify.domain.BadClassFromClassFactoryMethodForInterface$AbstractUser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/BadClassFromClassFactoryMethodForInterface.java	0	0	0	2	0	0
+fitlibrary.specify.domain.BadClassFromClassFactoryMethodForInterface$NoNullaryUser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/BadClassFromClassFactoryMethodForInterface.java	0	0	0	2	0	0
+fitlibrary.specify.domain.BadClassFromClassFactoryMethodForInterface$PrivateUser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/BadClassFromClassFactoryMethodForInterface.java	0	0	0	2	0	0
+fitlibrary.specify.domain.BadConstructorsInNestedObjects	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/BadConstructorsInNestedObjects.java	0	0	0	0	58	49
+fitlibrary.specify.domain.BadConstructorsInNestedObjects$Department	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/BadConstructorsInNestedObjects.java	0	0	0	2	0	0
+fitlibrary.specify.domain.BadConstructorsInNestedObjects$Employee	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/BadConstructorsInNestedObjects.java	0	0	0	2	0	0
+fitlibrary.specify.domain.BadConstructorsInNestedObjects$Manager	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/BadConstructorsInNestedObjects.java	0	0	0	2	0	0
+fitlibrary.specify.domain.EmptyCellIsNull	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/EmptyCellIsNull.java	0	0	0	0	38	27
+fitlibrary.specify.domain.EmptyCellIsNull$User	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/EmptyCellIsNull.java	0	0	0	2	0	0
+fitlibrary.specify.domain.Lists	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/Lists.java	0	0	0	0	29	19
+fitlibrary.specify.domain.Maps	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/Maps.java	0	0	0	0	36	26
+fitlibrary.specify.domain.MissingClassFactoryMethod	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/MissingClassFactoryMethod.java	0	0	0	0	19	11
+fitlibrary.specify.domain.MissingClassFactoryMethod$AbstractUser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/MissingClassFactoryMethod.java	0	0	0	2	0	0
+fitlibrary.specify.domain.MissingClassFactoryMethodForInterface	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/MissingClassFactoryMethodForInterface.java	0	0	0	0	19	11
+fitlibrary.specify.domain.MissingClassFactoryMethodForInterface$AbstractUser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/MissingClassFactoryMethodForInterface.java	0	0	0	2	0	0
+fitlibrary.specify.domain.NotConcrete	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/NotConcrete.java	0	0	0	0	42	32
+fitlibrary.specify.domain.NotConcrete$AbstractUser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/NotConcrete.java	0	0	0	2	0	0
+fitlibrary.specify.domain.NotConcrete$BadPayer	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/NotConcrete.java	0	0	0	2	0	0
+fitlibrary.specify.domain.Objects	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/Objects.java	0	0	0	0	28	17
+fitlibrary.specify.domain.PrimitiveActions	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/PrimitiveActions.java	0	0	0	0	24	15
+fitlibrary.specify.domain.Primitives	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/Primitives.java	0	0	0	0	42	32
+fitlibrary.specify.domain.PrivatePropertyMethods	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/PrivatePropertyMethods.java	0	0	0	0	21	12
+fitlibrary.specify.domain.PropertyOfInterfaceType	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/PropertyOfInterfaceType.java	0	0	0	0	43	33
+fitlibrary.specify.domain.PropertyOfInterfaceType$AbstractUser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/PropertyOfInterfaceType.java	0	0	0	2	0	0
+fitlibrary.specify.domain.PropertyOfInterfaceType$BadPayer	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/PropertyOfInterfaceType.java	0	0	0	2	0	0
+fitlibrary.specify.domain.Sets	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/Sets.java	0	0	0	0	30	20
+fitlibrary.specify.domain.SuperPrivateMethods	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/SuperPrivateMethods.java	0	0	0	0	19	11
+fitlibrary.specify.domain.UserAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/domain/UserAdapter.java	0	0	0	0	32	25
+fitlibraryGeneric.specify.calculate.GenericCalculate	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/calculate/GenericCalculate.java	0	0	0	0	20	12
+fitlibraryGeneric.specify.calculate.GenericCalculate$Gen	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/calculate/GenericCalculate.java	0	0	0	2	0	0
+fitlibrary.parser.self.SelfConstructorParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/self/SelfConstructorParser.java	0	0	0	0	40	32
+fitlibrary.parser.self.SelfParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/self/SelfParser.java	0	0	0	0	44	36
+fitlibrary.global.PlugBoard	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/global/PlugBoard.java	0	0	0	0	26	15
+fitlibrary.global.TemporaryPlugBoardForRuntime	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/global/TemporaryPlugBoardForRuntime.java	0	0	0	0	27	14
+fitlibrary.selenium.HtmlSeleniumStream	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/selenium/HtmlSeleniumStream.java	0	0	0	0	74	67
+fitlibrary.selenium.SeleniumStream	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/selenium/SeleniumStream.java	0	0	0	0	73	67
+fitlibrary.specify.parser.ClassDelegate	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/ClassDelegate.java	0	0	0	0	48	40
+fitlibrary.specify.parser.ClassDelegate$MyValue	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/ClassDelegate.java	0	0	0	2	0	0
+fitlibrary.specify.parser.ClassDelegate$MyValueHolder	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/ClassDelegate.java	0	0	0	2	0	0
+fitlibrary.specify.parser.ClassDelegate$MyValueTwoClassDelegate	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/ClassDelegate.java	0	0	0	2	0	0
+fitlibrary.specify.parser.ClassWithParseMethod	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/ClassWithParseMethod.java	0	0	0	0	46	38
+fitlibrary.specify.parser.ClassWithParseMethod$MyValue	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/ClassWithParseMethod.java	0	0	0	2	0	0
+fitlibrary.specify.parser.ClassWithParseMethod$MyValueHolder	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/ClassWithParseMethod.java	0	0	0	2	0	0
+fitlibrary.specify.parser.ClassWithParseMethod2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/ClassWithParseMethod2.java	0	0	0	0	44	37
+fitlibrary.specify.parser.ClassWithParseMethod2$MyClass	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/ClassWithParseMethod2.java	0	0	0	2	0	0
+fitlibrary.specify.parser.ObjectDelegate	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/ObjectDelegate.java	0	0	0	0	51	43
+fitlibrary.specify.parser.ObjectDelegate$MyValue	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/ObjectDelegate.java	0	0	0	2	0	0
+fitlibrary.specify.parser.ObjectDelegate$MyValueDelegate	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/ObjectDelegate.java	0	0	0	2	0	0
+fitlibrary.specify.parser.ObjectDelegate$MyValueHolder	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/ObjectDelegate.java	0	0	0	2	0	0
+fitlibrary.specify.parser.ObjectDelegateForDate	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/ObjectDelegateForDate.java	0	0	0	0	23	15
+fitlibrary.specify.parser.ParserUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/ParserUnderTest.java	0	0	0	0	84	82
+fitlibrary.specify.parser.UseConstructor	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/UseConstructor.java	0	0	0	0	57	54
+fitlibrary.specify.parser.UseConstructor$MyPoint	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/UseConstructor.java	0	0	0	2	0	0
+fitlibrary.specify.parser.UsePropertyEditor	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/UsePropertyEditor.java	0	0	0	0	68	64
+fitlibrary.specify.parser.UsePropertyEditor$MyPoint	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/UsePropertyEditor.java	0	0	0	2	0	0
+fitlibrary.specify.parser.UsePropertyEditor$MyPointEditor	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/UsePropertyEditor.java	0	0	0	2	0	0
+fitlibrary.specify.parser.UseToStringForChecking	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/UseToStringForChecking.java	0	0	0	0	19	13
+fitlibrary.specify.parser.UseToStringForChecking$ClassWithNoTypeAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/parser/UseToStringForChecking.java	0	0	0	2	0	0
+fitlibrary.debug.DebugPage	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/debug/DebugPage.java	0	0	0	0	78	67
+fitlibrary.debug.DebugPage$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/debug/DebugPage.java	0	0	0	2	0	0
+fitlibrary.debug.RunDirectly	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/debug/RunDirectly.java	0	0	0	0	53	46
+fitlibrary.debug.RunDirectly$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/debug/RunDirectly.java	0	0	0	2	0	0
+fitlibraryGeneric.specify.genericFinder.GenericAndNonGenericFinder	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/genericFinder/GenericAndNonGenericFinder.java	0	0	0	0	28	24
+fitlibraryGeneric.specify.genericFinder.GenericFinder	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/genericFinder/GenericFinder.java	0	0	0	0	39	35
+fitlibraryGeneric.specify.genericFinder.GenericFinderException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/genericFinder/GenericFinderException.java	0	0	0	0	24	20
+fitlibraryGeneric.specify.genericFinder.GenericFinderMismatches	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/genericFinder/GenericFinderMismatches.java	0	0	0	0	27	23
+fitlibraryGeneric.specify.genericFinder.GenericShowException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/genericFinder/GenericShowException.java	0	0	0	0	27	23
+fitlibraryGeneric.specify.genericFinder.NonGenericFinderForGeneric	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/genericFinder/NonGenericFinderForGeneric.java	0	0	0	0	22	19
+fitlibraryGeneric.specify.genericFinder.Pair	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/genericFinder/Pair.java	0	0	0	0	21	19
+fitlibrary.specify.set.AccessFields	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/set/AccessFields.java	0	0	0	0	25	20
+fitlibrary.specify.set.AccessFields$Fields	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/set/AccessFields.java	0	0	0	2	0	0
+fitlibrary.specify.set.AccessPrivateFields	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/set/AccessPrivateFields.java	0	0	0	0	26	21
+fitlibrary.specify.set.AccessPrivateFields$Fields	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/set/AccessPrivateFields.java	0	0	0	2	0	0
+fitlibrary.parser.tree.ListTree	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/tree/ListTree.java	0	0	0	0	209	195
+fitlibrary.parser.tree.TestListTree	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.parser.tree.Tree	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/tree/Tree.java	0	0	0	0	14	8
+fitlibrary.parser.tree.TreeInterface	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/tree/TreeInterface.java	0	0	0	0	14	6
+fitlibrary.parser.tree.TreeParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/tree/TreeParser.java	0	0	0	0	58	49
+fitlibrary.parser.tree.TreeParser$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/tree/TreeParser.java	0	0	0	2	0	0
+fitlibrary.dynamicVariable.DynamicVariables	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/dynamicVariable/DynamicVariables.java	0	0	0	0	21	15
+fitlibrary.dynamicVariable.DynamicVariablesMap	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/dynamicVariable/DynamicVariablesMap.java	0	0	0	0	94	86
+fitlibrary.dynamicVariable.DynamicVariablesMap$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/dynamicVariable/DynamicVariablesMap.java	0	0	0	2	0	0
+fitlibrary.dynamicVariable.DynamicVariablesRecording	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/dynamicVariable/DynamicVariablesRecording.java	0	0	0	0	14	7
+fitlibrary.dynamicVariable.DynamicVariablesRecordingThatFails	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/dynamicVariable/DynamicVariablesRecordingThatFails.java	0	0	0	0	25	17
+fitlibrary.dynamicVariable.DynamicVariablesRecordingToFile	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/dynamicVariable/DynamicVariablesRecordingToFile.java	0	0	0	0	49	41
+fitlibrary.dynamicVariable.GlobalDynamicVariables	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/dynamicVariable/GlobalDynamicVariables.java	0	0	0	0	63	56
+fitlibrary.dynamicVariable.LocalDynamicVariables	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/dynamicVariable/LocalDynamicVariables.java	0	0	0	0	53	46
+fitlibrary.dynamicVariable.TestDynamicVariablesMap	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.dynamicVariable.TestLocalDynamicVariables	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.dynamicVariable.TestLocalDynamicVariables$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.dynamicVariable.TestLocalDynamicVariables$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.dynamicVariable.TestLocalDynamicVariables$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.dynamicVariable.TestLocalDynamicVariables$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.dynamicVariable.VariableResolver	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/dynamicVariable/VariableResolver.java	0	0	0	0	13	6
+fitlibrary.exception.classes.ConstructorNotVisible	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/classes/ConstructorNotVisible.java	0	0	0	0	14	8
+fitlibrary.exception.classes.NoNullaryConstructor	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/classes/NoNullaryConstructor.java	0	0	0	0	21	13
+fitlibrary.exception.classes.NotSubclassFromClassFactoryMethod	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/classes/NotSubclassFromClassFactoryMethod.java	0	0	0	0	16	7
+fitlibrary.exception.classes.NullFromClassFactoryMethod	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/classes/NullFromClassFactoryMethod.java	0	0	0	0	15	7
+fitlibrary.exception.classes.UnknownClassException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/classes/UnknownClassException.java	0	0	0	0	14	7
+fitlibrary.definedAction.DefineActionsOnPage	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/definedAction/DefineActionsOnPage.java	0	0	0	0	64	56
+fitlibrary.definedAction.DefineActionsOnPageSlowly	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/definedAction/DefineActionsOnPageSlowly.java	0	0	0	0	87	79
+fitlibrary.definedAction.DefineActionsOnPageSlowly$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/definedAction/DefineActionsOnPageSlowly.java	0	0	0	2	0	0
+fitlibrary.definedAction.DefinedAction	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/definedAction/DefinedAction.java	0	0	0	0	36	28
+fitlibrary.definedAction.DefinedActionBodyCollector	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/definedAction/DefinedActionBodyCollector.java	0	0	0	0	39	37
+fitlibrary.definedAction.DefinedActionBodyCollector$DefineActionBodyConsumer	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/definedAction/DefinedActionBodyCollector.java	0	0	0	2	0	0
+fitlibrary.definedAction.DefinedActionParameterTranslation	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/definedAction/DefinedActionParameterTranslation.java	0	0	0	0	61	53
+fitlibrary.definedAction.DefinedActionParameterTranslation$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/definedAction/DefinedActionParameterTranslation.java	0	0	0	2	0	0
+fitlibrary.definedAction.DefinedActionTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/definedAction/DefinedActionTraverse.java	0	0	0	0	106	95
+fitlibrary.definedAction.DefinedActionTraverse$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/definedAction/DefinedActionTraverse.java	0	0	0	2	0	0
+fitlibrary.definedAction.DefinedActionsRepository	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/definedAction/DefinedActionsRepository.java	0	0	0	0	25	16
+fitlibrary.definedAction.DefinedActionsRepositoryStandard	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/definedAction/DefinedActionsRepositoryStandard.java	0	0	0	0	139	129
+fitlibrary.definedAction.DefinedMultiAction	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/definedAction/DefinedMultiAction.java	0	0	0	0	28	22
+fitlibrary.definedAction.ParameterBinder	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/definedAction/ParameterBinder.java	0	0	0	0	62	54
+fitlibrary.definedAction.TestDefinedActionAutoTranslation	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.definedAction.TestDefinedActionBodyCollectorWithList	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.definedAction.TestDefinedActionBodyCollectorWithList$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.definedAction.TestDefinedActionBodyCollectorWithList$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.definedAction.TestDefinedActionBodyCollectorWithList$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.definedAction.TestDefinedActionBodyCollectorWithList$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.definedAction.TestDefinedActionBodyCollectorWithList$5	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.definedAction.TestDefinedActionBodyCollectorWithList$6	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.definedAction.TestDefinedActionBodyCollectorWithList$7	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.definedAction.TestDefinedActionBodyCollectorWithList$8	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.definedAction.TestParameterBinder	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.definedAction.TestParameterBinder$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.definedAction.TestParameterBinder$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.definedAction.TestParameterBinder$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.definedAction.TestParameterBinder$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.definedAction.TestParameterBinder$5	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.definedAction.TestParameterBinder$6	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.definedAction.TestParameterBinder$7	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.definedAction.TestParameterBinder$8	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.spec.SpecifyErrorReport	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/spec/SpecifyErrorReport.java	0	0	0	0	17	10
+fitlibrary.spec.SpecifyErrorReported	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/spec/SpecifyErrorReported.java	0	0	0	0	73	65
+fitlibrary.spec.SpecifyFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/spec/SpecifyFixture.java	0	0	0	0	72	64
+fitlibrary.spec.SpecifySuiteFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/spec/SpecifySuiteFixture.java	0	0	0	0	48	35
+fitlibrary.spec.TablesCompare	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/spec/TablesCompare.java	0	0	0	0	150	139
+fitlibrary.spec.TestSpecifyFixture	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.spec.TestSpecifyFixture$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.spec.TestSpecifyFixture$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.spec.TestSpecifyFixture$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.spec.TestSpecifyFixture$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.spec.TestSpecifyFixture$5	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.spec.TestSpecifyFixture$6	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.spec.TestSpecifyFixture$7	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.spec.TestSpecifyFixture$8	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.spec.TestTablesCompare	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.specify.mapParser.Match	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/mapParser/Match.java	0	0	0	0	29	23
+fitlibrary.specify.mapParser.Parse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/mapParser/Parse.java	0	0	0	0	14	8
+fitlibraryGeneric.specify.collections.GenericCollections	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/collections/GenericCollections.java	0	0	0	0	92	81
+fitlibraryGeneric.specify.collections.GenericCollectionsUseObjectFactory	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/collections/GenericCollectionsUseObjectFactory.java	0	0	0	0	33	24
+fitlibraryGeneric.specify.collections.GenericMaps	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/collections/GenericMaps.java	0	0	0	0	79	68
+fitlibraryGeneric.specify.collections.NonGenericCollections	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/collections/NonGenericCollections.java	0	0	0	0	43	33
+fitlibraryGeneric.specify.collections.NullGenericCollections	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/specify/collections/NullGenericCollections.java	0	0	0	0	35	26
+fit.exception.ClassIsNotFixtureException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/exception/ClassIsNotFixtureException.java	1	0	0	0	15	7
+fit.exception.CouldNotLoadComponentFitFailureException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/exception/CouldNotLoadComponentFitFailureException.java	1	0	0	0	12	7
+fit.exception.CouldNotParseFitFailureException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/exception/CouldNotParseFitFailureException.java	1	0	0	0	12	7
+fit.exception.FitFailureException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/exception/FitFailureException.java	1	0	0	0	24	7
+fit.exception.FitMatcherException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/exception/FitMatcherException.java	1	0	0	0	12	7
+fit.exception.FitParseException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/exception/FitParseException.java	1	0	0	0	14	8
+fit.exception.FixtureException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/exception/FixtureException.java	1	0	0	0	23	14
+fit.exception.NoDefaultConstructorFixtureException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/exception/NoDefaultConstructorFixtureException.java	1	0	0	0	12	7
+fit.exception.NoSuchFieldFitFailureException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/exception/NoSuchFieldFitFailureException.java	1	0	0	0	12	7
+fit.exception.NoSuchFixtureException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/exception/NoSuchFixtureException.java	1	0	0	0	16	7
+fit.exception.NoSuchMethodFitFailureException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/exception/NoSuchMethodFitFailureException.java	1	0	0	0	12	7
+fitlibrary.xref.CrossReferenceFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/xref/CrossReferenceFixture.java	0	0	0	0	192	184
+fitlibrary.xref.TestCrossReferenceFixture	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.xref.TestCrossReferenceFixture$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitbook.accounts.Invoice	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/accounts/Invoice.java	1	0	0	0	52	42
+fitbook.accounts.Order	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/accounts/Order.java	1	0	0	0	46	35
+sun.misc.Perf	fitnesse/fitlibrary.jar	fitnesse/lib/src/sun/misc/Perf.java	1	0	0	0	30	14
+fitlibraryGeneric.exception.UnboundTypeException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/exception/UnboundTypeException.java	0	0	0	0	17	8
+fitlibrary.parser.graphic.DotGraphic	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/graphic/DotGraphic.java	0	0	0	0	99	84
+fitlibrary.parser.graphic.GraphicInterface	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/graphic/GraphicInterface.java	0	0	0	0	13	7
+fitlibrary.parser.graphic.GraphicParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/graphic/GraphicParser.java	0	0	0	0	65	56
+fitlibrary.parser.graphic.GraphicParser$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/graphic/GraphicParser.java	0	0	0	2	0	0
+fitlibrary.parser.graphic.ImageNameGraphic	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/graphic/ImageNameGraphic.java	0	0	0	0	45	35
+fitlibrary.parser.graphic.ObjectDotGraphic	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/graphic/ObjectDotGraphic.java	0	0	0	0	153	141
+fitlibrary.parser.graphic.TestObjectDotGraphic	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.parser.graphic.TestObjectDotGraphic$MyPoint	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.parser.graphic.TestObjectDotGraphic$MyRectangle	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.aboutToBeRemoved.SetUp	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/aboutToBeRemoved/SetUp.java	0	0	0	0	8	7
+fitlibrary.aboutToBeRemoved.SuiteSetUpOne	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/aboutToBeRemoved/SuiteSetUpOne.java	0	0	0	0	7	5
+fitlibrary.aboutToBeRemoved.SuiteSetUpTwo	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/aboutToBeRemoved/SuiteSetUpTwo.java	0	0	0	0	13	10
+fitlibrary.speciallyNamedPackage.ClassInOddPackage	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/speciallyNamedPackage/ClassInOddPackage.java	0	0	0	0	10	3
+fitlibrary.typed.NonGenericTyped	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/typed/NonGenericTyped.java	0	0	0	0	83	73
+fitlibrary.typed.NonGenericTypedObjectFactory	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/typed/NonGenericTypedObjectFactory.java	0	0	0	0	11	4
+fitlibrary.typed.TestGenericTypedObject	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.typed.TestGenericTypedObject$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.typed.TestGenericTypedObject$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.typed.TestGenericTypedObject$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.typed.TestGenericTypedObject$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.typed.TestGenericTypedObject$Subject	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.typed.TestGenericTypedObject$Sut	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.typed.TestGenericTypedObject$WithSut	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.typed.TestNonGenericTypedObject	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.typed.TestNonGenericTypedObject$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.typed.TestNonGenericTypedObject$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.typed.TestNonGenericTypedObject$Subject	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.typed.TestNonGenericTypedObject$Sut	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.typed.Typed	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/typed/Typed.java	0	0	0	0	32	23
+fitlibrary.typed.TypedObject	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/typed/TypedObject.java	0	0	0	0	44	34
+fitlibrary.typed.TypedObjectFactory	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/typed/TypedObjectFactory.java	0	0	0	0	11	4
+fitlibrary.batch.testRun.FitLibraryBatching	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/testRun/FitLibraryBatching.java	0	0	0	0	13	7
+fitlibrary.batch.testRun.FitLibraryTestEngine	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/testRun/FitLibraryTestEngine.java	0	0	0	0	91	81
+fitlibrary.batch.testRun.FitLibraryTestEngine$FitLibraryBatchingImp	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/testRun/FitLibraryTestEngine.java	0	0	0	2	0	0
+fitlibrary.batch.testRun.ParallelTestRunner	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/batch/testRun/ParallelTestRunner.java	0	0	0	0	60	52
+fitlibrary.closure.CalledMethodTarget	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/closure/CalledMethodTarget.java	0	0	0	0	357	342
+fitlibrary.closure.CalledMethodTarget$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/closure/CalledMethodTarget.java	0	0	0	2	0	0
+fitlibrary.closure.ClassMethodTarget	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/closure/ClassMethodTarget.java	0	0	0	0	54	47
+fitlibrary.closure.Closure	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/closure/Closure.java	0	0	0	0	25	17
+fitlibrary.closure.ConstantMethodTarget	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/closure/ConstantMethodTarget.java	0	0	0	0	39	32
+fitlibrary.closure.FieldClosure	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/closure/FieldClosure.java	0	0	0	0	56	48
+fitlibrary.closure.ICalledMethodTarget	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/closure/ICalledMethodTarget.java	0	0	0	0	27	20
+fitlibrary.closure.LookupClosure	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/closure/LookupClosure.java	0	0	0	0	18	9
+fitlibrary.closure.LookupClosureStandard	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/closure/LookupClosureStandard.java	0	0	0	0	172	163
+fitlibrary.closure.LookupClosureStandard$MethodSignature	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/closure/LookupClosureStandard.java	0	0	0	2	0	0
+fitlibrary.closure.LookupMethodTarget	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/closure/LookupMethodTarget.java	0	0	0	0	36	27
+fitlibrary.closure.LookupMethodTargetStandard	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/closure/LookupMethodTargetStandard.java	0	0	0	0	191	184
+fitlibrary.closure.MethodClosure	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/closure/MethodClosure.java	0	0	0	0	84	75
+fitlibrary.closure.MethodTarget	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/closure/MethodTarget.java	0	0	0	0	16	10
+fitlibrary.closure.TestCalledMethodTarget	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.closure.TestLookupClosure	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.closure.TestLookupClosure$Base	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.closure.TestLookupClosure$BaseOfBase	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.closure.TestLookupClosure$Derived	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.closure.TestLookupMethodTarget	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.closure.TestLookupMethodTarget$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.closure.TestLookupMethodTarget$10	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.closure.TestLookupMethodTarget$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.closure.TestLookupMethodTarget$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.closure.TestLookupMethodTarget$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.closure.TestLookupMethodTarget$5	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.closure.TestLookupMethodTarget$6	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.closure.TestLookupMethodTarget$7	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.closure.TestLookupMethodTarget$8	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.closure.TestLookupMethodTarget$9	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.closure.TestSpecialCaller	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.closure.TestSpecialCaller$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.closure.TestSpecialCaller$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.closure.TestSpecialCaller$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.closure.TestSpecialCaller$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.eg.chat.Chat	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/chat/Chat.java	0	0	0	0	80	72
+fitlibrary.eg.chat.ChatStart	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/chat/ChatStart.java	0	0	0	0	26	18
+fitlibrary.eg.chat.ChatSystem	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/chat/ChatSystem.java	0	0	0	0	41	33
+fitlibrary.eg.chat.Room	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/chat/Room.java	0	0	0	0	56	47
+fitlibrary.eg.chat.User	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/eg/chat/User.java	0	0	0	0	25	17
+fitlibrary.specify.utility.CamelCase	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/utility/CamelCase.java	0	0	0	0	13	7
+fitlibraryGeneric.generic.GenericTypeUtility	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/generic/GenericTypeUtility.java	0	0	0	0	75	64
+fitlibraryGeneric.generic.GenericTypeUtility$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/generic/GenericTypeUtility.java	0	0	0	2	0	0
+fitlibraryGeneric.generic.GenericTypeUtility$GenericCases	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/generic/GenericTypeUtility.java	0	0	0	2	0	0
+fitlibraryGeneric.generic.LocalGenericArrayType	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/generic/LocalGenericArrayType.java	0	0	0	0	28	19
+fitlibraryGeneric.generic.LocalParameterizedType	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/generic/LocalParameterizedType.java	0	0	0	0	44	34
+fit.specify.ActionFixtureUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/specify/ActionFixtureUnderTest.java	1	0	0	0	52	47
+fit.specify.AlienEvaluator	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/specify/AlienEvaluator.java	1	0	0	0	15	7
+fit.specify.ClearActionFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/specify/ClearActionFixture.java	1	0	0	0	14	8
+fit.specify.ColumnFixtureUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/specify/ColumnFixtureUnderTest.java	1	0	0	0	36	30
+fit.specify.ColumnFixtureUnderTestWithArgs	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/specify/ColumnFixtureUnderTestWithArgs.java	1	0	0	0	17	10
+fit.specify.MyColumnFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/specify/MyColumnFixture.java	1	0	0	0	9	7
+fit.specify.NonFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/specify/NonFixture.java	1	0	0	0	9	4
+fit.specify.RowFixtureUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/specify/RowFixtureUnderTest.java	1	0	0	0	29	24
+fit.specify.RowFixtureUnderTest$MockClass	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/specify/RowFixtureUnderTest.java	1	0	0	2	0	0
+fit.specify.RowFixtureUnderTest2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/specify/RowFixtureUnderTest2.java	1	0	0	0	17	11
+fit.specify.SelfStarter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/specify/SelfStarter.java	1	0	0	0	18	11
+fitlibrary.utility.option.None	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/option/None.java	0	0	0	0	28	22
+fitlibrary.utility.option.Option	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/option/Option.java	0	0	0	0	12	6
+fitlibrary.utility.option.Some	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/utility/option/Some.java	0	0	0	0	35	28
+fitlibrary.utility.option.TestOption	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+temp.Action	fitnesse/fitlibrary.jar	fitnesse/lib/src/temp/Action.java	1	0	0	0	16	14
+temp.ColFix	fitnesse/fitlibrary.jar	fitnesse/lib/src/temp/ColFix.java	1	0	0	0	7	5
+temp.RowFix	fitnesse/fitlibrary.jar	fitnesse/lib/src/temp/RowFix.java	1	0	0	0	19	15
+temp.RowFix$A	fitnesse/fitlibrary.jar	fitnesse/lib/src/temp/RowFix.java	1	0	0	2	0	0
+fitlibrary.matcher.TableBuilderForTests	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/matcher/TableBuilderForTests.java	0	0	0	0	118	109
+fitlibrary.matcher.TableBuilderForTests$CellBuilder	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/matcher/TableBuilderForTests.java	0	0	0	2	0	0
+fitlibrary.matcher.TableBuilderForTests$CellBuilder$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/matcher/TableBuilderForTests.java	0	0	0	2	0	0
+fitlibrary.matcher.TableBuilderForTests$RowBuilder	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/matcher/TableBuilderForTests.java	0	0	0	2	0	0
+fitlibrary.matcher.TableBuilderForTests$TableBuilder	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/matcher/TableBuilderForTests.java	0	0	0	2	0	0
+fitlibrary.matcher.TableBuilderForTests$TablesBuilder	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/matcher/TableBuilderForTests.java	0	0	0	2	0	0
+fitlibrary.matcher.TableElementBuilder	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/matcher/TableElementBuilder.java	0	0	0	0	103	93
+fitlibrary.matcher.TableElementBuilder$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/matcher/TableElementBuilder.java	0	0	0	2	0	0
+fitlibrary.matcher.TableElementBuilder$2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/matcher/TableElementBuilder.java	0	0	0	2	0	0
+fitlibrary.matcher.TableElementBuilder$3	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/matcher/TableElementBuilder.java	0	0	0	2	0	0
+fitlibrary.matcher.TablesMatcher	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/matcher/TablesMatcher.java	0	0	0	0	65	55
+fitlibrary.matcher.TablesMatcher$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/matcher/TablesMatcher.java	0	0	0	2	0	0
+fitlibrary.matcher.TestTableBuilderForTests	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitbook.sokoban.Sokoban	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitbook/sokoban/Sokoban.java	1	0	0	0	68	55
+fitlibraryGeneric.TestDirectAccessToParser	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibraryGeneric.TestDirectAccessToParser$En	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibraryGeneric.TestDirectAccessToParser$Gen	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibraryGeneric.TestDirectAccessToParser$MyFixture	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibraryGeneric.TestDirectAccessToParser$X	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibraryGeneric.TestDirectAccessToParser$Y	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.parser.tagged.TaggedString	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/tagged/TaggedString.java	0	0	0	0	27	21
+fitlibrary.parser.tagged.TaggedStringParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/tagged/TaggedStringParser.java	0	0	0	0	48	41
+fitlibrary.parser.tagged.TaggedStringParser$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/tagged/TaggedStringParser.java	0	0	0	2	0	0
+fitlibrary.tutorial.Calculator	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/tutorial/Calculator.java	0	0	0	0	26	19
+fitlibrary.tutorial.CreditApplication	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/tutorial/CreditApplication.java	0	0	0	0	19	13
+fitlibrary.tutorial.CreditLimitRule	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/tutorial/CreditLimitRule.java	0	0	0	0	21	13
+fitlibrary.tutorial.CreditRule	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/tutorial/CreditRule.java	0	0	0	0	31	23
+fitlibrary.tutorial.DiscountRule	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/tutorial/DiscountRule.java	0	0	0	0	20	12
+fitlibrary.tutorial.DiscountingApplication	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/tutorial/DiscountingApplication.java	0	0	0	0	14	8
+fitlibrary.tutorial.Global	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/tutorial/Global.java	0	0	0	0	37	25
+fitlibrary.runner.AbstractRunner	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/AbstractRunner.java	0	0	0	0	24	16
+fitlibrary.runner.CollectSetUpTearDown	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/CollectSetUpTearDown.java	0	0	0	0	80	69
+fitlibrary.runner.CopyFiles	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/CopyFiles.java	0	0	0	0	49	41
+fitlibrary.runner.CopyFilesFromJar	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/CopyFilesFromJar.java	0	0	0	0	53	43
+fitlibrary.runner.CustomRunner	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/CustomRunner.java	0	0	0	0	78	66
+fitlibrary.runner.CustomRunnerException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/CustomRunnerException.java	0	0	0	0	13	7
+fitlibrary.runner.ExampleOfCustomRunner	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/ExampleOfCustomRunner.java	0	0	0	0	28	18
+fitlibrary.runner.FileParseUtilities	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/FileParseUtilities.java	0	0	0	0	33	25
+fitlibrary.runner.FolderRunner	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/FolderRunner.java	0	0	0	0	196	182
+fitlibrary.runner.FolderRunnerFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/FolderRunnerFixture.java	0	0	0	0	42	33
+fitlibrary.runner.FolderRunnerTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/FolderRunnerTest.java	0	0	0	0	52	45
+fitlibrary.runner.FolderRunnerTest$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/FolderRunnerTest.java	0	0	0	2	0	0
+fitlibrary.runner.FolderRunnerUI	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/FolderRunnerUI.java	0	0	0	0	81	73
+fitlibrary.runner.FolderRunnerUI$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/FolderRunnerUI.java	0	0	0	2	0	0
+fitlibrary.runner.FolderRunnerUI$2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/FolderRunnerUI.java	0	0	0	2	0	0
+fitlibrary.runner.HtmlRunner	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/HtmlRunner.java	0	0	0	0	99	91
+fitlibrary.runner.MakeParse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/MakeParse.java	0	0	0	0	196	184
+fitlibrary.runner.Report	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/Report.java	0	0	0	0	129	116
+fitlibrary.runner.ReportHtml	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/ReportHtml.java	0	0	0	0	155	147
+fitlibrary.runner.RunFile	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/RunFile.java	0	0	0	0	66	57
+fitlibrary.runner.SpreadsheetRunner	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/SpreadsheetRunner.java	0	0	0	0	270	258
+fitlibrary.runner.StoryTestListener	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/runner/StoryTestListener.java	0	0	0	0	11	6
+fitlibrary.runner.TestFolderRunner	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.runner.TestHtmlRunner	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.runner.TestMakeParse	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.specify.missingMethod.FinderInDomainAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/missingMethod/FinderInDomainAdapter.java	0	0	0	0	15	7
+fitlibrary.specify.missingMethod.FinderInJustSut	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/missingMethod/FinderInJustSut.java	0	0	0	0	17	10
+fitlibrary.specify.missingMethod.FinderInJustSut$Colour	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/missingMethod/FinderInJustSut.java	0	0	0	2	0	0
+fitlibrary.specify.missingMethod.InDomainAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/missingMethod/InDomainAdapter.java	0	0	0	0	15	7
+fitlibrary.specify.missingMethod.InJustSut	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/missingMethod/InJustSut.java	0	0	0	0	11	4
+fitlibrary.specify.missingMethod.NestedFinderInDomainAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/missingMethod/NestedFinderInDomainAdapter.java	0	0	0	0	20	12
+fitlibrary.specify.missingMethod.NestedFinderInDomainAdapter$NestedDomainAdapterToo	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/missingMethod/NestedFinderInDomainAdapter.java	0	0	0	2	0	0
+fitlibrary.specify.missingMethod.NestedFinderInJustSut	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/missingMethod/NestedFinderInJustSut.java	0	0	0	0	27	19
+fitlibrary.specify.missingMethod.NestedFinderInJustSut$Colour	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/missingMethod/NestedFinderInJustSut.java	0	0	0	2	0	0
+fitlibrary.specify.missingMethod.NestedFinderInJustSut$Mix	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/missingMethod/NestedFinderInJustSut.java	0	0	0	2	0	0
+fitlibrary.specify.missingMethod.ShowInDomainAdapter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/missingMethod/ShowInDomainAdapter.java	0	0	0	0	20	12
+fitlibrary.specify.missingMethod.ShowInJustSut	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/missingMethod/ShowInJustSut.java	0	0	0	0	21	13
+fitlibrary.specify.missingMethod.ShowInJustSut$Colour	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/missingMethod/ShowInJustSut.java	0	0	0	2	0	0
+fitlibrary.traverse.workflow.DoCaller	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/DoCaller.java	0	0	0	0	27	19
+fitlibrary.traverse.workflow.DoEvaluator	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/DoEvaluator.java	0	0	0	0	16	9
+fitlibrary.traverse.workflow.DoTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/DoTraverse.java	0	0	0	0	630	525
+fitlibrary.traverse.workflow.DoTraverse$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/DoTraverse.java	0	0	0	2	0	0
+fitlibrary.traverse.workflow.DoTraverse$2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/DoTraverse.java	0	0	0	2	0	0
+fitlibrary.traverse.workflow.DoTraverse$3	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/DoTraverse.java	0	0	0	2	0	0
+fitlibrary.traverse.workflow.DoTraverse$4	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/DoTraverse.java	0	0	0	2	0	0
+fitlibrary.traverse.workflow.DoTraverse$Comparison	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/DoTraverse.java	0	0	0	2	0	0
+fitlibrary.traverse.workflow.DoTraverseInterpreter	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/DoTraverseInterpreter.java	0	0	0	0	202	194
+fitlibrary.traverse.workflow.FlowEvaluator	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/FlowEvaluator.java	0	0	0	0	17	10
+fitlibrary.traverse.workflow.PlainText	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/PlainText.java	0	0	0	0	110	98
+fitlibrary.traverse.workflow.PlainTextAnalyser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/PlainTextAnalyser.java	0	0	0	0	62	54
+fitlibrary.traverse.workflow.RandomSelectTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/RandomSelectTraverse.java	0	0	0	0	32	23
+fitlibrary.traverse.workflow.SequenceTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/SequenceTraverse.java	0	0	0	0	12	7
+fitlibrary.traverse.workflow.SetVariableTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/SetVariableTraverse.java	0	0	0	0	30	24
+fitlibrary.traverse.workflow.StopWatch	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/traverse/workflow/StopWatch.java	0	0	0	0	13	7
+fitlibrary.traverse.workflow.TestDoCaller	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.tutorial.chat.Chat	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/tutorial/chat/Chat.java	0	0	0	0	28	20
+fitlibrary.tutorial.chat.Room	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/tutorial/chat/Room.java	0	0	0	0	27	19
+fitlibrary.tutorial.chat.User	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/tutorial/chat/User.java	0	0	0	0	17	10
+fitlibrary.specify.calculate.DoubleUse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/calculate/DoubleUse.java	0	0	0	0	23	13
+fitlibrary.specify.calculate.DoubleUse$LocalCalculateFixture	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/calculate/DoubleUse.java	0	0	0	2	0	0
+fitlibrary.specify.calculate.ResultingObjectIsSubType	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/calculate/ResultingObjectIsSubType.java	0	0	0	0	19	11
+fitlibrary.specify.calculate.RuleTableExample	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/calculate/RuleTableExample.java	0	0	0	0	29	19
+fitlibrary.specify.calculate.RuleTableExample$Sut	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/calculate/RuleTableExample.java	0	0	0	2	0	0
+fitlibrary.specify.calculate.RuleTableMethodsThrowExceptions	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/calculate/RuleTableMethodsThrowExceptions.java	0	0	0	0	64	53
+fitlibrary.specify.calculate.RuleTableMethodsThrowExceptions$Sut	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/calculate/RuleTableMethodsThrowExceptions.java	0	0	0	2	0	0
+fitlibrary.specify.calculate.RuleTableWithResetAndExecute	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/calculate/RuleTableWithResetAndExecute.java	0	0	0	0	42	31
+fitlibrary.specify.calculate.RuleTableWithResetAndExecute$Sut	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/calculate/RuleTableWithResetAndExecute.java	0	0	0	2	0	0
+fitlibrary.specify.calculate.WithLists	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/calculate/WithLists.java	0	0	0	0	15	7
+fitlibrary.exception.AbandonException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/AbandonException.java	0	0	0	0	7	6
+fitlibrary.exception.CycleException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/CycleException.java	0	0	0	0	13	7
+fitlibrary.exception.ExceptionHandling	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/ExceptionHandling.java	0	0	0	0	14	6
+fitlibrary.exception.ExceptionHandlingStandard	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/ExceptionHandlingStandard.java	0	0	0	0	36	27
+fitlibrary.exception.FitLibraryException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/FitLibraryException.java	0	0	0	0	14	9
+fitlibrary.exception.FitLibraryExceptionInHtml	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/FitLibraryExceptionInHtml.java	0	0	0	0	15	9
+fitlibrary.exception.FitLibraryExceptionWithHelp	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/FitLibraryExceptionWithHelp.java	0	0	0	0	13	7
+fitlibrary.exception.FitLibraryShowException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/FitLibraryShowException.java	0	0	0	0	27	23
+fitlibrary.exception.FitLibraryShowException$Show	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/FitLibraryShowException.java	0	0	0	2	0	0
+fitlibrary.exception.IgnoredException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/IgnoredException.java	0	0	0	0	27	17
+fitlibrary.exception.NoSystemUnderTestException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/NoSystemUnderTestException.java	0	0	0	0	11	6
+fitlibrary.exception.NotRejectedException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/exception/NotRejectedException.java	0	0	0	0	11	6
+fitlibrary.parser.lookup.FieldParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/lookup/FieldParser.java	0	0	0	0	49	41
+fitlibrary.parser.lookup.GetterParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/lookup/GetterParser.java	0	0	0	0	48	40
+fitlibrary.parser.lookup.LookupPropertyEditorBasedParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/lookup/LookupPropertyEditorBasedParser.java	0	0	0	0	95	87
+fitlibrary.parser.lookup.LookupPropertyEditorBasedParser$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/lookup/LookupPropertyEditorBasedParser.java	0	0	0	2	0	0
+fitlibrary.parser.lookup.LookupPropertyEditorBasedParser$BooleanPropertyEditor	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/lookup/LookupPropertyEditorBasedParser.java	0	0	0	2	0	0
+fitlibrary.parser.lookup.LookupPropertyEditorBasedParser$CharPropertyEditor	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/lookup/LookupPropertyEditorBasedParser.java	0	0	0	2	0	0
+fitlibrary.parser.lookup.LookupPropertyEditorBasedParser$ClassPropertyEditor	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/lookup/LookupPropertyEditorBasedParser.java	0	0	0	2	0	0
+fitlibrary.parser.lookup.LookupPropertyEditorBasedParser$DatePropertyEditor	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/lookup/LookupPropertyEditorBasedParser.java	0	0	0	2	0	0
+fitlibrary.parser.lookup.ParseDelegation	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/lookup/ParseDelegation.java	0	0	0	0	159	144
+fitlibrary.parser.lookup.ParseDelegation$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/lookup/ParseDelegation.java	0	0	0	2	0	0
+fitlibrary.parser.lookup.ParseDelegation$AbstractDelegateObjectParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/lookup/ParseDelegation.java	0	0	0	2	0	0
+fitlibrary.parser.lookup.ParseDelegation$DelegateObjectParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/lookup/ParseDelegation.java	0	0	0	2	0	0
+fitlibrary.parser.lookup.ParseDelegation$DelegateObjectSuperParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/lookup/ParseDelegation.java	0	0	0	2	0	0
+fitlibrary.parser.lookup.ParserFactory	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/lookup/ParserFactory.java	0	0	0	0	15	7
+fitlibrary.parser.lookup.ParserSelectorForType	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/lookup/ParserSelectorForType.java	0	0	0	0	118	109
+fitlibrary.parser.lookup.PropertyEditorBasedParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/lookup/PropertyEditorBasedParser.java	0	0	0	0	85	77
+fitlibrary.parser.lookup.ResultParser	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/parser/lookup/ResultParser.java	0	0	0	0	13	7
+fitlibrary.specify.setParser.Match	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/setParser/Match.java	0	0	0	0	36	29
+fitlibrary.specify.setParser.Parse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/setParser/Parse.java	0	0	0	0	22	15
+fitlibraryGeneric.object.GenericFinder	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/object/GenericFinder.java	0	0	0	0	104	93
+fitlibrary.tableOnParse.CellOnParse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/tableOnParse/CellOnParse.java	0	0	0	0	316	308
+fitlibrary.tableOnParse.RowOnParse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/tableOnParse/RowOnParse.java	0	0	0	0	213	205
+fitlibrary.tableOnParse.TableElementOnParse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/tableOnParse/TableElementOnParse.java	0	0	0	0	177	168
+fitlibrary.tableOnParse.TableOnParse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/tableOnParse/TableOnParse.java	0	0	0	0	170	147
+fitlibrary.tableOnParse.TablesOnParse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/tableOnParse/TablesOnParse.java	0	0	0	0	105	98
+fitlibrary.tableOnParse.TestRowOnParse	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.tableOnParse.TestTableOnParse	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.tableOnParse.TestTableOnParse$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.tableOnParse.TestTableOnParse$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.tableOnParse.TestTableOnParse$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.tableOnParse.TestTableOnParse$4	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.tableOnParse.TestTablesOnParse	fitnesse/fitlibrary.jar		0	1	1	3	0	0
+fitlibrary.tableOnParse.TestTablesOnParse$1	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.tableOnParse.TestTablesOnParse$2	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.tableOnParse.TestTablesOnParse$3	fitnesse/fitlibrary.jar		0	1	1	2	0	0
+fitlibrary.collection.CollectionSetUpTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/collection/CollectionSetUpTraverse.java	0	0	0	0	130	115
+fitlibrary.collection.CollectionTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/collection/CollectionTraverse.java	0	0	0	0	235	225
+fit.decorator.exceptions.InvalidInputException	fitnesse/fitlibrary.jar	fitnesse/lib/src/fit/decorator/exceptions/InvalidInputException.java	1	0	0	0	9	7
+fitlibrary.specify.definedAction.DefinedActionUnderTest	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/definedAction/DefinedActionUnderTest.java	0	0	0	0	38	35
+fitlibrary.specify.definedAction.DefinedActionUnderTest$Ab	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/definedAction/DefinedActionUnderTest.java	0	0	0	2	0	0
+fitlibrary.specify.definedAction.OtherFixturing	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/definedAction/OtherFixturing.java	0	0	0	0	23	16
+fitlibrary.specify.definedAction.TemporaryFixturing	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/definedAction/TemporaryFixturing.java	0	0	0	0	15	9
+fitlibraryGeneric.typed.GenericTyped	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/typed/GenericTyped.java	0	0	0	0	236	226
+fitlibraryGeneric.typed.GenericTyped$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/typed/GenericTyped.java	0	0	0	2	0	0
+fitlibraryGeneric.typed.GenericTypedObject	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/typed/GenericTypedObject.java	0	0	0	0	223	213
+fitlibraryGeneric.typed.GenericTypedObject$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/typed/GenericTypedObject.java	0	0	0	2	0	0
+fitlibraryGeneric.typed.GenericTypedObject$MethodTargetFactory	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/typed/GenericTypedObject.java	0	0	0	2	0	0
+fitlibrary.specify.listParser.Match	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/listParser/Match.java	0	0	0	0	33	26
+fitlibrary.specify.listParser.Parse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/listParser/Parse.java	0	0	0	0	29	23
+fitlibrary.specify.listParser.ParseCounts	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/listParser/ParseCounts.java	0	0	0	0	26	19
+fitlibraryGeneric.eg.rentEz.Client	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/eg/rentEz/Client.java	0	0	0	0	29	27
+fitlibraryGeneric.eg.rentEz.ClientTransaction	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/eg/rentEz/ClientTransaction.java	0	0	0	0	21	18
+fitlibraryGeneric.eg.rentEz.DateRange	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/eg/rentEz/DateRange.java	0	0	0	0	5	4
+fitlibraryGeneric.eg.rentEz.Duration	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/eg/rentEz/Duration.java	0	0	0	0	5	4
+fitlibraryGeneric.eg.rentEz.Rates	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/eg/rentEz/Rates.java	0	0	0	0	5	4
+fitlibraryGeneric.eg.rentEz.RentEz	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/eg/rentEz/RentEz.java	0	0	0	0	32	29
+fitlibraryGeneric.eg.rentEz.RentEzApplication	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/eg/rentEz/RentEzApplication.java	0	0	0	0	51	46
+fitlibraryGeneric.eg.rentEz.Rental	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/eg/rentEz/Rental.java	0	0	0	0	26	24
+fitlibraryGeneric.eg.rentEz.RentalItem	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/eg/rentEz/RentalItem.java	0	0	0	0	25	24
+fitlibraryGeneric.eg.rentEz.RentalItemType	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/eg/rentEz/RentalItemType.java	0	0	0	0	34	31
+fitlibraryGeneric.eg.rentEz.StaffMember	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/eg/rentEz/StaffMember.java	0	0	0	0	12	10
+fitlibraryGeneric.set.NestingSetTraverse	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/set/NestingSetTraverse.java	0	0	0	0	69	61
+fitlibraryGeneric.set.SetParser2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/set/SetParser2.java	0	0	0	0	95	87
+fitlibraryGeneric.set.SetParser2$1	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/set/SetParser2.java	0	0	0	2	0	0
+fitlibraryGeneric.set.SetParser2$2	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibraryGeneric/set/SetParser2.java	0	0	0	2	0	0
+fitlibrary.specify.access.CurrentRow	fitnesse/fitlibrary.jar	fitnesse/lib/src/fitlibrary/specify/access/CurrentRow.java	0	0	0	0	37	29
+#Issues
+#======
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/fitlibraryforfitnesse/fitlibraryforfitnesse-20100806/src/fitnesse/fitlibrary.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/fitlibraryforfitnesse/fitlibraryforfitnesse-20100806/src/fitnesse/lib/fitbook.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/fitlibraryforfitnesse/fitlibraryforfitnesse-20100806/src/fitnesse/lib/hamcrest-all-1.1.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/fitlibraryforfitnesse/fitlibraryforfitnesse-20100806/src/fitnesse/lib/jmock-2.5.1.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/fitlibraryforfitnesse/fitlibraryforfitnesse-20100806/src/fitnesse/lib/jmock-junit4-2.5.1.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/fitlibraryforfitnesse/fitlibraryforfitnesse-20100806/src/fitnesse/lib/junit-4.6.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/fitlibraryforfitnesse/fitlibraryforfitnesse-20100806/src/fitnesse/lib/ognl-2.7.2.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/fitlibraryforfitnesse/fitlibraryforfitnesse-20100806/src/fitnesse/lib/poi-3.1-FINAL-20080629.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/fitlibraryforfitnesse/fitlibraryforfitnesse-20100806/src/fitnesse/lib/rentEz.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/fitlibraryforfitnesse/fitlibraryforfitnesse-20100806/src/fitnesse/lib/src/fitbookSrc.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/fitlibraryforfitnesse/fitlibraryforfitnesse-20100806/src/fitnesse/lib/src/fitlibrarySrc.zip in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/fitlibraryforfitnesse/fitlibraryforfitnesse-20100806/src/fitnesse/lib/src/rentEzSrc.jar in <src> ignored.
+#SRC NO PUBLIC TYPE for fitnesse/lib/src/fit/FitMatcher.java.

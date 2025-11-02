@@ -1,0 +1,134 @@
+#2013-09-05T10:02:03NZST
+#System Version : quilt-0.6-a-5
+#Source Packages: org.quilt
+#Ignore Packages: 
+#Distributed    : quilt-0.6-a-5/src/java
+#Source Roots   : quilt-0.6-a-5/src/java,quilt-0.6-a-5/src/test,quilt-0.6-a-5/src/test-data
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+AbstractClass		quilt-0.6-a-5/src/test-data/AbstractClass.java	1	2	1	0	18	8
+AnonymousClass		quilt-0.6-a-5/src/test-data/AnonymousClass.java	1	2	1	0	20	15
+BasicLoad		quilt-0.6-a-5/src/test-data/BasicLoad.java	1	2	1	0	26	13
+ComplicatedConstructor		quilt-0.6-a-5/src/test-data/ComplicatedConstructor.java	1	2	1	0	26	15
+ExceptionLoad		quilt-0.6-a-5/src/test-data/ExceptionLoad.java	1	2	1	0	19	12
+ExceptionThrow		quilt-0.6-a-5/src/test-data/ExceptionThrow.java	1	2	1	0	15	8
+Finally		quilt-0.6-a-5/src/test-data/Finally.java	1	2	1	0	31	20
+Finally2Catches		quilt-0.6-a-5/src/test-data/Finally2Catches.java	1	2	1	0	39	31
+InnerClass		quilt-0.6-a-5/src/test-data/InnerClass.java	1	2	1	0	21	13
+Looper		quilt-0.6-a-5/src/test-data/Looper.java	1	2	1	0	34	21
+MyListener		quilt-0.6-a-5/src/test-data/MyListener.java	1	2	1	0	8	4
+NestedTryBlocks		quilt-0.6-a-5/src/test-data/NestedTryBlocks.java	1	2	1	0	31	26
+OddSwitches		quilt-0.6-a-5/src/test-data/OddSwitches.java	1	2	1	0	51	40
+PrivateClass		quilt-0.6-a-5/src/test-data/PrivateClass.java	1	2	1	4	17	10
+StaticInit		quilt-0.6-a-5/src/test-data/StaticInit.java	1	2	1	0	33	20
+SuperClass		quilt-0.6-a-5/src/test-data/SuperClass.java	1	2	1	0	27	18
+SwitchLoad		quilt-0.6-a-5/src/test-data/SwitchLoad.java	1	2	1	0	82	63
+Whimsy		quilt-0.6-a-5/src/test-data/Whimsy.java	1	2	1	0	24	18
+Whimsy2		quilt-0.6-a-5/src/test-data/Whimsy2.java	1	2	1	0	25	16
+org.quilt.reports.BaseFormatter	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/reports/BaseFormatter.java	0	0	0	0	114	55
+org.quilt.reports.BriefFormatter	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/reports/BriefFormatter.java	0	0	0	0	113	76
+org.quilt.reports.FmtSelector	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/reports/FmtSelector.java	0	0	0	0	175	94
+org.quilt.reports.Formatter	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/reports/Formatter.java	0	0	0	0	31	15
+org.quilt.reports.PlainFormatter	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/reports/PlainFormatter.java	0	0	0	0	130	101
+org.quilt.reports.SummaryFormatter	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/reports/SummaryFormatter.java	0	0	0	0	112	72
+org.quilt.reports.XMLFormatter	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/reports/XMLFormatter.java	0	0	0	0	239	159
+org.quilt.cover.stmt.ClassAction	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cover/stmt/ClassAction.java	0	0	0	0	374	222
+org.quilt.cover.stmt.CounterVertex	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cover/stmt/CounterVertex.java	0	0	0	0	72	33
+org.quilt.cover.stmt.Ephemera	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cover/stmt/Ephemera.java	0	0	0	4	78	48
+org.quilt.cover.stmt.GraphAction	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cover/stmt/GraphAction.java	0	0	0	0	231	151
+org.quilt.cover.stmt.GraphAction$LampLighter	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cover/stmt/GraphAction.java	0	0	0	2	0	0
+org.quilt.cover.stmt.MethodAction	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cover/stmt/MethodAction.java	0	0	0	0	73	39
+org.quilt.cover.stmt.QIC	quilt-0.6-a-5/quilt-0.6-a-5.jar		0	1	1	3	0	0
+org.quilt.cover.stmt.StmtRegistry	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cover/stmt/StmtRegistry.java	0	0	0	0	303	171
+org.quilt.cover.stmt.StmtRunTest	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cover/stmt/StmtRunTest.java	0	0	0	0	11	5
+org.quilt.cover.stmt.TestStmtCoverage		quilt-0.6-a-5/src/test/org/quilt/cover/stmt/TestStmtCoverage.java	0	2	1	0	428	166
+org.quilt.frontend.ant.BatchTest	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/frontend/ant/BatchTest.java	0	0	0	0	94	50
+org.quilt.frontend.ant.CallTest	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/frontend/ant/CallTest.java	0	0	0	0	150	112
+org.quilt.frontend.ant.ForkTest	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/frontend/ant/ForkTest.java	0	0	0	0	237	184
+org.quilt.frontend.ant.ForkTest$1	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/frontend/ant/ForkTest.java	0	0	0	2	0	0
+org.quilt.frontend.ant.MockExec	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/frontend/ant/MockExec.java	0	0	0	0	47	23
+org.quilt.frontend.ant.QuiltTask	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/frontend/ant/QuiltTask.java	0	0	0	0	347	240
+org.quilt.frontend.ant.Scheduler	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/frontend/ant/Scheduler.java	0	0	0	0	120	59
+org.quilt.frontend.ant.SummaryAttribute	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/frontend/ant/SummaryAttribute.java	0	0	0	0	56	28
+org.quilt.frontend.ant.TaskControl	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/frontend/ant/TaskControl.java	0	0	0	0	314	255
+org.quilt.frontend.ant.TestExec	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/frontend/ant/TestExec.java	0	0	0	0	92	65
+org.quilt.reg.QuiltRegistry	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/reg/QuiltRegistry.java	0	0	0	0	63	34
+org.quilt.reg.Registry	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/reg/Registry.java	0	0	0	0	162	83
+org.quilt.reg.Registry$1	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/reg/Registry.java	0	0	0	2	0	0
+org.quilt.reg.Registry$CmpArrays	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/reg/Registry.java	0	0	0	2	0	0
+org.quilt.reg.TestArrComparator		quilt-0.6-a-5/src/test/org/quilt/reg/TestArrComparator.java	0	2	1	0	85	67
+org.quilt.reg.TestRegistry		quilt-0.6-a-5/src/test/org/quilt/reg/TestRegistry.java	0	2	1	0	295	224
+org.quilt.bytecode.LabeledNOP	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/bytecode/LabeledNOP.java	0	0	0	0	25	15
+org.quilt.QIC	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/QIC.java	0	0	0	0	12	7
+org.quilt.cover.CoverageTypes	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cover/CoverageTypes.java	0	0	0	0	15	8
+org.quilt.cover.seg.Segment	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cover/seg/Segment.java	0	0	0	0	109	59
+org.quilt.cover.seg.TestSegment		quilt-0.6-a-5/src/test/org/quilt/cover/seg/TestSegment.java	0	2	1	0	65	50
+org.quilt.textui.MockTestRunner	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/textui/MockTestRunner.java	0	0	0	0	27	17
+org.quilt.textui.TestRunner	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/textui/TestRunner.java	0	0	0	0	55	36
+org.quilt.textui.Textui	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/textui/Textui.java	0	0	0	0	204	121
+org.quilt.runner.BaseTestRunner	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/runner/BaseTestRunner.java	0	0	0	0	386	204
+org.quilt.runner.BaseTestRunner$1	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/runner/BaseTestRunner.java	0	0	0	2	0	0
+org.quilt.runner.BaseTestRunner$TeeOutputStream	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/runner/BaseTestRunner.java	0	0	0	2	0	0
+org.quilt.runner.MockTestRunner	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/runner/MockTestRunner.java	0	0	0	0	27	9
+org.quilt.runner.Msg	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/runner/Msg.java	0	0	0	0	113	68
+org.quilt.runner.Runner	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/runner/Runner.java	0	0	0	0	92	56
+org.quilt.runner.RunnerConst	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/runner/RunnerConst.java	0	0	0	0	37	18
+org.quilt.graph.BinaryConnector	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/graph/BinaryConnector.java	0	0	0	0	92	68
+org.quilt.graph.ComplexConnector	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/graph/ComplexConnector.java	0	0	0	0	118	69
+org.quilt.graph.Connector	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/graph/Connector.java	0	0	0	0	44	7
+org.quilt.graph.Directed	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/graph/Directed.java	0	0	0	0	273	137
+org.quilt.graph.Directed$Sizer	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/graph/Directed.java	0	0	0	2	0	0
+org.quilt.graph.Edge	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/graph/Edge.java	0	0	0	0	114	74
+org.quilt.graph.Entry	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/graph/Entry.java	0	0	0	0	48	34
+org.quilt.graph.Exit	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/graph/Exit.java	0	0	0	0	59	30
+org.quilt.graph.MultiConnector	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/graph/MultiConnector.java	0	0	0	0	94	63
+org.quilt.graph.TestA2O		quilt-0.6-a-5/src/test/org/quilt/graph/TestA2O.java	0	2	1	0	171	131
+org.quilt.graph.TestDirected		quilt-0.6-a-5/src/test/org/quilt/graph/TestDirected.java	0	2	1	0	69	53
+org.quilt.graph.UnaryConnector	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/graph/UnaryConnector.java	0	0	0	0	39	22
+org.quilt.graph.Vertex	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/graph/Vertex.java	0	0	0	0	157	90
+org.quilt.graph.Visitor	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/graph/Visitor.java	0	0	0	0	38	9
+org.quilt.graph.Walker	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/graph/Walker.java	0	0	0	0	150	96
+org.quilt.exception.QuiltException	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/exception/QuiltException.java	0	0	0	0	15	9
+org.quilt.framework.QuiltTest	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/framework/QuiltTest.java	0	0	0	0	334	193
+org.quilt.cl.BytecodeCollector	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cl/BytecodeCollector.java	0	0	0	0	340	183
+org.quilt.cl.CatchData	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cl/CatchData.java	0	0	0	0	41	16
+org.quilt.cl.ClassFactory	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cl/ClassFactory.java	0	0	0	0	501	260
+org.quilt.cl.ClassTransformer	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cl/ClassTransformer.java	0	0	0	0	147	96
+org.quilt.cl.ClassXformer	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cl/ClassXformer.java	0	0	0	0	39	9
+org.quilt.cl.CodeVertex	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cl/CodeVertex.java	0	0	0	0	262	115
+org.quilt.cl.ControlFlowGraph	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cl/ControlFlowGraph.java	0	0	0	0	100	46
+org.quilt.cl.GraphBuildException	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cl/GraphBuildException.java	0	0	0	0	27	15
+org.quilt.cl.GraphSpy		quilt-0.6-a-5/src/test/org/quilt/cl/GraphSpy.java	0	2	1	0	40	21
+org.quilt.cl.GraphTalker	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cl/GraphTalker.java	0	0	0	0	98	81
+org.quilt.cl.GraphTransformer	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cl/GraphTransformer.java	0	0	0	0	342	219
+org.quilt.cl.GraphXformer	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cl/GraphXformer.java	0	0	0	0	37	7
+org.quilt.cl.MethodTransformer	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cl/MethodTransformer.java	0	0	0	0	189	116
+org.quilt.cl.MethodXformer	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cl/MethodXformer.java	0	0	0	0	37	9
+org.quilt.cl.QuiltClassLoader	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cl/QuiltClassLoader.java	0	0	0	0	603	360
+org.quilt.cl.RunTest	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cl/RunTest.java	0	0	0	0	18	4
+org.quilt.cl.SortedBlocks	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cl/SortedBlocks.java	0	0	0	0	170	91
+org.quilt.cl.TestClassFactory		quilt-0.6-a-5/src/test/org/quilt/cl/TestClassFactory.java	0	2	1	0	127	93
+org.quilt.cl.TestGraphTransformer		quilt-0.6-a-5/src/test/org/quilt/cl/TestGraphTransformer.java	0	2	1	0	233	169
+org.quilt.cl.TestNestedTryBlocks		quilt-0.6-a-5/src/test/org/quilt/cl/TestNestedTryBlocks.java	0	2	1	0	100	81
+org.quilt.cl.TestQCLJars		quilt-0.6-a-5/src/test/org/quilt/cl/TestQCLJars.java	0	2	1	0	128	99
+org.quilt.cl.TestQuiltClassLoader		quilt-0.6-a-5/src/test/org/quilt/cl/TestQuiltClassLoader.java	0	2	1	0	342	268
+org.quilt.cl.TestSamples		quilt-0.6-a-5/src/test/org/quilt/cl/TestSamples.java	0	2	1	0	114	81
+org.quilt.cl.TestSortedBlocks		quilt-0.6-a-5/src/test/org/quilt/cl/TestSortedBlocks.java	0	2	1	0	44	32
+org.quilt.cl.TestTransformer		quilt-0.6-a-5/src/test/org/quilt/cl/TestTransformer.java	0	2	1	0	230	163
+org.quilt.cl.TestTryStacks		quilt-0.6-a-5/src/test/org/quilt/cl/TestTryStacks.java	0	2	1	0	306	229
+org.quilt.cl.TestVertexData		quilt-0.6-a-5/src/test/org/quilt/cl/TestVertexData.java	0	2	1	0	66	45
+org.quilt.cl.TryStacks	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cl/TryStacks.java	0	0	0	0	279	163
+org.quilt.cl.TryStacks$1	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cl/TryStacks.java	0	0	0	2	0	0
+org.quilt.cl.TryStacks$CmpHandlers	quilt-0.6-a-5/quilt-0.6-a-5.jar	quilt-0.6-a-5/src/java/org/quilt/cl/TryStacks.java	0	0	0	2	0	0
+#Issues
+#======
+#SRC NO PUBLIC TYPE for quilt-0.6-a-5/src/java/org/quilt/cover/stmt/Ephemera.java.
+#SRC NO PUBLIC TYPE for quilt-0.6-a-5/src/test-data/PrivateClass.java.

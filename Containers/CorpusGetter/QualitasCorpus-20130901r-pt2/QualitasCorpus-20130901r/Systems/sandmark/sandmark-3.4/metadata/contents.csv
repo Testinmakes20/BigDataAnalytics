@@ -1,0 +1,2049 @@
+#2013-09-05T10:03:54NZST
+#System Version : sandmark-3.4
+#Source Packages: sandmark.
+#Ignore Packages: 
+#Distributed    : smark3
+#Source Roots   : smark3,smark3/doc,smark3/junit,smark3/sandmark/obfuscate/ArrayObfuscation,smark3/sandmark/watermark/gtw/eigen
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+BasicListener		smark3/sandmark/watermark/gtw/eigen/BasicListener.java	1	2	0	0	4	3
+CFGTest		smark3/doc/CFGTest.java	1	2	0	0	59	39
+EigenData		smark3/sandmark/watermark/gtw/eigen/EigenData.java	1	2	0	0	14	11
+EigenPanel		smark3/sandmark/watermark/gtw/eigen/EigenPanel.java	1	2	0	0	76	60
+Folder		smark3/sandmark/obfuscate/ArrayObfuscation/Folder.java	1	2	0	0	566	467
+Graph		smark3/sandmark/watermark/gtw/eigen/Graph.java	1	2	0	0	69	57
+GraphData		smark3/sandmark/watermark/gtw/eigen/GraphData.java	1	2	0	0	110	94
+GraphEigenvalues		smark3/sandmark/watermark/gtw/eigen/GraphEigenvalues.java	1	2	0	0	38	28
+GraphListener		smark3/sandmark/watermark/gtw/eigen/GraphListener.java	1	2	0	0	7	5
+GraphPanel		smark3/sandmark/watermark/gtw/eigen/GraphPanel.java	1	2	0	0	51	34
+HashHolder		smark3/sandmark/obfuscate/ArrayObfuscation/HashHolder.java	1	2	0	0	352	285
+KPartiteGraphData		smark3/sandmark/watermark/gtw/eigen/KPartiteGraphData.java	1	2	0	0	31	27
+RandomGraphData		smark3/sandmark/watermark/gtw/eigen/RandomGraphData.java	1	2	0	0	28	24
+RepaintingListener		smark3/sandmark/watermark/gtw/eigen/RepaintingListener.java	1	2	0	0	31	24
+SumData		smark3/sandmark/watermark/gtw/eigen/SumData.java	1	2	0	0	120	100
+SumsPanel		smark3/sandmark/watermark/gtw/eigen/SumsPanel.java	1	2	0	0	48	40
+TypeTest		smark3/doc/TypeTest.java	1	2	0	0	72	59
+sandmark.obfuscate.inliner.Inliner	sandmark.jar	smark3/sandmark/obfuscate/inliner/Inliner.java	0	0	0	0	140	120
+org.apache.bcel.verifier.exc.AssertionViolatedException	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.exc.ClassConstraintException	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.exc.CodeConstraintException	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.exc.InvalidMethodException	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.exc.LinkingConstraintException	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.exc.LoadingException	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.exc.LocalVariableInfoInconsistentException	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.exc.StaticCodeConstraintException	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.exc.StaticCodeInstructionConstraintException	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.exc.StaticCodeInstructionOperandConstraintException	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.exc.StructuralCodeConstraintException	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.exc.Utility	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.exc.VerificationException	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.exc.VerifierConstraintViolatedException	sandmark.jar		1	1	1	-1	0	0
+sandmark.gui.AboutDialog	sandmark.jar	smark3/sandmark/gui/AboutDialog.java	0	0	0	0	218	194
+sandmark.gui.AlgorithmComboBox	sandmark.jar	smark3/sandmark/gui/AlgorithmComboBox.java	0	0	0	0	101	92
+sandmark.gui.AlgorithmComboBox$1	sandmark.jar	smark3/sandmark/gui/AlgorithmComboBox.java	0	0	0	2	0	0
+sandmark.gui.AlgorithmComboBox$2	sandmark.jar	smark3/sandmark/gui/AlgorithmComboBox.java	0	0	0	2	0	0
+sandmark.gui.AlgorithmComboBox$3	sandmark.jar	smark3/sandmark/gui/AlgorithmComboBox.java	0	0	0	2	0	0
+sandmark.gui.AlgorithmComboBox$DescriptionListener	sandmark.jar	smark3/sandmark/gui/AlgorithmComboBox.java	0	0	0	2	0	0
+sandmark.gui.AlgorithmComboBox$MyComboBoxRenderer	sandmark.jar	smark3/sandmark/gui/AlgorithmComboBox.java	0	0	0	2	0	0
+sandmark.gui.AlgorithmPanel	sandmark.jar	smark3/sandmark/gui/AlgorithmPanel.java	0	0	0	0	9	7
+sandmark.gui.AppTree	sandmark.jar	smark3/sandmark/gui/AppTree.java	0	0	0	0	263	242
+sandmark.gui.AppTree$AppTreeModel	sandmark.jar	smark3/sandmark/gui/AppTree.java	0	0	0	2	0	0
+sandmark.gui.AppTree$AppTreeModel$ModelNode	sandmark.jar	smark3/sandmark/gui/AppTree.java	0	0	0	2	0	0
+sandmark.gui.AppTree$AppTreeModel$ModelNodeComparator	sandmark.jar	smark3/sandmark/gui/AppTree.java	0	0	0	2	0	0
+sandmark.gui.AppTree$TreeViewState	sandmark.jar	smark3/sandmark/gui/AppTree.java	0	0	0	2	0	0
+sandmark.gui.AppViewPanel	sandmark.jar	smark3/sandmark/gui/AppViewPanel.java	0	0	0	0	161	134
+sandmark.gui.AppViewPanel$1	sandmark.jar	smark3/sandmark/gui/AppViewPanel.java	0	0	0	2	0	0
+sandmark.gui.AppViewPanel$2	sandmark.jar	smark3/sandmark/gui/AppViewPanel.java	0	0	0	2	0	0
+sandmark.gui.AppViewPanel$GraphView	sandmark.jar	smark3/sandmark/gui/AppViewPanel.java	0	0	0	2	0	0
+sandmark.gui.BooleanPropertyInfo	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	1	0	0
+sandmark.gui.ClassPropertyInfo	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	1	0	0
+sandmark.gui.ClassSorter	sandmark.jar	smark3/sandmark/gui/ClassSorter.java	0	0	0	0	40	27
+sandmark.gui.ClassSorter$ReverseComparator	sandmark.jar	smark3/sandmark/gui/ClassSorter.java	0	0	0	2	0	0
+sandmark.gui.ClassViewPanel	sandmark.jar	smark3/sandmark/gui/ClassViewPanel.java	0	0	0	0	81	60
+sandmark.gui.ConfigPropertyPanel	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	0	606	534
+sandmark.gui.ConfigPropertyPanel$1	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	2	0	0
+sandmark.gui.CopyrightDialog	sandmark.jar	smark3/sandmark/gui/CopyrightDialog.java	0	0	0	0	66	57
+sandmark.gui.CurrentApplicationTracker	sandmark.jar	smark3/sandmark/gui/CurrentApplicationTracker.java	0	0	0	0	30	28
+sandmark.gui.DecompileDialog	sandmark.jar	smark3/sandmark/gui/DecompileDialog.java	0	0	0	0	67	43
+sandmark.gui.DecompileDialog$1	sandmark.jar	smark3/sandmark/gui/DecompileDialog.java	0	0	0	2	0	0
+sandmark.gui.DecompilePanel	sandmark.jar	smark3/sandmark/gui/DecompilePanel.java	0	0	0	0	89	74
+sandmark.gui.DecompilePanel$1	sandmark.jar	smark3/sandmark/gui/DecompilePanel.java	0	0	0	2	0	0
+sandmark.gui.DoublePropertyInfo	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	1	0	0
+sandmark.gui.DynamicBirthmarkPanel	sandmark.jar	smark3/sandmark/gui/DynamicBirthmarkPanel.java	0	0	0	0	303	184
+sandmark.gui.DynamicBirthmarkPanel$1	sandmark.jar	smark3/sandmark/gui/DynamicBirthmarkPanel.java	0	0	0	2	0	0
+sandmark.gui.DynamicBirthmarkPanel$1$1	sandmark.jar	smark3/sandmark/gui/DynamicBirthmarkPanel.java	0	0	0	2	0	0
+sandmark.gui.DynamicBirthmarkPanel$2	sandmark.jar	smark3/sandmark/gui/DynamicBirthmarkPanel.java	0	0	0	2	0	0
+sandmark.gui.DynamicEmbedPanel	sandmark.jar	smark3/sandmark/gui/DynamicEmbedPanel.java	0	0	0	0	136	116
+sandmark.gui.DynamicEmbedPanel$1	sandmark.jar	smark3/sandmark/gui/DynamicEmbedPanel.java	0	0	0	2	0	0
+sandmark.gui.DynamicEmbedPanel$1$1	sandmark.jar	smark3/sandmark/gui/DynamicEmbedPanel.java	0	0	0	2	0	0
+sandmark.gui.DynamicRecognizeButton	sandmark.jar	smark3/sandmark/gui/DynamicRecognizeButton.java	0	0	0	0	70	65
+sandmark.gui.DynamicRecognizeButton$1	sandmark.jar	smark3/sandmark/gui/DynamicRecognizeButton.java	0	0	0	2	0	0
+sandmark.gui.DynamicRecognizeButton$1$1	sandmark.jar	smark3/sandmark/gui/DynamicRecognizeButton.java	0	0	0	2	0	0
+sandmark.gui.DynamicRecognizePanel	sandmark.jar	smark3/sandmark/gui/DynamicRecognizePanel.java	0	0	0	0	120	97
+sandmark.gui.DynamicTracePanel	sandmark.jar	smark3/sandmark/gui/DynamicTracePanel.java	0	0	0	0	142	123
+sandmark.gui.DynamicTracePanel$1	sandmark.jar	smark3/sandmark/gui/DynamicTracePanel.java	0	0	0	2	0	0
+sandmark.gui.DynamicTracePanel$1$1	sandmark.jar	smark3/sandmark/gui/DynamicTracePanel.java	0	0	0	2	0	0
+sandmark.gui.DynamicWatermarkPanel	sandmark.jar	smark3/sandmark/gui/DynamicWatermarkPanel.java	0	0	0	0	113	86
+sandmark.gui.ExtensionFileFilter	sandmark.jar	smark3/sandmark/gui/ExtensionFileFilter.java	0	0	0	0	31	16
+sandmark.gui.FieldAndButtonPropertyInfo	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	1	0	0
+sandmark.gui.FileBrowseButtonEventListener	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	1	0	0
+sandmark.gui.FilePropertyInfo	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	1	0	0
+sandmark.gui.FilenameBox	sandmark.jar	smark3/sandmark/gui/FilenameBox.java	0	0	0	0	130	101
+sandmark.gui.FilenameBox$1	sandmark.jar	smark3/sandmark/gui/FilenameBox.java	0	0	0	2	0	0
+sandmark.gui.FilenameBox$2	sandmark.jar	smark3/sandmark/gui/FilenameBox.java	0	0	0	2	0	0
+sandmark.gui.FilenameBox$FileList	sandmark.jar	smark3/sandmark/gui/FilenameBox.java	0	0	0	2	0	0
+sandmark.gui.FilenameBox$Item	sandmark.jar	smark3/sandmark/gui/FilenameBox.java	0	0	0	2	0	0
+sandmark.gui.GraphDisplayButton	sandmark.jar	smark3/sandmark/gui/GraphDisplayButton.java	0	0	0	0	31	23
+sandmark.gui.HelpButton	sandmark.jar	smark3/sandmark/gui/HelpButton.java	0	0	0	0	26	23
+sandmark.gui.HelpDialog	sandmark.jar	smark3/sandmark/gui/HelpDialog.java	0	0	0	0	91	76
+sandmark.gui.HomePanel	sandmark.jar	smark3/sandmark/gui/HomePanel.java	0	0	0	0	96	85
+sandmark.gui.HomePanel$1	sandmark.jar	smark3/sandmark/gui/HomePanel.java	0	0	0	2	0	0
+sandmark.gui.HomePanel$2	sandmark.jar	smark3/sandmark/gui/HomePanel.java	0	0	0	2	0	0
+sandmark.gui.IntegerPropertyInfo	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	1	0	0
+sandmark.gui.JHoverButton	sandmark.jar	smark3/sandmark/gui/WebBrowser.java	0	0	0	1	0	0
+sandmark.gui.JarBrowseButtonEventListener	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	1	0	0
+sandmark.gui.JarPropertyInfo	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	1	0	0
+sandmark.gui.LiteHomePanel	sandmark.jar	smark3/sandmark/gui/LiteHomePanel.java	0	0	0	0	89	78
+sandmark.gui.LiteHomePanel$1	sandmark.jar	smark3/sandmark/gui/LiteHomePanel.java	0	0	0	2	0	0
+sandmark.gui.LiteHomePanel$2	sandmark.jar	smark3/sandmark/gui/LiteHomePanel.java	0	0	0	2	0	0
+sandmark.gui.LogPane	sandmark.jar	smark3/sandmark/gui/LogPane.java	0	0	0	0	52	38
+sandmark.gui.LogPane$LogWriter	sandmark.jar	smark3/sandmark/gui/LogPane.java	0	0	0	2	0	0
+sandmark.gui.MethodPropertyInfo	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	1	0	0
+sandmark.gui.MethodSliceGUI	sandmark.jar	smark3/sandmark/gui/MethodSliceGUI.java	0	0	0	0	149	128
+sandmark.gui.MethodSorter	sandmark.jar	smark3/sandmark/gui/MethodSorter.java	0	0	0	0	36	22
+sandmark.gui.MethodViewPanel	sandmark.jar	smark3/sandmark/gui/MethodViewPanel.java	0	0	0	0	232	197
+sandmark.gui.MethodViewPanel$1	sandmark.jar	smark3/sandmark/gui/MethodViewPanel.java	0	0	0	2	0	0
+sandmark.gui.MethodViewPanel$2	sandmark.jar	smark3/sandmark/gui/MethodViewPanel.java	0	0	0	2	0	0
+sandmark.gui.MethodViewPanel$GraphView	sandmark.jar	smark3/sandmark/gui/MethodViewPanel.java	0	0	0	2	0	0
+sandmark.gui.MetricTableModel	sandmark.jar	smark3/sandmark/gui/MetricTableModel.java	0	0	0	0	173	130
+sandmark.gui.MetricTableModel$1	sandmark.jar	smark3/sandmark/gui/MetricTableModel.java	0	0	0	2	0	0
+sandmark.gui.MetricTableModel$AppMetricGetter	sandmark.jar	smark3/sandmark/gui/MetricTableModel.java	0	0	0	2	0	0
+sandmark.gui.MetricTableModel$ClassMetricGetter	sandmark.jar	smark3/sandmark/gui/MetricTableModel.java	0	0	0	2	0	0
+sandmark.gui.MetricTableModel$MethodMetricGetter	sandmark.jar	smark3/sandmark/gui/MetricTableModel.java	0	0	0	2	0	0
+sandmark.gui.MetricTableModel$MetricCalcTask	sandmark.jar	smark3/sandmark/gui/MetricTableModel.java	0	0	0	2	0	0
+sandmark.gui.MetricTableModel$MetricCalculator	sandmark.jar	smark3/sandmark/gui/MetricTableModel.java	0	0	0	2	0	0
+sandmark.gui.MetricTableModel$MetricGetter	sandmark.jar	smark3/sandmark/gui/MetricTableModel.java	0	0	0	2	0	0
+sandmark.gui.MultiLineToolTipUI	sandmark.jar	smark3/sandmark/gui/MultiLineToolTipUI.java	0	0	0	0	202	155
+sandmark.gui.NextWMButton	sandmark.jar	smark3/sandmark/gui/NextWMButton.java	0	0	0	0	30	29
+sandmark.gui.NextWMButton$1	sandmark.jar	smark3/sandmark/gui/NextWMButton.java	0	0	0	2	0	0
+sandmark.gui.ObfDialog	sandmark.jar	smark3/sandmark/gui/ObfDialog.java	0	0	0	0	587	449
+sandmark.gui.ObfDialog$1	sandmark.jar	smark3/sandmark/gui/ObfDialog.java	0	0	0	2	0	0
+sandmark.gui.ObfDialog$2obfMapper	sandmark.jar	smark3/sandmark/gui/ObfDialog.java	0	0	0	2	0	0
+sandmark.gui.ObfDialog$3perfMapper	sandmark.jar	smark3/sandmark/gui/ObfDialog.java	0	0	0	2	0	0
+sandmark.gui.ObfDialog$ObfListModel	sandmark.jar	smark3/sandmark/gui/ObfDialog.java	0	0	0	2	0	0
+sandmark.gui.ObfuscatePanel	sandmark.jar	smark3/sandmark/gui/ObfuscatePanel.java	0	0	0	0	286	228
+sandmark.gui.ObfuscatePanel$1	sandmark.jar	smark3/sandmark/gui/ObfuscatePanel.java	0	0	0	2	0	0
+sandmark.gui.ObfuscatePanel$1$1	sandmark.jar	smark3/sandmark/gui/ObfuscatePanel.java	0	0	0	2	0	0
+sandmark.gui.OptimisePanel	sandmark.jar	smark3/sandmark/gui/OptimisePanel.java	0	0	0	0	279	219
+sandmark.gui.OptimisePanel$1	sandmark.jar	smark3/sandmark/gui/OptimisePanel.java	0	0	0	2	0	0
+sandmark.gui.OptimisePanel$2	sandmark.jar	smark3/sandmark/gui/OptimisePanel.java	0	0	0	2	0	0
+sandmark.gui.OptimisePanel$2$1	sandmark.jar	smark3/sandmark/gui/OptimisePanel.java	0	0	0	2	0	0
+sandmark.gui.PIFactory	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	1	0	0
+sandmark.gui.ProgramObjectPropertyInfo	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	1	0	0
+sandmark.gui.ProgramObjectPropertyInfo$1	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	2	0	0
+sandmark.gui.ProgramObjectPropertyInfo$1$1	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	2	0	0
+sandmark.gui.ProgramObjectPropertyInfo$1$2	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	2	0	0
+sandmark.gui.PropertyInfo	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	1	0	0
+sandmark.gui.QuickProtectPanel	sandmark.jar	smark3/sandmark/gui/QuickProtectPanel.java	0	0	0	0	305	252
+sandmark.gui.QuickProtectPanel$1	sandmark.jar	smark3/sandmark/gui/QuickProtectPanel.java	0	0	0	2	0	0
+sandmark.gui.QuickProtectPanel$2	sandmark.jar	smark3/sandmark/gui/QuickProtectPanel.java	0	0	0	2	0	0
+sandmark.gui.QuickProtectPanel$2$1	sandmark.jar	smark3/sandmark/gui/QuickProtectPanel.java	0	0	0	2	0	0
+sandmark.gui.QuickProtectPanel$3	sandmark.jar	smark3/sandmark/gui/QuickProtectPanel.java	0	0	0	2	0	0
+sandmark.gui.QuickProtectPanel$QuickProtectComboBox	sandmark.jar	smark3/sandmark/gui/QuickProtectPanel.java	0	0	0	2	0	0
+sandmark.gui.RecognizeButton	sandmark.jar	smark3/sandmark/gui/RecognizeButton.java	0	0	0	0	34	31
+sandmark.gui.RecognizeButton$1	sandmark.jar	smark3/sandmark/gui/RecognizeButton.java	0	0	0	2	0	0
+sandmark.gui.SMAlgHierTreeNode	sandmark.jar	smark3/sandmark/gui/SMAlgHierTreeNode.java	0	0	0	4	18	16
+sandmark.gui.SMAlgHierTreePane	sandmark.jar	smark3/sandmark/gui/SMAlgHierTreePane.java	0	0	0	0	111	93
+sandmark.gui.SMarkGUIConstants	sandmark.jar	smark3/sandmark/gui/SMarkGUIConstants.java	0	0	0	0	112	76
+sandmark.gui.SandMarkFrame	sandmark.jar	smark3/sandmark/gui/SandMarkFrame.java	0	0	0	0	227	191
+sandmark.gui.SandMarkFrame$1	sandmark.jar	smark3/sandmark/gui/SandMarkFrame.java	0	0	0	2	0	0
+sandmark.gui.SandMarkFrame$2	sandmark.jar	smark3/sandmark/gui/SandMarkFrame.java	0	0	0	2	0	0
+sandmark.gui.SandMarkFrame$3	sandmark.jar	smark3/sandmark/gui/SandMarkFrame.java	0	0	0	2	0	0
+sandmark.gui.SandMarkGUIConstants	sandmark.jar	smark3/sandmark/gui/SandMarkGUIConstants.java	0	0	0	0	68	49
+sandmark.gui.SandMarkLiteFrame	sandmark.jar	smark3/sandmark/gui/SandMarkLiteFrame.java	0	0	0	0	17	15
+sandmark.gui.SandMarkMenuBar	sandmark.jar	smark3/sandmark/gui/SandMarkMenuBar.java	0	0	0	0	73	63
+sandmark.gui.SandMarkMenuBar$1	sandmark.jar	smark3/sandmark/gui/SandMarkMenuBar.java	0	0	0	2	0	0
+sandmark.gui.SandMarkMenuBar$2	sandmark.jar	smark3/sandmark/gui/SandMarkMenuBar.java	0	0	0	2	0	0
+sandmark.gui.SandMarkMenuBar$3	sandmark.jar	smark3/sandmark/gui/SandMarkMenuBar.java	0	0	0	2	0	0
+sandmark.gui.SandMarkMenuBar$4	sandmark.jar	smark3/sandmark/gui/SandMarkMenuBar.java	0	0	0	2	0	0
+sandmark.gui.SandMarkPanel	sandmark.jar	smark3/sandmark/gui/SandMarkPanel.java	0	0	0	0	6	5
+sandmark.gui.SandMarkViewPanel	sandmark.jar	smark3/sandmark/gui/VSplitPanel.java	0	0	0	1	0	0
+sandmark.gui.SkinPanel	sandmark.jar	smark3/sandmark/gui/SkinPanel.java	0	0	0	0	44	34
+sandmark.gui.SliceRenderer	sandmark.jar	smark3/sandmark/gui/MethodSliceGUI.java	0	0	0	1	0	0
+sandmark.gui.SplashPanel	sandmark.jar	smark3/sandmark/gui/SplashPanel.java	0	0	0	0	40	34
+sandmark.gui.StatTableModel	sandmark.jar	smark3/sandmark/gui/StatTableModel.java	0	0	0	0	192	164
+sandmark.gui.StatTableModel$1	sandmark.jar	smark3/sandmark/gui/StatTableModel.java	0	0	0	2	0	0
+sandmark.gui.StatTableModel$ClassStat	sandmark.jar	smark3/sandmark/gui/StatTableModel.java	0	0	0	2	0	0
+sandmark.gui.StatTableModel$MethodStat	sandmark.jar	smark3/sandmark/gui/StatTableModel.java	0	0	0	2	0	0
+sandmark.gui.StatTableModel$Stat	sandmark.jar	smark3/sandmark/gui/StatTableModel.java	0	0	0	2	0	0
+sandmark.gui.StatTableModel$StatCalcTask	sandmark.jar	smark3/sandmark/gui/StatTableModel.java	0	0	0	2	0	0
+sandmark.gui.StatTableModel$StatCalculator	sandmark.jar	smark3/sandmark/gui/StatTableModel.java	0	0	0	2	0	0
+sandmark.gui.StaticBirthmarkPanel	sandmark.jar	smark3/sandmark/gui/StaticBirthmarkPanel.java	0	0	0	0	259	180
+sandmark.gui.StaticBirthmarkPanel$1	sandmark.jar	smark3/sandmark/gui/StaticBirthmarkPanel.java	0	0	0	2	0	0
+sandmark.gui.StaticBirthmarkPanel$1$1	sandmark.jar	smark3/sandmark/gui/StaticBirthmarkPanel.java	0	0	0	2	0	0
+sandmark.gui.StaticBirthmarkPanel$2	sandmark.jar	smark3/sandmark/gui/StaticBirthmarkPanel.java	0	0	0	2	0	0
+sandmark.gui.StaticEmbedPanel	sandmark.jar	smark3/sandmark/gui/StaticEmbedPanel.java	0	0	0	0	140	120
+sandmark.gui.StaticEmbedPanel$1	sandmark.jar	smark3/sandmark/gui/StaticEmbedPanel.java	0	0	0	2	0	0
+sandmark.gui.StaticEmbedPanel$1$1	sandmark.jar	smark3/sandmark/gui/StaticEmbedPanel.java	0	0	0	2	0	0
+sandmark.gui.StaticRecognizePanel	sandmark.jar	smark3/sandmark/gui/StaticRecognizePanel.java	0	0	0	0	118	95
+sandmark.gui.StaticWatermarkPanel	sandmark.jar	smark3/sandmark/gui/StaticWatermarkPanel.java	0	0	0	0	109	77
+sandmark.gui.StringPropertyInfo	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	1	0	0
+sandmark.gui.StringPropertyInfo$1	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	2	0	0
+sandmark.gui.StringPropertyInfo$ComboBox	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	2	0	0
+sandmark.gui.StringPropertyInfo$TextField	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	2	0	0
+sandmark.gui.StringPropertyInfo$Widget	sandmark.jar	smark3/sandmark/gui/ConfigPropertyPanel.java	0	0	0	2	0	0
+sandmark.gui.Utils	sandmark.jar	smark3/sandmark/gui/Utils.java	0	0	0	0	148	114
+sandmark.gui.Utils$LabeledSlider	sandmark.jar	smark3/sandmark/gui/Utils.java	0	0	0	2	0	0
+sandmark.gui.Utils$LabeledSlider$ValueMapper	sandmark.jar	smark3/sandmark/gui/Utils.java	0	0	0	2	0	0
+sandmark.gui.VSplitPanel	sandmark.jar	smark3/sandmark/gui/VSplitPanel.java	0	0	0	0	254	214
+sandmark.gui.VSplitPanel$1	sandmark.jar	smark3/sandmark/gui/VSplitPanel.java	0	0	0	2	0	0
+sandmark.gui.VSplitPanel$2	sandmark.jar	smark3/sandmark/gui/VSplitPanel.java	0	0	0	2	0	0
+sandmark.gui.VSplitPanel$3	sandmark.jar	smark3/sandmark/gui/VSplitPanel.java	0	0	0	2	0	0
+sandmark.gui.VSplitPanel$SortPanel	sandmark.jar	smark3/sandmark/gui/VSplitPanel.java	0	0	0	2	0	0
+sandmark.gui.ViewPanel	sandmark.jar	smark3/sandmark/gui/ViewPanel.java	0	0	0	0	20	6
+sandmark.gui.WebBrowser	sandmark.jar	smark3/sandmark/gui/WebBrowser.java	0	0	0	0	409	333
+sandmark.gui.diff.DiffFrame	sandmark.jar	smark3/sandmark/gui/diff/DiffFrame.java	0	0	0	0	418	316
+sandmark.gui.diff.DiffFrame$1	sandmark.jar	smark3/sandmark/gui/diff/DiffFrame.java	0	0	0	2	0	0
+sandmark.gui.diff.DiffFrame$2	sandmark.jar	smark3/sandmark/gui/diff/DiffFrame.java	0	0	0	2	0	0
+sandmark.gui.diff.DiffFrame$3	sandmark.jar	smark3/sandmark/gui/diff/DiffFrame.java	0	0	0	2	0	0
+sandmark.gui.diff.DiffFrame$4	sandmark.jar	smark3/sandmark/gui/diff/DiffFrame.java	0	0	0	2	0	0
+sandmark.gui.diff.DiffFrame$5	sandmark.jar	smark3/sandmark/gui/diff/DiffFrame.java	0	0	0	2	0	0
+sandmark.gui.diff.DiffFrame$BytecodeEP	sandmark.jar	smark3/sandmark/gui/diff/DiffFrame.java	0	0	0	2	0	0
+sandmark.gui.diff.DiffFrame$BytecodeEP$MyCellRenderer	sandmark.jar	smark3/sandmark/gui/diff/DiffFrame.java	0	0	0	2	0	0
+sandmark.gui.diff.DiffOptionsFrame	sandmark.jar	smark3/sandmark/gui/diff/DiffOptionsFrame.java	0	0	0	0	159	132
+sandmark.gui.diff.DiffOptionsFrame$1	sandmark.jar	smark3/sandmark/gui/diff/DiffOptionsFrame.java	0	0	0	2	0	0
+sandmark.gui.diff.DiffOptionsFrame$2	sandmark.jar	smark3/sandmark/gui/diff/DiffOptionsFrame.java	0	0	0	2	0	0
+sandmark.gui.diff.DiffOptionsFrame$3	sandmark.jar	smark3/sandmark/gui/diff/DiffOptionsFrame.java	0	0	0	2	0	0
+sandmark.gui.diff.DiffOptionsFrame$4	sandmark.jar	smark3/sandmark/gui/diff/DiffOptionsFrame.java	0	0	0	2	0	0
+sandmark.gui.diff.DiffOptionsFrame$5	sandmark.jar	smark3/sandmark/gui/diff/DiffOptionsFrame.java	0	0	0	2	0	0
+sandmark.gui.diff.DiffPanel	sandmark.jar	smark3/sandmark/gui/diff/DiffPanel.java	0	0	0	0	83	69
+sandmark.gui.diff.DiffPanel$1	sandmark.jar	smark3/sandmark/gui/diff/DiffPanel.java	0	0	0	2	0	0
+sandmark.gui.diff.ResultsPane	sandmark.jar	smark3/sandmark/gui/diff/ResultsPane.java	0	0	0	0	118	79
+sandmark.gui.diff.ResultsPane$1	sandmark.jar	smark3/sandmark/gui/diff/ResultsPane.java	0	0	0	2	0	0
+sandmark.obfuscate.localvar.VariableReassigner	sandmark.jar	smark3/sandmark/obfuscate/localvar/VariableReassigner.java	0	0	0	0	109	85
+sandmark.watermark.DynamicEmbedParameters	sandmark.jar	smark3/sandmark/watermark/DynamicEmbedParameters.java	0	0	0	0	20	6
+sandmark.watermark.DynamicRecognizeParameters	sandmark.jar	smark3/sandmark/watermark/DynamicRecognizeParameters.java	0	0	0	0	20	6
+sandmark.watermark.DynamicTraceParameters	sandmark.jar	smark3/sandmark/watermark/DynamicTraceParameters.java	0	0	0	0	21	7
+sandmark.watermark.DynamicWatermarker	sandmark.jar	smark3/sandmark/watermark/DynamicWatermarker.java	0	0	0	0	214	134
+sandmark.watermark.GeneralWatermarker	sandmark.jar	smark3/sandmark/watermark/GeneralWatermarker.java	0	0	0	0	57	25
+sandmark.watermark.StaticEmbed	sandmark.jar	smark3/sandmark/watermark/StaticEmbed.java	0	0	0	0	13	12
+sandmark.watermark.StaticEmbedParameters	sandmark.jar	smark3/sandmark/watermark/StaticEmbedParameters.java	0	0	0	0	20	6
+sandmark.watermark.StaticRecognize	sandmark.jar	smark3/sandmark/watermark/StaticRecognize.java	0	0	0	0	15	13
+sandmark.watermark.StaticRecognizeParameters	sandmark.jar	smark3/sandmark/watermark/StaticRecognizeParameters.java	0	0	0	0	19	5
+sandmark.watermark.StaticWatermarker	sandmark.jar	smark3/sandmark/watermark/StaticWatermarker.java	0	0	0	0	110	64
+sandmark.watermark.WatermarkingException	sandmark.jar	smark3/sandmark/watermark/WatermarkingException.java	0	0	0	0	13	9
+sandmark.obfuscate.setfieldspublic.SetFieldsPublic	sandmark.jar	smark3/sandmark/obfuscate/setfieldspublic/SetFieldsPublic.java	0	0	0	0	82	49
+sandmark.watermark.steganography.ImageHider	sandmark.jar	smark3/sandmark/watermark/steganography/ImageHider.java	0	0	0	0	132	57
+sandmark.watermark.steganography.StegLoader	sandmark.jar	smark3/sandmark/watermark/steganography/StegLoader.java	0	0	0	4	147	106
+sandmark.watermark.steganography.Steganography	sandmark.jar	smark3/sandmark/watermark/steganography/Steganography.java	0	0	0	0	458	318
+sandmark.watermark.steganography.Steganography$StegIterator	sandmark.jar	smark3/sandmark/watermark/steganography/Steganography.java	0	0	0	2	0	0
+sandmark.watermark.bogusswitch.Bogus_Switch	sandmark.jar	smark3/sandmark/watermark/bogusswitch/Bogus_Switch.java	0	0	0	0	213	143
+sandmark.watermark.bogusswitch.Bogus_Switch$Recognizer	sandmark.jar	smark3/sandmark/watermark/bogusswitch/Bogus_Switch.java	0	0	0	2	0	0
+sandmark.wizard.decision.priority.MaxPriorityStrategy	sandmark.jar	smark3/sandmark/wizard/decision/priority/MaxPriorityStrategy.java	0	0	0	0	129	91
+sandmark.wizard.decision.priority.MaxPriorityStrategy$1	sandmark.jar	smark3/sandmark/wizard/decision/priority/MaxPriorityStrategy.java	0	0	0	2	0	0
+sandmark.wizard.decision.priority.MaxPriorityStrategy$ChoiceWrapper	sandmark.jar	smark3/sandmark/wizard/decision/priority/MaxPriorityStrategy.java	0	0	0	2	0	0
+koala.dynamicjava.parser.ASCII_UCodeESC_CharStream	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.parser.ParseException	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.parser.Parser	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.parser.Parser$ArgumentsSuffix	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.parser.Parser$ArrayReferenceSuffix	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.parser.Parser$ClassBody	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.parser.Parser$CompileTimeExpression	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.parser.Parser$CompileTimeQualifiedName	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.parser.Parser$CompileTimeSuperExpression	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.parser.Parser$DotAllocationSuffix	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.parser.Parser$DotIdentifierSuffix	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.parser.Parser$DotThisSuffix	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.parser.Parser$ExpressionSuffix	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.parser.Parser$JJCalls	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.parser.Parser$ModifierFlags	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.parser.ParserConstants	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.parser.ParserTokenManager	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.parser.Token	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.parser.TokenMgrError	sandmark.jar		1	1	1	-1	0	0
+sandmark.util.newgraph.AbstractGraphStyle	sandmark.jar	smark3/sandmark/util/newgraph/AbstractGraphStyle.java	0	0	0	0	154	131
+sandmark.util.newgraph.AbstractStyle	sandmark.jar	smark3/sandmark/util/newgraph/AbstractGraphStyle.java	0	0	0	1	0	0
+sandmark.util.newgraph.AbstractStyle$1	sandmark.jar	smark3/sandmark/util/newgraph/AbstractGraphStyle.java	0	0	0	2	0	0
+sandmark.util.newgraph.AbstractStyle$EdgeAttributes	sandmark.jar	smark3/sandmark/util/newgraph/AbstractGraphStyle.java	0	0	0	2	0	0
+sandmark.util.newgraph.AbstractStyle$NodeAttributes	sandmark.jar	smark3/sandmark/util/newgraph/AbstractGraphStyle.java	0	0	0	2	0	0
+sandmark.util.newgraph.Afs	sandmark.jar	smark3/sandmark/util/newgraph/Afs.java	0	0	0	0	139	98
+sandmark.util.newgraph.DomNodeWrapper	sandmark.jar	smark3/sandmark/util/newgraph/DomTree.java	0	0	0	1	0	0
+sandmark.util.newgraph.DomTree	sandmark.jar	smark3/sandmark/util/newgraph/DomTree.java	0	0	0	0	327	276
+sandmark.util.newgraph.DomTree$1	sandmark.jar	smark3/sandmark/util/newgraph/DomTree.java	0	0	0	2	0	0
+sandmark.util.newgraph.DominatorTest		smark3/junit/sandmark/util/newgraph/DominatorTest.java	0	2	0	0	207	169
+sandmark.util.newgraph.DoubleEdgeWrapperIterator	sandmark.jar	smark3/sandmark/util/newgraph/DoubleEdgeWrapperIterator.java	0	0	0	4	35	29
+sandmark.util.newgraph.DoubleNodeWrapperIterator	sandmark.jar	smark3/sandmark/util/newgraph/DoubleNodeWrapperIterator.java	0	0	0	4	30	25
+sandmark.util.newgraph.Edge	sandmark.jar	smark3/sandmark/util/newgraph/Edge.java	0	0	0	0	8	7
+sandmark.util.newgraph.EdgeImpl	sandmark.jar	smark3/sandmark/util/newgraph/EdgeImpl.java	0	0	0	0	35	27
+sandmark.util.newgraph.EdgeIteratorWrapper	sandmark.jar	smark3/sandmark/util/newgraph/EdgeIteratorWrapper.java	0	0	0	4	28	24
+sandmark.util.newgraph.EdgeSet	sandmark.jar	smark3/sandmark/util/newgraph/EdgeSet.java	0	0	0	4	107	94
+sandmark.util.newgraph.EdgeSet$1	sandmark.jar	smark3/sandmark/util/newgraph/EdgeSet.java	0	0	0	2	0	0
+sandmark.util.newgraph.EdgeSet$WrapperListIterator	sandmark.jar	smark3/sandmark/util/newgraph/EdgeSet.java	0	0	0	2	0	0
+sandmark.util.newgraph.EdgeWrapper	sandmark.jar	smark3/sandmark/util/newgraph/EdgeWrapper.java	0	0	0	4	15	12
+sandmark.util.newgraph.EdgeWrapperArrayIterator	sandmark.jar	smark3/sandmark/util/newgraph/DomTree.java	0	0	0	1	0	0
+sandmark.util.newgraph.EdgeWrapperIterator	sandmark.jar	smark3/sandmark/util/newgraph/EdgeWrapperIterator.java	0	0	0	4	29	23
+sandmark.util.newgraph.EdgeWrapperIterator$1	sandmark.jar	smark3/sandmark/util/newgraph/EdgeWrapperIterator.java	0	0	0	2	0	0
+sandmark.util.newgraph.EdgelessGraph	sandmark.jar	smark3/sandmark/util/newgraph/EdgelessGraph.java	0	0	0	4	149	116
+sandmark.util.newgraph.EdgelessGraph$1	sandmark.jar	smark3/sandmark/util/newgraph/EdgelessGraph.java	0	0	0	2	0	0
+sandmark.util.newgraph.EditableGraphStyle	sandmark.jar	smark3/sandmark/util/newgraph/EditableGraphStyle.java	0	0	0	0	577	453
+sandmark.util.newgraph.EditableGraphStyle$EdgeAttributes	sandmark.jar	smark3/sandmark/util/newgraph/EditableGraphStyle.java	0	0	0	2	0	0
+sandmark.util.newgraph.EditableGraphStyle$NodeAttributes	sandmark.jar	smark3/sandmark/util/newgraph/EditableGraphStyle.java	0	0	0	2	0	0
+sandmark.util.newgraph.EditableGraphStyle$Pair	sandmark.jar	smark3/sandmark/util/newgraph/EditableGraphStyle.java	0	0	0	2	0	0
+sandmark.util.newgraph.EmptyGraph	sandmark.jar	smark3/sandmark/util/newgraph/EmptyGraph.java	0	0	0	4	115	87
+sandmark.util.newgraph.ExtraEdgeGraph	sandmark.jar	smark3/sandmark/util/newgraph/ExtraEdgeGraph.java	0	0	0	4	92	74
+sandmark.util.newgraph.ExtraEdgeWrapperIterator	sandmark.jar	smark3/sandmark/util/newgraph/ExtraEdgeWrapperIterator.java	0	0	0	4	27	23
+sandmark.util.newgraph.ExtraGraph	sandmark.jar	smark3/sandmark/util/newgraph/ExtraGraph.java	0	0	0	4	34	28
+sandmark.util.newgraph.ExtraNodeAttributes	sandmark.jar	smark3/sandmark/util/newgraph/ExtraStuffGraph.java	0	0	0	1	0	0
+sandmark.util.newgraph.ExtraNodeGraph	sandmark.jar	smark3/sandmark/util/newgraph/ExtraNodeGraph.java	0	0	0	4	83	65
+sandmark.util.newgraph.ExtraNodeIterator	sandmark.jar	smark3/sandmark/util/newgraph/ExtraStuffGraph.java	0	0	0	1	0	0
+sandmark.util.newgraph.ExtraNodeWrapperIterator	sandmark.jar	smark3/sandmark/util/newgraph/ExtraNodeWrapperIterator.java	0	0	0	4	21	18
+sandmark.util.newgraph.ExtraStuffGraph	sandmark.jar	smark3/sandmark/util/newgraph/ExtraStuffGraph.java	0	0	0	4	233	195
+sandmark.util.newgraph.Graph	sandmark.jar	smark3/sandmark/util/newgraph/Graph.java	0	0	0	0	1266	914
+sandmark.util.newgraph.Graph$1	sandmark.jar	smark3/sandmark/util/newgraph/Graph.java	0	0	0	2	0	0
+sandmark.util.newgraph.Graph$2	sandmark.jar	smark3/sandmark/util/newgraph/Graph.java	0	0	0	2	0	0
+sandmark.util.newgraph.Graph$3	sandmark.jar	smark3/sandmark/util/newgraph/Graph.java	0	0	0	2	0	0
+sandmark.util.newgraph.Graph$4	sandmark.jar	smark3/sandmark/util/newgraph/Graph.java	0	0	0	2	0	0
+sandmark.util.newgraph.Graph$5	sandmark.jar	smark3/sandmark/util/newgraph/Graph.java	0	0	0	2	0	0
+sandmark.util.newgraph.Graph$BreadthFirstIterator	sandmark.jar	smark3/sandmark/util/newgraph/Graph.java	0	0	0	2	0	0
+sandmark.util.newgraph.Graph$DepthFirstIterator	sandmark.jar	smark3/sandmark/util/newgraph/Graph.java	0	0	0	2	0	0
+sandmark.util.newgraph.Graph$PostOrderIterator	sandmark.jar	smark3/sandmark/util/newgraph/Graph.java	0	0	0	2	0	0
+sandmark.util.newgraph.Graph$PostOrderIterator$PathElement	sandmark.jar	smark3/sandmark/util/newgraph/Graph.java	0	0	0	2	0	0
+sandmark.util.newgraph.Graph$PredIterator	sandmark.jar	smark3/sandmark/util/newgraph/Graph.java	0	0	0	2	0	0
+sandmark.util.newgraph.Graph$SuccIterator	sandmark.jar	smark3/sandmark/util/newgraph/Graph.java	0	0	0	2	0	0
+sandmark.util.newgraph.GraphImpl	sandmark.jar	smark3/sandmark/util/newgraph/GraphImpl.java	0	0	0	0	207	170
+sandmark.util.newgraph.GraphImpl$1	sandmark.jar	smark3/sandmark/util/newgraph/GraphImpl.java	0	0	0	2	0	0
+sandmark.util.newgraph.GraphListener	sandmark.jar	smark3/sandmark/util/newgraph/GraphListener.java	0	0	0	0	5	4
+sandmark.util.newgraph.GraphStyle	sandmark.jar	smark3/sandmark/util/newgraph/GraphStyle.java	0	0	0	0	47	36
+sandmark.util.newgraph.GraphTest		smark3/junit/sandmark/util/newgraph/GraphTest.java	0	2	0	0	219	195
+sandmark.util.newgraph.Graphs	sandmark.jar	smark3/sandmark/util/newgraph/Graphs.java	0	0	0	0	235	154
+sandmark.util.newgraph.ImmutableGraphStyle	sandmark.jar	smark3/sandmark/util/newgraph/AbstractGraphStyle.java	0	0	0	1	0	0
+sandmark.util.newgraph.ImplNodeAttributes	sandmark.jar	smark3/sandmark/util/newgraph/GraphImpl.java	0	0	0	1	0	0
+sandmark.util.newgraph.ImplNodeWrapper	sandmark.jar	smark3/sandmark/util/newgraph/GraphImpl.java	0	0	0	1	0	0
+sandmark.util.newgraph.LabeledEdge	sandmark.jar	smark3/sandmark/util/newgraph/LabeledEdge.java	0	0	0	0	32	27
+sandmark.util.newgraph.LabeledNode	sandmark.jar	smark3/sandmark/util/newgraph/LabeledNode.java	0	0	0	0	19	5
+sandmark.util.newgraph.MissingEdgeGraph	sandmark.jar	smark3/sandmark/util/newgraph/MissingEdgeGraph.java	0	0	0	4	96	77
+sandmark.util.newgraph.MissingEdgeWrapperIterator	sandmark.jar	smark3/sandmark/util/newgraph/MissingEdgeWrapperIterator.java	0	0	0	4	31	27
+sandmark.util.newgraph.MissingGraph	sandmark.jar	smark3/sandmark/util/newgraph/MissingGraph.java	0	0	0	4	49	43
+sandmark.util.newgraph.MissingNodeAttributes	sandmark.jar	smark3/sandmark/util/newgraph/MissingStuffGraph.java	0	0	0	1	0	0
+sandmark.util.newgraph.MissingNodeGraph	sandmark.jar	smark3/sandmark/util/newgraph/MissingNodeGraph.java	0	0	0	4	116	95
+sandmark.util.newgraph.MissingNodeGraph$1	sandmark.jar	smark3/sandmark/util/newgraph/MissingNodeGraph.java	0	0	0	2	0	0
+sandmark.util.newgraph.MissingNodeIterator	sandmark.jar	smark3/sandmark/util/newgraph/MissingStuffGraph.java	0	0	0	1	0	0
+sandmark.util.newgraph.MissingStuffGraph	sandmark.jar	smark3/sandmark/util/newgraph/MissingStuffGraph.java	0	0	0	4	280	233
+sandmark.util.newgraph.MissingStuffGraph$MissingEdgeWrapperIterator	sandmark.jar	smark3/sandmark/util/newgraph/MissingStuffGraph.java	0	0	0	2	0	0
+sandmark.util.newgraph.MissingStuffGraph$MissingNodeWrapperIterator	sandmark.jar	smark3/sandmark/util/newgraph/MissingStuffGraph.java	0	0	0	2	0	0
+sandmark.util.newgraph.MutableGraph	sandmark.jar	smark3/sandmark/util/newgraph/MutableGraph.java	0	0	0	0	281	210
+sandmark.util.newgraph.MutableGraph$EdgeIterator	sandmark.jar	smark3/sandmark/util/newgraph/MutableGraph.java	0	0	0	2	0	0
+sandmark.util.newgraph.MutableGraph$NodeIterator	sandmark.jar	smark3/sandmark/util/newgraph/MutableGraph.java	0	0	0	2	0	0
+sandmark.util.newgraph.MutableGraphStyle	sandmark.jar	smark3/sandmark/util/newgraph/AbstractGraphStyle.java	0	0	0	1	0	0
+sandmark.util.newgraph.MutableIteratorWrapper	sandmark.jar	smark3/sandmark/util/newgraph/MutableGraph.java	0	0	0	1	0	0
+sandmark.util.newgraph.Node	sandmark.jar	smark3/sandmark/util/newgraph/Node.java	0	0	0	0	42	31
+sandmark.util.newgraph.NodeAttributes	sandmark.jar	smark3/sandmark/util/newgraph/NodeAttributes.java	0	0	0	4	29	21
+sandmark.util.newgraph.NodeFactory	sandmark.jar	smark3/sandmark/util/newgraph/NodeFactory.java	0	0	0	0	5	4
+sandmark.util.newgraph.NodeWrapper	sandmark.jar	smark3/sandmark/util/newgraph/NodeWrapper.java	0	0	0	4	131	98
+sandmark.util.newgraph.NodeWrapperIterator	sandmark.jar	smark3/sandmark/util/newgraph/NodeWrapperIterator.java	0	0	0	4	28	22
+sandmark.util.newgraph.NodeWrapperIterator$1	sandmark.jar	smark3/sandmark/util/newgraph/NodeWrapperIterator.java	0	0	0	2	0	0
+sandmark.util.newgraph.Path	sandmark.jar	smark3/sandmark/util/newgraph/Path.java	0	0	0	0	190	112
+sandmark.util.newgraph.RecursiveGraph	sandmark.jar	smark3/sandmark/util/newgraph/RecursiveGraph.java	0	0	0	4	24	20
+sandmark.util.newgraph.ReversedGraph	sandmark.jar	smark3/sandmark/util/newgraph/ReversedGraph.java	0	0	0	4	112	89
+sandmark.util.newgraph.ReversedGraph$ReversedEdgeIterator	sandmark.jar	smark3/sandmark/util/newgraph/ReversedGraph.java	0	0	0	2	0	0
+sandmark.util.newgraph.SingleEdgeWrapperIterator	sandmark.jar	smark3/sandmark/util/newgraph/SingleEdgeWrapperIterator.java	0	0	0	4	19	15
+sandmark.util.newgraph.SingleNodeWrapperIterator	sandmark.jar	smark3/sandmark/util/newgraph/SingleNodeWrapperIterator.java	0	0	0	4	15	12
+sandmark.util.newgraph.Status	sandmark.jar	smark3/sandmark/util/newgraph/Status.java	0	0	0	4	22	18
+sandmark.util.newgraph.StatusEdgeSet	sandmark.jar	smark3/sandmark/util/newgraph/StatusEdgeSet.java	0	0	0	0	30	25
+sandmark.util.newgraph.Style	sandmark.jar	smark3/sandmark/util/newgraph/Style.java	0	0	0	0	16	14
+sandmark.util.newgraph.TreeNodeWrapper	sandmark.jar	smark3/sandmark/util/newgraph/DomTree.java	0	0	0	1	0	0
+sandmark.util.newgraph.TypedEdge	sandmark.jar	smark3/sandmark/util/newgraph/TypedEdge.java	0	0	0	0	13	12
+koala.dynamicjava.interpreter.throwable.BreakException	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.throwable.ContinueException	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.throwable.ReturnException	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.throwable.ThrownException	sandmark.jar		1	1	1	-1	0	0
+sandmark.util.stealth.Cluster	sandmark.jar	smark3/sandmark/util/stealth/Cluster.java	0	0	0	0	487	385
+sandmark.util.stealth.Stealth	sandmark.jar	smark3/sandmark/util/stealth/Stealth.java	0	0	0	0	118	85
+sandmark.diff.Coloring	sandmark.jar	smark3/sandmark/diff/Coloring.java	0	0	0	0	105	53
+sandmark.diff.Coloring$Line	sandmark.jar	smark3/sandmark/diff/Coloring.java	0	0	0	2	0	0
+sandmark.diff.DiffAlgorithm	sandmark.jar	smark3/sandmark/diff/DiffAlgorithm.java	0	0	0	0	80	27
+sandmark.diff.DiffOptions	sandmark.jar	smark3/sandmark/diff/DiffOptions.java	0	0	0	0	98	59
+sandmark.diff.DiffUtil	sandmark.jar	smark3/sandmark/diff/DiffUtil.java	0	0	0	0	204	134
+sandmark.diff.InstructionWrapper	sandmark.jar	smark3/sandmark/diff/InstructionWrapper.java	0	0	0	0	194	174
+sandmark.diff.LCS	sandmark.jar	smark3/sandmark/diff/LCS.java	0	0	0	0	112	72
+sandmark.diff.Monitorable	sandmark.jar	smark3/sandmark/diff/Monitorable.java	0	0	0	0	25	6
+sandmark.diff.Result	sandmark.jar	smark3/sandmark/diff/Result.java	0	0	0	0	45	28
+sandmark.obfuscate.nameoverloading.NameOverloading	sandmark.jar	smark3/sandmark/obfuscate/nameoverloading/NameOverloading.java	0	0	0	0	346	245
+sandmark.obfuscate.nameoverloading.NameOverloading$FieldNameAndSig	sandmark.jar	smark3/sandmark/obfuscate/nameoverloading/NameOverloading.java	0	0	0	2	0	0
+sandmark.obfuscate.nameoverloading.NameOverloading$MethodNameAndSig	sandmark.jar	smark3/sandmark/obfuscate/nameoverloading/NameOverloading.java	0	0	0	2	0	0
+koala.dynamicjava.gui.resource.ActionMap	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.gui.resource.ButtonFactory	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.gui.resource.JComponentModifier	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.gui.resource.MenuFactory	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.gui.resource.MissingListenerException	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.gui.resource.ResourceFormatException	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.gui.resource.ResourceManager	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.gui.resource.ToolBarFactory	sandmark.jar		1	1	1	-1	0	0
+sandmark.Algorithm	sandmark.jar	smark3/sandmark/Algorithm.java	0	0	0	0	181	46
+sandmark.AppAlgorithm	sandmark.jar	smark3/sandmark/AppAlgorithm.java	0	0	0	0	3	2
+sandmark.ClassAlgorithm	sandmark.jar	smark3/sandmark/ClassAlgorithm.java	0	0	0	0	3	2
+sandmark.Console	sandmark.jar	smark3/sandmark/Console.java	0	0	0	0	92	44
+sandmark.Constants	sandmark.jar	smark3/sandmark/Constants.java	0	0	0	0	92	46
+sandmark.MethodAlgorithm	sandmark.jar	smark3/sandmark/MethodAlgorithm.java	0	0	0	0	3	2
+sandmark.util.newgraph.codec.AbstractCodec	sandmark.jar	smark3/sandmark/util/newgraph/codec/AbstractCodec.java	0	0	0	4	57	47
+sandmark.util.newgraph.codec.CatalanNumbers	sandmark.jar	smark3/sandmark/util/newgraph/codec/CatalanNumbers.java	0	0	0	0	49	21
+sandmark.util.newgraph.codec.CycleAndDigitsCodec	sandmark.jar	smark3/sandmark/util/newgraph/codec/CycleAndDigitsCodec.java	0	0	0	0	197	183
+sandmark.util.newgraph.codec.CycleAndPathWrapper	sandmark.jar	smark3/sandmark/util/newgraph/codec/CycleAndPathWrapper.java	0	0	0	0	372	329
+sandmark.util.newgraph.codec.CycleAndPathWrapper$CycleState	sandmark.jar	smark3/sandmark/util/newgraph/codec/CycleAndPathWrapper.java	0	0	0	2	0	0
+sandmark.util.newgraph.codec.DecodeFailure	sandmark.jar	smark3/sandmark/util/newgraph/codec/DecodeFailure.java	0	0	0	0	11	9
+sandmark.util.newgraph.codec.DefaultNodeFactory	sandmark.jar	smark3/sandmark/util/newgraph/codec/AbstractCodec.java	0	0	0	1	0	0
+sandmark.util.newgraph.codec.GraphCodec	sandmark.jar	smark3/sandmark/util/newgraph/codec/GraphCodec.java	0	0	0	0	18	14
+sandmark.util.newgraph.codec.PermutationGraph	sandmark.jar	smark3/sandmark/util/newgraph/codec/PermutationGraph.java	0	0	0	0	75	59
+sandmark.util.newgraph.codec.PlantedPlaneCubicTree	sandmark.jar	smark3/sandmark/util/newgraph/codec/PlantedPlaneCubicTree.java	0	0	0	0	301	239
+sandmark.util.newgraph.codec.PlantedPlaneCubicTree$BTreeNode	sandmark.jar	smark3/sandmark/util/newgraph/codec/PlantedPlaneCubicTree.java	0	0	0	2	0	0
+sandmark.util.newgraph.codec.PlantedPlaneCubicTree$NTreeNode	sandmark.jar	smark3/sandmark/util/newgraph/codec/PlantedPlaneCubicTree.java	0	0	0	2	0	0
+sandmark.util.newgraph.codec.RPGTest		smark3/junit/sandmark/util/newgraph/codec/RPGTest.java	0	2	0	0	24	22
+sandmark.util.newgraph.codec.RadixGraph	sandmark.jar	smark3/sandmark/util/newgraph/codec/RadixGraph.java	0	0	0	0	46	41
+sandmark.util.newgraph.codec.ReduciblePermutationGraph	sandmark.jar	smark3/sandmark/util/newgraph/codec/ReduciblePermutationGraph.java	0	0	0	0	554	452
+sandmark.util.newgraph.codec.ReduciblePermutationGraph$BackEdge	sandmark.jar	smark3/sandmark/util/newgraph/codec/ReduciblePermutationGraph.java	0	0	0	2	0	0
+sandmark.util.newgraph.codec.ReduciblePermutationGraph$Decoder	sandmark.jar	smark3/sandmark/util/newgraph/codec/ReduciblePermutationGraph.java	0	0	0	2	0	0
+sandmark.util.newgraph.codec.TotallyBalancedBinarySequence	sandmark.jar	smark3/sandmark/util/newgraph/codec/TotallyBalancedBinarySequence.java	0	0	0	0	157	106
+sandmark.util.newgraph.codec.TypedEdgeCodec	sandmark.jar	smark3/sandmark/util/newgraph/codec/TypedEdgeCodec.java	0	0	0	0	4	3
+sandmark.util.newgraph.codec.WrapperCodec	sandmark.jar	smark3/sandmark/util/newgraph/codec/WrapperCodec.java	0	0	0	0	5	4
+sandmark.birthmark.windows.SlidingWindow	sandmark.jar	smark3/sandmark/birthmark/windows/SlidingWindow.java	0	0	0	0	156	125
+sandmark.birthmark.windows.Window	sandmark.jar	smark3/sandmark/birthmark/windows/Window.java	0	0	0	0	22	21
+sandmark.birthmark.windows.WindowState	sandmark.jar	smark3/sandmark/birthmark/windows/WindowState.java	0	0	0	0	87	82
+sandmark.watermark.ct.embed.AddParameters	sandmark.jar	smark3/sandmark/watermark/ct/embed/AddParameters.java	0	0	0	0	504	315
+sandmark.watermark.ct.embed.DeleteMarkCalls	sandmark.jar	smark3/sandmark/watermark/ct/embed/DeleteMarkCalls.java	0	0	0	0	135	77
+sandmark.watermark.ct.embed.Distribute	sandmark.jar	smark3/sandmark/watermark/ct/embed/Distribute.java	0	0	0	0	425	253
+sandmark.watermark.ct.embed.Distribute$ClassHierarchy	sandmark.jar	smark3/sandmark/watermark/ct/embed/Distribute.java	0	0	0	2	0	0
+sandmark.watermark.ct.embed.Distribute$TraceLocation	sandmark.jar	smark3/sandmark/watermark/ct/embed/Distribute.java	0	0	0	2	0	0
+sandmark.watermark.ct.embed.EmbedData	sandmark.jar	smark3/sandmark/watermark/ct/embed/EmbedData.java	0	0	0	0	56	23
+sandmark.watermark.ct.embed.Embedder	sandmark.jar	smark3/sandmark/watermark/ct/embed/Embedder.java	0	0	0	0	347	188
+sandmark.watermark.ct.embed.Embedder$1	sandmark.jar	smark3/sandmark/watermark/ct/embed/Embedder.java	0	0	0	2	0	0
+sandmark.watermark.ct.embed.Inliner	sandmark.jar	smark3/sandmark/watermark/ct/embed/Inliner.java	0	0	0	0	101	70
+sandmark.watermark.ct.embed.InsertStorageCreators	sandmark.jar	smark3/sandmark/watermark/ct/embed/InsertStorageCreators.java	0	0	0	0	226	96
+sandmark.watermark.ct.embed.InsertionPoint	sandmark.jar	smark3/sandmark/watermark/ct/embed/ReplaceMarkCalls.java	0	0	0	1	0	0
+sandmark.watermark.ct.embed.InsertionPoints	sandmark.jar	smark3/sandmark/watermark/ct/embed/InsertionPoints.java	0	0	0	4	339	242
+sandmark.watermark.ct.embed.MarkLocation	sandmark.jar	smark3/sandmark/watermark/ct/embed/ReplaceMarkCalls.java	0	0	0	1	0	0
+sandmark.watermark.ct.embed.PrepareTrace	sandmark.jar	smark3/sandmark/watermark/ct/embed/PrepareTrace.java	0	0	0	0	287	172
+sandmark.watermark.ct.embed.PrepareTrace$TraceLocation	sandmark.jar	smark3/sandmark/watermark/ct/embed/PrepareTrace.java	0	0	0	2	0	0
+sandmark.watermark.ct.embed.ReplaceMarkCalls	sandmark.jar	smark3/sandmark/watermark/ct/embed/ReplaceMarkCalls.java	0	0	0	0	335	175
+sandmark.watermark.ct.embed.ReplaceWMClass	sandmark.jar	smark3/sandmark/watermark/ct/embed/ReplaceWMClass.java	0	0	0	0	336	254
+sandmark.wizard.evaluation.hprof.Hprof	sandmark.jar	smark3/sandmark/wizard/evaluation/hprof/Hprof.java	0	0	0	0	231	178
+sandmark.wizard.evaluation.hprof.Hprof$CPU_Data	sandmark.jar	smark3/sandmark/wizard/evaluation/hprof/Hprof.java	0	0	0	2	0	0
+sandmark.wizard.decision.random.Random	sandmark.jar	smark3/sandmark/wizard/decision/random/Random.java	0	0	0	0	30	23
+sandmark.watermark.constantstring.ConstantString	sandmark.jar	smark3/sandmark/watermark/constantstring/ConstantString.java	0	0	0	0	202	111
+sandmark.watermark.constantstring.ConstantString$Recognizer	sandmark.jar	smark3/sandmark/watermark/constantstring/ConstantString.java	0	0	0	2	0	0
+sandmark.watermark.constantstring.Program		smark3/sandmark/watermark/constantstring/Program.java	0	2	0	0	6	4
+sandmark.decompile.Decompile	sandmark.jar	smark3/sandmark/decompile/Decompile.java	0	0	0	0	129	76
+sandmark.analysis.stacksimulator.ArrayReferenceData	sandmark.jar	smark3/sandmark/analysis/stacksimulator/StackData.java	0	0	0	1	0	0
+sandmark.analysis.stacksimulator.BooleanData	sandmark.jar	smark3/sandmark/analysis/stacksimulator/StackData.java	0	0	0	1	0	0
+sandmark.analysis.stacksimulator.CaughtExceptionData	sandmark.jar	smark3/sandmark/analysis/stacksimulator/CaughtExceptionData.java	0	0	0	0	29	22
+sandmark.analysis.stacksimulator.ClearStackContext	sandmark.jar	smark3/sandmark/analysis/stacksimulator/ClearStackContext.java	0	0	0	4	27	20
+sandmark.analysis.stacksimulator.CompositeBooleanData	sandmark.jar	smark3/sandmark/analysis/stacksimulator/StackData.java	0	0	0	1	0	0
+sandmark.analysis.stacksimulator.CompositeDoubleData	sandmark.jar	smark3/sandmark/analysis/stacksimulator/StackData.java	0	0	0	1	0	0
+sandmark.analysis.stacksimulator.CompositeFloatData	sandmark.jar	smark3/sandmark/analysis/stacksimulator/StackData.java	0	0	0	1	0	0
+sandmark.analysis.stacksimulator.CompositeIntData	sandmark.jar	smark3/sandmark/analysis/stacksimulator/StackData.java	0	0	0	1	0	0
+sandmark.analysis.stacksimulator.CompositeLongData	sandmark.jar	smark3/sandmark/analysis/stacksimulator/StackData.java	0	0	0	1	0	0
+sandmark.analysis.stacksimulator.Context	sandmark.jar	smark3/sandmark/analysis/stacksimulator/Context.java	0	0	0	0	212	174
+sandmark.analysis.stacksimulator.DoubleData	sandmark.jar	smark3/sandmark/analysis/stacksimulator/StackData.java	0	0	0	1	0	0
+sandmark.analysis.stacksimulator.EmptyContext	sandmark.jar	smark3/sandmark/analysis/stacksimulator/EmptyContext.java	0	0	0	4	30	22
+sandmark.analysis.stacksimulator.FloatData	sandmark.jar	smark3/sandmark/analysis/stacksimulator/StackData.java	0	0	0	1	0	0
+sandmark.analysis.stacksimulator.IntData	sandmark.jar	smark3/sandmark/analysis/stacksimulator/StackData.java	0	0	0	1	0	0
+sandmark.analysis.stacksimulator.LongData	sandmark.jar	smark3/sandmark/analysis/stacksimulator/StackData.java	0	0	0	1	0	0
+sandmark.analysis.stacksimulator.MergeContext	sandmark.jar	smark3/sandmark/analysis/stacksimulator/MergeContext.java	0	0	0	4	82	66
+sandmark.analysis.stacksimulator.PopContext	sandmark.jar	smark3/sandmark/analysis/stacksimulator/PopContext.java	0	0	0	4	31	24
+sandmark.analysis.stacksimulator.PrimitiveData	sandmark.jar	smark3/sandmark/analysis/stacksimulator/PrimitiveData.java	0	0	0	4	70	51
+sandmark.analysis.stacksimulator.PushContext	sandmark.jar	smark3/sandmark/analysis/stacksimulator/PushContext.java	0	0	0	4	43	36
+sandmark.analysis.stacksimulator.ReferenceData	sandmark.jar	smark3/sandmark/analysis/stacksimulator/ReferenceData.java	0	0	0	4	50	26
+sandmark.analysis.stacksimulator.ReplaceStackContext	sandmark.jar	smark3/sandmark/analysis/stacksimulator/ReplaceStackContext.java	0	0	0	4	38	31
+sandmark.analysis.stacksimulator.ReplaceVarContext	sandmark.jar	smark3/sandmark/analysis/stacksimulator/ReplaceVarContext.java	0	0	0	4	38	31
+sandmark.analysis.stacksimulator.ReturnaddressData	sandmark.jar	smark3/sandmark/analysis/stacksimulator/ReturnaddressData.java	0	0	0	0	36	29
+sandmark.analysis.stacksimulator.StackData	sandmark.jar	smark3/sandmark/analysis/stacksimulator/StackData.java	0	0	0	0	486	368
+sandmark.analysis.stacksimulator.StackSimulator	sandmark.jar	smark3/sandmark/analysis/stacksimulator/StackSimulator.java	0	0	0	0	2110	1824
+sandmark.analysis.stacksimulator.UndefinedContext	sandmark.jar	smark3/sandmark/analysis/stacksimulator/UndefinedContext.java	0	0	0	4	52	42
+sandmark.analysis.stacksimulator.UninitializedReferenceData	sandmark.jar	smark3/sandmark/analysis/stacksimulator/UninitializedReferenceData.java	0	0	0	4	31	27
+sandmark.watermark.addmethfield.AddMethField	sandmark.jar	smark3/sandmark/watermark/addmethfield/AddMethField.java	0	0	0	0	343	230
+sandmark.watermark.addmethfield.AddMethField$Recognizer	sandmark.jar	smark3/sandmark/watermark/addmethfield/AddMethField.java	0	0	0	2	0	0
+sandmark.obfuscate.appendboguscode.AppendBogusCode	sandmark.jar	smark3/sandmark/obfuscate/appendboguscode/AppendBogusCode.java	0	0	0	0	173	119
+sandmark.obfuscate.instructionordering.InstructionOrdering	sandmark.jar	smark3/sandmark/obfuscate/instructionordering/InstructionOrdering.java	0	0	0	0	243	193
+sandmark.obfuscate.instructionordering.InstructionOrdering$BlockComparator	sandmark.jar	smark3/sandmark/obfuscate/instructionordering/InstructionOrdering.java	0	0	0	2	0	0
+junit.runner.BaseTestRunner	sandmark.jar		1	1	1	-1	0	0
+junit.runner.ClassPathTestCollector	sandmark.jar		1	1	1	-1	0	0
+junit.runner.FailureDetailView	sandmark.jar		1	1	1	-1	0	0
+junit.runner.LoadingTestCollector	sandmark.jar		1	1	1	-1	0	0
+junit.runner.ReloadingTestSuiteLoader	sandmark.jar		1	1	1	-1	0	0
+junit.runner.SimpleTestCollector	sandmark.jar		1	1	1	-1	0	0
+junit.runner.Sorter	sandmark.jar		1	1	1	-1	0	0
+junit.runner.Sorter$Swapper	sandmark.jar		1	1	1	2	0	0
+junit.runner.StandardTestSuiteLoader	sandmark.jar		1	1	1	-1	0	0
+junit.runner.TestCaseClassLoader	sandmark.jar		1	1	1	-1	0	0
+junit.runner.TestCollector	sandmark.jar		1	1	1	-1	0	0
+junit.runner.TestRunListener	sandmark.jar		1	1	1	-1	0	0
+junit.runner.TestSuiteLoader	sandmark.jar		1	1	1	-1	0	0
+junit.runner.Version	sandmark.jar		1	1	1	-1	0	0
+sandmark.diff.classdiff.ClassDiffAlgorithm	sandmark.jar	smark3/sandmark/diff/classdiff/ClassDiffAlgorithm.java	0	0	0	0	109	61
+sandmark.diff.classdiff.ConstPoolDiff	sandmark.jar	smark3/sandmark/diff/classdiff/ConstPoolDiff.java	0	0	0	0	76	49
+sandmark.obfuscate.insertopaquepred.InsertOpaquePred	sandmark.jar	smark3/sandmark/obfuscate/insertopaquepred/InsertOpaquePred.java	0	0	0	0	123	109
+sandmark.wizard.modeling.wmdag.WMDAG	sandmark.jar	smark3/sandmark/wizard/modeling/wmdag/WMDAG.java	0	0	0	0	272	248
+sandmark.wizard.modeling.wmdag.WMDAGNode	sandmark.jar	smark3/sandmark/wizard/modeling/wmdag/WMDAGNode.java	0	0	0	0	49	30
+sandmark.wizard.executive.DAGWatermark	sandmark.jar	smark3/sandmark/wizard/executive/DAGWatermark.java	0	0	0	0	111	86
+sandmark.wizard.executive.RandomWatermark	sandmark.jar	smark3/sandmark/wizard/executive/RandomWatermark.java	0	0	0	0	136	105
+sandmark.util.exec.Breakpoint	sandmark.jar	smark3/sandmark/util/exec/Breakpoint.java	0	0	0	0	81	55
+sandmark.util.exec.DumpAll	sandmark.jar	smark3/sandmark/util/exec/DumpAll.java	0	0	0	4	97	75
+sandmark.util.exec.EventHandler	sandmark.jar	smark3/sandmark/util/exec/EventHandler.java	0	0	0	0	20	13
+sandmark.util.exec.EventThread	sandmark.jar	smark3/sandmark/util/exec/EventThread.java	0	0	0	0	302	211
+sandmark.util.exec.EventThread$BreakpointEvent	sandmark.jar	smark3/sandmark/util/exec/EventThread.java	0	0	0	2	0	0
+sandmark.util.exec.EventThread$ExitBreakpoint	sandmark.jar	smark3/sandmark/util/exec/EventThread.java	0	0	0	2	0	0
+sandmark.util.exec.Heap	sandmark.jar	smark3/sandmark/util/exec/Heap.java	0	0	0	0	323	248
+sandmark.util.exec.HeapData	sandmark.jar	smark3/sandmark/util/exec/HeapData.java	0	0	0	0	39	33
+sandmark.util.exec.HeapNode	sandmark.jar	smark3/sandmark/util/exec/HeapNode.java	0	0	0	0	31	14
+sandmark.util.exec.MethodCallData	sandmark.jar	smark3/sandmark/util/exec/MethodCallData.java	0	0	0	0	183	121
+sandmark.util.exec.Output	sandmark.jar	smark3/sandmark/util/exec/Output.java	0	0	0	0	63	49
+sandmark.util.exec.Output$1	sandmark.jar	smark3/sandmark/util/exec/Output.java	0	0	0	2	0	0
+sandmark.util.exec.Overseer	sandmark.jar	smark3/sandmark/util/exec/Overseer.java	0	0	0	0	224	107
+sandmark.util.exec.TracingException	sandmark.jar	smark3/sandmark/util/exec/TracingException.java	0	0	0	0	14	9
+koala.dynamicjava.tree.AddAssignExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.AddExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.Allocation	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.AndExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ArrayAccess	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ArrayAllocation	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ArrayAllocation$TypeDescriptor	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.tree.ArrayInitializer	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ArrayType	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.AssignExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.BinaryExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.BitAndAssignExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.BitAndExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.BitOrAssignExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.BitOrExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.BlockStatement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.BooleanLiteral	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.BooleanType	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.BreakStatement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ByteType	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.CastExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.CatchStatement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.CharType	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.CharacterLiteral	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ClassAllocation	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ClassDeclaration	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ClassInitializer	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ComplementExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ConditionalExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ConstructorDeclaration	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ConstructorInvocation	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ContinueStatement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ContinueTarget	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.DivideAssignExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.DivideExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.DoStatement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.DoubleLiteral	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.DoubleType	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.EmptyStatement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.EqualExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ExclusiveOrAssignExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ExclusiveOrExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.Expression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ExpressionContainer	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ExpressionStatement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.FieldAccess	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.FieldDeclaration	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.FloatLiteral	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.FloatType	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ForStatement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.FormalParameter	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.FunctionCall	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.GreaterExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.GreaterOrEqualExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.Identifier	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.IdentifierToken	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.IfThenElseStatement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.IfThenStatement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ImportDeclaration	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.Initializer	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.InnerAllocation	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.InnerClassAllocation	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.InstanceInitializer	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.InstanceOfExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.IntType	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.IntegerLiteral	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.InterfaceDeclaration	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.LabeledStatement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.LeftHandSide	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.LessExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.LessOrEqualExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.Literal	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.LongLiteral	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.LongType	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.MethodCall	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.MethodDeclaration	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.MinusExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.MultiplyAssignExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.MultiplyExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.Node	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.NotEqualExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.NotExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.NullLiteral	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ObjectFieldAccess	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ObjectMethodCall	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.OrExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.PackageDeclaration	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.PlusExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.PostDecrement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.PostIncrement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.PreDecrement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.PreIncrement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.PrimaryExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.PrimitiveType	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.QualifiedName	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ReferenceType	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.RemainderAssignExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.RemainderExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ReturnStatement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ShiftLeftAssignExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ShiftLeftExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ShiftRightAssignExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ShiftRightExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ShortType	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.SimpleAllocation	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.SimpleAssignExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.Statement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.StaticFieldAccess	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.StaticMethodCall	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.StringLiteral	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.SubtractAssignExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.SubtractExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.SuperFieldAccess	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.SuperMethodCall	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.SwitchBlock	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.SwitchStatement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.SynchronizedStatement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ThisExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.ThrowStatement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.TreeUtilities	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.TryStatement	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.Type	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.TypeDeclaration	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.TypeExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.UnaryExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.UnsignedShiftRightAssignExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.UnsignedShiftRightExpression	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.VariableDeclaration	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.VoidType	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.WhileStatement	sandmark.jar		1	1	1	-1	0	0
+sandmark.obfuscate.ArrayObfuscation.ArrayFolder	sandmark.jar	smark3/sandmark/obfuscate/ArrayObfuscation/ArrayFolder.java	0	0	0	0	827	593
+sandmark.obfuscate.ArrayObfuscation.ArraySplitter	sandmark.jar	smark3/sandmark/obfuscate/ArrayObfuscation/ArraySplitter.java	0	0	0	0	777	593
+sandmark.obfuscate.ArrayObfuscation.Folder	sandmark.jar		0	1	1	3	0	0
+sandmark.obfuscate.ArrayObfuscation.HashHolder	sandmark.jar		0	1	1	3	0	0
+sandmark.obfuscate.ArrayObfuscation.IntArraySplitter	sandmark.jar	smark3/sandmark/obfuscate/ArrayObfuscation/IntArraySplitter.java	0	0	0	0	2031	1656
+sandmark.obfuscate.ArrayObfuscation.arr	sandmark.jar	smark3/sandmark/obfuscate/ArrayObfuscation/arr.java	0	0	0	0	209	160
+org.apache.bcel.Constants	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.ExceptionConstants	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.ExceptionConstants$1	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.Repository	sandmark.jar		1	1	1	-1	0	0
+sandmark.obfuscate.buggycode.BugCode	sandmark.jar	smark3/sandmark/obfuscate/buggycode/BugCode.java	0	0	0	0	482	352
+sandmark.analysis.interference.InterferenceGraph	sandmark.jar	smark3/sandmark/analysis/interference/InterferenceGraph.java	0	0	0	0	51	48
+sandmark.obfuscate.classsplitter.ClassSplitter	sandmark.jar	smark3/sandmark/obfuscate/classsplitter/ClassSplitter.java	0	0	0	0	521	317
+sandmark.obfuscate.classsplitter.FalseRefactor	sandmark.jar	smark3/sandmark/obfuscate/classsplitter/FalseRefactor.java	0	0	0	0	140	108
+org.apache.bcel.verifier.structurals.ControlFlowGraph	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.verifier.structurals.ExceptionHandler	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.structurals.ExceptionHandlers	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.structurals.ExecutionVisitor	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.structurals.Frame	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.structurals.GenericArray	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.structurals.InstructionContext	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.structurals.LocalVariables	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.structurals.OperandStack	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.structurals.Pass3bVerifier	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.structurals.Pass3bVerifier$1	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.verifier.structurals.Pass3bVerifier$InstructionContextQueue	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.verifier.structurals.Subroutine	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.structurals.Subroutines	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.structurals.Subroutines$SubroutineImpl	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.verifier.structurals.UninitializedObjectType	sandmark.jar		1	1	1	-1	0	0
+sandmark.wizard.quickprotect.AllAlgsOnce	sandmark.jar	smark3/sandmark/wizard/quickprotect/AllAlgsOnce.java	0	0	0	0	40	21
+sandmark.wizard.quickprotect.CustomQuickProtect		smark3/sandmark/wizard/quickprotect/CustomQuickProtect.java	0	2	0	0	73	39
+sandmark.wizard.quickprotect.DefaultQuickProtect	sandmark.jar	smark3/sandmark/wizard/quickprotect/DefaultQuickProtect.java	0	0	0	0	39	21
+sandmark.wizard.quickprotect.QuickProtect	sandmark.jar	smark3/sandmark/wizard/quickprotect/QuickProtect.java	0	0	0	0	32	8
+sandmark.wizard.quickprotect.StaticWatermark	sandmark.jar	smark3/sandmark/wizard/quickprotect/StaticWatermark.java	0	0	0	0	46	27
+sandmark.obfuscate.scalarmerger.ScalarMerger	sandmark.jar	smark3/sandmark/obfuscate/scalarmerger/ScalarMerger.java	0	0	0	0	459	225
+junit.awtui.AboutDialog	sandmark.jar		1	1	1	-1	0	0
+junit.awtui.AboutDialog$1	sandmark.jar		1	1	1	2	0	0
+junit.awtui.AboutDialog$2	sandmark.jar		1	1	1	2	0	0
+junit.awtui.Logo	sandmark.jar		1	1	1	-1	0	0
+junit.awtui.ProgressBar	sandmark.jar		1	1	1	-1	0	0
+junit.awtui.TestRunner	sandmark.jar		1	1	1	-1	0	0
+junit.awtui.TestRunner$1	sandmark.jar		1	1	1	2	0	0
+junit.awtui.TestRunner$10	sandmark.jar		1	1	1	2	0	0
+junit.awtui.TestRunner$2	sandmark.jar		1	1	1	2	0	0
+junit.awtui.TestRunner$3	sandmark.jar		1	1	1	2	0	0
+junit.awtui.TestRunner$4	sandmark.jar		1	1	1	2	0	0
+junit.awtui.TestRunner$5	sandmark.jar		1	1	1	2	0	0
+junit.awtui.TestRunner$6	sandmark.jar		1	1	1	2	0	0
+junit.awtui.TestRunner$7	sandmark.jar		1	1	1	2	0	0
+junit.awtui.TestRunner$8	sandmark.jar		1	1	1	2	0	0
+junit.awtui.TestRunner$9	sandmark.jar		1	1	1	2	0	0
+sandmark.obfuscate.methodmadness.Method2RMadness		smark3/sandmark/obfuscate/methodmadness/Method2RMadness.java	0	2	0	0	283	158
+sandmark.obfuscate.methodmadness.MethodMerger	sandmark.jar	smark3/sandmark/obfuscate/methodmadness/MethodMerger.java	0	0	0	0	85	70
+sandmark.obfuscate.methodmadness.ParamReorder	sandmark.jar	smark3/sandmark/obfuscate/methodmadness/ParamReorder.java	0	0	0	0	74	57
+sandmark.obfuscate.methodmadness.PrimitivePromoter	sandmark.jar	smark3/sandmark/obfuscate/methodmadness/PrimitivePromoter.java	0	0	0	0	81	64
+sandmark.obfuscate.methodmadness.SignatureBludgeoner	sandmark.jar	smark3/sandmark/obfuscate/methodmadness/SignatureBludgeoner.java	0	0	0	0	74	57
+sandmark.obfuscate.methodmadness.StaticSplit	sandmark.jar	smark3/sandmark/obfuscate/methodmadness/StaticSplit.java	0	0	0	0	98	68
+sandmark.watermark.ct.encode.storage.Array	sandmark.jar	smark3/sandmark/watermark/ct/encode/storage/Array.java	0	0	0	0	87	68
+sandmark.watermark.ct.encode.storage.GlobalStorage	sandmark.jar	smark3/sandmark/watermark/ct/encode/storage/GlobalStorage.java	0	0	0	0	155	102
+sandmark.watermark.ct.encode.storage.Hash	sandmark.jar	smark3/sandmark/watermark/ct/encode/storage/Hash.java	0	0	0	0	107	84
+sandmark.watermark.ct.encode.storage.NodeStorage	sandmark.jar	smark3/sandmark/watermark/ct/encode/storage/NodeStorage.java	0	0	0	0	46	32
+sandmark.watermark.ct.encode.storage.Pointer	sandmark.jar	smark3/sandmark/watermark/ct/encode/storage/Pointer.java	0	0	0	0	98	73
+sandmark.watermark.ct.encode.storage.StorageClass	sandmark.jar	smark3/sandmark/watermark/ct/encode/storage/StorageClass.java	0	0	0	0	71	38
+sandmark.watermark.ct.encode.storage.Vector	sandmark.jar	smark3/sandmark/watermark/ct/encode/storage/Vector.java	0	0	0	0	131	102
+sandmark.watermark.ct.encode.ir.AddEdge	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/AddEdge.java	0	0	0	0	68	55
+sandmark.watermark.ct.encode.ir.Build	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/Build.java	0	0	0	0	202	160
+sandmark.watermark.ct.encode.ir.Construct	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/Construct.java	0	0	0	0	39	32
+sandmark.watermark.ct.encode.ir.Create	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/Create.java	0	0	0	0	45	37
+sandmark.watermark.ct.encode.ir.CreateNode	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/CreateNode.java	0	0	0	0	40	32
+sandmark.watermark.ct.encode.ir.CreateStorage	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/CreateStorage.java	0	0	0	0	77	58
+sandmark.watermark.ct.encode.ir.Debug	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/Debug.java	0	0	0	0	30	23
+sandmark.watermark.ct.encode.ir.Destroy	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/Destroy.java	0	0	0	0	47	39
+sandmark.watermark.ct.encode.ir.Destruct	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/Destruct.java	0	0	0	0	39	32
+sandmark.watermark.ct.encode.ir.Field	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/Field.java	0	0	0	0	47	36
+sandmark.watermark.ct.encode.ir.FieldAccessor	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/FieldAccessor.java	0	0	0	0	6	5
+sandmark.watermark.ct.encode.ir.Fixup	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/Fixup.java	0	0	0	0	53	44
+sandmark.watermark.ct.encode.ir.FollowLink	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/FollowLink.java	0	0	0	0	88	75
+sandmark.watermark.ct.encode.ir.Formal	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/Formal.java	0	0	0	0	31	22
+sandmark.watermark.ct.encode.ir.IR	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/IR.java	0	0	0	0	58	43
+sandmark.watermark.ct.encode.ir.Init	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/Init.java	0	0	0	0	41	33
+sandmark.watermark.ct.encode.ir.List	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/List.java	0	0	0	0	145	121
+sandmark.watermark.ct.encode.ir.List$Backwards	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/List.java	0	0	0	2	0	0
+sandmark.watermark.ct.encode.ir.LoadNode	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/LoadNode.java	0	0	0	0	31	24
+sandmark.watermark.ct.encode.ir.Method	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/Method.java	0	0	0	0	78	46
+sandmark.watermark.ct.encode.ir.NodeStorage	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/NodeStorage.java	0	0	0	0	22	15
+sandmark.watermark.ct.encode.ir.PrintGraph	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/PrintGraph.java	0	0	0	0	23	16
+sandmark.watermark.ct.encode.ir.ProtectRegion	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/ProtectRegion.java	0	0	0	0	35	27
+sandmark.watermark.ct.encode.ir.SaveNode	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/SaveNode.java	0	0	0	0	31	25
+sandmark.watermark.ct.encode.ir.StaticCall	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir/StaticCall.java	0	0	0	0	41	28
+sandmark.watermark.ct.encode.Encoder	sandmark.jar	smark3/sandmark/watermark/ct/encode/Encoder.java	0	0	0	0	282	129
+sandmark.watermark.ct.encode.Graph2IR	sandmark.jar	smark3/sandmark/watermark/ct/encode/Graph2IR.java	0	0	0	0	320	244
+sandmark.watermark.ct.encode.Graph2IR$Path	sandmark.jar	smark3/sandmark/watermark/ct/encode/Graph2IR.java	0	0	0	2	0	0
+sandmark.watermark.ct.encode.Split	sandmark.jar	smark3/sandmark/watermark/ct/encode/Split.java	0	0	0	0	385	220
+sandmark.watermark.ct.encode.Split$SplitException	sandmark.jar	smark3/sandmark/watermark/ct/encode/Split.java	0	0	0	2	0	0
+sandmark.watermark.bogusexp.BogusExpression	sandmark.jar	smark3/sandmark/watermark/bogusexp/BogusExpression.java	0	0	0	0	387	270
+sandmark.watermark.bogusexp.BogusExpression$Recognizer	sandmark.jar	smark3/sandmark/watermark/bogusexp/BogusExpression.java	0	0	0	2	0	0
+sandmark.wizard.modeling.set.CandidateSet	sandmark.jar	smark3/sandmark/wizard/modeling/set/CandidateSet.java	0	0	0	0	124	86
+sandmark.wizard.modeling.set.PriorityQueue	sandmark.jar	smark3/sandmark/wizard/modeling/set/PriorityQueue.java	0	0	0	0	102	66
+sandmark.wizard.modeling.set.SetModel	sandmark.jar	smark3/sandmark/wizard/modeling/set/SetModel.java	0	0	0	0	496	326
+sandmark.wizard.modeling.set.SetModel$ChoiceList	sandmark.jar	smark3/sandmark/wizard/modeling/set/SetModel.java	0	0	0	2	0	0
+sandmark.wizard.modeling.set.SetModel$SetModelIterator	sandmark.jar	smark3/sandmark/wizard/modeling/set/SetModel.java	0	0	0	2	0	0
+sandmark.wizard.evaluation.swmetric.MetricChange	sandmark.jar	smark3/sandmark/wizard/evaluation/swmetric/MetricChange.java	0	0	0	0	283	228
+sandmark.wizard.evaluation.swmetric.MetricSummary	sandmark.jar	smark3/sandmark/wizard/evaluation/swmetric/MetricSummary.java	0	0	0	0	61	42
+sandmark.wizard.evaluation.swmetric.Metrics	sandmark.jar	smark3/sandmark/wizard/evaluation/swmetric/Metrics.java	0	0	0	0	32	23
+sandmark.wizard.evaluation.swmetric.StatisticsPrimer	sandmark.jar	smark3/sandmark/wizard/evaluation/swmetric/StatisticsPrimer.java	0	0	0	0	73	57
+sandmark.obfuscate.irreducibility.Irreducibility	sandmark.jar	smark3/sandmark/obfuscate/irreducibility/Irreducibility.java	0	0	0	0	353	316
+koala.dynamicjava.interpreter.error.CatchedExceptionError	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.error.ExecutionError	sandmark.jar		1	1	1	-1	0	0
+sandmark.analysis.liveness.BBInfo	sandmark.jar	smark3/sandmark/analysis/liveness/Liveness.java	0	0	0	1	0	0
+sandmark.analysis.liveness.Liveness	sandmark.jar	smark3/sandmark/analysis/liveness/Liveness.java	0	0	0	0	185	181
+sandmark.util.javagen.AssignField	sandmark.jar	smark3/sandmark/util/javagen/AssignField.java	0	0	0	0	72	54
+sandmark.util.javagen.AssignIndex	sandmark.jar	smark3/sandmark/util/javagen/AssignIndex.java	0	0	0	0	56	43
+sandmark.util.javagen.AssignStatic	sandmark.jar	smark3/sandmark/util/javagen/AssignStatic.java	0	0	0	0	61	45
+sandmark.util.javagen.Block	sandmark.jar	smark3/sandmark/util/javagen/Block.java	0	0	0	0	40	29
+sandmark.util.javagen.Cast	sandmark.jar	smark3/sandmark/util/javagen/Cast.java	0	0	0	0	48	38
+sandmark.util.javagen.Class	sandmark.jar	smark3/sandmark/util/javagen/Class.java	0	0	0	0	151	122
+sandmark.util.javagen.Comment	sandmark.jar	smark3/sandmark/util/javagen/Comment.java	0	0	0	0	28	20
+sandmark.util.javagen.CondNotNullExpr	sandmark.jar	smark3/sandmark/util/javagen/CondNotNullExpr.java	0	0	0	0	79	63
+sandmark.util.javagen.Discard	sandmark.jar	smark3/sandmark/util/javagen/Discard.java	0	0	0	0	39	28
+sandmark.util.javagen.EmptyStatement	sandmark.jar	smark3/sandmark/util/javagen/EmptyStatement.java	0	0	0	0	32	23
+sandmark.util.javagen.Expression	sandmark.jar	smark3/sandmark/util/javagen/Expression.java	0	0	0	0	22	16
+sandmark.util.javagen.Field	sandmark.jar	smark3/sandmark/util/javagen/Field.java	0	0	0	0	79	57
+sandmark.util.javagen.FieldRef	sandmark.jar	smark3/sandmark/util/javagen/FieldRef.java	0	0	0	0	57	44
+sandmark.util.javagen.Formal	sandmark.jar	smark3/sandmark/util/javagen/Formal.java	0	0	0	0	86	54
+sandmark.util.javagen.IfNotNull	sandmark.jar	smark3/sandmark/util/javagen/IfNotNull.java	0	0	0	0	74	58
+sandmark.util.javagen.Java	sandmark.jar	smark3/sandmark/util/javagen/Java.java	0	0	0	0	140	117
+sandmark.util.javagen.List	sandmark.jar	smark3/sandmark/util/javagen/List.java	0	0	0	0	115	97
+sandmark.util.javagen.LiteralInt	sandmark.jar	smark3/sandmark/util/javagen/LiteralInt.java	0	0	0	0	43	33
+sandmark.util.javagen.LiteralString	sandmark.jar	smark3/sandmark/util/javagen/LiteralString.java	0	0	0	0	42	32
+sandmark.util.javagen.LoadIndex	sandmark.jar	smark3/sandmark/util/javagen/LoadIndex.java	0	0	0	0	50	37
+sandmark.util.javagen.Local	sandmark.jar	smark3/sandmark/util/javagen/Local.java	0	0	0	0	71	52
+sandmark.util.javagen.LocalRef	sandmark.jar	smark3/sandmark/util/javagen/LocalRef.java	0	0	0	0	46	36
+sandmark.util.javagen.Method	sandmark.jar	smark3/sandmark/util/javagen/Method.java	0	0	0	0	110	88
+sandmark.util.javagen.MyClass	sandmark.jar	smark3/sandmark/util/javagen/MyClass.java	0	0	0	0	39	34
+sandmark.util.javagen.New	sandmark.jar	smark3/sandmark/util/javagen/New.java	0	0	0	0	95	76
+sandmark.util.javagen.NewArray	sandmark.jar	smark3/sandmark/util/javagen/NewArray.java	0	0	0	0	55	41
+sandmark.util.javagen.Null	sandmark.jar	smark3/sandmark/util/javagen/Null.java	0	0	0	0	32	25
+sandmark.util.javagen.Return	sandmark.jar	smark3/sandmark/util/javagen/Return.java	0	0	0	0	46	37
+sandmark.util.javagen.Statement	sandmark.jar	smark3/sandmark/util/javagen/Statement.java	0	0	0	0	11	9
+sandmark.util.javagen.StaticCall	sandmark.jar	smark3/sandmark/util/javagen/StaticCall.java	0	0	0	0	106	88
+sandmark.util.javagen.StaticFunCall	sandmark.jar	smark3/sandmark/util/javagen/StaticFunCall.java	0	0	0	0	104	87
+sandmark.util.javagen.StaticRef	sandmark.jar	smark3/sandmark/util/javagen/StaticRef.java	0	0	0	0	46	36
+sandmark.util.javagen.Test	sandmark.jar	smark3/sandmark/util/javagen/Test.java	0	0	0	0	323	241
+sandmark.util.javagen.Try	sandmark.jar	smark3/sandmark/util/javagen/Try.java	0	0	0	0	111	83
+sandmark.util.javagen.VirtualCall	sandmark.jar	smark3/sandmark/util/javagen/VirtualCall.java	0	0	0	0	119	98
+sandmark.util.javagen.VirtualFunCall	sandmark.jar	smark3/sandmark/util/javagen/VirtualFunCall.java	0	0	0	0	118	98
+org.apache.bcel.verifier.statics.DOUBLE_Upper	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.statics.IntList	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.statics.LONG_Upper	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.statics.LocalVariableInfo	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.statics.LocalVariablesInfo	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.statics.Pass1Verifier	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.statics.Pass2Verifier	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.statics.Pass2Verifier$1	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.verifier.statics.Pass2Verifier$FAMRAV_Visitor	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.verifier.statics.Pass2Verifier$InnerClassDetector	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.verifier.statics.Pass3aVerifier	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.verifier.statics.StringRepresentation	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.util.AmbiguousFieldException	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.util.BufferedImportationManager	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.util.Constants	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.util.DisplayVisitor	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.util.FileFinder	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.util.ImportationManager	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.util.LibraryFinder	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.util.LocalizedMessageReader	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.util.ReflectionUtilities	sandmark.jar		1	1	1	-1	0	0
+sandmark.util.classloading.BuildClassList	sandmark.jar	smark3/sandmark/util/classloading/BuildClassList.java	0	0	0	0	33	31
+sandmark.util.classloading.ClassFinder	sandmark.jar	smark3/sandmark/util/classloading/ClassFinder.java	0	0	0	0	79	54
+sandmark.util.classloading.DirClassFinder	sandmark.jar	smark3/sandmark/util/classloading/DirClassFinder.java	0	0	0	4	116	97
+sandmark.util.classloading.DirClassFinder$1	sandmark.jar	smark3/sandmark/util/classloading/DirClassFinder.java	0	0	0	2	0	0
+sandmark.util.classloading.DirClassFinder$2	sandmark.jar	smark3/sandmark/util/classloading/DirClassFinder.java	0	0	0	2	0	0
+sandmark.util.classloading.FileClassFinder	sandmark.jar	smark3/sandmark/util/classloading/FileClassFinder.java	0	0	0	4	82	64
+sandmark.util.classloading.IClassFinder	sandmark.jar	smark3/sandmark/util/classloading/IClassFinder.java	0	0	0	0	109	85
+sandmark.util.classloading.JarClassFinder	sandmark.jar	smark3/sandmark/util/classloading/JarClassFinder.java	0	0	0	4	120	105
+sandmark.util.outliner.LiveVar	sandmark.jar	smark3/sandmark/util/outliner/LiveVar.java	0	0	0	0	51	43
+sandmark.util.outliner.OutlineFrame	sandmark.jar	smark3/sandmark/util/outliner/Outliner.java	0	0	0	1	0	0
+sandmark.util.outliner.OutlineUtil	sandmark.jar	smark3/sandmark/util/outliner/OutlineUtil.java	0	0	0	0	2565	2078
+sandmark.util.outliner.Outliner	sandmark.jar	smark3/sandmark/util/outliner/Outliner.java	0	0	0	0	164	88
+sandmark.watermark.bogusinitializer.BogusInitializer	sandmark.jar	smark3/sandmark/watermark/bogusinitializer/BogusInitializer.java	0	0	0	0	284	177
+sandmark.watermark.bogusinitializer.BogusInitializer$Recognizer	sandmark.jar	smark3/sandmark/watermark/bogusinitializer/BogusInitializer.java	0	0	0	2	0	0
+sandmark.watermark.arboit.trace.Annotate	sandmark.jar	smark3/sandmark/watermark/arboit/trace/Annotate.java	0	0	0	0	76	52
+sandmark.watermark.arboit.trace.Annotator	sandmark.jar	smark3/sandmark/watermark/arboit/trace/Annotator.java	0	0	0	0	10	7
+sandmark.watermark.arboit.trace.TracePoint	sandmark.jar	smark3/sandmark/watermark/arboit/trace/TracePoint.java	0	0	0	0	76	43
+sandmark.watermark.arboit.trace.Tracer	sandmark.jar	smark3/sandmark/watermark/arboit/trace/Tracer.java	0	0	0	0	71	54
+sandmark.watermark.arboit.trace.Tracer$Breakpoint	sandmark.jar	smark3/sandmark/watermark/arboit/trace/Tracer.java	0	0	0	2	0	0
+sandmark.obfuscate.nodesplitter.NodeSplitter	sandmark.jar	smark3/sandmark/obfuscate/nodesplitter/NodeSplitter.java	0	0	0	0	459	369
+sandmark.obfuscate.encryptclasses.EncryptedClassLoader	sandmark.jar	smark3/sandmark/obfuscate/encryptclasses/EncryptedClassLoader.java	0	0	0	0	101	83
+sandmark.obfuscate.encryptclasses.JarEncrypter	sandmark.jar	smark3/sandmark/obfuscate/encryptclasses/JarEncrypter.java	0	0	0	0	248	218
+sandmark.util.opaquepredicatelib.AlgebraicPredicateGenerator	sandmark.jar	smark3/sandmark/util/opaquepredicatelib/AlgebraicPredicateGenerator.java	0	0	0	0	113	109
+sandmark.util.opaquepredicatelib.DSPGF1	sandmark.jar	smark3/sandmark/util/opaquepredicatelib/DataStructurePredicateGenerator.java	0	0	0	1	0	0
+sandmark.util.opaquepredicatelib.DSPGF2	sandmark.jar	smark3/sandmark/util/opaquepredicatelib/DataStructurePredicateGenerator.java	0	0	0	1	0	0
+sandmark.util.opaquepredicatelib.DSPGT1	sandmark.jar	smark3/sandmark/util/opaquepredicatelib/DataStructurePredicateGenerator.java	0	0	0	1	0	0
+sandmark.util.opaquepredicatelib.DSPGT2	sandmark.jar	smark3/sandmark/util/opaquepredicatelib/DataStructurePredicateGenerator.java	0	0	0	1	0	0
+sandmark.util.opaquepredicatelib.DataStructurePredicateGenerator	sandmark.jar	smark3/sandmark/util/opaquepredicatelib/DataStructurePredicateGenerator.java	0	0	0	0	1535	1266
+sandmark.util.opaquepredicatelib.ExprTree	sandmark.jar	smark3/sandmark/util/opaquepredicatelib/ExprTree.java	0	0	0	0	637	534
+sandmark.util.opaquepredicatelib.IntComparePredicateGenerator	sandmark.jar	smark3/sandmark/util/opaquepredicatelib/IntComparePredicateGenerator.java	0	0	0	0	122	92
+sandmark.util.opaquepredicatelib.ObjectComparePredicateGenerator	sandmark.jar	smark3/sandmark/util/opaquepredicatelib/ObjectComparePredicateGenerator.java	0	0	0	0	160	131
+sandmark.util.opaquepredicatelib.OpaqueManager	sandmark.jar	smark3/sandmark/util/opaquepredicatelib/OpaqueManager.java	0	0	0	0	83	64
+sandmark.util.opaquepredicatelib.OpaquePredicateGenerator	sandmark.jar	smark3/sandmark/util/opaquepredicatelib/OpaquePredicateGenerator.java	0	0	0	0	136	85
+sandmark.util.opaquepredicatelib.PredicateFactory	sandmark.jar	smark3/sandmark/util/opaquepredicatelib/PredicateFactory.java	0	0	0	0	39	38
+sandmark.util.opaquepredicatelib.PredicateInfo	sandmark.jar	smark3/sandmark/util/opaquepredicatelib/PredicateInfo.java	0	0	0	0	10	9
+sandmark.util.opaquepredicatelib.StringOpPredicateGenerator	sandmark.jar	smark3/sandmark/util/opaquepredicatelib/StringOpPredicateGenerator.java	0	0	0	0	137	120
+sandmark.util.opaquepredicatelib.ThreadPredicateGenerator	sandmark.jar	smark3/sandmark/util/opaquepredicatelib/ThreadPredicateGenerator.java	0	0	0	0	373	284
+sandmark.util.opaquepredicatelib.smNode	sandmark.jar	smark3/sandmark/util/opaquepredicatelib/smNode.java	0	0	0	0	300	217
+sandmark.obfuscate.addbogusfields.AddBogusFields	sandmark.jar	smark3/sandmark/obfuscate/addbogusfields/AddBogusFields.java	0	0	0	0	177	117
+sandmark.analysis.dependencygraph.DependencyGraph	sandmark.jar	smark3/sandmark/analysis/dependencygraph/DependencyGraph.java	0	0	0	0	80	55
+sandmark.analysis.defuse.BBInfo	sandmark.jar	smark3/sandmark/analysis/defuse/ReachingDefs.java	0	0	0	1	0	0
+sandmark.analysis.defuse.DUWeb	sandmark.jar	smark3/sandmark/analysis/defuse/DUWeb.java	0	0	0	0	193	172
+sandmark.analysis.defuse.DefComparator	sandmark.jar	smark3/sandmark/analysis/defuse/DUWeb.java	0	0	0	1	0	0
+sandmark.analysis.defuse.DefWrapper	sandmark.jar	smark3/sandmark/analysis/defuse/DefWrapper.java	0	0	0	0	19	18
+sandmark.analysis.defuse.IHComparator	sandmark.jar	smark3/sandmark/analysis/defuse/DUWeb.java	0	0	0	1	0	0
+sandmark.analysis.defuse.IncDefWrapper	sandmark.jar	smark3/sandmark/analysis/defuse/IncDefWrapper.java	0	0	0	0	10	9
+sandmark.analysis.defuse.InstructionDefWrapper	sandmark.jar	smark3/sandmark/analysis/defuse/InstructionDefWrapper.java	0	0	0	0	34	33
+sandmark.analysis.defuse.ParamDefWrapper	sandmark.jar	smark3/sandmark/analysis/defuse/ParamDefWrapper.java	0	0	0	0	28	27
+sandmark.analysis.defuse.ReachingDefs	sandmark.jar	smark3/sandmark/analysis/defuse/ReachingDefs.java	0	0	0	0	459	423
+sandmark.analysis.defuse.ReachingDefs$CachedDef	sandmark.jar	smark3/sandmark/analysis/defuse/ReachingDefs.java	0	0	0	2	0	0
+sandmark.analysis.defuse.StoreDefWrapper	sandmark.jar	smark3/sandmark/analysis/defuse/StoreDefWrapper.java	0	0	0	0	8	7
+sandmark.analysis.defuse.ThisDefWrapper	sandmark.jar	smark3/sandmark/analysis/defuse/ThisDefWrapper.java	0	0	0	0	18	17
+sandmark.analysis.defuse.UninitializedDefWrapper	sandmark.jar	smark3/sandmark/analysis/defuse/UninitializedDefWrapper.java	0	0	0	0	8	7
+sandmark.analysis.defuse.UseInfo	sandmark.jar	smark3/sandmark/analysis/defuse/ReachingDefs.java	0	0	0	1	0	0
+sandmark.wizard.modeling.Choice	sandmark.jar	smark3/sandmark/wizard/modeling/Choice.java	0	0	0	0	25	19
+sandmark.wizard.modeling.CorruptStateException	sandmark.jar	smark3/sandmark/wizard/modeling/CorruptStateException.java	0	0	0	0	9	6
+sandmark.wizard.modeling.Model	sandmark.jar	smark3/sandmark/wizard/modeling/Model.java	0	0	0	0	36	22
+sandmark.wizard.modeling.ModelChangeListener	sandmark.jar	smark3/sandmark/wizard/modeling/ModelChangeListener.java	0	0	0	0	20	6
+sandmark.wizard.modeling.Util	sandmark.jar	smark3/sandmark/wizard/modeling/Util.java	0	0	0	0	480	352
+sandmark.wizard.modeling.Util$DependencyEdge	sandmark.jar	smark3/sandmark/wizard/modeling/Util.java	0	0	0	2	0	0
+sandmark.metric.AppIdentifierLength	sandmark.jar	smark3/sandmark/metric/AppIdentifierLength.java	0	0	0	0	50	32
+sandmark.metric.ApplicationComparator	sandmark.jar	smark3/sandmark/metric/ApplicationComparator.java	0	0	0	0	26	20
+sandmark.metric.ApplicationMetric	sandmark.jar	smark3/sandmark/metric/ApplicationMetric.java	0	0	0	0	30	21
+sandmark.metric.CkAppCouplingMeasure	sandmark.jar	smark3/sandmark/metric/CkAppCouplingMeasure.java	0	0	0	0	38	27
+sandmark.metric.CkAppInheritanceMeasure	sandmark.jar	smark3/sandmark/metric/CkAppInheritanceMeasure.java	0	0	0	0	37	25
+sandmark.metric.CkAppMeasure	sandmark.jar	smark3/sandmark/metric/CkAppMeasure.java	0	0	0	0	34	24
+sandmark.metric.CkAppResponseMeasure	sandmark.jar	smark3/sandmark/metric/CkAppResponseMeasure.java	0	0	0	0	36	26
+sandmark.metric.CkAppSubclassMeasure	sandmark.jar	smark3/sandmark/metric/CkAppSubclassMeasure.java	0	0	0	0	37	26
+sandmark.metric.CkClassCouplingMeasure	sandmark.jar	smark3/sandmark/metric/CkClassCouplingMeasure.java	0	0	0	0	41	24
+sandmark.metric.CkClassInheritanceMeasure	sandmark.jar	smark3/sandmark/metric/CkClassInheritanceMeasure.java	0	0	0	0	29	19
+sandmark.metric.CkClassMeasure	sandmark.jar	smark3/sandmark/metric/CkClassMeasure.java	0	0	0	0	62	37
+sandmark.metric.CkClassResponseMeasure	sandmark.jar	smark3/sandmark/metric/CkClassResponseMeasure.java	0	0	0	0	44	29
+sandmark.metric.CkClassSubclassMeasure	sandmark.jar	smark3/sandmark/metric/CkClassSubclassMeasure.java	0	0	0	0	29	19
+sandmark.metric.ClassComparator	sandmark.jar	smark3/sandmark/metric/ClassComparator.java	0	0	0	0	26	20
+sandmark.metric.ClassIdentifierLength	sandmark.jar	smark3/sandmark/metric/ClassIdentifierLength.java	0	0	0	0	52	33
+sandmark.metric.ClassMetric	sandmark.jar	smark3/sandmark/metric/ClassMetric.java	0	0	0	0	34	21
+sandmark.metric.ClassOpcodeComparator	sandmark.jar	smark3/sandmark/metric/ClassOpcodeComparator.java	0	0	0	0	28	22
+sandmark.metric.FakeMetric		smark3/sandmark/metric/FakeMetric.java	0	2	0	0	19	15
+sandmark.metric.HalsteadAppDifficultyMeasure	sandmark.jar	smark3/sandmark/metric/HalsteadAppDifficultyMeasure.java	0	0	0	0	39	28
+sandmark.metric.HalsteadAppEffortMeasure	sandmark.jar	smark3/sandmark/metric/HalsteadAppEffortMeasure.java	0	0	0	0	38	27
+sandmark.metric.HalsteadAppLengthMeasure	sandmark.jar	smark3/sandmark/metric/HalsteadAppLengthMeasure.java	0	0	0	0	36	26
+sandmark.metric.HalsteadAppMeasure	sandmark.jar	smark3/sandmark/metric/HalsteadAppMeasure.java	0	0	0	0	40	27
+sandmark.metric.HalsteadAppVocabMeasure	sandmark.jar	smark3/sandmark/metric/HalsteadAppVocabMeasure.java	0	0	0	0	38	26
+sandmark.metric.HalsteadAppVolumeMeasure	sandmark.jar	smark3/sandmark/metric/HalsteadAppVolumeMeasure.java	0	0	0	0	38	26
+sandmark.metric.HalsteadClassDifficultyMeasure	sandmark.jar	smark3/sandmark/metric/HalsteadClassDifficultyMeasure.java	0	0	0	0	42	30
+sandmark.metric.HalsteadClassEffortMeasure	sandmark.jar	smark3/sandmark/metric/HalsteadClassEffortMeasure.java	0	0	0	0	39	28
+sandmark.metric.HalsteadClassLengthMeasure	sandmark.jar	smark3/sandmark/metric/HalsteadClassLengthMeasure.java	0	0	0	0	41	28
+sandmark.metric.HalsteadClassMeasure	sandmark.jar	smark3/sandmark/metric/HalsteadClassMeasure.java	0	0	0	0	35	27
+sandmark.metric.HalsteadClassVocabMeasure	sandmark.jar	smark3/sandmark/metric/HalsteadClassVocabMeasure.java	0	0	0	0	42	28
+sandmark.metric.HalsteadClassVolumeMeasure	sandmark.jar	smark3/sandmark/metric/HalsteadClassVolumeMeasure.java	0	0	0	0	40	29
+sandmark.metric.HalsteadMethodDifficultyMeasure	sandmark.jar	smark3/sandmark/metric/HalsteadMethodDifficultyMeasure.java	0	0	0	0	51	37
+sandmark.metric.HalsteadMethodEffortMeasure	sandmark.jar	smark3/sandmark/metric/HalsteadMethodEffortMeasure.java	0	0	0	0	56	40
+sandmark.metric.HalsteadMethodLengthMeasure	sandmark.jar	smark3/sandmark/metric/HalsteadMethodLengthMeasure.java	0	0	0	0	40	28
+sandmark.metric.HalsteadMethodMeasure	sandmark.jar	smark3/sandmark/metric/HalsteadMethodMeasure.java	0	0	0	0	55	38
+sandmark.metric.HalsteadMethodVocabMeasure	sandmark.jar	smark3/sandmark/metric/HalsteadMethodVocabMeasure.java	0	0	0	0	42	28
+sandmark.metric.HalsteadMethodVolumeMeasure	sandmark.jar	smark3/sandmark/metric/HalsteadMethodVolumeMeasure.java	0	0	0	0	42	30
+sandmark.metric.HalsteadUtil	sandmark.jar	smark3/sandmark/metric/HalsteadUtil.java	0	0	0	0	269	182
+sandmark.metric.HarrisonAppMeasure	sandmark.jar	smark3/sandmark/metric/HarrisonAppMeasure.java	0	0	0	0	36	26
+sandmark.metric.HarrisonClassMeasure	sandmark.jar	smark3/sandmark/metric/HarrisonClassMeasure.java	0	0	0	0	35	25
+sandmark.metric.HarrisonMethodMeasure	sandmark.jar	smark3/sandmark/metric/HarrisonMethodMeasure.java	0	0	0	0	42	29
+sandmark.metric.KafuraAppMeasure	sandmark.jar	smark3/sandmark/metric/KafuraAppMeasure.java	0	0	0	0	35	26
+sandmark.metric.KafuraClassMeasure	sandmark.jar	smark3/sandmark/metric/KafuraClassMeasure.java	0	0	0	0	276	193
+sandmark.metric.LocalIdentifierLength	sandmark.jar	smark3/sandmark/metric/LocalIdentifierLength.java	0	0	0	0	62	38
+sandmark.metric.McCabeAppMeasure	sandmark.jar	smark3/sandmark/metric/McCabeAppMeasure.java	0	0	0	0	36	24
+sandmark.metric.McCabeClassMeasure	sandmark.jar	smark3/sandmark/metric/McCabeClassMeasure.java	0	0	0	0	40	25
+sandmark.metric.McCabeMethodMeasure	sandmark.jar	smark3/sandmark/metric/McCabeMethodMeasure.java	0	0	0	0	30	20
+sandmark.metric.MethodComparator	sandmark.jar	smark3/sandmark/metric/MethodComparator.java	0	0	0	0	26	20
+sandmark.metric.MethodMetric	sandmark.jar	smark3/sandmark/metric/MethodMetric.java	0	0	0	0	29	21
+sandmark.metric.MethodOpcodeComparator	sandmark.jar	smark3/sandmark/metric/MethodOpcodeComparator.java	0	0	0	0	29	22
+sandmark.metric.Metric	sandmark.jar	smark3/sandmark/metric/Metric.java	0	0	0	0	44	33
+sandmark.metric.MunsonAppMeasure	sandmark.jar	smark3/sandmark/metric/MunsonAppMeasure.java	0	0	0	0	34	24
+sandmark.metric.MunsonClassMeasure	sandmark.jar	smark3/sandmark/metric/MunsonClassMeasure.java	0	0	0	0	37	26
+sandmark.metric.MunsonMethodMeasure	sandmark.jar	smark3/sandmark/metric/MunsonMethodMeasure.java	0	0	0	0	53	33
+sandmark.metric.NestingLevelComplexity	sandmark.jar	smark3/sandmark/metric/NestingLevelComplexity.java	0	0	0	0	305	198
+sandmark.metric.NestingLevelComplexity$ComplexityNode	sandmark.jar	smark3/sandmark/metric/NestingLevelComplexity.java	0	0	0	2	0	0
+sandmark.metric.StatsUtil	sandmark.jar	smark3/sandmark/metric/StatsUtil.java	0	0	0	0	394	310
+sandmark.newstatistics.CFGdepth	sandmark.jar	smark3/sandmark/newstatistics/CFGdepth.java	0	0	0	0	143	111
+sandmark.newstatistics.CFGdepth$Scope	sandmark.jar	smark3/sandmark/newstatistics/CFGdepth.java	0	0	0	2	0	0
+sandmark.newstatistics.CFGwidth	sandmark.jar	smark3/sandmark/newstatistics/CFGwidth.java	0	0	0	0	376	310
+sandmark.newstatistics.CFGwidth$Range	sandmark.jar	smark3/sandmark/newstatistics/CFGwidth.java	0	0	0	2	0	0
+sandmark.newstatistics.Statistics	sandmark.jar	smark3/sandmark/newstatistics/Statistics.java	0	0	0	0	45	19
+sandmark.newstatistics.StatisticsRecord	sandmark.jar	smark3/sandmark/newstatistics/StatisticsRecord.java	0	0	0	0	1168	781
+sandmark.newstatistics.StatisticsRecord$StaticFieldData	sandmark.jar	smark3/sandmark/newstatistics/StatisticsRecord.java	0	0	0	2	0	0
+sandmark.newstatistics.Stats	sandmark.jar	smark3/sandmark/newstatistics/Stats.java	0	0	0	0	1443	978
+sandmark.obfuscate.reorder.constantpool.CPReorderer	sandmark.jar	smark3/sandmark/obfuscate/reorder/constantpool/CPReorderer.java	0	0	0	0	297	236
+sandmark.util.ArrayIterator	sandmark.jar	smark3/sandmark/util/ArrayIterator.java	0	0	0	0	27	21
+sandmark.util.ByteCodeLocation	sandmark.jar	smark3/sandmark/util/ByteCodeLocation.java	0	0	0	0	104	43
+sandmark.util.CircularBuffer	sandmark.jar	smark3/sandmark/util/CircularBuffer.java	0	0	0	0	132	88
+sandmark.util.CircularBuffer$Iterator	sandmark.jar	smark3/sandmark/util/CircularBuffer.java	0	0	0	2	0	0
+sandmark.util.Combinations	sandmark.jar	smark3/sandmark/util/Combinations.java	0	0	0	0	59	54
+sandmark.util.ConfigProperties	sandmark.jar	smark3/sandmark/util/ConfigProperties.java	0	0	0	0	471	319
+sandmark.util.ConfigProperties$ConfigPropertyException	sandmark.jar	smark3/sandmark/util/ConfigProperties.java	0	0	0	2	0	0
+sandmark.util.ConfigProperties$LocalPropIter	sandmark.jar	smark3/sandmark/util/ConfigProperties.java	0	0	0	2	0	0
+sandmark.util.ConfigProperties$PropIter	sandmark.jar	smark3/sandmark/util/ConfigProperties.java	0	0	0	2	0	0
+sandmark.util.ConfigProperties$PropSpec	sandmark.jar	smark3/sandmark/util/ConfigProperties.java	0	0	0	2	0	0
+sandmark.util.ConfigProperties$PropSpec$Listener	sandmark.jar	smark3/sandmark/util/ConfigProperties.java	0	0	0	2	0	0
+sandmark.util.ConfigPropertyChangeListener	sandmark.jar	smark3/sandmark/util/ConfigPropertyChangeListener.java	0	0	0	0	6	5
+sandmark.util.Dot	sandmark.jar	smark3/sandmark/util/Dot.java	0	0	0	0	161	139
+sandmark.util.Enum2Iter	sandmark.jar	smark3/sandmark/util/Enum2Iter.java	0	0	0	0	31	18
+sandmark.util.FieldID	sandmark.jar	smark3/sandmark/util/FieldID.java	0	0	0	0	91	43
+sandmark.util.IdentifierIterator	sandmark.jar	smark3/sandmark/util/IdentifierIterator.java	0	0	0	0	95	56
+sandmark.util.InlinedStackFrame	sandmark.jar	smark3/sandmark/util/Inliner.java	0	0	0	1	0	0
+sandmark.util.Inliner	sandmark.jar	smark3/sandmark/util/Inliner.java	0	0	0	0	322	252
+sandmark.util.InstructionTree	sandmark.jar	smark3/sandmark/util/InstructionTree.java	0	0	0	0	96	81
+sandmark.util.InstructionTree$BTN	sandmark.jar	smark3/sandmark/util/InstructionTree.java	0	0	0	2	0	0
+sandmark.util.Log	sandmark.jar	smark3/sandmark/util/Log.java	0	0	0	0	138	69
+sandmark.util.Log$Logger	sandmark.jar	smark3/sandmark/util/Log.java	0	0	0	2	0	0
+sandmark.util.Log$Message	sandmark.jar	smark3/sandmark/util/Log.java	0	0	0	2	0	0
+sandmark.util.Math	sandmark.jar	smark3/sandmark/util/Math.java	0	0	0	0	109	74
+sandmark.util.MethodCaller	sandmark.jar	smark3/sandmark/util/MethodCaller.java	0	0	0	0	108	51
+sandmark.util.MethodID	sandmark.jar	smark3/sandmark/util/MethodID.java	0	0	0	0	146	61
+sandmark.util.MethodMerger	sandmark.jar	smark3/sandmark/util/MethodMerger.java	0	0	0	0	229	147
+sandmark.util.MethodReceiver	sandmark.jar	smark3/sandmark/util/MethodReceiver.java	0	0	0	0	120	65
+sandmark.util.MethodSignatureChanger	sandmark.jar	smark3/sandmark/util/MethodSignatureChanger.java	0	0	0	0	222	112
+sandmark.util.Misc	sandmark.jar	smark3/sandmark/util/Misc.java	0	0	0	0	414	264
+sandmark.util.MultiIter	sandmark.jar	smark3/sandmark/util/MultiIter.java	0	0	0	0	97	62
+sandmark.util.Node	sandmark.jar	smark3/sandmark/util/CircularBuffer.java	0	0	0	1	0	0
+sandmark.util.Options	sandmark.jar	smark3/sandmark/util/Options.java	0	0	0	0	425	229
+sandmark.util.ParamReorder	sandmark.jar	smark3/sandmark/util/ParamReorder.java	0	0	0	0	187	122
+sandmark.util.PriorityQueue	sandmark.jar	smark3/sandmark/util/PriorityQueue.java	0	0	0	0	176	143
+sandmark.util.PriorityQueue$Ascending	sandmark.jar	smark3/sandmark/util/PriorityQueue.java	0	0	0	2	0	0
+sandmark.util.PriorityQueue$Descending	sandmark.jar	smark3/sandmark/util/PriorityQueue.java	0	0	0	2	0	0
+sandmark.util.Publicizer	sandmark.jar	smark3/sandmark/util/Publicizer.java	0	0	0	0	260	200
+sandmark.util.Random	sandmark.jar	smark3/sandmark/util/Random.java	0	0	0	0	11	10
+sandmark.util.SignatureBludgeoner	sandmark.jar	smark3/sandmark/util/SignatureBludgeoner.java	0	0	0	0	192	142
+sandmark.util.SingleObjectIterator		smark3/sandmark/util/SingleObjectIterator.java	0	2	0	0	23	9
+sandmark.util.SparseVector	sandmark.jar	smark3/sandmark/util/SparseVector.java	0	0	0	0	107	74
+sandmark.util.SparseVector$Iterator	sandmark.jar	smark3/sandmark/util/SparseVector.java	0	0	0	2	0	0
+sandmark.util.StackFrame	sandmark.jar	smark3/sandmark/util/StackFrame.java	0	0	0	0	46	37
+sandmark.util.StaticSplit	sandmark.jar	smark3/sandmark/util/StaticSplit.java	0	0	0	0	84	55
+sandmark.util.StringInt	sandmark.jar	smark3/sandmark/util/StringInt.java	0	0	0	0	69	40
+sandmark.util.TempDir	sandmark.jar	smark3/sandmark/util/TempDir.java	0	0	0	0	50	27
+sandmark.util.WeakBuffer	sandmark.jar	smark3/sandmark/util/WeakBuffer.java	0	0	0	0	59	31
+sandmark.analysis.initialized.Initialized	sandmark.jar	smark3/sandmark/analysis/initialized/Initialized.java	0	0	0	0	53	49
+sandmark.birthmark.wpp.Annotate	sandmark.jar	smark3/sandmark/birthmark/wpp/Annotate.java	0	0	0	0	75	58
+sandmark.birthmark.wpp.Annotator	sandmark.jar	smark3/sandmark/birthmark/wpp/Annotator.java	0	0	0	0	10	7
+sandmark.birthmark.wpp.DAGEdge	sandmark.jar	smark3/sandmark/birthmark/wpp/DAGEdge.java	0	0	0	0	44	36
+sandmark.birthmark.wpp.DAGNode	sandmark.jar	smark3/sandmark/birthmark/wpp/DAGNode.java	0	0	0	0	44	27
+sandmark.birthmark.wpp.RunSequitur	sandmark.jar	smark3/sandmark/birthmark/wpp/RunSequitur.java	0	0	0	0	46	34
+sandmark.birthmark.wpp.TracePoint	sandmark.jar	smark3/sandmark/birthmark/wpp/TracePoint.java	0	0	0	0	76	43
+sandmark.birthmark.wpp.Tracer	sandmark.jar	smark3/sandmark/birthmark/wpp/Tracer.java	0	0	0	0	122	88
+sandmark.birthmark.wpp.Tracer$Breakpoint	sandmark.jar	smark3/sandmark/birthmark/wpp/Tracer.java	0	0	0	2	0	0
+sandmark.birthmark.wpp.WPP	sandmark.jar	smark3/sandmark/birthmark/wpp/WPP.java	0	0	0	0	403	325
+sandmark.birthmark.wpp.guard	sandmark.jar	smark3/sandmark/birthmark/wpp/guard.java	0	0	0	0	48	21
+sandmark.birthmark.wpp.nonTerminal	sandmark.jar	smark3/sandmark/birthmark/wpp/nonTerminal.java	0	0	0	0	74	31
+sandmark.birthmark.wpp.rule	sandmark.jar	smark3/sandmark/birthmark/wpp/rule.java	0	0	0	0	120	68
+sandmark.birthmark.wpp.symbol	sandmark.jar	smark3/sandmark/birthmark/wpp/symbol.java	0	0	0	0	214	93
+sandmark.birthmark.wpp.terminal	sandmark.jar	smark3/sandmark/birthmark/wpp/terminal.java	0	0	0	0	33	12
+sandmark.eclipse.BooleanPropertyInfo		smark3/sandmark/eclipse/ConfigPropertyPanel.java	0	2	0	1	0	0
+sandmark.eclipse.ConfigPropertyPanel		smark3/sandmark/eclipse/ConfigPropertyPanel.java	0	2	0	0	390	333
+sandmark.eclipse.DoublePropertyInfo		smark3/sandmark/eclipse/ConfigPropertyPanel.java	0	2	0	1	0	0
+sandmark.eclipse.FieldAndButtonPropertyInfo		smark3/sandmark/eclipse/ConfigPropertyPanel.java	0	2	0	1	0	0
+sandmark.eclipse.FilePropertyInfo		smark3/sandmark/eclipse/ConfigPropertyPanel.java	0	2	0	1	0	0
+sandmark.eclipse.IntegerPropertyInfo		smark3/sandmark/eclipse/ConfigPropertyPanel.java	0	2	0	1	0	0
+sandmark.eclipse.JarPropertyInfo		smark3/sandmark/eclipse/ConfigPropertyPanel.java	0	2	0	1	0	0
+sandmark.eclipse.PIFactory		smark3/sandmark/eclipse/ConfigPropertyPanel.java	0	2	0	1	0	0
+sandmark.eclipse.PropertyInfo		smark3/sandmark/eclipse/ConfigPropertyPanel.java	0	2	0	1	0	0
+sandmark.eclipse.SandMarkConfigTab		smark3/sandmark/eclipse/SandMarkConfigTab.java	0	2	0	0	218	165
+sandmark.eclipse.SandMarkLaunchDelegate		smark3/sandmark/eclipse/SandMarkLaunchDelegate.java	0	2	0	0	57	39
+sandmark.eclipse.SandMarkPlugin		smark3/sandmark/eclipse/SandMarkPlugin.java	0	2	0	0	160	72
+sandmark.eclipse.SandMarkTabGroup		smark3/sandmark/eclipse/SandMarkTabGroup.java	0	2	0	0	35	17
+sandmark.eclipse.StringPropertyInfo		smark3/sandmark/eclipse/ConfigPropertyPanel.java	0	2	0	1	0	0
+sandmark.watermark.ct.encode.ir2ir.AddCasts	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir2ir/AddCasts.java	0	0	0	0	58	57
+sandmark.watermark.ct.encode.ir2ir.AddFields	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir2ir/AddFields.java	0	0	0	0	90	76
+sandmark.watermark.ct.encode.ir2ir.AddFormals	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir2ir/AddFormals.java	0	0	0	0	99	66
+sandmark.watermark.ct.encode.ir2ir.Builder	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir2ir/Builder.java	0	0	0	0	47	39
+sandmark.watermark.ct.encode.ir2ir.CleanUp	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir2ir/CleanUp.java	0	0	0	0	114	101
+sandmark.watermark.ct.encode.ir2ir.Debug	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir2ir/Debug.java	0	0	0	0	33	22
+sandmark.watermark.ct.encode.ir2ir.Destructors	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir2ir/Destructors.java	0	0	0	0	81	72
+sandmark.watermark.ct.encode.ir2ir.InlineFixups	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir2ir/InlineFixups.java	0	0	0	0	53	45
+sandmark.watermark.ct.encode.ir2ir.Protect	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir2ir/Protect.java	0	0	0	0	123	109
+sandmark.watermark.ct.encode.ir2ir.SaveNodes	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir2ir/SaveNodes.java	0	0	0	0	134	99
+sandmark.watermark.ct.encode.ir2ir.Transformer	sandmark.jar	smark3/sandmark/watermark/ct/encode/ir2ir/Transformer.java	0	0	0	0	23	12
+koala.dynamicjava.classfile.AbstractMethodIdentifier	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.AttributeInfo	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.AttributeOwnerComponent	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.BytecodeComponent	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.ClassFile	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.ClassIdentifier	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.CodeAttribute	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.CodeAttribute$ExceptionTableEntry	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.classfile.ConstantPool	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.ConstantPool$ClassInfo	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.classfile.ConstantPool$DoubleInfo	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.classfile.ConstantPool$FieldInfo	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.classfile.ConstantPool$FloatInfo	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.classfile.ConstantPool$Info	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.classfile.ConstantPool$IntegerInfo	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.classfile.ConstantPool$InterfaceMethodInfo	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.classfile.ConstantPool$LongInfo	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.classfile.ConstantPool$MethodInfo	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.classfile.ConstantPool$NameAndTypeInfo	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.classfile.ConstantPool$NameAndTypeKey	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.classfile.ConstantPool$StringInfo	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.classfile.ConstantPool$UTF8Info	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.classfile.ConstantString	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.ConstantValueAttribute	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.ExceptionsAttribute	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.FieldIdentifier	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.FieldInfo	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.InnerClassesAttribute	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.InnerClassesEntry	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.InterfaceMethodIdentifier	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.JVMUtilities	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.MemberIdentifier	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.MethodIdentifier	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.MethodInfo	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classfile.SimpleAttribute	sandmark.jar		1	1	1	-1	0	0
+sandmark.config.AlgorithmProperty	sandmark.jar	smark3/sandmark/config/AlgorithmProperty.java	0	0	0	0	56	30
+sandmark.config.ModificationProperty	sandmark.jar	smark3/sandmark/config/ModificationProperty.java	0	0	0	0	154	85
+sandmark.config.RequisiteProperty	sandmark.jar	smark3/sandmark/config/RequisiteProperty.java	0	0	0	0	16	4
+sandmark.program.util.AllMethods	sandmark.jar	smark3/sandmark/program/util/AllMethods.java	0	0	0	0	47	29
+sandmark.program.util.Reference	sandmark.jar	smark3/sandmark/program/util/Reference.java	0	0	0	0	128	34
+sandmark.program.util.Renamer	sandmark.jar	smark3/sandmark/program/util/Renamer.java	0	0	0	0	345	194
+sandmark.wizard.AlgorithmProvider	sandmark.jar	smark3/sandmark/wizard/AlgorithmProvider.java	0	0	0	0	17	5
+sandmark.wizard.AppProvider	sandmark.jar	smark3/sandmark/wizard/AppProvider.java	0	0	0	0	22	8
+sandmark.wizard.ChoiceRunListener	sandmark.jar	smark3/sandmark/wizard/ChoiceRunListener.java	0	0	0	0	18	4
+sandmark.wizard.ChoiceRunner	sandmark.jar	smark3/sandmark/wizard/ChoiceRunner.java	0	0	0	0	58	41
+sandmark.wizard.DefaultAlgorithmProvider	sandmark.jar	smark3/sandmark/wizard/DefaultAlgorithmProvider.java	0	0	0	0	41	28
+sandmark.wizard.DefaultObjectProvider	sandmark.jar	smark3/sandmark/wizard/DefaultObjectProvider.java	0	0	0	0	39	26
+sandmark.wizard.ObjectProvider	sandmark.jar	smark3/sandmark/wizard/ObjectProvider.java	0	0	0	0	20	7
+sandmark.wizard.StaticWatermarkProvider	sandmark.jar	smark3/sandmark/wizard/StaticWatermarkProvider.java	0	0	0	0	25	13
+sandmark.wizard.Wizard	sandmark.jar	smark3/sandmark/wizard/Wizard.java	0	0	0	0	52	31
+sandmark.birthmark.inheritstruct.IS	sandmark.jar	smark3/sandmark/birthmark/inheritstruct/IS.java	0	0	0	0	116	88
+sandmark.visualize.Visualize	sandmark.jar	smark3/sandmark/visualize/Visualize.java	0	0	0	0	99	38
+sandmark.diff.methoddiff.BakerAlgorithm	sandmark.jar	smark3/sandmark/diff/methoddiff/BakerAlgorithm.java	0	0	0	0	162	122
+sandmark.diff.methoddiff.CFGDiff	sandmark.jar	smark3/sandmark/diff/methoddiff/CFGDiff.java	0	0	0	0	183	132
+sandmark.diff.methoddiff.CFGDiff$CFGResult	sandmark.jar	smark3/sandmark/diff/methoddiff/CFGDiff.java	0	0	0	2	0	0
+sandmark.diff.methoddiff.CFGTree	sandmark.jar	smark3/sandmark/diff/methoddiff/CFGTree.java	0	0	0	0	310	256
+sandmark.diff.methoddiff.CFGTreeNode	sandmark.jar	smark3/sandmark/diff/methoddiff/CFGTreeNode.java	0	0	0	0	53	46
+sandmark.diff.methoddiff.ComparableBlock	sandmark.jar	smark3/sandmark/diff/methoddiff/ComparableBlock.java	0	0	0	0	67	48
+sandmark.diff.methoddiff.DMDiffAlgorithm	sandmark.jar	smark3/sandmark/diff/methoddiff/DMDiffAlgorithm.java	0	0	0	0	202	158
+sandmark.diff.methoddiff.DMDiffAlgorithm$1	sandmark.jar	smark3/sandmark/diff/methoddiff/DMDiffAlgorithm.java	0	0	0	2	0	0
+sandmark.diff.methoddiff.MethodDiffAlgorithm	sandmark.jar	smark3/sandmark/diff/methoddiff/MethodDiffAlgorithm.java	0	0	0	0	124	79
+sandmark.diff.methoddiff.TrivialDiffAlgorithm	sandmark.jar	smark3/sandmark/diff/methoddiff/TrivialDiffAlgorithm.java	0	0	0	0	134	95
+sandmark.diff.methoddiff.Tuple	sandmark.jar	smark3/sandmark/diff/methoddiff/Tuple.java	0	0	0	0	27	24
+sandmark.diff.methoddiff.TupleList	sandmark.jar	smark3/sandmark/diff/methoddiff/TupleList.java	0	0	0	0	28	23
+junit.textui.ResultPrinter	sandmark.jar		1	1	1	-1	0	0
+junit.textui.TestRunner	sandmark.jar		1	1	1	-1	0	0
+junit.extensions.ActiveTestSuite	sandmark.jar		1	1	1	-1	0	0
+junit.extensions.ActiveTestSuite$1	sandmark.jar		1	1	1	2	0	0
+junit.extensions.ExceptionTestCase	sandmark.jar		1	1	1	-1	0	0
+junit.extensions.RepeatedTest	sandmark.jar		1	1	1	-1	0	0
+junit.extensions.TestDecorator	sandmark.jar		1	1	1	-1	0	0
+junit.extensions.TestSetup	sandmark.jar		1	1	1	-1	0	0
+junit.extensions.TestSetup$1	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.modifier.ArrayModifier	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.modifier.FinalVariableModifier	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.modifier.InvalidModifier	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.modifier.LeftHandSideModifier	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.modifier.ObjectFieldModifier	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.modifier.StaticFieldModifier	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.modifier.SuperFieldModifier	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.modifier.VariableModifier	sandmark.jar		1	1	1	-1	0	0
+sandmark.optimise.bloat.BLOAT	sandmark.jar	smark3/sandmark/optimise/bloat/BLOAT.java	0	0	0	0	118	103
+sandmark.obfuscate.objectify.Objectify	sandmark.jar	smark3/sandmark/obfuscate/objectify/Objectify.java	0	0	0	0	103	94
+sandmark.util.primitivepromotion.LocalPromoter	sandmark.jar	smark3/sandmark/util/primitivepromotion/LocalPromoter.java	0	0	0	0	390	230
+sandmark.util.primitivepromotion.ParamPromoter	sandmark.jar	smark3/sandmark/util/primitivepromotion/ParamPromoter.java	0	0	0	0	202	152
+sandmark.util.primitivepromotion.PromoterException	sandmark.jar	smark3/sandmark/util/primitivepromotion/PromoterException.java	0	0	0	0	17	8
+sandmark.util.primitivepromotion.PromoterUtil	sandmark.jar	smark3/sandmark/util/primitivepromotion/PromoterUtil.java	0	0	0	0	85	49
+sandmark.util.primitivepromotion.ReturnPromoter	sandmark.jar	smark3/sandmark/util/primitivepromotion/ReturnPromoter.java	0	0	0	0	131	98
+sandmark.obfuscate.modifyifelse.ModifyIfElse	sandmark.jar	smark3/sandmark/obfuscate/modifyifelse/ModifyIfElse.java	0	0	0	0	477	321
+sandmark.util.splitint.AdditiveSplitter	sandmark.jar	smark3/sandmark/util/splitint/AdditiveSplitter.java	0	0	0	0	58	55
+sandmark.util.splitint.CRTSplitter	sandmark.jar	smark3/sandmark/util/splitint/CRTSplitter.java	0	0	0	0	331	291
+sandmark.util.splitint.CRTSplitter$Congruence	sandmark.jar	smark3/sandmark/util/splitint/CRTSplitter.java	0	0	0	2	0	0
+sandmark.util.splitint.CombinationSplitter	sandmark.jar	smark3/sandmark/util/splitint/CombinationSplitter.java	0	0	0	0	116	105
+sandmark.util.splitint.FastCRTSplitter	sandmark.jar	smark3/sandmark/util/splitint/FastCRTSplitter.java	0	0	0	0	84	72
+sandmark.util.splitint.IntSplitter	sandmark.jar	smark3/sandmark/util/splitint/IntSplitter.java	0	0	0	0	7	6
+sandmark.util.splitint.PartialSumSplitter	sandmark.jar	smark3/sandmark/util/splitint/PartialSumSplitter.java	0	0	0	0	96	79
+sandmark.util.splitint.ResidueSplitter	sandmark.jar	smark3/sandmark/util/splitint/ResidueSplitter.java	0	0	0	0	10	8
+sandmark.util.splitint.ScaledSplitter	sandmark.jar	smark3/sandmark/util/splitint/ScaledSplitter.java	0	0	0	0	96	94
+sandmark.util.splitint.SlowCRTSplitter	sandmark.jar	smark3/sandmark/util/splitint/SlowCRTSplitter.java	0	0	0	0	161	141
+sandmark.util.splitint.ValueSplitter	sandmark.jar	smark3/sandmark/util/splitint/ValueSplitter.java	0	0	0	0	73	71
+sandmark.program.Application	sandmark.jar	smark3/sandmark/program/Application.java	0	0	0	0	676	370
+sandmark.program.Application$1	sandmark.jar	smark3/sandmark/program/Application.java	0	0	0	2	0	0
+sandmark.program.Class	sandmark.jar	smark3/sandmark/program/Class.java	0	0	0	0	1032	483
+sandmark.program.ConstantPoolGen	sandmark.jar	smark3/sandmark/program/ConstantPoolGen.java	0	0	0	4	289	91
+sandmark.program.Field	sandmark.jar	smark3/sandmark/program/Field.java	0	0	0	0	352	196
+sandmark.program.File	sandmark.jar	smark3/sandmark/program/File.java	0	0	0	0	114	40
+sandmark.program.JarElement	sandmark.jar	smark3/sandmark/program/JarElement.java	0	0	0	0	47	16
+sandmark.program.LibraryCPG	sandmark.jar	smark3/sandmark/program/LibraryCPG.java	0	0	0	4	114	71
+sandmark.program.LibraryClass	sandmark.jar	smark3/sandmark/program/LibraryClass.java	0	0	0	0	85	37
+sandmark.program.LibraryField	sandmark.jar	smark3/sandmark/program/LibraryField.java	0	0	0	0	30	8
+sandmark.program.LibraryMethod	sandmark.jar	smark3/sandmark/program/LibraryMethod.java	0	0	0	0	29	8
+sandmark.program.LocalCPG	sandmark.jar	smark3/sandmark/program/LocalCPG.java	0	0	0	4	19	7
+sandmark.program.LocalClass	sandmark.jar	smark3/sandmark/program/LocalClass.java	0	0	0	0	89	42
+sandmark.program.LocalField	sandmark.jar	smark3/sandmark/program/LocalField.java	0	0	0	0	42	12
+sandmark.program.LocalMethod	sandmark.jar	smark3/sandmark/program/LocalMethod.java	0	0	0	0	69	37
+sandmark.program.MarkListener	sandmark.jar	smark3/sandmark/program/MarkListener.java	0	0	0	0	19	4
+sandmark.program.Method	sandmark.jar	smark3/sandmark/program/Method.java	0	0	0	0	734	425
+sandmark.program.Object	sandmark.jar	smark3/sandmark/program/Object.java	0	0	0	0	436	207
+sandmark.program.ObjectMemberChangeListener	sandmark.jar	smark3/sandmark/program/ObjectMemberChangeListener.java	0	0	0	0	24	10
+sandmark.program.PathChangeListener	sandmark.jar	smark3/sandmark/program/PathChangeListener.java	0	0	0	0	5	4
+sandmark.program.UserObjectConstraints	sandmark.jar	smark3/sandmark/program/UserObjectConstraints.java	0	0	0	0	126	83
+org.apache.bcel.generic.AALOAD	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.AASTORE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ACONST_NULL	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ALOAD	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ANEWARRAY	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ARETURN	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ARRAYLENGTH	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ASTORE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ATHROW	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.AllocationInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ArithmeticInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ArrayInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ArrayType	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.BALOAD	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.BASTORE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.BIPUSH	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.BREAKPOINT	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.BasicType	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.BranchHandle	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.BranchInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.CALOAD	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.CASTORE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.CHECKCAST	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.CPInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ClassGen	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ClassGenException	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ClassObserver	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.CodeExceptionGen	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.CompoundInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ConstantPoolGen	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ConstantPoolGen$Index	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.generic.ConstantPushInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ConversionInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.D2F	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.D2I	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.D2L	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DADD	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DALOAD	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DASTORE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DCMPG	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DCMPL	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DCONST	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DDIV	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DLOAD	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DMUL	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DNEG	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DREM	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DRETURN	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DSTORE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DSUB	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DUP	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DUP2	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DUP2_X1	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DUP2_X2	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DUP_X1	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.DUP_X2	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.EmptyVisitor	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ExceptionThrower	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.F2D	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.F2I	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.F2L	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.FADD	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.FALOAD	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.FASTORE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.FCMPG	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.FCMPL	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.FCONST	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.FDIV	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.FLOAD	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.FMUL	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.FNEG	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.FREM	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.FRETURN	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.FSTORE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.FSUB	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.FieldGen	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.FieldGenOrMethodGen	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.FieldInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.FieldObserver	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.FieldOrMethod	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.GETFIELD	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.GETSTATIC	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.GOTO	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.GOTO_W	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.GotoInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.I2B	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.I2C	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.I2D	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.I2F	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.I2L	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.I2S	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IADD	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IALOAD	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IAND	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IASTORE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ICONST	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IDIV	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IFEQ	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IFGE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IFGT	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IFLE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IFLT	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IFNE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IFNONNULL	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IFNULL	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IF_ACMPEQ	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IF_ACMPNE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IF_ICMPEQ	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IF_ICMPGE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IF_ICMPGT	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IF_ICMPLE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IF_ICMPLT	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IF_ICMPNE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IINC	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ILOAD	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IMPDEP1	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IMPDEP2	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IMUL	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.INEG	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.INSTANCEOF	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.INVOKEINTERFACE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.INVOKESPECIAL	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.INVOKESTATIC	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.INVOKEVIRTUAL	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IOR	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IREM	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IRETURN	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ISHL	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ISHR	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ISTORE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ISUB	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IUSHR	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IXOR	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IfInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.IndexedInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.Instruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.InstructionComparator	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.InstructionComparator$1	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.generic.InstructionConstants	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.InstructionConstants$Clinit	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.generic.InstructionFactory	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.InstructionFactory$MethodObject	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.generic.InstructionHandle	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.InstructionList	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.InstructionList$1	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.generic.InstructionListObserver	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.InstructionTargeter	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.InvokeInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.JSR	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.JSR_W	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.JsrInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.L2D	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.L2F	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.L2I	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LADD	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LALOAD	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LAND	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LASTORE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LCMP	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LCONST	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LDC	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LDC2_W	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LDC_W	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LDIV	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LLOAD	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LMUL	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LNEG	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LOOKUPSWITCH	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LOR	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LREM	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LRETURN	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LSHL	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LSHR	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LSTORE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LSUB	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LUSHR	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LXOR	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LineNumberGen	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LoadClass	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LoadInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LocalVariableGen	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.LocalVariableInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.MONITORENTER	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.MONITOREXIT	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.MULTIANEWARRAY	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.MethodGen	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.MethodGen$BranchStack	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.generic.MethodGen$BranchTarget	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.generic.MethodObserver	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.NEW	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.NEWARRAY	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.NOP	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.NamedAndTyped	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ObjectType	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.POP	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.POP2	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.PUSH	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.PUTFIELD	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.PUTSTATIC	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.PopInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.PushInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.RET	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.RETURN	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ReferenceType	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ReturnInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.ReturnaddressType	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.SALOAD	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.SASTORE	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.SIPUSH	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.SWAP	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.SWITCH	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.Select	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.StackConsumer	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.StackInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.StackProducer	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.StoreInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.TABLESWITCH	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.TargetLostException	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.Type	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.Type$1	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.generic.Type$2	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.generic.TypedInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.UnconditionalBranch	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.VariableLengthInstruction	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.generic.Visitor	sandmark.jar		1	1	1	-1	0	0
+junit.framework.Assert	sandmark.jar		1	1	1	-1	0	0
+junit.framework.AssertionFailedError	sandmark.jar		1	1	1	-1	0	0
+junit.framework.ComparisonFailure	sandmark.jar		1	1	1	-1	0	0
+junit.framework.Protectable	sandmark.jar		1	1	1	-1	0	0
+junit.framework.Test	sandmark.jar		1	1	1	-1	0	0
+junit.framework.TestCase	sandmark.jar		1	1	1	-1	0	0
+junit.framework.TestFailure	sandmark.jar		1	1	1	-1	0	0
+junit.framework.TestListener	sandmark.jar		1	1	1	-1	0	0
+junit.framework.TestResult	sandmark.jar		1	1	1	-1	0	0
+junit.framework.TestResult$1	sandmark.jar		1	1	1	2	0	0
+junit.framework.TestSuite	sandmark.jar		1	1	1	-1	0	0
+junit.framework.TestSuite$1	sandmark.jar		1	1	1	2	0	0
+sandmark.watermark.mondenwmark.MondenWmark	sandmark.jar	smark3/sandmark/watermark/mondenwmark/MondenWmark.java	0	0	0	0	483	385
+sandmark.birthmark.Birthmark	sandmark.jar	smark3/sandmark/birthmark/Birthmark.java	0	0	0	0	108	62
+sandmark.birthmark.BirthmarkException	sandmark.jar	smark3/sandmark/birthmark/BirthmarkException.java	0	0	0	0	7	6
+sandmark.birthmark.DynamicBirthMarkParameters	sandmark.jar	smark3/sandmark/birthmark/DynamicBirthMarkParameters.java	0	0	0	0	65	50
+sandmark.birthmark.DynamicBirthmark	sandmark.jar	smark3/sandmark/birthmark/DynamicBirthmark.java	0	0	0	0	6	5
+sandmark.birthmark.GeneralBirthmark	sandmark.jar	smark3/sandmark/birthmark/GeneralBirthmark.java	0	0	0	0	3	2
+sandmark.birthmark.StaticClassBirthMarkParameters	sandmark.jar	smark3/sandmark/birthmark/StaticClassBirthMarkParameters.java	0	0	0	0	42	28
+sandmark.birthmark.StaticClassBirthmark	sandmark.jar	smark3/sandmark/birthmark/StaticClassBirthmark.java	0	0	0	0	6	5
+sandmark.watermark.util.BasicBlockMarker	sandmark.jar	smark3/sandmark/watermark/util/BasicBlockMarker.java	0	0	0	0	79	14
+sandmark.watermark.util.EveryBlockMarker	sandmark.jar	smark3/sandmark/watermark/util/EveryBlockMarker.java	0	0	0	0	152	87
+sandmark.watermark.util.EveryBlockMarker$CountOrderer	sandmark.jar	smark3/sandmark/watermark/util/EveryBlockMarker.java	0	0	0	2	0	0
+sandmark.watermark.util.InsnCountMarker	sandmark.jar	smark3/sandmark/watermark/util/InsnCountMarker.java	0	0	0	0	25	9
+sandmark.watermark.util.MD5Marker	sandmark.jar	smark3/sandmark/watermark/util/MD5Marker.java	0	0	0	0	253	221
+sandmark.watermark.util.MD5Marker$TrivialIterator	sandmark.jar	smark3/sandmark/watermark/util/MD5Marker.java	0	0	0	2	0	0
+sandmark.watermark.util.MethodMarker	sandmark.jar	smark3/sandmark/watermark/util/MethodMarker.java	0	0	0	0	67	11
+sandmark.watermark.util.PutstaticCountMarker	sandmark.jar	smark3/sandmark/watermark/util/PutstaticCountMarker.java	0	0	0	0	44	25
+sandmark.watermark.util.StaticWriteParityMarker	sandmark.jar	smark3/sandmark/watermark/util/StaticWriteParityMarker.java	0	0	0	0	249	133
+sandmark.watermark.util.StaticWriteParityMarker$TrivialIterator	sandmark.jar	smark3/sandmark/watermark/util/StaticWriteParityMarker.java	0	0	0	2	0	0
+sandmark.obfuscate.branchinsertion.BranchInsertion	sandmark.jar	smark3/sandmark/obfuscate/branchinsertion/BranchInsertion.java	0	0	0	0	111	106
+sandmark.obfuscate.branchinsertion.BranchInsertion2	sandmark.jar	smark3/sandmark/obfuscate/branchinsertion/BranchInsertion2.java	0	0	0	0	107	101
+sandmark.watermark.hattrick.HatTrick	sandmark.jar	smark3/sandmark/watermark/hattrick/HatTrick.java	0	0	0	0	373	256
+sandmark.watermark.hattrick.HatTrick$Recognizer	sandmark.jar	smark3/sandmark/watermark/hattrick/HatTrick.java	0	0	0	2	0	0
+sandmark.watermark.ct.recognize.Heap2Graph	sandmark.jar	smark3/sandmark/watermark/ct/recognize/Heap2Graph.java	0	0	0	0	46	33
+sandmark.watermark.ct.recognize.RecognizeData	sandmark.jar	smark3/sandmark/watermark/ct/recognize/RecognizeData.java	0	0	0	0	101	50
+sandmark.watermark.ct.recognize.Recognizer	sandmark.jar	smark3/sandmark/watermark/ct/recognize/Recognizer.java	0	0	0	0	282	194
+sandmark.watermark.ct.recognize.Recognizer$DecodedGraph	sandmark.jar	smark3/sandmark/watermark/ct/recognize/Recognizer.java	0	0	0	2	0	0
+sandmark.watermark.ct.recognize.Recognizer$Graphs	sandmark.jar	smark3/sandmark/watermark/ct/recognize/Recognizer.java	0	0	0	2	0	0
+sandmark.watermark.ct.recognize.Recognizer$InitBreakpoint	sandmark.jar	smark3/sandmark/watermark/ct/recognize/Recognizer.java	0	0	0	2	0	0
+sandmark.watermark.ct.recognize.Recognizer$Watermarks	sandmark.jar	smark3/sandmark/watermark/ct/recognize/Recognizer.java	0	0	0	2	0	0
+sandmark.watermark.ct.trace.Annotator	sandmark.jar	smark3/sandmark/watermark/ct/trace/Annotator.java	0	0	0	0	68	25
+sandmark.watermark.ct.trace.Preprocessor	sandmark.jar	smark3/sandmark/watermark/ct/trace/Preprocessor.java	0	0	0	0	182	72
+sandmark.watermark.ct.trace.TracePoint	sandmark.jar	smark3/sandmark/watermark/ct/trace/TracePoint.java	0	0	0	0	152	59
+sandmark.watermark.ct.trace.Tracer	sandmark.jar	smark3/sandmark/watermark/ct/trace/Tracer.java	0	0	0	0	101	67
+sandmark.watermark.ct.trace.Tracer$Breakpoint	sandmark.jar	smark3/sandmark/watermark/ct/trace/Tracer.java	0	0	0	2	0	0
+sandmark.birthmark.util.KnownClassesManager	sandmark.jar	smark3/sandmark/birthmark/util/KnownClassesManager.java	0	0	0	0	28	23
+sandmark.visualize.heap.HeapVisualizer	sandmark.jar	smark3/sandmark/visualize/heap/HeapVisualizer.java	0	0	0	0	74	42
+sandmark.visualize.heap.HeapVisualizer$InitBreakpoint	sandmark.jar	smark3/sandmark/visualize/heap/HeapVisualizer.java	0	0	0	2	0	0
+sandmark.visualize.heap.SQL	sandmark.jar	smark3/sandmark/visualize/heap/SQL.java	0	0	0	0	94	64
+sandmark.watermark.arboit.AlgOP	sandmark.jar	smark3/sandmark/watermark/arboit/AlgOP.java	0	0	0	0	2072	1845
+sandmark.watermark.arboit.ArboitAlg	sandmark.jar	smark3/sandmark/watermark/arboit/ArboitAlg.java	0	0	0	0	226	126
+sandmark.watermark.arboit.ArboitAlg$Recognizer	sandmark.jar	smark3/sandmark/watermark/arboit/ArboitAlg.java	0	0	0	2	0	0
+sandmark.watermark.arboit.Bundle	sandmark.jar	smark3/sandmark/watermark/arboit/Bundle.java	0	0	0	0	45	37
+sandmark.watermark.arboit.DynamicAA	sandmark.jar	smark3/sandmark/watermark/arboit/DynamicAA.java	0	0	0	0	326	230
+sandmark.watermark.arboit.UtilFunctions	sandmark.jar	smark3/sandmark/watermark/arboit/UtilFunctions.java	0	0	0	0	840	613
+sandmark.smash.SandmarkCLI	sandmark.jar	smark3/sandmark/smash/SandmarkCLI.java	0	0	0	0	451	391
+sandmark.smash.Smash	sandmark.jar	smark3/sandmark/smash/Smash.java	0	0	0	0	173	143
+sandmark.smash.Smash$1	sandmark.jar	smark3/sandmark/smash/Smash.java	0	0	0	2	0	0
+sandmark.obfuscate.AllClassesObfuscator	sandmark.jar	smark3/sandmark/obfuscate/AllClassesObfuscator.java	0	0	0	0	37	13
+sandmark.obfuscate.AppObfuscator	sandmark.jar	smark3/sandmark/obfuscate/AppObfuscator.java	0	0	0	0	18	6
+sandmark.obfuscate.ClassObfuscator	sandmark.jar	smark3/sandmark/obfuscate/ClassObfuscator.java	0	0	0	0	18	5
+sandmark.obfuscate.GeneralObfuscator	sandmark.jar	smark3/sandmark/obfuscate/GeneralObfuscator.java	0	0	0	0	23	6
+sandmark.obfuscate.MethodObfuscator	sandmark.jar	smark3/sandmark/obfuscate/MethodObfuscator.java	0	0	0	0	17	5
+sandmark.obfuscate.ObfuscationException	sandmark.jar	smark3/sandmark/obfuscate/ObfuscationException.java	0	0	0	0	10	8
+sandmark.obfuscate.Obfuscator	sandmark.jar	smark3/sandmark/obfuscate/Obfuscator.java	0	0	0	0	48	32
+sandmark.analysis.slicingtools.AnalysisBlock	sandmark.jar	smark3/sandmark/analysis/slicingtools/AnalysisBlock.java	0	0	0	0	66	50
+sandmark.analysis.slicingtools.BackwardMethodSlice	sandmark.jar	smark3/sandmark/analysis/slicingtools/BackwardMethodSlice.java	0	0	0	0	274	230
+sandmark.analysis.slicingtools.ForwardMethodSlice	sandmark.jar	smark3/sandmark/analysis/slicingtools/ForwardMethodSlice.java	0	0	0	0	281	220
+sandmark.analysis.slicingtools.MethodSlice	sandmark.jar	smark3/sandmark/analysis/slicingtools/MethodSlice.java	0	0	0	4	221	158
+sandmark.obfuscate.stringencoder.LFStringEncoder	sandmark.jar	smark3/sandmark/obfuscate/stringencoder/LFStringEncoder.java	0	0	0	0	420	349
+sandmark.obfuscate.exceptionbranches.DispatcherException		smark3/sandmark/obfuscate/exceptionbranches/DispatcherException.java	0	2	0	0	384	290
+sandmark.obfuscate.exceptionbranches.ExceptionBranches		smark3/sandmark/obfuscate/exceptionbranches/ExceptionBranches.java	0	2	0	0	649	445
+sandmark.wizard.modeling.dfa.DFA	sandmark.jar	smark3/sandmark/wizard/modeling/dfa/DFA.java	0	0	0	0	513	383
+sandmark.wizard.modeling.dfa.DFAEdge	sandmark.jar	smark3/sandmark/wizard/modeling/dfa/DFAEdge.java	0	0	0	0	54	44
+sandmark.wizard.modeling.dfa.DFAModel	sandmark.jar	smark3/sandmark/wizard/modeling/dfa/DFAModel.java	0	0	0	0	322	195
+sandmark.wizard.modeling.dfa.DFAModel$ChoiceList	sandmark.jar	smark3/sandmark/wizard/modeling/dfa/DFAModel.java	0	0	0	2	0	0
+sandmark.wizard.modeling.dfa.DFAModel$EdgeChoice	sandmark.jar	smark3/sandmark/wizard/modeling/dfa/DFAModel.java	0	0	0	2	0	0
+sandmark.wizard.modeling.dfa.DFANode	sandmark.jar	smark3/sandmark/wizard/modeling/dfa/DFANode.java	0	0	0	0	44	26
+sandmark.wizard.modeling.dfa.IntermediateDFA	sandmark.jar	smark3/sandmark/wizard/modeling/dfa/IntermediateDFA.java	0	0	0	0	21	15
+sandmark.wizard.modeling.dfa.PostprohibitDFA	sandmark.jar	smark3/sandmark/wizard/modeling/dfa/PostprohibitDFA.java	0	0	0	0	78	55
+sandmark.wizard.modeling.dfa.PostreqDFA	sandmark.jar	smark3/sandmark/wizard/modeling/dfa/PostreqDFA.java	0	0	0	0	106	72
+sandmark.wizard.modeling.dfa.PreprohibitDFA	sandmark.jar	smark3/sandmark/wizard/modeling/dfa/PreprohibitDFA.java	0	0	0	0	92	60
+sandmark.wizard.modeling.dfa.PrereqDFA	sandmark.jar	smark3/sandmark/wizard/modeling/dfa/PrereqDFA.java	0	0	0	0	95	49
+sandmark.wizard.modeling.dfa.WeightMap	sandmark.jar	smark3/sandmark/wizard/modeling/dfa/WeightMap.java	0	0	0	0	56	45
+sandmark.wizard.modeling.dfa.WeightPrimer	sandmark.jar	smark3/sandmark/wizard/modeling/dfa/WeightPrimer.java	0	0	0	0	286	179
+koala.dynamicjava.classinfo.ClassFinder	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classinfo.ClassInfo	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classinfo.ClassInfoUtilities	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classinfo.ConstructorInfo	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classinfo.FieldInfo	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classinfo.JavaClassInfo	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classinfo.JavaConstructorInfo	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classinfo.JavaFieldInfo	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classinfo.JavaMethodInfo	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classinfo.MethodInfo	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classinfo.TreeClassInfo	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classinfo.TreeClassInfo$MembersVisitor	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.classinfo.TreeConstructorInfo	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classinfo.TreeFieldInfo	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classinfo.TreeMethodInfo	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.classinfo.TypeVisitor	sandmark.jar		1	1	1	-1	0	0
+sandmark.wizard.modeling.lazydfa.LazyDFA	sandmark.jar	smark3/sandmark/wizard/modeling/lazydfa/LazyDFA.java	0	0	0	0	216	152
+sandmark.wizard.modeling.lazydfa.LazyDFAEdge	sandmark.jar	smark3/sandmark/wizard/modeling/lazydfa/LazyDFAEdge.java	0	0	0	0	50	40
+sandmark.wizard.modeling.lazydfa.LazyDFAModel	sandmark.jar	smark3/sandmark/wizard/modeling/lazydfa/LazyDFAModel.java	0	0	0	0	167	131
+sandmark.wizard.modeling.lazydfa.LazyDFAModel$DFAEdgeIterator	sandmark.jar	smark3/sandmark/wizard/modeling/lazydfa/LazyDFAModel.java	0	0	0	2	0	0
+sandmark.wizard.modeling.lazydfa.LazyDFAModel$EdgeChoice	sandmark.jar	smark3/sandmark/wizard/modeling/lazydfa/LazyDFAModel.java	0	0	0	2	0	0
+sandmark.wizard.modeling.lazydfa.LazyDFANode	sandmark.jar	smark3/sandmark/wizard/modeling/lazydfa/LazyDFANode.java	0	0	0	0	165	131
+sandmark.wizard.modeling.lazydfa.LazyDFANode$Tuple	sandmark.jar	smark3/sandmark/wizard/modeling/lazydfa/LazyDFANode.java	0	0	0	2	0	0
+org.apache.bcel.util.AttributeHTML	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.util.BCELFactory	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.util.BCELifier	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.util.ByteSequence	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.util.ByteSequence$ByteArrayStream	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.util.Class2HTML	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.util.ClassLoader	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.util.ClassLoaderRepository	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.util.ClassPath	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.util.ClassPath$1	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.util.ClassPath$2	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.util.ClassPath$3	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.util.ClassPath$ClassFile	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.util.ClassPath$Dir	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.util.ClassPath$PathEntry	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.util.ClassPath$Zip	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.util.ClassQueue	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.util.ClassSet	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.util.ClassStack	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.util.ClassVector	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.util.CodeHTML	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.util.ConstantHTML	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.util.InstructionFinder	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.util.InstructionFinder$CodeConstraint	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.util.JavaWrapper	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.util.MethodHTML	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.util.Repository	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.util.SyntheticRepository	sandmark.jar		1	1	1	-1	0	0
+sandmark.optimise.AllClassesOptimizer	sandmark.jar	smark3/sandmark/optimise/AllClassesOptimizer.java	0	0	0	0	37	13
+sandmark.optimise.AppOptimizer	sandmark.jar	smark3/sandmark/optimise/AppOptimizer.java	0	0	0	0	11	3
+sandmark.optimise.ClassOptimizer	sandmark.jar	smark3/sandmark/optimise/ClassOptimizer.java	0	0	0	0	12	3
+sandmark.optimise.GeneralOptimizer	sandmark.jar	smark3/sandmark/optimise/GeneralOptimizer.java	0	0	0	0	18	2
+sandmark.optimise.MethodOptimizer	sandmark.jar	smark3/sandmark/optimise/MethodOptimizer.java	0	0	0	0	11	3
+sandmark.optimise.Optimise	sandmark.jar	smark3/sandmark/optimise/Optimise.java	0	0	0	0	124	91
+sandmark.optimise.OptimizationException	sandmark.jar	smark3/sandmark/optimise/OptimizationException.java	0	0	0	0	10	8
+sandmark.optimise.Optimizer	sandmark.jar	smark3/sandmark/optimise/Optimizer.java	0	0	0	0	48	32
+sandmark.analysis.controlflowgraph.BasicBlock	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/BasicBlock.java	0	0	0	0	235	171
+sandmark.analysis.controlflowgraph.BasicBlock$BBArrayList	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/BasicBlock.java	0	0	0	2	0	0
+sandmark.analysis.controlflowgraph.CallGenerator	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/CallGenerator.java	0	0	0	0	6	4
+sandmark.analysis.controlflowgraph.CallingCallGenerator	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/CallingCallGenerator.java	0	0	0	0	311	286
+sandmark.analysis.controlflowgraph.CodeContext	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/CodeContext.java	0	0	0	0	103	42
+sandmark.analysis.controlflowgraph.ControlFlowSynthesizer	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/ControlFlowSynthesizer.java	0	0	0	0	181	105
+sandmark.analysis.controlflowgraph.Edge	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/Edge.java	0	0	0	0	17	15
+sandmark.analysis.controlflowgraph.EmptyMethodException	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/EmptyMethodException.java	0	0	0	0	11	9
+sandmark.analysis.controlflowgraph.ExceptionEdge	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/ExceptionEdge.java	0	0	0	0	21	20
+sandmark.analysis.controlflowgraph.FallthroughEdge	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/FallthroughEdge.java	0	0	0	0	7	6
+sandmark.analysis.controlflowgraph.IntFuncSynthesizer	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/IntFuncSynthesizer.java	0	0	0	0	108	56
+sandmark.analysis.controlflowgraph.IntFuncSynthesizer$ILOAD_UNSPEC	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/IntFuncSynthesizer.java	0	0	0	2	0	0
+sandmark.analysis.controlflowgraph.IntFuncSynthesizer$ISTORE_UNSPEC	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/IntFuncSynthesizer.java	0	0	0	2	0	0
+sandmark.analysis.controlflowgraph.MethodCFG	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/MethodCFG.java	0	0	0	0	754	574
+sandmark.analysis.controlflowgraph.MethodCFG$BasicBlockIterator	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/MethodCFG.java	0	0	0	2	0	0
+sandmark.analysis.controlflowgraph.MinimalSynthesizer	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/MinimalSynthesizer.java	0	0	0	0	291	193
+sandmark.analysis.controlflowgraph.NullNENullCallGenerator	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/NullNENullCallGenerator.java	0	0	0	0	335	309
+sandmark.analysis.controlflowgraph.PositiveIntSynthesizer	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/PositiveIntSynthesizer.java	0	0	0	0	603	409
+sandmark.analysis.controlflowgraph.ProgramCFG	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/ProgramCFG.java	0	0	0	0	99	95
+sandmark.analysis.controlflowgraph.RegisterAllocator	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/RegisterAllocator.java	0	0	0	0	175	134
+sandmark.analysis.controlflowgraph.SimpleGotoSynthesizer	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/SimpleGotoSynthesizer.java	0	0	0	0	88	50
+sandmark.analysis.controlflowgraph.SimpleSwitchSynthesizer	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/SimpleSwitchSynthesizer.java	0	0	0	0	114	65
+sandmark.analysis.controlflowgraph.TopoMaintainingCallGenerator	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/TopoMaintainingCallGenerator.java	0	0	0	0	162	149
+sandmark.analysis.controlflowgraph.VoidMethodSynthesizer	sandmark.jar	smark3/sandmark/analysis/controlflowgraph/VoidMethodSynthesizer.java	0	0	0	0	33	16
+sandmark.watermark.execpath.Analyzer	sandmark.jar	smark3/sandmark/watermark/execpath/Analyzer.java	0	0	0	0	258	226
+sandmark.watermark.execpath.Analyzer$Instruction	sandmark.jar	smark3/sandmark/watermark/execpath/Analyzer.java	0	0	0	2	0	0
+sandmark.watermark.execpath.Analyzer$InstructionInfo	sandmark.jar	smark3/sandmark/watermark/execpath/Analyzer.java	0	0	0	2	0	0
+sandmark.watermark.execpath.Analyzer$Method	sandmark.jar	smark3/sandmark/watermark/execpath/Analyzer.java	0	0	0	2	0	0
+sandmark.watermark.execpath.Analyzer$ThreadInfo	sandmark.jar	smark3/sandmark/watermark/execpath/Analyzer.java	0	0	0	2	0	0
+sandmark.watermark.execpath.ConditionGenerator	sandmark.jar	smark3/sandmark/watermark/execpath/ConditionGenerator.java	0	0	0	0	1381	1162
+sandmark.watermark.execpath.ContextCodeGen	sandmark.jar	smark3/sandmark/watermark/execpath/ContextCodeGen.java	0	0	0	0	130	127
+sandmark.watermark.execpath.EPW	sandmark.jar	smark3/sandmark/watermark/execpath/EPW.java	0	0	0	0	400	337
+sandmark.watermark.execpath.EPW$Insertion	sandmark.jar	smark3/sandmark/watermark/execpath/EPW.java	0	0	0	2	0	0
+sandmark.watermark.execpath.LoopCodeGen	sandmark.jar	smark3/sandmark/watermark/execpath/LoopCodeGen.java	0	0	0	0	103	94
+sandmark.watermark.execpath.NodeIterator	sandmark.jar	smark3/sandmark/watermark/execpath/NodeIterator.java	0	0	0	0	33	27
+sandmark.watermark.execpath.RecognitionIterator	sandmark.jar	smark3/sandmark/watermark/execpath/RecognitionIterator.java	0	0	0	0	39	37
+sandmark.watermark.execpath.SMLinkedList	sandmark.jar	smark3/sandmark/watermark/execpath/SandmarkListHolder.java	0	0	0	1	0	0
+sandmark.watermark.execpath.SandmarkListHolder	sandmark.jar	smark3/sandmark/watermark/execpath/SandmarkListHolder.java	0	0	0	0	126	108
+sandmark.watermark.execpath.StreamPump	sandmark.jar	smark3/sandmark/watermark/execpath/StreamPump.java	0	0	0	0	18	17
+sandmark.watermark.execpath.TraceGetter	sandmark.jar	smark3/sandmark/watermark/execpath/TraceGetter.java	0	0	0	0	171	162
+sandmark.watermark.execpath.TraceIndexer	sandmark.jar	smark3/sandmark/watermark/execpath/TraceIndexer.java	0	0	0	0	106	94
+sandmark.watermark.execpath.TraceIndexer$TracePoint	sandmark.jar	smark3/sandmark/watermark/execpath/TraceIndexer.java	0	0	0	2	0	0
+sandmark.watermark.execpath.TraceNode	sandmark.jar	smark3/sandmark/watermark/execpath/TraceNode.java	0	0	0	0	121	75
+sandmark.watermark.execpath.TraceReader	sandmark.jar	smark3/sandmark/watermark/execpath/TraceReader.java	0	0	0	0	20	19
+sandmark.watermark.execpath.Tracer	sandmark.jar	smark3/sandmark/watermark/execpath/Tracer.java	0	0	0	0	779	601
+sandmark.watermark.execpath.VarValue	sandmark.jar	smark3/sandmark/watermark/execpath/VarValue.java	0	0	0	0	160	102
+sandmark.watermark.execpath.WMCodeGen	sandmark.jar	smark3/sandmark/watermark/execpath/WMCodeGen.java	0	0	0	0	168	162
+sandmark.watermark.execpath.WMCodeGen$CodeGenException	sandmark.jar	smark3/sandmark/watermark/execpath/WMCodeGen.java	0	0	0	2	0	0
+sandmark.watermark.execpath.WMCodeGen$PushBackIterator	sandmark.jar	smark3/sandmark/watermark/execpath/WMCodeGen.java	0	0	0	2	0	0
+koala.dynamicjava.interpreter.ClassFactory	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.ClassInfoCompiler	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.ClassInfoCompiler$ConstructorVisitor	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.ClassInfoCompiler$MembersVisitor	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.ClassLoaderContainer	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.ClassPool	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.EvaluationVisitor	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.Interpreter	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.InterpreterException	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.InterpreterException$SourceInformation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$AddOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$BinaryArithmeticOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$BinaryPredicate	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$BitAndOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$BitOrOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$BitwiseOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$DivideOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$EqualToPredicate	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$GreaterOrEqualOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$GreaterThanOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$LessOrEqualOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$LessThanOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$MinusOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$MultiplyOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$NotEqualToPredicate	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$PlusOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$RelationalOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$RemainderOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$ShiftLeftOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$ShiftOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$ShiftRightOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$SubtractOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$UnaryOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$UnsignedShiftRightOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.InterpreterUtilities$XOrOperation	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.Main	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.NameVisitor	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.NodeProperties	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.TreeClassFinder	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.TreeClassLoader	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.TreeCompiler	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.TreeCompiler$ClassInfoLoader	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.TreeCompiler$CompilationUnitVisitor	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.TreeCompiler$PseudoError	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.TreeInterpreter	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.TreeInterpreter$ConstructorParametersDescriptor	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.TreeInterpreter$MethodDescriptor	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.TypeChecker	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.UninitializedObject	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.context.Context	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.context.GlobalContext	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.context.GlobalContext$CompilationUnitVisitor	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.context.GlobalContext$CompilationUnitVisitor$MembersVisitor	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.context.GlobalContext$PseudoClassLoader	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.context.GlobalContext$PseudoError	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.context.MethodContext	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.context.MethodModificationError	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.context.NoSuchFunctionException	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.context.SimpleContext	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.context.StaticContext	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.context.VariableContext	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.interpreter.context.VariableContext$AbstractVariable	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.context.VariableContext$Constant	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.context.VariableContext$Link	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.context.VariableContext$LinkFactory	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.context.VariableContext$Scope	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.context.VariableContext$Scope$Entry	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.context.VariableContext$Scope$EntryFactory	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.interpreter.context.VariableContext$Variable	sandmark.jar		1	1	1	2	0	0
+sandmark.util.graph.graphview.CreateGraph	sandmark.jar	smark3/sandmark/util/graph/graphview/CreateGraph.java	0	0	0	0	224	187
+sandmark.util.graph.graphview.DummyNode	sandmark.jar	smark3/sandmark/util/graph/graphview/DummyNode.java	0	0	0	0	15	5
+sandmark.util.graph.graphview.EdgeDisplayInfo	sandmark.jar	smark3/sandmark/util/graph/graphview/EdgeDisplayInfo.java	0	0	0	0	54	26
+sandmark.util.graph.graphview.GraphLayout	sandmark.jar	smark3/sandmark/util/graph/graphview/GraphLayout.java	0	0	0	0	240	140
+sandmark.util.graph.graphview.GraphList	sandmark.jar	smark3/sandmark/util/graph/graphview/GraphList.java	0	0	0	0	160	81
+sandmark.util.graph.graphview.GraphList$GraphInfo	sandmark.jar	smark3/sandmark/util/graph/graphview/GraphList.java	0	0	0	2	0	0
+sandmark.util.graph.graphview.GraphPanel	sandmark.jar	smark3/sandmark/util/graph/graphview/GraphPanel.java	0	0	0	0	536	421
+sandmark.util.graph.graphview.GraphPanel$1	sandmark.jar	smark3/sandmark/util/graph/graphview/GraphPanel.java	0	0	0	2	0	0
+sandmark.util.graph.graphview.GraphPanel$MyMouseListener	sandmark.jar	smark3/sandmark/util/graph/graphview/GraphPanel.java	0	0	0	2	0	0
+sandmark.util.graph.graphview.GraphViewFrame	sandmark.jar	smark3/sandmark/util/graph/graphview/GraphViewFrame.java	0	0	0	0	281	197
+sandmark.util.graph.graphview.GraphViewFrame$1	sandmark.jar	smark3/sandmark/util/graph/graphview/GraphViewFrame.java	0	0	0	2	0	0
+sandmark.util.graph.graphview.GraphViewFrame$2	sandmark.jar	smark3/sandmark/util/graph/graphview/GraphViewFrame.java	0	0	0	2	0	0
+sandmark.util.graph.graphview.GraphViewFrame$3	sandmark.jar	smark3/sandmark/util/graph/graphview/GraphViewFrame.java	0	0	0	2	0	0
+sandmark.util.graph.graphview.GraphZoomSlider	sandmark.jar	smark3/sandmark/util/graph/graphview/GraphZoomSlider.java	0	0	0	0	41	33
+sandmark.util.graph.graphview.GraphZoomSlider$1	sandmark.jar	smark3/sandmark/util/graph/graphview/GraphZoomSlider.java	0	0	0	2	0	0
+sandmark.util.graph.graphview.HierarchyTreeLayout	sandmark.jar	smark3/sandmark/util/graph/graphview/HierarchyTreeLayout.java	0	0	0	0	55	28
+sandmark.util.graph.graphview.LayeredDrawingLayout	sandmark.jar	smark3/sandmark/util/graph/graphview/LayeredDrawingLayout.java	0	0	0	0	692	557
+sandmark.util.graph.graphview.LayeredDrawingLayout$EdgeInfo	sandmark.jar	smark3/sandmark/util/graph/graphview/LayeredDrawingLayout.java	0	0	0	2	0	0
+sandmark.util.graph.graphview.LayeredDrawingLayout$LayerInfo	sandmark.jar	smark3/sandmark/util/graph/graphview/LayeredDrawingLayout.java	0	0	0	2	0	0
+sandmark.util.graph.graphview.MutableGraphPanel	sandmark.jar	smark3/sandmark/util/graph/graphview/MutableGraphPanel.java	0	0	0	0	30	16
+sandmark.util.graph.graphview.NodeDisplayInfo	sandmark.jar	smark3/sandmark/util/graph/graphview/NodeDisplayInfo.java	0	0	0	0	272	121
+sandmark.util.graph.graphview.SimpleGraphLayout	sandmark.jar	smark3/sandmark/util/graph/graphview/SimpleGraphLayout.java	0	0	0	0	58	20
+sandmark.util.graph.graphview.SpringEmbedderLayout	sandmark.jar	smark3/sandmark/util/graph/graphview/SpringEmbedderLayout.java	0	0	0	0	249	128
+sandmark.util.graph.graphview.SpringEmbedderLayout$NodeInfo	sandmark.jar	smark3/sandmark/util/graph/graphview/SpringEmbedderLayout.java	0	0	0	2	0	0
+sandmark.util.graph.graphview.TreeLayout	sandmark.jar	smark3/sandmark/util/graph/graphview/TreeLayout.java	0	0	0	0	72	45
+org.apache.bcel.verifier.GraphicalVerifier	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.NativeVerifier	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.PassVerifier	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.TransitiveHull	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.VerificationResult	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.Verifier	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.VerifierAppFrame	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.VerifierAppFrame$1	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.verifier.VerifierAppFrame$2	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.verifier.VerifierAppFrame$3	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.verifier.VerifierAppFrame$4	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.verifier.VerifierAppFrame$5	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.verifier.VerifierAppFrame$6	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.verifier.VerifierFactory	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.VerifierFactoryListModel	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.VerifierFactoryObserver	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.VerifyDialog	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.verifier.VerifyDialog$1	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.verifier.VerifyDialog$IvjEventHandler	sandmark.jar		1	1	1	2	0	0
+sandmark.watermark.ct.CT	sandmark.jar	smark3/sandmark/watermark/ct/CT.java	0	0	0	0	444	328
+sandmark.watermark.ct.Evaluate	sandmark.jar	smark3/sandmark/watermark/ct/Evaluate.java	0	0	0	0	100	83
+sandmark.watermark.ct.FindWindows	sandmark.jar	smark3/sandmark/watermark/ct/FindWindows.java	0	0	0	0	163	140
+sandmark.watermark.ct.FindWindows$Window	sandmark.jar	smark3/sandmark/watermark/ct/FindWindows.java	0	0	0	2	0	0
+sandmark.watermark.ct.FindWindows$WindowState	sandmark.jar	smark3/sandmark/watermark/ct/FindWindows.java	0	0	0	2	0	0
+sandmark.obfuscate.boolsplitter.BoolSplitter	sandmark.jar	smark3/sandmark/obfuscate/boolsplitter/BoolSplitter.java	0	0	0	0	481	371
+sandmark.obfuscate.varsplitter.VarSplitter	sandmark.jar	smark3/sandmark/obfuscate/varsplitter/VarSplitter.java	0	0	0	0	312	212
+sandmark.obfuscate.paramalias.ParamAlias	sandmark.jar	smark3/sandmark/obfuscate/paramalias/ParamAlias.java	0	0	0	0	316	222
+sandmark.watermark.ct.trace.callforest.AllPathsIterator	sandmark.jar	smark3/sandmark/watermark/ct/trace/callforest/PathGenerator.java	0	0	0	1	0	0
+sandmark.watermark.ct.trace.callforest.AllPathsIterator$Afs	sandmark.jar	smark3/sandmark/watermark/ct/trace/callforest/PathGenerator.java	0	0	0	2	0	0
+sandmark.watermark.ct.trace.callforest.Build	sandmark.jar	smark3/sandmark/watermark/ct/trace/callforest/Build.java	0	0	0	0	307	180
+sandmark.watermark.ct.trace.callforest.Build$Data	sandmark.jar	smark3/sandmark/watermark/ct/trace/callforest/Build.java	0	0	0	2	0	0
+sandmark.watermark.ct.trace.callforest.CallFrame	sandmark.jar	smark3/sandmark/watermark/ct/trace/callforest/CallFrame.java	0	0	0	4	33	24
+sandmark.watermark.ct.trace.callforest.Decorate	sandmark.jar	smark3/sandmark/watermark/ct/trace/callforest/Decorate.java	0	0	0	0	397	241
+sandmark.watermark.ct.trace.callforest.Edge	sandmark.jar	smark3/sandmark/watermark/ct/trace/callforest/Edge.java	0	0	0	0	46	28
+sandmark.watermark.ct.trace.callforest.Forest	sandmark.jar	smark3/sandmark/watermark/ct/trace/callforest/Forest.java	0	0	0	0	196	74
+sandmark.watermark.ct.trace.callforest.Node	sandmark.jar	smark3/sandmark/watermark/ct/trace/callforest/Node.java	0	0	0	0	228	151
+sandmark.watermark.ct.trace.callforest.Path	sandmark.jar	smark3/sandmark/watermark/ct/trace/callforest/Path.java	0	0	0	0	200	139
+sandmark.watermark.ct.trace.callforest.PathGenerator	sandmark.jar	smark3/sandmark/watermark/ct/trace/callforest/PathGenerator.java	0	0	0	0	207	130
+sandmark.watermark.ct.trace.callforest.Test	sandmark.jar	smark3/sandmark/watermark/ct/trace/callforest/Test.java	0	0	0	0	575	320
+sandmark.watermark.ct.trace.callforest.Test$ClassHierarchy	sandmark.jar	smark3/sandmark/watermark/ct/trace/callforest/Test.java	0	0	0	2	0	0
+sandmark.watermark.ct.trace.callforest.Test$Stats	sandmark.jar	smark3/sandmark/watermark/ct/trace/callforest/Test.java	0	0	0	2	0	0
+sandmark.obfuscate.renameidentifiers.RenameLocals	sandmark.jar	smark3/sandmark/obfuscate/renameidentifiers/RenameLocals.java	0	0	0	0	250	183
+org.apache.bcel.classfile.AccessFlags	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.Attribute	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.AttributeReader	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.ClassFormatException	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.ClassParser	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.Code	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.CodeException	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.Constant	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.ConstantCP	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.ConstantClass	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.ConstantDouble	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.ConstantFieldref	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.ConstantFloat	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.ConstantInteger	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.ConstantInterfaceMethodref	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.ConstantLong	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.ConstantMethodref	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.ConstantNameAndType	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.ConstantObject	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.ConstantPool	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.ConstantString	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.ConstantUtf8	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.ConstantValue	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.Deprecated	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.DescendingVisitor	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.EmptyVisitor	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.ExceptionTable	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.Field	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.FieldOrMethod	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.InnerClass	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.InnerClasses	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.JavaClass	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.LineNumber	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.LineNumberTable	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.LocalVariable	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.LocalVariableTable	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.Method	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.Node	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.PMGClass	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.Signature	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.Signature$MyByteArrayInputStream	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.classfile.SourceFile	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.StackMap	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.StackMapEntry	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.StackMapType	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.Synthetic	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.Unknown	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.Utility	sandmark.jar		1	1	1	-1	0	0
+org.apache.bcel.classfile.Utility$JavaReader	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.classfile.Utility$JavaWriter	sandmark.jar		1	1	1	2	0	0
+org.apache.bcel.classfile.Visitor	sandmark.jar		1	1	1	-1	0	0
+sandmark.util.exprtree.DependencyGraph	sandmark.jar	smark3/sandmark/util/exprtree/DependencyGraph.java	0	0	0	0	670	374
+sandmark.util.exprtree.DependencyGraph$BlockComparator	sandmark.jar	smark3/sandmark/util/exprtree/DependencyGraph.java	0	0	0	2	0	0
+sandmark.util.exprtree.ExprTree	sandmark.jar	smark3/sandmark/util/exprtree/ExprTree.java	0	0	0	0	904	652
+sandmark.util.exprtree.ExprTree$GraphComparator	sandmark.jar	smark3/sandmark/util/exprtree/ExprTree.java	0	0	0	2	0	0
+sandmark.util.exprtree.ExprTree$NodeComparator	sandmark.jar	smark3/sandmark/util/exprtree/ExprTree.java	0	0	0	2	0	0
+sandmark.util.exprtree.Node	sandmark.jar	smark3/sandmark/util/exprtree/Node.java	0	0	0	0	21	16
+sandmark.util.exprtree.NodeInfo	sandmark.jar	smark3/sandmark/util/exprtree/NodeInfo.java	0	0	0	0	110	60
+junit.swingui.AboutDialog	sandmark.jar		1	1	1	-1	0	0
+junit.swingui.AboutDialog$1	sandmark.jar		1	1	1	2	0	0
+junit.swingui.AboutDialog$2	sandmark.jar		1	1	1	2	0	0
+junit.swingui.CounterPanel	sandmark.jar		1	1	1	-1	0	0
+junit.swingui.DefaultFailureDetailView	sandmark.jar		1	1	1	-1	0	0
+junit.swingui.DefaultFailureDetailView$StackEntryRenderer	sandmark.jar		1	1	1	2	0	0
+junit.swingui.DefaultFailureDetailView$StackTraceListModel	sandmark.jar		1	1	1	2	0	0
+junit.swingui.FailureRunView	sandmark.jar		1	1	1	-1	0	0
+junit.swingui.FailureRunView$1	sandmark.jar		1	1	1	2	0	0
+junit.swingui.FailureRunView$FailureListCellRenderer	sandmark.jar		1	1	1	2	0	0
+junit.swingui.ProgressBar	sandmark.jar		1	1	1	-1	0	0
+junit.swingui.StatusLine	sandmark.jar		1	1	1	-1	0	0
+junit.swingui.TestHierarchyRunView	sandmark.jar		1	1	1	-1	0	0
+junit.swingui.TestHierarchyRunView$1	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestRunContext	sandmark.jar		1	1	1	-1	0	0
+junit.swingui.TestRunView	sandmark.jar		1	1	1	-1	0	0
+junit.swingui.TestRunner	sandmark.jar		1	1	1	-1	0	0
+junit.swingui.TestRunner$1	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$10	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$11	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$12	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$13	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$14	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$15	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$16	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$17	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$18	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$19	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$2	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$3	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$4	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$5	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$6	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$7	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$8	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestRunner$9	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestSelector	sandmark.jar		1	1	1	-1	0	0
+junit.swingui.TestSelector$1	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestSelector$2	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestSelector$3	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestSelector$4	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestSelector$DoubleClickListener	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestSelector$KeySelectListener	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestSelector$ParallelSwapper	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestSelector$TestCellRenderer	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestSuitePanel	sandmark.jar		1	1	1	-1	0	0
+junit.swingui.TestSuitePanel$1	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestSuitePanel$TestTreeCellRenderer	sandmark.jar		1	1	1	2	0	0
+junit.swingui.TestTreeModel	sandmark.jar		1	1	1	-1	0	0
+sandmark.analysis.classhierarchy.ClassHierarchy	sandmark.jar	smark3/sandmark/analysis/classhierarchy/ClassHierarchy.java	0	0	0	0	878	563
+sandmark.analysis.classhierarchy.ClassHierarchyException	sandmark.jar	smark3/sandmark/analysis/classhierarchy/ClassHierarchyException.java	0	0	0	0	10	8
+sandmark.birthmark.usedclasses.UC	sandmark.jar	smark3/sandmark/birthmark/usedclasses/UC.java	0	0	0	0	181	144
+sandmark.wizard.evaluation.EvaluationListener	sandmark.jar	smark3/sandmark/wizard/evaluation/EvaluationListener.java	0	0	0	0	19	4
+sandmark.wizard.evaluation.Evaluator	sandmark.jar	smark3/sandmark/wizard/evaluation/Evaluator.java	0	0	0	0	13	8
+sandmark.wizard.evaluation.FixedChange	sandmark.jar	smark3/sandmark/wizard/evaluation/FixedChange.java	0	0	0	0	35	34
+sandmark.obfuscate.boguspredicates.bogusPredicates	sandmark.jar	smark3/sandmark/obfuscate/boguspredicates/bogusPredicates.java	0	0	0	0	244	183
+koala.dynamicjava.gui.Editor	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.gui.Editor$DocumentAdapter	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.Editor$OpenAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.Editor$RedoAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.Editor$SaveAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.Editor$SaveAsAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.Editor$UndoAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.Editor$UndoHandler	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.JTextComponentOutputStream	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.gui.Main	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.gui.Main$1	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.Main$AboutAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.Main$ClearAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.Main$EditorCaretListener	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.Main$EvalAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.Main$EvalSelectionAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.Main$ExitAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.Main$InterpreterThread	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.Main$OptionsAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.Main$ReinitAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.Main$ScrollBarModelChangeListener	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.Main$StopAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.MessageHandler	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.gui.OptionsDialog	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.gui.OptionsDialog$CPLAddButtonAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.OptionsDialog$CancelButtonAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.OptionsDialog$GUIPanel	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.OptionsDialog$GUIPanel$CheckBoxChangeListener	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.OptionsDialog$GUIPanel$FileCheckBoxChangeListener	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.OptionsDialog$GUIPanel$InitFileBrowseButtonAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.OptionsDialog$InterpreterPanel	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.OptionsDialog$InterpreterPanel$CheckBoxChangeListener	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.OptionsDialog$InterpreterPanel$FileCheckBoxChangeListener	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.OptionsDialog$InterpreterPanel$InitFileBrowseButtonAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.OptionsDialog$LPLAddButtonAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.OptionsDialog$OKButtonAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.OptionsDialog$OptionSet	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.OptionsDialog$UCOKButtonAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.StatusBar	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.gui.StatusBar$DisplayThread	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.StringList	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.gui.StringList$DownButtonAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.StringList$ListSelectionAdapter	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.StringList$RemoveButtonAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.StringList$UpButtonAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.URLChooser	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.gui.URLChooser$BrowseButtonAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.URLChooser$CancelButtonAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.URLChooser$ClearButtonAction	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.URLChooser$DocumentAdapter	sandmark.jar		1	1	1	2	0	0
+koala.dynamicjava.gui.URLChooser$OKButtonAction	sandmark.jar		1	1	1	2	0	0
+sandmark.obfuscate.promotelocals.PromoteLocals	sandmark.jar	smark3/sandmark/obfuscate/promotelocals/PromoteLocals.java	0	0	0	0	86	56
+koala.dynamicjava.parser.wrapper.JavaCCParser	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.parser.wrapper.JavaCCParserFactory	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.parser.wrapper.ParseError	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.parser.wrapper.ParserFactory	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.parser.wrapper.SourceCodeParser	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.parser.wrapper.TreeToken	sandmark.jar		1	1	1	-1	0	0
+sandmark.watermark.assignlv.AssignLV	sandmark.jar	smark3/sandmark/watermark/assignlv/AssignLV.java	0	0	0	0	586	379
+sandmark.watermark.assignlv.AssignLV$Recognizer	sandmark.jar	smark3/sandmark/watermark/assignlv/AssignLV.java	0	0	0	2	0	0
+sandmark.watermark.assignlv.ClassNameMethodBundle	sandmark.jar	smark3/sandmark/watermark/assignlv/ClassNameMethodBundle.java	0	0	0	0	34	26
+sandmark.watermark.assignlv.FromBinary	sandmark.jar	smark3/sandmark/watermark/assignlv/FromBinary.java	0	0	0	0	92	69
+sandmark.watermark.assignlv.MethodCompare	sandmark.jar	smark3/sandmark/watermark/assignlv/MethodCompare.java	0	0	0	0	153	61
+sandmark.watermark.assignlv.ToArray	sandmark.jar	smark3/sandmark/watermark/assignlv/ToArray.java	0	0	0	0	19	12
+sandmark.watermark.assignlv.ToBinary	sandmark.jar	smark3/sandmark/watermark/assignlv/ToBinary.java	0	0	0	0	122	89
+sandmark.birthmark.methodcalls.MethodComparator	sandmark.jar	smark3/sandmark/birthmark/methodcalls/MethodComparator.java	0	0	0	0	50	21
+sandmark.birthmark.methodcalls.SMC	sandmark.jar	smark3/sandmark/birthmark/methodcalls/SMC.java	0	0	0	0	141	110
+sandmark.birthmark.methodcalls.SMCTriple	sandmark.jar	smark3/sandmark/birthmark/methodcalls/SMCTriple.java	0	0	0	0	48	37
+sandmark.util.newexprtree.ArithmeticExpr	sandmark.jar	smark3/sandmark/util/newexprtree/ArithmeticExpr.java	0	0	0	0	43	26
+sandmark.util.newexprtree.ArrayDummyExpr	sandmark.jar	smark3/sandmark/util/newexprtree/ArrayDummyExpr.java	0	0	0	0	31	18
+sandmark.util.newexprtree.ArrayLengthExpr	sandmark.jar	smark3/sandmark/util/newexprtree/ArrayLengthExpr.java	0	0	0	0	40	24
+sandmark.util.newexprtree.ArrayLoadExpr	sandmark.jar	smark3/sandmark/util/newexprtree/ArrayLoadExpr.java	0	0	0	0	77	56
+sandmark.util.newexprtree.ArrayStoreExpr	sandmark.jar	smark3/sandmark/util/newexprtree/ArrayStoreExpr.java	0	0	0	0	87	64
+sandmark.util.newexprtree.BasicBlock	sandmark.jar	smark3/sandmark/util/newexprtree/BasicBlock.java	0	0	0	0	48	38
+sandmark.util.newexprtree.BinaryArithmeticExpr	sandmark.jar	smark3/sandmark/util/newexprtree/BinaryArithmeticExpr.java	0	0	0	0	123	88
+sandmark.util.newexprtree.BranchExpr	sandmark.jar	smark3/sandmark/util/newexprtree/BranchExpr.java	0	0	0	0	39	20
+sandmark.util.newexprtree.ComparisonExpr	sandmark.jar	smark3/sandmark/util/newexprtree/ComparisonExpr.java	0	0	0	0	88	57
+sandmark.util.newexprtree.ComputeExprTree	sandmark.jar	smark3/sandmark/util/newexprtree/ComputeExprTree.java	0	0	0	0	904	650
+sandmark.util.newexprtree.ComputeExprTree$GraphComparator	sandmark.jar	smark3/sandmark/util/newexprtree/ComputeExprTree.java	0	0	0	2	0	0
+sandmark.util.newexprtree.ComputeExprTree$NodeComparator	sandmark.jar	smark3/sandmark/util/newexprtree/ComputeExprTree.java	0	0	0	2	0	0
+sandmark.util.newexprtree.ConstantExpr	sandmark.jar	smark3/sandmark/util/newexprtree/ConstantExpr.java	0	0	0	0	12	7
+sandmark.util.newexprtree.ConversionExpr	sandmark.jar	smark3/sandmark/util/newexprtree/ConversionExpr.java	0	0	0	0	124	83
+sandmark.util.newexprtree.DependencyGraph	sandmark.jar	smark3/sandmark/util/newexprtree/DependencyGraph.java	0	0	0	0	661	364
+sandmark.util.newexprtree.DependencyGraph$BlockComparator	sandmark.jar	smark3/sandmark/util/newexprtree/DependencyGraph.java	0	0	0	2	0	0
+sandmark.util.newexprtree.DummyExpr	sandmark.jar	smark3/sandmark/util/newexprtree/DummyExpr.java	0	0	0	0	18	10
+sandmark.util.newexprtree.ExceptionDummyExpr	sandmark.jar	smark3/sandmark/util/newexprtree/ExceptionDummyExpr.java	0	0	0	0	20	13
+sandmark.util.newexprtree.ExceptionInfo	sandmark.jar	smark3/sandmark/util/newexprtree/ExceptionInfo.java	0	0	0	0	52	36
+sandmark.util.newexprtree.Expr	sandmark.jar	smark3/sandmark/util/newexprtree/Expr.java	0	0	0	0	19	5
+sandmark.util.newexprtree.ExprTree	sandmark.jar	smark3/sandmark/util/newexprtree/ExprTree.java	0	0	0	0	166	95
+sandmark.util.newexprtree.ExprTreeBlock	sandmark.jar	smark3/sandmark/util/newexprtree/ExprTreeBlock.java	0	0	0	0	60	31
+sandmark.util.newexprtree.ExprTreeCFG	sandmark.jar	smark3/sandmark/util/newexprtree/ExprTreeCFG.java	0	0	0	0	2043	1652
+sandmark.util.newexprtree.ExprTreeNode	sandmark.jar	smark3/sandmark/util/newexprtree/ExprTreeNode.java	0	0	0	0	87	41
+sandmark.util.newexprtree.GetFieldExpr	sandmark.jar	smark3/sandmark/util/newexprtree/GetFieldExpr.java	0	0	0	0	83	49
+sandmark.util.newexprtree.GotoExpr	sandmark.jar	smark3/sandmark/util/newexprtree/GotoExpr.java	0	0	0	0	27	18
+sandmark.util.newexprtree.IfExpr	sandmark.jar	smark3/sandmark/util/newexprtree/IfExpr.java	0	0	0	0	224	158
+sandmark.util.newexprtree.IncExpr	sandmark.jar	smark3/sandmark/util/newexprtree/IncExpr.java	0	0	0	0	44	26
+sandmark.util.newexprtree.InstanceofExpr	sandmark.jar	smark3/sandmark/util/newexprtree/InstanceofExpr.java	0	0	0	0	51	30
+sandmark.util.newexprtree.InvokeExpr	sandmark.jar	smark3/sandmark/util/newexprtree/InvokeExpr.java	0	0	0	0	121	69
+sandmark.util.newexprtree.JsrExpr	sandmark.jar	smark3/sandmark/util/newexprtree/JsrExpr.java	0	0	0	0	26	18
+sandmark.util.newexprtree.LoadExpr	sandmark.jar	smark3/sandmark/util/newexprtree/LoadExpr.java	0	0	0	0	43	27
+sandmark.util.newexprtree.MethodExprTree	sandmark.jar	smark3/sandmark/util/newexprtree/MethodExprTree.java	0	0	0	0	95	54
+sandmark.util.newexprtree.MonitorExpr	sandmark.jar	smark3/sandmark/util/newexprtree/MonitorExpr.java	0	0	0	0	51	30
+sandmark.util.newexprtree.NegateArithmeticExpr	sandmark.jar	smark3/sandmark/util/newexprtree/NegateArithmeticExpr.java	0	0	0	0	63	42
+sandmark.util.newexprtree.NewArrayExpr	sandmark.jar	smark3/sandmark/util/newexprtree/NewArrayExpr.java	0	0	0	0	60	36
+sandmark.util.newexprtree.NewExpr	sandmark.jar	smark3/sandmark/util/newexprtree/NewExpr.java	0	0	0	0	25	16
+sandmark.util.newexprtree.Node	sandmark.jar	smark3/sandmark/util/newexprtree/Node.java	0	0	0	0	21	16
+sandmark.util.newexprtree.NodeInfo	sandmark.jar	smark3/sandmark/util/newexprtree/NodeInfo.java	0	0	0	0	110	60
+sandmark.util.newexprtree.NopExpr	sandmark.jar	smark3/sandmark/util/newexprtree/NopExpr.java	0	0	0	0	19	13
+sandmark.util.newexprtree.NullConstantExpr	sandmark.jar	smark3/sandmark/util/newexprtree/NullConstantExpr.java	0	0	0	0	26	18
+sandmark.util.newexprtree.NumericConstantExpr	sandmark.jar	smark3/sandmark/util/newexprtree/NumericConstantExpr.java	0	0	0	0	35	24
+sandmark.util.newexprtree.ObjectDummyExpr	sandmark.jar	smark3/sandmark/util/newexprtree/ObjectDummyExpr.java	0	0	0	0	22	12
+sandmark.util.newexprtree.PrimitiveDummyExpr	sandmark.jar	smark3/sandmark/util/newexprtree/PrimitiveDummyExpr.java	0	0	0	0	14	9
+sandmark.util.newexprtree.PutFieldExpr	sandmark.jar	smark3/sandmark/util/newexprtree/PutFieldExpr.java	0	0	0	0	107	62
+sandmark.util.newexprtree.RetExpr	sandmark.jar	smark3/sandmark/util/newexprtree/RetExpr.java	0	0	0	0	32	19
+sandmark.util.newexprtree.ReturnAddressDummyExpr	sandmark.jar	smark3/sandmark/util/newexprtree/ReturnAddressDummyExpr.java	0	0	0	0	15	9
+sandmark.util.newexprtree.ReturnExpr	sandmark.jar	smark3/sandmark/util/newexprtree/ReturnExpr.java	0	0	0	0	64	40
+sandmark.util.newexprtree.StoreExpr	sandmark.jar	smark3/sandmark/util/newexprtree/StoreExpr.java	0	0	0	0	69	40
+sandmark.util.newexprtree.StringConstantExpr	sandmark.jar	smark3/sandmark/util/newexprtree/StringConstantExpr.java	0	0	0	0	29	20
+sandmark.util.newexprtree.SwitchExpr	sandmark.jar	smark3/sandmark/util/newexprtree/SwitchExpr.java	0	0	0	0	121	80
+sandmark.util.newexprtree.ThrowExpr	sandmark.jar	smark3/sandmark/util/newexprtree/ThrowExpr.java	0	0	0	0	38	23
+sandmark.util.newexprtree.ValueExpr	sandmark.jar	smark3/sandmark/util/newexprtree/ValueExpr.java	0	0	0	0	17	10
+sandmark.view.View	sandmark.jar	smark3/sandmark/view/View.java	0	0	0	0	55	29
+sandmark.watermark.dm.DM	sandmark.jar	smark3/sandmark/watermark/dm/DM.java	0	0	0	0	955	729
+sandmark.watermark.dm.DM$BlockRecognizer	sandmark.jar	smark3/sandmark/watermark/dm/DM.java	0	0	0	2	0	0
+sandmark.watermark.dm.DM$MethodChooser	sandmark.jar	smark3/sandmark/watermark/dm/DM.java	0	0	0	2	0	0
+sandmark.watermark.dm.DM$Relinker	sandmark.jar	smark3/sandmark/watermark/dm/DM.java	0	0	0	2	0	0
+sandmark.watermark.dm.DM$Relinker$IHPair	sandmark.jar	smark3/sandmark/watermark/dm/DM.java	0	0	0	2	0	0
+sandmark.birthmark.fieldvalues.CVFV	sandmark.jar	smark3/sandmark/birthmark/fieldvalues/CVFV.java	0	0	0	0	112	88
+sandmark.birthmark.fieldvalues.CVFVPair	sandmark.jar	smark3/sandmark/birthmark/fieldvalues/CVFVPair.java	0	0	0	0	39	31
+koala.dynamicjava.tree.visitor.Visitor	sandmark.jar		1	1	1	-1	0	0
+koala.dynamicjava.tree.visitor.VisitorObject	sandmark.jar		1	1	1	-1	0	0
+sandmark.wizard.decision.AllAlgsOnce	sandmark.jar	smark3/sandmark/wizard/decision/AllAlgsOnce.java	0	0	0	0	48	25
+sandmark.wizard.decision.Strategy	sandmark.jar	smark3/sandmark/wizard/decision/Strategy.java	0	0	0	0	16	7
+sandmark.watermark.gtw.CFGComparator	sandmark.jar	smark3/sandmark/watermark/gtw/ClusterGraph.java	0	0	0	1	0	0
+sandmark.watermark.gtw.ClusterGraph	sandmark.jar	smark3/sandmark/watermark/gtw/ClusterGraph.java	0	0	0	0	73	70
+sandmark.watermark.gtw.FunctionClusterGraph	sandmark.jar	smark3/sandmark/watermark/gtw/FunctionClusterGraph.java	0	0	0	0	231	223
+sandmark.watermark.gtw.GTW	sandmark.jar	smark3/sandmark/watermark/gtw/GTW.java	0	0	0	0	388	344
+sandmark.watermark.gtw.GTWRecognizer	sandmark.jar	smark3/sandmark/watermark/gtw/GTWRecognizer.java	0	0	0	4	194	166
+sandmark.watermark.gtw.GTWRecognizer$MarkedMethod	sandmark.jar	smark3/sandmark/watermark/gtw/GTWRecognizer.java	0	0	0	2	0	0
+sandmark.obfuscate.interleavemethods.InterleaveMethods	sandmark.jar	smark3/sandmark/obfuscate/interleavemethods/InterleaveMethods.java	0	0	0	0	782	572
+sandmark.obfuscate.interleavemethods.InterleaveMethods$Bundle	sandmark.jar	smark3/sandmark/obfuscate/interleavemethods/InterleaveMethods.java	0	0	0	2	0	0
+sandmark.obfuscate.interleavemethods.InterleaveMethods$MethodBundle	sandmark.jar	smark3/sandmark/obfuscate/interleavemethods/InterleaveMethods.java	0	0	0	2	0	0
+sandmark.obfuscate.interleavemethods.InterleaveUtil	sandmark.jar	smark3/sandmark/obfuscate/interleavemethods/InterleaveUtil.java	0	0	0	0	125	103
+sandmark.obfuscate.interleavemethods.InterleavedMethod	sandmark.jar	smark3/sandmark/obfuscate/interleavemethods/InterleavedMethod.java	0	0	0	0	35	20
+sandmark.obfuscate.interleavemethods.Interleaver	sandmark.jar	smark3/sandmark/obfuscate/interleavemethods/Interleaver.java	0	0	0	0	894	680
+sandmark.obfuscate.interleavemethods.StackOp	sandmark.jar	smark3/sandmark/obfuscate/interleavemethods/StackOp.java	0	0	0	4	11	8
+sandmark.obfuscate.interleavemethods.TypeIndex	sandmark.jar	smark3/sandmark/obfuscate/interleavemethods/TypeIndex.java	0	0	0	0	45	38
+sandmark.obfuscate.dynamicinliner.DynamicInliner	sandmark.jar	smark3/sandmark/obfuscate/dynamicinliner/DynamicInliner.java	0	0	0	0	392	311
+sandmark.analysis.callgraph.ApplicationCFG	sandmark.jar	smark3/sandmark/analysis/callgraph/ApplicationCFG.java	0	0	0	0	173	127
+sandmark.analysis.callgraph.CallGraph	sandmark.jar	smark3/sandmark/analysis/callgraph/CallGraph.java	0	0	0	0	281	193
+sandmark.analysis.callgraph.CallGraphEdge	sandmark.jar	smark3/sandmark/analysis/callgraph/CallGraphEdge.java	0	0	0	0	44	31
+sandmark.watermark.objectwm.CodeBook	sandmark.jar	smark3/sandmark/watermark/objectwm/CodeBook.java	0	0	0	0	465	349
+sandmark.watermark.objectwm.Config	sandmark.jar	smark3/sandmark/watermark/objectwm/Config.java	0	0	0	0	120	77
+sandmark.watermark.objectwm.Insertion	sandmark.jar	smark3/sandmark/watermark/objectwm/Insertion.java	0	0	0	0	450	292
+sandmark.watermark.objectwm.InstructionEmbedUtil	sandmark.jar	smark3/sandmark/watermark/objectwm/InstructionEmbedUtil.java	0	0	0	0	1059	705
+sandmark.watermark.objectwm.MethodCopyUtil	sandmark.jar	smark3/sandmark/watermark/objectwm/MethodCopyUtil.java	0	0	0	0	1075	781
+sandmark.watermark.objectwm.ObjectHelper	sandmark.jar	smark3/sandmark/watermark/objectwm/ObjectHelper.java	0	0	0	0	178	132
+sandmark.watermark.objectwm.ObjectUtil	sandmark.jar	smark3/sandmark/watermark/objectwm/ObjectUtil.java	0	0	0	0	499	357
+sandmark.watermark.objectwm.ObjectWatermark	sandmark.jar	smark3/sandmark/watermark/objectwm/ObjectWatermark.java	0	0	0	0	492	348
+sandmark.watermark.objectwm.ObjectWatermark$Recognizer	sandmark.jar	smark3/sandmark/watermark/objectwm/ObjectWatermark.java	0	0	0	2	0	0
+sandmark.watermark.objectwm.Profiler	sandmark.jar	smark3/sandmark/watermark/objectwm/Profiler.java	0	0	0	0	197	160
+sandmark.watermark.objectwm.SubstitutionUtil	sandmark.jar	smark3/sandmark/watermark/objectwm/SubstitutionUtil.java	0	0	0	0	197	131
+sandmark.watermark.objectwm.VectorExtraction	sandmark.jar	smark3/sandmark/watermark/objectwm/VectorExtraction.java	0	0	0	0	105	67
+sandmark.watermark.objectwm.VectorUpdateCtrl	sandmark.jar	smark3/sandmark/watermark/objectwm/VectorUpdateCtrl.java	0	0	0	0	126	102
+sandmark.obfuscate.blockmarker.BlockMarker	sandmark.jar	smark3/sandmark/obfuscate/blockmarker/BlockMarker.java	0	0	0	0	146	115
+#Issues
+#======
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/sandmark/sandmark-3.4/src/smark3/doc/PS/embed.ps.gz in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/sandmark/sandmark-3.4/src/smark3/doc/PS/main.ps.gz in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/sandmark/sandmark-3.4/src/smark3/doc/PS/recognize.ps.gz in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/sandmark/sandmark-3.4/src/smark3/doc/PS/trace.ps.gz in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/sandmark/sandmark-3.4/src/smark3/sandmark/obfuscate/boguspredicates/test.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/sandmark/sandmark-3.4/src/smark3/sandmark/obfuscate/classsplitter/testfiles/TTT.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/sandmark/sandmark-3.4/src/smark3/sandmark/obfuscate/classsplitter/testfiles/false.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/sandmark/sandmark-3.4/src/smark3/sandmark/obfuscate/nodesplitter/test.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/sandmark/sandmark-3.4/src/smark3/sandmark/obfuscate/setfieldspublic/test.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/sandmark/sandmark-3.4/src/smark3/sandmark/watermark/bogusinitializer/in.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/sandmark/sandmark-3.4/src/smark3/sandmark/watermark/mondenwmark/tests/TestMondenWmark_orig.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/sandmark/sandmark-3.4/src/smark3/sandmark/watermark/mondenwmark/tests/WmarkTest_orig.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/sandmark/sandmark-3.4/src/smark3/sandmark/watermark/mondenwmark/tests/watermarked/TestWMark.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/sandmark/sandmark-3.4/src/smark3/sandmark/watermark/mondenwmark/tests/watermarked/WMarkTest.jar in <src> ignored.
+#SRC NO PUBLIC TYPE for smark3/sandmark/analysis/slicingtools/MethodSlice.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/analysis/stacksimulator/ClearStackContext.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/analysis/stacksimulator/EmptyContext.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/analysis/stacksimulator/MergeContext.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/analysis/stacksimulator/PopContext.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/analysis/stacksimulator/PrimitiveData.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/analysis/stacksimulator/PushContext.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/analysis/stacksimulator/ReferenceData.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/analysis/stacksimulator/ReplaceStackContext.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/analysis/stacksimulator/ReplaceVarContext.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/analysis/stacksimulator/UndefinedContext.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/analysis/stacksimulator/UninitializedReferenceData.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/gui/SMAlgHierTreeNode.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/obfuscate/interleavemethods/StackOp.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/program/ConstantPoolGen.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/program/LibraryCPG.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/program/LocalCPG.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/classloading/DirClassFinder.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/classloading/FileClassFinder.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/classloading/JarClassFinder.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/exec/DumpAll.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/DoubleEdgeWrapperIterator.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/DoubleNodeWrapperIterator.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/EdgeIteratorWrapper.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/EdgeSet.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/EdgeWrapper.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/EdgeWrapperIterator.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/EdgelessGraph.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/EmptyGraph.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/ExtraEdgeGraph.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/ExtraEdgeWrapperIterator.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/ExtraGraph.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/ExtraNodeGraph.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/ExtraNodeWrapperIterator.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/ExtraStuffGraph.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/MissingEdgeGraph.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/MissingEdgeWrapperIterator.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/MissingGraph.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/MissingNodeGraph.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/MissingStuffGraph.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/NodeAttributes.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/NodeWrapper.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/NodeWrapperIterator.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/RecursiveGraph.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/ReversedGraph.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/SingleEdgeWrapperIterator.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/SingleNodeWrapperIterator.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/Status.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/util/newgraph/codec/AbstractCodec.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/watermark/ct/embed/InsertionPoints.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/watermark/ct/trace/callforest/CallFrame.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/watermark/gtw/GTWRecognizer.java.
+#SRC NO PUBLIC TYPE for smark3/sandmark/watermark/steganography/StegLoader.java.

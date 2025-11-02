@@ -1,0 +1,569 @@
+#2013-09-05T10:01:29NZST
+#System Version : jgraphpad-5.10.0.2
+#Source Packages: org.jgraph.pad,org.microplatform,org.jgraph.plugins
+#Ignore Packages: 
+#Distributed    : jgraphpad-5.10.0.2-src/src
+#Source Roots   : jgraphpad-5.10.0.2-src/src
+#1. Fully-qualified type name
+#2. location in bin
+#3. location in src
+#4. 0=in src pkg (user-defined), 1=not in src pkg. See 'Source Packages' above
+#5. 0=both bin and src, 1=bin only, 2=src only
+#6. 0=distributed, 1 = not distributed. Source code in 'Distributed' above
+#7. 0=top-level public, 4=top-level non-public, 1=top-level different name, 2=nested, 3=probably haven't seen source, -1 no source, or not parsed
+#8. LOC - physical lines in file (for public type only)
+#9. NCLOC - non-commented lines of code in file (for public type only)
+#
+org.jgraph.pad.actionsbase.eager.AbstractActionCheckBox	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/AbstractActionCheckBox.java	0	0	0	0	55	22
+org.jgraph.pad.actionsbase.eager.AbstractActionFile	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/AbstractActionFile.java	0	0	0	0	158	86
+org.jgraph.pad.actionsbase.eager.AbstractActionFile$MyFileFilter	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/AbstractActionFile.java	0	0	0	2	0	0
+org.jgraph.pad.actionsbase.eager.AbstractActionList	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/AbstractActionList.java	0	0	0	0	171	92
+org.jgraph.pad.actionsbase.eager.AbstractActionListCell	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/AbstractActionListCell.java	0	0	0	0	113	59
+org.jgraph.pad.actionsbase.eager.AbstractActionListCellColor	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/AbstractActionListCellColor.java	0	0	0	0	54	28
+org.jgraph.pad.actionsbase.eager.AbstractActionRadioButton	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/AbstractActionRadioButton.java	0	0	0	0	110	52
+org.jgraph.pad.actionsbase.eager.AbstractActionToggle	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/AbstractActionToggle.java	0	0	0	0	64	23
+org.jgraph.pad.actionsbase.eager.EditRedo	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/EditRedo.java	0	0	0	0	81	46
+org.jgraph.pad.actionsbase.eager.EditUndo	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/EditUndo.java	0	0	0	0	79	44
+org.jgraph.pad.actionsbase.eager.FormatBorderColorList	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/FormatBorderColorList.java	0	0	0	0	130	86
+org.jgraph.pad.actionsbase.eager.FormatFillColorList	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/FormatFillColorList.java	0	0	0	0	77	48
+org.jgraph.pad.actionsbase.eager.FormatGradientColorList	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/FormatGradientColorList.java	0	0	0	0	75	45
+org.jgraph.pad.actionsbase.eager.FormatLineColorList	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/FormatLineColorList.java	0	0	0	0	87	46
+org.jgraph.pad.actionsbase.eager.FormatLineEndList	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/FormatLineEndList.java	0	0	0	0	132	85
+org.jgraph.pad.actionsbase.eager.FormatLinePatternList	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/FormatLinePatternList.java	0	0	0	0	132	82
+org.jgraph.pad.actionsbase.eager.FormatLineStartList	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/FormatLineStartList.java	0	0	0	0	144	90
+org.jgraph.pad.actionsbase.eager.FormatLineWidthList	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/FormatLineWidthList.java	0	0	0	0	109	60
+org.jgraph.pad.actionsbase.eager.FormatTextFontColorList	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/FormatTextFontColorList.java	0	0	0	0	86	45
+org.jgraph.pad.actionsbase.eager.FormatTextFontSizeList	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/FormatTextFontSizeList.java	0	0	0	0	84	37
+org.jgraph.pad.actionsbase.eager.ToolBoxSelect	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/ToolBoxSelect.java	0	0	0	0	32	24
+org.jgraph.pad.actionsbase.eager.ToolBoxSelect$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/ToolBoxSelect.java	0	0	0	2	0	0
+org.jgraph.pad.actionsbase.eager.ToolBoxZoomArea	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/ToolBoxZoomArea.java	0	0	0	0	33	24
+org.jgraph.pad.actionsbase.eager.ToolBoxZoomArea$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/ToolBoxZoomArea.java	0	0	0	2	0	0
+org.jgraph.pad.actionsbase.eager.ToolsLookAndFeel	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/ToolsLookAndFeel.java	0	0	0	0	98	49
+org.jgraph.pad.actionsbase.eager.ViewFit	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/ViewFit.java	0	0	0	0	114	75
+org.jgraph.pad.actionsbase.eager.ViewLayout	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/eager/ViewLayout.java	0	0	0	0	63	22
+org.jgraph.pad.subjgraph.GPCellViewFactory	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/subjgraph/GPCellViewFactory.java	0	0	0	0	40	23
+org.jgraph.pad.subjgraph.GPGraphModel	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/subjgraph/GPGraphModel.java	0	0	0	0	61	33
+org.jgraph.pad.subjgraph.GPGraphUI	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/subjgraph/GPGraphUI.java	0	0	0	0	277	228
+org.jgraph.pad.subjgraph.GPGraphUI$GPTransferHandler	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/subjgraph/GPGraphUI.java	0	0	0	2	0	0
+org.jgraph.pad.subjgraph.GPMarqueeHandler	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/subjgraph/GPMarqueeHandler.java	0	0	0	0	456	364
+org.jgraph.pad.subjgraph.GPMarqueeHandler$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/subjgraph/GPMarqueeHandler.java	0	0	0	2	0	0
+org.jgraph.pad.subjgraph.GPTransferable	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/subjgraph/GPTransferable.java	0	0	0	0	63	25
+org.microplatform.ActionCommand	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/ActionCommand.java	0	0	0	0	150	59
+org.microplatform.ActionCommand$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/ActionCommand.java	0	0	0	2	0	0
+org.microplatform.BarFactory	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/BarFactory.java	0	0	0	0	558	298
+org.microplatform.BarFactory$BarEntry	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/BarFactory.java	0	0	0	2	0	0
+org.microplatform.Document	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/Document.java	0	0	0	0	380	204
+org.microplatform.ICommandRegistery	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/ICommandRegistery.java	0	0	0	0	12	9
+org.microplatform.SessionParameters	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/SessionParameters.java	0	0	0	0	340	216
+org.microplatform.SwingWorker	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/SwingWorker.java	0	0	0	0	141	73
+org.microplatform.SwingWorker$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/SwingWorker.java	0	0	0	2	0	0
+org.microplatform.SwingWorker$2	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/SwingWorker.java	0	0	0	2	0	0
+org.microplatform.SwingWorker$ThreadVar	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/SwingWorker.java	0	0	0	2	0	0
+org.microplatform.Utilities	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/Utilities.java	0	0	0	0	139	52
+org.jgraph.pad.jgraphpad.util.GPGraphListCellRenderer	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/util/GPGraphListCellRenderer.java	0	0	0	0	88	43
+org.jgraph.pad.jgraphpad.util.ICellBuisnessObject	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/util/ICellBuisnessObject.java	0	0	0	0	39	14
+org.jgraph.pad.jgraphpad.util.JGraphImageMapEncoder	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/util/JGraphImageMapEncoder.java	0	0	0	0	118	58
+org.jgraph.pad.jgraphpad.util.JGraphParallelEdgeRouter	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/util/JGraphParallelEdgeRouter.java	0	0	0	0	138	70
+org.jgraph.pad.jgraphpad.util.JGraphUtilities	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/util/JGraphUtilities.java	0	0	0	0	200	131
+org.jgraph.pad.jgraphpad.util.RealGraphCellRenderer	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/util/RealGraphCellRenderer.java	0	0	0	0	113	82
+org.jgraph.pad.jgraphpad.util.Rule	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/util/Rule.java	0	0	0	0	257	189
+org.jgraph.pad.jgraphpad.util.ShadowBorder	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/util/ShadowBorder.java	0	0	0	0	77	52
+org.jgraph.pad.graphcellsbase.JGraphDiamondView	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphDiamondView.java	0	0	0	0	170	117
+org.jgraph.pad.graphcellsbase.JGraphDiamondView$JGraphDiamondRenderer	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphDiamondView.java	0	0	0	2	0	0
+org.jgraph.pad.graphcellsbase.JGraphEllipseView	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphEllipseView.java	0	0	0	0	184	104
+org.jgraph.pad.graphcellsbase.JGraphEllipseView$JGraphEllipseRenderer	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphEllipseView.java	0	0	0	2	0	0
+org.jgraph.pad.graphcellsbase.JGraphHeavyweightView	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphHeavyweightView.java	0	0	0	0	90	45
+org.jgraph.pad.graphcellsbase.JGraphHeavyweightView$JGraphHeavyweightRenderer	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphHeavyweightView.java	0	0	0	2	0	0
+org.jgraph.pad.graphcellsbase.JGraphMultilineView	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphMultilineView.java	0	0	0	0	333	247
+org.jgraph.pad.graphcellsbase.JGraphMultilineView$MultiLinedEditor	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphMultilineView.java	0	0	0	2	0	0
+org.jgraph.pad.graphcellsbase.JGraphMultilineView$MultiLinedEditor$ModifiedEditorContainer	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphMultilineView.java	0	0	0	2	0	0
+org.jgraph.pad.graphcellsbase.JGraphMultilineView$MultiLinedEditor$RealCellEditor	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphMultilineView.java	0	0	0	2	0	0
+org.jgraph.pad.graphcellsbase.JGraphMultilineView$MultiLinedEditor$RealCellEditor$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphMultilineView.java	0	0	0	2	0	0
+org.jgraph.pad.graphcellsbase.JGraphMultilineView$MultiLinedEditor$RealCellEditor$2	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphMultilineView.java	0	0	0	2	0	0
+org.jgraph.pad.graphcellsbase.JGraphMultilineView$MultiLinedRenderer	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphMultilineView.java	0	0	0	2	0	0
+org.jgraph.pad.graphcellsbase.JGraphRoundRectView	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphRoundRectView.java	0	0	0	0	127	82
+org.jgraph.pad.graphcellsbase.JGraphRoundRectView$ActivityRenderer	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphRoundRectView.java	0	0	0	2	0	0
+org.jgraph.pad.graphcellsbase.JGraphSwimlaneView	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphSwimlaneView.java	0	0	0	0	308	218
+org.jgraph.pad.graphcellsbase.JGraphSwimlaneView$JSwimlaneRenderer	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphSwimlaneView.java	0	0	0	2	0	0
+org.jgraph.pad.graphcellsbase.JGraphSwimlaneView$SwimlaneLabelUI	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/JGraphSwimlaneView.java	0	0	0	2	0	0
+org.jgraph.pad.graphcellsbase.ScaledVertexView	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/ScaledVertexView.java	0	0	0	0	72	34
+org.jgraph.pad.graphcellsbase.ScaledVertexView$ScaledVertexRenderer	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/graphcellsbase/ScaledVertexView.java	0	0	0	2	0	0
+org.microplatform.web.applet.AppletFriendlyXMLDecoder	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/applet/AppletFriendlyXMLDecoder.java	0	0	0	0	151	90
+org.microplatform.web.applet.AppletFriendlyXMLEncoder	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/applet/AppletFriendlyXMLEncoder.java	0	0	0	0	739	491
+org.microplatform.web.applet.AppletFriendlyXMLEncoder$AppletFriendlyDefaultPersistenceDelegate	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/applet/AppletFriendlyXMLEncoder.java	0	0	0	2	0	0
+org.microplatform.web.applet.AppletFriendlyXMLEncoder$AppletFriendlyPersistenceDelegate	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/applet/AppletFriendlyXMLEncoder.java	0	0	0	2	0	0
+org.microplatform.web.applet.AppletFriendlyXMLEncoder$java_awt_Color_PersistenceDelegate	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/applet/AppletFriendlyXMLEncoder.java	0	0	0	2	0	0
+org.microplatform.web.applet.AppletFriendlyXMLEncoder$java_awt_Font_PersistenceDelegate	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/applet/AppletFriendlyXMLEncoder.java	0	0	0	2	0	0
+org.microplatform.web.applet.AppletFriendlyXMLEncoder$java_awt_geom_Point2D$Double_PersistenceDelegate	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/applet/AppletFriendlyXMLEncoder.java	0	0	0	2	0	0
+org.microplatform.web.applet.AppletFriendlyXMLEncoder$java_awt_geom_Rectangle2D_PersistenceDelegate	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/applet/AppletFriendlyXMLEncoder.java	0	0	0	2	0	0
+org.microplatform.web.applet.AppletFriendlyXMLEncoder$java_lang_Class_PersistenceDelegate	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/applet/AppletFriendlyXMLEncoder.java	0	0	0	2	0	0
+org.microplatform.web.applet.AppletFriendlyXMLEncoder$java_lang_String_PersistenceDelegate	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/applet/AppletFriendlyXMLEncoder.java	0	0	0	2	0	0
+org.microplatform.web.applet.AppletFriendlyXMLEncoder$java_util_Collection_PersistenceDelegate	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/applet/AppletFriendlyXMLEncoder.java	0	0	0	2	0	0
+org.microplatform.web.applet.AppletFriendlyXMLEncoder$java_util_List_PersistenceDelegate	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/applet/AppletFriendlyXMLEncoder.java	0	0	0	2	0	0
+org.microplatform.web.applet.AppletFriendlyXMLEncoder$java_util_Map_PersistenceDelegate	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/applet/AppletFriendlyXMLEncoder.java	0	0	0	2	0	0
+org.microplatform.web.applet.AppletFriendlyXMLEncoder$javax_swing_tree_DefaultMutableTreeNode_PersistenceDelegate	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/applet/AppletFriendlyXMLEncoder.java	0	0	0	2	0	0
+org.microplatform.web.applet.BrowserDriver	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/applet/BrowserDriver.java	0	0	0	0	56	39
+org.jgraph.event.GraphLayoutCacheEvent	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.event.GraphLayoutCacheEvent$GraphLayoutCacheChange	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.event.GraphLayoutCacheListener	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.event.GraphModelEvent	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.event.GraphModelEvent$GraphModelChange	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.event.GraphModelListener	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.event.GraphSelectionEvent	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.event.GraphSelectionListener	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.microplatform.gui.DocFrame	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/gui/DocFrame.java	0	0	0	0	112	46
+org.microplatform.gui.GPVetoableListner	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/gui/DocFrame.java	0	0	0	1	0	0
+org.microplatform.gui.InternalFrame	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/gui/InternalFrame.java	0	0	0	0	221	85
+org.microplatform.gui.MDIContainer	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/gui/MDIContainer.java	0	0	0	0	486	322
+org.microplatform.gui.MDIContainer$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/gui/MDIContainer.java	0	0	0	2	0	0
+org.microplatform.gui.MDIContainer$1$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/gui/MDIContainer.java	0	0	0	2	0	0
+org.microplatform.gui.MDIContainer$2	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/gui/MDIContainer.java	0	0	0	2	0	0
+org.microplatform.gui.MDIContainer$3	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/gui/MDIContainer.java	0	0	0	2	0	0
+org.microplatform.gui.StatusBar	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/gui/StatusBar.java	0	0	0	0	93	31
+org.jgraph.util.Bezier	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.util.Spline	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.util.Spline2D	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.plugins.layouts.AnnealingLayoutAlgorithm	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/AnnealingLayoutAlgorithm.java	0	0	0	0	2268	1074
+org.jgraph.plugins.layouts.AnnealingLayoutAlgorithm$MathExtensions	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/AnnealingLayoutAlgorithm.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.AnnealingLayoutSettings	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/AnnealingLayoutSettings.java	0	0	0	0	2129	1606
+org.jgraph.plugins.layouts.AnnealingLayoutSettings$1	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/AnnealingLayoutSettings.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.AnnealingLayoutSettings$2	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/AnnealingLayoutSettings.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.AnnealingLayoutSettings$3	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/AnnealingLayoutSettings.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.AnnealingLayoutSettings$4	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/AnnealingLayoutSettings.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.CircleGraphLayout	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/CircleGraphLayout.java	0	0	0	0	90	37
+org.jgraph.plugins.layouts.GEMLayoutAlgorithm	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/GEMLayoutAlgorithm.java	0	0	0	0	2109	984
+org.jgraph.plugins.layouts.GEMLayoutSettings	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/GEMLayoutSettings.java	0	0	0	0	1884	1338
+org.jgraph.plugins.layouts.GEMLayoutSettings$1	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/GEMLayoutSettings.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.GEMLayoutSettings$2	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/GEMLayoutSettings.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.GEMLayoutSettings$3	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/GEMLayoutSettings.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.GEMLayoutSettings$4	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/GEMLayoutSettings.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.GEMLayoutSettings$5	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/GEMLayoutSettings.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.GEMLayoutSettings$6	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/GEMLayoutSettings.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.GEMLayoutSettings$7	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/GEMLayoutSettings.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.GEMLayoutSettings$8	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/GEMLayoutSettings.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.GEMLayoutSettings$9	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/GEMLayoutSettings.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.GraphApplyLayoutAlgorithm	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/GraphApplyLayoutAlgorithm.java	0	0	0	0	48	15
+org.jgraph.plugins.layouts.JGraphLayoutAlgorithm	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/JGraphLayoutAlgorithm.java	0	0	0	0	276	136
+org.jgraph.plugins.layouts.JGraphLayoutAlgorithm$1	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/JGraphLayoutAlgorithm.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.JGraphLayoutAlgorithm$2	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/JGraphLayoutAlgorithm.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.JGraphLayoutRegistry	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/JGraphLayoutRegistry.java	0	0	0	0	81	27
+org.jgraph.plugins.layouts.JGraphLayoutSettings	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/JGraphLayoutSettings.java	0	0	0	0	40	5
+org.jgraph.plugins.layouts.LayoutDialog	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/LayoutDialog.java	0	0	0	0	369	241
+org.jgraph.plugins.layouts.LayoutDialog$1	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/LayoutDialog.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.LayoutDialog$2	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/LayoutDialog.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.LayoutDialog$3	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/LayoutDialog.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.LayoutDialog$4	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/LayoutDialog.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.LayoutDialog$5	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/LayoutDialog.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.LayoutDialog$6	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/LayoutDialog.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.LayoutDialog$7	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/LayoutDialog.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.MoenLayoutAlgorithm	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/MoenLayoutAlgorithm.java	0	0	0	0	642	460
+org.jgraph.plugins.layouts.MoenLayoutAlgorithm$1	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/MoenLayoutAlgorithm.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.MoenLayoutAlgorithm$PolyLine	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/MoenLayoutAlgorithm.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.MoenLayoutAlgorithm$Polygon	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/MoenLayoutAlgorithm.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.MoenLayoutAlgorithm$TreeLayoutNode	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/MoenLayoutAlgorithm.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.MoenLayoutSettings	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/MoenLayoutSettings.java	0	0	0	0	110	54
+org.jgraph.plugins.layouts.OrderedTreeLayoutAlgorithm	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/OrderedTreeLayoutAlgorithm.java	0	0	0	0	127	51
+org.jgraph.plugins.layouts.OrderedTreeLayoutAlgorithm$DefaultComparator	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/OrderedTreeLayoutAlgorithm.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.RadialTreeLayoutAlgorithm	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/RadialTreeLayoutAlgorithm.java	0	0	0	0	530	316
+org.jgraph.plugins.layouts.RadialTreeLayoutAlgorithm$TreeNode	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/RadialTreeLayoutAlgorithm.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.RadialTreeLayoutSettings	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/RadialTreeLayoutSettings.java	0	0	0	0	125	75
+org.jgraph.plugins.layouts.SpringEmbeddedLayoutAlgorithm	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/SpringEmbeddedLayoutAlgorithm.java	0	0	0	0	714	342
+org.jgraph.plugins.layouts.SugiyamaLayoutAlgorithm	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/SugiyamaLayoutAlgorithm.java	0	0	0	0	1294	662
+org.jgraph.plugins.layouts.SugiyamaLayoutAlgorithm$CellWrapper	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/SugiyamaLayoutAlgorithm.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.SugiyamaLayoutSettings	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/SugiyamaLayoutSettings.java	0	0	0	0	180	91
+org.jgraph.plugins.layouts.TreeLayoutAlgorithm	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/TreeLayoutAlgorithm.java	0	0	0	0	679	471
+org.jgraph.plugins.layouts.TreeLayoutAlgorithm$PolyLine	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/TreeLayoutAlgorithm.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.TreeLayoutAlgorithm$TreeNode	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/TreeLayoutAlgorithm.java	0	0	0	2	0	0
+org.jgraph.plugins.layouts.TreeLayoutSettings	jgraphpad-5.10.0.2-src/unpacked/layouts.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/layouts/TreeLayoutSettings.java	0	0	0	0	165	100
+org.jgraph.pad.palettebase.AbstractCellCreator	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/palettebase/AbstractCellCreator.java	0	0	0	0	69	32
+org.jgraph.pad.palettebase.AbstractDefaultEdgeCreator	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/palettebase/AbstractDefaultEdgeCreator.java	0	0	0	0	100	69
+org.jgraph.pad.palettebase.AbstractDefaultVertexnPortsCreator	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/palettebase/AbstractDefaultVertexnPortsCreator.java	0	0	0	0	192	101
+org.jgraph.pad.palettebase.ToolBoxDiamond	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/palettebase/ToolBoxDiamond.java	0	0	0	0	52	25
+org.jgraph.pad.palettebase.ToolBoxEdge	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/palettebase/ToolBoxEdge.java	0	0	0	0	40	16
+org.jgraph.pad.palettebase.ToolBoxEllipse	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/palettebase/ToolBoxEllipse.java	0	0	0	0	40	16
+org.jgraph.pad.palettebase.ToolBoxIcon	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/palettebase/ToolBoxIcon.java	0	0	0	0	63	36
+org.jgraph.pad.palettebase.ToolBoxLine	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/palettebase/ToolBoxLine.java	0	0	0	0	41	16
+org.jgraph.pad.palettebase.ToolBoxRectangle	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/palettebase/ToolBoxRectangle.java	0	0	0	0	33	9
+org.jgraph.pad.palettebase.ToolBoxRoundRectangle	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/palettebase/ToolBoxRoundRectangle.java	0	0	0	0	38	15
+org.jgraph.pad.palettebase.ToolBoxSwimlane	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/palettebase/ToolBoxSwimlane.java	0	0	0	0	39	16
+org.jgraph.pad.palettebase.ToolBoxText	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/palettebase/ToolBoxText.java	0	0	0	0	46	21
+org.jgraph.pad.jgraphpad.GPAction	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/GPAction.java	0	0	0	0	75	36
+org.jgraph.pad.jgraphpad.GPDocument	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/GPDocument.java	0	0	0	0	625	376
+org.jgraph.pad.jgraphpad.GPGraphpadFile	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/GPGraphpadFile.java	0	0	0	0	164	104
+org.jgraph.pad.jgraphpad.GPGraphpadFile$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/GPGraphpadFile.java	0	0	0	2	0	0
+org.jgraph.pad.jgraphpad.GPUndoHandler	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/GPUndoHandler.java	0	0	0	0	60	14
+org.jgraph.pad.jgraphpad.GPUserObject	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/GPUserObject.java	0	0	0	0	200	138
+org.jgraph.pad.jgraphpad.GPUserObject$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/GPUserObject.java	0	0	0	2	0	0
+org.jgraph.pad.jgraphpad.GPUserObject$2	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/GPUserObject.java	0	0	0	2	0	0
+org.jgraph.pad.jgraphpad.GPUserObject$3	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/GPUserObject.java	0	0	0	2	0	0
+org.jgraph.pad.jgraphpad.GPUserObject$4	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/GPUserObject.java	0	0	0	2	0	0
+org.jgraph.pad.jgraphpad.IEdgeFactory	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/IEdgeFactory.java	0	0	0	0	28	11
+org.jgraph.pad.jgraphpad.IVertexFactory	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/IVertexFactory.java	0	0	0	0	25	9
+org.jgraph.pad.jgraphpad.JGraphpad	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/JGraphpad.java	0	0	0	0	222	137
+org.jgraph.pad.jgraphpad.JGraphpad$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/JGraphpad.java	0	0	0	2	0	0
+org.jgraph.pad.jgraphpad.JGraphpad$2	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/JGraphpad.java	0	0	0	2	0	0
+org.jgraph.pad.jgraphpad.JGraphpad$3	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/JGraphpad.java	0	0	0	2	0	0
+org.jgraph.pad.jgraphpad.JGraphpad$4	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/jgraphpad/JGraphpad.java	0	0	0	2	0	0
+org.jgraph.JGraph	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.JGraph$EmptySelectionModel	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.JGraph$GraphSelectionRedirector	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.microplatform.actions.FileNew	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/actions/FileNew.java	0	0	0	0	42	10
+org.microplatform.actions.FileOpen	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/actions/FileOpen.java	0	0	0	0	86	56
+org.microplatform.actions.FileOpenURL	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/actions/FileOpenURL.java	0	0	0	0	109	63
+org.microplatform.actions.FileSave	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/actions/FileSave.java	0	0	0	0	59	33
+org.microplatform.actions.FileSaveAs	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/actions/FileSaveAs.java	0	0	0	0	97	68
+org.microplatform.web.BareBonesBrowserLaunch	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/BareBonesBrowserLaunch.java	0	0	0	0	49	34
+org.jgraph.graph.AbstractCellView	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.AttributeMap	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.AttributeMap$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.graph.AttributeMap$SerializablePoint2D	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.graph.AttributeMap$SerializableRectangle2D	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.graph.BasicMarqueeHandler	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.CellHandle	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.CellMapper	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.CellView	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.CellViewFactory	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.CellViewRenderer	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.ConnectionSet	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.ConnectionSet$Connection	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultCellViewFactory	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.DefaultEdge	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.DefaultEdge$DefaultRouting	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultEdge$LoopRouting	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultGraphCell	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.DefaultGraphCellEditor	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.DefaultGraphCellEditor$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultGraphCellEditor$DefaultTextField	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultGraphCellEditor$EditorContainer	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultGraphModel	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.DefaultGraphModel$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultGraphModel$EmptyIterator	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultGraphModel$GraphModelEdit	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultGraphModel$GraphModelLayerEdit	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultGraphSelectionModel	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.DefaultGraphSelectionModel$CellPlaceHolder	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.graph.DefaultPort	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.DefaultRealEditor	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.Edge	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.Edge$Routing	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.graph.EdgeRenderer	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.EdgeView	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.EdgeView$EdgeHandle	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.graph.GraphCell	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.GraphCellEditor	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.GraphConstants	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.GraphContext	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.GraphLayoutCache	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.GraphLayoutCache$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.graph.GraphLayoutCache$GraphLayoutCacheEdit	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.graph.GraphModel	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.GraphSelectionModel	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.GraphTransferHandler	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.GraphTransferable	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.GraphUndoManager	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.ParentMap	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.ParentMap$Entry	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.graph.Port	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.PortRenderer	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.PortView	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.VertexRenderer	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.VertexView	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.graph.VertexView$SizeHandle	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphDropTargetListener	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.plaf.basic.BasicGraphTransferable	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.plaf.basic.BasicGraphUI	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.jgraph.plaf.basic.BasicGraphUI$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$CellEditorHandler	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$ComponentHandler	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$GraphCancelEditingAction	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$GraphDropTargetListener	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$GraphEditAction	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$GraphIncrementAction	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$GraphLayoutCacheHandler	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$GraphModelHandler	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$GraphSelectAllAction	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$GraphSelectionHandler	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$KeyHandler	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$MouseHandler	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$MouseInputHandler	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$PropertyChangeHandler	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.plaf.basic.BasicGraphUI$RootHandle	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	2	0	0
+org.jgraph.plugins.console.GPLogConsole	jgraphpad-5.10.0.2-src/unpacked/console.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/console/GPLogConsole.java	0	0	0	0	464	234
+org.jgraph.plugins.console.GPLogConsole$1	jgraphpad-5.10.0.2-src/unpacked/console.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/console/GPLogConsole.java	0	0	0	2	0	0
+org.jgraph.plugins.console.GPLogConsole$2	jgraphpad-5.10.0.2-src/unpacked/console.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/console/GPLogConsole.java	0	0	0	2	0	0
+org.jgraph.plugins.console.GPLogConsole$3	jgraphpad-5.10.0.2-src/unpacked/console.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/console/GPLogConsole.java	0	0	0	2	0	0
+org.jgraph.plugins.console.InternalPopupMenu	jgraphpad-5.10.0.2-src/unpacked/console.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/console/GPLogConsole.java	0	0	0	1	0	0
+org.jgraph.plugins.console.InternalPopupMenu$1	jgraphpad-5.10.0.2-src/unpacked/console.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/console/GPLogConsole.java	0	0	0	2	0	0
+org.jgraph.plugins.console.InternalPopupMenu$2	jgraphpad-5.10.0.2-src/unpacked/console.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/console/GPLogConsole.java	0	0	0	2	0	0
+org.jgraph.plugins.console.InternalPopupMenu$3	jgraphpad-5.10.0.2-src/unpacked/console.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/console/GPLogConsole.java	0	0	0	2	0	0
+org.jgraph.plugins.console.JGraphConsole	jgraphpad-5.10.0.2-src/unpacked/console.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/console/JGraphConsole.java	0	0	0	0	351	162
+org.jgraph.plugins.console.JGraphConsole$JTextAreaOutputStream	jgraphpad-5.10.0.2-src/unpacked/console.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/console/JGraphConsole.java	0	0	0	2	0	0
+org.jgraph.plugins.console.MyDocumentListener	jgraphpad-5.10.0.2-src/unpacked/console.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/console/GPLogConsole.java	0	0	0	1	0	0
+org.jgraph.plugins.console.MyDocumentListener$1	jgraphpad-5.10.0.2-src/unpacked/console.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/console/GPLogConsole.java	0	0	0	2	0	0
+org.jgraph.plugins.algebra.CostFunction		jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/algebra/CostFunction.java	0	2	0	0	39	4
+org.jgraph.plugins.algebra.DefaultCostFunction		jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/algebra/DefaultCostFunction.java	0	2	0	0	69	29
+org.jgraph.plugins.algebra.PriorityQueue		jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/algebra/PriorityQueue.java	0	2	0	0	122	52
+org.jgraph.plugins.algebra.UnionFind		jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/algebra/UnionFind.java	0	2	0	0	93	46
+org.jgraph.plaf.GraphUI	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar		1	1	1	-1	0	0
+org.microplatform.loaders.ImageLoader	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/loaders/ImageLoader.java	0	0	0	0	121	42
+org.microplatform.loaders.LocaleChangeAdapter	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/loaders/LocaleChangeAdapter.java	0	0	0	0	507	285
+org.microplatform.loaders.PluginInvoker	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/loaders/PluginInvoker.java	0	0	0	0	384	294
+org.microplatform.loaders.PluginInvoker$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/loaders/PluginInvoker.java	0	0	0	2	0	0
+org.microplatform.loaders.PluginInvoker$IBrowserDriver	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/loaders/PluginInvoker.java	0	0	0	2	0	0
+org.microplatform.loaders.PluginInvoker$IDocAwarePlugin	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/loaders/PluginInvoker.java	0	0	0	2	0	0
+org.microplatform.loaders.PluginInvoker$IPadAwarePlugin	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/loaders/PluginInvoker.java	0	0	0	2	0	0
+org.microplatform.loaders.PluginInvoker$NamedInputStream	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/loaders/PluginInvoker.java	0	0	0	2	0	0
+org.microplatform.loaders.PluginInvoker$NamedInputStreamProvider	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/loaders/PluginInvoker.java	0	0	0	2	0	0
+org.microplatform.loaders.PluginInvoker$NamedOutputStream	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/loaders/PluginInvoker.java	0	0	0	2	0	0
+org.microplatform.loaders.PluginInvoker$NamedOutputStreamProvider	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/loaders/PluginInvoker.java	0	0	0	2	0	0
+org.microplatform.loaders.PluginInvoker$TrampolineAction	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/loaders/PluginInvoker.java	0	0	0	2	0	0
+org.microplatform.loaders.Translator	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/loaders/Translator.java	0	0	0	0	250	109
+org.microplatform.loaders.TranslatorConstants	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/loaders/TranslatorConstants.java	0	0	0	0	117	17
+org.microplatform.io.DefaultPreferencesService	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/io/PreferencesService.java	0	0	0	1	0	0
+org.microplatform.io.ExtensionFilter	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/io/ExtensionFilter.java	0	0	0	0	68	43
+org.microplatform.io.FileService	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/io/FileService.java	0	0	0	0	255	156
+org.microplatform.io.FileService$JFileChooserService	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/io/FileService.java	0	0	0	2	0	0
+org.microplatform.io.FileService$JFileChooserService$Open	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/io/FileService.java	0	0	0	2	0	0
+org.microplatform.io.FileService$JFileChooserService$Save	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/io/FileService.java	0	0	0	2	0	0
+org.microplatform.io.FileService$Open	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/io/FileService.java	0	0	0	2	0	0
+org.microplatform.io.FileService$Save	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/io/FileService.java	0	0	0	2	0	0
+org.microplatform.io.IFile	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/io/IFile.java	0	0	0	0	15	9
+org.microplatform.io.NullPreferencesService	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/io/PreferencesService.java	0	0	0	1	0	0
+org.microplatform.io.PreferencesService	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/io/PreferencesService.java	0	0	0	0	94	45
+org.jgraph.plugins.misc.GPSelectProvider		jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/misc/GPSelectProvider.java	0	2	0	0	188	83
+org.jgraph.plugins.misc.JGParallelEdgeRouter		jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/misc/JGParallelEdgeRouter.java	0	2	0	0	221	104
+org.jgraph.plugins.misc.JGraphHeavyweightRedirector		jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/misc/JGraphHeavyweightRedirector.java	0	2	0	0	161	104
+org.jgraph.plugins.misc.JGraphParallelEdgeRouter		jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/misc/JGraphParallelEdgeRouter.java	0	2	0	0	138	70
+org.jgraph.plugins.library.EditDelete	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/EditDelete.java	0	0	0	0	58	28
+org.jgraph.plugins.library.EditInsertIntoLibrary	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/EditInsertIntoLibrary.java	0	0	0	0	49	20
+org.jgraph.plugins.library.FileLibraryClose	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/FileLibraryClose.java	0	0	0	0	34	7
+org.jgraph.plugins.library.FileLibraryNew	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/FileLibraryNew.java	0	0	0	0	42	13
+org.jgraph.plugins.library.FileLibraryOpen	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/FileLibraryOpen.java	0	0	0	0	75	44
+org.jgraph.plugins.library.FileLibraryOpenURL	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/FileLibraryOpenURL.java	0	0	0	0	60	32
+org.jgraph.plugins.library.FileLibraryRename	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/FileLibraryRename.java	0	0	0	0	45	16
+org.jgraph.plugins.library.FileLibrarySaveAs	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/FileLibrarySaveAs.java	0	0	0	0	52	39
+org.jgraph.plugins.library.GPLibraryPanel	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/GPLibraryPanel.java	0	0	0	0	555	441
+org.jgraph.plugins.library.GPLibraryPanel$1	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/GPLibraryPanel.java	0	0	0	2	0	0
+org.jgraph.plugins.library.GPLibraryPanel$2	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/GPLibraryPanel.java	0	0	0	2	0	0
+org.jgraph.plugins.library.GPLibraryPanel$2$1	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/GPLibraryPanel.java	0	0	0	2	0	0
+org.jgraph.plugins.library.GPLibraryPanel$DNDTransferHandler	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/GPLibraryPanel.java	0	0	0	2	0	0
+org.jgraph.plugins.library.GPLibraryPanel$FixedWidthFlowLayout	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/GPLibraryPanel.java	0	0	0	2	0	0
+org.jgraph.plugins.library.GPLibraryPanel$GraphCellsComponent	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/GPLibraryPanel.java	0	0	0	2	0	0
+org.jgraph.plugins.library.GPLibraryPanel$GraphCellsComponent$1	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/GPLibraryPanel.java	0	0	0	2	0	0
+org.jgraph.plugins.library.GPLibraryPanel$ScrollablePanel	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/GPLibraryPanel.java	0	0	0	2	0	0
+org.jgraph.plugins.library.GPOverviewPanel	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/GPOverviewPanel.java	0	0	0	0	578	424
+org.jgraph.plugins.library.GPOverviewPanel$PannerViewfinder	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/GPOverviewPanel.java	0	0	0	2	0	0
+org.jgraph.plugins.library.GPOverviewPanel$ViewRedirector	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/GPOverviewPanel.java	0	0	0	2	0	0
+org.jgraph.plugins.library.GPSplitPane	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/GPSplitPane.java	0	0	0	0	121	36
+org.jgraph.plugins.library.LibraryAction	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/LibraryAction.java	0	0	0	0	19	13
+org.jgraph.plugins.library.LibraryDecorator	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/LibraryDecorator.java	0	0	0	0	99	50
+org.jgraph.plugins.library.ToolsShowOverview	jgraphpad-5.10.0.2-src/unpacked/library.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/library/ToolsShowOverview.java	0	0	0	0	65	31
+org.microplatform.web.webstart.JNLPFileService	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/webstart/JNLPFileService.java	0	0	0	0	107	88
+org.microplatform.web.webstart.JNLPFileService$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/webstart/JNLPFileService.java	0	0	0	2	0	0
+org.microplatform.web.webstart.JNLPFileService$2	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/webstart/JNLPFileService.java	0	0	0	2	0	0
+org.microplatform.web.webstart.JNLPFileService$2$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/webstart/JNLPFileService.java	0	0	0	2	0	0
+org.microplatform.web.webstart.JNLPPreferencesService	jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar	jgraphpad-5.10.0.2-src/src/org/microplatform/web/webstart/JNLPPreferencesService.java	0	0	0	0	104	87
+org.jgraph.plugins.codecs.FileExportEPS	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/FileExportEPS.java	0	0	0	0	74	7
+org.jgraph.plugins.codecs.FileExportGIF	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/FileExportGIF.java	0	0	0	0	40	8
+org.jgraph.plugins.codecs.FileExportGXL	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/FileExportGXL.java	0	0	0	0	62	27
+org.jgraph.plugins.codecs.FileExportGraphviz	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/FileExportGraphviz.java	0	0	0	0	66	28
+org.jgraph.plugins.codecs.FileExportJGX	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/FileExportJGX.java	0	0	0	0	42	16
+org.jgraph.plugins.codecs.FileExportJPG	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/FileExportJPG.java	0	0	0	0	36	8
+org.jgraph.plugins.codecs.FileExportPDF	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/FileExportPDF.java	0	0	0	0	87	7
+org.jgraph.plugins.codecs.FileExportSVG	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/FileExportSVG.java	0	0	0	0	88	7
+org.jgraph.plugins.codecs.FileImportGEO	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/FileImportGEO.java	0	0	0	0	72	40
+org.jgraph.plugins.codecs.FileImportGXL	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/FileImportGXL.java	0	0	0	0	363	248
+org.jgraph.plugins.codecs.FileImportJGX	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/FileImportJGX.java	0	0	0	0	62	26
+org.jgraph.plugins.codecs.FileImportSimple	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/FileImportSimple.java	0	0	0	0	65	33
+org.jgraph.plugins.codecs.JGraphGEOCodec	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/JGraphGEOCodec.java	0	0	0	0	196	142
+org.jgraph.plugins.codecs.JGraphGXLCodec	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/JGraphGXLCodec.java	0	0	0	0	819	476
+org.jgraph.plugins.codecs.JGraphGXLCodec$1	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/JGraphGXLCodec.java	0	0	0	2	0	0
+org.jgraph.plugins.codecs.JGraphGraphvizEncoder	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/JGraphGraphvizEncoder.java	0	0	0	0	109	61
+org.jgraph.plugins.codecs.JGraphJGX	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/JGraphJGX.java	0	0	0	0	1362	1001
+org.jgraph.plugins.codecs.JGraphJGX$1	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/JGraphJGX.java	0	0	0	2	0	0
+org.jgraph.plugins.codecs.JGraphJGX$AttributeCollection	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/JGraphJGX.java	0	0	0	2	0	0
+org.jgraph.plugins.codecs.JGraphJGX$ConnectionID	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/JGraphJGX.java	0	0	0	2	0	0
+org.jgraph.plugins.codecs.JGraphJGX$DelayedAttributeID	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/JGraphJGX.java	0	0	0	2	0	0
+org.jgraph.plugins.codecs.JGraphSimpleCodec	jgraphpad-5.10.0.2-src/unpacked/codecs.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/codecs/JGraphSimpleCodec.java	0	0	0	0	144	90
+org.jgraph.plugins.gpgraph.GPExplorer	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/GPExplorer.java	0	0	0	0	334	274
+org.jgraph.plugins.gpgraph.GPExplorer$1	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/GPExplorer.java	0	0	0	2	0	0
+org.jgraph.plugins.gpgraph.GPExplorer$StatefulGraphLayoutCache	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/GPExplorer.java	0	0	0	2	0	0
+org.jgraph.plugins.gpgraph.GPGraph	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/GPGraph.java	0	0	0	0	263	159
+org.jgraph.plugins.gpgraph.GPGraphAction	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/GPGraphAction.java	0	0	0	0	18	13
+org.jgraph.plugins.gpgraph.GPGraphTools	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/GPGraphTools.java	0	0	0	0	333	237
+org.jgraph.plugins.gpgraph.GPGraphTools$1	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/GPGraphTools.java	0	0	0	2	0	0
+org.jgraph.plugins.gpgraph.GPGraphTools$CostFunction	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/GPGraphTools.java	0	0	0	2	0	0
+org.jgraph.plugins.gpgraph.GPGraphTools$DefaultCostFunction	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/GPGraphTools.java	0	0	0	2	0	0
+org.jgraph.plugins.gpgraph.GPGraphTools$PriorityQueue	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/GPGraphTools.java	0	0	0	2	0	0
+org.jgraph.plugins.gpgraph.GPGraphTools$UnionFind	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/GPGraphTools.java	0	0	0	2	0	0
+org.jgraph.plugins.gpgraph.GraphArrange	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/GraphArrange.java	0	0	0	0	62	25
+org.jgraph.plugins.gpgraph.GraphLayout	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/GraphLayout.java	0	0	0	0	45	15
+org.jgraph.plugins.gpgraph.GraphTilt	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/GraphTilt.java	0	0	0	0	57	30
+org.jgraph.plugins.gpgraph.SelectEdges	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/SelectEdges.java	0	0	0	0	35	8
+org.jgraph.plugins.gpgraph.SelectEdgesClear	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/SelectEdgesClear.java	0	0	0	0	35	8
+org.jgraph.plugins.gpgraph.SelectInverse	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/SelectInverse.java	0	0	0	0	51	23
+org.jgraph.plugins.gpgraph.SelectMinimalSpanTree	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/SelectMinimalSpanTree.java	0	0	0	0	35	8
+org.jgraph.plugins.gpgraph.SelectShortestPath	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/SelectShortestPath.java	0	0	0	0	54	27
+org.jgraph.plugins.gpgraph.SelectVertices	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/SelectVertices.java	0	0	0	0	35	8
+org.jgraph.plugins.gpgraph.SelectVerticesClear	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/SelectVerticesClear.java	0	0	0	0	35	8
+org.jgraph.plugins.gpgraph.ShapeBestPorts	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/ShapeBestPorts.java	0	0	0	0	94	60
+org.jgraph.plugins.gpgraph.ShapeConnect	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/ShapeConnect.java	0	0	0	0	64	33
+org.jgraph.plugins.gpgraph.ShapeDefaultPorts	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/ShapeDefaultPorts.java	0	0	0	0	55	27
+org.jgraph.plugins.gpgraph.ShapeDisconnect	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/ShapeDisconnect.java	0	0	0	0	50	20
+org.jgraph.plugins.gpgraph.ToolsShowExplorer	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/ToolsShowExplorer.java	0	0	0	0	54	24
+org.jgraph.plugins.gpgraph.Touch	jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/plugins/gpgraph/Touch.java	0	0	0	0	387	278
+org.jgraph.pad.actionsbase.lazy.EditCell	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/EditCell.java	0	0	0	0	36	8
+org.jgraph.pad.actionsbase.lazy.EditCopy	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/EditCopy.java	0	0	0	0	39	10
+org.jgraph.pad.actionsbase.lazy.EditCut	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/EditCut.java	0	0	0	0	40	10
+org.jgraph.pad.actionsbase.lazy.EditDelete	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/EditDelete.java	0	0	0	0	44	16
+org.jgraph.pad.actionsbase.lazy.EditFind	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/EditFind.java	0	0	0	0	41	9
+org.jgraph.pad.actionsbase.lazy.EditFindAgain	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/EditFindAgain.java	0	0	0	0	81	44
+org.jgraph.pad.actionsbase.lazy.EditPaste	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/EditPaste.java	0	0	0	0	40	11
+org.jgraph.pad.actionsbase.lazy.FileClose	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FileClose.java	0	0	0	0	39	11
+org.jgraph.pad.actionsbase.lazy.FileExit	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FileExit.java	0	0	0	0	69	32
+org.jgraph.pad.actionsbase.lazy.FileExportImageMap	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FileExportImageMap.java	0	0	0	0	65	32
+org.jgraph.pad.actionsbase.lazy.FileExportImageMap$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FileExportImageMap.java	0	0	0	2	0	0
+org.jgraph.pad.actionsbase.lazy.FileExportPNG	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FileExportPNG.java	0	0	0	0	60	28
+org.jgraph.pad.actionsbase.lazy.FilePageFormat	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FilePageFormat.java	0	0	0	0	49	18
+org.jgraph.pad.actionsbase.lazy.FilePrint	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FilePrint.java	0	0	0	0	56	25
+org.jgraph.pad.actionsbase.lazy.FileUploadToServer	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FileUploadToServer.java	0	0	0	0	349	261
+org.jgraph.pad.actionsbase.lazy.FileUploadToServer$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FileUploadToServer.java	0	0	0	2	0	0
+org.jgraph.pad.actionsbase.lazy.FormatAlignBottom	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatAlignBottom.java	0	0	0	0	42	13
+org.jgraph.pad.actionsbase.lazy.FormatAlignCenter	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatAlignCenter.java	0	0	0	0	42	13
+org.jgraph.pad.actionsbase.lazy.FormatAlignLeft	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatAlignLeft.java	0	0	0	0	42	13
+org.jgraph.pad.actionsbase.lazy.FormatAlignMiddle	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatAlignMiddle.java	0	0	0	0	42	13
+org.jgraph.pad.actionsbase.lazy.FormatAlignRight	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatAlignRight.java	0	0	0	0	42	13
+org.jgraph.pad.actionsbase.lazy.FormatAlignTop	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatAlignTop.java	0	0	0	0	42	13
+org.jgraph.pad.actionsbase.lazy.FormatBorderColor	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatBorderColor.java	0	0	0	0	56	27
+org.jgraph.pad.actionsbase.lazy.FormatBorderNo	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatBorderNo.java	0	0	0	0	44	16
+org.jgraph.pad.actionsbase.lazy.FormatFillColor	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatFillColor.java	0	0	0	0	58	25
+org.jgraph.pad.actionsbase.lazy.FormatFillNo	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatFillNo.java	0	0	0	0	46	14
+org.jgraph.pad.actionsbase.lazy.FormatGradientColor	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatGradientColor.java	0	0	0	0	58	25
+org.jgraph.pad.actionsbase.lazy.FormatLineBezier	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatLineBezier.java	0	0	0	0	43	12
+org.jgraph.pad.actionsbase.lazy.FormatLineColor	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatLineColor.java	0	0	0	0	53	24
+org.jgraph.pad.actionsbase.lazy.FormatLineLabelEdge	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatLineLabelEdge.java	0	0	0	0	37	12
+org.jgraph.pad.actionsbase.lazy.FormatLineLabelNormal	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatLineLabelNormal.java	0	0	0	0	38	12
+org.jgraph.pad.actionsbase.lazy.FormatLineOrthogonal	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatLineOrthogonal.java	0	0	0	0	40	12
+org.jgraph.pad.actionsbase.lazy.FormatLinePattern	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatLinePattern.java	0	0	0	0	59	28
+org.jgraph.pad.actionsbase.lazy.FormatLineSpline	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatLineSpline.java	0	0	0	0	39	12
+org.jgraph.pad.actionsbase.lazy.FormatLineWidth	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatLineWidth.java	0	0	0	0	55	25
+org.jgraph.pad.actionsbase.lazy.FormatLockNotBendable	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatLockNotBendable.java	0	0	0	0	44	12
+org.jgraph.pad.actionsbase.lazy.FormatLockNotConnectable	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatLockNotConnectable.java	0	0	0	0	43	12
+org.jgraph.pad.actionsbase.lazy.FormatLockNotDisconnectable	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatLockNotDisconnectable.java	0	0	0	0	43	12
+org.jgraph.pad.actionsbase.lazy.FormatLockPosition	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatLockPosition.java	0	0	0	0	43	12
+org.jgraph.pad.actionsbase.lazy.FormatLockSize	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatLockSize.java	0	0	0	0	43	12
+org.jgraph.pad.actionsbase.lazy.FormatLockValue	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatLockValue.java	0	0	0	0	43	12
+org.jgraph.pad.actionsbase.lazy.FormatReverse	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatReverse.java	0	0	0	0	76	45
+org.jgraph.pad.actionsbase.lazy.FormatRoutingNo	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatRoutingNo.java	0	0	0	0	45	14
+org.jgraph.pad.actionsbase.lazy.FormatRoutingParallel	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatRoutingParallel.java	0	0	0	0	50	18
+org.jgraph.pad.actionsbase.lazy.FormatRoutingSimple	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatRoutingSimple.java	0	0	0	0	46	15
+org.jgraph.pad.actionsbase.lazy.FormatShapeImage	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatShapeImage.java	0	0	0	0	57	22
+org.jgraph.pad.actionsbase.lazy.FormatShapeImageURL	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatShapeImageURL.java	0	0	0	0	63	33
+org.jgraph.pad.actionsbase.lazy.FormatShapeNoImage	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatShapeNoImage.java	0	0	0	0	44	13
+org.jgraph.pad.actionsbase.lazy.FormatSizeAuto	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatSizeAuto.java	0	0	0	0	41	12
+org.jgraph.pad.actionsbase.lazy.FormatSizeManual	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatSizeManual.java	0	0	0	0	40	12
+org.jgraph.pad.actionsbase.lazy.FormatStyleEndSize	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatStyleEndSize.java	0	0	0	0	54	24
+org.jgraph.pad.actionsbase.lazy.FormatStyleNoStartEnd	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatStyleNoStartEnd.java	0	0	0	0	42	14
+org.jgraph.pad.actionsbase.lazy.FormatStyleStartSize	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatStyleStartSize.java	0	0	0	0	55	25
+org.jgraph.pad.actionsbase.lazy.FormatTextFont	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatTextFont.java	0	0	0	0	59	24
+org.jgraph.pad.actionsbase.lazy.FormatTextFontColor	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatTextFontColor.java	0	0	0	0	53	24
+org.jgraph.pad.actionsbase.lazy.FormatTextFontSize	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatTextFontSize.java	0	0	0	0	49	19
+org.jgraph.pad.actionsbase.lazy.FormatTextFontStyleBold	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatTextFontStyleBold.java	0	0	0	0	37	9
+org.jgraph.pad.actionsbase.lazy.FormatTextFontStyleItalic	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatTextFontStyleItalic.java	0	0	0	0	37	9
+org.jgraph.pad.actionsbase.lazy.FormatTextFontStyleNormal	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatTextFontStyleNormal.java	0	0	0	0	37	9
+org.jgraph.pad.actionsbase.lazy.FormatTextFontStyleUnderline	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatTextFontStyleUnderline.java	0	0	0	0	37	9
+org.jgraph.pad.actionsbase.lazy.FormatTextPositionBottom	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatTextPositionBottom.java	0	0	0	0	42	13
+org.jgraph.pad.actionsbase.lazy.FormatTextPositionCenter	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatTextPositionCenter.java	0	0	0	0	42	13
+org.jgraph.pad.actionsbase.lazy.FormatTextPositionLeft	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatTextPositionLeft.java	0	0	0	0	42	13
+org.jgraph.pad.actionsbase.lazy.FormatTextPositionMiddle	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatTextPositionMiddle.java	0	0	0	0	42	13
+org.jgraph.pad.actionsbase.lazy.FormatTextPositionRight	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatTextPositionRight.java	0	0	0	0	42	13
+org.jgraph.pad.actionsbase.lazy.FormatTextPositionTop	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatTextPositionTop.java	0	0	0	0	41	13
+org.jgraph.pad.actionsbase.lazy.FormatUnlockBendable	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatUnlockBendable.java	0	0	0	0	44	12
+org.jgraph.pad.actionsbase.lazy.FormatUnlockConnectable	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatUnlockConnectable.java	0	0	0	0	43	12
+org.jgraph.pad.actionsbase.lazy.FormatUnlockConnections	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatUnlockConnections.java	0	0	0	0	44	13
+org.jgraph.pad.actionsbase.lazy.FormatUnlockDisconnectable	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatUnlockDisconnectable.java	0	0	0	0	43	12
+org.jgraph.pad.actionsbase.lazy.FormatUnlockPosition	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatUnlockPosition.java	0	0	0	0	44	12
+org.jgraph.pad.actionsbase.lazy.FormatUnlockSize	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatUnlockSize.java	0	0	0	0	43	12
+org.jgraph.pad.actionsbase.lazy.FormatUnlockValue	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/FormatUnlockValue.java	0	0	0	0	43	12
+org.jgraph.pad.actionsbase.lazy.GraphBackgroundColor	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/GraphBackgroundColor.java	0	0	0	0	49	17
+org.jgraph.pad.actionsbase.lazy.GraphBackgroundImage	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/GraphBackgroundImage.java	0	0	0	0	50	22
+org.jgraph.pad.actionsbase.lazy.GraphBackgroundNoImage	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/GraphBackgroundNoImage.java	0	0	0	0	35	9
+org.jgraph.pad.actionsbase.lazy.GraphDragEnabled	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/GraphDragEnabled.java	0	0	0	0	46	13
+org.jgraph.pad.actionsbase.lazy.GraphDropEnabled	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/GraphDropEnabled.java	0	0	0	0	46	13
+org.jgraph.pad.actionsbase.lazy.GraphEditable	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/GraphEditable.java	0	0	0	0	46	13
+org.jgraph.pad.actionsbase.lazy.GraphEnabled	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/GraphEnabled.java	0	0	0	0	46	13
+org.jgraph.pad.actionsbase.lazy.GraphOptionsBendable	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/GraphOptionsBendable.java	0	0	0	0	46	13
+org.jgraph.pad.actionsbase.lazy.GraphOptionsCloneable	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/GraphOptionsCloneable.java	0	0	0	0	44	12
+org.jgraph.pad.actionsbase.lazy.GraphOptionsConnectable	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/GraphOptionsConnectable.java	0	0	0	0	46	13
+org.jgraph.pad.actionsbase.lazy.GraphOptionsDisconnectOnMove	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/GraphOptionsDisconnectOnMove.java	0	0	0	0	46	13
+org.jgraph.pad.actionsbase.lazy.GraphOptionsDisconnectable	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/GraphOptionsDisconnectable.java	0	0	0	0	46	13
+org.jgraph.pad.actionsbase.lazy.GraphOptionsDoubleBuffered	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/GraphOptionsDoubleBuffered.java	0	0	0	0	46	13
+org.jgraph.pad.actionsbase.lazy.GraphOptionsMoveable	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/GraphOptionsMoveable.java	0	0	0	0	46	13
+org.jgraph.pad.actionsbase.lazy.GraphOptionsSizeable	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/GraphOptionsSizeable.java	0	0	0	0	46	13
+org.jgraph.pad.actionsbase.lazy.HelpAbout	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/HelpAbout.java	0	0	0	0	392	220
+org.jgraph.pad.actionsbase.lazy.HelpAbout$GPAboutDialog	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/HelpAbout.java	0	0	0	2	0	0
+org.jgraph.pad.actionsbase.lazy.HelpAbout$GPAboutDialog$1	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/HelpAbout.java	0	0	0	2	0	0
+org.jgraph.pad.actionsbase.lazy.HelpAbout$HTMLPane	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/HelpAbout.java	0	0	0	2	0	0
+org.jgraph.pad.actionsbase.lazy.HelpAbout$HTMLPane$CustomLinkHandler	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/HelpAbout.java	0	0	0	2	0	0
+org.jgraph.pad.actionsbase.lazy.HelpHomepage	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/HelpHomepage.java	0	0	0	0	62	20
+org.jgraph.pad.actionsbase.lazy.HelpSubmitABug	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/HelpSubmitABug.java	0	0	0	0	74	26
+org.jgraph.pad.actionsbase.lazy.SelectAll	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/SelectAll.java	0	0	0	0	36	8
+org.jgraph.pad.actionsbase.lazy.SelectAllClear	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/SelectAllClear.java	0	0	0	0	36	8
+org.jgraph.pad.actionsbase.lazy.ShapeAlignBottom	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ShapeAlignBottom.java	0	0	0	0	44	12
+org.jgraph.pad.actionsbase.lazy.ShapeAlignCenter	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ShapeAlignCenter.java	0	0	0	0	44	12
+org.jgraph.pad.actionsbase.lazy.ShapeAlignLeft	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ShapeAlignLeft.java	0	0	0	0	44	12
+org.jgraph.pad.actionsbase.lazy.ShapeAlignMiddle	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ShapeAlignMiddle.java	0	0	0	0	44	12
+org.jgraph.pad.actionsbase.lazy.ShapeAlignRight	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ShapeAlignRight.java	0	0	0	0	43	12
+org.jgraph.pad.actionsbase.lazy.ShapeAlignTop	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ShapeAlignTop.java	0	0	0	0	44	12
+org.jgraph.pad.actionsbase.lazy.ShapeCloneAttributes	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ShapeCloneAttributes.java	0	0	0	0	40	12
+org.jgraph.pad.actionsbase.lazy.ShapeCloneLabel	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ShapeCloneLabel.java	0	0	0	0	39	11
+org.jgraph.pad.actionsbase.lazy.ShapeCloneSize	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ShapeCloneSize.java	0	0	0	0	67	35
+org.jgraph.pad.actionsbase.lazy.ShapeGroup	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ShapeGroup.java	0	0	0	0	57	26
+org.jgraph.pad.actionsbase.lazy.ShapeToBack	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ShapeToBack.java	0	0	0	0	40	9
+org.jgraph.pad.actionsbase.lazy.ShapeToFront	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ShapeToFront.java	0	0	0	0	40	9
+org.jgraph.pad.actionsbase.lazy.ShapeUngroup	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ShapeUngroup.java	0	0	0	0	43	11
+org.jgraph.pad.actionsbase.lazy.ToolsGridSize	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ToolsGridSize.java	0	0	0	0	49	19
+org.jgraph.pad.actionsbase.lazy.ToolsMetric	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ToolsMetric.java	0	0	0	0	47	14
+org.jgraph.pad.actionsbase.lazy.ToolsPortSize	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ToolsPortSize.java	0	0	0	0	47	17
+org.jgraph.pad.actionsbase.lazy.ToolsShowStatusbar	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ToolsShowStatusbar.java	0	0	0	0	57	21
+org.jgraph.pad.actionsbase.lazy.ToolsShowToolbar	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ToolsShowToolbar.java	0	0	0	0	58	23
+org.jgraph.pad.actionsbase.lazy.ToolsSnapSize	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ToolsSnapSize.java	0	0	0	0	49	19
+org.jgraph.pad.actionsbase.lazy.ToolsStatusbar	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ToolsStatusbar.java	0	0	0	0	44	12
+org.jgraph.pad.actionsbase.lazy.ToolsTooltips	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ToolsTooltips.java	0	0	0	0	45	12
+org.jgraph.pad.actionsbase.lazy.ViewActualSize	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ViewActualSize.java	0	0	0	0	40	9
+org.jgraph.pad.actionsbase.lazy.ViewAntiAlias	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ViewAntiAlias.java	0	0	0	0	44	13
+org.jgraph.pad.actionsbase.lazy.ViewGrid	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ViewGrid.java	0	0	0	0	47	14
+org.jgraph.pad.actionsbase.lazy.ViewPorts	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ViewPorts.java	0	0	0	0	47	14
+org.jgraph.pad.actionsbase.lazy.ViewRuler	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ViewRuler.java	0	0	0	0	53	20
+org.jgraph.pad.actionsbase.lazy.ViewScaleCustom	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ViewScaleCustom.java	0	0	0	0	53	20
+org.jgraph.pad.actionsbase.lazy.ViewScaleZoomIn	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ViewScaleZoomIn.java	0	0	0	0	46	13
+org.jgraph.pad.actionsbase.lazy.ViewScaleZoomOut	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/ViewScaleZoomOut.java	0	0	0	0	42	11
+org.jgraph.pad.actionsbase.lazy.WindowCascade	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/WindowCascade.java	0	0	0	0	85	40
+org.jgraph.pad.actionsbase.lazy.WindowLogConsole	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/WindowLogConsole.java	0	0	0	0	42	10
+org.jgraph.pad.actionsbase.lazy.WindowMaximize	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/WindowMaximize.java	0	0	0	0	53	15
+org.jgraph.pad.actionsbase.lazy.WindowMinimize	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/WindowMinimize.java	0	0	0	0	54	15
+org.jgraph.pad.actionsbase.lazy.WindowWindows	jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar	jgraphpad-5.10.0.2-src/src/org/jgraph/pad/actionsbase/lazy/WindowWindows.java	0	0	0	0	128	62
+#Issues
+#======
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/lib/ant/Pack200Task.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/lib/java/jgraph.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/lib/java/jnlp.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/lib/lib/ant/Pack200Task.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/lib/lib/java/jgraph.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/lib/lib/java/jnlp.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/packed/codecs.jar.pack.gz in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/packed/console.jar.pack.gz in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/packed/gpgraph.jar.pack.gz in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/packed/jgraphpad.jar.pack.gz in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/packed/jgraphpad_lazy.jar.pack.gz in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/packed/layouts.jar.pack.gz in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/packed/library.jar.pack.gz in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/packed/translations.jar.pack.gz in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/unpacked/codecs.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/unpacked/console.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/unpacked/gpgraph.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/unpacked/jgraphpad.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/unpacked/jgraphpad_lazy.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/unpacked/layouts.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/unpacked/library.jar in <src> ignored.
+#SRC IGNORED: /opt/qualitas/working/QualitasCorpus-20130904-COPY/Systems/jgraphpad/jgraphpad-5.10.0.2/src/jgraphpad-5.10.0.2-src/unpacked/translations.jar in <src> ignored.
