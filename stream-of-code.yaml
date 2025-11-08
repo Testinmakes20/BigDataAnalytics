@@ -10,7 +10,7 @@ services:
     image: csgenerator
     command: "./generate-code-stream.sh"
     volumes:
-      - qc-volume:/QualitasCorpus
+      - /home/vboxuser/BigDataAnalytics-main/BigDataAnalytics/Containers/CorpusGetter/QualitasCorpus:/QualitasCorpus  # Absolute path to QualitasCorpus
     environment:
       DELAY: 3
       TARGET: "cs-consumer:3000"
