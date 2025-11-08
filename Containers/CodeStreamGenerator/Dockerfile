@@ -2,6 +2,11 @@ FROM alpine
 RUN apk add --no-cache bash perl coreutils curl
 RUN mkdir /QualitasCorpus
 VOLUME /QualitasCorpus
+
 WORKDIR /Scripts
 COPY . .
+
+# Ensure that the script is executable
+RUN chmod +x ./generate-code-stream.sh
+
 ENTRYPOINT ["./generate-code-stream.sh"]
