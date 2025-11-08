@@ -105,7 +105,7 @@ class CloneDetector {
 
     // Return the updated file object
     return file;
-}
+  }
         // TODO
         // For each chunk in file.chunks, find all #chunkMatch() in compareFile.chunks
         // For each matching chunk, create a new Clone.
@@ -119,24 +119,37 @@ class CloneDetector {
         //
 
      
-     
-    #expandCloneCandidates(file) {
-        // TODO
-        // For each Clone in file.instances, try to expand it with every other Clone
-        // (using Clone::maybeExpandWith(), which returns true if it could expand)
-        // 
-        // Comment: This should be doable with a reduce:
-        //          For every new element, check if it overlaps any element in the accumulator.
-        //          If it does, expand the element in the accumulator. If it doesn't, add it to the accumulator.
-        //
-        // ASSUME: As long as you traverse the array file.instances in the "normal" order, only forward expansion is necessary.
-        // 
-        // Return: file, with file.instances only including Clones that have been expanded as much as they can,
-        //         and not any of the Clones used during that expansion.
-        //
+  #expandCloneCandidates(file) {
+    //store expanded clones
+    let expandedInstances = [];
 
-        return file;
+    for (let i = 0; i < file.instances.length; i++) {
+        let currentClone = file.instances[i];
+
+        // Try to expand the current clone with any of the previously expanded clones
+        let expanded = false;
+        
+        for (let j = 0; j < expandedInstances.length; j++) {
+            let expandedClone = expandedInstances[j];
+
+            // Check if the current clone can be expanded with the expanded clone
+            if (currentClone.maybeExpandWith(expandedClone)) {
+                expanded = true;
+                break;
+            }
+        }
+
+        // If not expanded
+        if (!expanded) {
+            expandedInstances.push(currentClone);
+        }
     }
+
+    file.instances = expandedInstances;
+
+    return file;
+}
+
     
     #consolidateClones(file) {
         // TODO
