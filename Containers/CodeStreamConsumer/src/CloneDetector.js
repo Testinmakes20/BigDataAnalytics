@@ -78,8 +78,34 @@ class CloneDetector {
 
         return match;
     }
-
+    
     #filterCloneCandidates(file, compareFile) {
+    // Initialize newInstances
+    let newInstances = [];
+
+    // For each chunk in the current file
+    for (let i = 0; i < file.chunks.length; i++) {
+        let fileChunk = file.chunks[i];
+
+        // Compare the current chunk with all chunks in compareFile
+        for (let j = 0; j < compareFile.chunks.length; j++) {
+            let compareChunk = compareFile.chunks[j];
+
+            if (this.#chunkMatch(fileChunk, compareChunk)) {
+                // Create a new Clone object for the matching chunks
+                let newClone = new Clone(file.name, fileChunk, compareFile.name, compareChunk);
+                newInstances.push(newClone);  // Add the new clone to the array
+            }
+        }
+    }
+
+    // Add newInstances to the existing file.instances array
+    file.instances = file.instances || [];
+    file.instances = file.instances.concat(newInstances);  // Add new clones to the file's instances array
+
+    // Return the updated file object
+    return file;
+}
         // TODO
         // For each chunk in file.chunks, find all #chunkMatch() in compareFile.chunks
         // For each matching chunk, create a new Clone.
@@ -92,10 +118,7 @@ class CloneDetector {
         // Return: file, including file.instances which is an array of Clone objects (or an empty array).
         //
 
-        file.instances = file.instances || [];        
-        file.instances = file.instances.concat(newInstances);
-        return file;
-    }
+     
      
     #expandCloneCandidates(file) {
         // TODO
