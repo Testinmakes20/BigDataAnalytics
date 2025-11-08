@@ -23,4 +23,25 @@ services:
 volumes:
   qc-volume:
     external: true
+
+    services:
+  cs-generator:
+    image: csgenerator:latest
+    container_name: cs-generator
+    volumes:
+      - ./local-path:/container-path
+    environment:
+      - ENV_VAR=value
+    ports:
+      - "8080:80"
+  cs-consumer:
+    image: csconsumer:latest
+    container_name: cs-consumer
+    volumes:
+      - ./local-path:/container-path
+    environment:
+      - ENV_VAR=value
+    ports:
+      - "8081:80"
+
     
