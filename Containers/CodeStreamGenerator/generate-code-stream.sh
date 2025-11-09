@@ -3,8 +3,9 @@
 # Function to create the list of files
 createFileList() {
   echo "Creating initial list of files..."
-  # Adjusting the path to ensure that files are correctly found
-  find /QualitasCorpus/QualitasCorpus-20130901r/Systems -type f -name "*.java" | sort -R > ~/files.txt
+   # If the script is looking for Java files, modify the directory to /test:
+find /test -type f -name "*.java"
+
 }
 
 sendFile() {
