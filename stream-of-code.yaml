@@ -8,7 +8,7 @@ version: "3.8"
 services:
   cs-generator:
     image: csgenerator
-    command: "./generate-code-stream.sh"
+    command: "./generate-code-stream.sh TEST"  # Add the TEST argument to trigger sending test files
     volumes:
       - /home/vboxuser/BigDataAnalytics-main/BigDataAnalytics/Containers/CorpusGetter/QualitasCorpus:/QualitasCorpus  # Absolute path to QualitasCorpus
     environment:
@@ -24,9 +24,3 @@ services:
 
 volumes:
   qc-volume: {}
-
-
-
-   
-
-    
