@@ -1,16 +1,11 @@
-# Docker Compose for Stream-of-code test
-# Connects:
-# - CodeStreamGenerator
-# - CodeStreamConsumer
-# - QualitasCorpus Volume
-
 version: "3.8"
 services:
   cs-generator:
     image: csgenerator
-    command: "./generate-code-stream.sh TEST"  # Add the TEST argument to trigger sending test files
+    command: "./generate-code-stream.sh"
     volumes:
-      - /home/vboxuser/BigDataAnalytics-main/BigDataAnalytics/Containers/CorpusGetter/QualitasCorpus:/QualitasCorpus  # Absolute path to QualitasCorpus
+      # Mount the correct directory for Java files
+      - /home/vboxuser/BigDataAnalytics-main/BigDataAnalytics/Containers/CodeStreamGenerator/test:/test
     environment:
       DELAY: 3
       TARGET: "cs-consumer:3000"
