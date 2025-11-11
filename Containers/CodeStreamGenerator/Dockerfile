@@ -1,13 +1,22 @@
 FROM alpine
+
+# Install dependencies
 RUN apk add --no-cache bash perl coreutils curl
-RUN mkdir /QualitasCorpus
+
+# Create folders for scripts and test files
+RUN mkdir -p /Scripts /test /QualitasCorpus
 VOLUME /QualitasCorpus
 
-WORKDIR /Scripts
-COPY . .
+# Set working directory
+WORKDIR /root
+
+# Copy generator script and make executable
 COPY generate-code-stream.sh /root/generate-code-stream.sh
+RUN chmod +x /root/generate-code-stream.sh
 
-# Ensure that the script is executable
-RUN chmod +x ./generate-code-stream.sh
+# Copy test files
+COPY test /test
 
-ENTRYPOINT ["./generate-code-stream.sh"]
+# Set the script as the entrypoint
+ENTRYPOINT ["/root/generate-code-stream.sh"]
+
