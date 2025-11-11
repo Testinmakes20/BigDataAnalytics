@@ -6,6 +6,7 @@ services:
     volumes:
       # Mount the correct directory for Java files
       - ./files.txt:/root/files.txt
+      - ./Containers/CodeStreamGenerator/test:/test
     environment:
       DELAY: 3
       TARGET: "cs-consumer:3000"
