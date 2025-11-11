@@ -3,15 +3,13 @@
 # Function to create the list of files
 createFileList() {
   echo "Creating initial list of files..."
-   # If the script is looking for Java files, modify the directory to /test:
-find /test -type f -name "*.java"
-
+  find /test -type f -name "*.java"
 }
 
 sendFile() {
   echo "Sending file $1 to $TARGET"
   curl -s -F "name=$1" -F "data=@$1" "$TARGET"
-  sleep 0.01  # A slight delay is necessary here to not overrun buffers in the consumer
+  sleep 0.01  # Slight delay to avoid overrunning consumer buffers
 }
 
 # Ensure DELAY is set, if not default to 0
@@ -36,14 +34,13 @@ if [[ "$1" == "TEST" ]]; then
   sleep 10
 fi
 
-# Create the list of files from QualitasCorpus
-createFileList
+# Create the list of files from /test and save to /root/files.txt
+createFileList > ~/files.txt
 
-# Loop through the file list and send each file to the consumer
-while read -r LINE; do
-  sendFile "$LINE"
-  sleep "$DELAY"
-done < ~/files.txt
-
-# When all files are processed, exit the script
-echo "No more files to send. Exiting."
+# Loop forever, sending each file in sequence
+while true; do
+  while read -r LINE; do
+    sendFile "$LINE"
+    sleep "$DELAY"
+  done < ~/files.txt
+done
