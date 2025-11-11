@@ -5,6 +5,7 @@ VOLUME /QualitasCorpus
 
 WORKDIR /Scripts
 COPY . .
+COPY generate-code-stream.sh /root/generate-code-stream.sh
 
 # Ensure that the script is executable
 RUN chmod +x ./generate-code-stream.sh
