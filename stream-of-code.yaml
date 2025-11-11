@@ -5,7 +5,7 @@ services:
     command: "./generate-code-stream.sh"
     volumes:
       # Mount the correct directory for Java files
-      - /home/vboxuser/BigDataAnalytics-main/BigDataAnalytics/Containers/CodeStreamGenerator/test:/test
+      - ./files.txt:/root/files.txt
     environment:
       DELAY: 3
       TARGET: "cs-consumer:3000"
