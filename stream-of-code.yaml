@@ -8,7 +8,7 @@ services:
       - ./files.txt:/root/files.txt
       - ./Containers/CodeStreamGenerator/test:/test
     environment:
-      DELAY: 3
+      DELAY: 5000
       TARGET: "cs-consumer:3000"
 
   cs-consumer:
