@@ -3,11 +3,11 @@ services:
   cs-generator:
     image: csgenerator
     command: "TEST"
-    volumes:
-      - ./test:/test                 # Mount the local test directory to /test in the container
-      - qc-volume:/QualitasCorpus
+   volumes:
+      - ./BigDataAnalytics-main/BigDataAnalytics/Containers/CodeStreamGenerator/test:/app/Containers/CodeStreamGenerator/test  # Mounting test folder
     environment:
-      DELAY: 0
+      - TARGET=cs-consumer:3000
+      - DELAY=0
       TARGET: "cs-consumer:3000"
 
   cs-consumer:
