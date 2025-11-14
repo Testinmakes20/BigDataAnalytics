@@ -135,22 +135,23 @@ function processFile(filename, contents) {
     let cloneStore = CloneStorage.getInstance();
 
     return Promise.resolve({ name: filename, contents: contents })
-        .then((file) => Timer.startTimer(file, 'total'))
-        .then((file) => cd.preprocess(file))
+        .then((file) => {
+            Timer.startTimer(file, 'total');
+            return cd.preprocess(file);
+        })
         .then((file) => cd.transform(file))
-
-        .then((file) => Timer.startTimer(file, 'match'))
-        .then((file) => cd.matchDetect(file))
+        .then((file) => {
+            Timer.startTimer(file, 'match');
+            return cd.matchDetect(file);
+        })
         .then((file) => cloneStore.storeClones(file))
         .then((file) => Timer.endTimer(file, 'match'))
-
         .then((file) => cd.storeFile(file))
         .then((file) => Timer.endTimer(file, 'total'))
-        .then(PASS((file) => lastFile = file))
-        .then(PASS((file) => maybePrintStatistics(file, cd, cloneStore)))
-
-        // 🆕 Store timers for each processed file
-        .then(PASS((file) => {
+        .then((file) => {
+            lastFile = file;
+            maybePrintStatistics(file, cd, cloneStore);
+            // Store timers for each processed file
             const timers = Timer.getTimers(file);
             allTimers.push({
                 name: file.name,
@@ -158,11 +159,15 @@ function processFile(filename, contents) {
                 match: Number(timers.match || 0n) / 1000,
                 timestamp: Date.now()
             });
-            if (allTimers.length > 1000) allTimers.shift(); // limit history
-        }))
-
-        .catch(console.log);
+            if (allTimers.length > 1000) allTimers.shift(); // Limit history to 1000
+        })
+        .catch((error) => {
+            console.error('Error processing file:', error);
+            // Optionally, send an error response to the client
+            // res.status(500).send('Error processing file');
+        });
 }
+
 
 // --------------------
 // 🆕 New landing page: /timers
