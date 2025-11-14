@@ -1,12 +1,13 @@
-import express from "express";
-import formidable from "formidable";
-import fs from "fs/promises";
+const express = require('express');
+const formidable = require('formidable');
+const fs = require('fs/promises');
+const app = express();
+const PORT = 3000;
 
-import Timer from "./Timer.js";
-import TimerStorage from "./TimerStorage.js";
-import CloneDetector from "./CloneDetector.js";
-import CloneStorage from "./CloneStorage.js";
-import FileStorage from "./FileStorage.js";
+const Timer = require('./Timer');
+const CloneDetector = require('./CloneDetector');
+const CloneStorage = require('./CloneStorage');
+const FileStorage = require('./FileStorage');
 
 const app = express();
 const PORT = 3000;
