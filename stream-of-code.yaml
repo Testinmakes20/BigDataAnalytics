@@ -1,14 +1,14 @@
 version: "3.8"
+
 services:
   cs-generator:
     image: csgenerator
     command: "TEST"
-   volumes:
+    volumes:
       - ./BigDataAnalytics-main/BigDataAnalytics/Containers/CodeStreamGenerator/test:/app/Containers/CodeStreamGenerator/test  # Mounting test folder
     environment:
       - TARGET=cs-consumer:3000
       - DELAY=0
-      TARGET: "cs-consumer:3000"
 
   cs-consumer:
     image: csconsumer
@@ -20,3 +20,4 @@ services:
 volumes:
   qc-volume:
     external: true
+
