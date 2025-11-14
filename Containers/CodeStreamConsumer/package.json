@@ -4,7 +4,7 @@
   "description": "Version 1 that just consumes a stream of code",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/index.js"
+    "dev": "node src/index.js"
   },
   "author": "Mikael Svahnberg",
   "license": "ISC",
