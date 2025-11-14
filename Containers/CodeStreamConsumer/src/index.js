@@ -55,20 +55,37 @@ function listClonesHTML() {
     let output = '';
 
     cloneStore.clones.forEach(clone => {
+        // Check if clone has necessary properties
+        let sourceName = clone.sourceName || 'Unknown source file';
+        let sourceStart = clone.sourceStart !== undefined ? clone.sourceStart : 'Unknown start line';
+        let sourceEnd = clone.sourceEnd !== undefined ? clone.sourceEnd : 'Unknown end line';
+        let originalCode = clone.originalCode || 'No code available';
+
+        // Start building the output for this clone
         output += '<hr>\n';
-        output += '<h2>Source File: ' + clone.sourceName + '</h2>\n';
-        output += '<p>Starting at line: ' + clone.sourceStart + ' , ending at line: ' + clone.sourceEnd + '</p>\n';
+        output += `<h2>Source File: ${sourceName}</h2>\n`;
+        output += `<p>Starting at line: ${sourceStart} , ending at line: ${sourceEnd}</p>\n`;
         output += '<ul>';
-        
+
         // Iterate over targets and display meaningful properties
-        clone.targets.forEach(target => {
-            // Assuming each target is an object with 'name' and 'startLine'
-            // Avoid displaying [object Object] by using specific properties
-            output += '<li>Found in ' + (target.name || 'Unknown file') + ' starting at line ' + (target.startLine || 'Unknown line') + '</li>\n';
-        });
+        if (Array.isArray(clone.targets) && clone.targets.length > 0) {
+            clone.targets.forEach(target => {
+                let targetName = target.name || 'Unknown file';
+                let targetStartLine = target.startLine !== undefined ? target.startLine : 'Unknown line';
+
+                output += `<li>Found in ${targetName} starting at line ${targetStartLine}</li>\n`;
+            });
+        } else {
+            output += '<li>No target clones found.</li>\n';
+        }
+
         output += '</ul>\n';
+
+        // Escape the original code for safe HTML rendering
+        let escapedCode = escapeHtml(originalCode);
+
         output += '<h3>Contents:</h3>\n<pre><code>\n';
-        output += clone.originalCode;
+        output += escapedCode;  // Displaying escaped code
         output += '</code></pre>\n';
     });
 
@@ -79,7 +96,7 @@ function listProcessedFilesHTML() {
     let fs = FileStorage.getInstance();
     let output = '<HR>\n<H2>Processed Files</H2>\n'
     output += fs.filenames.reduce((out, name) => {
-        out += '<li>' + name + '\n';
+        out += `<li>${name}\n`;
         return out;
     }, '<ul>\n');
     output += '</ul>\n';
@@ -207,31 +224,4 @@ function viewTimers(req, res, next) {
       <table border="1" cellpadding="4">
         <tr><th>#</th><th>Filename</th><th>Total (µs)</th><th>Match (µs)</th></tr>
         ${allTimers.slice(-20).map((t, i) =>
-        `<tr><td>${allTimers.length - 20 + i}</td><td>${t.name}</td><td>${t.total.toFixed(1)}</td><td>${t.match.toFixed(1)}</td></tr>`
-    ).join('\n')}
-      </table>
-
-      <h2>Timing trend</h2>
-      <canvas id="chart" width="800" height="300"></canvas>
-      <script>
-        const ctx = document.getElementById('chart').getContext('2d');
-        const labels = ${JSON.stringify(allTimers.map((t, i) => i))};
-        const totalData = ${JSON.stringify(allTimers.map(t => t.total))};
-        const matchData = ${JSON.stringify(allTimers.map(t => t.match))};
-        new Chart(ctx, {
-          type: 'line',
-          data: {
-            labels: labels,
-            datasets: [
-              { label: 'Total (µs)', data: totalData, borderColor: 'blue', fill: false },
-              { label: 'Match (µs)', data: matchData, borderColor: 'red', fill: false }
-            ]
-          }
-        });
-      </script>
-
-      <p><a href="/">Back to clone summary</a></p>
-    </body></html>`;
-
-    res.send(page);
-}
+        `<tr><td>${allTimers.length - 20 + i}</td><td>${t.name}</td><td>${
