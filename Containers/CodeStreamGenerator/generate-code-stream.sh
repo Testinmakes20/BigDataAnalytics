@@ -1,28 +1,25 @@
 #!/usr/bin/env bash
 
-# Function to create the list of files
 createFileList() {
   echo "Creating initial list of files..."
-  find /test -type f -name "*.java"
+  find /QualitasCorpus/QualitasCorpus-20130901r/Systems -type f -name "*.java" | sort -R > ~/files.txt
 }
 
 sendFile() {
-  echo "Sending file $1 to $TARGET"
+  # echo "Sending file" "$1" to "$TARGET"
   curl -s -F "name=$1" -F "data=@$1" "$TARGET"
-  sleep 0.01  # Slight delay to avoid overrunning consumer buffers
+  sleep 0.01  # A slight delay is necessary here to not overrun buffers in the consumer
 }
 
-# Ensure DELAY is set, if not default to 0
+
 if [[ "$DELAY" == "" ]]; then
-  DELAY=0
+ DELAY=0
 fi
 
-# Echo some information about the generator
 echo "Stream-of-Code generator."
-echo "Delay (seconds) between each file is: $DELAY"
-echo "Files are sent to: $TARGET"
+echo "Delay (seconds) between each file is:" $DELAY
+echo "files are sent to                   :" $TARGET
 
-# Wait for the consumer to start
 echo "Waiting 5 seconds to give consumer time to get started..."
 sleep 5
 
@@ -34,13 +31,12 @@ if [[ "$1" == "TEST" ]]; then
   sleep 10
 fi
 
-# Create the list of files from /test and save to /root/files.txt
-createFileList > ~/files.txt
 
-# Loop forever, sending each file in sequence
-while true; do
-  while read -r LINE; do
-    sendFile "$LINE"
-    sleep "$DELAY"
-  done < ~/files.txt
-done
+createFileList
+
+while read LINE; do
+  sendFile $LINE
+  sleep $DELAY
+done < ~/files.txt
+
+echo "No more files to send. Exiting."
