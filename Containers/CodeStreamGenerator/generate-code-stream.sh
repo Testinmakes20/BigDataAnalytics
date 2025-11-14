@@ -3,42 +3,39 @@
 createFileList() {
   echo "Creating initial list of files..."
   find /QualitasCorpus/QualitasCorpus-20130901r/Systems -type f -name "*.java" | sort -R > /app/files.txt
-
 }
 
 sendFile() {
-  echo "Sending file: $1"  # Add this line for debugging
+  echo "Sending file: $1"  # Added debug message to log which file is being sent
   curl -s -F "name=$1" -F "data=@$1" "$TARGET"
   sleep 0.01  # A slight delay to prevent overrun
 }
-
-
 
 if [[ "$DELAY" == "" ]]; then
  DELAY=0
 fi
 
 echo "Stream-of-Code generator."
-echo "Delay (seconds) between each file is:" $DELAY
-echo "files are sent to                   :" $TARGET
+echo "Delay (seconds) between each file is: $DELAY"
+echo "Files are sent to: $TARGET"
 
 echo "Waiting 5 seconds to give consumer time to get started..."
 sleep 5
 
 if [[ "$1" == "TEST" ]]; then
   echo "Started with TEST argument, first sending test files..."
-  sendFile ./test/A.java
-  sendFile ./test/B.java
+  sendFile /app/test/A.java  # Use absolute paths to make sure these files are found inside the container
+  sendFile /app/test/B.java
   echo "Sent test files. Sleeping before continuing..."
   sleep 10
 fi
 
-
 createFileList
 
+# Use absolute path to files.txt to avoid issues with tilde (~)
 while read LINE; do
-  sendFile $LINE
+  sendFile "$LINE"
   sleep $DELAY
-done < ~/files.txt
+done < /app/files.txt  # Updated path to /app/files.txt
 
 echo "No more files to send. Exiting."
