@@ -63,7 +63,8 @@ function listClonesHTML() {
         // Iterate over targets and display meaningful properties
         clone.targets.forEach(target => {
             // Assuming each target is an object with 'name' and 'startLine'
-            output += '<li>Found in ' + target.name + ' starting at line ' + target.startLine + '</li>\n';
+            // Avoid displaying [object Object] by using specific properties
+            output += '<li>Found in ' + (target.name || 'Unknown file') + ' starting at line ' + (target.startLine || 'Unknown line') + '</li>\n';
         });
         output += '</ul>\n';
         output += '<h3>Contents:</h3>\n<pre><code>\n';
