@@ -2,7 +2,8 @@
 
 createFileList() {
   echo "Creating initial list of files..."
-  find /QualitasCorpus/QualitasCorpus-20130901r/Systems -type f -name "*.java" | sort -R > /root/files.txt
+  find /QualitasCorpus/QualitasCorpus-20130901r/Systems -type f -name "*.java" | sort -R > /app/files.txt
+
 }
 
 sendFile() {
