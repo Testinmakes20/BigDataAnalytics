@@ -19,7 +19,6 @@ class TimerStorage {
         return this.files[fileId];
     }
 
-    // Optionally you could add methods like `addFile(fileId)` to initialize files
 }
 
 module.exports = TimerStorage;
