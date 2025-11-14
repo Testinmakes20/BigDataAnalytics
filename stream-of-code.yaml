@@ -5,7 +5,8 @@ services:
     image: csgenerator
     command: "TEST"
     volumes:
-      - ./BigDataAnalytics-main/BigDataAnalytics/Containers/CodeStreamGenerator/test:/app/Containers/CodeStreamGenerator/test  # Mounting test folder
+    - ./BigDataAnalytics-main/BigDataAnalytics/Containers/CodeStreamGenerator/test:/app/Containers/CodeStreamGenerator/test 
+  environment:
     environment:
       - TARGET=cs-consumer:3000
       - DELAY=0
