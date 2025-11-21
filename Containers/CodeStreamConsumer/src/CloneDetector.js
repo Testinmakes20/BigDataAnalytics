@@ -1,34 +1,32 @@
+import SourceLine from './SourceLine.js';  // Updated to import instead of require
+import FileStorage from './FileStorage.js';
+import Clone from './Clone.js';
+
 const emptyLine = /^\s*$/;
 const oneLineComment = /\/\/.*/;
 const oneLineMultiLineComment = /\/\*.*?\*\//; 
 const openMultiLineComment = /\/\*+[^\*\/]*$/;
 const closeMultiLineComment = /^[\*\/]*\*+\//;
 
-const SourceLine = require('./SourceLine');
-const FileStorage = require('./FileStorage');
-const Clone = require('./Clone');
-
-const DEFAULT_CHUNKSIZE=5;
+const DEFAULT_CHUNKSIZE = 5;
 
 class CloneDetector {
     #myChunkSize = process.env.CHUNKSIZE || DEFAULT_CHUNKSIZE;
     #myFileStore = FileStorage.getInstance();
 
-    constructor() {
-    }
+    constructor() {}
 
     // Private Methods
-    // --------------------
     #filterLines(file) {
         let lines = file.contents.split('\n');
         let inMultiLineComment = false;
-        file.lines=[];
+        file.lines = [];
 
         for (let i = 0; i < lines.length; i++) {
             let line = lines[i];
 
-            if ( inMultiLineComment ) {
-                if ( -1 != line.search(closeMultiLineComment) ) {
+            if (inMultiLineComment) {
+                if (-1 !== line.search(closeMultiLineComment)) {
                     line = line.replace(closeMultiLineComment, '');
                     inMultiLineComment = false;
                 } else {
@@ -40,29 +38,28 @@ class CloneDetector {
             line = line.replace(oneLineComment, '');
             line = line.replace(oneLineMultiLineComment, '');
             
-            if ( -1 != line.search(openMultiLineComment) ) {
+            if (-1 !== line.search(openMultiLineComment)) {
                 line = line.replace(openMultiLineComment, '');
                 inMultiLineComment = true;
             }
 
-            file.lines.push( new SourceLine(i+1, line.trim()) );
+            file.lines.push(new SourceLine(i + 1, line.trim()));
         }
        
         return file;
     }
 
     #getContentLines(file) {
-        return file.lines.filter( line => line.hasContent() );        
+        return file.lines.filter(line => line.hasContent());        
     }
-
 
     #chunkify(file) {
         let chunkSize = this.#myChunkSize;
         let lines = this.#getContentLines(file);
-        file.chunks=[];
+        file.chunks = [];
 
-        for (let i = 0; i <= lines.length-chunkSize; i++) {
-            let chunk = lines.slice(i, i+chunkSize);
+        for (let i = 0; i <= lines.length - chunkSize; i++) {
+            let chunk = lines.slice(i, i + chunkSize);
             file.chunks.push(chunk);
         }
         return file;
@@ -71,116 +68,95 @@ class CloneDetector {
     #chunkMatch(first, second) {
         let match = true;
 
-        if (first.length != second.length) { match = false; }
-        for (let idx=0; idx < first.length; idx++) {
+        if (first.length !== second.length) { match = false; }
+        for (let idx = 0; idx < first.length; idx++) {
             if (!first[idx].equals(second[idx])) { match = false; }
         }
 
         return match;
     }
-    
+
     #filterCloneCandidates(file, compareFile) {
-    let newInstances = [];
+        let newInstances = [];
 
-    // For each chunk in the current file
-    for (let i = 0; i < file.chunks.length; i++) {
-        let fileChunk = file.chunks[i];
+        // For each chunk in the current file
+        for (let i = 0; i < file.chunks.length; i++) {
+            let fileChunk = file.chunks[i];
 
-        // Compare the current chunk with all chunks in compareFile
-        for (let j = 0; j < compareFile.chunks.length; j++) {
-            let compareChunk = compareFile.chunks[j];
+            // Compare the current chunk with all chunks in compareFile
+            for (let j = 0; j < compareFile.chunks.length; j++) {
+                let compareChunk = compareFile.chunks[j];
 
-            if (this.#chunkMatch(fileChunk, compareChunk)) {
-                // Create a new Clone object for the matching chunks
-                let newClone = new Clone(file.name, fileChunk, compareFile.name, compareChunk);
-                newInstances.push(newClone);
-            }
-        }
-    }
-
-    // Merge new instances with the existing ones in the file
-    file.instances = (file.instances || []).concat(newInstances);
-
-    return file;
-}
-
-        // TODO
-        // For each chunk in file.chunks, find all #chunkMatch() in compareFile.chunks
-        // For each matching chunk, create a new Clone.
-        // Store the resulting (flat) array in file.instances.
-        // 
-        // TIP 1: Array.filter to find a set of matches, Array.map to return a new array with modified objects.
-        // TIP 2: You can daisy-chain calls to filter().map().filter().flat() etc.
-        // TIP 3: Remember that file.instances may have already been created, so only append to it.
-        //
-        // Return: file, including file.instances which is an array of Clone objects (or an empty array).
-        //
-
-     
-  #expandCloneCandidates(file) {
-    //store expanded clones
-    let expandedInstances = [];
-
-    for (let i = 0; i < file.instances.length; i++) {
-        let currentClone = file.instances[i];
-
-        // Try to expand the current clone with any of the previously expanded clones
-        let expanded = false;
-        
-        for (let j = 0; j < expandedInstances.length; j++) {
-            let expandedClone = expandedInstances[j];
-
-            // Check if the current clone can be expanded with the expanded clone
-            if (currentClone.maybeExpandWith(expandedClone)) {
-                expanded = true;
-                break;
+                if (this.#chunkMatch(fileChunk, compareChunk)) {
+                    // Create a new Clone object for the matching chunks
+                    let newClone = new Clone(file.name, fileChunk, compareFile.name, compareChunk);
+                    newInstances.push(newClone);
+                }
             }
         }
 
-        // If not expanded
-        if (!expanded) {
-            expandedInstances.push(currentClone);
-        }
+        // Merge new instances with the existing ones in the file
+        file.instances = (file.instances || []).concat(newInstances);
+
+        return file;
     }
 
-    file.instances = expandedInstances;
+    #expandCloneCandidates(file) {
+        let expandedInstances = [];
 
-    return file;
-}
+        for (let i = 0; i < file.instances.length; i++) {
+            let currentClone = file.instances[i];
 
-   #consolidateClones(file) {
-    // Start with an empty array to add unique clones
-    let uniqueClones = [];
+            // Try to expand the current clone with any of the previously expanded clones
+            let expanded = false;
+            
+            for (let j = 0; j < expandedInstances.length; j++) {
+                let expandedClone = expandedInstances[j];
 
-    // Go through each clone in the file.instances array
-    file.instances = file.instances.reduce((accumulator, currentClone) => {
-        // Try to find an existing clone in the accumulator that matches the current clone
-        let existingClone = accumulator.find(clone => clone.equals(currentClone));
+                // Check if the current clone can be expanded with the expanded clone
+                if (currentClone.maybeExpandWith(expandedClone)) {
+                    expanded = true;
+                    break;
+                }
+            }
 
-        if (existingClone) {
-            // If identical clone exists, update it to include the current one
-            existingClone.addTarget(currentClone);
-        } else {
-            // If no match found, add the current clone as a new unique clone
-            accumulator.push(currentClone);
+            // If not expanded
+            if (!expanded) {
+                expandedInstances.push(currentClone);
+            }
         }
 
-        return accumulator;
-    }, []);  // Initial empty array for reduce
+        file.instances = expandedInstances;
 
-    // Assign the consolidated list of clones back to file.instances
-    return file;
-}
- 
-   
+        return file;
+    }
+
+    #consolidateClones(file) {
+        let uniqueClones = [];
+
+        // Go through each clone in the file.instances array
+        file.instances = file.instances.reduce((accumulator, currentClone) => {
+            // Try to find an existing clone in the accumulator that matches the current clone
+            let existingClone = accumulator.find(clone => clone.equals(currentClone));
+
+            if (existingClone) {
+                existingClone.addTarget(currentClone);
+            } else {
+                accumulator.push(currentClone);
+            }
+
+            return accumulator;
+        }, []);  // Initial empty array for reduce
+
+        return file;
+    }
 
     // Public Processing Steps
-    // --------------------
     preprocess(file) {
-        return new Promise( (resolve, reject) => {
-            if (!file.name.endsWith('.java') ) {
+        return new Promise((resolve, reject) => {
+            if (!file.name.endsWith('.java')) {
                 reject(file.name + ' is not a java file. Discarding.');
-            } else if(this.#myFileStore.isFileProcessed(file.name)) {
+            } else if (this.#myFileStore.isFileProcessed(file.name)) {
                 reject(file.name + ' has already been processed.');
             } else {
                 resolve(file);
@@ -193,35 +169,37 @@ class CloneDetector {
         file = this.#chunkify(file);
         return file;
     }
-    
-   matchDetect(file) {
-    let allFiles = this.#myFileStore.getAllFiles();
-    file.instances = file.instances || [];
 
-    for (let f of allFiles) {
-        // Filter clones based on chunk comparison between file and f
-        file = this.#filterCloneCandidates(file, f);
-        file = this.#expandCloneCandidates(file);
+    matchDetect(file) {
+        let allFiles = this.#myFileStore.getAllFiles();
+        file.instances = file.instances || [];
 
-        // Consolidate the found clones by merging duplicates
-        file = this.#consolidateClones(file);
+        for (let f of allFiles) {
+            // Filter clones based on chunk comparison between file and f
+            file = this.#filterCloneCandidates(file, f);
+            file = this.#expandCloneCandidates(file);
+
+            // Consolidate the found clones by merging duplicates
+            file = this.#consolidateClones(file);
+        }
+
+        return file;
     }
 
-    return file;
-}
-              
     pruneFile(file) {
         delete file.lines;
         delete file.instances;
         return file;
     }
-    
+
     storeFile(file) {
         this.#myFileStore.storeFile(this.pruneFile(file));
         return file;
     }
 
-    get numberOfProcessedFiles() { return this.#myFileStore.numberOfFiles; }
+    get numberOfProcessedFiles() {
+        return this.#myFileStore.numberOfFiles;
+    }
 }
 
-module.exports = CloneDetector;
+export default CloneDetector;  // Use ES Module export
