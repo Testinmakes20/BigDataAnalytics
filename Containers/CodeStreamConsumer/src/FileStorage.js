@@ -27,24 +27,26 @@ class FileStorage {
     }
 
     // Store a file if it hasn't been processed already
-    storeFile(file) {
-        if (!this.isFileProcessed(file.name)) {
-            // Adding file to storage
-            this.#myFileNames.push(file.name);
-            this.#myNumberOfFiles++;
+ storeFile(file) {
+    if (!this.isFileProcessed(file.name)) {
+        console.log('Storing file:', file.name); // Add logging here
+        this.#myFileNames.push(file.name);
+        this.#myNumberOfFiles++;
 
-            // Store file in the private array
-            this.#myFiles.push(file);
-        }
-        return file;
+        // Store file in the private array
+        this.#myFiles.push(file);
     }
+    return file;
+}
 
     // Generator function to yield all files in storage
-    *getAllFiles() {
-        for (let file of this.#myFiles) {
-            yield file;
-        }
+   *getAllFiles() {
+    console.log('Retrieving all files:', this.#myFiles);  // Log files being retrieved
+    for (let file of this.#myFiles) {
+        yield file;
     }
+}
+
 }
 
 // Use export default to use this in other modules
