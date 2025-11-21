@@ -23,10 +23,10 @@ class TimerStorage {
         return this.files[fileId];
     }
 
-    // Optionally add a timer for a file (can be expanded to support additional operations)
-    addTimer(fileId, timer) {
-        const fileTimers = this.getFileTimers(fileId);
-        fileTimers.push(timer);
+    last(n = 1) {
+        // Convert this.files to an array and get the last N timers
+        const fileTimers = Object.values(this.files).flat();
+        return fileTimers.slice(-n);
     }
 }
 
