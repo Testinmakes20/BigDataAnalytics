@@ -5,7 +5,7 @@ services:
     image: csgenerator
     command: "TEST"
     volumes:
-      - qc-volume:/qc        # <--- MOUNT qc VOLUME HERE
+      - qc-volume:/qc        
     environment:
       - TARGET=cs-consumer:3000
       - DELAY=0
