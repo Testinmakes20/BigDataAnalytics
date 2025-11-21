@@ -4,7 +4,6 @@ import fs from 'fs/promises';  // ES import syntax
 
 import Timer from './Timer.js';  // Add the `.js` extension for local imports
 import TimerStorage from './TimerStorage.js';  // Same for local modules
-
 import CloneDetector from './CloneDetector.js';  // Same for local modules
 import CloneStorage from './CloneStorage.js';  // Same for local modules
 import FileStorage from './FileStorage.js';  // Same for local modules
@@ -35,6 +34,7 @@ app.post("/", (req, res) => {
         }
 
         try {
+            // Check if the file is uploaded correctly
             const uploaded = files.data?.filepath
                 ? files.data
                 : Array.isArray(files.data)
@@ -54,6 +54,7 @@ app.post("/", (req, res) => {
             const content = await fs.readFile(uploaded.filepath, "utf8");
             console.log(`📥 Received file: ${filename}, size: ${content.length} bytes`);
 
+            // Process the file
             await processFile(filename, content);
 
             res.status(200).send("OK");
@@ -155,7 +156,7 @@ async function processFile(filename, contents) {
 
         Timer.startTimer(file, "match");
         file = cloneDetector.matchDetect(file);
-        cloneStore.storeClones(file);
+        cloneStore.storeClones(file);  // Store the detected clones
         Timer.endTimer(file, "match");
 
         file = cloneDetector.storeFile(file);
@@ -171,10 +172,10 @@ async function processFile(filename, contents) {
 
         timerStore.addRecord(filename, total, numLines);
 
+        console.log(`Processed file: ${filename}, Clones: ${cloneStore.numberOfClones}`);
+
         if (cloneDetector.numberOfProcessedFiles % STATS_FREQ === 0) {
-            console.log(`Processed ${cloneDetector.numberOfProcessedFiles} files, found ${cloneStore.numberOfClones} clones.`);
-            console.log(`Timing: total ${Number(total) / 1000} μs`);
-            console.log(`See: ${URL}`);
+            console.log(`Processed ${cloneDetector.numberOfProcessedFiles} files`);
         }
 
     } catch (err) {
@@ -237,4 +238,3 @@ function listProcessedFilesHTML() {
 app.listen(PORT, "0.0.0.0", () => {
     console.log(`✅ CodeStreamConsumer running on port ${PORT}`);
 });
-
