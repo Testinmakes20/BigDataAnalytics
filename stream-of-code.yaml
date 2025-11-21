@@ -5,7 +5,7 @@ services:
     image: csgenerator
     command: "TEST"
     volumes:
-      - ./BigDataAnalytics-main/BigDataAnalytics/Containers/CodeStreamGenerator/test:/app/Containers/CodeStreamGenerator/test 
+      - qc-volume:/qc        # <--- MOUNT qc VOLUME HERE
     environment:
       - TARGET=cs-consumer:3000
       - DELAY=0
@@ -14,7 +14,7 @@ services:
     image: csconsumer
     volumes:
       - ./Containers/CodeStreamConsumer/src:/app/src
-      - qc-volume:/qc            # <--- MOUNT qc-volume HERE
+      - qc-volume:/qc        # <--- MOUNT qc VOLUME HERE
     ports:
       - 8080:3000
 
