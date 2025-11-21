@@ -3,7 +3,7 @@ version: "3.8"
 services:
   cs-generator:
     image: csgenerator
-    command: "TEST"
+    command: "/app/generate-code-stream.sh"
     volumes:
       - qc-volume:/qc        
     environment:
@@ -14,7 +14,7 @@ services:
     image: csconsumer
     volumes:
       - ./Containers/CodeStreamConsumer/src:/app/src
-      - qc-volume:/qc        # <--- MOUNT qc VOLUME HERE
+      - qc-volume:/qc        # <--- 
     ports:
       - 8080:3000
 
