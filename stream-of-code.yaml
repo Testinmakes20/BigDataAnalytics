@@ -5,7 +5,8 @@ services:
     image: csgenerator
     command: "/app/generate-code-stream.sh"
     volumes:
-      - qc-volume:/qc        
+      - qc-volume:/qc 
+      - ./path/to/your/updated/generate-code-stream.sh:/app/generate-code-stream.sh
     environment:
       - TARGET=cs-consumer:3000
       - DELAY=0
