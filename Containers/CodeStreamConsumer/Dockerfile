@@ -3,7 +3,6 @@ RUN npm install -g nodemon
 EXPOSE 3000
 WORKDIR /app
 COPY . .
-RUN chmod 755 /app/src/Timer.cjs
 RUN ls -la /app
 RUN npm install
 ENV DEBUG='csconsumer:*'
