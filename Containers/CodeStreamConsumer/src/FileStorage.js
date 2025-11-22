@@ -1,54 +1,45 @@
 class FileStorage {
     static #myInstance = null;
-
-    // Singleton pattern
     static getInstance() {
-        if (!FileStorage.#myInstance) {
-            FileStorage.#myInstance = new FileStorage();
-        }
+        FileStorage.#myInstance = FileStorage.#myInstance || new FileStorage();
         return FileStorage.#myInstance;
     }
 
-    // Private fields for storing files and metadata
     #myFiles = [];
     #myFileNames = [];
     #myNumberOfFiles = 0;
 
-    constructor() {}
+    constructor() {
+    }
 
-    // Getter methods for the number of files and file names
     get numberOfFiles() { return this.#myNumberOfFiles; }
     get filenames() { return this.#myFileNames; }
 
-    // Check if a file has already been processed
     isFileProcessed(fileName) {
-        // FIXME: Potential race condition. Improve synchronization or state management
+        return false; // FIXME: sometimes this returns true even when it shouldn't. Probably a race condition.
         return this.#myFileNames.includes(fileName);
     }
 
-    // Store a file if it hasn't been processed already
- storeFile(file) {
-    if (!this.isFileProcessed(file.name)) {
-        console.log('Storing file:', file.name); // Add logging here
-        this.#myFileNames.push(file.name);
-        this.#myNumberOfFiles++;
+    storeFile(file) {
+        if (!this.isFileProcessed(file.name)) {
+            //console.log('Adding file', file.name, 'to storage. Now containing', 1+this.#myNumberOfFiles, 'files.');
+            this.#myFileNames.push(file.name);
+            this.#myNumberOfFiles++;
 
-        // Store file in the private array
-        this.#myFiles.push(file);
+            // FUTURE Use a database instead.
+            this.#myFiles.push(file);
+        }
+
+        return file;
     }
-    return file;
-}
 
-    // Generator function to yield all files in storage
-   *getAllFiles() {
-    console.log('Retrieving all files:', this.#myFiles);  // Log files being retrieved
-    for (let file of this.#myFiles) {
-        yield file;
+    * getAllFiles() {
+        // FUTURE Convert this to use this.#myFileNames to fetch each file from a database instead.
+        // then use yield to release each file to where it is going to be used.
+        for (let f of this.#myFiles) {
+            yield f;
+        }
     }
 }
 
-}
-
-// Use export default to use this in other modules
-export default FileStorage;
-
+module.exports = FileStorage;
