@@ -69,5 +69,5 @@ class TimerStorage {
     }
 }
 
+// Export the class using ES Module syntax
 export default TimerStorage;
-
