@@ -1,15 +1,17 @@
 version: "3.8"
 services:
   cs-generator:
-    image: csgenerator
+    build: ./Containers/CodeStreamGenerator
+    image: csgenerator:latest
     command: "TEST"
     volumes:
       - qc-volume:/QualitasCorpus
     environment:
-      DELAY: 0
+      DELAY: 100
       TARGET: "cs-consumer:3000"
   cs-consumer:
-    image: csconsumer
+    build: ./Containers/CodeStreamConsumer
+    image: csconsumer:latest
     volumes:
       - ./Containers/CodeStreamConsumer/src:/app/src
     ports:
