@@ -1,6 +1,5 @@
 class CloneStorage {
     static #myInstance = null;
-
     static getInstance() {
         CloneStorage.#myInstance = CloneStorage.#myInstance || new CloneStorage();
         return CloneStorage.#myInstance;
@@ -8,35 +7,29 @@ class CloneStorage {
 
     #myClones = [];
 
-    get numberOfClones() {
-        return this.#myClones.length;
+    get numberOfClones() { return this.#myClones.length; }
+    
+    #extractOriginalCode(contents, startLine, endLine) {
+        return contents.split('\n').slice(startLine-1, endLine).join('\n');
     }
 
-    #extractOriginalCode(contents, startLine, endLine) {
-        return contents.split('\n').slice(startLine - 1, endLine).join('\n');
-    }
 
     storeClones(file) {
         let instances = file.instances || [];
-        if (instances.length > 0) {
-            instances = instances.map(clone => {
+        if (0<instances.length) {
+            instances = instances.map( clone => {
                 clone.originalCode = this.#extractOriginalCode(file.contents, clone.sourceStart, clone.sourceEnd);
                 return clone;
             });
 
-            // Add the clones to the storage
+            //console.log('Number of unique clones in file', file.name, ':', instances.length);
             this.#myClones = this.#myClones.concat(instances);
         }
         return file;
     }
 
-    get clones() {
-        return this.#myClones;
-    }
-
-    getClones() {
-        return this.#myClones;
-    }
+    get clones() { return this.getClones(); }
+    getClones() { return this.#myClones; }
 }
 
-export default CloneStorage;
+module.exports = CloneStorage;
