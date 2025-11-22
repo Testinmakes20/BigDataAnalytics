@@ -20,7 +20,7 @@ services:
       - ./Containers/CodeStreamConsumer/src:/app/src
     ports:
       - 8080:3000
-    entrypoint: ["node","/app/src/index.js"] 
+    entrypoint: ["npm","run","dev"] 
 
 volumes:
   qc-volume:
