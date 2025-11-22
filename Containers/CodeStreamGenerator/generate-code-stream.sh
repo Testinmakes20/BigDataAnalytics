@@ -1,24 +1,42 @@
 #!/usr/bin/env bash
 
-CORPUS_DIR="/qc/test"  # Path to the test folder containing Java files
-DELAY=${DELAY:-0}
-
-sendFile() {
-  local javafile="$1"
-  echo "Sending $javafile"
-
-  # Send the Java file to the consumer using curl
-  curl -s -F "name=$(basename "$javafile")" -F "data=@$javafile" "$TARGET"
-  sleep "$DELAY"
+createFileList() {
+  echo "Creating initial list of files..."
+  find /QualitasCorpus/QualitasCorpus-20130901r/Systems -type f -name "*.java" | sort -R > ~/files.txt
 }
 
-echo "Stream-of-Code generator streaming Java files from $CORPUS_DIR..."
-sleep 5  # Give consumer time to start
+sendFile() {
+  # echo "Sending file" "$1" to "$TARGET"
+  curl -s -F "name=$1" -F "data=@$1" "$TARGET"
+  sleep 0.01  # A slight delay is necessary here to not overrun buffers in the consumer
+}
 
-# Iterate over all .java files in the corpus directory
-for javafile in "$CORPUS_DIR"/*.java; do
-  [ -e "$javafile" ] || continue  # Skip if no .java files found
-  sendFile "$javafile"
-done
 
-echo "All files sent. Exiting."
+if [[ "$DELAY" == "" ]]; then
+ DELAY=0
+fi
+
+echo "Stream-of-Code generator."
+echo "Delay (seconds) between each file is:" $DELAY
+echo "files are sent to                   :" $TARGET
+
+echo "Waiting 5 seconds to give consumer time to get started..."
+sleep 5
+
+if [[ "$1" == "TEST" ]]; then
+  echo "Started with TEST argument, first sending test files..."
+  sendFile ./test/A.java
+  sendFile ./test/B.java
+  echo "Sent test files. Sleeping before continuing..."
+  sleep 10
+fi
+
+
+createFileList
+
+while read LINE; do
+  sendFile $LINE
+  sleep $DELAY
+done < ~/files.txt
+
+echo "No more files to send. Exiting."
