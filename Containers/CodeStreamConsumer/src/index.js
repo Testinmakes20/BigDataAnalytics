@@ -1,160 +1,240 @@
-const express = require('express');
-const formidable = require('formidable');
-const fs = require('fs/promises');
+import express from "express";
+import formidable from "formidable";
+import fs from "fs/promises";
+
+import Timer from "./Timer.js";
+import TimerStorage from "./TimerStorage.js";
+import CloneDetector from "./CloneDetector.js";
+import CloneStorage from "./CloneStorage.js";
+import FileStorage from "./FileStorage.js";
+
 const app = express();
 const PORT = 3000;
 
-const Timer = require('./Timer');
-const CloneDetector = require('./CloneDetector');
-const CloneStorage = require('./CloneStorage');
-const FileStorage = require('./FileStorage');
+const STATS_FREQ = 100;
+const URL = process.env.URL || "http://localhost:8080/";
 
+let lastFile = null;
 
-// Express and Formidable stuff to receice a file for further processing
-// --------------------
-const form = formidable({multiples:false});
+/* ----------------------------------------------------------
+   ROUTE: RECEIVE FILE UPLOAD (POST /)
+-----------------------------------------------------------*/
+app.post("/", (req, res) => {
 
-app.post('/', fileReceiver );
-function fileReceiver(req, res, next) {
-    form.parse(req, (err, fields, files) => {
-        fs.readFile(files.data.filepath, { encoding: 'utf8' })
-            .then( data => { return processFile(fields.name, data); });
+    // IMPORTANT: Create a NEW Formidable instance per request
+    const form = formidable({
+        multiples: false,
+        uploadDir: "/tmp",
+        keepExtensions: true,
     });
-    return res.end('');
+
+    form.parse(req, async (err, fields, files) => {
+        if (err) {
+            console.error("❌ Error parsing form:", err);
+            return res.status(400).send("Form parse error");
+        }
+
+        try {
+            const uploaded = files.data?.filepath
+                ? files.data
+                : Array.isArray(files.data)
+                ? files.data[0]
+                : Object.values(files)[0];
+
+            if (!uploaded || !uploaded.filepath) {
+                console.error("❌ No uploaded file found!", files);
+                return res.status(400).send("No file received");
+            }
+
+            const filename =
+                fields.name?.[0] ||
+                uploaded.originalFilename ||
+                "unknown.java";
+
+            const content = await fs.readFile(uploaded.filepath, "utf8");
+            console.log(`📥 Received file: ${filename}, size: ${content.length} bytes`);
+
+            await processFile(filename, content);
+
+            res.status(200).send("OK");
+        } catch (error) {
+            console.error("❌ Error processing file:", error);
+            res.status(500).send("Internal error");
+        }
+    });
+});
+
+/* ----------------------------------------------------------
+   ROUTE: LANDING PAGE — show clones
+-----------------------------------------------------------*/
+app.get("/", (req, res) => {
+    let page = `
+    <html><head><title>CodeStream Clone Detector</title></head>
+    <body>
+      <h1>CodeStream Clone Detector</h1>
+      <p>${getStatistics()}</p>
+      ${lastFileTimersHTML()}
+      ${listClonesHTML()}
+      ${listProcessedFilesHTML()}
+      <hr>
+      <p><a href="/timers">View timing statistics →</a></p>
+    </body></html>
+    `;
+    res.send(page);
+});
+
+/* ----------------------------------------------------------
+   ROUTE: TIMING STATS PAGE (/timers)
+-----------------------------------------------------------*/
+app.get("/timers", (req, res) => {
+    const ts = TimerStorage.getInstance();
+    const last100 = ts.last(100);
+    const avg = ts.average(last100);
+    const avgPerLine = ts.averagePerLine(last100);
+
+    let rows = last100
+        .map(
+            (r) => `
+        <tr>
+            <td>${r.filename}</td>
+            <td>${r.totalMicro.toFixed(0)}</td>
+            <td>${r.numLines}</td>
+            <td>${r.perLine.toFixed(2)}</td>
+            <td>${r.timestamp.toLocaleTimeString()}</td>
+        </tr>`
+        )
+        .join("");
+
+    let html = `
+    <html><head><title>Timing Stats</title></head>
+    <body>
+        <h1>Timing Statistics</h1>
+
+        <p>Last ${last100.length} files</p>
+
+        <p><b>Average time:</b> ${avg.toFixed(0)} μs</p>
+        <p><b>Average per line:</b> ${avgPerLine.toFixed(2)} μs/line</p>
+
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <th>Filename</th>
+                <th>Total μs</th>
+                <th>Lines</th>
+                <th>μs per line</th>
+                <th>Time</th>
+            </tr>
+            ${rows}
+        </table>
+
+        <p><a href="/">← Back</a></p>
+    </body></html>
+    `;
+    res.send(html);
+});
+
+/* ----------------------------------------------------------
+   FILE PROCESSING PIPELINE
+-----------------------------------------------------------*/
+async function processFile(filename, contents) {
+    try {
+        const cloneDetector = new CloneDetector();
+        const cloneStore = CloneStorage.getInstance();
+        const timerStore = TimerStorage.getInstance();
+
+        if (!filename || !contents) {
+            console.error("❌ Invalid file input", filename, contents?.length);
+            return;
+        }
+
+        let file = { name: filename, contents, timers: {} };
+
+        Timer.startTimer(file, "total");
+
+        file = await cloneDetector.preprocess(file);
+        file = cloneDetector.transform(file);
+
+        Timer.startTimer(file, "match");
+        file = cloneDetector.matchDetect(file);
+        cloneStore.storeClones(file);
+        Timer.endTimer(file, "match");
+
+        file = cloneDetector.storeFile(file);
+
+        Timer.endTimer(file, "total");
+
+        lastFile = file;
+
+        // Save timing data
+        const timers = Timer.getTimers(file);
+        const total = timers.total || 0n;
+        const numLines = contents.split("\n").length;
+
+        timerStore.addRecord(filename, total, numLines);
+
+        if (cloneDetector.numberOfProcessedFiles % STATS_FREQ === 0) {
+            console.log(`Processed ${cloneDetector.numberOfProcessedFiles} files, found ${cloneStore.numberOfClones} clones.`);
+            console.log(`Timing: total ${Number(total) / 1000} μs`);
+            console.log(`See: ${URL}`);
+        }
+
+    } catch (err) {
+        console.error("❌ Error processing file:", err);
+    }
 }
 
-app.get('/', viewClones );
-
-const server = app.listen(PORT, () => { console.log('Listening for files on port', PORT); });
-
-
-// Page generation for viewing current progress
-// --------------------
+/* ----------------------------------------------------------
+   VIEW HELPERS
+-----------------------------------------------------------*/
 function getStatistics() {
-    let cloneStore = CloneStorage.getInstance();
-    let fileStore = FileStorage.getInstance();
-    let output = 'Processed ' + fileStore.numberOfFiles + ' files containing ' + cloneStore.numberOfClones + ' clones.'
-    return output;
+    const cloneStore = CloneStorage.getInstance();
+    const fs = FileStorage.getInstance();
+    return `Processed ${fs.numberOfFiles} files containing ${cloneStore.numberOfClones} clones.`;
 }
 
 function lastFileTimersHTML() {
-    if (!lastFile) return '';
-    output = '<p>Timers for last file processed:</p>\n<ul>\n'
-    let timers = Timer.getTimers(lastFile);
-    for (t in timers) {
-        output += '<li>' + t + ': ' + (timers[t] / (1000n)) + ' µs\n'
+    if (!lastFile) return "";
+    let html = `<h2>Timers for last file: ${lastFile.name}</h2><ul>`;
+    const timers = Timer.getTimers(lastFile);
+    for (let key in timers) {
+        html += `<li>${key}: ${Number(timers[key]) / 1000} μs</li>`;
     }
-    output += '</ul>\n';
-    return output;
+    html += "</ul>";
+    return html;
 }
 
 function listClonesHTML() {
-    let cloneStore = CloneStorage.getInstance();
-    let output = '';
+    const cloneStore = CloneStorage.getInstance();
+    let html = "";
 
-    cloneStore.clones.forEach( clone => {
-        output += '<hr>\n';
-        output += '<h2>Source File: ' + clone.sourceName + '</h2>\n';
-        output += '<p>Starting at line: ' + clone.sourceStart + ' , ending at line: ' + clone.sourceEnd + '</p>\n';
-        output += '<ul>';
-        clone.targets.forEach( target => {
-            output += '<li>Found in ' + target.name + ' starting at line ' + target.startLine + '\n';            
+    cloneStore.clones.forEach((clone) => {
+        html += `<hr><h2>Source File: ${clone.sourceName}</h2>`;
+        html += `<p>Lines ${clone.sourceStart}–${clone.sourceEnd}</p><ul>`;
+
+        clone.targets.forEach((target) => {
+            html += `<li>Found in ${target.name} at line ${target.startLine}</li>`;
         });
-        output += '</ul>\n'
-        output += '<h3>Contents:</h3>\n<pre><code>\n';
-        output += clone.originalCode;
-        output += '</code></pre>\n';
+
+        html += "</ul>";
+        html += `<pre><code>${clone.originalCode}</code></pre>`;
     });
 
-    return output;
+    return html;
 }
 
 function listProcessedFilesHTML() {
-    let fs = FileStorage.getInstance();
-    let output = '<HR>\n<H2>Processed Files</H2>\n'
-    output += fs.filenames.reduce( (out, name) => {
-        out += '<li>' + name + '\n';
-        return out;
-    }, '<ul>\n');
-    output += '</ul>\n';
-    return output;
+    const fs = FileStorage.getInstance();
+    let html = `<hr><h2>Processed Files</h2><ul>`;
+    fs.filenames.forEach((name) => {
+        html += `<li>${name}</li>`;
+    });
+    html += "</ul>";
+    return html;
 }
 
-function viewClones(req, res, next) {
-    let page='<HTML><HEAD><TITLE>CodeStream Clone Detector</TITLE></HEAD>\n';
-    page += '<BODY><H1>CodeStream Clone Detector</H1>\n';
-    page += '<P>' + getStatistics() + '</P>\n';
-    page += lastFileTimersHTML() + '\n';
-    page += listClonesHTML() + '\n';
-    page += listProcessedFilesHTML() + '\n';
-    page += '</BODY></HTML>';
-    res.send(page);
-}
-
-// Some helper functions
-// --------------------
-// PASS is used to insert functions in a Promise stream and pass on all input parameters untouched.
-PASS = fn => d => {
-    try {
-        fn(d);
-        return d;
-    } catch (e) {
-        throw e;
-    }
-};
-
-const STATS_FREQ = 100;
-const URL = process.env.URL || 'http://localhost:8080/';
-var lastFile = null;
-
-function maybePrintStatistics(file, cloneDetector, cloneStore) {
-    if (0 == cloneDetector.numberOfProcessedFiles % STATS_FREQ) {
-        console.log('Processed', cloneDetector.numberOfProcessedFiles, 'files and found', cloneStore.numberOfClones, 'clones.');
-        let timers = Timer.getTimers(file);
-        let str = 'Timers for last file processed: ';
-        for (t in timers) {
-            str += t + ': ' + (timers[t] / (1000n)) + ' µs '
-        }
-        console.log(str);
-        console.log('List of found clones available at', URL);
-    }
-
-    return file;
-}
-
-// Processing of the file
-// --------------------
-function processFile(filename, contents) {
-    let cd = new CloneDetector();
-    let cloneStore = CloneStorage.getInstance();
-
-    return Promise.resolve({name: filename, contents: contents} )
-        //.then( PASS( (file) => console.log('Processing file:', file.name) ))
-        .then( (file) => Timer.startTimer(file, 'total') )
-        .then( (file) => cd.preprocess(file) )
-        .then( (file) => cd.transform(file) )
-
-        .then( (file) => Timer.startTimer(file, 'match') )
-        .then( (file) => cd.matchDetect(file) )
-        .then( (file) => cloneStore.storeClones(file) )
-        .then( (file) => Timer.endTimer(file, 'match') )
-
-        .then( (file) => cd.storeFile(file) )
-        .then( (file) => Timer.endTimer(file, 'total') )
-        .then( PASS( (file) => lastFile = file ))
-        .then( PASS( (file) => maybePrintStatistics(file, cd, cloneStore) ))
-    // TODO Store the timers from every file (or every 10th file), create a new landing page /timers
-    // and display more in depth statistics there. Examples include:
-    // average times per file, average times per last 100 files, last 1000 files.
-    // Perhaps throw in a graph over all files.
-        .catch( console.log );
-};
-
-/*
-1. Preprocessing: Remove uninteresting code, determine source and comparison units/granularities
-2. Transformation: One or more extraction and/or transformation techniques are applied to the preprocessed code to obtain an intermediate representation of the code.
-3. Match Detection: Transformed units (and/or metrics for those units) are compared to find similar source units.
-4. Formatting: Locations of identified clones in the transformed units are mapped to the original code base by file location and line number.
-5. Post-Processing and Filtering: Visualisation of clones and manual analysis to filter out false positives
-6. Aggregation: Clone pairs are aggregated to form clone classes or families, in order to reduce the amount of data and facilitate analysis.
-*/
+/* ----------------------------------------------------------
+   START SERVER
+-----------------------------------------------------------*/
+app.listen(PORT, "0.0.0.0", () => {
+    console.log(`✅ CodeStreamConsumer running on port ${PORT}`);
+});
+x
