@@ -20,6 +20,7 @@ services:
       - ./Containers/CodeStreamConsumer/src:/app/src
     ports:
       - 8080:3000
+    command: "node src/index.cjs"  # Updated to point to index.cjs
 volumes:
   qc-volume:
     external: true
