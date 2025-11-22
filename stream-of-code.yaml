@@ -1,26 +1,26 @@
-version: "3.8"
+# Docker Compose for Stream-of-code test
+# Connects:
+# - CodeStreamGenerator
+# - CodeStreamConsumer
+# - QualitasCorpus Volume
 
+version: "3.8"
 services:
   cs-generator:
     image: csgenerator
-    command: "/app/generate-code-stream.sh"
+    command: "TEST"
     volumes:
-      - qc-volume:/qc                          # Shared volume between containers
-      - ./Containers/CodeStreamGenerator/test:/qc/test   # Mount the local test folder containing .java files
-      - ./Containers/CodeStreamGenerator/generate-code-stream.sh:/app/generate-code-stream.sh  # Correct the path
+      - qc-volume:/QualitasCorpus
     environment:
-      - TARGET=cs-consumer:3000
-      - DELAY=0
-
+      DELAY: 0
+      TARGET: "cs-consumer:3000"
   cs-consumer:
     image: csconsumer
     volumes:
       - ./Containers/CodeStreamConsumer/src:/app/src
-      - qc-volume:/qc        # Shared volume for the consumer to receive files
     ports:
       - 8080:3000
-
 volumes:
   qc-volume:
-    external: false  # Use Docker Compose to create the volume automatically
-
+    external: true
+    
