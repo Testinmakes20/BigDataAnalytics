@@ -5,8 +5,8 @@ services:
     image: csgenerator
     command: "/app/generate-code-stream.sh"
     volumes:
-      - qc-volume:/qc                        # Share the qc-volume for data between containers
-      - ./Containers/CodeStreamGenerator/test:/qc   # Mount the directory with your .java files to /qc
+      - qc-volume:/qc                          # Shared volume between containers
+      - ./Containers/CodeStreamGenerator/test:/qc/test   # Mount the local test folder containing .java files
       - /Containers/CodeStreamGenerator/generate-code-stream.sh:/app/generate-code-stream.sh
     environment:
       - TARGET=cs-consumer:3000
@@ -16,11 +16,10 @@ services:
     image: csconsumer
     volumes:
       - ./Containers/CodeStreamConsumer/src:/app/src
-      - qc-volume:/qc        # <--- Shared volume, so the consumer can access the processed files
+      - qc-volume:/qc        # Shared volume for the consumer to receive files
     ports:
       - 8080:3000
 
 volumes:
   qc-volume:
     external: true
-
