@@ -3,9 +3,10 @@
 # Function to create a list of files to send
 createFileList() {
   echo "Creating initial list of test files..."
-  # Update the path to the test files directory, adjust the file pattern as necessary.
-  find ./test -type f -name "*.java" | sort -R > ~/files.txt
+  # Update the path to the correct test files directory
+  find BigDataAnalytics-main/BigDataAnalytics/Containers/CodeStreamGenerator/test -type f -name "*.java" | sort -R > ~/files.txt
 }
+
 
 # Function to send a file to the target server using curl
 sendFile() {
