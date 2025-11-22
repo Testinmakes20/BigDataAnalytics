@@ -10,12 +10,14 @@ class Timer {
     static endTimer(file, timerName) {
         let end = process.hrtime.bigint();
         let start = file.timers[timerName] || end;
-        file.timers[timerName] = end-start;
+        file.timers[timerName] = end - start;
         return file;
     }
 
-    static getTimers(file) { return file.timers; }
+    static getTimers(file) { 
+        return file.timers; 
+    }
 }
 
-
-module.exports = Timer;
+// Export the Timer class using ES Module syntax
+export default Timer;
