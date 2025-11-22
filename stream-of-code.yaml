@@ -16,7 +16,7 @@ services:
       - ./Containers/CodeStreamConsumer/src:/app/src
     ports:
       - 8080:3000
-    entrypoint: ["node", "/app/src/index.cjs"]  # Directly run index.cjs
+    entrypoint: ["node", "/app/src/index.js"]  # Directly run index.cjs
 
 volumes:
   qc-volume:
