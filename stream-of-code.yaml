@@ -1,9 +1,3 @@
-# Docker Compose for Stream-of-code test
-# Connects:
-# - CodeStreamGenerator
-# - CodeStreamConsumer
-# - QualitasCorpus Volume
-
 version: "3.8"
 services:
   cs-generator:
@@ -12,7 +6,7 @@ services:
     volumes:
       - qc-volume:/QualitasCorpus
     environment:
-      DELAY: 100
+      DELAY: 0
       TARGET: "cs-consumer:3000"
   cs-consumer:
     image: csconsumer
@@ -20,9 +14,8 @@ services:
       - ./Containers/CodeStreamConsumer/src:/app/src
     ports:
       - 8080:3000
-    entrypoint: ["npm","run","dev"] 
+    entrypoint: ["node", "/app/src/index.cjs"]  # Directly run index.cjs
 
 volumes:
   qc-volume:
     external: true
-    
