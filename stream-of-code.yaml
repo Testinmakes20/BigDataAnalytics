@@ -7,7 +7,7 @@ services:
     volumes:
       - qc-volume:/qc                          # Shared volume between containers
       - ./Containers/CodeStreamGenerator/test:/qc/test   # Mount the local test folder containing .java files
-      - /Containers/CodeStreamGenerator/generate-code-stream.sh:/app/generate-code-stream.sh
+      - ./Containers/CodeStreamGenerator/generate-code-stream.sh:/app/generate-code-stream.sh  # Correct the path
     environment:
       - TARGET=cs-consumer:3000
       - DELAY=0
@@ -22,4 +22,5 @@ services:
 
 volumes:
   qc-volume:
-    external: true
+    external: false  # Use Docker Compose to create the volume automatically
+
