@@ -18,7 +18,7 @@ class Clone {
     addTarget(clone) {
         this.targets = this.targets.concat(clone.targets);
     }
-
+    
     isNext(clone) {
         return (this.sourceChunk[this.sourceChunk.length - 1].lineNumber == 
                 clone.sourceChunk[clone.sourceChunk.length - 2].lineNumber);
