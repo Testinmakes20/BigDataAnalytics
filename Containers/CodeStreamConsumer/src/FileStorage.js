@@ -1,5 +1,7 @@
 class FileStorage {
     static #myInstance = null;
+
+    // Singleton pattern to get the instance
     static getInstance() {
         FileStorage.#myInstance = FileStorage.#myInstance || new FileStorage();
         return FileStorage.#myInstance;
@@ -9,17 +11,19 @@ class FileStorage {
     #myFileNames = [];
     #myNumberOfFiles = 0;
 
-    constructor() {
-    }
+    constructor() {}
 
+    // Getters for file details
     get numberOfFiles() { return this.#myNumberOfFiles; }
     get filenames() { return this.#myFileNames; }
 
+    // Check if a file has already been processed
     isFileProcessed(fileName) {
         return false; // FIXME: sometimes this returns true even when it shouldn't. Probably a race condition.
         return this.#myFileNames.includes(fileName);
     }
 
+    // Store a file in the storage
     storeFile(file) {
         if (!this.isFileProcessed(file.name)) {
             //console.log('Adding file', file.name, 'to storage. Now containing', 1+this.#myNumberOfFiles, 'files.');
@@ -33,7 +37,8 @@ class FileStorage {
         return file;
     }
 
-    * getAllFiles() {
+    // Generator method to get all files
+    *getAllFiles() {
         // FUTURE Convert this to use this.#myFileNames to fetch each file from a database instead.
         // then use yield to release each file to where it is going to be used.
         for (let f of this.#myFiles) {
@@ -42,4 +47,6 @@ class FileStorage {
     }
 }
 
-module.exports = FileStorage;
+// Export the FileStorage class using ES Modules
+export default FileStorage;
+
