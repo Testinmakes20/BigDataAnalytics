@@ -4,7 +4,7 @@ const fs = require('fs/promises');
 const app = express();
 const PORT = 3000;
 
-const Timer = require('./Timer.cjs');
+const Timer = require('./Timer');
 const CloneDetector = require('./CloneDetector');
 const CloneStorage = require('./CloneStorage');
 const FileStorage = require('./FileStorage');
