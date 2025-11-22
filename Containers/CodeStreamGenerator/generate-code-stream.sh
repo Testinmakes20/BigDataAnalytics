@@ -1,28 +1,24 @@
 #!/usr/bin/env bash
 
-CORPUS_DIR="/qc"
+CORPUS_DIR="/qc/test"  # Path to the test folder containing Java files
 DELAY=${DELAY:-0}
 
-sendFileFromTar() {
-  local tarfile="$1"
-  echo "Processing tar: $tarfile"
-  
-  # List all .java files and send each one
-  tar -tf "$tarfile" | grep "\.java$" | while read javafile; do
-    echo "Sending $javafile from $tarfile"
-    tar -O -xf "$tarfile" "$javafile" | curl -s -F "name=$(basename "$javafile")" -F "data=@-" "$TARGET"
-    sleep "$DELAY"
-  done
+sendFile() {
+  local javafile="$1"
+  echo "Sending $javafile"
+
+  # Send the Java file to the consumer using curl
+  curl -s -F "name=$(basename "$javafile")" -F "data=@$javafile" "$TARGET"
+  sleep "$DELAY"
 }
 
-echo "Stream-of-Code generator streaming Java files from tar files in $CORPUS_DIR..."
-sleep 5  # give consumer time to start
+echo "Stream-of-Code generator streaming Java files from $CORPUS_DIR..."
+sleep 5  # Give consumer time to start
 
-# Iterate over all tar files in corpus
-for tarfile in "$CORPUS_DIR"/*.tar; do
-  [ -e "$tarfile" ] || continue
-  sendFileFromTar "$tarfile"
+# Iterate over all .java files in the corpus directory
+for javafile in "$CORPUS_DIR"/*.java; do
+  [ -e "$javafile" ] || continue  # Skip if no .java files found
+  sendFile "$javafile"
 done
 
 echo "All files sent. Exiting."
-
