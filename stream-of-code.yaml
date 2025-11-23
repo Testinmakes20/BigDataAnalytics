@@ -10,6 +10,7 @@ services:
       TARGET: "cs-consumer:3000"
     volumes:
       - qc-volume:/QualitasCorpus  # Only mount corpus, not test files
+      - ./Containers/CodeStreamGenerator/test:/app/test
 
   cs-consumer:
     build: ./Containers/CodeStreamConsumer
