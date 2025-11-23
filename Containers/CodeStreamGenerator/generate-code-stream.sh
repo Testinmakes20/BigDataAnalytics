@@ -3,7 +3,7 @@
 # Function to create a list of files to send
 createFileList() {
   echo "Creating initial list of test files..."
-  find /app/test -type f -name "*.java" | sort -R > ~/files.txt
+  find /app/test -type f -name "*.java" | sort -R > /tmp/files.txt
 }
 
 # Function to send a file to the target server using curl
@@ -39,10 +39,15 @@ fi
 createFileList
 
 # Send all files from the list
-while read LINE; do
-  sendFile $LINE
-  sleep $DELAY
-done < ~/files.txt
+# while read LINE; do
+#  sendFile $LINE
+#  sleep $DELAY
+#done < ~/files.txt
+while IFS= read -r LINE; do
+  [[ -z "$LINE" ]] && continue
+  sendFile "$LINE"
+  sleep "$DELAY"
+done < /tmp/files.txt
 
 echo "No more files to send. Exiting."
 
