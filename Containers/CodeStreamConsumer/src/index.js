@@ -82,6 +82,15 @@ app.get("/", (req, res) => {
     `;
     res.send(page);
 });
+// graph get code
+app.get("/metrics", (req, res) => {
+    const files = fileStore.getAllFiles();
+    const detector = new CloneDetector();
+
+    const metrics = files.map(f => detector.getMetricsForFile(f));
+    res.json(metrics);
+});
+
 
 /* ----------------------------------------------------------
    ROUTE: TIMING STATS PAGE (/timers)
