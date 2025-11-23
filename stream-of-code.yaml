@@ -6,10 +6,11 @@ services:
     command: "TEST"
     volumes:
       - qc-volume:/QualitasCorpus
-      - ./Containers/CodeStreamGenerator/test:/app/test
+      - ./Containers/CodeStreamGenerator/test:/app/test  # Mount the local test directory to /app/test
     environment:
-      DELAY: 100
+      DELAY: 5  # Shorten the delay for testing
       TARGET: "cs-consumer:3000"
+
   cs-consumer:
     build: ./Containers/CodeStreamConsumer
     image: csconsumer:latest
@@ -17,8 +18,9 @@ services:
       - ./Containers/CodeStreamConsumer/src:/app/src
     ports:
       - 8080:3000
-    entrypoint: ["node", "/app/src/index.js"]  # Directly run index.cjs
+    entrypoint: ["node", "/app/src/index.js"]
 
 volumes:
   qc-volume:
     external: true
+
