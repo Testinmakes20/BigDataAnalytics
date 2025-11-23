@@ -9,6 +9,7 @@ import CloneStorage from "./CloneStorage.js";
 import FileStorage from "./FileStorage.js";
 
 const app = express();
+app.use(express.static("public"));
 const PORT = 3000;
 
 const STATS_FREQ = 100;
