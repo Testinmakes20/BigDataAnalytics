@@ -84,13 +84,46 @@ app.get("/", (req, res) => {
     res.send(page);
 });
 // graph get code
-app.get("/metrics", (req, res) => {
-    const files = fileStore.getAllFiles();
-    const detector = new CloneDetector();
+app.get("/metrics-data", (req, res) => {
+    const store = FileStorage.getInstance();
+    const files = store.getAllFiles();
 
-    const metrics = files.map(f => detector.getMetricsForFile(f));
-    res.json(metrics);
+    const result = {
+        files: [],
+        cloneCounts: [],
+        avgCloneLengths: [],
+        percentLines: []
+    };
+
+    for (const file of files) {
+        const name = file.name;
+
+        result.files.push(name);
+
+        const clones = file.clones || [];
+        result.cloneCounts.push(clones.length);
+
+        const avgLength =
+            clones.length === 0
+                ? 0
+                : clones.reduce(
+                    (sum, c) => sum + (c.sourceEnd - c.sourceStart + 1),
+                    0
+                ) / clones.length;
+
+        result.avgCloneLengths.push(avgLength);
+
+        const percent =
+            file.numLines
+                ? (avgLength * clones.length) / file.numLines * 100
+                : 0;
+
+        result.percentLines.push(percent);
+    }
+
+    res.json(result);
 });
+
 
 
 /* ----------------------------------------------------------
