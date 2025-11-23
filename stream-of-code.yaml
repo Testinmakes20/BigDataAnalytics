@@ -6,6 +6,7 @@ services:
     command: "TEST"
     volumes:
       - qc-volume:/QualitasCorpus
+      - ./Containers/CodeStreamGenerator/test:/app/test
     environment:
       DELAY: 100
       TARGET: "cs-consumer:3000"
