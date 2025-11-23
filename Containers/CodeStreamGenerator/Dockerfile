@@ -3,20 +3,18 @@ FROM alpine
 # Install dependencies
 RUN apk add --no-cache bash perl coreutils curl
 
-# Create folders for scripts and test files
-RUN mkdir -p /Scripts /test /QualitasCorpus
+# Create folders
+RUN mkdir -p /root /QualitasCorpus /app/test
 VOLUME /QualitasCorpus
 
 # Set working directory
 WORKDIR /root
 
-# Copy generator script and make executable
+# Copy the generator script and make executable
 COPY generate-code-stream.sh /root/generate-code-stream.sh
 RUN chmod +x /root/generate-code-stream.sh
 
-# Copy test files
-COPY test /app/test
+# Don't COPY test files in Dockerfile — use a volume mount instead
 
-# Set the script as the entrypoint
+# Set entrypoint
 ENTRYPOINT ["/root/generate-code-stream.sh"]
-
