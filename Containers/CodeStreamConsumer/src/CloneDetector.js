@@ -202,6 +202,40 @@ class CloneDetector {
     }
 
     get numberOfProcessedFiles() { return this.#myFileStore.numberOfFiles; }
+
+// graph code
+    getMetricsForFile(file) {
+    const totalLines = file.contents.split("\n").length;
+
+    const clones = file.instances || [];
+    const cloneCount = clones.length;
+
+    const avgCloneLength =
+        cloneCount === 0
+            ? 0
+            : clones.reduce((sum, c) => sum + (c.sourceEnd - c.sourceStart + 1), 0) /
+              cloneCount;
+
+    // Count unique cloned lines
+    const clonedLines = new Set();
+    for (const c of clones) {
+        for (let i = c.sourceStart; i <= c.sourceEnd; i++) {
+            clonedLines.add(i);
+        }
+    }
+
+    const clonePercentage =
+        totalLines === 0 ? 0 : (clonedLines.size / totalLines) * 100;
+
+    return {
+        fileName: file.name,
+        cloneCount,
+        avgCloneLength,
+        clonePercentage,
+        totalLines,
+    };
+}
+
 }
 
 export default CloneDetector; // Export the CloneDetector class using ES Module syntax
