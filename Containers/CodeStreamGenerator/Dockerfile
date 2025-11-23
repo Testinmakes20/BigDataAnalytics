@@ -15,7 +15,7 @@ COPY generate-code-stream.sh /root/generate-code-stream.sh
 RUN chmod +x /root/generate-code-stream.sh
 
 # Copy test files
-COPY test /test
+COPY test /app/test
 
 # Set the script as the entrypoint
 ENTRYPOINT ["/root/generate-code-stream.sh"]
