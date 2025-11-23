@@ -25,22 +25,17 @@ class TimerStorage {
 
     // Get the last `n` timers across all files
     last(n = 1) {
-        // Flatten all file timers into a single array
         const fileTimers = Object.values(this.files).flat();
-
-        // Log for debugging purposes
         console.log(`Total timers in storage: ${fileTimers.length}`);
         console.log(`Returning last ${n} timers: `, fileTimers.slice(-n));
-
-        // Return the last `n` timers
         return fileTimers.slice(-n);
     }
 
-    // Method to calculate average of the last `n` timers (example: average execution time)
+    // Method to calculate average of the last `n` timers
     average(timers) {
         if (timers.length === 0) return 0;
 
-        const totalTime = timers.reduce((sum, timer) => sum + timer.totalMicro, 0);
+        const totalTime = timers.reduce((sum, timer) => sum + Number(timer.totalMicro), 0);
         return totalTime / timers.length;
     }
 
@@ -48,9 +43,11 @@ class TimerStorage {
     averagePerLine(timers) {
         if (timers.length === 0) return 0;
 
-        const totalLines = timers.reduce((sum, timer) => sum + timer.numLines, 0);
-        const totalTime = timers.reduce((sum, timer) => sum + timer.totalMicro, 0);
-        return totalTime / totalLines; // Average time per line in microseconds
+        const totalLines = timers.reduce((sum, timer) => sum + Number(timer.numLines), 0);
+        if (totalLines === 0) return 0;
+
+        const totalTime = timers.reduce((sum, timer) => sum + Number(timer.totalMicro), 0);
+        return totalTime / totalLines;
     }
 
     // Store a new timer for a given file
@@ -59,11 +56,14 @@ class TimerStorage {
             this.files[filename] = [];
         }
 
+        const totalMicroNumber = Number(totalMicro);
+        const numLinesNumber = Number(numLines);
+
         this.files[filename].push({
             filename,
-            totalMicro,
-            numLines,
-            perLine: totalMicro / numLines,
+            totalMicro: totalMicroNumber,
+            numLines: numLinesNumber,
+            perLine: numLinesNumber > 0 ? totalMicroNumber / numLinesNumber : 0,
             timestamp: new Date(),
         });
     }
