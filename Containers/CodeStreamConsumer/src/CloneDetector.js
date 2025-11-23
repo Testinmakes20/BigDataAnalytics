@@ -83,37 +83,79 @@ class CloneDetector {
     }
 
     #filterCloneCandidates(file, compareFile) {
-        // TODO
-        // For each chunk in file.chunks, find all #chunkMatch() in compareFile.chunks
-        // For each matching chunk, create a new Clone.
-        // Store the resulting (flat) array in file.instances.
-        //
-        // Return: file, including file.instances which is an array of Clone objects (or an empty array).
-        let newInstances = []; // Placeholder for new instances of clones.
-        file.instances = file.instances || [];
-        file.instances = file.instances.concat(newInstances);
-        return file;
+    console.log(`Filtering clone candidates between ${file.name} and ${compareFile.name}...`);
+    let newInstances = [];
+
+    for (let i = 0; i < file.chunks.length; i++) {
+        let chunkA = file.chunks[i];
+        for (let j = 0; j < compareFile.chunks.length; j++) {
+            let chunkB = compareFile.chunks[j];
+            if (this.#chunkMatch(chunkA, chunkB)) {
+                let clone = new Clone(file.name, compareFile.name, chunkA, chunkB);
+                newInstances.push(clone);
+                console.log(`✅ Found matching chunk: ${file.name}[${i}] <-> ${compareFile.name}[${j}]`);
+            }
+        }
     }
 
-    #expandCloneCandidates(file) {
-        // TODO
-        // For each Clone in file.instances, try to expand it with every other Clone
-        // (using Clone::maybeExpandWith(), which returns true if it could expand)
-        //
-        // Return: file, with file.instances only including Clones that have been expanded as much as they can,
-        //         and not any of the Clones used during that expansion.
-        return file;
+    file.instances = file.instances || [];
+    file.instances = file.instances.concat(newInstances);
+
+    console.log(`Total clone candidates after filtering: ${file.instances.length}`);
+    return file;
+}
+
+#expandCloneCandidates(file) {
+    console.log(`Expanding clone candidates for file ${file.name}...`);
+    if (!file.instances || file.instances.length === 0) return file;
+
+    let expandedClones = [];
+    let used = new Set();
+
+    for (let i = 0; i < file.instances.length; i++) {
+        if (used.has(i)) continue;
+
+        let clone = file.instances[i];
+
+        for (let j = i + 1; j < file.instances.length; j++) {
+            if (used.has(j)) continue;
+
+            let otherClone = file.instances[j];
+            if (clone.maybeExpandWith(otherClone)) {
+                used.add(j);
+                console.log(`🔄 Expanded clone between ${clone.sourceFile} and ${otherClone.targetFile}`);
+            }
+        }
+
+        expandedClones.push(clone);
     }
-    
-    #consolidateClones(file) {
-        // TODO
-        // For each clone, accumulate it into an array if it is new
-        // If it isn't new, update the existing clone to include this one too
-        // using Clone::addTarget()
-        //
-        // Return: file, with file.instances containing unique Clone objects that may contain several targets
-        return file;
+
+    file.instances = expandedClones;
+    console.log(`Total clones after expansion: ${file.instances.length}`);
+    return file;
+}
+
+#consolidateClones(file) {
+    console.log(`Consolidating clones for file ${file.name}...`);
+    if (!file.instances || file.instances.length === 0) return file;
+
+    let uniqueClones = [];
+
+    for (let clone of file.instances) {
+        let existing = uniqueClones.find(c => c.isSameClone(clone));
+        if (existing) {
+            existing.addTarget(clone);
+            console.log(`➕ Merged clone: ${clone.sourceFile} -> ${clone.targetFile}`);
+        } else {
+            uniqueClones.push(clone);
+            console.log(`🆕 New unique clone: ${clone.sourceFile} -> ${clone.targetFile}`);
+        }
     }
+
+    file.instances = uniqueClones;
+    console.log(`Total unique clones after consolidation: ${file.instances.length}`);
+    return file;
+}
 
     // Public Processing Steps
     // --------------------
