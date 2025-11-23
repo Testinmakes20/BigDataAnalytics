@@ -26,15 +26,12 @@ class TimerStorage {
     // Get the last `n` timers across all files
     last(n = 1) {
         const fileTimers = Object.values(this.files).flat();
-        console.log(`Total timers in storage: ${fileTimers.length}`);
-        console.log(`Returning last ${n} timers: `, fileTimers.slice(-n));
         return fileTimers.slice(-n);
     }
 
     // Method to calculate average of the last `n` timers
     average(timers) {
         if (timers.length === 0) return 0;
-
         const totalTime = timers.reduce((sum, timer) => sum + Number(timer.totalMicro), 0);
         return totalTime / timers.length;
     }
@@ -42,32 +39,30 @@ class TimerStorage {
     // Method to calculate average time per line
     averagePerLine(timers) {
         if (timers.length === 0) return 0;
-
         const totalLines = timers.reduce((sum, timer) => sum + Number(timer.numLines), 0);
-        if (totalLines === 0) return 0;
-
         const totalTime = timers.reduce((sum, timer) => sum + Number(timer.totalMicro), 0);
         return totalTime / totalLines;
     }
 
-    // Store a new timer for a given file
+    // Store a new timer for a given file, with live logging
     addRecord(filename, totalMicro, numLines) {
         if (!this.files[filename]) {
             this.files[filename] = [];
         }
 
-        const totalMicroNumber = Number(totalMicro);
-        const numLinesNumber = Number(numLines);
-
-        this.files[filename].push({
+        const record = {
             filename,
-            totalMicro: totalMicroNumber,
-            numLines: numLinesNumber,
-            perLine: numLinesNumber > 0 ? totalMicroNumber / numLinesNumber : 0,
+            totalMicro: Number(totalMicro),
+            numLines: Number(numLines),
+            perLine: Number(totalMicro) / Number(numLines),
             timestamp: new Date(),
-        });
+        };
+
+        this.files[filename].push(record);
+
+        // Live log for real-time monitoring
+        console.log(`🕒 New timer added for ${filename}: total=${record.totalMicro}µs, lines=${record.numLines}, perLine=${record.perLine.toFixed(2)}µs`);
     }
 }
 
-// Export the class using ES Module syntax
 export default TimerStorage;
