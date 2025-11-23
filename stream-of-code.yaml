@@ -4,7 +4,7 @@ services:
   cs-generator:
     build: ./Containers/CodeStreamGenerator
     image: csgenerator:latest
-    command: "TEST"
+    command: ["REPEAT"]
     environment:
       DELAY: 5                  # Delay between sending files
       TARGET: "cs-consumer:3000"
