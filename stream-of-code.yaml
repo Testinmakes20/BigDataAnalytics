@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   cs-generator:
-    build: ../Containers/CodeStreamGenerator
+    build: ./Containers/CodeStreamGenerator
     image: csgenerator:latest
     command: "TEST"
     environment:
