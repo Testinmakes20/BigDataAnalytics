@@ -1,12 +1,12 @@
 version: "3.8"
 services:
   cs-generator:
-    build: ./Containers/CodeStreamGenerator
+    build: ../Containers/CodeStreamGenerator
     image: csgenerator:latest
     command: "TEST"
     volumes:
       - qc-volume:/QualitasCorpus
-      - ./Containers/CodeStreamGenerator/test:/app/test  # Mount the local test directory to /app/test
+      - ../Containers/CodeStreamGenerator/test:/app/test  # Mount the local test directory to /app/test
     environment:
       DELAY: 5  # Shorten the delay for testing
       TARGET: "cs-consumer:3000"
