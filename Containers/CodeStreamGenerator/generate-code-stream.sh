@@ -9,11 +9,12 @@ createFileList() {
 # Function to send a file to the target server using curl
 sendFile() {
   local filename
-  filename=$(basename "$1")   # This preserves the .java extension
+  filename=$(basename "$1")   # preserves the .java extension
   echo "Sending file: $filename"
-  curl -s -F "name=$filename" -F "data=@$1" "$TARGET"
+  curl -s -F "data=@$1;filename=$filename" "$TARGET"
   sleep 0.01
 }
+
 
 # Default delay if not provided
 : "${DELAY:=0}"
