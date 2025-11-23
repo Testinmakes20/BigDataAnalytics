@@ -6,35 +6,52 @@ class Clone {
         this.sourceEnd = sourceChunk[sourceChunk.length - 1].lineNumber;
         this.sourceChunk = sourceChunk;
 
-        this.targets = [{ name: targetName, startLine: targetChunk[0].lineNumber }];
+        // Keep all targets in an array
+        this.targets = [{
+            name: targetName,
+            startLine: targetChunk[0].lineNumber,
+            endLine: targetChunk[targetChunk.length - 1].lineNumber,
+            chunk: targetChunk
+        }];
     }
 
     equals(clone) {
-        return this.sourceName == clone.sourceName &&
-            this.sourceStart == clone.sourceStart &&
-            this.sourceEnd == clone.sourceEnd;
+        return this.sourceName === clone.sourceName &&
+               this.sourceStart === clone.sourceStart &&
+               this.sourceEnd === clone.sourceEnd;
     }
 
     addTarget(clone) {
         this.targets = this.targets.concat(clone.targets);
     }
-    
+
     isNext(clone) {
-        return (this.sourceChunk[this.sourceChunk.length - 1].lineNumber == 
-                clone.sourceChunk[clone.sourceChunk.length - 2].lineNumber);
+        return (this.sourceChunk[this.sourceChunk.length - 1].lineNumber ===
+                clone.sourceChunk[0].lineNumber - 1);
     }
 
     maybeExpandWith(clone) {
         if (this.isNext(clone)) {
-            this.sourceChunk = [...new Set([...this.sourceChunk, ...clone.sourceChunk])];
+            // Merge source chunks
+            this.sourceChunk = [...this.sourceChunk, ...clone.sourceChunk];
             this.sourceEnd = this.sourceChunk[this.sourceChunk.length - 1].lineNumber;
-            //console.log('Expanded clone, now starting at', this.sourceStart, 'and ending at', this.sourceEnd);
+
+            // Merge targets
+            this.addTarget(clone);
+
             return true;
-        } else {
-            return false;
         }
+        return false;
+    }
+
+    // NEW: check if two clones are the same (used in consolidation)
+    isSameClone(clone) {
+        return this.sourceName === clone.sourceName &&
+               this.sourceStart === clone.sourceStart &&
+               this.sourceEnd === clone.sourceEnd;
     }
 }
 
-export default Clone; // Exporting the class using ES Module syntax
+export default Clone;
+
 
