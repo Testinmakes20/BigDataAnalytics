@@ -8,8 +8,7 @@ createFileList() {
 
 # Function to send a file to the target server using curl
 sendFile() {
-  curl -s -F "name=$1" -F "data=@$1" "$TARGET"
-  sleep 0.01
+  curl -s -F "name=$(basename "$1")" -F "data=@$1" "$TARGET"
 }
 
 # Default delay if not provided
