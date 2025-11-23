@@ -14,7 +14,5 @@ WORKDIR /root
 COPY generate-code-stream.sh /root/generate-code-stream.sh
 RUN chmod +x /root/generate-code-stream.sh
 
-# Don't COPY test files in Dockerfile — use a volume mount instead
-
 # Set entrypoint
 ENTRYPOINT ["/root/generate-code-stream.sh"]
