@@ -2,6 +2,7 @@ import express from "express";
 import formidable from "formidable";
 import fs from "fs/promises";
 
+
 import Timer from "./Timer.js";
 import TimerStorage from "./TimerStorage.js";
 import CloneDetector from "./CloneDetector.js";
@@ -9,7 +10,7 @@ import CloneStorage from "./CloneStorage.js";
 import FileStorage from "./FileStorage.js";
 
 const app = express();
-app.use(express.static("public"));
+app.use(express.static('public'));
 const PORT = 3000;
 
 const STATS_FREQ = 100;
