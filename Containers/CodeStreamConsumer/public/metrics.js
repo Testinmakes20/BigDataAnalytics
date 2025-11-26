@@ -1,7 +1,7 @@
 async function loadMetrics() {
     const data = await (await fetch('/metrics-data')).json();
 
-    drawClonesPerFile(data);
+//    drawClonesPerFile(data);
     drawAvgCloneLength(data);
     drawPercentLinesCloned(data);
 }
