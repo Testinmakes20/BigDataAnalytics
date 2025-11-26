@@ -277,7 +277,9 @@ function listProcessedFilesHTML() {
     html += "</ul>";
     return html;
 }
-
+app.get("/metrics", (req, res) => {
+    res.sendFile("metrics.html", { root: "public" });
+});
 /* ----------------------------------------------------------
    START SERVER
 -----------------------------------------------------------*/
