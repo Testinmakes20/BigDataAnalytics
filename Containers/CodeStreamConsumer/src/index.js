@@ -201,6 +201,9 @@ async function processFile(filename, contents) {
         file = cloneDetector.matchDetect(file);
         cloneStore.storeClones(file);
         Timer.endTimer(file, "match");
+// Attaching the clones and line count to the file to get metrics page
+         file.clones = cloneStore.clones.filter(c => c.sourceName === filename);
+         file.numLines = contents.split("\n").length;
 
         file = cloneDetector.storeFile(file);
 
