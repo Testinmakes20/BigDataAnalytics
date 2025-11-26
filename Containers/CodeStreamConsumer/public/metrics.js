@@ -6,15 +6,15 @@ async function loadMetrics() {
     drawPercentLinesCloned(data);
 }
 
-function drawClonesPerFile(data) {
-    new Chart(document.getElementById('clonesPerFile'), {
-        type: 'bar',
-        data: {
-            labels: data.files,
-            datasets: [{ label: 'Number of Clones', data: data.cloneCounts }]
-        }
-    });
-}
+//function drawClonesPerFile(data) {
+//    new Chart(document.getElementById('clonesPerFile'), {
+//        type: 'bar',
+//        data: {
+//            labels: data.files,
+//            datasets: [{ label: 'Number of Clones', data: data.cloneCounts }]
+//        }
+//    });
+//}
 
 function drawAvgCloneLength(data) {
     new Chart(document.getElementById('avgCloneLength'), {
