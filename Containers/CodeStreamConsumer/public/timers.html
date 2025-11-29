@@ -1,24 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>Timing Statistics</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script defer src="timers.js"></script>
-    <style>
-      body { font-family: system-ui, sans-serif; padding: 20px; max-width: 900px; }
-      canvas { max-width: 100%; height: 300px; margin-bottom: 30px; }
-    </style>
+  <meta charset="utf-8">
+  <title>Timing Statistics</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer src="timers.js"></script>
 </head>
 <body>
-    <h1>Timing Statistics</h1>
-
-    <p><a href="/">← Back</a></p>
-
-    <h2>Total processing time (μs)</h2>
-    <canvas id="totalTimeChart"></canvas>
-
-    <h2>Time per line (μs/line)</h2>
-    <canvas id="perLineChart"></canvas>
+  <h1>Timing Statistics</h1>
+  <canvas id="totalTimeChart" height="200"></canvas>
+  <canvas id="perLineChart" height="200"></canvas>
 </body>
 </html>
