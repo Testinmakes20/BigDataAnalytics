@@ -280,6 +280,20 @@ function listProcessedFilesHTML() {
 app.get("/metrics", (req, res) => {
     res.sendFile("metrics.html", { root: "public" });
 });
+// GET /timers-data
+app.get("/timers-data", (req, res) => {
+    const ts = TimerStorage.getInstance();
+    const records = ts.last(200); // last N records, adjust N if you like
+
+    res.json({
+        files: records.map(r => r.filename),
+        totalTimes: records.map(r => Number(r.totalMicro)), // μs
+        lineCounts: records.map(r => Number(r.numLines)),
+        perLineTimes: records.map(r => Number(r.perLine)),  // μs/line
+        timestamps: records.map(r => r.timestamp)           // ISO string
+    });
+});
+
 /* ----------------------------------------------------------
    START SERVER
 -----------------------------------------------------------*/
