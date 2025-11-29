@@ -1,6 +1,6 @@
-import SourceLine from './SourceLine.js'; // Importing SourceLine using ES Module syntax
-import FileStorage from './FileStorage.js'; // Importing FileStorage using ES Module syntax
-import Clone from './Clone.js'; // Importing Clone using ES Module syntax
+import SourceLine from './SourceLine.js'; // Importing SourceLine
+import FileStorage from './FileStorage.js'; // Importing FileStorage 
+import Clone from './Clone.js'; 
 
 const emptyLine = /^\s*$/;
 const oneLineComment = /\/\/.*/;
@@ -238,5 +238,5 @@ class CloneDetector {
 
 }
 
-export default CloneDetector; // Export the CloneDetector class using ES Module syntax
+export default CloneDetector; // Export the CloneDetector
 
