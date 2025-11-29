@@ -294,6 +294,12 @@ app.get("/timers-data", (req, res) => {
     });
 });
 
+// GET /timers-graph
+app.get("/timers-graph", (req, res) => {
+    res.sendFile("timers.html", { root: "public" });
+});
+
+
 /* ----------------------------------------------------------
    START SERVER
 -----------------------------------------------------------*/
