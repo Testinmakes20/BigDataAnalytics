@@ -169,7 +169,7 @@ app.get("/timers", (req, res) => {
             </tr>
             ${rows}
         </table>
-
+        <p><a href="/timers-graph">← timersGraph</a></p> 
         <p><a href="/">← Back</a></p>
     </body></html>
     `;
