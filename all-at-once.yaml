@@ -14,18 +14,17 @@ services:
       SOURCEDIReclipse: "/QualitasCorpus/QualitasCorpus-20130901r/Systems/eclipse_SDK"
       SOURCEDIR: "/QualitasCorpus"
       CHUNKSIZE: 20
-
   dbstorage:
-    image: mongo
+    image: mongo:4.4
     restart: always
     command: --quiet --syslog
     ports:
-      - 27017:27017
+       - 27017:27017
     expose:
-      - "27017"
+       - "27017"
     volumes:
-      - dbstorage:/data/db
-      - dbconfig:/data/configdb
+       - dbstorage:/data/db
+       - dbconfig:/data/configdb
 
   monitor:
     build: ./Containers/monitortool
