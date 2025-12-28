@@ -58,13 +58,12 @@
         collname "chunks"]
      (mc/aggregate db collname
                    [{$group {:_id {:chunkHash "$chunkHash"}
-                             :numberOfInstances {$count {}}
+                             :numberOfInstances {$sum 1} ;; <-- changed from $count to $sum 1
                              :instances {$push {:fileName "$fileName"
                                                 :startLine "$startLine"
                                                 :endLine "$endLine"}}}}
                     {$match {:numberOfInstances {$gt 1}}}
                     {"$out" "candidates"} ])))
-
 
 (defn consolidate-clones-and-source []
   (let [conn (mg/connect {:host hostname})        
