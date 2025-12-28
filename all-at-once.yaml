@@ -1,9 +1,7 @@
-# Docker Compose for All-At-Once Code Clone Detection
-
 version: "3.8"
 services:
   clone-detector:
-    image: cljdetector
+    build: ./Containers/cljdetector   # <--- build from Dockerfile locally
     command: clear 
     ports:
       - 8080:3000
@@ -28,6 +26,7 @@ services:
     volumes:
       - dbstorage:/data/db
       - dbconfig:/data/configdb
+
   monitor:
     build: ./Containers/monitortool
     container_name: MonitorTool
@@ -41,4 +40,4 @@ volumes:
   dbconfig:
   qc-volume:
     external: true
-    
+
