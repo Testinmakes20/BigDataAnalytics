@@ -28,7 +28,7 @@ services:
     volumes:
       - dbstorage:/data/db
       - dbconfig:/data/configdb
-monitor:
+  monitor:
     build: ./Containers/monitortool
     container_name: MonitorTool
     depends_on:
