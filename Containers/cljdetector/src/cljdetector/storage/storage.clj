@@ -153,10 +153,21 @@
                 :message message})))
 (defn save-monitor-stats! []
   (let [conn (mg/connect {:host hostname})
-        db (mg/get-db conn dbname)]
+        db (mg/get-db conn dbname)
+        timestamp (.toString (java.time.LocalDateTime/now))
+        files-count (mc/count db "files")
+        chunks-count (mc/count db "chunks")
+        candidates-count (mc/count db "candidates")
+        clones-count (mc/count db "clones")]
     (mc/insert db "monitor_stats"
-               {:timestamp (.toString (java.time.LocalDateTime/now))
-                :files (mc/count db "files")
-                :chunks (mc/count db "chunks")
-                :candidates (mc/count db "candidates")
-                :clones (mc/count db "clones")})))
+               {:timestamp timestamp
+                :files files-count
+                :chunks chunks-count
+                :candidates candidates-count
+                :clones clones-count})
+    (println timestamp "Monitor stats saved:"
+             "files=" files-count
+             "chunks=" chunks-count
+             "candidates=" candidates-count
+             "clones=" clones-count)))
+
