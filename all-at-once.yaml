@@ -36,20 +36,13 @@ services:
       - dbstorage
     environment:
       DBHOST: dbstorage
-  monitor_webapp:
-    build: ./monitor_webapp
-    container_name: monitor_webapp
-    ports:
-      - "5000:5000"
-    depends_on:
-      - bigdataanalytics-dbstorage-1
   monitor_app:
     build: ./monitor_app
     container_name: monitor_app
-    ports:
-      - "5000:5000"
-    depends_on:
-      - bigdataanalytics-dbstorage-1
+  ports:
+    - "5000:5000"
+  depends_on:
+    - dbstorage   # Use the service name here
 
 volumes:
   dbstorage:
