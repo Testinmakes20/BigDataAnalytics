@@ -2,7 +2,7 @@ version: "3.8"
 services:
   clone-detector:
     build: ./Containers/cljdetector
-    command: clear
+    command: ""
     ports:
       - 8080:3000
     volumes:
