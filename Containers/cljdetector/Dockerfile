@@ -1,13 +1,10 @@
-FROM clojure:latest
-
+FROM clojure
 WORKDIR /usr/src/app/
+COPY project.clj /usr/src/app
 
-# Copy project.clj first to install dependencies
-COPY project.clj /usr/src/app/
-RUN lein deps
+RUN apt-get update && apt-get install -y netcat \
+    && lein deps
 
-# Copy all source files including the wait-for-mongo script
 COPY . /usr/src/app
 
-# Use the wait-for-mongo script as the entrypoint
-ENTRYPOINT ["./wait-for-mongo.sh"]
+ENTRYPOINT ["lein", "run"]
