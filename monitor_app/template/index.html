@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BigDataAnalytics Monitor</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h2>Processing Stats Over Time</h2>
+    <canvas id="statsChart" width="1200" height="500"></canvas>
+
+    <script>
+        async function fetchData() {
+            const res = await fetch("/data");
+            return await res.json();
+        }
+
+        async function createChart() {
+            const data = await fetchData();
+
+            const ctx = document.getElementById('statsChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: data.timestamps,
+                    datasets: [
+                        {
+                            label: 'Files',
+                            data: data.files,
+                            borderColor: 'blue',
+                            fill: false
+                        },
+                        {
+                            label: 'Chunks',
+                            data: data.chunks,
+                            borderColor: 'green',
+                            fill: false
+                        },
+                        {
+                            label: 'Candidates',
+                            data: data.candidates,
+                            borderColor: 'orange',
+                            fill: false
+                        },
+                        {
+                            label: 'Clones',
+                            data: data.clones,
+                            borderColor: 'red',
+                            fill: false
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        x: {
+                            display: true,
+                            title: {
+                                display: true,
+                                text: 'Timestamp'
+                            }
+                        },
+                        y: {
+                            display: true,
+                            title: {
+                                display: true,
+                                text: 'Count'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        createChart();
+        setInterval(createChart, 5000); // Refresh every 5 seconds
+    </script>
+</body>
+</html>
