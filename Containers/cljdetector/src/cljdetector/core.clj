@@ -30,15 +30,21 @@
       (ts-println "Storing files...")
       (storage/store-files! file-handles)
       (ts-println "Storing chunks of size" chunk-size "...")
-      (storage/store-chunks! chunks))))
+      (storage/store-chunks! chunks)
+      ;; Save monitoring stats after files and chunks are stored
+      (storage/save-monitor-stats!))))
 
 (defn maybe-detect-clones [args]
   (when-not (some #{"NOCLONEID"} (map string/upper-case args))
     (ts-println "Identifying Clone Candidates...")
     (storage/identify-candidates!)
     (ts-println "Found" (storage/count-items "candidates") "candidates")
+    ;; Save monitoring stats after candidates are identified
+    (storage/save-monitor-stats!)
     (ts-println "Expanding Candidates...")
-    (expander/expand-clones)))
+    (expander/expand-clones)
+    ;; Save monitoring stats after clones are expanded
+    (storage/save-monitor-stats!)))
 
 (defn pretty-print [clones]
   (doseq [clone clones]
