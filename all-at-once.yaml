@@ -2,7 +2,7 @@ version: "3.8"
 services:
   clone-detector:
     build: ./Containers/cljdetector
-    command: ""
+    command: ""  # keep empty or use "lein run"
     ports:
       - 8080:3000
     volumes:
@@ -11,8 +11,10 @@ services:
     environment:
       DBHOST: dbstorage
       SOURCEDIRtest: "/usr/src/app/test/data"
-      SOURCEDIReclipse: "/QualitasCorpus/QualitasCorpus-20130901r/Systems/eclipse_SDK"
-      SOURCEDIR: "/QualitasCorpus/QualitasCorpus-20130901r/Systems"
+      # Point SOURCEDIReclipse to the actual eclipse_SDK folder
+      SOURCEDIReclipse: "/QualitasCorpus/QualitasCorpus-20130901r/Systems/eclipse_SDK/eclipse_SDK-4.3"
+      # Point SOURCEDIR to the root of the corpus so all systems are scanned
+      SOURCEDIR: "/QualitasCorpus/QualitasCorpus-20130901r"
       CHUNKSIZE: 20
 
   dbstorage:
