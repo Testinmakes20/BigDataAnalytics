@@ -31,7 +31,7 @@
       (storage/store-files! file-handles)
       (ts-println "Storing chunks of size" chunk-size "...")
       (storage/store-chunks! chunks)
-      ;; Save monitoring stats after files and chunks are stored
+      ;; Save monitor stats after reading files/chunks
       (storage/save-monitor-stats!))))
 
 (defn maybe-detect-clones [args]
@@ -39,11 +39,11 @@
     (ts-println "Identifying Clone Candidates...")
     (storage/identify-candidates!)
     (ts-println "Found" (storage/count-items "candidates") "candidates")
-    ;; Save monitoring stats after candidates are identified
+    ;; Save monitor stats after identifying candidates
     (storage/save-monitor-stats!)
     (ts-println "Expanding Candidates...")
     (expander/expand-clones)
-    ;; Save monitoring stats after clones are expanded
+    ;; Save monitor stats after storing clones
     (storage/save-monitor-stats!)))
 
 (defn pretty-print [clones]
