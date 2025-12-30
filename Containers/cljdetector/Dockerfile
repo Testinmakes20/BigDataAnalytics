@@ -1,8 +1,13 @@
-FROM clojure
-WORKDIR /usr/src/app/
-COPY project.clj /usr/src/app
+FROM clojure:latest
 
+WORKDIR /usr/src/app/
+
+# Copy project.clj first to install dependencies
+COPY project.clj /usr/src/app/
 RUN lein deps
+
+# Copy all source files including the wait-for-mongo script
 COPY . /usr/src/app
 
-ENTRYPOINT ["lein", "run"]
+# Use the wait-for-mongo script as the entrypoint
+ENTRYPOINT ["./wait-for-mongo.sh"]
