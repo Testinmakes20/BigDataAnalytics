@@ -2,7 +2,7 @@ FROM clojure
 WORKDIR /usr/src/app/
 COPY project.clj /usr/src/app
 
-RUN apt-get update && apt-get install -y netcat \
+RUN apt-get update && apt-get install -y netcat-openbsd \
     && lein deps
 
 COPY . /usr/src/app
