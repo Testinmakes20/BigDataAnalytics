@@ -6,7 +6,7 @@
 
 (def DEFAULT-CHUNKSIZE 5)
 (def source-dir (or (System/getenv "SOURCEDIR") "/tmp"))
-(def source-type #".*\.java")
+(def source-type #"(?i).*\.java$")
 
 (defn ts-println [& args]
   (let [ts (.toString (java.time.LocalDateTime/now))
