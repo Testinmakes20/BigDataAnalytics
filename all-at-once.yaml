@@ -2,7 +2,7 @@ version: "3.8"
 services:
   clone-detector:
     build: ./Containers/cljdetector
-    command: ""  # keep empty or use "lein run"
+    command: lein run
     ports:
       - 8080:3000
     volumes:
