@@ -27,28 +27,45 @@
                             )))) [{:lineNumber 0 :contents "" :lineType "startLine"}] lines)))
 
 
+(defn normalize-line [line]
+  "Trim whitespace and remove inline comments."
+  (-> line
+      string/trim
+      (string/replace #"//.*" "")       ; remove single-line comments
+      (string/replace #"/\*.*?\*/" ""))) ; remove inline block comments
+
 (defn chunkify-file [chunkSize file]
   (try
     (let [fileName (.getPath file)
-          filteredLines (filter #(not (= "" (:contents %)))
-                                (-> file
-                                    slurp
-                                    (string/split #"\n")
-                                    process-lines))
-          n (- (count filteredLines) chunkSize)
-          iterator (if (pos? n) (range (inc n)) [0])] ; at least one chunk for short files
+          ;; Read lines and normalize
+          filteredLines (->> file
+                             slurp
+                             (string/split #"\n")
+                             (map normalize-line)
+                             (remove empty?)
+                             process-lines)
+          total-lines (count filteredLines)
+          iterator (range (- total-lines chunkSize 0))]
       (map (fn [i]
              (let [chunk (take chunkSize (nthrest filteredLines i))
                    startLine (:lineNumber (first chunk))
                    endLine (:lineNumber (last chunk))
-                   hash (digest/md5 (string/join "\n" (map :contents chunk)))]
+                   ;; Join contents after normalization to compute hash
+                   chunk-text (->> chunk
+                                   (map :contents)
+                                   (map string/trim)
+                                   (remove empty?)
+                                   (string/join "\n"))
+                   hash (digest/md5 chunk-text)]
+               ;; Debug log
+               (println "Chunk hash:" hash "File:" fileName "Lines:" startLine "-" endLine)
                {:fileName fileName
                 :startLine startLine
                 :endLine endLine
                 :chunkHash hash}))
            iterator))
     (catch Exception e
-      (println "Error chunkifying file:" (.getPath file) e)
+      (println "Error processing file:" file "Exception:" e)
       [])))
 
 
