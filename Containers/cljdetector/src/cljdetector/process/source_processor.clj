@@ -28,21 +28,29 @@
 
 
 (defn chunkify-file [chunkSize file]
-  (try (let [fileName (.getPath file)
-             filteredLines (filter #(not (= "" (:contents %)))
-                                   (-> file
-                                       slurp
-                                       (string/split #"\n")
-                                       process-lines))
-             iterator (range (- (count filteredLines) chunkSize))]
-         (map (fn [%]
-                (let [chunk (take chunkSize (nthrest filteredLines %))
-                      startLine (:lineNumber (first chunk))
-                      endLine (:lineNumber (last chunk))
-                      hash (digest/md5 (string/join "\n" (map :contents chunk)))]
-                  {:fileName fileName :startLine startLine :endLine endLine :chunkHash hash}))
-              iterator))
-       (catch Exception e [])))
+  (try
+    (let [fileName (.getPath file)
+          filteredLines (filter #(not (= "" (:contents %)))
+                                (-> file
+                                    slurp
+                                    (string/split #"\n")
+                                    process-lines))
+          n (- (count filteredLines) chunkSize)
+          iterator (if (pos? n) (range (inc n)) [0])] ; at least one chunk for short files
+      (map (fn [i]
+             (let [chunk (take chunkSize (nthrest filteredLines i))
+                   startLine (:lineNumber (first chunk))
+                   endLine (:lineNumber (last chunk))
+                   hash (digest/md5 (string/join "\n" (map :contents chunk)))]
+               {:fileName fileName
+                :startLine startLine
+                :endLine endLine
+                :chunkHash hash}))
+           iterator))
+    (catch Exception e
+      (println "Error chunkifying file:" (.getPath file) e)
+      [])))
+
 
 (defn chunkify [chunkSize files]
   (map #(chunkify-file chunkSize %) files))
