@@ -53,17 +53,22 @@
       (mc/insert-batch db collname (map identity clone-group)))))
 
 (defn identify-candidates! []
-  (let [conn (mg/connect {:host hostname})        
+  (let [conn (mg/connect {:host hostname})
         db (mg/get-db conn dbname)
         collname "chunks"]
-     (mc/aggregate db collname
-                   [{$group {:_id {:chunkHash "$chunkHash"}
-                             :numberOfInstances {$sum 1} ;; <-- changed from $count to $sum 1
-                             :instances {$push {:fileName "$fileName"
-                                                :startLine "$startLine"
-                                                :endLine "$endLine"}}}}
-                    {$match {:numberOfInstances {$gt 1}}}
-                    {"$out" "candidates"} ])))
+    (println "Identifying candidates from" (mc/count db collname) "chunks...")
+    (try
+      (mc/aggregate db collname
+                    [{$group {:_id {:chunkHash "$chunkHash"}
+                              :numberOfInstances {$sum 1}
+                              :instances {$push {:fileName "$fileName"
+                                                 :startLine "$startLine"
+                                                 :endLine "$endLine"}}}}
+                     {$match {:numberOfInstances {$gt 1}}}
+                     {"$out" "candidates"}])
+      (println "Candidate identification done. db.candidates.count()=" (mc/count db "candidates"))
+      (catch Exception e
+        (println "Error in candidate identification:" e)))))
 
 (defn consolidate-clones-and-source []
   (let [conn (mg/connect {:host hostname})        
