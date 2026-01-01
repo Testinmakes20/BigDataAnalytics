@@ -26,7 +26,7 @@
     (let [chunk-param (System/getenv "CHUNKSIZE")
           chunk-size (if chunk-param (Integer/parseInt chunk-param) DEFAULT-CHUNKSIZE)
           file-handles (source-processor/traverse-directory source-dir source-type)
-          chunks (source-processor/chunkify chunk-size file-handles)]
+          chunks (doall (source-processor/chunkify chunk-size file-handles))]
       (ts-println "Storing files...")
       (storage/store-files! file-handles)
       (ts-println "Storing chunks of size" chunk-size "...")
