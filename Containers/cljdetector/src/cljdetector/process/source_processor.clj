@@ -45,7 +45,7 @@
                                (remove empty?)
                                process-lines)
             total-lines (count filteredLines)
-            iterator (range (- total-lines chunkSize 0))]
+            (iterator (range (inc (- total-lines chunkSize))))]
         (map (fn [i]
                (let [chunk (take chunkSize (nthrest filteredLines i))
                      startLine (:lineNumber (first chunk))
