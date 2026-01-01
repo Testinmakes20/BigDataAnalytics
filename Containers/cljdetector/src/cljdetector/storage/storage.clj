@@ -40,9 +40,10 @@
   (let [conn (mg/connect {:host hostname})        
         db (mg/get-db conn dbname)
         collname "chunks"
-        chunk-parted (partition-all partition-size (flatten chunks))]
+        ;; mapcat is SAFE for seq-of-seqs
+        chunk-parted (partition-all partition-size (mapcat identity chunks))]
     (doseq [chunk-group chunk-parted]
-      (mc/insert-batch db collname (map identity chunk-group)))))
+      (mc/insert-batch db collname chunk-group))))
 
 (defn store-clones! [clones]
   (let [conn (mg/connect {:host hostname})        
