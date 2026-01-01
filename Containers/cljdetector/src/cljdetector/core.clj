@@ -38,7 +38,8 @@
       (storage/store-files! file-handles)
 
       (ts-println "Generating chunks...")
-      (let [chunks (source-processor/chunkify chunk-size file-handles)]
+      (let [chunks (doall (map doall
+                         (source-processor/chunkify chunk-size file-handles)))]
         (ts-println "Storing chunks...")
         (storage/store-chunks! chunks))
 
