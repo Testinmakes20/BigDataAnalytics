@@ -54,11 +54,10 @@
         db (mg/get-db conn dbname)
         collname "chunks"
         ;; fully realize: flatten all lazy seqs and turn into concrete vectors
-        all-chunks (vec (mapcat #(vec %) chunks))
+        all-chunks (vec (mapcat #(vec %) chunks))   ;; <- ensures no LazySeqs inside
         chunk-parted (partition-all partition-size all-chunks)]
     (doseq [chunk-group chunk-parted]
-      (mc/insert-batch db collname (vec chunk-group)))))
-
+      (mc/insert-batch db collname (vec chunk-group)))))  ;; <- vector ensures DBObject
 
 (defn store-clones! [clones]
   (let [conn (mg/connect {:host hostname})
