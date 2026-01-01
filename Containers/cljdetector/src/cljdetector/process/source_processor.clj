@@ -71,7 +71,8 @@
 
 
 (defn chunkify [chunkSize files]
-  (map #(chunkify-file chunkSize %) files))
+  (doall (mapcat #(chunkify-file chunkSize %) files)))
+
 
 (defn traverse-directory [path pattern]
   (->> (file-seq (file path))
