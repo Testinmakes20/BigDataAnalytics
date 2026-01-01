@@ -45,14 +45,16 @@
 
       ;; Generate and store chunks
       (ts-println "Generating chunks...")
-      (let [chunks (vec (mapcat #(source-processor/chunkify chunk-size [%]) file-handles))]
+      ;; fully realize and flatten chunks
+      (let [chunks (->> file-handles
+                        (mapcat #(source-processor/chunkify chunk-size [%])) ;; mapcat flattens top level
+                        (mapv vec))]  ;; force each chunk group to vector
         (ts-println "Storing" (count chunks) "chunks in MongoDB...")
         (storage/store-chunks! chunks))
 
       ;; Save monitor stats
       (storage/save-monitor-stats!)
       (ts-println "Finished processing 1000 files."))))
-
 
 
 (defn maybe-detect-clones [args]
