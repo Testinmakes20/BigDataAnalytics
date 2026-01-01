@@ -74,4 +74,6 @@
   (map #(chunkify-file chunkSize %) files))
 
 (defn traverse-directory [path pattern]
-  (filter #(re-matches pattern (.getName %)) (file-seq (file path))))
+  (->> (file-seq (file path))
+       (filter #(.isFile %))                 
+       (filter #(re-matches pattern (.getName %)))))
