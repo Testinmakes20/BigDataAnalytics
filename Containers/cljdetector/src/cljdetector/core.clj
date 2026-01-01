@@ -24,8 +24,13 @@
   (when-not (some #{"NOREAD"} (map string/upper-case args))
     (ts-println "Reading and Processing files...")
     (let [chunk-param (System/getenv "CHUNKSIZE")
-          chunk-size (if chunk-param (Integer/parseInt chunk-param) DEFAULT-CHUNKSIZE)
-          file-handles (doall (source-processor/traverse-directory source-dir source-type))]
+          chunk-size (if chunk-param
+                       (Integer/parseInt chunk-param)
+                       DEFAULT-CHUNKSIZE)
+          file-handles (doall
+                         (take 1000
+                               (source-processor/traverse-directory
+                                 source-dir source-type)))]
       
       (ts-println "Found" (count file-handles) "Java files")
 
@@ -38,7 +43,6 @@
         (storage/store-chunks! chunks))
 
       (storage/save-monitor-stats!))))
-
 
 (defn maybe-detect-clones [args]
   (when-not (some #{"NOCLONEID"} (map string/upper-case args))
