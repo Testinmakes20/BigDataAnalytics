@@ -58,7 +58,7 @@
                                      (string/join "\n"))
                      hash (digest/md5 chunk-text)]
                  ;; Debug log for each chunk
-                 (println "Chunk hash:" hash "File:" fileName "Lines:" startLine "-" endLine)
+                 ;; (println "Chunk hash:" hash "File:" fileName "Lines:" startLine "-" endLine)
                  {:fileName fileName
                   :startLine startLine
                   :endLine endLine
