@@ -32,42 +32,39 @@
   (-> line
       string/trim
       (string/replace #"//.*" "")       ; remove single-line comments
-      (string/replace #"/\*.*?\*/" ""))) ; remove inline block comments
+      (string/replace #"/\*.*?\*/" ""))) 
 (defn chunkify-file [chunkSize file]
   (try
-    (let [fileName (.getPath file)]
-      (println "Processing file:" fileName)
-      ;; Read lines and normalize
-      (let [filteredLines (->> file
-                               slurp
-                               string/split-lines        ;; safer than split with regex
-                               (map normalize-line)
-                               (remove empty?)
-                               process-lines)
-            total-lines (count filteredLines)
-            (iterator (range (inc (- total-lines chunkSize))))]
-        (map (fn [i]
-               (let [chunk (take chunkSize (nthrest filteredLines i))
-                     startLine (:lineNumber (first chunk))
-                     endLine (:lineNumber (last chunk))
-                     ;; Join contents after normalization to compute hash
-                     chunk-text (->> chunk
-                                     (map :contents)
-                                     (map string/trim)
-                                     (remove empty?)
-                                     (string/join "\n"))
-                     hash (digest/md5 chunk-text)]
-                 ;; Debug log for each chunk
-                 ;; (println "Chunk hash:" hash "File:" fileName "Lines:" startLine "-" endLine)
-                 {:fileName fileName
-                  :startLine startLine
-                  :endLine endLine
-                  :chunkHash hash}))
-             iterator)))
+    (let [fileName (.getPath file)
+          ;; read and normalize lines
+          filteredLines (->> file
+                             slurp
+                             string/split-lines
+                             (map normalize-line)
+                             (remove empty?)
+                             process-lines)
+          total-lines (count filteredLines)
+          ;; generate starting indexes for chunks
+          indices (range (- total-lines chunkSize -1))]  ;; safely handles small files
+      (map (fn [i]
+             (let [chunk (take chunkSize (nthrest filteredLines i))
+                   startLine (:lineNumber (first chunk))
+                   endLine (:lineNumber (last chunk))
+                   ;; combine content to compute hash
+                   chunk-text (->> chunk
+                                   (map :contents)
+                                   (map string/trim)
+                                   (remove empty?)
+                                   (string/join "\n"))
+                   hash (clj-commons.digest/md5 chunk-text)]
+               {:fileName fileName
+                :startLine startLine
+                :endLine endLine
+                :chunkHash hash}))
+           indices))
     (catch Exception e
       (println "Error processing file:" file "Exception:" e)
       [])))
-
 
 
 (defn chunkify [chunkSize files]
