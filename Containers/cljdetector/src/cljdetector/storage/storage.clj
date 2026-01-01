@@ -7,7 +7,7 @@
 (def DEFAULT-DBHOST "localhost")
 (def dbname "cloneDetector")
 (def partition-size 100)
-(def hostname (or (System/getenv "DBHOST") DEFAULT-DBHOST))
+(def hostname "dbstorage")  ;; use Dockerservice name
 (def collnames ["files"  "chunks" "candidates" "clones"])
 
 (defn print-statistics []
