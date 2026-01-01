@@ -3,6 +3,8 @@ services:
   clone-detector:
     build: ./Containers/cljdetector
     command: lein run
+    depends_on:
+      - dbstorage
     ports:
       - 8080:3000
     volumes:
@@ -20,7 +22,6 @@ services:
   dbstorage:
     image: mongo:4.4
     restart: always
-    command: --quiet --syslog
     ports:
       - 27017:27017
     expose:
