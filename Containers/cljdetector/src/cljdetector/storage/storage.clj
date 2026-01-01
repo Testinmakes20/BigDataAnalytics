@@ -57,14 +57,15 @@
     (doseq [chunk-group chunk-parted]
       (mc/insert-batch db collname (vec chunk-group)))))
 
-
 (defn store-clones! [clones]
-  (let [conn (mg/connect {:host hostname})        
+  (let [conn (mg/connect {:host hostname})
         db (mg/get-db conn dbname)
         collname "clones"
         clones-parted (partition-all partition-size clones)]
     (doseq [clone-group clones-parted]
-      (mc/insert-batch db collname (map identity clone-group)))))
+      ;; force vector to avoid LazySeq
+      (mc/insert-batch db collname (vec clone-group)))))
+
 
 (defn identify-candidates! []
   (let [conn (mg/connect {:host hostname})
