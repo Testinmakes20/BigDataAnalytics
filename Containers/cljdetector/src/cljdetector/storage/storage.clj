@@ -42,20 +42,21 @@
                              (println "Error reading file:" (.getPath f) e)
                              nil)))   ;; skip files that fail
                        file-group)]
-        (when (seq docs)
-          (try
-            (mc/insert-batch db collname docs)
-            (catch Exception e
-              (println "Error inserting batch:" e))))))))
+       (when (seq docs)
+         (try
+          (mc/insert-batch db collname (vec docs))
+          (catch Exception e
+            (println "Error inserting batch:" e))))
+         ))))
 
 (defn store-chunks! [chunks]
   (let [conn (mg/connect {:host hostname})        
         db (mg/get-db conn dbname)
         collname "chunks"
-        ;; mapcat is SAFE for seq-of-seqs
-        chunk-parted (partition-all partition-size (mapcat identity chunks))]
+        chunk-parted (partition-all partition-size (vec (mapcat identity chunks)))]
     (doseq [chunk-group chunk-parted]
-      (mc/insert-batch db collname chunk-group))))
+      (mc/insert-batch db collname (vec chunk-group)))))
+
 
 (defn store-clones! [clones]
   (let [conn (mg/connect {:host hostname})        
