@@ -23,27 +23,33 @@
 (defn maybe-read-files [args]
   (when-not (some #{"NOREAD"} (map string/upper-case args))
     (ts-println "Reading and Processing files...")
+    
+    ;; Determine chunk size
     (let [chunk-param (System/getenv "CHUNKSIZE")
           chunk-size (if chunk-param
                        (Integer/parseInt chunk-param)
                        DEFAULT-CHUNKSIZE)
-          file-handles (doall
-                         (take 1000
-                               (source-processor/traverse-directory
-                                 source-dir source-type)))]
-      
+          
+          ;; Take first 1000 files and force evaluation
+          all-files (source-processor/traverse-directory source-dir source-type)
+          file-handles (vec (take 1000 all-files))]
+
       (ts-println "Found" (count file-handles) "Java files")
 
-      (ts-println "Storing files...")
+      ;; Store files in batches
+      (ts-println "Storing files in MongoDB...")
       (storage/store-files! file-handles)
-
+      
+      ;; Generate chunks for each file
       (ts-println "Generating chunks...")
-      (let [chunks (doall (map doall
-                         (source-processor/chunkify chunk-size file-handles)))]
-        (ts-println "Storing chunks...")
+      (let [chunks (vec (mapcat #(source-processor/chunkify chunk-size [%]) file-handles))]
+        (ts-println "Storing" (count chunks) "chunks in MongoDB...")
         (storage/store-chunks! chunks))
 
-      (storage/save-monitor-stats!))))
+      ;; Save monitor stats
+      (storage/save-monitor-stats!)
+      (ts-println "Finished processing 1000 files."))))
+
 
 (defn maybe-detect-clones [args]
   (when-not (some #{"NOCLONEID"} (map string/upper-case args))
