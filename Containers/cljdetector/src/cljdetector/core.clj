@@ -33,9 +33,10 @@
           chunk-size (if chunk-param
                        (Integer/parseInt chunk-param)
                        DEFAULT-CHUNKSIZE)
-          file-handles (vec (take 1000
-                                   (source-processor/traverse-directory
-                                     source-dir source-type)))]
+          file-handles (vec
+                         (take 1000
+                               (source-processor/traverse-directory
+                                 source-dir source-type)))]
 
       (ts-println "Found" (count file-handles) "Java files")
 
@@ -49,12 +50,10 @@
         (ts-println "Storing" (count chunks) "chunks in MongoDB...")
         (storage/store-chunks! chunks))
 
-        (ts-println "Storing" (count chunks) "chunks in MongoDB...")
-        (storage/store-chunks! chunks))
-
       ;; Save monitor stats
       (storage/save-monitor-stats!)
       (ts-println "Finished processing 1000 files."))))
+
 
 
 (defn maybe-detect-clones [args]
