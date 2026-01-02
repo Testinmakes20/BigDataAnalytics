@@ -5,9 +5,9 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Connect to MongoDB
-client = MongoClient("mongodb://bigdataanalytics-dbstorage-1:27017/")
-db = client["bigdataanalytics"]  # Replace with your database name
-collection = db["monitor_stats"]  # Replace with your collection name
+client = MongoClient("mongodb://dbstorage:27017/")
+db = client["cloneDetector"]          # ✅ CORRECT DB
+collection = db["monitor_stats"]      # already correct
 
 @app.route("/")
 def index():
