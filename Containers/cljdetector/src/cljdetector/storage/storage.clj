@@ -1,6 +1,7 @@
 (ns cljdetector.storage.storage
   (:require [monger.core :as mg]
             [monger.collection :as mc]
+            [monger.command :as cmd]
             [monger.operators :refer :all]
             [monger.conversion :refer [from-db-object]]))
 
