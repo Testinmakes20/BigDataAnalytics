@@ -66,9 +66,9 @@
       (println "Error processing file:" file "Exception:" e)
       [])))
 
-
 (defn chunkify [chunkSize files]
-  (doall (mapcat #(chunkify-file chunkSize %) files)))
+  (vec
+    (mapcat #(vec (chunkify-file chunkSize %)) files)))
 
 
 (defn traverse-directory [path pattern]
