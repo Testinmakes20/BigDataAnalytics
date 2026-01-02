@@ -57,15 +57,22 @@
 (defn maybe-detect-clones [args]
   (when-not (some #{"NOCLONEID"} (map string/upper-case args))
     (ts-println "Identifying Clone Candidates...")
-    (storage/identify-candidates!)   ;; ✅ This is where candidates are generated
-    (ts-println "Found" (storage/count-items "candidates") "candidates")
-    ;; Save monitor stats after identifying candidates
+    (storage/identify-candidates!)   ;; generates candidates
+
+    ;; log candidates before expansion
+    (let [cand-count (storage/count-items "candidates")]
+      (ts-println "Found" cand-count "candidates BEFORE expansion"))
+
+    ;; Save monitor stats
     (storage/save-monitor-stats!)
+
+    ;; Now expand clones
     (ts-println "Expanding Candidates...")
     (expander/expand-clones)
-    ;; Save monitor stats after storing clones
-    (storage/save-monitor-stats!)))
+    (ts-println "Expansion done. Current clone count:" (storage/count-items "clones"))
 
+    ;; Save monitor stats again
+    (storage/save-monitor-stats!)))
 
 (defn pretty-print [clones]
   (doseq [clone clones]
