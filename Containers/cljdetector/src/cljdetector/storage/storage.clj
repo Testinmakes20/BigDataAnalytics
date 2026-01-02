@@ -1,7 +1,6 @@
 (ns cljdetector.storage.storage
   (:require [monger.core :as mg]
             [monger.collection :as mc]
-            [monger.command :as cmd]
             [monger.operators :refer :all]
             [monger.conversion :refer [from-db-object]]))
 
@@ -73,7 +72,7 @@
     (println "Identifying candidates from"
              (mc/count db "chunks") "chunks...")
     (try
-      (cmd/aggregate
+      (mc/aggregate
         db
         "chunks"
         [{$group {:_id "$chunkHash"
@@ -88,6 +87,7 @@
                (mc/count db "candidates"))
       (catch Exception e
         (println "Error in candidate identification:" e)))))
+
 
 (defn consolidate-clones-and-source []
   (let [conn (mg/connect {:host hostname})        
