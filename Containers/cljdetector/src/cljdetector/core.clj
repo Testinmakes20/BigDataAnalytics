@@ -45,10 +45,10 @@
 
       ;; Generate and store chunks
       (ts-println "Generating chunks...")
-      ;; fully realize and flatten chunks
-      (let [chunks (->> file-handles
-                        (mapcat #(source-processor/chunkify chunk-size [%])) ;; mapcat flattens top level
-                        (mapv vec))]  ;; force each chunk group to vector
+      (let [chunks (source-processor/chunkify chunk-size file-handles)]
+        (ts-println "Storing" (count chunks) "chunks in MongoDB...")
+        (storage/store-chunks! chunks))
+
         (ts-println "Storing" (count chunks) "chunks in MongoDB...")
         (storage/store-chunks! chunks))
 
