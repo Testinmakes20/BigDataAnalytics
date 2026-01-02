@@ -66,24 +66,28 @@
       ;; force vector to avoid LazySeq
       (mc/insert-batch db collname (vec clone-group)))))
 
-
 (defn identify-candidates! []
   (let [conn (mg/connect {:host hostname})
         db (mg/get-db conn dbname)
         collname "chunks"]
     (println "Identifying candidates from" (mc/count db collname) "chunks...")
     (try
-      (mc/aggregate db collname
-                    [{$group {:_id {:chunkHash "$chunkHash"}
-                              :numberOfInstances {$sum 1}
-                              :instances {$push {:fileName "$fileName"
-                                                 :startLine "$startLine"
-                                                 :endLine "$endLine"}}}}
-                     {$match {:numberOfInstances {$gt 1}}}
-                     {"$out" "candidates"}])
-      (println "Candidate identification done. db.candidates.count()=" (mc/count db "candidates"))
+      (mc/aggregate
+        db
+        collname
+        [{$group {:_id {:chunkHash "$chunkHash"}
+                  :numberOfInstances {$sum 1}
+                  :instances {$push {:fileName "$fileName"
+                                     :startLine "$startLine"
+                                     :endLine "$endLine"}}}}
+         {$match {:numberOfInstances {$gt 1}}}
+         {"$out" "candidates"}]
+        {:allowDiskUse true})   ;; space for db enabled
+      (println "Candidate identification done. db.candidates.count()="
+               (mc/count db "candidates"))
       (catch Exception e
         (println "Error in candidate identification:" e)))))
+
 
 (defn consolidate-clones-and-source []
   (let [conn (mg/connect {:host hostname})        
