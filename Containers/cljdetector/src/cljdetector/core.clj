@@ -28,13 +28,15 @@
     (ts-println "Clearing old files/chunks from DB...")
     (storage/clear-db!)
 
+    ;; Limit to first 1000 files
     (let [chunk-param (System/getenv "CHUNKSIZE")
           chunk-size (if chunk-param
                        (Integer/parseInt chunk-param)
                        DEFAULT-CHUNKSIZE)
           file-handles (vec
-                         (source-processor/traverse-directory
-                           source-dir source-type))]
+                         (take 1000
+                               (source-processor/traverse-directory
+                                 source-dir source-type)))]
 
       (ts-println "Found" (count file-handles) "Java files")
 
@@ -50,9 +52,7 @@
 
       ;; Save monitor stats
       (storage/save-monitor-stats!)
-      (ts-println "Finished processing all files."))))
-
-
+      (ts-println "Finished processing 1000 files."))))
 
 (defn maybe-detect-clones [args]
   (when-not (some #{"NOCLONEID"} (map string/upper-case args))
