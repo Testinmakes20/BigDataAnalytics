@@ -67,9 +67,9 @@
     (storage/save-monitor-stats!)
 
     ;; Now expand clones
-    (ts-println "Expanding Candidates...")
-    (expander/expand-clones)
-    (ts-println "Expansion done. Current clone count:" (storage/count-items "clones"))
+   ;; (ts-println "Expanding Candidates...")
+   ;; (expander/expand-clones)
+   ;; (ts-println "Expansion done. Current clone count:" (storage/count-items "clones"))
 
     ;; Save monitor stats again
     (storage/save-monitor-stats!)))
