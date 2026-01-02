@@ -80,9 +80,9 @@
                   :instances {$push {:fileName "$fileName"
                                      :startLine "$startLine"
                                      :endLine "$endLine"}}}}
-         {$match {:numberOfInstances {$gt 1}}}
-         {"$out" "candidates"}]
-        {:allowDiskUse true})   ;; space for db enabled
+         {$match {:numberOfInstances {$gt 1}}}]
+        {:allowDiskUse true      ;; increase db space
+         :out "candidates"})         
       (println "Candidate identification done. db.candidates.count()="
                (mc/count db "candidates"))
       (catch Exception e
