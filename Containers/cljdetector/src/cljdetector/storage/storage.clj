@@ -69,20 +69,18 @@
 (defn identify-candidates! []
   (let [conn (mg/connect {:host hostname})
         db   (mg/get-db conn dbname)]
-    (println "Identifying candidates from"
-             (mc/count db "chunks") "chunks...")
+    (println "Identifying candidates from" (mc/count db "chunks") "chunks...")
     (try
-      (mc/aggregate
-        db
-        "chunks"
-        [{$group {:_id "$chunkHash"
-                  :count {$sum 1}
-                  :instances {$push {:fileName "$fileName"
-                                     :startLine "$startLine"
-                                     :endLine "$endLine"}}}
-         {$match {:count {$gt 1}}}}]
-        {:allowDiskUse true
-         :out "candidates"})
+      ;; Aggregate with $group -> $match -> $out
+      (mc/aggregate db "chunks"
+                    [{$group {:_id "$chunkHash"
+                              :count {$sum 1}
+                              :instances {$push {:fileName "$fileName"
+                                                 :startLine "$startLine"
+                                                 :endLine "$endLine"}}}}
+                     {$match {:count {$gt 1}}}
+                     {$out "candidates"}]
+                    {:allowDiskUse true}) ;; this allows Mongo to spill to disk
       (println "Candidate identification done. db.candidates.count()="
                (mc/count db "candidates"))
       (catch Exception e
