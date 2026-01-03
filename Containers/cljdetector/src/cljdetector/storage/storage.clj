@@ -79,7 +79,7 @@
                   :count {$sum 1}
                   :instances {$push {:fileName "$fileName"
                                      :startLine "$startLine"
-                                     :endLine "$endLine"}}}}
+                                     :endLine "$endLine"}}}
          {$match {:count {$gt 1}}}
          {$out "candidates"}]
         {:allowDiskUse true})
