@@ -80,14 +80,13 @@
                   :instances {$push {:fileName "$fileName"
                                      :startLine "$startLine"
                                      :endLine "$endLine"}}}}
-         {$match {:count {$gt 1}}}]
-        {:allowDiskUse true
-         :out "candidates"})
+         {$match {:count {$gt 1}}}
+         {$out "candidates"}]
+        {:allowDiskUse true})
       (println "Candidate identification done. db.candidates.count()="
                (mc/count db "candidates"))
       (catch Exception e
         (println "Error in candidate identification:" e)))))
-
 
 (defn consolidate-clones-and-source []
   (let [conn (mg/connect {:host hostname})        
