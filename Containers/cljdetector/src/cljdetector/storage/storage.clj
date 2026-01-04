@@ -89,7 +89,7 @@
       (println "Candidate identification done. db.candidates.count()="
                (mc/count db candidates-coll))
       (catch Exception e
-        (println "Error in candidate identification:" e)))))
+        (println "Error in candidate identification:" e))))
 
 
 (defn consolidate-clones-and-source []
