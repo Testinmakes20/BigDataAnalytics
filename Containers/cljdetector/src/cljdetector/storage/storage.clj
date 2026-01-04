@@ -69,61 +69,49 @@
 
 (defn identify-candidates! []
   (let [conn (mg/connect {:host hostname})
-        db   (mg/get-db conn dbname)]
-    (println "Identifying candidates from" (mc/count db "chunks") "chunks...")
+        db   (mg/get-db conn dbname)
+        chunks-coll "chunks"
+        candidates-coll "candidates"]
+    (println "Identifying candidates from" (mc/count db chunks-coll) "chunks...")
     (try
-      (let [opts (doto (AggregateOptions.)
-                   (.allowDiskUse true))
-            results (mc/aggregate db
-                                  "chunks"
-                                  [{$group {:_id "$chunkHash"
-                                            :count {$sum 1}
-                                            :instances {$push {:fileName "$fileName"
-                                                               :startLine "$startLine"
-                                                               :endLine "$endLine"}}}}
-                                   {$match {:count {$gt 1}}}]
-                                  opts)]
-        (doseq [batch (partition-all partition-size results)]
-          (mc/insert-batch db "candidates" (vec batch)))
-        (println "Candidate identification done. db.candidates.count()="
-                 (mc/count db "candidates")))
+      ;; Step 1: read chunks in batches
+      (doseq [batch (partition-all partition-size
+                                   (mc/find-maps db chunks-coll {}))]
+        ;; Step 2: group by chunkHash in Clojure instead of MongoDB $group
+        (let [grouped (vals (group-by :chunkHash batch))
+              duplicates (filter #(> (count %) 1) grouped)
+              candidates (map (fn [dup-chunks]
+                               {:_id (:chunkHash (first dup-chunks))
+                                :count (count dup-chunks)
+                                :instances (map #(select-keys % [:fileName :startLine :endLine]) dup-chunks)})
+                             duplicates)]
+          ;; Step 3: insert candidates in small batches
+          (doseq [cand-batch (partition-all partition-size candidates)]
+            (mc/insert-batch db candidates-coll (vec cand-batch)))))
+      (println "Candidate identification done. db.candidates.count()=" 
+               (mc/count db candidates-coll))
       (catch Exception e
         (println "Error in candidate identification:" e)))))
 
 (defn consolidate-clones-and-source []
-  (let [conn (mg/connect {:host hostname})        
+  (let [conn (mg/connect {:host hostname})
         db (mg/get-db conn dbname)
-        collname "clones"
-        ;; Create AggregateOptions and allow disk use for large datasets
-        opts (doto (com.mongodb.client.model.AggregateOptions.)
-               (.allowDiskUse true))]
-    (mc/aggregate db collname
-                  [{$project {:_id 0 :instances "$instances" 
-                              :sourcePosition {$first "$instances"}}}
-                   {"$addFields" {:cloneLength {"$subtract" ["$sourcePosition.endLine" "$sourcePosition.startLine"]}}}
-                   {$lookup
-                    {:from "files"
-                     :let {:sourceName "$sourcePosition.fileName"
-                           :sourceStart {"$subtract" ["$sourcePosition.startLine" 1]}
-                           :sourceLength "$cloneLength"}
-                     :pipeline
-                     [{$match {$expr {$eq ["$fileName" "$$sourceName"]}}}
-                      {$project {:contents {"$split" ["$contents" "\n"]}}}
-                      {$project {:contents {"$slice" ["$contents" "$$sourceStart" "$$sourceLength"]}}}
-                      {$project
-                       {:_id 0
-                        :contents 
-                        {"$reduce"
-                         {:input "$contents"
-                          :initialValue ""
-                          :in {"$concat"
-                               ["$$value"
-                                {"$cond" [{"$eq" ["$$value", ""]}, "", "\n"]}
-                                "$$this"]}}}}}]
-                     :as "sourceContents"}}
-                   {$project {:_id 0 :instances 1 :contents "$sourceContents.contents"}}]
-                  opts)))
-
+        collname "clones"]
+    ;; read all clones in batches
+    (mapcat (fn [clone-batch]
+              (for [clone clone-batch]
+                (let [source-pos (first (:instances clone))
+                      clone-length (- (:endLine source-pos) (:startLine source-pos))
+                      file-doc (mc/find-one db "files" {:fileName (:fileName source-pos)})
+                      contents-lines (-> file-doc
+                                         :contents
+                                         (clojure.string/split #"\n")
+                                         (subvec (max 0 (dec (:startLine source-pos)))
+                                                 (+ (dec (:startLine source-pos)) clone-length)))
+                      contents (clojure.string/join "\n" contents-lines)]
+                  (assoc clone :contents contents))))
+            (partition-all partition-size
+                           (mc/find-maps db collname {})))))
 
 (defn get-dbconnection []
   (mg/connect {:host hostname}))
