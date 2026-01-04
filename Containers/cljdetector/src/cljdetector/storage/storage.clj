@@ -2,7 +2,8 @@
   (:require [monger.core :as mg]
             [monger.collection :as mc]
             [monger.operators :refer :all]
-            [monger.conversion :refer [from-db-object]]))
+            [monger.conversion :refer [from-db-object]])
+  (:import [com.mongodb.client.model AggregateOptions]))
 
 (def DEFAULT-DBHOST "localhost")
 (def dbname "cloneDetector")
@@ -71,26 +72,23 @@
         db   (mg/get-db conn dbname)]
     (println "Identifying candidates from" (mc/count db "chunks") "chunks...")
     (try
-      (let [results
-            (mc/aggregate
-              db
-              "chunks"
-              [{$group {:_id "$chunkHash"
-                        :count {$sum 1}
-                        :instances {$push {:fileName "$fileName"
-                                           :startLine "$startLine"
-                                           :endLine "$endLine"}}}}
-               {$match {:count {$gt 1}}}]
-              :options {:allowDiskUse true})]   ;; memory limit
-
+      (let [opts (doto (AggregateOptions.)
+                   (.allowDiskUse true))
+            results (mc/aggregate db
+                                  "chunks"
+                                  [{$group {:_id "$chunkHash"
+                                            :count {$sum 1}
+                                            :instances {$push {:fileName "$fileName"
+                                                               :startLine "$startLine"
+                                                               :endLine "$endLine"}}}}
+                                   {$match {:count {$gt 1}}}]
+                                  opts)]
         (doseq [batch (partition-all partition-size results)]
           (mc/insert-batch db "candidates" (vec batch)))
-
         (println "Candidate identification done. db.candidates.count()="
                  (mc/count db "candidates")))
       (catch Exception e
         (println "Error in candidate identification:" e)))))
-
 
 (defn consolidate-clones-and-source []
   (let [conn (mg/connect {:host hostname})        
