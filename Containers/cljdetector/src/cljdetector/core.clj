@@ -54,7 +54,7 @@
 
       ;; Save monitor stats
       (storage/save-monitor-stats!)
-      (ts-println "Finished processing 1000 files."))))
+      (ts-println "Finished processing" (count file-handles) "files."))))
 
 (defn maybe-detect-clones [args]
   (when-not (some #{"NOCLONEID"} (map string/upper-case args))
