@@ -76,21 +76,21 @@
       ;; Step 1: read chunks in batches
       (doseq [batch (partition-all partition-size
                                    (mc/find-maps db chunks-coll {}))]
-        ;; Step 2: group by chunkHash in Clojure instead of MongoDB $group
+        ;; Step 2: group by chunkHash in Clojure
         (let [grouped (vals (group-by :chunkHash batch))
               duplicates (filter #(> (count %) 1) grouped)
               candidates (map (fn [dup-chunks]
-                               {:_id (:chunkHash (first dup-chunks))
-                                :count (count dup-chunks)
+                               {:count (count dup-chunks)
                                 :instances (map #(select-keys % [:fileName :startLine :endLine]) dup-chunks)})
                              duplicates)]
           ;; Step 3: insert candidates in small batches
           (doseq [cand-batch (partition-all partition-size candidates)]
-            (mc/insert-batch db candidates-coll (vec cand-batch)))))
-      (println "Candidate identification done. db.candidates.count()=" 
+            (mc/insert-batch db candidates-coll (vec cand-batch))))))
+      (println "Candidate identification done. db.candidates.count()="
                (mc/count db candidates-coll))
       (catch Exception e
         (println "Error in candidate identification:" e)))))
+
 
 (defn consolidate-clones-and-source []
   (let [conn (mg/connect {:host hostname})
