@@ -71,18 +71,21 @@
         db   (mg/get-db conn dbname)]
     (println "Identifying candidates from" (mc/count db "chunks") "chunks...")
     (try
-      ;; Aggregate chunks by chunkHash, push instances, filter duplicates
-      (let [results (mc/aggregate db "chunks"
-                                  [{$group {:_id "$chunkHash"
-                                            :count {$sum 1}
-                                            :instances {$push {:fileName "$fileName"
-                                                               :startLine "$startLine"
-                                                               :endLine "$endLine"}}}}
-                                   {$match {:count {$gt 1}}}]
-                                  {:allowDiskUse true})]  ;; allow disk use here
-        ;; Insert candidates in batches to avoid memory spikes
-        (doseq [batch (partition-all 1000 results)]
+      (let [results
+            (mc/aggregate
+              db
+              "chunks"
+              [{$group {:_id "$chunkHash"
+                        :count {$sum 1}
+                        :instances {$push {:fileName "$fileName"
+                                           :startLine "$startLine"
+                                           :endLine "$endLine"}}}}
+               {$match {:count {$gt 1}}}]
+              :options {:allowDiskUse true})]   ;; memory limit
+
+        (doseq [batch (partition-all partition-size results)]
           (mc/insert-batch db "candidates" (vec batch)))
+
         (println "Candidate identification done. db.candidates.count()="
                  (mc/count db "candidates")))
       (catch Exception e
