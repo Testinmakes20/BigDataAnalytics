@@ -93,9 +93,13 @@
 (defn consolidate-clones-and-source []
   (let [conn (mg/connect {:host hostname})        
         db (mg/get-db conn dbname)
-        collname "clones"]
+        collname "clones"
+        ;; Create AggregateOptions and allow disk use for large datasets
+        opts (doto (com.mongodb.client.model.AggregateOptions.)
+               (.allowDiskUse true))]
     (mc/aggregate db collname
-                  [{$project {:_id 0 :instances "$instances" :sourcePosition {$first "$instances"}}}
+                  [{$project {:_id 0 :instances "$instances" 
+                              :sourcePosition {$first "$instances"}}}
                    {"$addFields" {:cloneLength {"$subtract" ["$sourcePosition.endLine" "$sourcePosition.startLine"]}}}
                    {$lookup
                     {:from "files"
@@ -115,10 +119,10 @@
                           :in {"$concat"
                                ["$$value"
                                 {"$cond" [{"$eq" ["$$value", ""]}, "", "\n"]}
-                                "$$this"]
-                               }}}}}]
+                                "$$this"]}}}}}]
                      :as "sourceContents"}}
-                   {$project {:_id 0 :instances 1 :contents "$sourceContents.contents"}}])))
+                   {$project {:_id 0 :instances 1 :contents "$sourceContents.contents"}}]
+                  opts)))
 
 
 (defn get-dbconnection []
