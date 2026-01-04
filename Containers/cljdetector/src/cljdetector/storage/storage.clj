@@ -2,8 +2,7 @@
   (:require [monger.core :as mg]
             [monger.collection :as mc]
             [monger.operators :refer :all]
-            [monger.conversion :refer [from-db-object]])
-  (:import [com.mongodb.client.model AggregateOptions]))
+            [monger.conversion :refer [from-db-object]]))
 
 (def DEFAULT-DBHOST "localhost")
 (def dbname "cloneDetector")
