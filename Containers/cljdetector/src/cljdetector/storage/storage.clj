@@ -7,7 +7,7 @@
 
 (def DEFAULT-DBHOST "localhost")
 (def dbname "cloneDetector")
-(def partition-size 500)
+(def partition-size 100)
 (def hostname "dbstorage")  ;; use Dockerservice name
 (println "Connecting to MongoDB at:" hostname)
 (def collnames ["files"  "chunks" "candidates" "clones"])
