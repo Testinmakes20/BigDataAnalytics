@@ -28,15 +28,17 @@
     (ts-println "Clearing old files/chunks from DB...")
     (storage/clear-db!)
 
-    ;; Limit to first 1000 files
+    ;;change to have filelimit from yaml file
     (let [chunk-param (System/getenv "CHUNKSIZE")
-          chunk-size (if chunk-param
-                       (Integer/parseInt chunk-param)
-                       DEFAULT-CHUNKSIZE)
-          file-handles (vec
-                         (take 1000
-                               (source-processor/traverse-directory
-                                 source-dir source-type)))]
+      chunk-size (if chunk-param
+                   (Integer/parseInt chunk-param)
+                   DEFAULT-CHUNKSIZE)
+      file-limit (some-> (System/getenv "FILE_LIMIT")
+                         Integer/parseInt)
+      file-handles (vec
+                     (take (or file-limit Integer/MAX_VALUE)
+                           (source-processor/traverse-directory
+                             source-dir source-type)))]
 
       (ts-println "Found" (count file-handles) "Java files")
 
