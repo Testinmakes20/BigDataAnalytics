@@ -18,6 +18,7 @@ services:
       # Point SOURCEDIR to the root of the corpus so all systems are scanned
       SOURCEDIR: "/QualitasCorpus/QualitasCorpus-20130901r"
       CHUNKSIZE: 20
+      JVM_OPTS: "-Xms2g -Xmx4g"
       FILE_LIMIT: 2000
 
   dbstorage:
