@@ -5,7 +5,7 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.11.1"]
                [org.clj-commons/digest "1.4.100"]
-               [com.novemberain/monger "3.7.0"]  ;; upgrade from 3.6.0
+               [com.novemberain/monger "3.6.0"] ;; force 3.6.0
                [org.slf4j/slf4j-nop "1.7.12"]]
   :main ^:skip-aot cljdetector.core
   :target-path "target/%s"
