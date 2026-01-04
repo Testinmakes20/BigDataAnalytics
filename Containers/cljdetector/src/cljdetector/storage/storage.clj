@@ -85,11 +85,14 @@
                              duplicates)]
           ;; Step 3: insert candidates in small batches
           (doseq [cand-batch (partition-all partition-size candidates)]
-            (mc/insert-batch db candidates-coll (vec cand-batch))))))
+            (mc/insert-batch db candidates-coll (vec cand-batch)))))
+      ;; Step 4: final message inside try
       (println "Candidate identification done. db.candidates.count()="
                (mc/count db candidates-coll))
+      ;; Catch any exceptions from the whole process
       (catch Exception e
-        (println "Error in candidate identification:" e))))
+        (println "Error in candidate identification:" e)))))
+
 
 
 (defn consolidate-clones-and-source []
