@@ -45,7 +45,20 @@ services:
     ports:
     - "5000:5000"
     depends_on:
-    - dbstorage   # Use the service name here
+    - dbstorage   
+    
+  mongo-express:
+    image: mongo-express:1.0.2
+    container_name: bigdataanalytics-mongo-express
+    restart: always
+    ports:
+      - "8081:8081"
+    environment:
+      ME_CONFIG_MONGODB_SERVER: dbstorage
+      ME_CONFIG_MONGODB_PORT: 27017
+      ME_CONFIG_MONGODB_ENABLE_ADMIN: "true"
+    depends_on:
+      - dbstorage
 
 volumes:
   dbstorage:
