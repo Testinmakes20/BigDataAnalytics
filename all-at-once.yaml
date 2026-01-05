@@ -54,10 +54,13 @@ services:
     ports:
       - "8081:8081"
     environment:
-      ME_CONFIG_MONGODB_SERVER: dbstorage
-      ME_CONFIG_MONGODB_PORT: 27017
-      ME_CONFIG_MONGODB_ENABLE_ADMIN: "false"
-      ME_CONFIG_BASICAUTH: "false"
+        ME_CONFIG_MONGODB_SERVER: dbstorage
+        ME_CONFIG_MONGODB_PORT: 27017
+        ME_CONFIG_MONGODB_ENABLE_ADMIN: "true"
+        ME_CONFIG_BASICAUTH: "false"
+        ME_CONFIG_MONGODB_AUTH_DATABASE: "admin"
+        ME_CONFIG_MONGODB_AUTH_USERNAME: ""
+        ME_CONFIG_MONGODB_AUTH_PASSWORD: ""
     depends_on:
       - dbstorage
 
