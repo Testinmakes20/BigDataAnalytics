@@ -56,7 +56,8 @@ services:
     environment:
       ME_CONFIG_MONGODB_SERVER: dbstorage
       ME_CONFIG_MONGODB_PORT: 27017
-      ME_CONFIG_MONGODB_ENABLE_ADMIN: "true"
+      ME_CONFIG_MONGODB_ENABLE_ADMIN: "false"
+      ME_CONFIG_BASICAUTH: "false"
     depends_on:
       - dbstorage
 
