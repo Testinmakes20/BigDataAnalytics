@@ -16,7 +16,7 @@ services:
       # Point SOURCEDIReclipse to the actual eclipse_SDK folder
       # SOURCEDIReclipse: "/QualitasCorpus/QualitasCorpus-20130901r/Systems/eclipse_SDK/eclipse_SDK-4.3"
       # Point SOURCEDIR to the root of the corpus so all systems are scanned
-      SOURCEDIR: "/QualitasCorpus/QualitasCorpus-20130901r/Systems/eclipse_SDK/eclipse_SDK-4.3"
+      SOURCEDIR: "/QualitasCorpus/Systems/eclipse_SDK/eclipse_SDK-4.3/src"
       CHUNKSIZE: 30
       JVM_OPTS: "-Xms4g -Xmx8g"
 
