@@ -19,7 +19,6 @@ services:
       SOURCEDIR: "/QualitasCorpus/QualitasCorpus-20130901r/Systems/eclipse_SDK/eclipse_SDK-4.3"
       CHUNKSIZE: 30
       JVM_OPTS: "-Xms4g -Xmx8g"
-      FILE_LIMIT: 15000
 
   dbstorage:
     image: mongo:4.4
