@@ -9,7 +9,7 @@ services:
       - 8080:3000
     volumes:
         - ./Containers/cljdetector:/usr/src/app
-        - qc-volume:/QualitasCorpus
+        - /home/vboxuser/Downloads/QualitasCorpus-20130901r:/QualitasCorpus
     environment:
       DBHOST: dbstorage
       # SOURCEDIRtest: "/usr/src/app/test/data"
