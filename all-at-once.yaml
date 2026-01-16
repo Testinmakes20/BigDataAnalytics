@@ -8,8 +8,8 @@ services:
     ports:
       - 8080:3000
     volumes:
-      - ./Containers/cljdetector:/usr/src/app
-      - qc-volume:/QualitasCorpus/QualitasCorpus-20130901r/Systems/eclipse_SDK/eclipse_SDK-4.3
+        - ./Containers/cljdetector:/usr/src/app
+        - qc-volume:/QualitasCorpus
     environment:
       DBHOST: dbstorage
       # SOURCEDIRtest: "/usr/src/app/test/data"
