@@ -66,5 +66,5 @@ services:
 volumes:
   dbstorage:
   dbconfig:
-  qc-volume:
+  bigdataanalytics_qc-volume:
     external: true
