@@ -1,78 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>BigDataAnalytics Monitor</title>
+    <title>Clone Detector Statistics</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        canvas {
+            max-width: 900px;
+            margin: 30px auto;
+            display: block;
+        }
+    </style>
 </head>
 <body>
-    <h2>Processing Stats Over Time</h2>
-    <canvas id="statsChart" width="1200" height="500"></canvas>
 
-    <script>
-        async function fetchData() {
-            const res = await fetch("/data");
-            return await res.json();
+<h2 align="center">Clone Detector Monitoring</h2>
+
+<canvas id="filesChart"></canvas>
+<canvas id="chunksChart"></canvas>
+<canvas id="candidatesChart"></canvas>
+<canvas id="clonesChart"></canvas>
+
+<script>
+fetch("/data")
+  .then(res => res.json())
+  .then(data => {
+    const labels = data.timestamps.map(t =>
+      new Date(t).toLocaleTimeString()
+    );
+
+    function createChart(canvasId, label, values) {
+      new Chart(document.getElementById(canvasId), {
+        type: "line",
+        data: {
+          labels: labels,
+          datasets: [{
+            label: label,
+            data: values,
+            borderWidth: 2,
+            fill: false
+          }]
+        },
+        options: {
+          responsive: true,
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
         }
+      });
+    }
 
-        async function createChart() {
-            const data = await fetchData();
+    createChart("filesChart", "Files Processed", data.files);
+    createChart("chunksChart", "Chunks Generated", data.chunks);
+    createChart("candidatesChart", "Clone Candidates", data.candidates);
+    createChart("clonesChart", "Confirmed Clones", data.clones);
+  });
+</script>
 
-            const ctx = document.getElementById('statsChart').getContext('2d');
-            new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: data.timestamps,
-                    datasets: [
-                        {
-                            label: 'Files',
-                            data: data.files,
-                            borderColor: 'blue',
-                            fill: false
-                        },
-                        {
-                            label: 'Chunks',
-                            data: data.chunks,
-                            borderColor: 'green',
-                            fill: false
-                        },
-                        {
-                            label: 'Candidates',
-                            data: data.candidates,
-                            borderColor: 'orange',
-                            fill: false
-                        },
-                        {
-                            label: 'Clones',
-                            data: data.clones,
-                            borderColor: 'red',
-                            fill: false
-                        }
-                    ]
-                },
-                options: {
-                    responsive: true,
-                    scales: {
-                        x: {
-                            display: true,
-                            title: {
-                                display: true,
-                                text: 'Timestamp'
-                            }
-                        },
-                        y: {
-                            display: true,
-                            title: {
-                                display: true,
-                                text: 'Count'
-                            }
-                        }
-                    }
-                }
-            });
-        }
-
-        createChart();
-        setInterval(createChart, 5000); // Refresh every 5 seconds
-    </script>
 </body>
 </html>
