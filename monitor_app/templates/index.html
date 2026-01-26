@@ -21,41 +21,65 @@
 <canvas id="clonesChart"></canvas>
 
 <script>
-fetch("/data")
-  .then(res => res.json())
-  .then(data => {
-    const labels = data.timestamps.map(t =>
-      new Date(t).toLocaleTimeString()
-    );
+let charts = {};
 
-    function createChart(canvasId, label, values) {
-      new Chart(document.getElementById(canvasId), {
-        type: "line",
-        data: {
-          labels: labels,
-          datasets: [{
-            label: label,
-            data: values,
-            borderWidth: 2,
-            fill: false
-          }]
-        },
-        options: {
-          responsive: true,
-          scales: {
-            y: {
-              beginAtZero: true
-            }
-          }
+function createChart(canvasId, label) {
+  const ctx = document.getElementById(canvasId).getContext("2d");
+  charts[canvasId] = new Chart(ctx, {
+    type: "line",
+    data: {
+      labels: [],
+      datasets: [{
+        label: label,
+        data: [],
+        borderWidth: 2,
+        fill: false
+      }]
+    },
+    options: {
+      responsive: true,
+      animation: false,
+      scales: {
+        y: {
+          beginAtZero: true
         }
-      });
+      }
     }
-
-    createChart("filesChart", "Files Processed", data.files);
-    createChart("chunksChart", "Chunks Generated", data.chunks);
-    createChart("candidatesChart", "Clone Candidates", data.candidates);
-    createChart("clonesChart", "Confirmed Clones", data.clones);
   });
+}
+
+function updateCharts() {
+  fetch("/data")
+    .then(res => res.json())
+    .then(data => {
+      const labels = data.timestamps.map(t =>
+        new Date(t).toLocaleTimeString()
+      );
+
+      charts.filesChart.data.labels = labels;
+      charts.filesChart.data.datasets[0].data = data.files;
+
+      charts.chunksChart.data.labels = labels;
+      charts.chunksChart.data.datasets[0].data = data.chunks;
+
+      charts.candidatesChart.data.labels = labels;
+      charts.candidatesChart.data.datasets[0].data = data.candidates;
+
+      charts.clonesChart.data.labels = labels;
+      charts.clonesChart.data.datasets[0].data = data.clones;
+
+      Object.values(charts).forEach(chart => chart.update());
+    });
+}
+
+createChart("filesChart", "Files Processed");
+createChart("chunksChart", "Chunks Generated");
+createChart("candidatesChart", "Clone Candidates");
+createChart("clonesChart", "Confirmed Clones");
+
+// Refresh every 5 seconds
+updateCharts();
+setInterval(updateCharts, 5000);
 </script>
 
 </body>
