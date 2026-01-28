@@ -1,26 +1,26 @@
 version: "3.8"
 services:
-clone-detector:
-  build: ./Containers/cljdetector
-  command: >
-    lein with-profile production
-    trampoline run
-  depends_on:
-    - dbstorage
-  ports:
-    - "8080:3000"
-  volumes:
-    - bigdataanalytics_qc-volume:/QualitasCorpus:ro
-  environment:
-    DBHOST: dbstorage
-    SOURCEDIR: "/QualitasCorpus/QualitasCorpus-20130901r/Systems/eclipse_SDK"
-    CHUNKSIZE: 200
-    LEIN_JVM_OPTS: "-Xms4g -Xmx10g -XX:+UseG1GC"
-  deploy:
-    resources:
-      limits:
-        memory: 12g
-        cpus: "4"  
+  clone-detector:
+    build: ./Containers/cljdetector
+    command: >
+       lein with-profile production
+       trampoline run
+    depends_on:
+      - dbstorage
+    ports:
+      - "8080:3000"
+    volumes:
+      - bigdataanalytics_qc-volume:/QualitasCorpus:ro
+    environment:
+      DBHOST: dbstorage
+      SOURCEDIR: "/QualitasCorpus/QualitasCorpus-20130901r/Systems/eclipse_SDK"
+      CHUNKSIZE: 200
+      LEIN_JVM_OPTS: "-Xms4g -Xmx10g -XX:+UseG1GC"
+    deploy:
+      resources:
+        limits:
+          memory: 12g
+          cpus: "4"  
   
   dbstorage:
     image: mongo:4.4
