@@ -55,7 +55,7 @@ HTML = """
 <!doctype html>
 <html>
 <head>
-<title>Clone Detector Monitor</title>
+<title>Clone Detector Monitor CLJ</title>
 <style>
 body { font-family: Arial, sans-serif; margin: 20px; }
 canvas { width: 100%; height: 260px; border: 1px solid #aaa; margin-bottom: 40px; }
