@@ -14,7 +14,7 @@ services:
     environment:
       DBHOST: dbstorage
       SOURCEDIR: "/QualitasCorpus/QualitasCorpus-20130901r/Systems/eclipse_SDK"
-      CHUNKSIZE: 200
+      CHUNKSIZE: 100
       LEIN_JVM_OPTS: "-Xms4g -Xmx10g -XX:+UseG1GC"
     deploy:
       resources:
